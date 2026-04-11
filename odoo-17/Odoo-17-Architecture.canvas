@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"orm-core","type":"text","x":400,"y":200,"width":200,"text":"## ORM Core\nBaseModel\nfields.py\nmodels.py"},
+		{"id":"base-module","type":"file","x":100,"y":400,"width":200,"file":"Modules/base.md"},
+		{"id":"mail-module","type":"file","x":400,"y":400,"width":200,"file":"Modules/mail.md"},
+		{"id":"stock-module","type":"file","x":100,"y":600,"width":200,"file":"Modules/stock.md"},
+		{"id":"sale-module","type":"file","x":400,"y":600,"width":200,"file":"Modules/sale.md"},
+		{"id":"purchase-module","type":"file","x":700,"y":600,"width":200,"file":"Modules/purchase.md"},
+		{"id":"account-module","type":"file","x":700,"y":400,"width":200,"file":"Modules/account.md"},
+		{"id":"product-module","type":"file","x":400,"y":800,"width":200,"file":"Modules/product.md"},
+		{"id":"mrp-module","type":"file","x":100,"y":800,"width":200,"file":"Modules/mrp.md"},
+		{"id":"crm-module","type":"file","x":700,"y":800,"width":200,"file":"Modules/crm.md"},
+		{"id":"patterns","type":"file","x":850,"y":200,"width":200,"file":"Patterns/Inheritance Patterns.md"},
+		{"id":"api-docs","type":"file","x":850,"y":50,"width":200,"file":"Core/API.md"},
+		{"id":"orm-docs","type":"file","x":850,"y":-100,"width":200,"file":"Core/BaseModel.md"},
+		{"id":"sale-stock-link","type":"text","x":250,"y":650,"width":100,"text":"→ creates\nstock.picking"},
+		{"id":"purchase-stock-link","type":"text","x":500,"y":650,"width":100,"text":"→ creates\nstock.picking"},
+		{"id":"stock-account-link","type":"text","x":300,"y":550,"width":100,"text":"→ valuation\n→ account.move"},
+		{"id":"sale-account-link","type":"text","x":550,"y":550,"width":100,"text":"→ creates\naccount.move"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"orm-core","toNode":"base-module","color":"#875A7B","fromSide":"bottom","toSide":"top"},
+		{"id":"e2","fromNode":"orm-core","toNode":"mail-module","color":"#875A7B","fromSide":"bottom","toSide":"top"},
+		{"id":"e3","fromNode":"orm-core","toNode":"stock-module","color":"#875A7B","fromSide":"bottom","toSide":"top"},
+		{"id":"e4","fromNode":"orm-core","toNode":"sale-module","color":"#875A7B","fromSide":"bottom","toSide":"top"},
+		{"id":"e5","fromNode":"orm-core","toNode":"purchase-module","color":"#875A7B","fromSide":"bottom","toSide":"top"},
+		{"id":"e6","fromNode":"orm-core","toNode":"account-module","color":"#875A7B","fromSide":"bottom","toSide":"top"},
+		{"id":"e7","fromNode":"orm-core","toNode":"product-module","color":"#875A7B","fromSide":"bottom","toSide":"top"},
+		{"id":"e8","fromNode":"orm-core","toNode":"mrp-module","color":"#875A7B","fromSide":"bottom","toSide":"top"},
+		{"id":"e9","fromNode":"orm-core","toNode":"crm-module","color":"#875A7B","fromSide":"bottom","toSide":"top"},
+		{"id":"e10","fromNode":"orm-core","toNode":"patterns","color":"#A29BFE","fromSide":"right","toSide":"left"},
+		{"id":"e11","fromNode":"orm-core","toNode":"api-docs","color":"#A29BFE","fromSide":"right","toSide":"left"},
+		{"id":"e12","fromNode":"orm-core","toNode":"orm-docs","color":"#A29BFE","fromSide":"top","toSide":"bottom"},
+		{"id":"e13","fromNode":"sale-module","toNode":"stock-module","color":"#4ECDC4","fromSide":"left","toSide":"right"},
+		{"id":"e14","fromNode":"purchase-module","toNode":"stock-module","color":"#4ECDC4","fromSide":"left","toSide":"right"},
+		{"id":"e15","fromNode":"stock-module","toNode":"account-module","color":"#FF9F43","fromSide":"right","toSide":"left"},
+		{"id":"e16","fromNode":"sale-module","toNode":"account-module","color":"#FF9F43","fromSide":"top","toSide":"bottom"}
+	]
+}

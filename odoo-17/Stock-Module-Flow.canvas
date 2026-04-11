@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"po","type":"text","x":0,"y":0,"width":160,"text":"purchase.order\nconfirmed"},
+		{"id":"rule","type":"text","x":200,"y":0,"width":160,"text":"procurement rule\n(mto/mts)"},
+		{"id":"picking","type":"text","x":400,"y":0,"width":160,"text":"stock.picking\n(IN/receipt)"},
+		{"id":"move","type":"text","x":600,"y":0,"width":160,"text":"stock.move\ncomponents"},
+		{"id":"quant","type":"text","x":800,"y":0,"width":160,"text":"stock.quant\n(inventory)"},
+		{"id":"journal","type":"text","x":800,"y":200,"width":160,"text":"account.move\n(valuation)"},
+		{"id":"s1","type":"text","x":100,"y":-80,"width":80,"text":"state:\ndraft→purchase"},
+		{"id":"s2","type":"text","x":300,"y":-80,"width":80,"text":"rule\nevaluation"},
+		{"id":"s3","type":"text","x":500,"y":-80,"width":80,"text":"button_\nvalidate()"},
+		{"id":"s4","type":"text","x":700,"y":-80,"width":80,"text":"_action_\ndone()"},
+		{"id":"s5","type":"text","x":900,"y":-80,"width":80,"text":"quant\ncreated"}
+	],
+	"edges":[
+		{"id":"f1","fromNode":"po","toNode":"rule","color":"#4ECDC4","fromSide":"right","toSide":"left"},
+		{"id":"f2","fromNode":"rule","toNode":"picking","color":"#4ECDC4","fromSide":"right","toSide":"left"},
+		{"id":"f3","fromNode":"picking","toNode":"move","color":"#4ECDC4","fromSide":"right","toSide":"left"},
+		{"id":"f4","fromNode":"move","toNode":"quant","color":"#4ECDC4","fromSide":"right","toSide":"left"},
+		{"id":"f5","fromNode":"quant","toNode":"journal","color":"#FF9F43","fromSide":"bottom","toSide":"top"}
+	]
+}

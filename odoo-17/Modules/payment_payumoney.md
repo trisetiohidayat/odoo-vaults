@@ -1,0 +1,21 @@
+---
+tags: [odoo, odoo17, module, payment-payumoney]
+---
+
+# Payment: Payumoney
+
+**Source:** `addons/payment_payumoney/models/`
+
+## Overview
+
+[What this module does — complete this stub when you need it]
+
+## Key Models
+
+| Model | Description |
+|-------|-------------|
+| `model.name` | Description |
+
+
+
+- [[Modules/account]] — Payment provider for accounting

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"header","type":"text","x":400,"y":-200,"width":500,"text":"# Odoo 17 Architecture\n\nAll modules inherit from BaseModel (ORM Core)\nDocumentation vault: ~/odoo-vaults/odoo-17/"},
+		{"id":"tier1","type":"text","x":0,"y":0,"width":180,"text":"## Tier 1\nFoundation\nbase, mail\nir_actions"},
+		{"id":"tier2","type":"text","x":220,"y":0,"width":180,"text":"## Tier 2\nCore Business\nsale, purchase\nstock, account\nproduct"},
+		{"id":"tier3","type":"text","x":440,"y":0,"width":180,"text":"## Tier 3\nExtended\ncrm, project\nhr, mrp"},
+		{"id":"tier4","type":"text","x":660,"y":0,"width":180,"text":"## Tier 4+\nEcosystem\nwebsite, payment\ncalendar, etc."}
+	],
+	"edges":[
+		{"id":"te1","fromNode":"header","toNode":"tier1","color":"#875A7B","fromSide":"bottom","toSide":"right"},
+		{"id":"te2","fromNode":"header","toNode":"tier2","color":"#875A7B","fromSide":"bottom","toSide":"top"},
+		{"id":"te3","fromNode":"header","toNode":"tier3","color":"#875A7B","fromSide":"bottom","toSide":"top"},
+		{"id":"te4","fromNode":"header","toNode":"tier4","color":"#875A7B","fromSide":"bottom","toSide":"top"}
+	]
+}

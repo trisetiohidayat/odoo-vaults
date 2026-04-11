@@ -1,0 +1,20 @@
+/* Graph View — Odoo-themed node colors */
+
+.graph-view {
+  --graph-line: #2a2a4a;
+  --graph-bg: #1a1a2e;
+}
+
+/* Node colors based on module tier */
+.graph-view-circle[style*="Modules/stock"] { fill: #4ECDC4 !important; }
+.graph-view-circle[style*="Modules/account"] { fill: #FF9F43 !important; }
+.graph-view-circle[style*="Modules/sale"] { fill: #45B7D1 !important; }
+.graph-view-circle[style*="Modules/purchase"] { fill: #45B7D1 !important; }
+.graph-view-circle[style*="Modules/mrp"] { fill: #DDA0DD !important; }
+.graph-view-circle[style*="Modules/crm"] { fill: #96CEB4 !important; }
+.graph-view-circle[style*="Modules/base"] { fill: #FF6B6B !important; }
+.graph-view-circle[style*="Modules/mail"] { fill: #FF6B6B !important; }
+.graph-view-circle[style*="Core/"] { fill: #FF9F43 !important; }
+.graph-view-circle[style*="Patterns/"] { fill: #A29BFE !important; }
+.graph-view-circle[style*="Tools/"] { fill: #a0a0a0 !important; }
+.graph-view-circle[style*="Snippets/"] { fill: #a0a0a0 !important; }

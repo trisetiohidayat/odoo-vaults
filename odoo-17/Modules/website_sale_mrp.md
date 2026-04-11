@@ -1,0 +1,21 @@
+---
+tags: [odoo, odoo17, module, website-sale-mrp]
+---
+
+# Website Sale Mrp
+
+**Source:** `addons/website_sale_mrp/models/`
+
+## Overview
+
+[What this module does — complete this stub when you need it]
+
+## Key Models
+
+| Model | Description |
+|-------|-------------|
+| `model.name` | Description |
+
+
+
+- [[Modules/website_sale]] — eCommerce extension

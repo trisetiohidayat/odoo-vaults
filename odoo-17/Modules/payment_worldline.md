@@ -1,0 +1,21 @@
+---
+tags: [odoo, odoo17, module, payment-worldline]
+---
+
+# Payment: Worldline
+
+**Source:** `addons/payment_worldline/models/`
+
+## Overview
+
+[What this module does — complete this stub when you need it]
+
+## Key Models
+
+| Model | Description |
+|-------|-------------|
+| `model.name` | Description |
+
+
+
+- [[Modules/account]] — Payment provider for accounting

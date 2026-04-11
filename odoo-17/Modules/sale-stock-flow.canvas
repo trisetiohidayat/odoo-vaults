@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {"id": "quote", "type": "text", "x": 0, "y": 0, "width": 160, "text": "sale.order\nquotation"},
+    {"id": "confirm", "type": "text", "x": 220, "y": 0, "width": 160, "text": "action_\nconfirm()"},
+    {"id": "picking", "type": "text", "x": 440, "y": 0, "width": 160, "text": "stock.picking\n(OUT/delivery)"},
+    {"id": "done", "type": "text", "x": 660, "y": 0, "width": 160, "text": "button_\nvalidate()"},
+    {"id": "invoice", "type": "text", "x": 440, "y": 200, "width": 160, "text": "account.move\n(invoice)"},
+    {"id": "payment", "type": "text", "x": 660, "y": 200, "width": 160, "text": "payment.transaction\n→ account.payment"}
+  ],
+  "edges": [
+    {"id": "s1", "fromNode": "quote", "toNode": "confirm", "color": "#45B7D1"},
+    {"id": "s2", "fromNode": "confirm", "toNode": "picking", "color": "#45B7D1"},
+    {"id": "s3", "fromNode": "picking", "toNode": "done", "color": "#4ECDC4"},
+    {"id": "s4", "fromNode": "confirm", "toNode": "invoice", "color": "#FF9F43"},
+    {"id": "s5", "fromNode": "invoice", "toNode": "payment", "color": "#FF9F43"}
+  ]
+}

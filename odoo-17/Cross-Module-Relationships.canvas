@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"sale","type":"file","x":0,"y":200,"width":160,"file":"Modules/sale.md"},
+		{"id":"purchase","type":"file","x":0,"y":400,"width":160,"file":"Modules/purchase.md"},
+		{"id":"stock","type":"file","x":300,"y":300,"width":160,"file":"Modules/stock.md"},
+		{"id":"account","type":"file","x":600,"y":300,"width":160,"file":"Modules/account.md"},
+		{"id":"product","type":"file","x":300,"y":500,"width":160,"file":"Modules/product.md"},
+		{"id":"mrp","type":"file","x":0,"y":600,"width":160,"file":"Modules/mrp.md"},
+		{"id":"crm","type":"file","x":600,"y":100,"width":160,"file":"Modules/crm.md"},
+		{"id":"project","type":"file","x":600,"y":500,"width":160,"file":"Modules/project.md"},
+		{"id":"base","type":"file","x":300,"y":100,"width":160,"file":"Modules/base.md"}
+	],
+	"edges":[
+		{"id":"r1","fromNode":"sale","toNode":"stock","color":"#4ECDC4","fromSide":"right","toSide":"left"},
+		{"id":"r2","fromNode":"purchase","toNode":"stock","color":"#4ECDC4","fromSide":"right","toSide":"left"},
+		{"id":"r3","fromNode":"stock","toNode":"account","color":"#FF9F43","fromSide":"right","toSide":"left"},
+		{"id":"r4","fromNode":"sale","toNode":"account","color":"#FF9F43","fromSide":"right","toSide":"left"},
+		{"id":"r5","fromNode":"purchase","toNode":"account","color":"#FF9F43","fromSide":"right","toSide":"left"},
+		{"id":"r6","fromNode":"product","toNode":"sale","color":"#45B7D1","fromSide":"top","toSide":"bottom"},
+		{"id":"r7","fromNode":"product","toNode":"purchase","color":"#45B7D1","fromSide":"left","toSide":"right"},
+		{"id":"r8","fromNode":"product","toNode":"stock","color":"#4ECDC4","fromSide":"top","toSide":"bottom"},
+		{"id":"r9","fromNode":"mrp","toNode":"product","color":"#DDA0DD","fromSide":"right","toSide":"left"},
+		{"id":"r10","fromNode":"mrp","toNode":"stock","color":"#4ECDC4","fromSide":"top","toSide":"bottom"},
+		{"id":"r11","fromNode":"crm","toNode":"sale","color":"#96CEB4","fromSide":"left","toSide":"right"},
+		{"id":"r12","fromNode":"base","toNode":"sale","color":"#FF6B6B","fromSide":"left","toSide":"right"},
+		{"id":"r13","fromNode":"base","toNode":"purchase","color":"#FF6B6B","fromSide":"bottom","toSide":"top"},
+		{"id":"r14","fromNode":"base","toNode":"stock","color":"#FF6B6B","fromSide":"bottom","toSide":"top"},
+		{"id":"r15","fromNode":"base","toNode":"account","color":"#FF6B6B","fromSide":"bottom","toSide":"top"},
+		{"id":"r16","fromNode":"project","toNode":"account","color":"#96CEB4","fromSide":"top","toSide":"bottom"}
+	]
+}

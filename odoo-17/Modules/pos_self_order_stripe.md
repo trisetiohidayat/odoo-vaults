@@ -1,0 +1,21 @@
+---
+tags: [odoo, odoo17, module, pos-self-order-stripe]
+---
+
+# Pos Self Order Stripe
+
+**Source:** `addons/pos_self_order_stripe/models/`
+
+## Overview
+
+[What this module does — complete this stub when you need it]
+
+## Key Models
+
+| Model | Description |
+|-------|-------------|
+| `model.name` | Description |
+
+
+
+- [[Modules/point_of_sale]] — POS base module

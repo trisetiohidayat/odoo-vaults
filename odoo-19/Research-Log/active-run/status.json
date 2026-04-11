@@ -1,0 +1,9 @@
+{
+  "is_running": true,
+  "run_id": "run-2026-04-10T235400",
+  "mode": "medium",
+  "time_limit": "60m",
+  "checkpoint_interval": "10m",
+  "target_modules": "all_undocumented",
+  "started_at": "2026-04-10T23:54:00"
+}

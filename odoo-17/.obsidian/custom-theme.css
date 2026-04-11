@@ -1,0 +1,312 @@
+/* ODOO 17 VAULT — DARK THEME ONLY */
+/* This vault is configured for dark mode. DO NOT switch to light theme. */
+/* If vault appears white, go to Settings > Appearance and ensure CSS snippets are enabled. */
+/* Odoo 17 Vault — Custom Dark Theme */
+/* Inspired by Odoo's enterprise dark palette */
+
+:root {
+  /* Odoo Brand Colors */
+  --odoo-blue: #714b67;
+  --odoo-orange: #875A7B;
+  --odoo-purple: #714B67;
+  --odoo-gray: #7C7C7C;
+  --odoo-light-gray: #e8e8e8;
+  --odoo-dark-bg: #1a1a2e;
+  --odoo-sidebar: #16213e;
+  --odoo-hover: #0f3460;
+  --odoo-border: #2a2a4a;
+  --odoo-text: #e0e0e0;
+  --odoo-muted: #a0a0a0;
+
+  /* Tier-based accent colors */
+  --tier1-color: #FF6B6B;   /* Foundation — red */
+  --tier2-color: #4ECDC4;   /* Core Business — teal */
+  --tier3-color: #45B7D1;   /* Extended — blue */
+  --tier4-color: #96CEB4;   /* Ecosystem — green */
+  --tier5-color: #FFEAA7;   /* Integrations — yellow */
+  --tier6-color: #DDA0DD;   /* Advanced — plum */
+  --core-color: #FF9F43;    /* Core docs — orange */
+  --patterns-color: #A29BFE; /* Patterns — lavender */
+}
+
+/* ===== BASE DARK THEME ===== */
+.theme-dark {
+  --background-primary: #1a1a2e;
+  --background-secondary: #16213e;
+  --background-tertiary: #0f3460;
+  --background-modifier-border: #2a2a4a;
+  --text-normal: #e0e0e0;
+  --text-muted: #a0a0a0;
+  --text-faint: #666680;
+  --text-accent: #875A7B;
+  --text-accent-hover: #714B67;
+  --accent-color: #875A7B;
+  --interface-text: #e0e0e0;
+  --link-color: #714B67;
+  --link-color-hover: #714B67;
+  --link-color-unresolved: #FF6B6B;
+  --link-external-color: #714B67;
+  --vim-link: #875A7B;
+}
+
+/* ===== TYPOGRAPHY ===== */
+.theme-dark {
+  --font-family-preview: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-editor: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.markdown-preview-view {
+  font-family: var(--font-family);
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-normal);
+}
+
+.markdown-preview-view h1 {
+  color: #875A7B;
+  border-bottom: 2px solid #714B67;
+  padding-bottom: 8px;
+}
+
+.markdown-preview-view h2 {
+  color: #714B67;
+  border-bottom: 1px solid #2a2a4a;
+  padding-bottom: 4px;
+}
+
+.markdown-preview-view h3 {
+  color: #4ECDC4;
+}
+
+.markdown-preview-view h4 {
+  color: #45B7D1;
+}
+
+/* ===== CODE BLOCKS ===== */
+.markdown-preview-view code,
+.cm-editor {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 13px;
+}
+
+.markdown-preview-view pre {
+  background: #0d1117;
+  border: 1px solid #2a2a4a;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+pre code {
+  color: #e0e0e0;
+}
+
+/* Python code highlighting */
+.language-python .token.keyword { color: #FF79C6; }
+.language-python .token.string { color: #F1FA8C; }
+.language-python .token.function { color: #50FA7B; }
+.language-python .token.builtin { color: #8BE9FD; }
+.language-python .token.comment { color: #6272A4; font-style: italic; }
+.language-python .token.operator { color: #FF79C6; }
+.language-python .token.number { color: #BD93F9; }
+.language-python .token.class-name { color: #50FA7B; }
+.language-python .token.decorator { color: #FFB86C; }
+
+/* ===== TABLES ===== */
+.markdown-preview-view table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+.markdown-preview-view th {
+  background: #16213e;
+  color: #875A7B;
+  font-weight: 600;
+  border: 1px solid #2a2a4a;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.markdown-preview-view td {
+  border: 1px solid #2a2a4a;
+  padding: 6px 12px;
+}
+
+.markdown-preview-view tr:nth-child(even) {
+  background: rgba(22, 33, 62, 0.5);
+}
+
+.markdown-preview-view tr:hover {
+  background: rgba(113, 75, 103, 0.15);
+}
+
+/* ===== BLOCKQUOTES / CALLOUTS ===== */
+.markdown-preview-view blockquote {
+  border-left: 3px solid #875A7B;
+  background: rgba(113, 75, 103, 0.1);
+  padding: 8px 16px;
+  border-radius: 0 4px 4px 0;
+  color: var(--text-muted);
+}
+
+/* ===== FRONTMATTER / YAML ===== */
+.frontmatter {
+  background: #16213e;
+  border-bottom: 1px solid #2a2a4a;
+  font-size: 12px;
+}
+
+.frontmatter .frontmatter-container {
+  color: var(--text-muted);
+}
+
+/* ===== SIDEBAR FILE TREE ===== */
+.nav-files-container {
+  font-size: 13px;
+}
+
+.nav-file-title {
+  color: var(--text-normal);
+}
+
+.nav-file-title:hover {
+  background: var(--odoo-hover);
+}
+
+.nav-folder-title {
+  color: var(--odoo-text);
+  font-weight: 600;
+}
+
+/* ===== HOVER EFFECTS ===== */
+.markdown-preview-view a:hover {
+  color: #875A7B;
+  text-decoration: underline;
+}
+
+button:hover {
+  background: rgba(113, 75, 103, 0.3);
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a2e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a4a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #714B67;
+}
+
+/* ===== SEARCH ===== */
+.workspace-search {
+  background: #16213e;
+}
+
+/* ===== TAGS ===== */
+a.tag {
+  background: rgba(113, 75, 103, 0.3);
+  color: #875A7B;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 2px 8px;
+}
+
+/* Tag colors by module type */
+a.tag[href*="base"],
+a.tag[href*="foundation"] { background: rgba(255, 107, 107, 0.2); color: #FF6B6B; }
+a.tag[href*="stock"],
+a.tag[href*="inventory"] { background: rgba(78, 205, 196, 0.2); color: #4ECDC4; }
+a.tag[href*="account"],
+a.tag[href*="finance"] { background: rgba(255, 159, 67, 0.2); color: #FF9F43; }
+a.tag[href*="sale"],
+a.tag[href*="purchase"] { background: rgba(69, 183, 209, 0.2); color: #45B7D1; }
+a.tag[href*="orm"],
+a.tag[href*="api"] { background: rgba(162, 155, 254, 0.2); color: #A29BFE; }
+
+/* ===== TABS (in document) ===== */
+.markdown-preview-view ul.contains-task-list li.task-list-item.is-checked {
+  color: #4ECDC4;
+}
+
+/* ===== HIGHLIGHT ===== */
+mark, .highlight {
+  background: rgba(255, 159, 67, 0.3);
+  color: inherit;
+}
+
+/* ===== MINIMAL STATUS BAR ===== */
+.status-bar {
+  background: #16213e;
+  border-top: 1px solid #2a2a4a;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* ===== GRAPH VIEW ===== */
+.graph-view {
+  background: #1a1a2e;
+}
+
+/* ===== CALLOUT BLOCKS (Admonitions) ===== */
+.callout {
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+.callout[data-callout="note"] {
+  background: rgba(69, 183, 209, 0.1);
+  border-color: #45B7D1;
+}
+
+.callout[data-callout="warning"] {
+  background: rgba(255, 159, 67, 0.1);
+  border-color: #FF9F43;
+}
+
+.callout[data-callout="danger"],
+.callout[data-callout="bug"] {
+  background: rgba(255, 107, 107, 0.1);
+  border-color: #FF6B6B;
+}
+
+.callout[data-callout="tip"],
+.callout[data-callout="success"] {
+  background: rgba(78, 205, 196, 0.1);
+  border-color: #4ECDC4;
+}
+
+/* ===== SOURCE MODE (LIVE PREVIEW) ===== */
+.cm-editor {
+  background: #1a1a2e;
+}
+
+.cm-editor .cm-content {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.cm-editor .cm-line {
+  padding: 0 4px;
+}
+
+.cm-editor .cm-activeLine {
+  background: rgba(113, 75, 103, 0.15);
+}
+
+.cm-editor .cm-selectionBackground {
+  background: rgba(113, 75, 103, 0.4) !important;
+}
+
+.cm-editor .cm-cursor {
+  border-left-color: #875A7B;
+}

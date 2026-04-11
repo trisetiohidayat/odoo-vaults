@@ -1,0 +1,7 @@
+{
+  "folder": "/templates",
+  "restructure": true,
+  "date-format": "YYYY-MM-DD",
+  "time-format": "HH:mm",
+  "timestamp-format": "YYYY-MM-DD-HHmmss"
+}
