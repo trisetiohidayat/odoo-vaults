@@ -1,0 +1,74 @@
+name: Convert Wikilinks to Markdown Links
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'odoo-*/**'
+
+jobs:
+  convert-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            odoo-*/
+            .github/
+
+      - name: Convert wikilinks in odoo-* folders
+        run: |
+          python << 'EOF'
+          import re
+          import os
+
+          def slugify(text):
+              """Convert text to lowercase dashed slug"""
+              return text.lower().replace(" ", "-")
+
+          def convert_wikilinks(content):
+              # [[Page]] → [Page](page.md)
+              pattern1 = r'\[\[([^\]|]+)\]\]'
+              content = re.sub(pattern1,
+                  lambda m: f'[{m.group(1)}]({slugify(m.group(1))}.md)',
+                  content)
+
+              # [[Page|Display Text]] → [Display Text](page.md)
+              pattern2 = r'\[\[([^\]|]+)\|([^\]]+)\]\]'
+              content = re.sub(pattern2,
+                  lambda m: f'[{m.group(2)}]({slugify(m.group(1))}.md)',
+                  content)
+
+              return content
+
+          converted_count = 0
+          for folder in os.listdir('.'):
+              if not folder.startswith('odoo-'):
+                  continue
+              if not os.path.isdir(folder):
+                  continue
+
+              for root, dirs, files in os.walk(folder):
+                  for file in files:
+                      if not file.endswith('.md'):
+                          continue
+                      path = os.path.join(root, file)
+                      with open(path, 'r', encoding='utf-8') as f:
+                          content = f.read()
+                      converted = convert_wikilinks(content)
+                      if converted != content:
+                          with open(path, 'w', encoding='utf-8') as f:
+                              f.write(converted)
+                          print(f"Converted: {path}")
+                          converted_count += 1
+
+          print(f"Total files converted: {converted_count}")
+          EOF
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: convert wikilinks to markdown links"
+          skip_check: true
