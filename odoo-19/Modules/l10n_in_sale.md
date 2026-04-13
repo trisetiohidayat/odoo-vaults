@@ -41,7 +41,7 @@ Indian GST compliance for sale orders. Handles fiscal position computation based
 **`_prepare_invoice()`** — EXTENDS `sale`. For Indian orders, propagates `l10n_in_reseller_partner_id` to the invoice
 
 ## Related
-- [Modules/l10n_in](odoo-18/Modules/l10n_in.md) — Core Indian accounting
-- [Modules/l10n_in_pos](odoo-18/Modules/l10n_in_pos.md) — Indian POS
-- [Modules/l10n_in_purchase_stock](odoo-18/Modules/l10n_in_purchase_stock.md) — Indian purchase
-- [Modules/Sale](odoo-18/Modules/sale.md) — Base sale order module
+- [Modules/l10n_in](Modules/l10n_in.md) — Core Indian accounting
+- [Modules/l10n_in_pos](Modules/l10n_in_pos.md) — Indian POS
+- [Modules/l10n_in_purchase_stock](Modules/l10n_in_purchase_stock.md) — Indian purchase
+- [Modules/Sale](Modules/sale.md) — Base sale order module

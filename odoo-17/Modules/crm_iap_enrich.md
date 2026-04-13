@@ -104,7 +104,7 @@ Setting this to `'auto'` activates `ir_cron_lead_enrichment`; `'manual'` deactiv
 
 ## See Also
 
-- [Modules/iap](odoo-18/Modules/iap.md) — IAP account and credit framework
-- [Modules/crm](odoo-18/Modules/CRM.md) — CRM lead model
-- [Modules/iap_mail](odoo-17/Modules/iap_mail.md) — notification helpers for IAP operations
-- [Modules/crm_iap_mine](odoo-18/Modules/crm_iap_mine.md) — lead mining / prospecting via IAP
+- [Modules/iap](Modules/iap.md) — IAP account and credit framework
+- [Modules/crm](Modules/CRM.md) — CRM lead model
+- [Modules/iap_mail](Modules/iap_mail.md) — notification helpers for IAP operations
+- [Modules/crm_iap_mine](Modules/crm_iap_mine.md) — lead mining / prospecting via IAP

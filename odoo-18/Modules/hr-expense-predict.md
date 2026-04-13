@@ -3,7 +3,7 @@ Module: hr_expense_predict
 Version: Odoo 18 (Community — not present)
 Type: Core
 Tags: [#hr, #expense, #ai, #ml, #prediction]
-Related: [Modules/hr-recruitment](odoo-18/Modules/hr-recruitment.md)
+Related: [Modules/hr-recruitment](Modules/hr-recruitment.md)
 ---
 
 # hr_expense_predict — AI Expense Prediction

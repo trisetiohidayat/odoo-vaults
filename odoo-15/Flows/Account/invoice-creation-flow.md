@@ -343,10 +343,10 @@ def _check_journal_type(self):
 
 ## Related Flows
 
-- [Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md) — Posting and validation
-- [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) — Payment registration
-- [Flows/Cross-Module/sale-stock-account-flow](odoo-19/Flows/Cross-Module/sale-stock-account-flow.md) — SO → Invoice flow
-- [Modules/Account](odoo-18/Modules/account.md) — Core account models
+- [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Posting and validation
+- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment registration
+- [Flows/Cross-Module/sale-stock-account-flow](Flows/Cross-Module/sale-stock-account-flow.md) — SO → Invoice flow
+- [Modules/Account](Modules/account.md) — Core account models
 
 ---
 

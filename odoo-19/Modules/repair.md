@@ -20,7 +20,7 @@ updated: 2026-04-11
 | **Author** | Odoo S.A. |
 | **Sequence** | 230 |
 
-The Repair module manages after-sale product repairs end-to-end: intake, parts consumption (add/remove/recycle), warranty handling, and repair costing via linked sale quotations. It integrates deeply with [Modules/Stock](odoo-18/Modules/stock.md) (locations, lots, moves, pickings) and [Modules/Sale](odoo-18/Modules/sale.md) (quotations, service tracking). Parts are `stock.move` records with `repair_line_type` rather than a separate `repair.line` model.
+The Repair module manages after-sale product repairs end-to-end: intake, parts consumption (add/remove/recycle), warranty handling, and repair costing via linked sale quotations. It integrates deeply with [Modules/Stock](Modules/stock.md) (locations, lots, moves, pickings) and [Modules/Sale](Modules/sale.md) (quotations, service tracking). Parts are `stock.move` records with `repair_line_type` rather than a separate `repair.line` model.
 
 ---
 
@@ -1019,10 +1019,10 @@ The repair module received significant rework in Odoo 19:
 ---
 
 ## Related Documentation
-- [Modules/Stock](odoo-18/Modules/stock.md) — Locations, moves, lots, picking types, traceability
-- [Modules/sale_stock](odoo-18/Modules/sale_stock.md) — MTO, dropship, sale-stock integration
-- [Modules/sale_management](odoo-18/Modules/sale_management.md) — Sale quotation management
-- [Modules/mrp_repair](odoo-17/Modules/mrp_repair.md) — MRP + Repair integration (phantom BOM, MTO → MO)
+- [Modules/Stock](Modules/stock.md) — Locations, moves, lots, picking types, traceability
+- [Modules/sale_stock](Modules/sale_stock.md) — MTO, dropship, sale-stock integration
+- [Modules/sale_management](Modules/sale_management.md) — Sale quotation management
+- [Modules/mrp_repair](Modules/mrp_repair.md) — MRP + Repair integration (phantom BOM, MTO → MO)
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine design patterns
-- [Core/Fields](odoo-18/Core/Fields.md) — Field types used in repair (Many2one, One2many, Properties)
-- [Core/API](odoo-18/Core/API.md) — @api.depends, @api.onchange, @api.model_create_multi usage in repair
+- [Core/Fields](Core/Fields.md) — Field types used in repair (Many2one, One2many, Properties)
+- [Core/API](Core/API.md) — @api.depends, @api.onchange, @api.model_create_multi usage in repair

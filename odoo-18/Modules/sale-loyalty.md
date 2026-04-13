@@ -3,7 +3,7 @@ Module: sale_loyalty
 Version: Odoo 18
 Type: Extension
 Tags: #odoo #odoo18 #sale #loyalty #coupon #reward #promotion
-Related Modules: [sale_management](odoo-18/Modules/sale_management.md), [sale](odoo-18/Modules/sale.md), [loyalty](odoo-18/Modules/loyalty.md)
+Related Modules: [sale_management](Modules/sale_management.md), [sale](Modules/sale.md), [loyalty](Modules/loyalty.md)
 ---
 
 # sale_loyalty — Loyalty Programs in Sales Orders

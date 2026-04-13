@@ -152,5 +152,5 @@ models.execute_kw(db, uid, password, 'sale.order', 'search_read',
 ---
 
 ## Related Links
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — Full model reference
-- [Core/Fields](odoo-18/Core/Fields.md) — Field types
+- [Core/BaseModel](Core/BaseModel.md) — Full model reference
+- [Core/Fields](Core/Fields.md) — Field types

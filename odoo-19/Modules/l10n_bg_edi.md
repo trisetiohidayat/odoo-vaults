@@ -17,11 +17,11 @@ Bulgarian EDI/e-invoicing compliance is not implemented as a separate module in 
 
 ## Available Module
 
-For Bulgarian accounting, use [Modules/l10n_bg](odoo-18/Modules/l10n_bg.md) which provides:
+For Bulgarian accounting, use [Modules/l10n_bg](Modules/l10n_bg.md) which provides:
 - Bulgarian Chart of Accounts
 - Bulgarian VAT (ДДС) structure
 - Tax reporting data
-- [Modules/l10n_bg_ledger](odoo-18/Modules/l10n_bg_ledger.md) for extended Bulgarian ledger reporting
+- [Modules/l10n_bg_ledger](Modules/l10n_bg_ledger.md) for extended Bulgarian ledger reporting
 
 ## Bulgarian E-Invoicing Background
 
@@ -32,15 +32,15 @@ Bulgaria does not yet have a mandatory B2G/B2B e-invoicing mandate comparable to
 ### EDI Approach
 
 Without a dedicated EDI module, Bulgarian companies can use:
-- [Modules/account_edi_ubl_cii](odoo-18/Modules/account_edi_ubl_cii.md) - Standard UBL/CII format for PEPPOL network
-- PEPPOL network access via [Modules/account_peppol](odoo-17/Modules/account_peppol.md) for B2G compliance
+- [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) - Standard UBL/CII format for PEPPOL network
+- PEPPOL network access via [Modules/account_peppol](Modules/account_peppol.md) for B2G compliance
 - Manual compliance with Bulgarian tax authority requirements
 
 ## Implementation Options
 
 For Bulgarian companies requiring EDI:
 
-1. **PEPPOL Network** (via [Modules/account_peppol](odoo-17/Modules/account_peppol.md)):
+1. **PEPPOL Network** (via [Modules/account_peppol](Modules/account_peppol.md)):
    - Register with a PEPPOL Service Provider (SMP)
    - Send/receive UBL 2.1 invoices via PEPPOL
    - B2G compliance through PEPPOL Access Point
@@ -57,12 +57,12 @@ For Bulgarian companies requiring EDI:
 
 | Module | Status |
 |--------|--------|
-| [Modules/l10n_bg](odoo-18/Modules/l10n_bg.md) | Available - Bulgarian accounting |
-| [Modules/l10n_bg_ledger](odoo-18/Modules/l10n_bg_ledger.md) | Available - Bulgarian ledger |
+| [Modules/l10n_bg](Modules/l10n_bg.md) | Available - Bulgarian accounting |
+| [Modules/l10n_bg_ledger](Modules/l10n_bg_ledger.md) | Available - Bulgarian ledger |
 | `l10n_bg_edi` | **Does not exist** |
 
 ## See Also
 
-- [Modules/l10n_bg](odoo-18/Modules/l10n_bg.md) - Bulgarian accounting
-- [Modules/l10n_bg_ledger](odoo-18/Modules/l10n_bg_ledger.md) - Bulgarian ledger
+- [Modules/l10n_bg](Modules/l10n_bg.md) - Bulgarian accounting
+- [Modules/l10n_bg_ledger](Modules/l10n_bg_ledger.md) - Bulgarian ledger
 - [European Commission - e-invoicing Bulgaria](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Bulgaria)

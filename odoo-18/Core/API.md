@@ -107,5 +107,5 @@ self.invalidate_model(['field_name'])  # invalidate specific fields
 ---
 
 ## Related Links
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — Model foundation
-- [Core/Fields](odoo-18/Core/Fields.md) — Field types
+- [Core/BaseModel](Core/BaseModel.md) — Model foundation
+- [Core/Fields](Core/Fields.md) — Field types

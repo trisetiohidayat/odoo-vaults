@@ -91,6 +91,6 @@ The country module will replace or update the chart of accounts for companies in
 
 ## See Also
 
-- [Modules/account](odoo-18/Modules/account.md) — accounting framework and chart template system
-- [Modules/l10n_us](odoo-18/Modules/l10n_us.md) — US localization example
-- [Modules/l10n_de](odoo-18/Modules/l10n_de.md) — German localization (SKR03/SKR04)
+- [Modules/account](Modules/account.md) — accounting framework and chart template system
+- [Modules/l10n_us](Modules/l10n_us.md) — US localization example
+- [Modules/l10n_de](Modules/l10n_de.md) — German localization (SKR03/SKR04)

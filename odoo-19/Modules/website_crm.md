@@ -616,10 +616,10 @@ The module's version string is `'2.1'`. Version 2.0 likely corresponds to the ad
 
 ## Related
 
-- [Modules/website](odoo-18/Modules/website.md) — Website framework, visitor tracking, page views
-- [Modules/crm](odoo-18/Modules/CRM.md) — CRM base module, lead/opportunity model
-- [Modules/website_hr_recruitment](odoo-18/Modules/website_hr_recruitment.md) — Job applications from website linked to visitors
-- [Modules/utm](odoo-18/Modules/utm.md) — UTM source, medium, campaign tracking
-- [Modules/website_crm_livechat](odoo-18/Modules/website_crm_livechat.md) — Live chat lead capture
-- [Modules/website_crm_partner_assign](odoo-18/Modules/website_crm_partner_assign.md) — Partner geo-localization and lead assignment
-- [Modules/survey_crm](odoo-19/Modules/survey_crm.md) — Survey-generated leads
+- [Modules/website](Modules/website.md) — Website framework, visitor tracking, page views
+- [Modules/crm](Modules/CRM.md) — CRM base module, lead/opportunity model
+- [Modules/website_hr_recruitment](Modules/website_hr_recruitment.md) — Job applications from website linked to visitors
+- [Modules/utm](Modules/utm.md) — UTM source, medium, campaign tracking
+- [Modules/website_crm_livechat](Modules/website_crm_livechat.md) — Live chat lead capture
+- [Modules/website_crm_partner_assign](Modules/website_crm_partner_assign.md) — Partner geo-localization and lead assignment
+- [Modules/survey_crm](Modules/survey_crm.md) — Survey-generated leads

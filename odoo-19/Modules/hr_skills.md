@@ -1639,26 +1639,26 @@ Test: Activities are only created once
 
 ## Related Modules
 
-- [Modules/HR](odoo-18/Modules/hr.md) - Core HR module (dependency)
-- [Modules/Resource](odoo-18/Modules/resource.md) - Resource scheduling
-- [Modules/Mail](odoo-18/Modules/mail.md) - Activity and notification system
-- [Modules/documents](odoo-19/Modules/documents.md) - Document management for certificates
-- [Modules/hr_recruitment](odoo-17/Modules/hr_recruitment.md) - Applicant tracking (skill matching)
-- [Modules/hr_recruitment_skills](odoo-18/Modules/hr_recruitment_skills.md) - Skills assessment for recruitment
-- [Modules/hr_skills](odoo-17/Modules/hr_skills.md) - Skills assessment in events
-- [Modules/hr_skills](odoo-17/Modules/hr_skills.md) - Skills from e-learning (integrates with slides)
-- [Modules/hr_skills](odoo-17/Modules/hr_skills.md) - Skills from surveys/certifications
+- [Modules/HR](Modules/hr.md) - Core HR module (dependency)
+- [Modules/Resource](Modules/resource.md) - Resource scheduling
+- [Modules/Mail](Modules/mail.md) - Activity and notification system
+- [Modules/documents](Modules/documents.md) - Document management for certificates
+- [Modules/hr_recruitment](Modules/hr_recruitment.md) - Applicant tracking (skill matching)
+- [Modules/hr_recruitment_skills](Modules/hr_recruitment_skills.md) - Skills assessment for recruitment
+- [Modules/hr_skills](Modules/hr_skills.md) - Skills assessment in events
+- [Modules/hr_skills](Modules/hr_skills.md) - Skills from e-learning (integrates with slides)
+- [Modules/hr_skills](Modules/hr_skills.md) - Skills from surveys/certifications
 
 ---
 
 ## See Also
 
-- [Core/Fields](odoo-18/Core/Fields.md) - Field types used in skills
-- [Core/API](odoo-18/Core/API.md) - @api.depends, @api.constrains decorators
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) - Model foundation and inheritance
+- [Core/Fields](Core/Fields.md) - Field types used in skills
+- [Core/API](Core/API.md) - @api.depends, @api.constrains decorators
+- [Core/BaseModel](Core/BaseModel.md) - Model foundation and inheritance
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) - Access control implementation
-- [Modules/HR](odoo-18/Modules/hr.md) - Employee model extension
-- [Modules/hr_recruitment](odoo-17/Modules/hr_recruitment.md) - Job position model
+- [Modules/HR](Modules/hr.md) - Employee model extension
+- [Modules/hr_recruitment](Modules/hr_recruitment.md) - Job position model
 
 ---
 

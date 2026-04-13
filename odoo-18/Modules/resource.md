@@ -202,7 +202,7 @@ Added fields:
 ---
 
 ## Related Links
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — ORM foundation
-- [Modules/HR](odoo-18/Modules/hr.md) — HR module
-- [Modules/Project](odoo-18/Modules/project.md) — Project scheduling
-- [Modules/MRP](odoo-18/Modules/mrp.md) — Manufacturing scheduling
+- [Core/BaseModel](Core/BaseModel.md) — ORM foundation
+- [Modules/HR](Modules/hr.md) — HR module
+- [Modules/Project](Modules/project.md) — Project scheduling
+- [Modules/MRP](Modules/mrp.md) — Manufacturing scheduling

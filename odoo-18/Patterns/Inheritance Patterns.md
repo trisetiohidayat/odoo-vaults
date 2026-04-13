@@ -91,5 +91,5 @@ class AccountInvoice(models.Model):
 ---
 
 ## Related Links
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — Model attributes
+- [Core/BaseModel](Core/BaseModel.md) — Model attributes
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machines

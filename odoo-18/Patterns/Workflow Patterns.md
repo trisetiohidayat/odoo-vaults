@@ -91,6 +91,6 @@ draft ──[confirm]──→ sale ──[done]──→ done
 ---
 
 ## Related Links
-- [Modules/Sale](odoo-18/Modules/sale.md) — Sale order state machine
-- [Modules/Stock](odoo-18/Modules/stock.md) — Picking state transitions
-- [Modules/Purchase](odoo-18/Modules/purchase.md) — Purchase order workflow
+- [Modules/Sale](Modules/sale.md) — Sale order state machine
+- [Modules/Stock](Modules/stock.md) — Picking state transitions
+- [Modules/Purchase](Modules/purchase.md) — Purchase order workflow

@@ -828,9 +828,9 @@ This is a single SQL query that fetches all needed columns in one pass, then gro
 
 ## Related Modules
 
-- [Modules/auth_oauth](odoo-18/Modules/auth_oauth.md) — OAuth-based authentication (separate auth provider)
-- [Modules/auth_totp](odoo-18/Modules/auth_totp.md) — Two-factor authentication
-- [Modules/mail](odoo-18/Modules/mail.md) — Email delivery for invitations
-- [Modules/base_setup](odoo-17/Modules/base_setup.md) — Settings UI and template user configuration
-- [Modules/portal](odoo-18/Modules/portal.md) — Portal access management and sharing
-- [Modules/web](odoo-18/Modules/web.md) — Web login controller and session management
+- [Modules/auth_oauth](Modules/auth_oauth.md) — OAuth-based authentication (separate auth provider)
+- [Modules/auth_totp](Modules/auth_totp.md) — Two-factor authentication
+- [Modules/mail](Modules/mail.md) — Email delivery for invitations
+- [Modules/base_setup](Modules/base_setup.md) — Settings UI and template user configuration
+- [Modules/portal](Modules/portal.md) — Portal access management and sharing
+- [Modules/web](Modules/web.md) — Web login controller and session management

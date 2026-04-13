@@ -557,7 +557,7 @@ Record rules on `account.analytic.line` restrict access based on `company_id` an
 
 ## See Also
 
-- [Modules/Account](odoo-18/Modules/account.md) — Invoice and journal entries that carry analytic distribution
-- [Modules/Project](odoo-18/Modules/project.md) — Project cost tracking via analytic accounts
-- [Modules/hr_expense](odoo-18/Modules/hr_expense.md) — Expense reporting with analytic distribution
-- [Core/API](odoo-18/Core/API.md) — @api.depends, computed fields used throughout
+- [Modules/Account](Modules/account.md) — Invoice and journal entries that carry analytic distribution
+- [Modules/Project](Modules/project.md) — Project cost tracking via analytic accounts
+- [Modules/hr_expense](Modules/hr_expense.md) — Expense reporting with analytic distribution
+- [Core/API](Core/API.md) — @api.depends, computed fields used throughout

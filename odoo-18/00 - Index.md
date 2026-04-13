@@ -28,25 +28,25 @@ Knowledge graph untuk codebase **Odoo 18** — memetakan struktur, relasi, dan a
 ## Quick Navigation
 
 ### Core Framework
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — ORM foundation
-- [Core/Fields](odoo-18/Core/Fields.md) — Field types
-- [Core/API](odoo-18/Core/API.md) — Decorators & method chains
+- [Core/BaseModel](Core/BaseModel.md) — ORM foundation
+- [Core/Fields](Core/Fields.md) — Field types
+- [Core/API](Core/API.md) — Decorators & method chains
 - [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — Web controllers
-- [Core/Exceptions](odoo-18/Core/Exceptions.md) — Error handling
+- [Core/Exceptions](Core/Exceptions.md) — Error handling
 
 ### Business Modules
-- [Modules/Sale](odoo-18/Modules/sale.md) — Sales
-- [Modules/Purchase](odoo-18/Modules/purchase.md) — Purchasing
-- [Modules/Stock](odoo-18/Modules/stock.md) — Inventory
-- [Modules/Account](odoo-18/Modules/account.md) — Accounting
-- [Modules/CRM](odoo-18/Modules/CRM.md) — CRM
-- [Modules/MRP](odoo-18/Modules/mrp.md) — Manufacturing
-- [Modules/Product](odoo-18/Modules/product.md) — Products
-- [Modules/HR](odoo-18/Modules/hr.md) — Human Resources
-- [Modules/Project](odoo-18/Modules/project.md) — Project Management
-- [Modules/POS](odoo-19/Modules/pos.md) — Point of Sale
-- [Modules/Helpdesk](odoo-18/Modules/helpdesk.md) — Helpdesk
-- [Modules/res.partner](odoo-19/Modules/res.partner.md) — Partners
+- [Modules/Sale](Modules/sale.md) — Sales
+- [Modules/Purchase](Modules/purchase.md) — Purchasing
+- [Modules/Stock](Modules/stock.md) — Inventory
+- [Modules/Account](Modules/account.md) — Accounting
+- [Modules/CRM](Modules/CRM.md) — CRM
+- [Modules/MRP](Modules/mrp.md) — Manufacturing
+- [Modules/Product](Modules/product.md) — Products
+- [Modules/HR](Modules/hr.md) — Human Resources
+- [Modules/Project](Modules/project.md) — Project Management
+- [Modules/POS](Modules/pos.md) — Point of Sale
+- [Modules/Helpdesk](Modules/helpdesk.md) — Helpdesk
+- [Modules/res.partner](Modules/res.partner.md) — Partners
 
 ---
 
@@ -58,7 +58,7 @@ Knowledge graph untuk codebase **Odoo 18** — memetakan struktur, relasi, dan a
 - [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — search(), browse(), create(), write(), domain operators
 - [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) — Copy-paste code templates
 - [Snippets/Controller Snippets](odoo-18/Snippets/Controller Snippets.md) — HTTP route handlers
-- [Snippets/method-chain-example](odoo-18/Snippets/method-chain-example.md) — Method chain notation reference
+- [Snippets/method-chain-example](Snippets/method-chain-example.md) — Method chain notation reference
 
 ---
 
@@ -82,7 +82,7 @@ Knowledge graph untuk codebase **Odoo 18** — memetakan struktur, relasi, dan a
 | **TOTAL** | **64/606** | **10.5%** |
 
 - [Documentation/Checkpoints/](Documentation/Checkpoints/.md) — Progress tracking
-- [Research-Log/backlog](odoo-18/Research-Log/backlog.md) — Pending gaps
+- [Research-Log/backlog](Research-Log/backlog.md) — Pending gaps
 
 ---
 

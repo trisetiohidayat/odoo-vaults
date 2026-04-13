@@ -14,7 +14,7 @@ The Canadian localization module provides a complete accounting chart, provincia
 Canada (`CA`) — provinces: BC, MB, QC, SK, ON, NB, NL, NS, PE
 
 ## Dependencies
-- [account](odoo-18/Modules/account.md)
+- [account](Modules/account.md)
 - `base_iban`
 
 ## Key Models

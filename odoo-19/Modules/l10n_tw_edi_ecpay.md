@@ -30,8 +30,8 @@ Taiwan's e-invoice system (電子發票) requires businesses to issue e-invoices
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/l10n_tw](odoo-18/Modules/l10n_tw.md) | Base Taiwanese accounting localization |
-| [Modules/base_vat](odoo-17/Modules/base_vat.md) | Business/Uniform Number validation |
+| [Modules/l10n_tw](Modules/l10n_tw.md) | Base Taiwanese accounting localization |
+| [Modules/base_vat](Modules/base_vat.md) | Business/Uniform Number validation |
 
 ## Key Models
 
@@ -118,6 +118,6 @@ Cleans up ECPay-specific data and API configurations when the module is uninstal
 
 ## Related
 
-- [Modules/l10n_tw](odoo-18/Modules/l10n_tw.md) - Base Taiwanese accounting
-- [Modules/l10n_tw_edi_ecpay_website_sale](odoo-19/Modules/l10n_tw_edi_ecpay_website_sale.md) - E-commerce e-invoice bridge
-- [Modules/account_edi](odoo-17/Modules/account_edi.md) - EDI framework
+- [Modules/l10n_tw](Modules/l10n_tw.md) - Base Taiwanese accounting
+- [Modules/l10n_tw_edi_ecpay_website_sale](Modules/l10n_tw_edi_ecpay_website_sale.md) - E-commerce e-invoice bridge
+- [Modules/account_edi](Modules/account_edi.md) - EDI framework

@@ -7,7 +7,7 @@
 - **License**: LGPL-3
 - **Auto-install**: Yes
 
-Adds customer rating capabilities to the [Modules/portal](odoo-18/Modules/portal.md) (customer portal). Integrates ratings directly into the portal's discuss/chatter widget, allowing portal users to see and submit ratings from the customer-facing interface.
+Adds customer rating capabilities to the [Modules/portal](Modules/portal.md) (customer portal). Integrates ratings directly into the portal's discuss/chatter widget, allowing portal users to see and submit ratings from the customer-facing interface.
 
 ## Models
 
@@ -51,6 +51,6 @@ Adds customer rating capabilities to the [Modules/portal](odoo-18/Modules/portal
 
 ## Related
 
-- [Modules/rating](odoo-18/Modules/rating.md) — Core rating framework (rating mixin, parent rating).
-- [Modules/portal](odoo-18/Modules/portal.md) — Portal customer access and chatter.
-- [Modules/mail](odoo-18/Modules/mail.md) — Message/thread system.
+- [Modules/rating](Modules/rating.md) — Core rating framework (rating mixin, parent rating).
+- [Modules/portal](Modules/portal.md) — Portal customer access and chatter.
+- [Modules/mail](Modules/mail.md) — Message/thread system.

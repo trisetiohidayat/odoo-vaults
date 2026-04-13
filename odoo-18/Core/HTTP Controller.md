@@ -94,5 +94,5 @@ def page(self, **kwargs):
 ---
 
 ## Related Links
-- [Core/Exceptions](odoo-18/Core/Exceptions.md) — Error handling
+- [Core/Exceptions](Core/Exceptions.md) — Error handling
 - [Snippets/Controller Snippets](odoo-18/Snippets/Controller Snippets.md) — Copy-paste templates

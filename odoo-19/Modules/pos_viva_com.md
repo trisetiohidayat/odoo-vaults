@@ -17,4 +17,4 @@ Integrates your POS with a Viva.com payment terminal. Enables card payments via 
 - POS frontend + test assets for Viva.com terminal
 
 ## Related
-- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — Base POS module
+- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module

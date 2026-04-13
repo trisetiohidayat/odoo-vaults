@@ -56,6 +56,6 @@ Mirrors the presence fields for public access.
 - Cron-based daily computation
 
 ## Related
-- [Modules/HR](odoo-18/Modules/hr.md) - Core HR module
-- [Modules/hr_holidays](odoo-18/Modules/hr_holidays.md) - Leave tracking
-- [Modules/sms](odoo-18/Modules/sms.md) - SMS sending
+- [Modules/HR](Modules/hr.md) - Core HR module
+- [Modules/hr_holidays](Modules/hr_holidays.md) - Leave tracking
+- [Modules/sms](Modules/sms.md) - SMS sending

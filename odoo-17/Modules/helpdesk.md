@@ -222,8 +222,8 @@ deadline = plan_hours(sla_hours, base_deadline)
 ```
 
 ## See Also
-- [Modules/crm](odoo-18/Modules/CRM.md) — similar lead management and pipeline pattern
-- [Modules/project](odoo-18/Modules/project.md) — task management, stage tracking
-- [Modules/mail](odoo-18/Modules/mail.md) — mail.thread, email integration
-- [Modules/rating](odoo-18/Modules/rating.md) — customer satisfaction ratings
-- [Modules/portal](odoo-18/Modules/portal.md) — customer portal access
+- [Modules/crm](Modules/CRM.md) — similar lead management and pipeline pattern
+- [Modules/project](Modules/project.md) — task management, stage tracking
+- [Modules/mail](Modules/mail.md) — mail.thread, email integration
+- [Modules/rating](Modules/rating.md) — customer satisfaction ratings
+- [Modules/portal](Modules/portal.md) — customer portal access

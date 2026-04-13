@@ -13,7 +13,7 @@ level: 1
 related_flows:
   - "[Flows/other-flow](Flows/other-flow.md)"
 related_guides:
-  - "[Business/Sale/sales-process-guide](odoo-19/Business/Sale/sales-process-guide.md)"
+  - "[Business/Sale/sales-process-guide](Business/Sale/sales-process-guide.md)"
 source_module: module_name
 source_path: ~/odoo/odoo19/odoo/addons/module_name/
 created: YYYY-MM-DD
@@ -242,7 +242,7 @@ def action_confirm(self):
 ## Related
 
 - [Modules/ModuleName](Modules/ModuleName.md) — Module reference
-- [Flows/Sale/sale-to-delivery-flow](odoo-19/Flows/Sale/sale-to-delivery-flow.md) — Related flow
-- [Business/Sale/sales-process-guide](odoo-19/Business/Sale/sales-process-guide.md) — Step-by-step guide
+- [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) — Related flow
+- [Business/Sale/sales-process-guide](Business/Sale/sales-process-guide.md) — Step-by-step guide
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
-- [Core/API](odoo-18/Core/API.md) — @api decorator patterns
+- [Core/API](Core/API.md) — @api decorator patterns

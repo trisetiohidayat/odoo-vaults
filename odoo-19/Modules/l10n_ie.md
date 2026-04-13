@@ -29,4 +29,4 @@ Irish accounting localization with chart of accounts, tax definitions, and speci
 - `_post_load_data()` — EXTENDS `account`. After loading the Irish chart template (`ie`), automatically tags the company's suspense account and transfer account with `l10n_ie_account_tag_cash_bank_hand`
 
 ## Related
-- [Modules/Account](odoo-18/Modules/account.md) — Core accounting
+- [Modules/Account](Modules/account.md) — Core accounting

@@ -15,10 +15,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md)"
-  - "[Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md)"
+  - "[Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md)"
+  - "[Flows/Account/payment-flow](Flows/Account/payment-flow.md)"
 related_guides:
-  - "[Modules/HR](odoo-18/Modules/hr.md)"
+  - "[Modules/HR](Modules/hr.md)"
 source_module: hr_expense
 source_path: ~/odoo/odoo19/odoo/addons/hr_expense/
 created: 2026-04-07
@@ -156,7 +156,7 @@ Expense Created (state = 'draft')
 │                 └─► mail.activity cancelled
 │
 └─► Journal entry posted → state = 'done' (sheet) / 'posted' (move)
-       └─► Payment triggered via [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md)
+       └─► Payment triggered via [Flows/Account/payment-flow](Flows/Account/payment-flow.md)
 ```
 
 ---
@@ -203,7 +203,7 @@ Expense Created (state = 'draft')
 | Amount reserved | `account.analytic.account` | Budget tracking affected |
 | Sheet state change | `hr.expense.sheet` | Batch state transitions |
 | Tax computation | `account.tax` | Tax amounts affect total |
-| Payment triggered | `account.payment` | Employee reimbursement via [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) |
+| Payment triggered | `account.payment` | Employee reimbursement via [Flows/Account/payment-flow](Flows/Account/payment-flow.md) |
 
 ---
 
@@ -332,8 +332,8 @@ def action_move_create(self):
 
 ## Related
 
-- [Modules/HR](odoo-18/Modules/hr.md) — HR module reference
-- [Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md) — Employee setup (payable account, department)
-- [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) — Reimbursement payment after expense approval
-- [Core/API](odoo-18/Core/API.md) — @api.depends, @api.onchange decorator patterns
+- [Modules/HR](Modules/hr.md) — HR module reference
+- [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — Employee setup (payable account, department)
+- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Reimbursement payment after expense approval
+- [Core/API](Core/API.md) — @api.depends, @api.onchange decorator patterns
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern used in hr.expense.sheet

@@ -19,9 +19,9 @@ related_modules:
   - product
   - stock
 see_also:
-  - "[Core/BaseModel](odoo-18/Core/BaseModel.md)"
-  - "[Core/Fields](odoo-18/Core/Fields.md)"
-  - "[Core/API](odoo-18/Core/API.md)"
+  - "[Core/BaseModel](Core/BaseModel.md)"
+  - "[Core/Fields](Core/Fields.md)"
+  - "[Core/API](Core/API.md)"
   - "[Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)"
 ---
 

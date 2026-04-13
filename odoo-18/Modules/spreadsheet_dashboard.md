@@ -149,6 +149,6 @@ Returns the dashboard data for a public share link.
 
 ## See Also
 
-- [Modules/Spreadsheet](odoo-18/Modules/spreadsheet.md) (`spreadsheet`) — Base spreadsheet module
+- [Modules/Spreadsheet](Modules/spreadsheet.md) (`spreadsheet`) — Base spreadsheet module
 - [Modules/Spreadsheet Account](Modules/Spreadsheet-Account.md) (`spreadsheet_account`) — Accounting formula functions
 - [Modules/Spreadsheet Dashboard Account](Modules/Spreadsheet-Dashboard-Account.md) (`spreadsheet_dashboard_account`) — Pre-built accounting dashboard

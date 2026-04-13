@@ -28,7 +28,7 @@ Provides the **Plan Contable Boliviano** (Bolivian Accounting Plan) aligned with
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](odoo-18/Modules/account.md) | Core accounting module |
+| [Modules/Account](Modules/account.md) | Core accounting module |
 
 ## Key Models
 
@@ -77,6 +77,6 @@ Extends `res.company` with Bolivian-specific defaults via chart template.
 - Dotted notation for sub-accounts
 
 ## Related Modules
-- [Modules/l10n_bo](odoo-18/Modules/l10n_bo.md) - Core accounting (this module)
-- [Modules/l10n_latam_base](odoo-18/Modules/l10n_latam_base.md) - Latin America base localization
-- [Modules/l10n_latam_invoice_document](odoo-18/Modules/l10n_latam_invoice_document.md) - LATAM document types
+- [Modules/l10n_bo](Modules/l10n_bo.md) - Core accounting (this module)
+- [Modules/l10n_latam_base](Modules/l10n_latam_base.md) - Latin America base localization
+- [Modules/l10n_latam_invoice_document](Modules/l10n_latam_invoice_document.md) - LATAM document types

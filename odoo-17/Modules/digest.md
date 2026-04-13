@@ -177,6 +177,6 @@ Third-party modules can add KPIs to a digest by:
 
 ## See Also
 
-- [Modules/mail](odoo-18/Modules/mail.md) — email sending infrastructure
-- [Modules/account](odoo-18/Modules/account.md) — financial KPI extensions
-- [Modules/sale](odoo-18/Modules/sale.md) — sales KPI extensions
+- [Modules/mail](Modules/mail.md) — email sending infrastructure
+- [Modules/account](Modules/account.md) — financial KPI extensions
+- [Modules/sale](Modules/sale.md) — sales KPI extensions

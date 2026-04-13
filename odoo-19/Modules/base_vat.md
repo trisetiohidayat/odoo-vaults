@@ -978,8 +978,8 @@ All country validators delegate to `python-stdnum`. Key modules used:
 
 ## Related Documentation
 
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — ORM foundation, `_inherit` patterns
-- [Modules/Account](odoo-18/Modules/account.md) — Fiscal position integration, `account.move` tax computation
-- [Core/Fields](odoo-18/Core/Fields.md) — `tracking=True`, `store=True`, `readonly=False` field attributes
-- [Modules/base_iban](odoo-17/Modules/base_iban.md) — Analogous bank account validation module
+- [Core/BaseModel](Core/BaseModel.md) — ORM foundation, `_inherit` patterns
+- [Modules/Account](Modules/account.md) — Fiscal position integration, `account.move` tax computation
+- [Core/Fields](Core/Fields.md) — `tracking=True`, `store=True`, `readonly=False` field attributes
+- [Modules/base_iban](Modules/base_iban.md) — Analogous bank account validation module
 - [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — `_inherit` vs `_inherits`

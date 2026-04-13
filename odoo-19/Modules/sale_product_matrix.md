@@ -687,7 +687,7 @@ The demo product "My Company T-Shirt" is configured to use matrix mode by defaul
 
 ## See Also
 
-- [Modules/sale](odoo-18/Modules/sale.md) — Base Sale module (sale.order, sale.order.line)
-- [Modules/product_matrix](odoo-18/Modules/product_matrix.md) — Technical matrix module (grid computation, OWL dialog, QWeb templates)
-- [Modules/sale_product_configurator](odoo-17/Modules/sale_product_configurator.md) — Standard product configurator frontend
-- [Modules/purchase_product_matrix](odoo-18/Modules/purchase_product_matrix.md) — Analogous purchase order matrix (no `product_add_mode` gating)
+- [Modules/sale](Modules/sale.md) — Base Sale module (sale.order, sale.order.line)
+- [Modules/product_matrix](Modules/product_matrix.md) — Technical matrix module (grid computation, OWL dialog, QWeb templates)
+- [Modules/sale_product_configurator](Modules/sale_product_configurator.md) — Standard product configurator frontend
+- [Modules/purchase_product_matrix](Modules/purchase_product_matrix.md) — Analogous purchase order matrix (no `product_add_mode` gating)

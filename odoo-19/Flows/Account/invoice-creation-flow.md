@@ -12,12 +12,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md)"
-  - "[Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md)"
-  - "[Flows/Sale/quotation-to-sale-order-flow](odoo-19/Flows/Sale/quotation-to-sale-order-flow.md)"
+  - "[Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md)"
+  - "[Flows/Account/payment-flow](Flows/Account/payment-flow.md)"
+  - "[Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md)"
 related_guides:
-  - "[Business/Account/chart-of-accounts-guide](odoo-19/Business/Account/chart-of-accounts-guide.md)"
-  - "[Business/Sale/sales-process-guide](odoo-19/Business/Sale/sales-process-guide.md)"
+  - "[Business/Account/chart-of-accounts-guide](Business/Account/chart-of-accounts-guide.md)"
+  - "[Business/Sale/sales-process-guide](Business/Sale/sales-process-guide.md)"
 source_module: account
 source_path: ~/odoo/odoo19/odoo/addons/account/
 created: 2026-04-06
@@ -287,9 +287,9 @@ Posted Invoice (out_invoice)
 
 ## Related
 
-- [Modules/Account](odoo-18/Modules/account.md) — Account module reference
-- [Modules/Sale](odoo-18/Modules/sale.md) — Sale module reference (SO invoice creation)
-- [Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md) — Next step: posting the invoice
-- [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) — Payment registration after posting
+- [Modules/Account](Modules/account.md) — Account module reference
+- [Modules/Sale](Modules/sale.md) — Sale module reference (SO invoice creation)
+- [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Next step: posting the invoice
+- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment registration after posting
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
-- [Core/API](odoo-18/Core/API.md) — @api decorator patterns
+- [Core/API](Core/API.md) — @api decorator patterns

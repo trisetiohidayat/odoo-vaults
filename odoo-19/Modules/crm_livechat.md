@@ -67,6 +67,6 @@ Inherits `chatbot.script.step`. Adds lead creation step types.
 - Group: `event.group_event_registration_desk` controls registration_id visibility
 
 ## Related
-- [Modules/crm](odoo-18/Modules/CRM.md) — CRM base
-- [Modules/im_livechat](odoo-17/Modules/im_livechat.md) — Live chat
-- [Modules/crm_mail_plugin](odoo-17/Modules/crm_mail_plugin.md) — CRM email plugin
+- [Modules/crm](Modules/CRM.md) — CRM base
+- [Modules/im_livechat](Modules/im_livechat.md) — Live chat
+- [Modules/crm_mail_plugin](Modules/crm_mail_plugin.md) — CRM email plugin

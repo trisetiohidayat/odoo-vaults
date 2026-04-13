@@ -39,5 +39,5 @@ raise RedirectWarning(
 ```
 
 ## See Also
-- [Core/API](odoo-18/Core/API.md) — @api.constrains
+- [Core/API](Core/API.md) — @api.constrains
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)

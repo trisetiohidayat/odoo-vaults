@@ -14,7 +14,7 @@ The Israel localization module provides a generic Israeli chart of accounts, VAT
 Israel (`IL`)
 
 ## Dependencies
-- [account](odoo-18/Modules/account.md)
+- [account](Modules/account.md)
 
 ## Key Models
 

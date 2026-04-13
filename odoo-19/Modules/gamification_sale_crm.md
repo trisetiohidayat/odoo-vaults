@@ -39,8 +39,8 @@ gamification_sale_crm
 ### Module Philosophy
 
 gamification_sale_crm bridges two worlds:
-1. **[Modules/gamification](odoo-18/Modules/gamification.md)** — provides the goal/challenge/badge engine (scheduled goals, ranking, reporting, rewards)
-2. **[Modules/CRM](odoo-18/Modules/CRM.md) + [Modules/Sale](odoo-18/Modules/sale.md) + [Modules/Account](odoo-18/Modules/account.md)** — provide the source-of-truth business records (leads, orders, invoices)
+1. **[Modules/gamification](Modules/gamification.md)** — provides the goal/challenge/badge engine (scheduled goals, ranking, reporting, rewards)
+2. **[Modules/CRM](Modules/CRM.md) + [Modules/Sale](Modules/sale.md) + [Modules/Account](Modules/account.md)** — provide the source-of-truth business records (leads, orders, invoices)
 
 Without gamification_sale_crm, the gamification framework has no CRM-specific KPIs to score. Without gamification, sale_crm has no motivation layer.
 
@@ -555,10 +555,10 @@ The module's performance impact is dominated by the `account.invoice.report` vie
 
 ## See Also
 
-- [Modules/gamification](odoo-18/Modules/gamification.md) — Base gamification framework (challenges, goals, badges, karma)
-- [Modules/crm](odoo-18/Modules/CRM.md) — `crm.lead` model and pipeline management
-- [Modules/Sale](odoo-18/Modules/sale.md) — `sale.order` confirmation flow
-- [Modules/Account](odoo-18/Modules/account.md) — `account.move` and invoice reporting
-- [Modules/sale_crm](odoo-18/Modules/sale_crm.md) — Links sale orders to CRM leads/opportunities
-- [Modules/gamification](odoo-18/Modules/gamification.md) — HR-specific gamification goals
-- [Modules/gamification](odoo-18/Modules/gamification.md) — Gamification overview module
+- [Modules/gamification](Modules/gamification.md) — Base gamification framework (challenges, goals, badges, karma)
+- [Modules/crm](Modules/CRM.md) — `crm.lead` model and pipeline management
+- [Modules/Sale](Modules/sale.md) — `sale.order` confirmation flow
+- [Modules/Account](Modules/account.md) — `account.move` and invoice reporting
+- [Modules/sale_crm](Modules/sale_crm.md) — Links sale orders to CRM leads/opportunities
+- [Modules/gamification](Modules/gamification.md) — HR-specific gamification goals
+- [Modules/gamification](Modules/gamification.md) — Gamification overview module

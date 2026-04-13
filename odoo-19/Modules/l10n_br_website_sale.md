@@ -22,5 +22,5 @@ Brazilian eCommerce pricing configuration. Auto-enables tax-included pricing dis
 **`create()`** — OVERRIDES `website`. For new websites associated with a Brazilian company, automatically sets `show_line_subtotals_tax_selection` to `'tax_included'` so all prices on the eCommerce site include Brazilian taxes (ICMS, PIS, COFINS, etc.)
 
 ## Related
-- [Modules/l10n_br](odoo-18/Modules/l10n_br.md) — Core Brazilian accounting
-- [Modules/website_sale](odoo-18/Modules/website_sale.md) — Base eCommerce module
+- [Modules/l10n_br](Modules/l10n_br.md) — Core Brazilian accounting
+- [Modules/website_sale](Modules/website_sale.md) — Base eCommerce module

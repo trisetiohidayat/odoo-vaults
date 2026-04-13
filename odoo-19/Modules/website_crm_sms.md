@@ -293,8 +293,8 @@ If the visitor has a `partner_id` but no phone on either the visitor or partner,
 
 ## Related
 
-- [Modules/website_sms](odoo-18/Modules/website_sms.md) — Base SMS on website visitors, provides `action_send_sms()` and SMS composer integration
-- [Modules/website_crm](odoo-18/Modules/website_crm.md) — Website CRM lead capture, provides `lead_ids` on `website.visitor` and visitor/lead synchronization
-- [Modules/CRM](odoo-18/Modules/CRM.md) — CRM lead/opportunity management, provides `_sort_by_confidence_level()` and `crm.lead` model
-- [Modules/sms](odoo-18/Modules/sms.md) — Core SMS sending module, provides `sms.composer` wizard
-- [Modules/website_crm_livechat](odoo-18/Modules/website_crm_livechat.md) — Links livechat sessions to CRM leads
+- [Modules/website_sms](Modules/website_sms.md) — Base SMS on website visitors, provides `action_send_sms()` and SMS composer integration
+- [Modules/website_crm](Modules/website_crm.md) — Website CRM lead capture, provides `lead_ids` on `website.visitor` and visitor/lead synchronization
+- [Modules/CRM](Modules/CRM.md) — CRM lead/opportunity management, provides `_sort_by_confidence_level()` and `crm.lead` model
+- [Modules/sms](Modules/sms.md) — Core SMS sending module, provides `sms.composer` wizard
+- [Modules/website_crm_livechat](Modules/website_crm_livechat.md) — Links livechat sessions to CRM leads

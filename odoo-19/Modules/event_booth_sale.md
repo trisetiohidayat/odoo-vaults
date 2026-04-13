@@ -80,6 +80,6 @@ Allows selecting booth category and specific booths during SO line creation.
 - `_check_if_no_booth_ids()` - Validates at least one booth is selected
 
 ## Related
-- [Modules/event_booth](odoo-17/Modules/event_booth.md) - Booth management base
-- [Modules/event_sale](odoo-17/Modules/event_sale.md) - Event ticket sales
-- [Modules/Sale](odoo-18/Modules/sale.md) - Sale orders
+- [Modules/event_booth](Modules/event_booth.md) - Booth management base
+- [Modules/event_sale](Modules/event_sale.md) - Event ticket sales
+- [Modules/Sale](Modules/sale.md) - Sale orders

@@ -629,9 +629,9 @@ sale_stock
 
 ## Related
 
-- [Modules/Stock](odoo-18/Modules/stock.md)
-- [Modules/Account](odoo-18/Modules/account.md)
-- [Modules/CRM](odoo-18/Modules/CRM.md)
-- [Modules/Payment](odoo-18/Modules/payment.md)
+- [Modules/Stock](Modules/stock.md)
+- [Modules/Account](Modules/account.md)
+- [Modules/CRM](Modules/CRM.md)
+- [Modules/Payment](Modules/payment.md)
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)
 - [Tools/Modules Inventory](odoo-18/Tools/Modules Inventory.md)

@@ -390,8 +390,8 @@ purchase_requisition_sale/
 
 ## Related Modules
 
-- `[Modules/Sale](odoo-18/Modules/sale.md)` — `sale.order`, `sale.order.line`
-- `[Modules/Purchase](odoo-18/Modules/purchase.md)` — `purchase.order`, `purchase.order.line`
-- `[Modules/purchase_requisition](odoo-18/Modules/purchase_requisition.md)` — blanket orders, tender comparison, alternative PO wizard, `purchase.order.group`
+- `[Modules/Sale](Modules/sale.md)` — `sale.order`, `sale.order.line`
+- `[Modules/Purchase](Modules/purchase.md)` — `purchase.order`, `purchase.order.line`
+- `[Modules/purchase_requisition](Modules/purchase_requisition.md)` — blanket orders, tender comparison, alternative PO wizard, `purchase.order.group`
 - `purchase_requisition` — host module: `purchase.requisition.create.alternative` wizard, `purchase.order.group`
 - `sale_purchase` — creates PO from `service_to_purchase` SOL on SO confirmation; defines `sale_line_id`

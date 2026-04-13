@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, base-sparse-field]
 
 
 
-- [Modules/base](odoo-18/Modules/base.md) — Base utility extension
+- [Modules/base](Modules/base.md) — Base utility extension

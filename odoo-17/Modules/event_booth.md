@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, event-booth]
 
 
 
-- [Modules/calendar](odoo-18/Modules/calendar.md) — Event base module
+- [Modules/calendar](Modules/calendar.md) — Event base module

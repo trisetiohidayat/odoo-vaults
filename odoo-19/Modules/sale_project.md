@@ -803,11 +803,11 @@ Removes `ir.embedded.actions` records whose `python_method` is `action_open_proj
 
 ## Related Documentation
 
-- [Modules/Project](odoo-18/Modules/project.md)
-- [Modules/sale_management](odoo-18/Modules/sale_management.md)
-- [Modules/sale_service](odoo-18/Modules/sale_service.md)
-- [Modules/sale_timesheet](odoo-18/Modules/sale_timesheet.md) — Timesheet-linked billing, UDH conversion, SOL→AAL→invoice flow
-- [Modules/hr_timesheet](odoo-18/Modules/hr_timesheet.md) — Timesheet entry model, portal rendering
-- [Core/API](odoo-18/Core/API.md)
+- [Modules/Project](Modules/project.md)
+- [Modules/sale_management](Modules/sale_management.md)
+- [Modules/sale_service](Modules/sale_service.md)
+- [Modules/sale_timesheet](Modules/sale_timesheet.md) — Timesheet-linked billing, UDH conversion, SOL→AAL→invoice flow
+- [Modules/hr_timesheet](Modules/hr_timesheet.md) — Timesheet entry model, portal rendering
+- [Core/API](Core/API.md)
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md)

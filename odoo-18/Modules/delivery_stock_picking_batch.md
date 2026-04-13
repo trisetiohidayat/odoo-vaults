@@ -59,4 +59,4 @@ Extends `stock.picking.type` with carrier grouping and weight limits, and extend
 
 ---
 
-*See also: [Modules/stock_picking_batch](odoo-18/Modules/stock_picking_batch.md), [Modules/delivery](odoo-18/Modules/delivery.md), [Modules/stock](odoo-18/Modules/stock.md)*
+*See also: [Modules/stock_picking_batch](Modules/stock_picking_batch.md), [Modules/delivery](Modules/delivery.md), [Modules/stock](Modules/stock.md)*

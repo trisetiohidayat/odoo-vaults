@@ -616,7 +616,7 @@ dom = expression.normalize_domain(dom)
 ## See Also
 
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — Record rules and ACLs
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — ORM foundation
-- [Core/API](odoo-18/Core/API.md) — @api.depends, @api.onchange
-- [Modules/base](odoo-18/Modules/base.md) — res.users, res.groups
+- [Core/BaseModel](Core/BaseModel.md) — ORM foundation
+- [Core/API](Core/API.md) — @api.depends, @api.onchange
+- [Modules/base](Modules/base.md) — res.users, res.groups
 - [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — search/browse/create/write patterns

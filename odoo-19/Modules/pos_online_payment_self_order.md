@@ -275,6 +275,6 @@ The `pos.order` notification method in Odoo 19 sends a richer payload including 
 
 ## Related
 
-- [Modules/pos_self_order](odoo-18/Modules/pos_self_order.md) — Base self-order module
-- [Modules/pos_online_payment](odoo-18/Modules/pos_online_payment.md) — Base online payment handling
-- [Modules/payment_authorize](odoo-18/Modules/payment_authorize.md) — Authorize.Net payment provider
+- [Modules/pos_self_order](Modules/pos_self_order.md) — Base self-order module
+- [Modules/pos_online_payment](Modules/pos_online_payment.md) — Base online payment handling
+- [Modules/payment_authorize](Modules/payment_authorize.md) — Authorize.Net payment provider

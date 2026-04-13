@@ -531,5 +531,5 @@ Two main pages:
 
 ## Related
 
-- [Modules/mail](odoo-18/Modules/mail.md) - Mail module documentation
-- [Modules/fetchmail](odoo-17/Modules/fetchmail.md) - Email alias configuration
+- [Modules/mail](Modules/mail.md) - Mail module documentation
+- [Modules/fetchmail](Modules/fetchmail.md) - Email alias configuration

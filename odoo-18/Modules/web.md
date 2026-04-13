@@ -307,5 +307,5 @@ class BaseDocumentLayout(models.TransientModel):
 
 ## Related Links
 - [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — HTTP routing reference
-- [Modules/http_routing](odoo-18/Modules/http_routing.md) — Multilingual URL routing
-- [Modules/website](odoo-18/Modules/website.md) — Website builder
+- [Modules/http_routing](Modules/http_routing.md) — Multilingual URL routing
+- [Modules/website](Modules/website.md) — Website builder

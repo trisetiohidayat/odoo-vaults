@@ -272,10 +272,10 @@ def create(self, vals):
 
 ## Related
 
-- [Flows/CRM/lead-conversion-to-opportunity-flow](odoo-19/Flows/CRM/lead-conversion-to-opportunity-flow.md) — Lead → Opportunity conversion
-- [Flows/CRM/lead-assignment-flow](odoo-19/Flows/CRM/lead-assignment-flow.md) — Auto-assignment of unassigned leads
-- [Modules/CRM](odoo-18/Modules/CRM.md) — CRM module reference
-- [Modules/Sale](odoo-18/Modules/sale.md) — Sale order from opportunity
-- [Modules/mail](odoo-18/Modules/mail.md) — Mail and chatter integration
+- [Flows/CRM/lead-conversion-to-opportunity-flow](Flows/CRM/lead-conversion-to-opportunity-flow.md) — Lead → Opportunity conversion
+- [Flows/CRM/lead-assignment-flow](Flows/CRM/lead-assignment-flow.md) — Auto-assignment of unassigned leads
+- [Modules/CRM](Modules/CRM.md) — CRM module reference
+- [Modules/Sale](Modules/sale.md) — Sale order from opportunity
+- [Modules/mail](Modules/mail.md) — Mail and chatter integration
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Pipeline stage patterns
-- [Core/API](odoo-18/Core/API.md) — @api decorator patterns
+- [Core/API](Core/API.md) — @api decorator patterns

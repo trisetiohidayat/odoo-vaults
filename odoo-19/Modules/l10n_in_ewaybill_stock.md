@@ -42,6 +42,6 @@ Creates Indian e-waybill from delivery orders (without requiring a sale invoice)
 E-waybill quantity and item handling.
 
 ## Related
-- [Modules/l10n_in](odoo-18/Modules/l10n_in.md) — Core Indian accounting
-- [Modules/l10n_in_ewaybill](odoo-19/Modules/l10n_in_ewaybill.md) — E-waybill base
-- [Modules/l10n_in_stock](odoo-18/Modules/l10n_in_stock.md) — Indian stock management
+- [Modules/l10n_in](Modules/l10n_in.md) — Core Indian accounting
+- [Modules/l10n_in_ewaybill](Modules/l10n_in_ewaybill.md) — E-waybill base
+- [Modules/l10n_in_stock](Modules/l10n_in_stock.md) — Indian stock management

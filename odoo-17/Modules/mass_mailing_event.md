@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, mass-mailing-event]
 
 
 
-- [Modules/mass_mailing](odoo-18/Modules/mass_mailing.md) — Mass mailing base
+- [Modules/mass_mailing](Modules/mass_mailing.md) — Mass mailing base

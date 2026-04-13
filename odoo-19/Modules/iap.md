@@ -779,9 +779,9 @@ class CrmLead(models.Model):
 
 ## Related
 
-- [Modules/CRM](odoo-18/Modules/CRM.md) — inherits `iap.enrich.api` for lead enrichment
-- [Modules/partner_autocomplete](odoo-18/Modules/partner_autocomplete.md) — uses IAP for company/contact lookup
-- [Modules/snailmail](odoo-18/Modules/snailmail.md) — uses IAP for postal service credits
-- [Core/API](odoo-18/Core/API.md) — `@api.model`, `@api.constrains`, `@api.model_create_multi` patterns
+- [Modules/CRM](Modules/CRM.md) — inherits `iap.enrich.api` for lead enrichment
+- [Modules/partner_autocomplete](Modules/partner_autocomplete.md) — uses IAP for company/contact lookup
+- [Modules/snailmail](Modules/snailmail.md) — uses IAP for postal service credits
+- [Core/API](Core/API.md) — `@api.model`, `@api.constrains`, `@api.model_create_multi` patterns
 - [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — `search()`, `browse()`, `write()` behavior
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL CSV, `ir.rule` design

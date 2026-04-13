@@ -355,9 +355,9 @@ This module has **no security concerns**:
 
 ## Related Documentation
 
-- [Modules/pos_restaurant](odoo-18/Modules/pos_restaurant.md) — Restaurant POS base module
-- [Modules/pos_loyalty](odoo-18/Modules/pos_loyalty.md) — Loyalty program module
-- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — POS base module
+- [Modules/pos_restaurant](Modules/pos_restaurant.md) — Restaurant POS base module
+- [Modules/pos_loyalty](Modules/pos_loyalty.md) — Loyalty program module
+- [Modules/point_of_sale](Modules/point_of_sale.md) — POS base module
 
 ---
 

@@ -38,5 +38,5 @@
 - `data/sms_data.xml` - SMS templates for events (e.g., registration confirmation, reminder)
 
 ## Related
-- [Modules/event](odoo-18/Modules/event.md) - Event management
-- [Modules/sms](odoo-18/Modules/sms.md) - SMS sending
+- [Modules/event](Modules/event.md) - Event management
+- [Modules/sms](Modules/sms.md) - SMS sending

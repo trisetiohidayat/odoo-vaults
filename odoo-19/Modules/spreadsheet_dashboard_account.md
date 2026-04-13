@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) template tailored for accounting and finance teams. The dashboard uses accounting spreadsheet formulas from [Modules/spreadsheet_account](odoo-18/Modules/spreadsheet_account.md) to display live financial data including totals, balances, and period comparisons — all sourced directly from `account.move.line`.
+Provides a pre-configured [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template tailored for accounting and finance teams. The dashboard uses accounting spreadsheet formulas from [Modules/spreadsheet_account](Modules/spreadsheet_account.md) to display live financial data including totals, balances, and period comparisons — all sourced directly from `account.move.line`.
 
 This is a **data-only module**: it contains no Python models, only a `data/dashboards.xml` file that creates a sample dashboard record pre-populated with accounting spreadsheet content.
 
@@ -22,6 +22,6 @@ This is a **data-only module**: it contains no Python models, only a `data/dashb
 - Auto-installs when the Accounting app is active
 
 ## Related
-- [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) — Dashboard framework
-- [Modules/spreadsheet_account](odoo-18/Modules/spreadsheet_account.md) — Accounting formulas
-- [Modules/Account](odoo-18/Modules/account.md) — Accounting base
+- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/spreadsheet_account](Modules/spreadsheet_account.md) — Accounting formulas
+- [Modules/Account](Modules/account.md) — Accounting base

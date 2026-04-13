@@ -93,5 +93,5 @@ Helper methods:
 - `ir_cron.xml`: `_cron_post_upgrade_assign_missing_form_fields` — post-upgrade hook to re-parse PDFs and assign form fields.
 
 ## Related
-- [Modules/sale_management](odoo-18/Modules/sale_management.md) - Sales order templates
-- [Modules/Product](odoo-18/Modules/product.md) - Product documents
+- [Modules/sale_management](Modules/sale_management.md) - Sales order templates
+- [Modules/Product](Modules/product.md) - Product documents

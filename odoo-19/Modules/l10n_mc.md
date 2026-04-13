@@ -14,4 +14,4 @@ Localized accounting for Monaco.
 - **Localization type**: data-only (chart of accounts + taxes)
 
 ## Related
-- [Modules/l10n_fr_account](odoo-18/Modules/l10n_fr_account.md) — Core accounting
+- [Modules/l10n_fr_account](Modules/l10n_fr_account.md) — Core accounting

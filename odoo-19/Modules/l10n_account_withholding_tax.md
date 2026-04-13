@@ -71,5 +71,5 @@ Excludes products from withholding base when configured.
 Per-company withholding account configuration.
 
 ## Related
-- [Modules/Account](odoo-18/Modules/account.md) — Core accounting
-- [Modules/account_tax_python](odoo-18/Modules/account_tax_python.md) — Tax computation in Python
+- [Modules/Account](Modules/account.md) — Core accounting
+- [Modules/account_tax_python](Modules/account_tax_python.md) — Tax computation in Python

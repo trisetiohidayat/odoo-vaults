@@ -1131,11 +1131,11 @@ The `_action_post()` method catches exceptions per live post, ensuring one platf
 
 ## Related Documentation
 
-- [Modules/social_media](odoo-18/Modules/social_media.md) -- `social_facebook` module
-- [Modules/social_media](odoo-18/Modules/social_media.md) -- `social_twitter` module
+- [Modules/social_media](Modules/social_media.md) -- `social_facebook` module
+- [Modules/social_media](Modules/social_media.md) -- `social_twitter` module
 - [Modules/Social/LinkedIn](Modules/Social/LinkedIn.md) -- `social_linkedin` module
-- [Modules/social_media](odoo-18/Modules/social_media.md) -- `social_youtube` module
-- [Modules/social_media](odoo-18/Modules/social_media.md) -- `social_instagram` module
-- [Modules/social_media](odoo-18/Modules/social_media.md) -- Stream post management
-- [Modules/social_media](odoo-18/Modules/social_media.md) -- UTM and analytics integration
-- [Modules/utm](odoo-18/Modules/utm.md) -- UTM framework
+- [Modules/social_media](Modules/social_media.md) -- `social_youtube` module
+- [Modules/social_media](Modules/social_media.md) -- `social_instagram` module
+- [Modules/social_media](Modules/social_media.md) -- Stream post management
+- [Modules/social_media](Modules/social_media.md) -- UTM and analytics integration
+- [Modules/utm](Modules/utm.md) -- UTM framework

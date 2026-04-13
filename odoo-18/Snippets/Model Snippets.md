@@ -113,4 +113,4 @@ def action_cancel(self):
 
 ## Related Links
 - [Snippets/Controller Snippets](odoo-18/Snippets/Controller Snippets.md) — HTTP controllers
-- [Core/API](odoo-18/Core/API.md) — Decorators
+- [Core/API](Core/API.md) — Decorators

@@ -86,8 +86,8 @@ return http.request.make_response(data, headers=[
 
 ## Related
 
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) - Models in controllers
-- [Core/Fields](odoo-18/Core/Fields.md) - Field types
-- [Core/API](odoo-18/Core/API.md) - ORM access
-- [Core/Exceptions](odoo-18/Core/Exceptions.md) - Error handling
-- [Modules/Sale](odoo-18/Modules/sale.md) - Example controller
+- [Core/BaseModel](Core/BaseModel.md) - Models in controllers
+- [Core/Fields](Core/Fields.md) - Field types
+- [Core/API](Core/API.md) - ORM access
+- [Core/Exceptions](Core/Exceptions.md) - Error handling
+- [Modules/Sale](Modules/sale.md) - Example controller

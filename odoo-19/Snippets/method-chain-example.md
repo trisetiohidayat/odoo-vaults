@@ -351,4 +351,4 @@ sale.order.action_confirm()
   └─► mail.mail.send()  ❌ Outside (async via queue)
 ```
 
-See also: [Flows/TEMPLATE-flow](odoo-18/Flows/TEMPLATE-flow.md) for full flow document structure.
+See also: [Flows/TEMPLATE-flow](Flows/TEMPLATE-flow.md) for full flow document structure.

@@ -117,7 +117,7 @@ The `inherit_id` mechanism means the themes automatically appear in the email de
 
 **Structure:** Logo + social icons header → divider → text-image split (hero) → horizontal rule → media list (3 articles with thumbnail + title + excerpt + CTA buttons)
 
-**Note:** This theme is thematically aligned with [Modules/website_blog](odoo-18/Modules/website_blog.md) content.
+**Note:** This theme is thematically aligned with [Modules/website_blog](Modules/website_blog.md) content.
 
 ---
 

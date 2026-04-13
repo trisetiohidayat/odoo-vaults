@@ -109,6 +109,6 @@ For each entry in `payload` (list of `{"company_id": int, "date": str}`), reads 
 
 ## See Also
 
-- [Modules/Spreadsheet](odoo-18/Modules/spreadsheet.md) (`spreadsheet`) — base spreadsheet engine
+- [Modules/Spreadsheet](Modules/spreadsheet.md) (`spreadsheet`) — base spreadsheet engine
 - [Modules/Spreadsheet Dashboard](Modules/Spreadsheet-Dashboard.md) (`spreadsheet_dashboard`) — dashboard container
-- [Modules/Account](odoo-18/Modules/account.md) — accounting data source
+- [Modules/Account](Modules/account.md) — accounting data source

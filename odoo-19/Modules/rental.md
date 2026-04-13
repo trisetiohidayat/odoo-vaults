@@ -21,14 +21,14 @@ version: "1.0"
 ## Quick Access
 
 ### 🔀 Related Flows
-- [Flows/Sale/quotation-to-sale-order-flow](odoo-19/Flows/Sale/quotation-to-sale-order-flow.md) — Rental quotation workflow
-- [Flows/Sale/sale-to-invoice-flow](odoo-19/Flows/Sale/sale-to-invoice-flow.md) — Rental invoicing
-- [Flows/Stock/delivery-flow](odoo-19/Flows/Stock/delivery-flow.md) — Rental product delivery
+- [Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md) — Rental quotation workflow
+- [Flows/Sale/sale-to-invoice-flow](Flows/Sale/sale-to-invoice-flow.md) — Rental invoicing
+- [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) — Rental product delivery
 
 ### 🔗 Related Modules
-- [Modules/Sale](odoo-18/Modules/sale.md) — Rental quotation base
-- [Modules/Stock](odoo-18/Modules/stock.md) — Rental inventory management
-- [Modules/Fleet](odoo-18/Modules/fleet.md) — Vehicle rental tracking
+- [Modules/Sale](Modules/sale.md) — Rental quotation base
+- [Modules/Stock](Modules/stock.md) — Rental inventory management
+- [Modules/Fleet](Modules/fleet.md) — Vehicle rental tracking
 
 ---
 
@@ -130,9 +130,9 @@ Vehicles tracked as rental assets.
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Sale](odoo-18/Modules/sale.md) | Rental order base (sale order extension) |
-| [Modules/Stock](odoo-18/Modules/stock.md) | Rental inventory and pickings |
-| [Modules/Fleet](odoo-18/Modules/fleet.md) | Vehicle rental asset tracking |
+| [Modules/Sale](Modules/sale.md) | Rental order base (sale order extension) |
+| [Modules/Stock](Modules/stock.md) | Rental inventory and pickings |
+| [Modules/Fleet](Modules/fleet.md) | Vehicle rental asset tracking |
 
 ---
 

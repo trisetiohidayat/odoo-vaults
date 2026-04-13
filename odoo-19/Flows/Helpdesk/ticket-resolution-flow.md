@@ -14,9 +14,9 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Helpdesk/ticket-creation-flow](odoo-19/Flows/Helpdesk/ticket-creation-flow.md)"
+  - "[Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md)"
 related_guides:
-  - "[Business/Helpdesk/helpdesk-configuration-guide](odoo-19/Business/Helpdesk/helpdesk-configuration-guide.md)"
+  - "[Business/Helpdesk/helpdesk-configuration-guide](Business/Helpdesk/helpdesk-configuration-guide.md)"
 source_module: helpdesk
 source_path: ~/odoo/odoo19/odoo/addons/helpdesk/
 created: 2026-04-07
@@ -405,8 +405,8 @@ def _is_closing(self, stage_id):
 
 ## Related
 
-- [Modules/Helpdesk](odoo-18/Modules/helpdesk.md) — Module reference
-- [Flows/Helpdesk/ticket-creation-flow](odoo-19/Flows/Helpdesk/ticket-creation-flow.md) — Ticket creation and SLA application
-- [Business/Helpdesk/helpdesk-configuration-guide](odoo-19/Business/Helpdesk/helpdesk-configuration-guide.md) — Configuring stages and rating
+- [Modules/Helpdesk](Modules/helpdesk.md) — Module reference
+- [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) — Ticket creation and SLA application
+- [Business/Helpdesk/helpdesk-configuration-guide](Business/Helpdesk/helpdesk-configuration-guide.md) — Configuring stages and rating
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern reference
-- [Core/API](odoo-18/Core/API.md) — @api.depends, write() override patterns
+- [Core/API](Core/API.md) — @api.depends, write() override patterns

@@ -109,4 +109,4 @@ Simple colored tag model for labeling deals/teams.
 
 ---
 
-*See also: [Modules/CRM](odoo-18/Modules/CRM.md), [Modules/sale](odoo-18/Modules/sale.md), [Modules/sale_management](odoo-18/Modules/sale_management.md)*
+*See also: [Modules/CRM](Modules/CRM.md), [Modules/sale](Modules/sale.md), [Modules/sale_management](Modules/sale_management.md)*

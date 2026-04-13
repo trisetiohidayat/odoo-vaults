@@ -11,13 +11,13 @@ updated: 2026-04-11
 ## Quick Access
 
 ### Flows (Technical — AI & Developer)
-- [Flows/MRP/bom-to-production-flow](odoo-19/Flows/MRP/bom-to-production-flow.md) — BOM to production order
-- [Flows/MRP/production-order-flow](odoo-19/Flows/MRP/production-order-flow.md) — Production execution
-- [Flows/MRP/workorder-execution-flow](odoo-19/Flows/MRP/workorder-execution-flow.md) — Workorder lifecycle
+- [Flows/MRP/bom-to-production-flow](Flows/MRP/bom-to-production-flow.md) — BOM to production order
+- [Flows/MRP/production-order-flow](Flows/MRP/production-order-flow.md) — Production execution
+- [Flows/MRP/workorder-execution-flow](Flows/MRP/workorder-execution-flow.md) — Workorder lifecycle
 
 ### Related Modules
-- [Modules/Stock](odoo-18/Modules/stock.md) — Inventory and materials
-- [Modules/Quality](odoo-18/Modules/quality.md) — Quality checks
+- [Modules/Stock](Modules/stock.md) — Inventory and materials
+- [Modules/Quality](Modules/quality.md) — Quality checks
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns
 
 ---
@@ -1569,15 +1569,15 @@ This enables using the project Gantt view for WO scheduling in complex productio
 
 ## Related Modules
 
-- [Modules/Stock](odoo-18/Modules/stock.md) — Inventory management, stock moves, quants
-- [Modules/Product](odoo-18/Modules/product.md) — Product definitions, variants, UoM
-- [Modules/Resource](odoo-18/Modules/resource.md) — Resource calendar, work center planning
-- [Modules/Purchase](odoo-18/Modules/purchase.md) — Component procurement
-- [Modules/Sale](odoo-18/Modules/sale.md) — Sales orders triggering manufacturing
-- [Modules/Quality](odoo-18/Modules/quality.md) — Quality checks during production
+- [Modules/Stock](Modules/stock.md) — Inventory management, stock moves, quants
+- [Modules/Product](Modules/product.md) — Product definitions, variants, UoM
+- [Modules/Resource](Modules/resource.md) — Resource calendar, work center planning
+- [Modules/Purchase](Modules/purchase.md) — Component procurement
+- [Modules/Sale](Modules/sale.md) — Sales orders triggering manufacturing
+- [Modules/Quality](Modules/quality.md) — Quality checks during production
 
 ---
 
 ## Related
 
-[Modules/Stock](odoo-18/Modules/stock.md), [Modules/Product](odoo-18/Modules/product.md), [Modules/Resource](odoo-18/Modules/resource.md), [Modules/Purchase](odoo-18/Modules/purchase.md), [Modules/Quality](odoo-18/Modules/quality.md), [Modules/MRP](odoo-18/Modules/mrp.md), [Modules/mrp_account](odoo-18/Modules/mrp_account.md), [Modules/mrp_subcontracting](odoo-18/Modules/mrp_subcontracting.md), [Modules/MRP](odoo-18/Modules/mrp.md), [Modules/mrp_repair](odoo-17/Modules/mrp_repair.md)
+[Modules/Stock](Modules/stock.md), [Modules/Product](Modules/product.md), [Modules/Resource](Modules/resource.md), [Modules/Purchase](Modules/purchase.md), [Modules/Quality](Modules/quality.md), [Modules/MRP](Modules/mrp.md), [Modules/mrp_account](Modules/mrp_account.md), [Modules/mrp_subcontracting](Modules/mrp_subcontracting.md), [Modules/MRP](Modules/mrp.md), [Modules/mrp_repair](Modules/mrp_repair.md)

@@ -1094,11 +1094,11 @@ Test cases:
 
 ## Related Documentation
 
-- [Modules/web](odoo-18/Modules/web.md) — Web controller base (`web_home.Home` parent)
-- [Modules/auth_oauth](odoo-18/Modules/auth_oauth.md) — OAuth authentication (also extends `_mfa_type`)
-- [Modules/auth_signup](odoo-18/Modules/auth_signup.md) — User registration
-- [Modules/auth_password_policy](odoo-17/Modules/auth_password_policy.md) — Password strength requirements
-- [Core/API](odoo-18/Core/API.md) — `@check_identity` decorator, identity verification flow
+- [Modules/web](Modules/web.md) — Web controller base (`web_home.Home` parent)
+- [Modules/auth_oauth](Modules/auth_oauth.md) — OAuth authentication (also extends `_mfa_type`)
+- [Modules/auth_signup](Modules/auth_signup.md) — User registration
+- [Modules/auth_password_policy](Modules/auth_password_policy.md) — Password strength requirements
+- [Core/API](Core/API.md) — `@check_identity` decorator, identity verification flow
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ir.rule, ir.model.access.csv, field groups
 
 ---

@@ -3,7 +3,7 @@ Module: website_sale_wishlist
 Version: Odoo 18
 Type: Extension
 Tags: #odoo18, #e-commerce, #wishlist, #website, #session
-Related Modules: [website_sale](Modules/website-sale.md), [product](odoo-18/Modules/product.md), [res_partner](Modules/res-partner.md)
+Related Modules: [website_sale](Modules/website-sale.md), [product](Modules/product.md), [res_partner](Modules/res-partner.md)
 ---
 
 # website_sale_wishlist — Product Wishlist

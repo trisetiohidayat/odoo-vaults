@@ -19,7 +19,7 @@ created: 2026-04-06
 ## Description
 DIN 5008 document layout for purchase orders (requests for quotation and purchase orders).
 
-Extends [Modules/l10n_din5008](odoo-18/Modules/l10n_din5008.md) with purchase-specific QWeb report templates following the DIN 5008 standard.
+Extends [Modules/l10n_din5008](Modules/l10n_din5008.md) with purchase-specific QWeb report templates following the DIN 5008 standard.
 
 ## Dependencies
 | Module | Purpose |
@@ -33,8 +33,8 @@ Extends [Modules/l10n_din5008](odoo-18/Modules/l10n_din5008.md) with purchase-sp
 - Data-only module (no Python models)
 
 ## Related
-- [Modules/l10n_din5008](odoo-18/Modules/l10n_din5008.md) — Base DIN 5008 layout
-- [Modules/l10n_din5008_sale](odoo-18/Modules/l10n_din5008_sale.md) — Sale order layout
-- [Modules/l10n_din5008_repair](odoo-18/Modules/l10n_din5008_repair.md) — Repair order layout
-- [Modules/l10n_din5008_expense](odoo-19/Modules/l10n_din5008_expense.md) — Expense report layout
-- [Modules/l10n_din5008_stock](odoo-18/Modules/l10n_din5008_stock.md) — Stock delivery order layout
+- [Modules/l10n_din5008](Modules/l10n_din5008.md) — Base DIN 5008 layout
+- [Modules/l10n_din5008_sale](Modules/l10n_din5008_sale.md) — Sale order layout
+- [Modules/l10n_din5008_repair](Modules/l10n_din5008_repair.md) — Repair order layout
+- [Modules/l10n_din5008_expense](Modules/l10n_din5008_expense.md) — Expense report layout
+- [Modules/l10n_din5008_stock](Modules/l10n_din5008_stock.md) — Stock delivery order layout

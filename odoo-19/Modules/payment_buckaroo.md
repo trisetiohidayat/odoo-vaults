@@ -258,7 +258,7 @@ The actual outcome is determined by `brq_statuscode` in the POST data, not the U
 
 ## Related
 
-- [Modules/payment](odoo-18/Modules/payment.md) — Base payment module
-- [Modules/payment_aps](odoo-18/Modules/payment_aps.md) — Amazon Payment Services (MENA)
-- [Modules/payment_iyzico](odoo-19/Modules/payment_iyzico.md) — Iyzico (Turkey)
-- [Modules/payment_stripe](odoo-17/Modules/payment_stripe.md) — Stripe
+- [Modules/payment](Modules/payment.md) — Base payment module
+- [Modules/payment_aps](Modules/payment_aps.md) — Amazon Payment Services (MENA)
+- [Modules/payment_iyzico](Modules/payment_iyzico.md) — Iyzico (Turkey)
+- [Modules/payment_stripe](Modules/payment_stripe.md) — Stripe

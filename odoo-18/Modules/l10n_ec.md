@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #ecuador
 # l10n_ec — Ecuadorian Accounting
 
 ## Overview
-Comprehensive Ecuadorian localization. Adds the Ecuadorian chart of accounts (based on Super Intendencia de Companias recommendations), SRI (Servicio de Rentas Internas) taxes and withholdings, fiscal positions, document types, identification types, and local bank list. Maintained by TRESCLOUD. Requires [Modules/l10n_latam_base](odoo-18/Modules/l10n_latam_base.md) and [Modules/l10n_latam_invoice_document](odoo-18/Modules/l10n_latam_invoice_document.md).
+Comprehensive Ecuadorian localization. Adds the Ecuadorian chart of accounts (based on Super Intendencia de Companias recommendations), SRI (Servicio de Rentas Internas) taxes and withholdings, fiscal positions, document types, identification types, and local bank list. Maintained by TRESCLOUD. Requires [Modules/l10n_latam_base](Modules/l10n_latam_base.md) and [Modules/l10n_latam_invoice_document](Modules/l10n_latam_invoice_document.md).
 
 ## Country/Region
 Ecuador (country code: EC)

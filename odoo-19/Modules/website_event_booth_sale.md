@@ -450,12 +450,12 @@ total_price = sum(booth.booth_category_id.price_reduce for booth in event_booths
 
 ## See Also
 
-- [Modules/event_booth](odoo-17/Modules/event_booth.md) — core booth data model (`event.booth`, `event.booth.category`)
-- [Modules/event_booth_sale](odoo-18/Modules/event_booth_sale.md) — pricing and sale order integration for booths
-- [Modules/website_event_booth](odoo-18/Modules/website_event_booth.md) — public booth registration portal (free booths, no payment)
-- [Modules/Sale](odoo-18/Modules/sale.md) — sale order and cart mechanics
-- [Modules/website_sale](odoo-18/Modules/website_sale.md) — website e-commerce integration
-- [Modules/Event](odoo-18/Modules/event.md) — event management base module
+- [Modules/event_booth](Modules/event_booth.md) — core booth data model (`event.booth`, `event.booth.category`)
+- [Modules/event_booth_sale](Modules/event_booth_sale.md) — pricing and sale order integration for booths
+- [Modules/website_event_booth](Modules/website_event_booth.md) — public booth registration portal (free booths, no payment)
+- [Modules/Sale](Modules/sale.md) — sale order and cart mechanics
+- [Modules/website_sale](Modules/website_sale.md) — website e-commerce integration
+- [Modules/Event](Modules/event.md) — event management base module
 
 ---
 

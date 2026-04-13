@@ -452,5 +452,5 @@ class CompanyLDAP(models.Model):
 ## See Also
 
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL and ir.rule
-- [Core/API](odoo-18/Core/API.md) — `@api.model` context and sudo usage
-- [Modules/base_setup](odoo-17/Modules/base_setup.md) — `res.config.settings` pattern
+- [Core/API](Core/API.md) — `@api.model` context and sudo usage
+- [Modules/base_setup](Modules/base_setup.md) — `res.config.settings` pattern

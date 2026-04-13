@@ -140,7 +140,7 @@ Proxies HTTP requests to `https://api.unsplash.com/{path}` using the configured 
 
 ## See Also
 
-- [Modules/web_editor](odoo-18/Modules/web_editor.md) — WYSIWYG editor base
-- [Modules/html_editor](odoo-18/Modules/html_editor.md) — OWL-based HTML editor
-- [Modules/product_images](odoo-18/Modules/product_images.md) — Google Custom Search image fetching
-- [Modules/base_setup](odoo-17/Modules/base_setup.md) — System configuration settings
+- [Modules/web_editor](Modules/web_editor.md) — WYSIWYG editor base
+- [Modules/html_editor](Modules/html_editor.md) — OWL-based HTML editor
+- [Modules/product_images](Modules/product_images.md) — Google Custom Search image fetching
+- [Modules/base_setup](Modules/base_setup.md) — System configuration settings

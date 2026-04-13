@@ -713,7 +713,7 @@ Both modes use `tx.create_date` formatted as date only (not datetime) for cleane
 
 ## Related
 
-- [Modules/website](odoo-18/Modules/website.md)
-- [Modules/payment](odoo-18/Modules/payment.md)
-- [Modules/account_payment](odoo-18/Modules/account_payment.md)
-- [Modules/website_sale](odoo-18/Modules/website_sale.md)
+- [Modules/website](Modules/website.md)
+- [Modules/payment](Modules/payment.md)
+- [Modules/account_payment](Modules/account_payment.md)
+- [Modules/website_sale](Modules/website_sale.md)

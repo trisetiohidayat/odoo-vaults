@@ -364,8 +364,8 @@ Tests in `tests/test_keys_certificates.py` (`@tagged: post_install`):
 
 ## Related
 
-- [Modules/l10n_es_edi_sii](odoo-18/Modules/l10n_es_edi_sii.md) — Spanish SII e-invoicing
-- [Modules/l10n_pl_edi](odoo-19/Modules/l10n_pl_edi.md) — Polish KSeF e-invoicing
-- [Modules/l10n_sa_edi](odoo-18/Modules/l10n_sa_edi.md) — Saudi ZATCA e-invoicing
-- [Modules/account_peppol](odoo-17/Modules/account_peppol.md) — Peppol network participation
+- [Modules/l10n_es_edi_sii](Modules/l10n_es_edi_sii.md) — Spanish SII e-invoicing
+- [Modules/l10n_pl_edi](Modules/l10n_pl_edi.md) — Polish KSeF e-invoicing
+- [Modules/l10n_sa_edi](Modules/l10n_sa_edi.md) — Saudi ZATCA e-invoicing
+- [Modules/account_peppol](Modules/account_peppol.md) — Peppol network participation
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL, ir.rule, field groups

@@ -23,5 +23,5 @@ Extends leave management to distinguish between remote work days and actual time
 - Per-weekday work location fields from `hr_homeworking` are exposed on the public employee model
 
 ## Related
-- [Modules/hr_holidays](odoo-18/Modules/hr_holidays.md) - Leave management
-- [Modules/hr_homeworking](odoo-17/Modules/hr_homeworking.md) - Work location management
+- [Modules/hr_holidays](Modules/hr_holidays.md) - Leave management
+- [Modules/hr_homeworking](Modules/hr_homeworking.md) - Work location management

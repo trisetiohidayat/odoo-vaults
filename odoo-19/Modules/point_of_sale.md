@@ -1222,10 +1222,10 @@ When a session is open, these fields cannot be modified: `module_pos_restaurant`
 
 ## Related Documentation
 
-- [Core/API](odoo-18/Core/API.md) — ORM decorators `@api.model`, `@api.depends`, `@api.constrains`
-- [Modules/Account](odoo-18/Modules/account.md) — `account.move`, fiscal positions, tax computation
-- [Modules/Stock](odoo-18/Modules/stock.md) — `stock.picking`, `stock.move`, `stock.quant` (Anglo-Saxon valuation)
-- [Modules/Product](odoo-18/Modules/product.md) — `product.product`, `product.pricelist`, `uom.uom`
-- [Modules/Sale](odoo-18/Modules/sale.md) — Order workflow, `sale.order` vs `pos.order` comparison
+- [Core/API](Core/API.md) — ORM decorators `@api.model`, `@api.depends`, `@api.constrains`
+- [Modules/Account](Modules/account.md) — `account.move`, fiscal positions, tax computation
+- [Modules/Stock](Modules/stock.md) — `stock.picking`, `stock.move`, `stock.quant` (Anglo-Saxon valuation)
+- [Modules/Product](Modules/product.md) — `product.product`, `product.pricelist`, `uom.uom`
+- [Modules/Sale](Modules/sale.md) — Order workflow, `sale.order` vs `pos.order` comparison
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns (applicable to order/session states)
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL, record rules, ir.rule

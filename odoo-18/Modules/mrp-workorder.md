@@ -3,7 +3,7 @@ Module: mrp
 Version: Odoo 18
 Type: Core
 Tags: #mrp #workorder #workcenter #manufacturing #production #routing #time-tracking
-Related: [Modules/MRP](odoo-18/Modules/mrp.md), [Modules/Stock](odoo-18/Modules/stock.md)
+Related: [Modules/MRP](Modules/mrp.md), [Modules/Stock](Modules/stock.md)
 ---
 
 # mrp — Manufacturing Work Orders

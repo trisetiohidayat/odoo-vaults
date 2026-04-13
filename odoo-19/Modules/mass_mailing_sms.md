@@ -82,6 +82,6 @@ Extends A/B testing with SMS-specific winner selection options.
 Extends mass mailing tracking with SMS-specific endpoints.
 
 ## Related
-- [Modules/mass_mailing](odoo-18/Modules/mass_mailing.md) - Email marketing base
-- [Modules/sms](odoo-18/Modules/sms.md) - SMS sending module
-- [Modules/portal](odoo-18/Modules/portal.md) - Customer portal
+- [Modules/mass_mailing](Modules/mass_mailing.md) - Email marketing base
+- [Modules/sms](Modules/sms.md) - SMS sending module
+- [Modules/portal](Modules/portal.md) - Customer portal

@@ -650,7 +650,7 @@ The send wizard will not let Peppol be checked for invalid partners. The "Custom
 
 ## See Also
 
-- [Modules/account-edi](odoo-18/Modules/account-edi.md) — Core EDI infrastructure (document lifecycle, crons, format registry)
-- [Modules/Account](odoo-18/Modules/account.md) — `account.move` base model
-- [Core/API](odoo-18/Core/API.md) — `@api.depends`, computed fields, constraints
+- [Modules/account-edi](Modules/account-edi.md) — Core EDI infrastructure (document lifecycle, crons, format registry)
+- [Modules/Account](Modules/account.md) — `account.move` base model
+- [Core/API](Core/API.md) — `@api.depends`, computed fields, constraints
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern used throughout

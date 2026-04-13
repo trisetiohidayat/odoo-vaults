@@ -182,6 +182,6 @@ These dates are set at lot/serial number creation and drive the `free_qty` compu
 
 ## Related Documentation
 
-- [Modules/Stock](odoo-18/Modules/stock.md) -- Stock quants, lots, and expiration tracking
-- [Modules/Sale](odoo-18/Modules/sale.md) -- Sale order and stock integration
-- [Modules/Product](odoo-18/Modules/product.md) -- Product expiration settings
+- [Modules/Stock](Modules/stock.md) -- Stock quants, lots, and expiration tracking
+- [Modules/Sale](Modules/sale.md) -- Sale order and stock integration
+- [Modules/Product](Modules/product.md) -- Product expiration settings

@@ -27,7 +27,7 @@ Inherits `account.chart.template`. Template prefix: `'ci'`. Provides `_get_ci_sy
 - `demo/demo_company.xml` — Ivory Coast demo company
 
 ## Chart of Accounts
-SYSCOHADA. See [Modules/l10n_bf](odoo-18/Modules/l10n_bf.md).
+SYSCOHADA. See [Modules/l10n_bf](Modules/l10n_bf.md).
 
 ## Tax Structure
 TVA at 18% standard rate. IS (Impôt sur les Bénéfices). Ivory Coast is one of the largest economies in the WAEMU zone and a hub for OHADA compliance.

@@ -10,7 +10,7 @@ prerequisites:
 estimated_time: "~5 minutes"
 related_guides:
   - "[Tools/Modules Inventory](odoo-18/Tools/Modules Inventory.md)"
-  - "[Documentation/Upgrade-Plan/CHECKPOINT-master](odoo-19/Documentation/Upgrade-Plan/CHECKPOINT-master.md)"
+  - "[Documentation/Upgrade-Plan/CHECKPOINT-master](Documentation/Upgrade-Plan/CHECKPOINT-master.md)"
 created: 2026-04-07
 updated: 2026-04-07
 version: "1.0"
@@ -48,14 +48,14 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `hr` |
-| **Documentation** | [Modules/HR](odoo-18/Modules/hr.md) |
+| **Documentation** | [Modules/HR](Modules/hr.md) |
 | **What it does** | Employee records, departments, contracts, org chart |
-| **Key Flows** | [Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md) |
-| **Key Sub-Modules** | [Modules/hr_holidays](odoo-18/Modules/hr_holidays.md) — Leave management |
-| | [Modules/hr_attendance](odoo-18/Modules/hr_attendance.md) — Attendance & check-in |
-| | [Modules/hr_expense](odoo-18/Modules/hr_expense.md) — Expense claims |
-| | [Modules/hr_recruitment](odoo-17/Modules/hr_recruitment.md) — Applicant tracking |
-| | [Modules/hr_fleet](odoo-17/Modules/hr_fleet.md) — Company vehicle fleet |
+| **Key Flows** | [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) |
+| **Key Sub-Modules** | [Modules/hr_holidays](Modules/hr_holidays.md) — Leave management |
+| | [Modules/hr_attendance](Modules/hr_attendance.md) — Attendance & check-in |
+| | [Modules/hr_expense](Modules/hr_expense.md) — Expense claims |
+| | [Modules/hr_recruitment](Modules/hr_recruitment.md) — Applicant tracking |
+| | [Modules/hr_fleet](Modules/hr_fleet.md) — Company vehicle fleet |
 
 ---
 
@@ -64,17 +64,17 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `sale` |
-| **Documentation** | [Modules/Sale](odoo-18/Modules/sale.md) |
+| **Documentation** | [Modules/Sale](Modules/sale.md) |
 | **What it does** | Quotation → Sales Order → Invoice |
-| **Key Flows** | [Flows/Sale/quotation-to-sale-order-flow](odoo-19/Flows/Sale/quotation-to-sale-order-flow.md) |
-| | [Flows/Sale/sale-to-delivery-flow](odoo-19/Flows/Sale/sale-to-delivery-flow.md) |
-| | [Flows/Sale/sale-to-invoice-flow](odoo-19/Flows/Sale/sale-to-invoice-flow.md) |
-| | [Flows/Cross-Module/sale-stock-account-flow](odoo-19/Flows/Cross-Module/sale-stock-account-flow.md) |
-| **Key Sub-Modules** | [Modules/sale_management](odoo-18/Modules/sale_management.md) — Sales management |
-| | [Modules/sale_timesheet](odoo-18/Modules/sale_timesheet.md) — Time & material invoicing |
-| | [Modules/sale_loyalty](odoo-18/Modules/sale_loyalty.md) — Loyalty & coupons |
-| | [Modules/sale_margin](odoo-18/Modules/sale_margin.md) — Margin analysis |
-| | [Modules/sale_project](odoo-18/Modules/sale_project.md) — Project invoicing |
+| **Key Flows** | [Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md) |
+| | [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) |
+| | [Flows/Sale/sale-to-invoice-flow](Flows/Sale/sale-to-invoice-flow.md) |
+| | [Flows/Cross-Module/sale-stock-account-flow](Flows/Cross-Module/sale-stock-account-flow.md) |
+| **Key Sub-Modules** | [Modules/sale_management](Modules/sale_management.md) — Sales management |
+| | [Modules/sale_timesheet](Modules/sale_timesheet.md) — Time & material invoicing |
+| | [Modules/sale_loyalty](Modules/sale_loyalty.md) — Loyalty & coupons |
+| | [Modules/sale_margin](Modules/sale_margin.md) — Margin analysis |
+| | [Modules/sale_project](Modules/sale_project.md) — Project invoicing |
 
 ---
 
@@ -83,16 +83,16 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `stock` |
-| **Documentation** | [Modules/Stock](odoo-18/Modules/stock.md) |
+| **Documentation** | [Modules/Stock](Modules/stock.md) |
 | **What it does** | Warehouse, transfers, quants, lots |
-| **Key Flows** | [Flows/Stock/receipt-flow](odoo-17/Flows/Stock/receipt-flow.md) |
-| | [Flows/Stock/delivery-flow](odoo-19/Flows/Stock/delivery-flow.md) |
-| | [Flows/Stock/internal-transfer-flow](odoo-19/Flows/Stock/internal-transfer-flow.md) |
-| | [Flows/Cross-Module/sale-stock-account-flow](odoo-19/Flows/Cross-Module/sale-stock-account-flow.md) |
-| **Key Sub-Modules** | [Modules/stock_account](odoo-18/Modules/stock_account.md) — Inventory valuation |
-| | [Modules/stock_delivery](odoo-18/Modules/stock_delivery.md) — Shipping integration |
-| | [Modules/stock_landed_costs](odoo-18/Modules/stock_landed_costs.md) — Landed cost allocation |
-| | [Modules/stock_picking_batch](odoo-18/Modules/stock_picking_batch.md) — Batch picking |
+| **Key Flows** | [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) |
+| | [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) |
+| | [Flows/Stock/internal-transfer-flow](Flows/Stock/internal-transfer-flow.md) |
+| | [Flows/Cross-Module/sale-stock-account-flow](Flows/Cross-Module/sale-stock-account-flow.md) |
+| **Key Sub-Modules** | [Modules/stock_account](Modules/stock_account.md) — Inventory valuation |
+| | [Modules/stock_delivery](Modules/stock_delivery.md) — Shipping integration |
+| | [Modules/stock_landed_costs](Modules/stock_landed_costs.md) — Landed cost allocation |
+| | [Modules/stock_picking_batch](Modules/stock_picking_batch.md) — Batch picking |
 
 ---
 
@@ -101,14 +101,14 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `purchase` |
-| **Documentation** | [Modules/Purchase](odoo-18/Modules/purchase.md) |
+| **Documentation** | [Modules/Purchase](Modules/purchase.md) |
 | **What it does** | RFQ → Purchase Order → Receipt → Vendor Bill |
-| **Key Flows** | [Flows/Purchase/purchase-order-creation-flow](odoo-19/Flows/Purchase/purchase-order-creation-flow.md) |
-| | [Flows/Purchase/purchase-order-receipt-flow](odoo-19/Flows/Purchase/purchase-order-receipt-flow.md) |
-| | [Flows/Purchase/purchase-to-bill-flow](odoo-19/Flows/Purchase/purchase-to-bill-flow.md) |
-| | [Flows/Cross-Module/purchase-stock-account-flow](odoo-19/Flows/Cross-Module/purchase-stock-account-flow.md) |
-| **Key Sub-Modules** | [Modules/purchase_stock](odoo-18/Modules/purchase_stock.md) — PO→Receipt integration |
-| | [Modules/purchase_requisition](odoo-18/Modules/purchase_requisition.md) — Purchase framework agreements |
+| **Key Flows** | [Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md) |
+| | [Flows/Purchase/purchase-order-receipt-flow](Flows/Purchase/purchase-order-receipt-flow.md) |
+| | [Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md) |
+| | [Flows/Cross-Module/purchase-stock-account-flow](Flows/Cross-Module/purchase-stock-account-flow.md) |
+| **Key Sub-Modules** | [Modules/purchase_stock](Modules/purchase_stock.md) — PO→Receipt integration |
+| | [Modules/purchase_requisition](Modules/purchase_requisition.md) — Purchase framework agreements |
 
 ---
 
@@ -117,15 +117,15 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `account` |
-| **Documentation** | [Modules/Account](odoo-18/Modules/account.md) |
+| **Documentation** | [Modules/Account](Modules/account.md) |
 | **What it does** | Invoices, journals, payments, tax, reconciliation |
-| **Key Flows** | [Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md) |
-| | [Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md) |
-| | [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) |
-| **Key Sub-Modules** | [Modules/account_payment](odoo-18/Modules/account_payment.md) — Payment processing |
-| | [Modules/account_fleet](odoo-17/Modules/account_fleet.md) — Fleet accounting |
-| | [Modules/account_peppol](odoo-17/Modules/account_peppol.md) — Peppol EDI |
-| | [Modules/account_edi](odoo-17/Modules/account_edi.md) — EDI framework |
+| **Key Flows** | [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) |
+| | [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) |
+| | [Flows/Account/payment-flow](Flows/Account/payment-flow.md) |
+| **Key Sub-Modules** | [Modules/account_payment](Modules/account_payment.md) — Payment processing |
+| | [Modules/account_fleet](Modules/account_fleet.md) — Fleet accounting |
+| | [Modules/account_peppol](Modules/account_peppol.md) — Peppol EDI |
+| | [Modules/account_edi](Modules/account_edi.md) — EDI framework |
 
 ---
 
@@ -138,11 +138,11 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `crm` |
-| **Documentation** | [Modules/CRM](odoo-18/Modules/CRM.md) |
+| **Documentation** | [Modules/CRM](Modules/CRM.md) |
 | **What it does** | Lead/opportunity pipeline, sales forecasting |
-| **Key Sub-Modules** | [Modules/crm_iap_enrich](odoo-17/Modules/crm_iap_enrich.md) — Lead data enrichment |
-| | [Modules/crm_sms](odoo-17/Modules/crm_sms.md) — SMS integration |
-| **Related Flow** | [Flows/Cross-Module/sale-stock-account-flow](odoo-19/Flows/Cross-Module/sale-stock-account-flow.md) (leads to SO) |
+| **Key Sub-Modules** | [Modules/crm_iap_enrich](Modules/crm_iap_enrich.md) — Lead data enrichment |
+| | [Modules/crm_sms](Modules/crm_sms.md) — SMS integration |
+| **Related Flow** | [Flows/Cross-Module/sale-stock-account-flow](Flows/Cross-Module/sale-stock-account-flow.md) (leads to SO) |
 
 ---
 
@@ -151,12 +151,12 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `mrp` |
-| **Documentation** | [Modules/MRP](odoo-18/Modules/mrp.md) |
+| **Documentation** | [Modules/MRP](Modules/mrp.md) |
 | **What it does** | Work orders, BOMs, production planning |
-| **Key Sub-Modules** | [Modules/mrp_account](odoo-18/Modules/mrp_account.md) — Manufacturing costing |
-| | [Modules/mrp_repair](odoo-17/Modules/mrp_repair.md) — Repair orders |
-| | [Modules/mrp_subcontracting](odoo-18/Modules/mrp_subcontracting.md) — Subcontracting flows |
-| **Related Flow** | [Flows/Cross-Module/sale-stock-account-flow](odoo-19/Flows/Cross-Module/sale-stock-account-flow.md) (production→delivery) |
+| **Key Sub-Modules** | [Modules/mrp_account](Modules/mrp_account.md) — Manufacturing costing |
+| | [Modules/mrp_repair](Modules/mrp_repair.md) — Repair orders |
+| | [Modules/mrp_subcontracting](Modules/mrp_subcontracting.md) — Subcontracting flows |
+| **Related Flow** | [Flows/Cross-Module/sale-stock-account-flow](Flows/Cross-Module/sale-stock-account-flow.md) (production→delivery) |
 
 ---
 
@@ -165,13 +165,13 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `project` |
-| **Documentation** | [Modules/Project](odoo-18/Modules/project.md) |
+| **Documentation** | [Modules/Project](Modules/project.md) |
 | **What it does** | Project management, tasks, timesheets |
-| **Key Sub-Modules** | [Modules/project_account](odoo-18/Modules/project_account.md) — Project billing |
-| | [Modules/project_hr_expense](odoo-18/Modules/project_hr_expense.md) — Project expense tracking |
-| | [Modules/project_mrp](odoo-18/Modules/project_mrp.md) — Manufacturing projects |
-| | [Modules/project_todo](odoo-18/Modules/project_todo.md) — Task management |
-| **Related Flow** | [Flows/Sale/sale-to-invoice-flow](odoo-19/Flows/Sale/sale-to-invoice-flow.md) (time→invoice via sale_timesheet) |
+| **Key Sub-Modules** | [Modules/project_account](Modules/project_account.md) — Project billing |
+| | [Modules/project_hr_expense](Modules/project_hr_expense.md) — Project expense tracking |
+| | [Modules/project_mrp](Modules/project_mrp.md) — Manufacturing projects |
+| | [Modules/project_todo](Modules/project_todo.md) — Task management |
+| **Related Flow** | [Flows/Sale/sale-to-invoice-flow](Flows/Sale/sale-to-invoice-flow.md) (time→invoice via sale_timesheet) |
 
 ---
 
@@ -180,14 +180,14 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `point_of_sale` |
-| **Documentation** | [Modules/POS](odoo-19/Modules/pos.md) |
+| **Documentation** | [Modules/POS](Modules/pos.md) |
 | **What it does** | Retail POS, sessions, orders, cash management |
-| **Key Sub-Modules** | [Modules/pos_restaurant](odoo-18/Modules/pos_restaurant.md) — Restaurant POS |
-| | [Modules/pos_self_order](odoo-18/Modules/pos_self_order.md) — Self-order kiosk |
-| | [Modules/pos_loyalty](odoo-18/Modules/pos_loyalty.md) — POS loyalty program |
-| | [Modules/pos_sale](odoo-18/Modules/pos_sale.md) — POS linked to Sale orders |
-| | [Modules/pos_adyen](odoo-17/Modules/pos_adyen.md) — Adyen payment terminal |
-| | [Modules/pos_stripe](odoo-18/Modules/pos_stripe.md) — Stripe payment terminal |
+| **Key Sub-Modules** | [Modules/pos_restaurant](Modules/pos_restaurant.md) — Restaurant POS |
+| | [Modules/pos_self_order](Modules/pos_self_order.md) — Self-order kiosk |
+| | [Modules/pos_loyalty](Modules/pos_loyalty.md) — POS loyalty program |
+| | [Modules/pos_sale](Modules/pos_sale.md) — POS linked to Sale orders |
+| | [Modules/pos_adyen](Modules/pos_adyen.md) — Adyen payment terminal |
+| | [Modules/pos_stripe](Modules/pos_stripe.md) — Stripe payment terminal |
 
 ---
 
@@ -196,10 +196,10 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `helpdesk` |
-| **Documentation** | [Modules/helpdesk](odoo-18/Modules/helpdesk.md) |
+| **Documentation** | [Modules/helpdesk](Modules/helpdesk.md) |
 | **What it does** | Customer tickets, SLA management, team routing |
-| **Related Modules** | [Modules/mail](odoo-18/Modules/mail.md) — Ticket notifications |
-| | [Modules/portal](odoo-18/Modules/portal.md) — Customer portal tickets |
+| **Related Modules** | [Modules/mail](Modules/mail.md) — Ticket notifications |
+| | [Modules/portal](Modules/portal.md) — Customer portal tickets |
 
 ---
 
@@ -212,11 +212,11 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `product` |
-| **Documentation** | [Modules/Product](odoo-18/Modules/product.md) |
+| **Documentation** | [Modules/Product](Modules/product.md) |
 | **What it does** | Product templates, variants, pricelists, routes |
-| **Key Sub-Modules** | [Modules/product_margin](odoo-18/Modules/product_margin.md) — Margin analysis |
-| | [Modules/product_expiry](odoo-18/Modules/product_expiry.md) — Lot expiry tracking |
-| | [Modules/product_matrix](odoo-18/Modules/product_matrix.md) — Grid product configurator |
+| **Key Sub-Modules** | [Modules/product_margin](Modules/product_margin.md) — Margin analysis |
+| | [Modules/product_expiry](Modules/product_expiry.md) — Lot expiry tracking |
+| | [Modules/product_matrix](Modules/product_matrix.md) — Grid product configurator |
 
 ---
 
@@ -225,10 +225,10 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `quality` |
-| **Documentation** | [Modules/quality](odoo-18/Modules/quality.md) |
+| **Documentation** | [Modules/quality](Modules/quality.md) |
 | **What it does** | Quality checks, control points, alerts |
-| **Related Modules** | [Modules/stock](odoo-18/Modules/stock.md) — QC on receipts |
-| | [Modules/mrp](odoo-18/Modules/mrp.md) — QC on production |
+| **Related Modules** | [Modules/stock](Modules/stock.md) — QC on receipts |
+| | [Modules/mrp](Modules/mrp.md) — QC on production |
 
 ---
 
@@ -241,13 +241,13 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `website` |
-| **Documentation** | [Modules/website](odoo-18/Modules/website.md) |
+| **Documentation** | [Modules/website](Modules/website.md) |
 | **What it does** | Website builder, CMS, SEO |
-| **Key Sub-Modules** | [Modules/website_sale](odoo-18/Modules/website_sale.md) — E-commerce shop |
-| | [Modules/website_sale_stock](odoo-18/Modules/website_sale_stock.md) — Inventory sync to web |
-| | [Modules/website_slides](odoo-18/Modules/website_slides.md) — Course/knowledge platform |
-| | [Modules/website_payment](odoo-18/Modules/website_payment.md) — Online payments |
-| | [Modules/website_crm](odoo-18/Modules/website_crm.md) — Website lead capture |
+| **Key Sub-Modules** | [Modules/website_sale](Modules/website_sale.md) — E-commerce shop |
+| | [Modules/website_sale_stock](Modules/website_sale_stock.md) — Inventory sync to web |
+| | [Modules/website_slides](Modules/website_slides.md) — Course/knowledge platform |
+| | [Modules/website_payment](Modules/website_payment.md) — Online payments |
+| | [Modules/website_crm](Modules/website_crm.md) — Website lead capture |
 
 ---
 
@@ -256,11 +256,11 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `iot_base` + `iot_drivers` |
-| **Documentation** | [Modules/iot](odoo-19/Modules/iot.md) |
+| **Documentation** | [Modules/iot](Modules/iot.md) |
 | **What it does** | IoT box and device management |
 | **Device Types** | Receipt printers, barcode scanners, scales, displays |
-| **Related Modules** | [Modules/Stock](odoo-18/Modules/stock.md) — Barcode scanner integration |
-| | [Modules/POS](odoo-19/Modules/pos.md) — Receipt printer integration |
+| **Related Modules** | [Modules/Stock](Modules/stock.md) — Barcode scanner integration |
+| | [Modules/POS](Modules/pos.md) — Receipt printer integration |
 
 ---
 
@@ -269,7 +269,7 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `studio` (part of `web`) |
-| **Documentation** | [Modules/studio](odoo-19/Modules/studio.md) |
+| **Documentation** | [Modules/studio](Modules/studio.md) |
 | **What it does** | Visual app builder, custom models/fields/views |
 | **Audience** | Power users, functional consultants |
 | **Note** | Enterprise only |
@@ -281,10 +281,10 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `knowledge` |
-| **Documentation** | [Modules/knowledge](odoo-19/Modules/knowledge.md) |
+| **Documentation** | [Modules/knowledge](Modules/knowledge.md) |
 | **What it does** | Internal wiki, articles, collaborative writing |
-| **Related Modules** | [Modules/mail](odoo-18/Modules/mail.md) — Article comment threads |
-| | [Modules/mail](odoo-18/Modules/mail.md) — Workspace channels |
+| **Related Modules** | [Modules/mail](Modules/mail.md) — Article comment threads |
+| | [Modules/mail](Modules/mail.md) — Workspace channels |
 
 ---
 
@@ -293,11 +293,11 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `rental` |
-| **Documentation** | [Modules/rental](odoo-19/Modules/rental.md) |
+| **Documentation** | [Modules/rental](Modules/rental.md) |
 | **What it does** | Equipment rental, contracts, pickup/return |
-| **Related Modules** | [Modules/Sale](odoo-18/Modules/sale.md) — Rental quotations |
-| | [Modules/Stock](odoo-18/Modules/stock.md) — Rental inventory |
-| | [Modules/Fleet](odoo-18/Modules/fleet.md) — Vehicle rental |
+| **Related Modules** | [Modules/Sale](Modules/sale.md) — Rental quotations |
+| | [Modules/Stock](Modules/stock.md) — Rental inventory |
+| | [Modules/Fleet](Modules/fleet.md) — Vehicle rental |
 
 ---
 
@@ -310,12 +310,12 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `base` |
-| **Documentation** | [Modules/base_setup](odoo-17/Modules/base_setup.md) |
+| **Documentation** | [Modules/base_setup](Modules/base_setup.md) |
 | **What it does** | Company, user, currency, locale, sequence defaults |
-| **Key Sub-Modules** | [Modules/base_vat](odoo-17/Modules/base_vat.md) — VAT/TAX ID validation |
-| | [Modules/base_iban](odoo-17/Modules/base_iban.md) — IBAN bank account support |
-| | [Modules/base_address_extended](odoo-17/Modules/base_address_extended.md) — Address formatting |
-| | [Modules/base_geolocalize](odoo-17/Modules/base_geolocalize.md) — GPS geolocation |
+| **Key Sub-Modules** | [Modules/base_vat](Modules/base_vat.md) — VAT/TAX ID validation |
+| | [Modules/base_iban](Modules/base_iban.md) — IBAN bank account support |
+| | [Modules/base_address_extended](Modules/base_address_extended.md) — Address formatting |
+| | [Modules/base_geolocalize](Modules/base_geolocalize.md) — GPS geolocation |
 
 ---
 
@@ -324,11 +324,11 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `mail` |
-| **Documentation** | [Modules/mail](odoo-18/Modules/mail.md) |
+| **Documentation** | [Modules/mail](Modules/mail.md) |
 | **What it does** | Email, messaging, mail templates, follow/unfollow |
-| **Key Sub-Modules** | [Modules/mail_group](odoo-17/Modules/mail_group.md) — Group messaging |
-| | [Modules/mail_plugin](odoo-17/Modules/mail_plugin.md) — Email plugin |
-| **Related Modules** | [Modules/portal](odoo-18/Modules/portal.md) — Customer portal messaging |
+| **Key Sub-Modules** | [Modules/mail_group](Modules/mail_group.md) — Group messaging |
+| | [Modules/mail_plugin](Modules/mail_plugin.md) — Email plugin |
+| **Related Modules** | [Modules/portal](Modules/portal.md) — Customer portal messaging |
 
 ---
 
@@ -337,10 +337,10 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `resource` |
-| **Documentation** | [Modules/resource](odoo-18/Modules/resource.md) |
+| **Documentation** | [Modules/resource](Modules/resource.md) |
 | **What it does** | Working hours, calendars, resource planning |
-| **Related Modules** | [Modules/HR](odoo-18/Modules/hr.md) — Employee scheduling |
-| | [Modules/calendar](odoo-18/Modules/calendar.md) — Meetings and scheduling |
+| **Related Modules** | [Modules/HR](Modules/hr.md) — Employee scheduling |
+| | [Modules/calendar](Modules/calendar.md) — Meetings and scheduling |
 
 ---
 
@@ -349,10 +349,10 @@ Jump to your tier of interest:
 | Item | Details |
 |------|---------|
 | **Module** | `calendar` |
-| **Documentation** | [Modules/calendar](odoo-18/Modules/calendar.md) |
+| **Documentation** | [Modules/calendar](Modules/calendar.md) |
 | **What it does** | Meeting scheduling, reminders, calendar views |
-| **Key Sub-Modules** | [Modules/calendar_sms](odoo-17/Modules/calendar_sms.md) — SMS reminders |
-| | [Modules/microsoft_calendar](odoo-17/Modules/microsoft_calendar.md) — Outlook sync |
+| **Key Sub-Modules** | [Modules/calendar_sms](Modules/calendar_sms.md) — SMS reminders |
+| | [Modules/microsoft_calendar](Modules/microsoft_calendar.md) — Outlook sync |
 
 ---
 
@@ -364,12 +364,12 @@ Jump to your tier of interest:
 
 | Module | File | Category |
 |--------|------|----------|
-| account | [Modules/Account](odoo-18/Modules/account.md) | Tier 1 — Accounting |
-| account_fleet | [Modules/account_fleet](odoo-17/Modules/account_fleet.md) | Accounting extension |
-| account_payment | [Modules/account_payment](odoo-18/Modules/account_payment.md) | Payment processing |
-| account_peppol | [Modules/account_peppol](odoo-17/Modules/account_peppol.md) | Peppol EDI |
-| account_edi | [Modules/account_edi](odoo-17/Modules/account_edi.md) | EDI framework |
-| analytic | [Modules/analytic](odoo-18/Modules/analytic.md) | Analytic accounting |
+| account | [Modules/Account](Modules/account.md) | Tier 1 — Accounting |
+| account_fleet | [Modules/account_fleet](Modules/account_fleet.md) | Accounting extension |
+| account_payment | [Modules/account_payment](Modules/account_payment.md) | Payment processing |
+| account_peppol | [Modules/account_peppol](Modules/account_peppol.md) | Peppol EDI |
+| account_edi | [Modules/account_edi](Modules/account_edi.md) | EDI framework |
+| analytic | [Modules/analytic](Modules/analytic.md) | Analytic accounting |
 | auth_* | Multiple | Authentication modules |
 | availability | — | (part of stock) |
 
@@ -377,97 +377,97 @@ Jump to your tier of interest:
 
 | Module | File | Category |
 |--------|------|----------|
-| barcodes | [Modules/barcodes](odoo-18/Modules/barcodes.md) | Barcode scanning |
-| board | [Modules/board](odoo-18/Modules/board.md) | Dashboard kanban |
-| bus | [Modules/bus](odoo-18/Modules/bus.md) | Real-time bus |
-| calendar | [Modules/calendar](odoo-18/Modules/calendar.md) | Utility — Scheduling |
-| contacts | [Modules/contacts](odoo-18/Modules/contacts.md) | Contact management |
-| crm | [Modules/CRM](odoo-18/Modules/CRM.md) | Tier 2 — CRM |
+| barcodes | [Modules/barcodes](Modules/barcodes.md) | Barcode scanning |
+| board | [Modules/board](Modules/board.md) | Dashboard kanban |
+| bus | [Modules/bus](Modules/bus.md) | Real-time bus |
+| calendar | [Modules/calendar](Modules/calendar.md) | Utility — Scheduling |
+| contacts | [Modules/contacts](Modules/contacts.md) | Contact management |
+| crm | [Modules/CRM](Modules/CRM.md) | Tier 2 — CRM |
 
 ### D–F
 
 | Module | File | Category |
 |--------|------|----------|
-| delivery | [Modules/delivery](odoo-18/Modules/delivery.md) | Shipping methods |
-| digest | [Modules/digest](odoo-18/Modules/digest.md) | KPI dashboards |
-| event | [Modules/event](odoo-18/Modules/event.md) | Event management |
-| fleet | [Modules/fleet](odoo-18/Modules/fleet.md) | Vehicle fleet |
+| delivery | [Modules/delivery](Modules/delivery.md) | Shipping methods |
+| digest | [Modules/digest](Modules/digest.md) | KPI dashboards |
+| event | [Modules/event](Modules/event.md) | Event management |
+| fleet | [Modules/fleet](Modules/fleet.md) | Vehicle fleet |
 
 ### G–H
 
 | Module | File | Category |
 |--------|------|----------|
-| gamification | [Modules/gamification](odoo-18/Modules/gamification.md) | Challenges & badges |
+| gamification | [Modules/gamification](Modules/gamification.md) | Challenges & badges |
 | google_* | Multiple | Google integrations |
-| helpdesk | [Modules/helpdesk](odoo-18/Modules/helpdesk.md) | Tier 2 — Helpdesk |
-| hr | [Modules/HR](odoo-18/Modules/hr.md) | Tier 1 — HR |
-| hr_holidays | [Modules/hr_holidays](odoo-18/Modules/hr_holidays.md) | Leave management |
-| hr_attendance | [Modules/hr_attendance](odoo-18/Modules/hr_attendance.md) | Attendance |
+| helpdesk | [Modules/helpdesk](Modules/helpdesk.md) | Tier 2 — Helpdesk |
+| hr | [Modules/HR](Modules/hr.md) | Tier 1 — HR |
+| hr_holidays | [Modules/hr_holidays](Modules/hr_holidays.md) | Leave management |
+| hr_attendance | [Modules/hr_attendance](Modules/hr_attendance.md) | Attendance |
 
 ### I–K
 
 | Module | File | Category |
 |--------|------|----------|
-| iot | [Modules/iot](odoo-19/Modules/iot.md) | Tier 4 — IoT |
-| knowledge | [Modules/knowledge](odoo-19/Modules/knowledge.md) | Tier 4 — Wiki |
+| iot | [Modules/iot](Modules/iot.md) | Tier 4 — IoT |
+| knowledge | [Modules/knowledge](Modules/knowledge.md) | Tier 4 — Wiki |
 
 ### L–M
 
 | Module | File | Category |
 |--------|------|----------|
-| l10n_* | [Modules/l10n_id](odoo-18/Modules/l10n_id.md) and 80+ others | Country localizations |
-| loyalty | [Modules/loyalty](odoo-18/Modules/loyalty.md) | Loyalty programs |
-| mail | [Modules/mail](odoo-18/Modules/mail.md) | Utility — Email |
-| mass_mailing | [Modules/mass_mailing](odoo-18/Modules/mass_mailing.md) | Email campaigns |
-| mrp | [Modules/MRP](odoo-18/Modules/mrp.md) | Tier 2 — Manufacturing |
+| l10n_* | [Modules/l10n_id](Modules/l10n_id.md) and 80+ others | Country localizations |
+| loyalty | [Modules/loyalty](Modules/loyalty.md) | Loyalty programs |
+| mail | [Modules/mail](Modules/mail.md) | Utility — Email |
+| mass_mailing | [Modules/mass_mailing](Modules/mass_mailing.md) | Email campaigns |
+| mrp | [Modules/MRP](Modules/mrp.md) | Tier 2 — Manufacturing |
 
 ### N–P
 
 | Module | File | Category |
 |--------|------|----------|
 | note | (note module) | Sticky notes |
-| payment | [Modules/payment](odoo-18/Modules/payment.md) | Payment provider framework |
-| point_of_sale | [Modules/POS](odoo-19/Modules/pos.md) | Tier 2 — POS |
-| portal | [Modules/portal](odoo-18/Modules/portal.md) | Customer portal |
-| product | [Modules/Product](odoo-18/Modules/product.md) | Tier 3 — Product |
-| project | [Modules/Project](odoo-18/Modules/project.md) | Tier 2 — Project |
+| payment | [Modules/payment](Modules/payment.md) | Payment provider framework |
+| point_of_sale | [Modules/POS](Modules/pos.md) | Tier 2 — POS |
+| portal | [Modules/portal](Modules/portal.md) | Customer portal |
+| product | [Modules/Product](Modules/product.md) | Tier 3 — Product |
+| project | [Modules/Project](Modules/project.md) | Tier 2 — Project |
 
 ### Q–R
 
 | Module | File | Category |
 |--------|------|----------|
-| quality | [Modules/quality](odoo-18/Modules/quality.md) | Tier 3 — Quality |
-| rental | [Modules/rental](odoo-19/Modules/rental.md) | Tier 4 — Rental |
-| repair | [Modules/repair](odoo-18/Modules/repair.md) | After-sale repair |
-| resource | [Modules/resource](odoo-18/Modules/resource.md) | Utility — Resource |
+| quality | [Modules/quality](Modules/quality.md) | Tier 3 — Quality |
+| rental | [Modules/rental](Modules/rental.md) | Tier 4 — Rental |
+| repair | [Modules/repair](Modules/repair.md) | After-sale repair |
+| resource | [Modules/resource](Modules/resource.md) | Utility — Resource |
 
 ### S
 
 | Module | File | Category |
 |--------|------|----------|
-| sale | [Modules/Sale](odoo-18/Modules/sale.md) | Tier 1 — Sales |
-| sale_management | [Modules/sale_management](odoo-18/Modules/sale_management.md) | Sales extension |
-| sale_timesheet | [Modules/sale_timesheet](odoo-18/Modules/sale_timesheet.md) | Time billing |
-| sale_loyalty | [Modules/sale_loyalty](odoo-18/Modules/sale_loyalty.md) | Loyalty |
-| sale_project | [Modules/sale_project](odoo-18/Modules/sale_project.md) | Project billing |
-| sale_stock | [Modules/sale_stock](odoo-18/Modules/sale_stock.md) | Sale↔Stock integration |
-| sms | [Modules/sms](odoo-18/Modules/sms.md) | SMS gateway |
-| spreadsheet | [Modules/spreadsheet](odoo-18/Modules/spreadsheet.md) | Spreadsheet engine |
-| stock | [Modules/Stock](odoo-18/Modules/stock.md) | Tier 1 — Inventory |
-| stock_account | [Modules/stock_account](odoo-18/Modules/stock_account.md) | Inventory valuation |
-| studio | [Modules/studio](odoo-19/Modules/studio.md) | Tier 4 — App Builder |
+| sale | [Modules/Sale](Modules/sale.md) | Tier 1 — Sales |
+| sale_management | [Modules/sale_management](Modules/sale_management.md) | Sales extension |
+| sale_timesheet | [Modules/sale_timesheet](Modules/sale_timesheet.md) | Time billing |
+| sale_loyalty | [Modules/sale_loyalty](Modules/sale_loyalty.md) | Loyalty |
+| sale_project | [Modules/sale_project](Modules/sale_project.md) | Project billing |
+| sale_stock | [Modules/sale_stock](Modules/sale_stock.md) | Sale↔Stock integration |
+| sms | [Modules/sms](Modules/sms.md) | SMS gateway |
+| spreadsheet | [Modules/spreadsheet](Modules/spreadsheet.md) | Spreadsheet engine |
+| stock | [Modules/Stock](Modules/stock.md) | Tier 1 — Inventory |
+| stock_account | [Modules/stock_account](Modules/stock_account.md) | Inventory valuation |
+| studio | [Modules/studio](Modules/studio.md) | Tier 4 — App Builder |
 
 ### T–W
 
 | Module | File | Category |
 |--------|------|----------|
 | test_* | Multiple | Test modules (ignore) |
-| uom | [Modules/uom](odoo-18/Modules/uom.md) | Unit of measure |
-| utm | [Modules/utm](odoo-18/Modules/utm.md) | Marketing tracking |
-| web | [Modules/web](odoo-18/Modules/web.md) | Web framework |
-| website | [Modules/website](odoo-18/Modules/website.md) | Tier 4 — Website |
-| website_sale | [Modules/website_sale](odoo-18/Modules/website_sale.md) | E-commerce |
-| website_slides | [Modules/website_slides](odoo-18/Modules/website_slides.md) | E-learning |
+| uom | [Modules/uom](Modules/uom.md) | Unit of measure |
+| utm | [Modules/utm](Modules/utm.md) | Marketing tracking |
+| web | [Modules/web](Modules/web.md) | Web framework |
+| website | [Modules/website](Modules/website.md) | Tier 4 — Website |
+| website_sale | [Modules/website_sale](Modules/website_sale.md) | E-commerce |
+| website_slides | [Modules/website_slides](Modules/website_slides.md) | E-learning |
 
 ---
 
@@ -484,7 +484,7 @@ Jump to your tier of interest:
 | **Africa** | l10n_za, l10n_ke, l10n_ng, l10n_ma |
 | **EDI / Tax Reports** | l10n_it_edi, l10n_es_edi_sii, l10n_es_edi_facturae, l10n_id_efaktur_coretax, l10n_br_edi, l10n_in_ewaybill |
 
-See [Modules/l10n_id](odoo-18/Modules/l10n_id.md) for full Indonesian example. See [Modules/l10n_de](odoo-18/Modules/l10n_de.md), [Modules/l10n_us](odoo-18/Modules/l10n_us.md), [Modules/l10n_fr](odoo-18/Modules/l10n_fr.md) for quick-access versions.
+See [Modules/l10n_id](Modules/l10n_id.md) for full Indonesian example. See [Modules/l10n_de](Modules/l10n_de.md), [Modules/l10n_us](Modules/l10n_us.md), [Modules/l10n_fr](Modules/l10n_fr.md) for quick-access versions.
 
 ---
 
@@ -492,8 +492,8 @@ See [Modules/l10n_id](odoo-18/Modules/l10n_id.md) for full Indonesian example. S
 
 | Type | Link | Description |
 |------|------|-------------|
-| Guide | [Documentation/Upgrade-Plan/CHECKPOINT-master](odoo-19/Documentation/Upgrade-Plan/CHECKPOINT-master.md) | Coverage progress tracker |
+| Guide | [Documentation/Upgrade-Plan/CHECKPOINT-master](Documentation/Upgrade-Plan/CHECKPOINT-master.md) | Coverage progress tracker |
 | Guide | [Tools/Modules Inventory](odoo-18/Tools/Modules Inventory.md) | Full module catalog |
 | Pattern | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | Cross-module flow design |
 | Snippet | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Code templates |
-| Core | [Core/BaseModel](odoo-18/Core/BaseModel.md) | ORM foundation |
+| Core | [Core/BaseModel](Core/BaseModel.md) | ORM foundation |

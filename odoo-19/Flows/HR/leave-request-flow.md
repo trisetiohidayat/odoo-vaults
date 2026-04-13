@@ -13,8 +13,8 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md)"
-  - "[Flows/Base/resource-attendance-flow](odoo-19/Flows/Base/resource-attendance-flow.md)"
+  - "[Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md)"
+  - "[Flows/Base/resource-attendance-flow](Flows/Base/resource-attendance-flow.md)"
 source_module: hr_holidays
 source_path: ~/odoo/odoo19/odoo/addons/hr_holidays/
 created: 2026-04-06
@@ -161,5 +161,5 @@ Leave Request Submitted
 
 ## Related
 
-- [Modules/HR](odoo-18/Modules/hr.md) — HR module reference
-- [Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md) — Employee setup
+- [Modules/HR](Modules/hr.md) — HR module reference
+- [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — Employee setup

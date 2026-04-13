@@ -251,7 +251,7 @@ records = self.env['my.model'].sudo(user_id).search([...])
 | `AccessDenied` | Login/auth failure |
 
 ## See Also
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — Full model reference
-- [Core/Fields](odoo-18/Core/Fields.md) — Field types detail
-- [Core/API](odoo-18/Core/API.md) — Decorators detail
+- [Core/BaseModel](Core/BaseModel.md) — Full model reference
+- [Core/Fields](Core/Fields.md) — Field types detail
+- [Core/API](Core/API.md) — Decorators detail
 - [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) — Full code templates

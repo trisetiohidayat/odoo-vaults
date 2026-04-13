@@ -636,9 +636,9 @@ web.report_assets_common       → base_style, bootstrap_overridden, html_editor
 
 ## Related Documentation
 
-- [Core/Fields](odoo-18/Core/Fields.md) — Html field type, `sanitize`, `sanitize_attributes`, `sanitize_form`, `sanitize_tags` attributes
-- [Core/API](odoo-18/Core/API.md) — `@api.depends`, `@api.onchange` for computed field patterns
+- [Core/Fields](Core/Fields.md) — Html field type, `sanitize`, `sanitize_attributes`, `sanitize_form`, `sanitize_tags` attributes
+- [Core/API](Core/API.md) — `@api.depends`, `@api.onchange` for computed field patterns
 - [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — `write()`, domain operators, recordset behavior
 - [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — `_inherit` vs mixin patterns (this module uses mixins extensively)
-- [Modules/Website](odoo-18/Modules/website.md) — CMS/snippet architecture, `save_snippet` integration
-- [Modules/Mail](odoo-18/Modules/mail.md) — Email template rendering, `ir.qweb.field.html` usage
+- [Modules/Website](Modules/website.md) — CMS/snippet architecture, `save_snippet` integration
+- [Modules/Mail](Modules/mail.md) — Email template rendering, `ir.qweb.field.html` usage

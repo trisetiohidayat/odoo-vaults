@@ -24,15 +24,15 @@ created: 2026-04-06
 
 Philippine accounting localization providing a chart of accounts, tax templates, withholding tax structures, and BIR (Bureau of Internal Revenue) compliance features for businesses operating in the Philippines.
 
-The module integrates with [Modules/l10n_account_withholding_tax](odoo-18/Modules/l10n_account_withholding_tax.md) to support Philippine withholding tax requirements including the BIR Form 2307 (Certificate of Final Tax Withheld at Source) for expanded withholding tax and creditable withholding tax.
+The module integrates with [Modules/l10n_account_withholding_tax](Modules/l10n_account_withholding_tax.md) to support Philippine withholding tax requirements including the BIR Form 2307 (Certificate of Final Tax Withheld at Source) for expanded withholding tax and creditable withholding tax.
 
 ## Dependencies
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account](odoo-18/Modules/account.md) | Core accounting |
-| [Modules/base_vat](odoo-17/Modules/base_vat.md) | VAT number validation |
-| [Modules/l10n_account_withholding_tax](odoo-18/Modules/l10n_account_withholding_tax.md) | Withholding tax support (BIR Form 2307) |
+| [Modules/account](Modules/account.md) | Core accounting |
+| [Modules/base_vat](Modules/base_vat.md) | VAT number validation |
+| [Modules/l10n_account_withholding_tax](Modules/l10n_account_withholding_tax.md) | Withholding tax support (BIR Form 2307) |
 
 ## Key Models
 
@@ -114,6 +114,6 @@ The module supports the generation of BIR Form 2307 (Certificate of Creditable/E
 
 ## Related
 
-- [Modules/account](odoo-18/Modules/account.md) - Core accounting module
-- [Modules/l10n_account_withholding_tax](odoo-18/Modules/l10n_account_withholding_tax.md) - Withholding tax support
-- [Modules/base_vat](odoo-17/Modules/base_vat.md) - Tax ID validation
+- [Modules/account](Modules/account.md) - Core accounting module
+- [Modules/l10n_account_withholding_tax](Modules/l10n_account_withholding_tax.md) - Withholding tax support
+- [Modules/base_vat](Modules/base_vat.md) - Tax ID validation

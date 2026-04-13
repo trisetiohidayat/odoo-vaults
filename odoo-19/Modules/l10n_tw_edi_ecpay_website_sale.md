@@ -23,7 +23,7 @@ created: 2026-04-06
 
 ## Description
 
-Bridge module connecting [Modules/website_sale](odoo-18/Modules/website_sale.md) with [Modules/l10n_tw_edi_ecpay](odoo-18/Modules/l10n_tw_edi_ecpay.md) to enable e-invoice issuance for e-commerce transactions in Taiwan. This module allows customers to provide their e-invoice carrier information (爱心码/捐贈碼) during the checkout process and automatically issues e-invoices through ECPay.
+Bridge module connecting [Modules/website_sale](Modules/website_sale.md) with [Modules/l10n_tw_edi_ecpay](Modules/l10n_tw_edi_ecpay.md) to enable e-invoice issuance for e-commerce transactions in Taiwan. This module allows customers to provide their e-invoice carrier information (爱心码/捐贈碼) during the checkout process and automatically issues e-invoices through ECPay.
 
 In Taiwan, B2C e-invoices require either a carrier binding (爱心码) for lottery donations or a mobile barcode (載具條碼). This module captures this information during the online shopping checkout.
 
@@ -31,8 +31,8 @@ In Taiwan, B2C e-invoices require either a carrier binding (爱心码) for lotte
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/website_sale](odoo-18/Modules/website_sale.md) | Odoo e-commerce / website shop |
-| [Modules/l10n_tw_edi_ecpay](odoo-18/Modules/l10n_tw_edi_ecpay.md) | ECPay e-invoicing base |
+| [Modules/website_sale](Modules/website_sale.md) | Odoo e-commerce / website shop |
+| [Modules/l10n_tw_edi_ecpay](Modules/l10n_tw_edi_ecpay.md) | ECPay e-invoicing base |
 
 ## Key Models
 
@@ -85,6 +85,6 @@ Extends partner with fields for e-invoice carrier:
 
 ## Related
 
-- [Modules/l10n_tw_edi_ecpay](odoo-18/Modules/l10n_tw_edi_ecpay.md) - Core ECPay e-invoicing
-- [Modules/l10n_tw](odoo-18/Modules/l10n_tw.md) - Base Taiwanese accounting
-- [Modules/website_sale](odoo-18/Modules/website_sale.md) - E-commerce module
+- [Modules/l10n_tw_edi_ecpay](Modules/l10n_tw_edi_ecpay.md) - Core ECPay e-invoicing
+- [Modules/l10n_tw](Modules/l10n_tw.md) - Base Taiwanese accounting
+- [Modules/website_sale](Modules/website_sale.md) - E-commerce module

@@ -79,6 +79,6 @@ Each `purchase.order.line` is linked to `stock.move` records created at PO confi
 
 ## See Also
 
-- [Modules/purchase](odoo-18/Modules/purchase.md) — Full `purchase.order` and `purchase.order.line` reference
-- [Modules/stock](odoo-18/Modules/stock.md) — `stock.picking`, `stock.move`, `stock.quant`
-- [Modules/account](odoo-18/Modules/account.md) — Vendor bill creation and reconciliation
+- [Modules/purchase](Modules/purchase.md) — Full `purchase.order` and `purchase.order.line` reference
+- [Modules/stock](Modules/stock.md) — `stock.picking`, `stock.move`, `stock.quant`
+- [Modules/account](Modules/account.md) — Vendor bill creation and reconciliation

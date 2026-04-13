@@ -1251,12 +1251,12 @@ To enable manufacturing accounting:
 
 ## See Also
 
-- [Modules/MRP](odoo-18/Modules/mrp.md) — Base manufacturing module (workorders, MOs, BoMs)
-- [Modules/stock_account](odoo-18/Modules/stock_account.md) — Stock valuation accounting integration
-- [Modules/Account](odoo-18/Modules/account.md) — General accounting (journal entries, accounts)
-- [Modules/Analytic](odoo-18/Modules/analytic.md) — Analytic accounting (distribution, applicability)
-- [Core/API](odoo-18/Core/API.md) — ORM decorators used in this module (`@api.depends`, `@api.constrains`)
-- [Core/Fields](odoo-18/Core/Fields.md) — Field types: `Json` for analytic distribution, `Many2many` for relations
+- [Modules/MRP](Modules/mrp.md) — Base manufacturing module (workorders, MOs, BoMs)
+- [Modules/stock_account](Modules/stock_account.md) — Stock valuation accounting integration
+- [Modules/Account](Modules/account.md) — General accounting (journal entries, accounts)
+- [Modules/Analytic](Modules/analytic.md) — Analytic accounting (distribution, applicability)
+- [Core/API](Core/API.md) — ORM decorators used in this module (`@api.depends`, `@api.constrains`)
+- [Core/Fields](Core/Fields.md) — Field types: `Json` for analytic distribution, `Many2many` for relations
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — MO state machine (`confirmed` -> `progress` -> `done`)
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL and record rules in multi-company environments
 

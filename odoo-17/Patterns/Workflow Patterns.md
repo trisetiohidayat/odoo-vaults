@@ -63,6 +63,6 @@ decoration-warning="state in ('draft', 'confirm')"
 ```
 
 ## See Also
-- [Modules/sale](odoo-18/Modules/sale.md) — sale.order workflow
-- [Modules/purchase](odoo-18/Modules/purchase.md) — purchase.order workflow
-- [Modules/stock](odoo-18/Modules/stock.md) — stock.picking workflow
+- [Modules/sale](Modules/sale.md) — sale.order workflow
+- [Modules/purchase](Modules/purchase.md) — purchase.order workflow
+- [Modules/stock](Modules/stock.md) — stock.picking workflow

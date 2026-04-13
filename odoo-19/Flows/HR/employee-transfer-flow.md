@@ -12,8 +12,8 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md)"
-  - "[Flows/HR/employee-archival-flow](odoo-19/Flows/HR/employee-archival-flow.md)"
+  - "[Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md)"
+  - "[Flows/HR/employee-archival-flow](Flows/HR/employee-archival-flow.md)"
 source_module: hr
 created: 2026-04-07
 version: "1.0"
@@ -313,10 +313,10 @@ def _change_department(self, new_dept_id):
 
 ## Related
 
-- [Modules/HR](odoo-18/Modules/hr.md) — HR module reference
-- [Modules/Project](odoo-18/Modules/project.md) — Project module reference
-- [Modules/Account](odoo-18/Modules/account.md) — Account module reference
-- [Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md) — Employee creation flow
-- [Flows/HR/employee-archival-flow](odoo-19/Flows/HR/employee-archival-flow.md) — Employee archival flow
+- [Modules/HR](Modules/hr.md) — HR module reference
+- [Modules/Project](Modules/project.md) — Project module reference
+- [Modules/Account](Modules/account.md) — Account module reference
+- [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — Employee creation flow
+- [Flows/HR/employee-archival-flow](Flows/HR/employee-archival-flow.md) — Employee archival flow
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
-- [Core/API](odoo-18/Core/API.md) — @api decorator patterns
+- [Core/API](Core/API.md) — @api decorator patterns

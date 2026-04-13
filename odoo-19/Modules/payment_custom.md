@@ -33,4 +33,4 @@ A payment provider for custom flows like wire transfers (bank transfer). Allows 
 - Wire transfer: `payment_method_wire_transfer` (default method added via data)
 
 ## Related
-- [Modules/payment](odoo-18/Modules/payment.md) — Base payment engine
+- [Modules/payment](Modules/payment.md) — Base payment engine

@@ -290,7 +290,7 @@ If the POS frontend submits an order to a session that has already been closed, 
 
 ## See Also
 
-- [Modules/account](odoo-18/Modules/account.md) — `account.move` journal entries
-- [Modules/stock](odoo-18/Modules/stock.md) — `stock.picking` for delivery
-- [Modules/sale](odoo-18/Modules/sale.md) — comparison with `sale.order`
-- [Modules/payment](odoo-18/Modules/payment.md) — payment processing
+- [Modules/account](Modules/account.md) — `account.move` journal entries
+- [Modules/stock](Modules/stock.md) — `stock.picking` for delivery
+- [Modules/sale](Modules/sale.md) — comparison with `sale.order`
+- [Modules/payment](Modules/payment.md) — payment processing

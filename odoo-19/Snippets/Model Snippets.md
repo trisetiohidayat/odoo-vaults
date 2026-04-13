@@ -106,8 +106,8 @@ def action_confirm(self):
 
 ## Related
 
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) - Model foundation
-- [Core/Fields](odoo-18/Core/Fields.md) - Field types
-- [Core/API](odoo-18/Core/API.md) - Decorators
-- [Core/Exceptions](odoo-18/Core/Exceptions.md) - Validation
+- [Core/BaseModel](Core/BaseModel.md) - Model foundation
+- [Core/Fields](Core/Fields.md) - Field types
+- [Core/API](Core/API.md) - Decorators
+- [Core/Exceptions](Core/Exceptions.md) - Validation
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) - State transitions

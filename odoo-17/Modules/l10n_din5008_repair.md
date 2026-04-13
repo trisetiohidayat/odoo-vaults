@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, l10n-din5008-repair]
 
 
 
-- [Modules/account](odoo-18/Modules/account.md) — Accounting / localization
+- [Modules/account](Modules/account.md) — Accounting / localization

@@ -588,7 +588,7 @@ The JS tour patches `crm_tour` (the main CRM onboarding) to insert steps between
 
 ## Related
 
-- [Modules/iap_crm](odoo-17/Modules/iap_crm.md) — Base IAP CRM (reveal_id on crm.lead)
-- [Modules/iap_mail](odoo-17/Modules/iap_mail.md) — IAP enrichment mail template base
-- [Modules/crm_iap_enrich](odoo-17/Modules/crm_iap_enrich.md) — Separate module for email-domain-based lead enrichment
-- [Modules/crm](odoo-18/Modules/CRM.md) — Base CRM model
+- [Modules/iap_crm](Modules/iap_crm.md) — Base IAP CRM (reveal_id on crm.lead)
+- [Modules/iap_mail](Modules/iap_mail.md) — IAP enrichment mail template base
+- [Modules/crm_iap_enrich](Modules/crm_iap_enrich.md) — Separate module for email-domain-based lead enrichment
+- [Modules/crm](Modules/CRM.md) — Base CRM model

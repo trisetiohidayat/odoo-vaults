@@ -15,7 +15,7 @@ Decorators untuk Odoo ORM methods. Semua decorator ini mengontrol bagaimana meth
 
 **Location:** `~/odoo/odoo19/odoo/odoo/api.py`
 
-> **📖 Deep Dive:** Untuk dokumentasi method chain lengkap, lihat [Flows/TEMPLATE-flow](odoo-18/Flows/TEMPLATE-flow.md).
+> **📖 Deep Dive:** Untuk dokumentasi method chain lengkap, lihat [Flows/TEMPLATE-flow](Flows/TEMPLATE-flow.md).
 
 ---
 
@@ -402,10 +402,10 @@ Model.create([vals_a, vals_b, vals_c])
 
 ## Related
 
-- [Flows/TEMPLATE-flow](odoo-18/Flows/TEMPLATE-flow.md) — Flow document template
+- [Flows/TEMPLATE-flow](Flows/TEMPLATE-flow.md) — Flow document template
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow and state machine patterns
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — Model foundation, inheritance, CRUD
-- [Core/Fields](odoo-18/Core/Fields.md) — Field types, computed fields
-- [Core/Exceptions](odoo-18/Core/Exceptions.md) — ValidationError, UserError
+- [Core/BaseModel](Core/BaseModel.md) — Model foundation, inheritance, CRUD
+- [Core/Fields](Core/Fields.md) — Field types, computed fields
+- [Core/Exceptions](Core/Exceptions.md) — ValidationError, UserError
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — Sudo usage, ACL
-- [Snippets/method-chain-example](odoo-18/Snippets/method-chain-example.md) — Method chain notation reference
+- [Snippets/method-chain-example](Snippets/method-chain-example.md) — Method chain notation reference

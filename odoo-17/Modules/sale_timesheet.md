@@ -185,7 +185,7 @@ return map_entry.sale_line_id
 | `other_costs` | Materials | 12 |
 
 ## See Also
-- [Modules/sale](odoo-18/Modules/sale.md) — sale.order
-- [Modules/project](odoo-18/Modules/project.md) — project.task, project.project
-- [Modules/hr_timesheet](odoo-18/Modules/hr_timesheet.md) — account.analytic.line base model
-- [Modules/stock_account](odoo-18/Modules/stock_account.md) — Anglo-Saxon COGS entries
+- [Modules/sale](Modules/sale.md) — sale.order
+- [Modules/project](Modules/project.md) — project.task, project.project
+- [Modules/hr_timesheet](Modules/hr_timesheet.md) — account.analytic.line base model
+- [Modules/stock_account](Modules/stock_account.md) — Anglo-Saxon COGS entries

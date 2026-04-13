@@ -21,5 +21,5 @@ Integrates your POS with a Mollie payment terminal. Enables card/UPI payments vi
 - POS frontend assets for Mollie terminal
 
 ## Related
-- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — Base POS module
-- [Modules/payment_mollie](odoo-18/Modules/payment_mollie.md) — Mollie payment provider
+- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
+- [Modules/payment_mollie](Modules/payment_mollie.md) — Mollie payment provider

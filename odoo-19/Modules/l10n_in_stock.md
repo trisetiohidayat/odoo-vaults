@@ -34,6 +34,6 @@ Indian warehouse accounting localization. Provides base hooks for GST-linked sto
 **`_l10n_in_get_product_tax()`** — Returns tax ids from `product_id.supplier_taxes_id` (for incoming) or `product_id.taxes_id` (for outgoing)
 
 ## Related
-- [Modules/l10n_in](odoo-18/Modules/l10n_in.md) — Core Indian accounting
-- [Modules/l10n_in_purchase_stock](odoo-18/Modules/l10n_in_purchase_stock.md) — Purchase-stock bridge with GST
-- [Modules/l10n_in_sale](odoo-18/Modules/l10n_in_sale.md) — Sale order GST handling
+- [Modules/l10n_in](Modules/l10n_in.md) — Core Indian accounting
+- [Modules/l10n_in_purchase_stock](Modules/l10n_in_purchase_stock.md) — Purchase-stock bridge with GST
+- [Modules/l10n_in_sale](Modules/l10n_in_sale.md) — Sale order GST handling

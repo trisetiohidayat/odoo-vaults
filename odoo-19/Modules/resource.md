@@ -865,9 +865,9 @@ class MrpWorkcenter(models.Model):
 
 ## Related
 
-- [Modules/HR](odoo-18/Modules/hr.md) — Uses `resource.mixin` for employee scheduling
-- [Modules/Project](odoo-18/Modules/project.md) — Task scheduling using resource calendars
-- [Modules/MRP](odoo-18/Modules/mrp.md) — Work center efficiency from `resource.resource.time_efficiency`
-- [Modules/Stock](odoo-18/Modules/stock.md) — Warehouse capacity using resource intervals
-- [Core/API](odoo-18/Core/API.md) — `@api.depends`, `@api.onchange` patterns
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — ORM foundation
+- [Modules/HR](Modules/hr.md) — Uses `resource.mixin` for employee scheduling
+- [Modules/Project](Modules/project.md) — Task scheduling using resource calendars
+- [Modules/MRP](Modules/mrp.md) — Work center efficiency from `resource.resource.time_efficiency`
+- [Modules/Stock](Modules/stock.md) — Warehouse capacity using resource intervals
+- [Core/API](Core/API.md) — `@api.depends`, `@api.onchange` patterns
+- [Core/BaseModel](Core/BaseModel.md) — ORM foundation

@@ -15,4 +15,4 @@ Localized accounting for Burkina.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/l10n_syscohada](odoo-18/Modules/l10n_syscohada.md) — Core accounting
+- [Modules/l10n_syscohada](Modules/l10n_syscohada.md) — Core accounting

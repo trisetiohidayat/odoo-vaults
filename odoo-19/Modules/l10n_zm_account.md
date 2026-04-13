@@ -35,4 +35,4 @@ This is the basic Zambian localization necessary to run Odoo in ZM:
 - Custom model files: account_move.py, template_zm.py
 
 ## Related
-- [Modules/l10n_za](odoo-18/Modules/l10n_za.md) - Core accounting
+- [Modules/l10n_za](Modules/l10n_za.md) - Core accounting

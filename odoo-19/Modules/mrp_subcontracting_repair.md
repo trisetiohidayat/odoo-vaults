@@ -244,7 +244,7 @@ The portal repair order page (`/my/repair/<id>`) is provided by the `repair` mod
 
 ## Related
 
-- [Modules/repair](odoo-18/Modules/repair.md) — Repair orders and stock.move extensions
-- [Modules/mrp_subcontracting](odoo-18/Modules/mrp_subcontracting.md) — Subcontracting BoM and production orders
-- [Modules/Stock](odoo-18/Modules/stock.md) — Stock move base model
-- [Modules/portal](odoo-18/Modules/portal.md) — Portal user access framework
+- [Modules/repair](Modules/repair.md) — Repair orders and stock.move extensions
+- [Modules/mrp_subcontracting](Modules/mrp_subcontracting.md) — Subcontracting BoM and production orders
+- [Modules/Stock](Modules/stock.md) — Stock move base model
+- [Modules/portal](Modules/portal.md) — Portal user access framework

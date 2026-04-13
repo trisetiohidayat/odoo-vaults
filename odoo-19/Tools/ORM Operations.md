@@ -8,7 +8,7 @@ created: 2026-04-06
 
 ## Quick Reference
 
-All ORM operations work on [Core/BaseModel](odoo-18/Core/BaseModel.md) recordsets.
+All ORM operations work on [Core/BaseModel](Core/BaseModel.md) recordsets.
 
 ## Environment
 
@@ -131,7 +131,7 @@ vals = records.read()[0]  # First record
 
 ## Related
 
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) - Model operations
-- [Core/API](odoo-18/Core/API.md) - Environment access
-- [Core/Fields](odoo-18/Core/Fields.md) - Field types
-- [Core/Exceptions](odoo-18/Core/Exceptions.md) - Error handling
+- [Core/BaseModel](Core/BaseModel.md) - Model operations
+- [Core/API](Core/API.md) - Environment access
+- [Core/Fields](Core/Fields.md) - Field types
+- [Core/Exceptions](Core/Exceptions.md) - Error handling

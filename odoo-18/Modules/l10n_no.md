@@ -11,12 +11,12 @@ Tags: #odoo18 #l10n #accounting
 Norway accounting localization. Provides chart of accounts, Norwegian VAT tax report, and KID payment reference model for Norwegian invoices. Authored by Rolv Råen, updated by Bringsvor Consulting.
 
 ## Country
-[Norway](odoo-18/Modules/account.md) 🇳🇴 (non-EU, EFTA)
+[Norway](Modules/account.md) 🇳🇴 (non-EU, EFTA)
 
 ## Dependencies
 - base_iban
 - base_vat
-- [account](odoo-18/Core/BaseModel.md)
+- [account](Core/BaseModel.md)
 
 ## Key Models
 

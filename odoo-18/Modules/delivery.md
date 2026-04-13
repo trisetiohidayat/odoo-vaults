@@ -479,6 +479,6 @@ When a carrier supports `*_use_locations` (e.g., `bpost_use_locations`):
 
 ## Related Documentation
 
-- [Modules/Sale](odoo-18/Modules/sale.md) — Sale order being extended
-- [Modules/Stock](odoo-18/Modules/stock.md) — Stock picking (extended by `stock_picking_delivery`)
+- [Modules/Sale](Modules/sale.md) — Sale order being extended
+- [Modules/Stock](Modules/stock.md) — Stock picking (extended by `stock_picking_delivery`)
 - [New Features/New Modules](odoo-18/New Features/New Modules.md) — `delivery_dhl`, `delivery_fedex` carrier modules

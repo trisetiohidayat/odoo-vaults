@@ -234,6 +234,6 @@ Creates a `coupon.share` record and returns the share action, allowing customers
 
 ## See Also
 
-- [Modules/sale_loyalty](odoo-18/Modules/sale_loyalty.md) — base loyalty and coupon engine
-- [Modules/website_sale](odoo-18/Modules/website_sale.md) — e-commerce cart and checkout
-- [Modules/loyalty](odoo-18/Modules/loyalty.md) — loyalty program and reward definitions
+- [Modules/sale_loyalty](Modules/sale_loyalty.md) — base loyalty and coupon engine
+- [Modules/website_sale](Modules/website_sale.md) — e-commerce cart and checkout
+- [Modules/loyalty](Modules/loyalty.md) — loyalty program and reward definitions

@@ -25,6 +25,6 @@
 - `_check_event_ticket_service_tracking()` - Validates that products with tickets have `service_tracking = event`
 
 ## Related
-- [Modules/event](odoo-18/Modules/event.md) - Event management
-- [Modules/event_sale](odoo-17/Modules/event_sale.md) - Event ticket sales
-- [Modules/Product](odoo-18/Modules/product.md) - Product management
+- [Modules/event](Modules/event.md) - Event management
+- [Modules/event_sale](Modules/event_sale.md) - Event ticket sales
+- [Modules/Product](Modules/product.md) - Product management

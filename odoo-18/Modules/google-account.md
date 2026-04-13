@@ -3,7 +3,7 @@ Module: google_account
 Version: Odoo 18
 Type: Integration
 Tags: #odoo18, #integration, #oauth2, #google
-Related: [Modules/google-gmail](odoo-18/Modules/google-gmail.md), [Modules/google-calendar](odoo-18/Modules/google-calendar.md), [Core/API](odoo-18/Core/API.md)
+Related: [Modules/google-gmail](Modules/google-gmail.md), [Modules/google-calendar](Modules/google-calendar.md), [Core/API](Core/API.md)
 ---
 
 # Google Cloud Base (`google_account`)

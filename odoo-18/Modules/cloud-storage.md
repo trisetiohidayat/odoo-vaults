@@ -347,4 +347,4 @@ Menu: **Settings → General Settings → Cloud Storage** (app section in res.co
 
 Access: Requires Settings access (group System)
 
-Related: [Core/BaseModel](odoo-18/Core/BaseModel.md) (ir.attachment CRUD), [Modules/Mail](odoo-18/Modules/mail.md) (chatter attachments)
+Related: [Core/BaseModel](Core/BaseModel.md) (ir.attachment CRUD), [Modules/Mail](Modules/mail.md) (chatter attachments)

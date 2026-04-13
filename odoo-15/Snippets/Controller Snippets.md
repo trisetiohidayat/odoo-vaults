@@ -233,5 +233,5 @@ class FormController(http.Controller):
 
 ## See Also
 - [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — HTTP controller reference
-- [Core/Exceptions](odoo-18/Core/Exceptions.md) — Error handling
+- [Core/Exceptions](Core/Exceptions.md) — Error handling
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — Auth types

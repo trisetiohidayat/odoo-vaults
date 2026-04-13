@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, attachment-indexation]
 
 
 
-- [Modules/base](odoo-18/Modules/base.md) — Base/utility module
+- [Modules/base](Modules/base.md) — Base/utility module

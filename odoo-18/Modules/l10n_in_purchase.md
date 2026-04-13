@@ -36,7 +36,7 @@ India
 - `views/purchase_order_views.xml` — PO form with GST treatment field
 
 ## GST Treatment on Purchase
-GST treatment on vendor bills determines the applicable tax (intra-state CGST+SGST vs inter-state IGST) via fiscal positions from [Modules/l10n_in](odoo-18/Modules/l10n_in.md).
+GST treatment on vendor bills determines the applicable tax (intra-state CGST+SGST vs inter-state IGST) via fiscal positions from [Modules/l10n_in](Modules/l10n_in.md).
 
 Taxable treatments: regular, composition, special_economic_zone, deemed_export
 These require the vendor to have a valid GSTIN.

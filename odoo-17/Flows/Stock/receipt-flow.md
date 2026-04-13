@@ -189,7 +189,7 @@ When goods are returned to vendor:
 
 ## See Also
 
-- [Modules/stock](odoo-18/Modules/stock.md) — Full stock module reference
-- [Modules/purchase](odoo-18/Modules/purchase.md) — Purchase order workflow
-- [Modules/account](odoo-18/Modules/account.md) — Vendor bill matching
-- [Flows/Stock/delivery-flow](odoo-19/Flows/Stock/delivery-flow.md) — Outgoing delivery flow
+- [Modules/stock](Modules/stock.md) — Full stock module reference
+- [Modules/purchase](Modules/purchase.md) — Purchase order workflow
+- [Modules/account](Modules/account.md) — Vendor bill matching
+- [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) — Outgoing delivery flow

@@ -224,7 +224,7 @@ class ConfirmWizard(models.TransientModel):
 ```
 
 ## See Also
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — Model definition
-- [Core/Fields](odoo-18/Core/Fields.md) — Field types
-- [Core/API](odoo-18/Core/API.md) — Decorators
+- [Core/BaseModel](Core/BaseModel.md) — Model definition
+- [Core/Fields](Core/Fields.md) — Field types
+- [Core/API](Core/API.md) — Decorators
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine

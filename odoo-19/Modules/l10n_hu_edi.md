@@ -33,9 +33,9 @@ This module enables electronic invoicing compliance for Hungary through the **NA
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account_debit_note](odoo-18/Modules/account_debit_note.md) | Debit note support |
-| [Modules/base_iban](odoo-17/Modules/base_iban.md) | IBAN validation for Hungarian bank accounts |
-| [Modules/l10n_hu](odoo-18/Modules/l10n_hu.md) | Hungarian base accounting |
+| [Modules/account_debit_note](Modules/account_debit_note.md) | Debit note support |
+| [Modules/base_iban](Modules/base_iban.md) | IBAN validation for Hungarian bank accounts |
+| [Modules/l10n_hu](Modules/l10n_hu.md) | Hungarian base accounting |
 
 ## Auto-Install
 
@@ -172,8 +172,8 @@ Access rights via `security/ir.model.access.csv`:
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_hu](odoo-18/Modules/l10n_hu.md) | Base Hungarian accounting |
-| [Modules/account_debit_note](odoo-18/Modules/account_debit_note.md) | Debit note support |
+| [Modules/l10n_hu](Modules/l10n_hu.md) | Base Hungarian accounting |
+| [Modules/account_debit_note](Modules/account_debit_note.md) | Debit note support |
 
 ## Technical Notes
 

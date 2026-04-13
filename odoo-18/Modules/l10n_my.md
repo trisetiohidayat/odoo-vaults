@@ -14,7 +14,7 @@ Malaysia accounting localization providing the Malaysian chart of accounts and S
 Malaysia
 
 ## Dependencies
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) (account)
+- [Core/BaseModel](Core/BaseModel.md) (account)
 - `account` — core accounting module
 
 ## Key Models
@@ -48,7 +48,7 @@ None explicitly defined in the template module.
 
 ## EDI/Fiscal Reporting
 - SST-02 (B2) report via `account_tax_report_data.xml`
-- Companion module [Modules/l10n_my_ubl_pint](odoo-18/Modules/l10n_my_ubl_pint.md) for Peppol PINT MY e-invoicing
+- Companion module [Modules/l10n_my_ubl_pint](Modules/l10n_my_ubl_pint.md) for Peppol PINT MY e-invoicing
 
 ## Installation
 Install via Apps or during company setup by selecting Malaysia as country. Auto-installs with `account`. A post-install migration (`end-migrate_update_taxes`) updates tax definitions from v1.0.

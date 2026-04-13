@@ -49,4 +49,4 @@ Extends `res.company` to add seven social media URL fields. The fields are rende
 
 ---
 
-*See also: [Modules/website](odoo-18/Modules/website.md), [Modules/base](odoo-18/Modules/base.md)*
+*See also: [Modules/website](Modules/website.md), [Modules/base](Modules/base.md)*

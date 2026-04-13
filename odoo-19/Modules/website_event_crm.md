@@ -430,9 +430,9 @@ crm.lead
 
 ## See Also
 
-- [Modules/event_crm](odoo-17/Modules/event_crm.md) — Base CRM lead generation from event registrations
-- [Modules/website_event](odoo-18/Modules/website_event.md) — Website event pages, visitor tracking, registration form
-- [Modules/Event](odoo-18/Modules/event.md) — Core event management (`event.registration`, `event.lead.rule`)
-- [Modules/CRM](odoo-18/Modules/CRM.md) — CRM leads and opportunities
-- [Core/Fields](odoo-18/Core/Fields.md) — Many2one, One2many, Many2many field behavior
+- [Modules/event_crm](Modules/event_crm.md) — Base CRM lead generation from event registrations
+- [Modules/website_event](Modules/website_event.md) — Website event pages, visitor tracking, registration form
+- [Modules/Event](Modules/event.md) — Core event management (`event.registration`, `event.lead.rule`)
+- [Modules/CRM](Modules/CRM.md) — CRM leads and opportunities
+- [Core/Fields](Core/Fields.md) — Many2one, One2many, Many2many field behavior
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Event state machine (create → confirm → done)

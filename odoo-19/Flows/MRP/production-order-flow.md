@@ -376,11 +376,11 @@ def _action_done(self):
 
 ## Related
 
-- [Flows/MRP/bom-to-production-flow](odoo-19/Flows/MRP/bom-to-production-flow.md) — BOM to production order creation
-- [Flows/MRP/workorder-execution-flow](odoo-19/Flows/MRP/workorder-execution-flow.md) — Workorder lifecycle
-- [Modules/MRP](odoo-18/Modules/mrp.md) — MRP module reference
-- [Modules/Stock](odoo-18/Modules/stock.md) — Inventory and materials
-- [Modules/Account](odoo-18/Modules/account.md) — Inventory valuation
-- [Modules/Quality](odoo-18/Modules/quality.md) — Quality checks integration
+- [Flows/MRP/bom-to-production-flow](Flows/MRP/bom-to-production-flow.md) — BOM to production order creation
+- [Flows/MRP/workorder-execution-flow](Flows/MRP/workorder-execution-flow.md) — Workorder lifecycle
+- [Modules/MRP](Modules/mrp.md) — MRP module reference
+- [Modules/Stock](Modules/stock.md) — Inventory and materials
+- [Modules/Account](Modules/account.md) — Inventory valuation
+- [Modules/Quality](Modules/quality.md) — Quality checks integration
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns
-- [Core/API](odoo-18/Core/API.md) — @api decorator patterns
+- [Core/API](Core/API.md) — @api decorator patterns

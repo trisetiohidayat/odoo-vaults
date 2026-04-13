@@ -614,9 +614,9 @@ Client-side duplicate detection endpoint. Called via RPC from the frontend `HrRe
 
 ## Related Documentation
 
-- [Modules/hr_recruitment](odoo-17/Modules/hr_recruitment.md) — Backend recruitment pipeline, applicant management, stages
-- [Modules/HR](odoo-18/Modules/hr.md) — Departments, employees, contract types
-- [Modules/Website](odoo-18/Modules/website.md) — Website pages, SEO, multi-website, sitemap
-- [Modules/website_mail](odoo-18/Modules/website_mail.md) — Website-aware messaging and portal
-- [Core/API](odoo-18/Core/API.md) — @api.depends, @api.onchange, sudo() behavior
+- [Modules/hr_recruitment](Modules/hr_recruitment.md) — Backend recruitment pipeline, applicant management, stages
+- [Modules/HR](Modules/hr.md) — Departments, employees, contract types
+- [Modules/Website](Modules/website.md) — Website pages, SEO, multi-website, sitemap
+- [Modules/website_mail](Modules/website_mail.md) — Website-aware messaging and portal
+- [Core/API](Core/API.md) — @api.depends, @api.onchange, sudo() behavior
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ir.rule, ACL CSV, implied groups

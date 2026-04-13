@@ -10,7 +10,7 @@ Tags: #odoo18 #l10n #accounting #egypt #edi #e-invoice
 ## Overview
 Egyptian Tax Authority (ETA) e-Invoicing integration. This module connects Odoo's accounting to the ETA portal (preproduction and production environments) for mandatory electronic invoice submission, signing, and validation. It is the most complex localization module in the MEA set, with a full EDI pipeline, cryptographic thumb-drive signing, and JSON-based invoice submission.
 
-See also: [Modules/l10n_eg](odoo-18/Modules/l10n_eg.md) (base accounting)
+See also: [Modules/l10n_eg](Modules/l10n_eg.md) (base accounting)
 
 ## Country
 Egypt (Arab Republic of Egypt) — country code `eg`

@@ -45,7 +45,7 @@ Extends journal with Nilvera-specific alias configuration.
 Adds Nilvera API credentials and settings.
 
 ## Related
-- [Modules/l10n_tr](odoo-18/Modules/l10n_tr.md) — Core Turkish accounting
-- [Modules/l10n_tr_nilvera_einvoice](odoo-18/Modules/l10n_tr_nilvera_einvoice.md) — Turkish e-invoice via Nilvera
-- [Modules/l10n_tr_nilvera_edispatch](odoo-18/Modules/l10n_tr_nilvera_edispatch.md) — Turkish e-despatch note via Nilvera
-- [Modules/l10n_tr_nilvera_einvoice_extended](odoo-18/Modules/l10n_tr_nilvera_einvoice_extended.md) — Extended Turkish e-invoice features
+- [Modules/l10n_tr](Modules/l10n_tr.md) — Core Turkish accounting
+- [Modules/l10n_tr_nilvera_einvoice](Modules/l10n_tr_nilvera_einvoice.md) — Turkish e-invoice via Nilvera
+- [Modules/l10n_tr_nilvera_edispatch](Modules/l10n_tr_nilvera_edispatch.md) — Turkish e-despatch note via Nilvera
+- [Modules/l10n_tr_nilvera_einvoice_extended](Modules/l10n_tr_nilvera_einvoice_extended.md) — Extended Turkish e-invoice features

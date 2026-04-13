@@ -313,13 +313,13 @@ No dedicated security CSV files exist. Security is enforced through:
 
 ## Related Modules
 
-- [Modules/project](odoo-18/Modules/project.md) — Core project management
-- [Modules/stock](odoo-18/Modules/stock.md) — Stock picking and warehouse operations
-- [Modules/project_stock_account](odoo-18/Modules/project_stock_account.md) — Adds stock valuation and analytic accounting to project stock
-- [Modules/project_purchase_stock](odoo-18/Modules/project_purchase_stock.md) — Purchase order to receipt traceability per project
-- [Modules/project_mrp_stock_landed_costs](odoo-18/Modules/project_mrp_stock_landed_costs.md) — MRP material traceability via project stock
-- [Modules/project_purchase](odoo-18/Modules/project_purchase.md) — Purchase orders linked to projects
-- [Modules/project_mrp](odoo-18/Modules/project_mrp.md) — Manufacturing orders linked to projects
+- [Modules/project](Modules/project.md) — Core project management
+- [Modules/stock](Modules/stock.md) — Stock picking and warehouse operations
+- [Modules/project_stock_account](Modules/project_stock_account.md) — Adds stock valuation and analytic accounting to project stock
+- [Modules/project_purchase_stock](Modules/project_purchase_stock.md) — Purchase order to receipt traceability per project
+- [Modules/project_mrp_stock_landed_costs](Modules/project_mrp_stock_landed_costs.md) — MRP material traceability via project stock
+- [Modules/project_purchase](Modules/project_purchase.md) — Purchase orders linked to projects
+- [Modules/project_mrp](Modules/project_mrp.md) — Manufacturing orders linked to projects
 
 ---
 

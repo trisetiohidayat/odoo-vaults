@@ -22,5 +22,5 @@ This is a bridge/extension module that combines `website_sale_comparison` and `w
 - `views/templates.xml` - QWeb templates for wishlist comparison elements
 
 ## Related
-- [Modules/website_sale_comparison](odoo-18/Modules/website_sale_comparison.md) - Product comparison base
-- [Modules/website_sale_wishlist](odoo-17/Modules/website_sale_wishlist.md) - Wishlist base
+- [Modules/website_sale_comparison](Modules/website_sale_comparison.md) - Product comparison base
+- [Modules/website_sale_wishlist](Modules/website_sale_wishlist.md) - Wishlist base

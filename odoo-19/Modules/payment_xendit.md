@@ -39,4 +39,4 @@ Indonesia, Philippines, Vietnam, Thailand, Malaysia
 **`_get_default_payment_method_codes()`** — Returns Xendit default payment method codes
 
 ## Related
-- [Modules/payment](odoo-18/Modules/payment.md) — Base payment engine
+- [Modules/payment](Modules/payment.md) — Base payment engine

@@ -53,4 +53,4 @@ Allows updating tax grids (account tags) on existing accounting journal entries 
 Handles document types: invoice, refund, entry (balance-sign logic for entry type moves). Also handles cash basis origin moves via `tax_cash_basis_origin_move_id`.
 
 ## Related
-- [Modules/account](odoo-18/Modules/account.md)
+- [Modules/account](Modules/account.md)

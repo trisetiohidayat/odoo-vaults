@@ -1166,7 +1166,7 @@ CREATE UNIQUE INDEX account_move_secure_sequence_idx
 
 ## See Also
 
-- [Modules/Payment](odoo-18/Modules/payment.md) — `account.payment` model, payment workflows
+- [Modules/Payment](Modules/payment.md) — `account.payment` model, payment workflows
 - [Modules/AccountAnticipation](Modules/AccountAnticipation.md) — early payment discounts, EPD
 - [Modules/AccountFollowup](Modules/AccountFollowup.md) — partner payment follow-up / dunning
 - [Modules/AccountBatchPayment](Modules/AccountBatchPayment.md) — batch payment processing

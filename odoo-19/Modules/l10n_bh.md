@@ -40,4 +40,4 @@ Activates:
 - Custom model files: template_bh.py
 
 ## Related
-- [Modules/l10n_bh](odoo-18/Modules/l10n_bh.md) - Core accounting
+- [Modules/l10n_bh](Modules/l10n_bh.md) - Core accounting

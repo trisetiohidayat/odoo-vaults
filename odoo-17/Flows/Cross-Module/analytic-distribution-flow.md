@@ -584,8 +584,8 @@ def _compute_debit_credit_balance(self):
 ---
 
 ## See Also
-- [Modules/analytic](odoo-18/Modules/analytic.md) — `account.analytic.account`, `account.analytic.plan`
-- [Modules/account](odoo-18/Modules/account.md) — `account.move.line`, `analytic_distribution` field
-- [Flows/Cross-Module/accounting-reconciliation-flow](odoo-17/Flows/Cross-Module/accounting-reconciliation-flow.md) — reconciliation that may trigger CABA
-- [Flows/Sale/full-sale-to-cash-flow](odoo-17/Flows/Sale/full-sale-to-cash-flow.md) — sale with analytics end-to-end
-- [Flows/Purchase/full-purchase-to-payment-flow](odoo-17/Flows/Purchase/full-purchase-to-payment-flow.md) — purchase with analytics end-to-end
+- [Modules/analytic](Modules/analytic.md) — `account.analytic.account`, `account.analytic.plan`
+- [Modules/account](Modules/account.md) — `account.move.line`, `analytic_distribution` field
+- [Flows/Cross-Module/accounting-reconciliation-flow](Flows/Cross-Module/accounting-reconciliation-flow.md) — reconciliation that may trigger CABA
+- [Flows/Sale/full-sale-to-cash-flow](Flows/Sale/full-sale-to-cash-flow.md) — sale with analytics end-to-end
+- [Flows/Purchase/full-purchase-to-payment-flow](Flows/Purchase/full-purchase-to-payment-flow.md) — purchase with analytics end-to-end

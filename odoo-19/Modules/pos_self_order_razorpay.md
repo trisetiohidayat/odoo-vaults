@@ -317,8 +317,8 @@ This prevents accidental configuration of Razorpay in non-INR deployments.
 
 ## Related
 
-- [Modules/pos_self_order](odoo-18/Modules/pos_self_order.md) — Base self-order module (provides `PosSelfOrderController`, `_send_payment_result`, `_verify_pos_config`)
-- [Modules/pos_razorpay](odoo-18/Modules/pos_razorpay.md) — Razorpay terminal integration (provides `RazorpayPosRequest`, API methods)
-- [Modules/pos_self_order_adyen](odoo-18/Modules/pos_self_order_adyen.md) — Adyen terminal in self-order (push-based webhook pattern)
-- [Modules/pos_self_order_pine_labs](odoo-19/Modules/pos_self_order_pine_labs.md) — Pine Labs terminal in self-order (polls paisa-based amounts)
-- [Modules/pos_self_order_qfpay](odoo-19/Modules/pos_self_order_qfpay.md) — QFPay terminal in self-order (webhook with HKD currency)
+- [Modules/pos_self_order](Modules/pos_self_order.md) — Base self-order module (provides `PosSelfOrderController`, `_send_payment_result`, `_verify_pos_config`)
+- [Modules/pos_razorpay](Modules/pos_razorpay.md) — Razorpay terminal integration (provides `RazorpayPosRequest`, API methods)
+- [Modules/pos_self_order_adyen](Modules/pos_self_order_adyen.md) — Adyen terminal in self-order (push-based webhook pattern)
+- [Modules/pos_self_order_pine_labs](Modules/pos_self_order_pine_labs.md) — Pine Labs terminal in self-order (polls paisa-based amounts)
+- [Modules/pos_self_order_qfpay](Modules/pos_self_order_qfpay.md) — QFPay terminal in self-order (webhook with HKD currency)

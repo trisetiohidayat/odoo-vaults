@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, pos-self-order-sale]
 
 
 
-- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — POS base module
+- [Modules/point_of_sale](Modules/point_of_sale.md) — POS base module

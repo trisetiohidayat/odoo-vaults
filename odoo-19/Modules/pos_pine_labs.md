@@ -24,5 +24,5 @@ Integrates your POS with Pine Labs payment terminals. Available only for compani
 - POS frontend + unit test assets for Pine Labs
 
 ## Related
-- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — Base POS module
-- [Modules/pos_self_order_pine_labs](odoo-19/Modules/pos_self_order_pine_labs.md) — Pine Labs in self-order
+- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
+- [Modules/pos_self_order_pine_labs](Modules/pos_self_order_pine_labs.md) — Pine Labs in self-order

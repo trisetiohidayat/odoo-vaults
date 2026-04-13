@@ -34,8 +34,8 @@ Localized accounting for Oman. Activates chart of accounts, taxes, VAT return, f
 - Demo data: `demo/demo_company.xml`
 
 ## Related
-- [Modules/account](odoo-18/Modules/account.md)
-- [Modules/l10n_gcc_invoice](odoo-18/Modules/l10n_gcc_invoice.md)
-- [Modules/l10n_sa](odoo-18/Modules/l10n_sa.md)
-- [Modules/l10n_kw](odoo-18/Modules/l10n_kw.md)
-- [Modules/l10n_qa](odoo-18/Modules/l10n_qa.md)
+- [Modules/account](Modules/account.md)
+- [Modules/l10n_gcc_invoice](Modules/l10n_gcc_invoice.md)
+- [Modules/l10n_sa](Modules/l10n_sa.md)
+- [Modules/l10n_kw](Modules/l10n_kw.md)
+- [Modules/l10n_qa](Modules/l10n_qa.md)

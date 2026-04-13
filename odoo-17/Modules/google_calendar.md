@@ -152,5 +152,5 @@ def _get_sync_domain(self):
 ```
 
 ## See Also
-- [Modules/Calendar](odoo-18/Modules/calendar.md) — `calendar.event`, `calendar.recurrence`
+- [Modules/Calendar](Modules/calendar.md) — `calendar.event`, `calendar.recurrence`
 - [Modules/Google](Modules/Google.md) — Google service credentials (`google_service`)

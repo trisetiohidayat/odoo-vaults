@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, payment-demo]
 
 
 
-- [Modules/account](odoo-18/Modules/account.md) — Payment provider for accounting
+- [Modules/account](Modules/account.md) — Payment provider for accounting

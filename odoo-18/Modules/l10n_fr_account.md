@@ -75,7 +75,7 @@ France mandates electronic invoices for B2G (Chorus Pro) and increasingly for B2
 France is implementing a national e-invoicing portal (Chorus Facturation) for all B2G invoices, with a phased rollout for B2B invoicing via the PDP (Plateforme de Dématérialisation) system.
 
 ## Installation
-Install after `[Modules/l10n_fr](odoo-18/Modules/l10n_fr.md)`. Auto-configured for French mainland companies. Monaco companies use the PRG chart template.
+Install after `[Modules/l10n_fr](Modules/l10n_fr.md)`. Auto-configured for French mainland companies. Monaco companies use the PRG chart template.
 
 ## Historical Notes
 - Odoo 17→18: Factur-X attachment to PDFs improved for Chorus Pro compatibility.

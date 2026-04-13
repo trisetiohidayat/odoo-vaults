@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) template for eCommerce managers showing online sales performance, cart abandonment, and website conversion metrics.
+Provides a pre-configured [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template for eCommerce managers showing online sales performance, cart abandonment, and website conversion metrics.
 
 This is a **data-only module**: contains only a `data/dashboards.xml` file that creates a sample eCommerce dashboard record.
 
@@ -23,6 +23,6 @@ This is a **data-only module**: contains only a `data/dashboards.xml` file that 
 - Auto-installs when `website_sale` is active
 
 ## Related
-- [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) — Dashboard framework
-- [Modules/website_sale](odoo-18/Modules/website_sale.md) — eCommerce/online shop
-- [Modules/Sale](odoo-18/Modules/sale.md) — Sales management
+- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/website_sale](Modules/website_sale.md) — eCommerce/online shop
+- [Modules/Sale](Modules/sale.md) — Sales management

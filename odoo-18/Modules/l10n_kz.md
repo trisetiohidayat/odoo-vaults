@@ -14,7 +14,7 @@ The Kazakhstan localization module provides a base chart of accounts and the sta
 Kazakhstan (`KZ`)
 
 ## Dependencies
-- [account](odoo-18/Modules/account.md)
+- [account](Modules/account.md)
 
 ## Key Models
 

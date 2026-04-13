@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #latam #checks
 # l10n_latam_check — Third Party and Deferred/Electronic Checks Management
 
 ## Overview
-Manages both own (company-issued) and third-party checks within the LATAM accounting framework. Extends the base `account_check_printing` module with deferred/electronic check support, post-dated check cash-in dates, split move line generation for multiple checks, and a full operations trail (handed → deposited → rejected → returned → voided). Originated in Argentine localization; generalized for all LATAM countries. Used by [Modules/l10n_ar](odoo-18/Modules/l10n_ar.md) for AFIP-compliant check workflows.
+Manages both own (company-issued) and third-party checks within the LATAM accounting framework. Extends the base `account_check_printing` module with deferred/electronic check support, post-dated check cash-in dates, split move line generation for multiple checks, and a full operations trail (handed → deposited → rejected → returned → voided). Originated in Argentine localization; generalized for all LATAM countries. Used by [Modules/l10n_ar](Modules/l10n_ar.md) for AFIP-compliant check workflows.
 
 ## Country/Region
 Multi-country (LATAM)

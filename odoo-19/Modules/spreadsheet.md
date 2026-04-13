@@ -788,9 +788,9 @@ Cells holding unresolved data sources display `"Loading..."` and throw `LoadingD
 
 ## Related Documentation
 
-- [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) — Dashboard templates using `spreadsheet.mixin`
-- [Modules/spreadsheet_account](odoo-18/Modules/spreadsheet_account.md) — Accounting data source and currency formulas
-- [Core/API](odoo-18/Core/API.md) — `@api.model` RPC methods, `@api.constrains`, `@api.depends`
-- [Core/Fields](odoo-18/Core/Fields.md) — Binary field storage, computed/inverse pattern
+- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard templates using `spreadsheet.mixin`
+- [Modules/spreadsheet_account](Modules/spreadsheet_account.md) — Accounting data source and currency formulas
+- [Core/API](Core/API.md) — `@api.model` RPC methods, `@api.constrains`, `@api.depends`
+- [Core/Fields](Core/Fields.md) — Binary field storage, computed/inverse pattern
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Collaboration patterns via `bus` module
-- [Modules/bus](odoo-18/Modules/bus.md) — WebSocket real-time collaboration
+- [Modules/bus](Modules/bus.md) — WebSocket real-time collaboration

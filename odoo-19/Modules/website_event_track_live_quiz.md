@@ -132,7 +132,7 @@ The `show_quiz` flag in the suggestion API is consumed by the live player's Java
 
 ## Related Documentation
 
-- [Modules/website_event_track_quiz](odoo-18/Modules/website_event_track_quiz.md) — Full quiz model, leaderboard, submit/reset endpoints
-- [Modules/website_event_track_live](odoo-18/Modules/website_event_track_live.md) — Live streaming controller, YouTube integration, track suggestions
-- [Modules/website_event_track](odoo-18/Modules/website_event_track.md) — Base track model
-- [Modules/website_profile](odoo-18/Modules/website_profile.md) — Visitor identity and karma
+- [Modules/website_event_track_quiz](Modules/website_event_track_quiz.md) — Full quiz model, leaderboard, submit/reset endpoints
+- [Modules/website_event_track_live](Modules/website_event_track_live.md) — Live streaming controller, YouTube integration, track suggestions
+- [Modules/website_event_track](Modules/website_event_track.md) — Base track model
+- [Modules/website_profile](Modules/website_profile.md) — Visitor identity and karma

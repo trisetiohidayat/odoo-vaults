@@ -77,6 +77,6 @@ self.env.ref('xml_id')          # resolve external ref
 ```
 
 ## See Also
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — CRUD methods
-- [Core/API](odoo-18/Core/API.md) — @api.depends
-- [Core/Fields](odoo-18/Core/Fields.md) — Field types
+- [Core/BaseModel](Core/BaseModel.md) — CRUD methods
+- [Core/API](Core/API.md) — @api.depends
+- [Core/Fields](Core/Fields.md) — Field types

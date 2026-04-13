@@ -15,4 +15,4 @@ Argentinean - Stock
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/l10n_ar](odoo-18/Modules/l10n_ar.md) — Core accounting
+- [Modules/l10n_ar](Modules/l10n_ar.md) — Core accounting

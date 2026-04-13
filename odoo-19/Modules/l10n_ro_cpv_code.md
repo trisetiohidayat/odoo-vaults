@@ -31,7 +31,7 @@ The CPV system is the EU-standard vocabulary for procurement classification:
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/l10n_ro_edi](odoo-18/Modules/l10n_ro_edi.md) | Romanian e-invoicing (which depends on [Modules/l10n_ro](odoo-18/Modules/l10n_ro.md)) |
+| [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) | Romanian e-invoicing (which depends on [Modules/l10n_ro](Modules/l10n_ro.md)) |
 
 ## Category
 
@@ -94,7 +94,7 @@ class L10nRoCpvCode(models.Model):
 
 ### CIUS-RO Integration
 
-The [Modules/l10n_ro_edi](odoo-18/Modules/l10n_ro_edi.md) module automatically:
+The [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) module automatically:
 - Reads CPV code from product
 - Includes it in the UBL invoice under `Item/CommodityClassification`
 - Validates that CPV code is present for Romanian B2G invoices
@@ -103,8 +103,8 @@ The [Modules/l10n_ro_edi](odoo-18/Modules/l10n_ro_edi.md) module automatically:
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_ro](odoo-18/Modules/l10n_ro.md) | Base Romanian accounting |
-| [Modules/l10n_ro_edi](odoo-18/Modules/l10n_ro_edi.md) | E-invoicing that uses CPV codes |
+| [Modules/l10n_ro](Modules/l10n_ro.md) | Base Romanian accounting |
+| [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) | E-invoicing that uses CPV codes |
 
 ## Technical Notes
 
@@ -115,5 +115,5 @@ The [Modules/l10n_ro_edi](odoo-18/Modules/l10n_ro_edi.md) module automatically:
 
 ## See Also
 
-- [Modules/l10n_ro](odoo-18/Modules/l10n_ro.md) - Romanian accounting
-- [Modules/l10n_ro_edi](odoo-18/Modules/l10n_ro_edi.md) - ANAF e-Factura integration
+- [Modules/l10n_ro](Modules/l10n_ro.md) - Romanian accounting
+- [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) - ANAF e-Factura integration

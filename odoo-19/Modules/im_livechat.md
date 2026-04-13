@@ -1375,9 +1375,9 @@ The `livechat_status = 'need_help'` field enables peer-to-peer escalation:
 
 ## See Also
 
-- [Modules/mail](odoo-18/Modules/mail.md) — Core messaging
-- [Modules/rating](odoo-18/Modules/rating.md) — Customer ratings
-- [Modules/im_livechat](odoo-17/Modules/im_livechat.md) — Discussion channels
-- [Modules/bus](odoo-18/Modules/bus.md) — WebSocket bus system
-- [Core/API](odoo-18/Core/API.md) — @api.model, @api.depends, computed fields
+- [Modules/mail](Modules/mail.md) — Core messaging
+- [Modules/rating](Modules/rating.md) — Customer ratings
+- [Modules/im_livechat](Modules/im_livechat.md) — Discussion channels
+- [Modules/bus](Modules/bus.md) — WebSocket bus system
+- [Core/API](Core/API.md) — @api.model, @api.depends, computed fields
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns

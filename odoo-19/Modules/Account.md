@@ -9,16 +9,16 @@ version: "3.0"
 ## Quick Access
 
 ### Flows (Technical)
-- [Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md) - Draft invoice creation
-- [Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md) - Post invoice (draft to posted)
-- [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) - Register payment and reconciliation
-- [Flows/Cross-Module/sale-stock-account-flow](odoo-19/Flows/Cross-Module/sale-stock-account-flow.md) - Sale to Stock to Invoice
-- [Flows/Cross-Module/purchase-stock-account-flow](odoo-19/Flows/Cross-Module/purchase-stock-account-flow.md) - PO to Receipt to Bill
+- [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) - Draft invoice creation
+- [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) - Post invoice (draft to posted)
+- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) - Register payment and reconciliation
+- [Flows/Cross-Module/sale-stock-account-flow](Flows/Cross-Module/sale-stock-account-flow.md) - Sale to Stock to Invoice
+- [Flows/Cross-Module/purchase-stock-account-flow](Flows/Cross-Module/purchase-stock-account-flow.md) - PO to Receipt to Bill
 
 ### Related Modules
-- [Modules/Sale](odoo-18/Modules/sale.md) - Customer invoice source
-- [Modules/Purchase](odoo-18/Modules/purchase.md) - Vendor bill source
-- [Modules/Stock](odoo-18/Modules/stock.md) - Inventory valuation
+- [Modules/Sale](Modules/sale.md) - Customer invoice source
+- [Modules/Purchase](Modules/purchase.md) - Vendor bill source
+- [Modules/Stock](Modules/stock.md) - Inventory valuation
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) - State machine pattern
 
 ---

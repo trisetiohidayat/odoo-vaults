@@ -2044,9 +2044,9 @@ def _reverse_moves(self, default_values_list=None, cancel=False):
 
 ## See Also
 
-- [Modules/Account](odoo-18/Modules/account.md) - Journal entries that become asset acquisitions
-- [Modules/account_analytic](odoo-19/Modules/account_analytic.md) - Analytic distribution on asset depreciation
-- [Modules/account_accountant](odoo-17/Modules/account_accountant.md) - Required EE framework dependency
-- [Core/API](odoo-18/Core/API.md) - @api.depends, computed fields, recursive store
-- [Core/Fields](odoo-18/Core/Fields.md) - Monetary fields, Many2many relations
+- [Modules/Account](Modules/account.md) - Journal entries that become asset acquisitions
+- [Modules/account_analytic](Modules/account_analytic.md) - Analytic distribution on asset depreciation
+- [Modules/account_accountant](Modules/account_accountant.md) - Required EE framework dependency
+- [Core/API](Core/API.md) - @api.depends, computed fields, recursive store
+- [Core/Fields](Core/Fields.md) - Monetary fields, Many2many relations
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) - ACL for asset models

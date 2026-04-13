@@ -46,5 +46,5 @@ Extends partner invoice sending method to include postal option.
 5. Letters are printed via the `snailmail` module's IAP infrastructure
 
 ## Related
-- [Modules/snailmail](odoo-18/Modules/snailmail.md)
-- [Modules/Account](odoo-18/Modules/account.md)
+- [Modules/snailmail](Modules/snailmail.md)
+- [Modules/Account](Modules/account.md)

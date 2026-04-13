@@ -518,9 +518,9 @@ website_timesheet/
 
 ## See Also
 
-- [Modules/hr_timesheet](odoo-18/Modules/hr_timesheet.md) — Core timesheet model (`account.analytic.line`), portal controller, and the base `_show_portal_timesheets()` stub returning `True`
-- [Modules/project](odoo-18/Modules/project.md) — Project and task models (`project.project`, `project.task`) that provide the `allow_timesheets` flag consumed in portal templates
-- [Modules/sale_timesheet](odoo-18/Modules/sale_timesheet.md) — Consumed via `sale_timesheet_portal_templates.xml` which also gates its "View Timesheets" button on `_show_portal_timesheets()`
-- [Modules/sale_project](odoo-18/Modules/sale_project.md) — Sale-Project bridge; SOL → project/task generation; timesheets linked to SOLs for billing
+- [Modules/hr_timesheet](Modules/hr_timesheet.md) — Core timesheet model (`account.analytic.line`), portal controller, and the base `_show_portal_timesheets()` stub returning `True`
+- [Modules/project](Modules/project.md) — Project and task models (`project.project`, `project.task`) that provide the `allow_timesheets` flag consumed in portal templates
+- [Modules/sale_timesheet](Modules/sale_timesheet.md) — Consumed via `sale_timesheet_portal_templates.xml` which also gates its "View Timesheets" button on `_show_portal_timesheets()`
+- [Modules/sale_project](Modules/sale_project.md) — Sale-Project bridge; SOL → project/task generation; timesheets linked to SOLs for billing
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL design, ir.rule, record-level access
-- [Core/Fields](odoo-18/Core/Fields.md) — `ir.ui.view` model and the `key` + `active` + `inherit_id` fields
+- [Core/Fields](Core/Fields.md) — `ir.ui.view` model and the `key` + `active` + `inherit_id` fields

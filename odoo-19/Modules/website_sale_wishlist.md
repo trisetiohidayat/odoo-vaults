@@ -773,7 +773,7 @@ When the button gets `disabled` class (already in wishlist), the CSS overrides t
 
 ## Integration with Other Modules
 
-- **[Modules/website_sale](odoo-18/Modules/website_sale.md)**: Full dependency. `website_sale` provides the product catalog (`shop_product_buttons`, `products_item`, `cart_lines`), pricelist infrastructure, and checkout flow. Wishlist is purely an enhancement layer.
+- **[Modules/website_sale](Modules/website_sale.md)**: Full dependency. `website_sale` provides the product catalog (`shop_product_buttons`, `products_item`, `cart_lines`), pricelist infrastructure, and checkout flow. Wishlist is purely an enhancement layer.
 - **`website`**: Extended with `wishlist_opt_products_design_classes`, `wishlist_grid_columns`, `wishlist_mobile_columns`, `wishlist_gap`. The controller uses `request.website` for all context.
 - **`product.product` / `product.template`**: Extended with `_is_in_wishlist()` for variant-level and template-level membership checks.
 - **`res.partner`**: O2M reverse via `wishlist_ids` for partner-level wishlist access.

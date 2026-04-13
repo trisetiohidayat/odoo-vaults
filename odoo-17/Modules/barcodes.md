@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, barcodes]
 
 
 
-- [Modules/stock](odoo-18/Modules/stock.md) — Barcode scanning for inventory
+- [Modules/stock](Modules/stock.md) — Barcode scanning for inventory

@@ -20,6 +20,6 @@ Extends `mass_mailing_sale` to support SMS campaigns for sale order customers. C
 | `ab_testing_sms_winner_selection` | Selection | Adds `sale_quotation_count` and `sale_invoiced_amount` options for SMS A/B testing winner selection |
 
 ## Related
-- [Modules/mass_mailing_sale](odoo-17/Modules/mass_mailing_sale.md) - Sale mass mailing
-- [Modules/mass_mailing_sms](odoo-18/Modules/mass_mailing_sms.md) - SMS marketing
-- [Modules/Sale](odoo-18/Modules/sale.md) - Sales module
+- [Modules/mass_mailing_sale](Modules/mass_mailing_sale.md) - Sale mass mailing
+- [Modules/mass_mailing_sms](Modules/mass_mailing_sms.md) - SMS marketing
+- [Modules/Sale](Modules/sale.md) - Sales module

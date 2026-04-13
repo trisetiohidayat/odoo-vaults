@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #colombia #pos
 # l10n_co_pos — Colombian Point of Sale
 
 ## Overview
-Bridge module adding Colombian requirements to the Point of Sale application. Depends on [Modules/l10n_co](odoo-18/Modules/l10n_co.md) and `point_of_sale`. Loads Colombian-specific reference data into POS sessions.
+Bridge module adding Colombian requirements to the Point of Sale application. Depends on [Modules/l10n_co](Modules/l10n_co.md) and `point_of_sale`. Loads Colombian-specific reference data into POS sessions.
 
 ## Country/Region
 Colombia (CO)

@@ -83,6 +83,6 @@ def _onchange_field1(self):
 
 - [New Features/What's New](odoo-18/New Features/What's New.md) - Overview of new features
 - [New Features/New Modules](odoo-18/New Features/New Modules.md) - New module details
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) - Core model API
-- [Core/Fields](odoo-18/Core/Fields.md) - Field types
-- [Core/API](odoo-18/Core/API.md) - Decorators
+- [Core/BaseModel](Core/BaseModel.md) - Core model API
+- [Core/Fields](Core/Fields.md) - Field types
+- [Core/API](Core/API.md) - Decorators

@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, stock-sms]
 
 
 
-- [Modules/stock](odoo-18/Modules/stock.md) — Inventory base module
+- [Modules/stock](Modules/stock.md) — Inventory base module

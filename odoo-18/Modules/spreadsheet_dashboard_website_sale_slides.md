@@ -22,7 +22,7 @@ Provides a `spreadsheet.dashboard` record named "eLearning" for course/slide sal
 
 ## Extends
 
-- [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) — base dashboard framework
+- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — base dashboard framework
 - `website_sale_slides` — eLearning paid courses
 
 ## Data
@@ -39,4 +39,4 @@ Provides a `spreadsheet.dashboard` record named "eLearning" for course/slide sal
 
 ---
 
-*See also: [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md), [Modules/website_slides](odoo-18/Modules/website_slides.md)*
+*See also: [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md), [Modules/website_slides](Modules/website_slides.md)*

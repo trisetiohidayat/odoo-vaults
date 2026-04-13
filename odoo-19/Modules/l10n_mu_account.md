@@ -35,4 +35,4 @@ This is the base module to manage the accounting chart for the Republic of Mauri
 - Custom model files: account_move.py, base_document_layout.py, template_mu.py
 
 ## Related
-- [Modules/l10n_fr](odoo-18/Modules/l10n_fr.md) - Core accounting
+- [Modules/l10n_fr](Modules/l10n_fr.md) - Core accounting

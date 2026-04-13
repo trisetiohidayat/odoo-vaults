@@ -346,7 +346,7 @@ website_mail
 
 ## Related
 
-- [Modules/website](odoo-18/Modules/website.md) — Base website, provides `website.layout`, `#wrapwrap`, and `request.website`
-- [Modules/mail](odoo-18/Modules/mail.md) — Core messaging: `mail.thread`, `mail.followers`, `message_subscribe`
-- [Modules/website_mass_mailing](odoo-18/Modules/website_mass_mailing.md) — Newsletter subscription with similar CAPTCHA + subscribe pattern
-- [Modules/website_event](odoo-18/Modules/website_event.md) — Event follow widget using `website_mail.follow` template
+- [Modules/website](Modules/website.md) — Base website, provides `website.layout`, `#wrapwrap`, and `request.website`
+- [Modules/mail](Modules/mail.md) — Core messaging: `mail.thread`, `mail.followers`, `message_subscribe`
+- [Modules/website_mass_mailing](Modules/website_mass_mailing.md) — Newsletter subscription with similar CAPTCHA + subscribe pattern
+- [Modules/website_event](Modules/website_event.md) — Event follow widget using `website_mail.follow` template

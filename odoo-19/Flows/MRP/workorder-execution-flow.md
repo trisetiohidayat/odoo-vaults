@@ -347,10 +347,10 @@ def action_record_production(self):
 
 ## Related
 
-- [Flows/MRP/production-order-flow](odoo-19/Flows/MRP/production-order-flow.md) — Production order execution
-- [Flows/MRP/bom-to-production-flow](odoo-19/Flows/MRP/bom-to-production-flow.md) — BOM to production order creation
-- [Modules/MRP](odoo-18/Modules/mrp.md) — MRP module reference
-- [Modules/Stock](odoo-18/Modules/stock.md) — Inventory and materials
-- [Modules/Quality](odoo-18/Modules/quality.md) — Quality checks
+- [Flows/MRP/production-order-flow](Flows/MRP/production-order-flow.md) — Production order execution
+- [Flows/MRP/bom-to-production-flow](Flows/MRP/bom-to-production-flow.md) — BOM to production order creation
+- [Modules/MRP](Modules/mrp.md) — MRP module reference
+- [Modules/Stock](Modules/stock.md) — Inventory and materials
+- [Modules/Quality](Modules/quality.md) — Quality checks
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns
-- [Core/API](odoo-18/Core/API.md) — @api decorator patterns
+- [Core/API](Core/API.md) — @api decorator patterns

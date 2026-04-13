@@ -1044,7 +1044,7 @@ When `useProxy` is True, the POS can route kitchen print jobs to IoT boxes. The 
 
 ## Related Documentation
 
-- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — Parent module
-- [Modules/pos](odoo-19/Modules/pos.md) — Preset order system
-- [Modules/pos](odoo-19/Modules/pos.md) — Kitchen display
-- [Modules/pos_self_order](odoo-18/Modules/pos_self_order.md) — Self-service kiosk
+- [Modules/point_of_sale](Modules/point_of_sale.md) — Parent module
+- [Modules/pos](Modules/pos.md) — Preset order system
+- [Modules/pos](Modules/pos.md) — Kitchen display
+- [Modules/pos_self_order](Modules/pos_self_order.md) — Self-service kiosk

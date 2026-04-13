@@ -97,5 +97,5 @@ A mailing list groups `mailing.contact` records.
 
 ## See Also
 
-- [Modules/mail](odoo-18/Modules/mail.md) — Messaging foundation used by mass_mailing
-- [Modules/portal](odoo-18/Modules/portal.md) — Portal for subscription management
+- [Modules/mail](Modules/mail.md) — Messaging foundation used by mass_mailing
+- [Modules/portal](Modules/portal.md) — Portal for subscription management

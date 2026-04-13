@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #peru #ecommerce
 # l10n_pe_website_sale — Peruvian eCommerce Bridge
 
 ## Overview
-Bridge module connecting [Modules/l10n_pe](odoo-18/Modules/l10n_pe.md) with `website_sale`. Exposes the Peruvian Identification Type (DNI, RUC, Carnet de Extranjeria) in the eCommerce checkout form so online customers can select their document type during purchase. Auto-installs with website_sale and l10n_pe.
+Bridge module connecting [Modules/l10n_pe](Modules/l10n_pe.md) with `website_sale`. Exposes the Peruvian Identification Type (DNI, RUC, Carnet de Extranjeria) in the eCommerce checkout form so online customers can select their document type during purchase. Auto-installs with website_sale and l10n_pe.
 
 ## Country/Region
 Peru (PE)

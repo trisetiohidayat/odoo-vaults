@@ -14,7 +14,7 @@ The Ukraine localization module provides an IFRS-aligned chart of accounts (the 
 Ukraine (`UA`)
 
 ## Dependencies
-- [account](odoo-18/Modules/account.md)
+- [account](Modules/account.md)
 
 ## Key Models
 

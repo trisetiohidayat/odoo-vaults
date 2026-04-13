@@ -375,10 +375,10 @@ def action_reverse_moves(self):
 
 ## Related Flows
 
-- [Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md) — Draft invoice creation
-- [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) — Payment registration
-- [Flows/Cross-Module/sale-stock-account-flow](odoo-19/Flows/Cross-Module/sale-stock-account-flow.md) — Full business cycle
-- [Modules/Account](odoo-18/Modules/account.md) — Core account models
+- [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — Draft invoice creation
+- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment registration
+- [Flows/Cross-Module/sale-stock-account-flow](Flows/Cross-Module/sale-stock-account-flow.md) — Full business cycle
+- [Modules/Account](Modules/account.md) — Core account models
 
 ---
 

@@ -265,7 +265,7 @@ The themes use `data-images-info='{"logo": {"format": "png"}, "all": {"module": 
 
 ## Related
 
-- [Modules/mass_mailing](odoo-18/Modules/mass_mailing.md) — Base module that provides the email designer and `mailing.mailing` model
-- [Modules/website_sale_mass_mailing](odoo-18/Modules/website_sale_mass_mailing.md) — Integrates mass mailing themes with e-commerce
-- [Modules/mass_mailing_crm](odoo-17/Modules/mass_mailing_crm.md) — CRM-specific mailing features
-- [Modules/mass_mailing_sms](odoo-18/Modules/mass_mailing_sms.md) — SMS alongside email campaigns
+- [Modules/mass_mailing](Modules/mass_mailing.md) — Base module that provides the email designer and `mailing.mailing` model
+- [Modules/website_sale_mass_mailing](Modules/website_sale_mass_mailing.md) — Integrates mass mailing themes with e-commerce
+- [Modules/mass_mailing_crm](Modules/mass_mailing_crm.md) — CRM-specific mailing features
+- [Modules/mass_mailing_sms](Modules/mass_mailing_sms.md) — SMS alongside email campaigns

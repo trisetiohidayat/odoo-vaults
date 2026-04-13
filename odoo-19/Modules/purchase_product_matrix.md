@@ -425,6 +425,6 @@ purchase_product_matrix
 
 ## See Also
 
-- [Modules/purchase](odoo-18/Modules/purchase.md) — Base Purchase module (purchase.order, purchase.order.line)
-- [Modules/product_matrix](odoo-18/Modules/product_matrix.md) — Technical matrix module (grid computation, OWL dialog, QWeb templates)
-- [Modules/sale_product_matrix](odoo-18/Modules/sale_product_matrix.md) — Analogous sale order matrix (uses `product_add_mode` gating)
+- [Modules/purchase](Modules/purchase.md) — Base Purchase module (purchase.order, purchase.order.line)
+- [Modules/product_matrix](Modules/product_matrix.md) — Technical matrix module (grid computation, OWL dialog, QWeb templates)
+- [Modules/sale_product_matrix](Modules/sale_product_matrix.md) — Analogous sale order matrix (uses `product_add_mode` gating)

@@ -300,6 +300,6 @@ sale.order.line (service_tracking='event')
 
 ## See Also
 
-- [Modules/Event](odoo-18/Modules/event.md) — base event module (registration states, seat management, mail schedulers)
-- [Modules/Sale](odoo-18/Modules/sale.md) — sale order confirmation flow
-- [Core/API](odoo-18/Core/API.md) — `@api.depends`, `@api.constrains`
+- [Modules/Event](Modules/event.md) — base event module (registration states, seat management, mail schedulers)
+- [Modules/Sale](Modules/sale.md) — sale order confirmation flow
+- [Core/API](Core/API.md) — `@api.depends`, `@api.constrains`

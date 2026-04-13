@@ -595,6 +595,6 @@ Hard-coded test credentials use real (but non-functional) credential IDs and pub
 ## See Also
 
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL and access control
-- [Core/API](odoo-18/Core/API.md) — `@check_identity` decorator and identity verification
-- [Core/Exceptions](odoo-18/Core/Exceptions.md) — `AccessDenied` usage in auth flows
-- [Modules/base_setup](odoo-17/Modules/base_setup.md) — `@check_identity` context
+- [Core/API](Core/API.md) — `@check_identity` decorator and identity verification
+- [Core/Exceptions](Core/Exceptions.md) — `AccessDenied` usage in auth flows
+- [Modules/base_setup](Modules/base_setup.md) — `@check_identity` context

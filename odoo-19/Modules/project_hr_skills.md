@@ -13,12 +13,12 @@ depth: L4
 
 | Resource | Type | Description |
 |---------|------|-------------|
-| [Modules/Project](odoo-18/Modules/project.md) | Module | `project.task`, `user_ids`, assignee model |
-| [Modules/HR](odoo-18/Modules/hr.md) | Module | `hr.employee`, `res.users.employee_id` bridge |
-| [Modules/hr_skills](odoo-17/Modules/hr_skills.md) | Module | Full `hr_skills` module — `hr.employee.skill`, `hr.skill`, `hr.skill.type`, `hr.skill.level` |
+| [Modules/Project](Modules/project.md) | Module | `project.task`, `user_ids`, assignee model |
+| [Modules/HR](Modules/hr.md) | Module | `hr.employee`, `res.users.employee_id` bridge |
+| [Modules/hr_skills](Modules/hr_skills.md) | Module | Full `hr_skills` module — `hr.employee.skill`, `hr.skill`, `hr.skill.type`, `hr.skill.level` |
 | [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) | Pattern | ACL inheritance, field groups |
-| [Core/Fields](odoo-18/Core/Fields.md) | Core | Field types — One2many, related fields |
-| [Core/BaseModel](odoo-18/Core/BaseModel.md) | Core | ORM foundation, `_inherit`, related fields |
+| [Core/Fields](Core/Fields.md) | Core | Field types — One2many, related fields |
+| [Core/BaseModel](Core/BaseModel.md) | Core | ORM foundation, `_inherit`, related fields |
 
 ---
 
@@ -553,10 +553,10 @@ The `ilike` operator uses PostgreSQL's `ILIKE`, which supports both `%` wildcard
 
 ## Related Documentation
 
-- [Modules/Project](odoo-18/Modules/project.md) — `project.task`, `user_ids` Many2many, task assignee model
-- [Modules/HR](odoo-18/Modules/hr.md) — `hr.employee`, `res.users.employee_id` bridge
-- [Modules/hr_skills](odoo-17/Modules/hr_skills.md) — Full `hr_skills` L4 documentation — `hr.employee.skill`, `hr.skill`, `hr.skill.type`, `hr.skill.level`, `_get_transformed_commands()`, certification handling
+- [Modules/Project](Modules/project.md) — `project.task`, `user_ids` Many2many, task assignee model
+- [Modules/HR](Modules/hr.md) — `hr.employee`, `res.users.employee_id` bridge
+- [Modules/hr_skills](Modules/hr_skills.md) — Full `hr_skills` L4 documentation — `hr.employee.skill`, `hr.skill`, `hr.skill.type`, `hr.skill.level`, `_get_transformed_commands()`, certification handling
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL inheritance, field groups, record rules
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — ORM foundation, `_inherit`, related fields, `_rec_name`
-- [Core/Fields](odoo-18/Core/Fields.md) — Field types including One2many, related fields, `store`, `copy`
-- [Core/API](odoo-18/Core/API.md) — `@api.depends`, `@api.onchange`, ORM method decorators
+- [Core/BaseModel](Core/BaseModel.md) — ORM foundation, `_inherit`, related fields, `_rec_name`
+- [Core/Fields](Core/Fields.md) — Field types including One2many, related fields, `store`, `copy`
+- [Core/API](Core/API.md) — `@api.depends`, `@api.onchange`, ORM method decorators

@@ -860,9 +860,9 @@ In `purchase_stock`, this returns `sale_line_id.product_id` to help `stock.rule`
 
 ## See Also
 
-- [Modules/mrp](odoo-18/Modules/mrp.md) - manufacturing core: `mrp.production`, `mrp.bom`, `_compute_kit_quantities`
-- [Modules/purchase_stock](odoo-18/Modules/purchase_stock.md) - procurement rules: `stock.rule` PO generation
-- [Modules/stock](odoo-18/Modules/stock.md) - stock moves, `procurement.group`, `production_group_id`
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) - `reference_ids` / `procurement.group` pattern
-- [Modules/stock_account](odoo-18/Modules/stock_account.md) - Anglo-Saxon valuation, `_get_valuation_price_and_qty`
-- [Modules/quality_mrp](odoo-19/Modules/quality_mrp.md) - quality checks on manufacturing (Enterprise)
+- [Modules/mrp](Modules/mrp.md) - manufacturing core: `mrp.production`, `mrp.bom`, `_compute_kit_quantities`
+- [Modules/purchase_stock](Modules/purchase_stock.md) - procurement rules: `stock.rule` PO generation
+- [Modules/stock](Modules/stock.md) - stock moves, `procurement.group`, `production_group_id`
+- [Core/BaseModel](Core/BaseModel.md) - `reference_ids` / `procurement.group` pattern
+- [Modules/stock_account](Modules/stock_account.md) - Anglo-Saxon valuation, `_get_valuation_price_and_qty`
+- [Modules/quality_mrp](Modules/quality_mrp.md) - quality checks on manufacturing (Enterprise)

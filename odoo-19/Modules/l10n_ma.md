@@ -35,4 +35,4 @@ Inherits `res.partner` to add Moroccan company registry validation:
 - All characters must be numeric
 
 ## Related
-- [Modules/account](odoo-18/Modules/account.md)
+- [Modules/account](Modules/account.md)

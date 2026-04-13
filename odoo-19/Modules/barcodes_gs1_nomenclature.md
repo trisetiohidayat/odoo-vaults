@@ -64,4 +64,4 @@ The module ships with standard GS1 rules in `data/barcodes_gs1_rules.xml`, cover
 - And many more
 
 ## Related
-- [Modules/barcodes](odoo-18/Modules/barcodes.md) — Base barcode nomenclature framework
+- [Modules/barcodes](Modules/barcodes.md) — Base barcode nomenclature framework

@@ -1326,9 +1326,9 @@ The gamification module is designed as a generic platform. Domain-specific modul
 
 ## Related
 
-- [Modules/mail](odoo-18/Modules/mail.md) -- Email notifications, mail.thread, message_notify
-- [Modules/digest](odoo-18/Modules/digest.md) -- Periodic digest reports
-- [Modules/HR](odoo-18/Modules/hr.md) -- Employee management
-- [Core/API](odoo-18/Core/API.md) -- ORM decorators, safe_eval, domain evaluation
-- [Core/Fields](odoo-18/Core/Fields.md) -- Field types used in gamification
+- [Modules/mail](Modules/mail.md) -- Email notifications, mail.thread, message_notify
+- [Modules/digest](Modules/digest.md) -- Periodic digest reports
+- [Modules/HR](Modules/hr.md) -- Employee management
+- [Core/API](Core/API.md) -- ORM decorators, safe_eval, domain evaluation
+- [Core/Fields](Core/Fields.md) -- Field types used in gamification
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) -- ACL and record rules in gamification

@@ -21,15 +21,15 @@ version: "1.0"
 ## Quick Access
 
 ### 🔀 Related Flows
-- [Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md) — Invoice with French TVA
-- [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) — French payment processing
-- [Flows/Cross-Module/sale-stock-account-flow](odoo-19/Flows/Cross-Module/sale-stock-account-flow.md) — Sale→Stock→Invoice
+- [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — Invoice with French TVA
+- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — French payment processing
+- [Flows/Cross-Module/sale-stock-account-flow](Flows/Cross-Module/sale-stock-account-flow.md) — Sale→Stock→Invoice
 
 ### 🔗 Related Modules
-- [Modules/Account](odoo-18/Modules/account.md) — Core accounting
-- [Modules/l10n_fr_account](odoo-18/Modules/l10n_fr_account.md) — FEC export, French financial reports
-- [Modules/l10n_fr_pos_cert](odoo-18/Modules/l10n_fr_pos_cert.md) — Certified French POS (tickets de Caisse)
-- [Modules/l10n_fr](odoo-18/Modules/l10n_fr.md) — FEC (Fichier des Ecritures Comptables) export
+- [Modules/Account](Modules/account.md) — Core accounting
+- [Modules/l10n_fr_account](Modules/l10n_fr_account.md) — FEC export, French financial reports
+- [Modules/l10n_fr_pos_cert](Modules/l10n_fr_pos_cert.md) — Certified French POS (tickets de Caisse)
+- [Modules/l10n_fr](Modules/l10n_fr.md) — FEC (Fichier des Ecritures Comptables) export
 
 ---
 

@@ -19,7 +19,7 @@ description: "Product inventory display and availability management on eCommerce
 
 ## Purpose
 
-`website_sale_stock` bridges [Modules/stock](odoo-18/Modules/stock.md) (warehouse/inventory) and [Modules/website_sale](odoo-18/Modules/website_sale.md) (eCommerce storefront). It makes real-time stock quantities visible to online shoppers and enforces inventory-based selling rules: blocking checkout when stock is insufficient, capping cart quantities, notifying customers on replenishment, and computing combo product limits.
+`website_sale_stock` bridges [Modules/stock](Modules/stock.md) (warehouse/inventory) and [Modules/website_sale](Modules/website_sale.md) (eCommerce storefront). It makes real-time stock quantities visible to online shoppers and enforces inventory-based selling rules: blocking checkout when stock is insufficient, capping cart quantities, notifying customers on replenishment, and computing combo product limits.
 
 Unlike `sale_stock` (which provides `free_qty` on products) or `stock` (which manages quants and moves), this module does **not** implement its own stock tracking. It purely consumes `free_qty` from the ORM and enriches it with website-specific context, cart integration, and UI concerns.
 
@@ -1250,8 +1250,8 @@ so._check_cart_is_ready_to_be_paid()  # raises ValidationError if any line has s
 
 ## Related Modules
 
-- [Modules/website_sale](odoo-18/Modules/website_sale.md) — Base eCommerce module (product display, cart)
-- [Modules/sale_stock](odoo-18/Modules/sale_stock.md) — Sale + inventory integration (free_qty, warehouse_id on SO)
-- [Modules/stock](odoo-18/Modules/stock.md) — Warehouse and inventory management (stock.quant, stock.move)
-- [Modules/website_sale_mrp](odoo-18/Modules/website_sale_mrp.md) — Kit/BOM availability on eCommerce (extends this)
-- [Modules/product](odoo-18/Modules/product.md) — Product master data (is_storable, free_qty, uom_id)
+- [Modules/website_sale](Modules/website_sale.md) — Base eCommerce module (product display, cart)
+- [Modules/sale_stock](Modules/sale_stock.md) — Sale + inventory integration (free_qty, warehouse_id on SO)
+- [Modules/stock](Modules/stock.md) — Warehouse and inventory management (stock.quant, stock.move)
+- [Modules/website_sale_mrp](Modules/website_sale_mrp.md) — Kit/BOM availability on eCommerce (extends this)
+- [Modules/product](Modules/product.md) — Product master data (is_storable, free_qty, uom_id)

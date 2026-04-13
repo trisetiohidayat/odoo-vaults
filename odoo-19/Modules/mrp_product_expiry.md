@@ -343,10 +343,10 @@ The expired lot is created normally via `Form`, then edited to set `expiration_d
 
 ## Related Documentation
 
-- [Modules/MRP](odoo-18/Modules/mrp.md) — Manufacturing orders and workorders
-- [Modules/product_expiry](odoo-18/Modules/product_expiry.md) — Product lot expiry tracking, `stock.lot` expiry fields, base wizard
-- [Modules/Stock](odoo-18/Modules/stock.md) — Lot numbers, `stock.move`, `stock.move.line`, FEFO reservation
-- [Modules/Stock](odoo-18/Modules/stock.md) — `stock.quant`, `stock.picking`, `stock.move` full field reference
+- [Modules/MRP](Modules/mrp.md) — Manufacturing orders and workorders
+- [Modules/product_expiry](Modules/product_expiry.md) — Product lot expiry tracking, `stock.lot` expiry fields, base wizard
+- [Modules/Stock](Modules/stock.md) — Lot numbers, `stock.move`, `stock.move.line`, FEFO reservation
+- [Modules/Stock](Modules/stock.md) — `stock.quant`, `stock.picking`, `stock.move` full field reference
 
 ---
 

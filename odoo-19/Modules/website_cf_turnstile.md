@@ -334,7 +334,7 @@ registry.category("public.interactions")
 ```
 
 - **`static selector`:** Any `<form data-captcha="action_name">` on the page is automatically decorated with Turnstile. The `data-captcha` value is the action string passed to the Turnstile widget and verified server-side.
-- **L3 — Interaction pattern:** This uses Odoo's new [Core/API](odoo-18/Core/API.md) (`web.public.interactions` registry). Unlike the old `@website.form` snippet system, Interactions are activated per-DOM-element without requiring a specific snippet to be dragged onto the page. A theme or custom HTML can add `data-captcha="my_form"` to any `<form>` to opt in.
+- **L3 — Interaction pattern:** This uses Odoo's new [Core/API](Core/API.md) (`web.public.interactions` registry). Unlike the old `@website.form` snippet system, Interactions are activated per-DOM-element without requiring a specific snippet to be dragged onto the page. A theme or custom HTML can add `data-captcha="my_form"` to any `<form>` to opt in.
 - **L3 — `data-captcha` attribute:** This is a convention that both the backend (`_verify_turnstile_token` action param) and the frontend (`TurnStile` constructor) agree on. Any string is allowed; the backend does not pre-register action names.
 
 ---

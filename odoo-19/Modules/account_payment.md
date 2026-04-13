@@ -2049,9 +2049,9 @@ Key testing patterns used:
 
 ## Related Documentation
 
-- [Modules/Payment](odoo-18/Modules/payment.md) — Payment provider base module (`payment`)
-- [Modules/Account](odoo-18/Modules/account.md) — Accounting core module (`account`)
-- [Modules/Sale](odoo-18/Modules/sale.md) — Sales order with payment integration
-- [Core/API](odoo-18/Core/API.md) — @api decorators (@api.depends, @api.ondelete, etc.)
-- [Core/Fields](odoo-18/Core/Fields.md) — Field types (Monetary, Many2many, Json, Html)
+- [Modules/Payment](Modules/payment.md) — Payment provider base module (`payment`)
+- [Modules/Account](Modules/account.md) — Accounting core module (`account`)
+- [Modules/Sale](Modules/sale.md) — Sales order with payment integration
+- [Core/API](Core/API.md) — @api decorators (@api.depends, @api.ondelete, etc.)
+- [Core/Fields](Core/Fields.md) — Field types (Monetary, Many2many, Json, Html)
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — Access control and record rules

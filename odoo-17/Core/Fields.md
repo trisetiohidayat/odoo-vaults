@@ -102,6 +102,6 @@ def _compute_total(self):
 ```
 
 ## See Also
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — Model definition
-- [Core/API](odoo-18/Core/API.md) — @api.depends
+- [Core/BaseModel](Core/BaseModel.md) — Model definition
+- [Core/API](Core/API.md) — @api.depends
 - [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md)

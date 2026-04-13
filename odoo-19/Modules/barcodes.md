@@ -23,7 +23,7 @@ updated: 2026-04-11
 
 ## Module Purpose
 
-Provides the core barcode parsing engine used by [Modules/stock](odoo-18/Modules/stock.md), [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md), and other inventory/nomenclature modules. It defines barcode nomenclatures (sets of ordered rules), individual barcode rules, a form-level barcode event mixin, and GS1 / EPC RFID URI parsing support.
+Provides the core barcode parsing engine used by [Modules/stock](Modules/stock.md), [Modules/point_of_sale](Modules/point_of_sale.md), and other inventory/nomenclature modules. It defines barcode nomenclatures (sets of ordered rules), individual barcode rules, a form-level barcode event mixin, and GS1 / EPC RFID URI parsing support.
 
 ## Data Files
 
@@ -632,16 +632,16 @@ def check_barcode_encoding(barcode: str, encoding: str) -> bool:
 
 ## Related Modules
 
-- [Modules/stock](odoo-18/Modules/stock.md) — `stock.picking`, `stock.inventory` inherit the barcode event mixin
-- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — POS uses `BarcodeParser` in JavaScript for product identification
-- [Modules/product](odoo-18/Modules/product.md) — Product `barcode` field is the primary lookup target
-- [Core/Fields](odoo-18/Core/Fields.md) — Barcode field type in Odoo
+- [Modules/stock](Modules/stock.md) — `stock.picking`, `stock.inventory` inherit the barcode event mixin
+- [Modules/point_of_sale](Modules/point_of_sale.md) — POS uses `BarcodeParser` in JavaScript for product identification
+- [Modules/product](Modules/product.md) — Product `barcode` field is the primary lookup target
+- [Core/Fields](Core/Fields.md) — Barcode field type in Odoo
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine usage in picking confirmation
 
 ## See Also
 
-- [Modules/stock](odoo-18/Modules/stock.md)
-- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md)
-- [Modules/stock_account](odoo-18/Modules/stock_account.md) (inventory valuation via stock.quant)
-- [Core/Fields](odoo-18/Core/Fields.md) (barcode field type in Odoo)
+- [Modules/stock](Modules/stock.md)
+- [Modules/point_of_sale](Modules/point_of_sale.md)
+- [Modules/stock_account](Modules/stock_account.md) (inventory valuation via stock.quant)
+- [Core/Fields](Core/Fields.md) (barcode field type in Odoo)
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) (state machine usage in picking confirmation)

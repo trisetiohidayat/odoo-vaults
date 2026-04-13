@@ -496,8 +496,8 @@ res.users ────────< crm.team (member)
 
 ## See Also
 
-- [Modules/sale](odoo-18/Modules/sale.md) — Opportunity to Sale order conversion
-- [Modules/project](odoo-18/Modules/project.md) — CRM case to project/task conversion
-- [Modules/mail](odoo-18/Modules/mail.md) — Mail threading and activity scheduling
+- [Modules/sale](Modules/sale.md) — Opportunity to Sale order conversion
+- [Modules/project](Modules/project.md) — CRM case to project/task conversion
+- [Modules/mail](Modules/mail.md) — Mail threading and activity scheduling
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Stage-based pipeline workflows
-- [Modules/mrp](odoo-18/Modules/mrp.md) — Manufacturing relationship (for quotations)
+- [Modules/mrp](Modules/mrp.md) — Manufacturing relationship (for quotations)

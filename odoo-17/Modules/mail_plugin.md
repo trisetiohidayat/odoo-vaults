@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, mail-plugin]
 
 
 
-- [Modules/mail](odoo-18/Modules/mail.md) — Messaging / mail extension
+- [Modules/mail](Modules/mail.md) — Messaging / mail extension

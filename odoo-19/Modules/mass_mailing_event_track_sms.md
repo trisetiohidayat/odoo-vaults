@@ -19,6 +19,6 @@ Extends `mass_mailing_event_track` to support SMS campaigns for event track spea
 - `action_mass_mailing_track_speakers()`: Opens the mixed SMS/email mailing form for speakers (overrides to set `view_id`)
 
 ## Related
-- [Modules/mass_mailing_event_track](odoo-18/Modules/mass_mailing_event_track.md) - Track email mailing
-- [Modules/mass_mailing_sms](odoo-18/Modules/mass_mailing_sms.md) - SMS marketing
-- [Modules/website_event_track](odoo-18/Modules/website_event_track.md) - Event track management
+- [Modules/mass_mailing_event_track](Modules/mass_mailing_event_track.md) - Track email mailing
+- [Modules/mass_mailing_sms](Modules/mass_mailing_sms.md) - SMS marketing
+- [Modules/website_event_track](Modules/website_event_track.md) - Event track management

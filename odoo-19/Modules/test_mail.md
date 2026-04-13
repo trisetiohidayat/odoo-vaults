@@ -149,6 +149,6 @@ Tests `mail.thread` with `Properties` field and `PropertiesDefinition`.
 - `data/subtype_data.xml` — Mail subtypes
 
 ## Related
-- [Modules/mail](odoo-18/Modules/mail.md)
-- [Modules/mass_mailing](odoo-18/Modules/mass_mailing.md)
-- [Modules/base_automation](odoo-17/Modules/base_automation.md)
+- [Modules/mail](Modules/mail.md)
+- [Modules/mass_mailing](Modules/mass_mailing.md)
+- [Modules/base_automation](Modules/base_automation.md)

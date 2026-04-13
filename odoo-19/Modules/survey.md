@@ -1254,8 +1254,8 @@ res.partner
 
 ## Related Documentation
 
-- [Modules/mail](odoo-18/Modules/mail.md) — Email notifications, mail composer mixin
-- [Modules/gamification](odoo-18/Modules/gamification.md) — Badge and challenge system, certification award flow
-- [Core/API](odoo-18/Core/API.md) — ORM decorators: `@api.depends`, `@api.constrains`, `@api.model`, `@api.onchange`
+- [Modules/mail](Modules/mail.md) — Email notifications, mail composer mixin
+- [Modules/gamification](Modules/gamification.md) — Badge and challenge system, certification award flow
+- [Core/API](Core/API.md) — ORM decorators: `@api.depends`, `@api.constrains`, `@api.model`, `@api.onchange`
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine: `new` → `in_progress` → `done`
-- [Modules/website_slides](odoo-18/Modules/website_slides.md) — May extend survey with `survey_id` and completion tracking
+- [Modules/website_slides](Modules/website_slides.md) — May extend survey with `survey_id` and completion tracking

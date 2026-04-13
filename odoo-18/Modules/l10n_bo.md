@@ -23,7 +23,7 @@ No custom model classes. Only template data loaded via `__init__.py` from `model
 Plan Contable Boliviano aligned with SIENT norms. 4-digit account structure covering assets, liabilities, equity, revenue, and expenses.
 
 ## Tax Structure
-Basic tax templates for Bolivia. Specific rates and types configured via chart template data. Contact [Modules/l10n_latam_base](odoo-18/Modules/l10n_latam_base.md) for extended identification types if needed.
+Basic tax templates for Bolivia. Specific rates and types configured via chart template data. Contact [Modules/l10n_latam_base](Modules/l10n_latam_base.md) for extended identification types if needed.
 
 ## Data Files
 - `data/account_tax_report_data.xml`: Tax report structure

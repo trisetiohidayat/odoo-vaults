@@ -14,7 +14,7 @@ State machine implementation for business processes in Odoo 19. This guide cover
 
 **Key principle:** Transitions are controlled by **explicit `action_*()` methods** that validate before writing to the `state` field.
 
-> **📖 Deep Dive:** Untuk method chain lengkap dengan branching, lihat [Flows/TEMPLATE-flow](odoo-18/Flows/TEMPLATE-flow.md).
+> **📖 Deep Dive:** Untuk method chain lengkap dengan branching, lihat [Flows/TEMPLATE-flow](Flows/TEMPLATE-flow.md).
 
 ---
 
@@ -471,9 +471,9 @@ END: [Result / Return value]
 
 ## Related
 
-- [Flows/TEMPLATE-flow](odoo-18/Flows/TEMPLATE-flow.md) — Full flow document template with branching
-- [Core/API](odoo-18/Core/API.md) — @api.depends, @api.onchange decorator patterns
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) — Model foundation, inheritance
-- [Core/Exceptions](odoo-18/Core/Exceptions.md) — UserError, ValidationError, AccessError
+- [Flows/TEMPLATE-flow](Flows/TEMPLATE-flow.md) — Full flow document template with branching
+- [Core/API](Core/API.md) — @api.depends, @api.onchange decorator patterns
+- [Core/BaseModel](Core/BaseModel.md) — Model foundation, inheritance
+- [Core/Exceptions](Core/Exceptions.md) — UserError, ValidationError, AccessError
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — State-based access control
-- [Snippets/method-chain-example](odoo-18/Snippets/method-chain-example.md) — Method chain notation reference
+- [Snippets/method-chain-example](Snippets/method-chain-example.md) — Method chain notation reference

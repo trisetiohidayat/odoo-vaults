@@ -520,10 +520,10 @@ Replaces placeholder colors in theme SVG logos:
 
 ## See Also
 
-- [Modules/website_sale](odoo-18/Modules/website_sale.md) — e-commerce / shop
-- [Modules/Sale](odoo-18/Modules/sale.md) — base sale orders
-- [Modules/sale_management](odoo-18/Modules/sale_management.md) — quotation templates
-- [Modules/CRM](odoo-18/Modules/CRM.md) — website lead capture via `website_crm`
-- [Modules/website_blog](odoo-18/Modules/website_blog.md) — blog
-- [Modules/website_event](odoo-18/Modules/website_event.md) — events
+- [Modules/website_sale](Modules/website_sale.md) — e-commerce / shop
+- [Modules/Sale](Modules/sale.md) — base sale orders
+- [Modules/sale_management](Modules/sale_management.md) — quotation templates
+- [Modules/CRM](Modules/CRM.md) — website lead capture via `website_crm`
+- [Modules/website_blog](Modules/website_blog.md) — blog
+- [Modules/website_event](Modules/website_event.md) — events
 - [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — @http.route, JSON responses

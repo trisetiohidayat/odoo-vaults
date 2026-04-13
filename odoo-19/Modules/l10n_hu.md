@@ -22,14 +22,14 @@ created: 2026-04-06
 
 ## Description
 
-Hungarian accounting chart and localization module providing the complete chart of accounts, tax structure, and fiscal positions required for Hungarian compliance. The module integrates with [Modules/l10n_hu_edi](odoo-18/Modules/l10n_hu_edi.md) for mandatory NAV (Nemzeti Adó- és Vámhivatal - Hungarian Tax and Customs Authority) e-invoicing.
+Hungarian accounting chart and localization module providing the complete chart of accounts, tax structure, and fiscal positions required for Hungarian compliance. The module integrates with [Modules/l10n_hu_edi](Modules/l10n_hu_edi.md) for mandatory NAV (Nemzeti Adó- és Vámhivatal - Hungarian Tax and Customs Authority) e-invoicing.
 
 ## Dependencies
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](odoo-18/Modules/account.md) | Core accounting framework |
-| [Modules/base_vat](odoo-17/Modules/base_vat.md) | Hungarian VAT (Adószám) validation |
+| [Modules/Account](Modules/account.md) | Core accounting framework |
+| [Modules/base_vat](Modules/base_vat.md) | Hungarian VAT (Adószám) validation |
 
 ## Auto-Install
 
@@ -123,7 +123,7 @@ Hungarian law requires delivery date on all B2B sale invoices. The module:
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_hu_edi](odoo-18/Modules/l10n_hu_edi.md) | NAV e-invoicing and Tax Audit Export |
+| [Modules/l10n_hu_edi](Modules/l10n_hu_edi.md) | NAV e-invoicing and Tax Audit Export |
 
 ## Configuration
 
@@ -131,15 +131,15 @@ Hungarian law requires delivery date on all B2B sale invoices. The module:
 2. Set company country to Hungary
 3. Configure Hungarian VAT number in company settings
 4. The chart of accounts and taxes auto-install
-5. Install [Modules/l10n_hu_edi](odoo-18/Modules/l10n_hu_edi.md) for NAV compliance
+5. Install [Modules/l10n_hu_edi](Modules/l10n_hu_edi.md) for NAV compliance
 
 ## Technical Notes
 
 - Hungary uses HUF (no decimals) for accounting currency
-- EU VAT number format validated via [Modules/base_vat](odoo-17/Modules/base_vat.md)
+- EU VAT number format validated via [Modules/base_vat](Modules/base_vat.md)
 - Delivery date is mandatory for Hungarian e-invoicing
 - ANAF (NAV) = Nemzeti Adó- és Vámhivatal
 
 ## See Also
 
-- [Modules/l10n_hu_edi](odoo-18/Modules/l10n_hu_edi.md) - Hungarian NAV e-invoicing
+- [Modules/l10n_hu_edi](Modules/l10n_hu_edi.md) - Hungarian NAV e-invoicing

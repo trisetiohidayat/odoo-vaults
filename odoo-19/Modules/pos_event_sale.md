@@ -434,9 +434,9 @@ A POS order line with `qty > 1` and `event_ticket_id` generates multiple `event_
 
 ## See Also
 
-- [Modules/pos_event](odoo-18/Modules/pos_event.md) — POS event integration (pos_order_id, pos_order_line_id on registration)
-- [Modules/pos_sale](odoo-18/Modules/pos_sale.md) — POS sale order linking (sale_order_line_id on POS lines)
-- [Modules/event_sale](odoo-17/Modules/event_sale.md) — SO-to-registration bridge (sale_order_id on registration)
-- [Modules/event](odoo-18/Modules/event.md) — Base event module (event.registration model, state machine)
-- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — POS base (pos.order, pos.order.line)
-- [Modules/pos_sale_margin](odoo-18/Modules/pos_sale_margin.md) — Another POS link module (sale.report margin)
+- [Modules/pos_event](Modules/pos_event.md) — POS event integration (pos_order_id, pos_order_line_id on registration)
+- [Modules/pos_sale](Modules/pos_sale.md) — POS sale order linking (sale_order_line_id on POS lines)
+- [Modules/event_sale](Modules/event_sale.md) — SO-to-registration bridge (sale_order_id on registration)
+- [Modules/event](Modules/event.md) — Base event module (event.registration model, state machine)
+- [Modules/point_of_sale](Modules/point_of_sale.md) — POS base (pos.order, pos.order.line)
+- [Modules/pos_sale_margin](Modules/pos_sale_margin.md) — Another POS link module (sale.report margin)

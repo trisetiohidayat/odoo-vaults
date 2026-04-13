@@ -350,4 +350,4 @@ Menu: The module does not add menus — it extends the existing attachment infra
 
 Access: All users benefit from indexing; no special permissions required.
 
-Related: [Core/Fields](odoo-18/Core/Fields.md) (binary/file fields), [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) (ir.attachment CRUD), [Modules/data-recycle](odoo-18/Modules/data-recycle.md) (cleanup)
+Related: [Core/Fields](Core/Fields.md) (binary/file fields), [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) (ir.attachment CRUD), [Modules/data-recycle](Modules/data-recycle.md) (cleanup)

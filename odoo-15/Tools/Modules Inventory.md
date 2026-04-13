@@ -271,7 +271,7 @@ Source: `/addons/` directory
 | `helpdesk` | Helpdesk/ticket system |
 
 ## See Also
-- [Modules/Sale](odoo-18/Modules/sale.md) — Sale order models
-- [Modules/Stock](odoo-18/Modules/stock.md) — Stock models
-- [Modules/Account](odoo-18/Modules/account.md) — Accounting models
-- [Modules/Project](odoo-18/Modules/project.md) — Project models
+- [Modules/Sale](Modules/sale.md) — Sale order models
+- [Modules/Stock](Modules/stock.md) — Stock models
+- [Modules/Account](Modules/account.md) — Accounting models
+- [Modules/Project](Modules/project.md) — Project models

@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, spreadsheet-dashboard-hr-expense]
 
 
 
-- [Modules/spreadsheet](odoo-18/Modules/spreadsheet.md) — Spreadsheet base
+- [Modules/spreadsheet](Modules/spreadsheet.md) — Spreadsheet base

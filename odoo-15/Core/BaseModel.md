@@ -292,6 +292,6 @@ loads it for all records in the same recordset. Use `with_context(prefetch_field
 to disable if needed.
 
 ## See Also
-- [Core/Fields](odoo-18/Core/Fields.md) — Field types
-- [Core/API](odoo-18/Core/API.md) — Decorators (@api.depends, @api.onchange, @api.constrains)
+- [Core/Fields](Core/Fields.md) — Field types
+- [Core/API](Core/API.md) — Decorators (@api.depends, @api.onchange, @api.constrains)
 - [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — _inherit vs _inherits vs mixin

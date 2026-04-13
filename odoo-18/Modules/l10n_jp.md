@@ -14,7 +14,7 @@ Japan accounting localization module providing the official Japanese chart of ac
 Japan
 
 ## Dependencies
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) (account)
+- [Core/BaseModel](Core/BaseModel.md) (account)
 - `account` — core accounting module
 
 ## Key Models
@@ -59,7 +59,7 @@ Tax groups: `l10n_jp_tax_group_8`, `l10n_jp_tax_group_10`, `l10n_jp_tax_group_ex
 The module includes fiscal positions `内税` (included-tax) and `外税` (excluded-tax) primarily for POS implementations. These handle special consumption tax treatment where the tax amount is embedded in the sale price.
 
 ## EDI/Fiscal Reporting
-The companion module [Modules/l10n_jp_ubl_pint](odoo-18/Modules/l10n_jp_ubl_pint.md) provides Peppol PINT JP e-invoicing. The tax report is named **Consumption Tax Report** (消費税申告書) with two main groupings: Tax Amount and Taxable Amount sections.
+The companion module [Modules/l10n_jp_ubl_pint](Modules/l10n_jp_ubl_pint.md) provides Peppol PINT JP e-invoicing. The tax report is named **Consumption Tax Report** (消費税申告書) with two main groupings: Tax Amount and Taxable Amount sections.
 
 ## Installation
 Install via Apps or during company setup by selecting Japan as country. Auto-installs with `account`. Version 2.3 from Odoo 17 to 18 introduced the Japan tax report improvements.

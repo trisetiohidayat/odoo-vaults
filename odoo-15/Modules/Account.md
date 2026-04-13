@@ -732,14 +732,14 @@ def action_register_payment(self):
 
 ## Related Modules
 
-- [Modules/Sale](odoo-18/Modules/sale.md) — Customer Invoice from SO
-- [Modules/Purchase](odoo-18/Modules/purchase.md) — Vendor Bill from PO
-- [Modules/Stock](odoo-18/Modules/stock.md) — Stock valuation entries
+- [Modules/Sale](Modules/sale.md) — Customer Invoice from SO
+- [Modules/Purchase](Modules/purchase.md) — Vendor Bill from PO
+- [Modules/Stock](Modules/stock.md) — Stock valuation entries
 
 ## Related Flows
 
-- [Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md) — Invoice creation
-- [Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md) — Invoice posting
-- [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) — Payment registration
-- [Flows/Cross-Module/sale-stock-account-flow](odoo-19/Flows/Cross-Module/sale-stock-account-flow.md) — Sales → Delivery → Invoice → Payment
-- [Business/Account/tax-grid-guide](odoo-15/Business/Account/tax-grid-guide.md) — Tax Grid guide
+- [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — Invoice creation
+- [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Invoice posting
+- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment registration
+- [Flows/Cross-Module/sale-stock-account-flow](Flows/Cross-Module/sale-stock-account-flow.md) — Sales → Delivery → Invoice → Payment
+- [Business/Account/tax-grid-guide](Business/Account/tax-grid-guide.md) — Tax Grid guide

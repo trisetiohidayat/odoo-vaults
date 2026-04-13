@@ -377,12 +377,12 @@ Payment Registered
 
 ## Related Flows
 
-- [Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md) — Invoice creation
-- [Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md) — Invoice posting
-- [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) — Payment registration
-- [Modules/Sale](odoo-18/Modules/sale.md) — Sale order model
-- [Modules/Stock](odoo-18/Modules/stock.md) — Stock valuation
-- [Modules/Account](odoo-18/Modules/account.md) — Account models
+- [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — Invoice creation
+- [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Invoice posting
+- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment registration
+- [Modules/Sale](Modules/sale.md) — Sale order model
+- [Modules/Stock](Modules/stock.md) — Stock valuation
+- [Modules/Account](Modules/account.md) — Account models
 
 ---
 

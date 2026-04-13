@@ -75,6 +75,6 @@ Each `sale.order.line` is linked to one or more `stock.move` records created at 
 
 ## See Also
 
-- [Modules/sale](odoo-18/Modules/sale.md) — Full `sale.order` and `sale.order.line` reference
-- [Modules/stock](odoo-18/Modules/stock.md) — `stock.picking`, `stock.move`, `stock.quant`
-- [Modules/account](odoo-18/Modules/account.md) — Customer invoice creation
+- [Modules/sale](Modules/sale.md) — Full `sale.order` and `sale.order.line` reference
+- [Modules/stock](Modules/stock.md) — `stock.picking`, `stock.move`, `stock.quant`
+- [Modules/account](Modules/account.md) — Customer invoice creation

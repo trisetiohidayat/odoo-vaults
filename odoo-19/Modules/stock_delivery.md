@@ -489,8 +489,8 @@ def _prepare_procurement_values(self):
 
 ## Related Documentation
 
-- [Modules/Stock](odoo-18/Modules/stock.md) — Core stock picking management
-- [Modules/Sale](odoo-18/Modules/sale.md) — Sales order delivery line management
+- [Modules/Stock](Modules/stock.md) — Core stock picking management
+- [Modules/Sale](Modules/sale.md) — Sales order delivery line management
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Carrier state machine
 
 ---
@@ -852,11 +852,11 @@ If the carrier's API fails to cancel (e.g., the shipment was already in transit 
 ---
 
 ## Related Documentation
-- [Modules/Stock](odoo-18/Modules/stock.md) — Core `stock.picking` model, `button_validate` flow, move line operations
-- [Modules/Sale](odoo-18/Modules/sale.md) — `sale.order` delivery line, `set_delivery_line`, `_create_delivery_line`
-- [Modules/Delivery](odoo-18/Modules/delivery.md) — `delivery.carrier` base model, `integration_level`, `free_over`, provider interface
-- [Modules/Fleet](odoo-18/Modules/fleet.md) — Fleet vehicle model
-- [Core/API](odoo-18/Core/API.md) — `@api.depends`, `@api.constrains`, `@api.onchange` decorators
+- [Modules/Stock](Modules/stock.md) — Core `stock.picking` model, `button_validate` flow, move line operations
+- [Modules/Sale](Modules/sale.md) — `sale.order` delivery line, `set_delivery_line`, `_create_delivery_line`
+- [Modules/Delivery](Modules/delivery.md) — `delivery.carrier` base model, `integration_level`, `free_over`, provider interface
+- [Modules/Fleet](Modules/fleet.md) — Fleet vehicle model
+- [Core/API](Core/API.md) — `@api.depends`, `@api.constrains`, `@api.onchange` decorators
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Picking validation workflow, carrier state machine
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL CSV, record rules for carrier access
 - [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — `write()`, `search()`, `browse()` performance patterns

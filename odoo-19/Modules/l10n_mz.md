@@ -15,4 +15,4 @@ Localized accounting for Mozambique.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/base](odoo-18/Modules/base.md) — Core accounting
+- [Modules/base](Modules/base.md) — Core accounting

@@ -11,10 +11,10 @@ Tags: #odoo18 #l10n #accounting
 Sweden accounting localization. Provides Swedish BAS chart of accounts (single K1, extended K2, full K3), OCR invoice reference handling with Luhn check digit, vendor OCR validation, and organization number field. Supports three Swedish BAS complexity levels. Authored by XCLUDE and Odoo SA.
 
 ## Country
-[Sweden](odoo-18/Modules/account.md) 🇸🇪
+[Sweden](Modules/account.md) 🇸🇪
 
 ## Dependencies
-- [account](odoo-18/Core/BaseModel.md)
+- [account](Core/BaseModel.md)
 - base_vat
 
 ## Key Models

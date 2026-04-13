@@ -279,11 +279,11 @@ def action_set_won_rainbow(self):
 
 ## Related
 
-- [Flows/CRM/lead-creation-flow](odoo-19/Flows/CRM/lead-creation-flow.md) — Lead creation sources
-- [Flows/CRM/lead-conversion-to-opportunity-flow](odoo-19/Flows/CRM/lead-conversion-to-opportunity-flow.md) — Lead → Opportunity conversion
-- [Flows/CRM/lead-assignment-flow](odoo-19/Flows/CRM/lead-assignment-flow.md) — Lead assignment
-- [Modules/CRM](odoo-18/Modules/CRM.md) — CRM module reference
-- [Modules/Sale](odoo-18/Modules/sale.md) — Sale order confirmation and revenue
-- [Modules/Account](odoo-18/Modules/account.md) — Revenue recognition and journal entries
+- [Flows/CRM/lead-creation-flow](Flows/CRM/lead-creation-flow.md) — Lead creation sources
+- [Flows/CRM/lead-conversion-to-opportunity-flow](Flows/CRM/lead-conversion-to-opportunity-flow.md) — Lead → Opportunity conversion
+- [Flows/CRM/lead-assignment-flow](Flows/CRM/lead-assignment-flow.md) — Lead assignment
+- [Modules/CRM](Modules/CRM.md) — CRM module reference
+- [Modules/Sale](Modules/sale.md) — Sale order confirmation and revenue
+- [Modules/Account](Modules/account.md) — Revenue recognition and journal entries
 - [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Pipeline stage patterns
-- [Core/API](odoo-18/Core/API.md) — @api decorator patterns
+- [Core/API](Core/API.md) — @api decorator patterns

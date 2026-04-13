@@ -27,7 +27,7 @@ Inherits `account.chart.template`. Template prefix: `'gn'`. Provides `_get_gn_sy
 - `demo/demo_company.xml` — Guinea demo company
 
 ## Chart of Accounts
-SYSCOHADA. See [Modules/l10n_bf](odoo-18/Modules/l10n_bf.md).
+SYSCOHADA. See [Modules/l10n_bf](Modules/l10n_bf.md).
 
 ## Tax Structure
 TVA at 18% standard rate. IS/IR. Guinea uses OHADA framework but with national adaptations.

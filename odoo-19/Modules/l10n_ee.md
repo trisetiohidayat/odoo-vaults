@@ -44,5 +44,5 @@ Estonian company settings.
 - B2C e-invoice support via UBL
 
 ## Related
-- [Modules/Account](odoo-18/Modules/account.md) — Core accounting
-- [Modules/account_edi_ubl_cii](odoo-18/Modules/account_edi_ubl_cii.md) — UBL e-invoicing
+- [Modules/Account](Modules/account.md) — Core accounting
+- [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) — UBL e-invoicing

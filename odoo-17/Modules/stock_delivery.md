@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, stock-delivery]
 
 
 
-- [Modules/stock](odoo-18/Modules/stock.md) — Inventory base module
+- [Modules/stock](Modules/stock.md) — Inventory base module

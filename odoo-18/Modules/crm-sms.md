@@ -219,6 +219,6 @@ The UTM fields on `crm.lead` are inherited from the `utm.mixin` mixin (defined i
 
 ## Related Documentation
 
-- [Modules/CRM](odoo-18/Modules/CRM.md) — base CRM module
-- [Modules/SMS](odoo-18/Modules/sms.md) — SMS framework (sms.template, sms.sms, sms.composer)
-- [Modules/Mass Mailing CRM](odoo-18/Modules/mass-mailing-crm.md) — email marketing integration with CRM
+- [Modules/CRM](Modules/CRM.md) — base CRM module
+- [Modules/SMS](Modules/sms.md) — SMS framework (sms.template, sms.sms, sms.composer)
+- [Modules/Mass Mailing CRM](Modules/mass-mailing-crm.md) — email marketing integration with CRM

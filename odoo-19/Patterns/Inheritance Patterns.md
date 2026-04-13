@@ -86,7 +86,7 @@ class MyModel(models.Model):
 
 ## Related
 
-- [Core/BaseModel](odoo-18/Core/BaseModel.md) - Model foundation
-- [Core/Fields](odoo-18/Core/Fields.md) - Adding fields
-- [Core/API](odoo-18/Core/API.md) - Methods
+- [Core/BaseModel](Core/BaseModel.md) - Model foundation
+- [Core/Fields](Core/Fields.md) - Adding fields
+- [Core/API](Core/API.md) - Methods
 - [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) - Inheritance with ACL

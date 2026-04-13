@@ -1068,11 +1068,11 @@ This calls both `notify_synchronisation()` (IoT/specific device broadcast) and `
 
 ## Related Modules
 
-- [Modules/pos_restaurant](odoo-18/Modules/pos_restaurant.md) — Base restaurant module (dependency; provides `restaurant.table`, `restaurant.floor`, `pos.preset`)
-- [Modules/pos_self_order_sale](odoo-18/Modules/pos_self_order_sale.md) — Links self-order orders to SaleSubscriptions
-- [Modules/pos_self_order_stripe](odoo-18/Modules/pos_self_order_stripe.md) — Stripe terminal payment for kiosk
-- [Modules/pos_self_order_adyen](odoo-18/Modules/pos_self_order_adyen.md) — Adyen terminal payment for kiosk
-- [Modules/pos_self_order_razorpay](odoo-18/Modules/pos_self_order_razorpay.md) — Razorpay terminal payment for kiosk
-- [Modules/pos_self_order_pine_labs](odoo-19/Modules/pos_self_order_pine_labs.md) — Pine Labs terminal payment for kiosk
-- [Modules/pos_self_order_qfpay](odoo-19/Modules/pos_self_order_qfpay.md) — QFPay payment for kiosk
-- [Modules/pos_online_payment_self_order](odoo-18/Modules/pos_online_payment_self_order.md) — Online card payment flow for mobile self-order (distinct from terminal payments)
+- [Modules/pos_restaurant](Modules/pos_restaurant.md) — Base restaurant module (dependency; provides `restaurant.table`, `restaurant.floor`, `pos.preset`)
+- [Modules/pos_self_order_sale](Modules/pos_self_order_sale.md) — Links self-order orders to SaleSubscriptions
+- [Modules/pos_self_order_stripe](Modules/pos_self_order_stripe.md) — Stripe terminal payment for kiosk
+- [Modules/pos_self_order_adyen](Modules/pos_self_order_adyen.md) — Adyen terminal payment for kiosk
+- [Modules/pos_self_order_razorpay](Modules/pos_self_order_razorpay.md) — Razorpay terminal payment for kiosk
+- [Modules/pos_self_order_pine_labs](Modules/pos_self_order_pine_labs.md) — Pine Labs terminal payment for kiosk
+- [Modules/pos_self_order_qfpay](Modules/pos_self_order_qfpay.md) — QFPay payment for kiosk
+- [Modules/pos_online_payment_self_order](Modules/pos_online_payment_self_order.md) — Online card payment flow for mobile self-order (distinct from terminal payments)

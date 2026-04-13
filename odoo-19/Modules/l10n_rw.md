@@ -15,4 +15,4 @@ Localized accounting for Rwanda.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/Account](odoo-18/Modules/account.md) — Core accounting
+- [Modules/Account](Modules/account.md) — Core accounting

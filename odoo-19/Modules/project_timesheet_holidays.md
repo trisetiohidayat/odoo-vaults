@@ -818,11 +818,11 @@ Ensures all existing companies without the internal project and task get them pr
 
 ## Related
 
-- [Modules/hr_holidays](odoo-18/Modules/hr_holidays.md) — Leave management (approval, refusal, cancellation)
-- [Modules/hr_timesheet](odoo-18/Modules/hr_timesheet.md) — Timesheet entry (analytic lines, internal project creation)
-- [Modules/project](odoo-18/Modules/project.md) — Project and task models
-- [Modules/Account](odoo-18/Modules/account.md) — Analytic account for project accounting
-- [Core/Fields](odoo-18/Core/Fields.md) — Many2one, One2many, computed fields
+- [Modules/hr_holidays](Modules/hr_holidays.md) — Leave management (approval, refusal, cancellation)
+- [Modules/hr_timesheet](Modules/hr_timesheet.md) — Timesheet entry (analytic lines, internal project creation)
+- [Modules/project](Modules/project.md) — Project and task models
+- [Modules/Account](Modules/account.md) — Analytic account for project accounting
+- [Core/Fields](Core/Fields.md) — Many2one, One2many, computed fields
 ---
 
 ## L4: Expanded Security & ORM Override Chain
