@@ -185,7 +185,7 @@ total_modules: 606
 |--------|--------|-------------|
 | `l10n_*` | ⬜ | 150+ country localizations |
 
-See: [Modules/l10n_id](Modules/l10n_id.md) (Indonesia), [Modules/l10n_us](Modules/l10n_us.md), [Modules/l10n_de](Modules/l10n_de.md), [Modules/l10n_fr](Modules/l10n_fr.md), etc.
+See: [Modules/l10n_id](l10n_id.md) (Indonesia), [Modules/l10n_us](l10n_us.md), [Modules/l10n_de](l10n_de.md), [Modules/l10n_fr](l10n_fr.md), etc.
 
 ---
 

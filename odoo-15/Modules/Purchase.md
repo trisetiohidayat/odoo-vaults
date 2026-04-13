@@ -230,7 +230,7 @@ PO Confirm → Stock Move (vendor → WH) → Stock Picking (Receipt)
 ```
 
 ## See Also
-- [Modules/Stock](Modules/stock.md) — Receipt picking
-- [Modules/Account](Modules/account.md) — Vendor bill
-- [Modules/Product](Modules/product.md) — Product supplier info
-- [Modules/Sale](Modules/sale.md) — Sale vs Purchase flow
+- [Modules/Stock](Stock.md) — Receipt picking
+- [Modules/Account](Account.md) — Vendor bill
+- [Modules/Product](Product.md) — Product supplier info
+- [Modules/Sale](Sale.md) — Sale vs Purchase flow

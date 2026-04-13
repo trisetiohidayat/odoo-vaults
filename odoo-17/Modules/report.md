@@ -25,5 +25,5 @@ In earlier Odoo versions, `base_report` provided:
 | Report designer | `base_report_designer` | External designer plugin |
 
 ## See Also
-- [Core/HTTP Controller](Core/HTTP Controller.md) — Report download routes
-- [Modules/Account](Modules/account.md) — Financial report templates
+- [Core/HTTP Controller](HTTP Controller.md) — Report download routes
+- [Modules/Account](account.md) — Financial report templates

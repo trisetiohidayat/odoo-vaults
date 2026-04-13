@@ -35,4 +35,4 @@ for more informations, see https://www.facturae.gob.es/face/Paginas/FACE.aspx
 - Custom model files: account_tax.py, account_move.py, certificate.py, account_move_send.py, res_company.py, uom_uom.py, account_chart_template.py, res_partner.py
 
 ## Related
-- [Modules/l10n_es](Modules/l10n_es.md) - Core accounting
+- [Modules/l10n_es](l10n_es.md) - Core accounting

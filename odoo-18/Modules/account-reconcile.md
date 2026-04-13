@@ -630,7 +630,7 @@ When reconciliation requires a residual write-off:
 
 ## See Also
 
-- [Modules/Account](Modules/account.md) — Full account module documentation
-- [Modules/Payment](Modules/payment.md) — Payment provider integration
-- [Core/Fields](Core/Fields.md) — Json field for distribution models
-- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns in reconciliation
+- [Modules/Account](account.md) — Full account module documentation
+- [Modules/Payment](payment.md) — Payment provider integration
+- [Core/Fields](Fields.md) — Json field for distribution models
+- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine patterns in reconciliation

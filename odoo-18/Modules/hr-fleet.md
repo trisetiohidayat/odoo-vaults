@@ -38,7 +38,7 @@ Tags: #hr, #fleet, #integration, #company-cars, #hr-fleet
 
 ## `fleet.vehicle` — EXTENDED
 
-Inherited from `fleet.fleet`. See also: [Modules/Fleet](Modules/fleet.md).
+Inherited from `fleet.fleet`. See also: [Modules/Fleet](fleet.md).
 
 ### Fields
 
@@ -135,7 +135,7 @@ Overrides the parent action to open assignation logs in **list view** (vs. defau
 
 ## `hr.employee` — EXTENDED
 
-Inherited from `hr.employee`. See also: [Modules/HR](Modules/hr.md).
+Inherited from `hr.employee`. See also: [Modules/HR](hr.md).
 
 ### Fields
 

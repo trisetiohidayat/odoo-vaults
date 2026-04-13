@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, crm-livechat]
 
 
 
-- [Modules/crm](Modules/CRM.md) — CRM extension
+- [Modules/crm](crm.md) — CRM extension

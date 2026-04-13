@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, l10n-fr-invoice-addr]
 
 
 
-- [Modules/account](Modules/account.md) — Accounting / localization
+- [Modules/account](account.md) — Accounting / localization

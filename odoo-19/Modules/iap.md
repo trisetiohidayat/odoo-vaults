@@ -779,9 +779,9 @@ class CrmLead(models.Model):
 
 ## Related
 
-- [Modules/CRM](Modules/CRM.md) — inherits `iap.enrich.api` for lead enrichment
-- [Modules/partner_autocomplete](Modules/partner_autocomplete.md) — uses IAP for company/contact lookup
-- [Modules/snailmail](Modules/snailmail.md) — uses IAP for postal service credits
-- [Core/API](Core/API.md) — `@api.model`, `@api.constrains`, `@api.model_create_multi` patterns
-- [Tools/ORM Operations](Tools/ORM Operations.md) — `search()`, `browse()`, `write()` behavior
-- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, `ir.rule` design
+- [Modules/CRM](CRM.md) — inherits `iap.enrich.api` for lead enrichment
+- [Modules/partner_autocomplete](partner_autocomplete.md) — uses IAP for company/contact lookup
+- [Modules/snailmail](snailmail.md) — uses IAP for postal service credits
+- [Core/API](API.md) — `@api.model`, `@api.constrains`, `@api.model_create_multi` patterns
+- [Tools/ORM Operations](ORM Operations.md) — `search()`, `browse()`, `write()` behavior
+- [Patterns/Security Patterns](Security Patterns.md) — ACL CSV, `ir.rule` design

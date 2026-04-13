@@ -269,7 +269,7 @@ On first install, `_init_column` ensures every existing `event_type_ticket` reco
 
 ## See Also
 
-- [Core/API](Core/API.md) — @api.depends, @api.onchange, @api.constrains
-- [Modules/Stock](Modules/stock.md) — event tickets as inventory
+- [Core/API](API.md) — @api.depends, @api.onchange, @api.constrains
+- [Modules/Stock](stock.md) — event tickets as inventory
 - `event_sale` — sale.order integration (creates registrations from ticket sales)
 - `event_booth_sale` — booth sales (booth categories linked to products)

@@ -53,6 +53,6 @@ Joins `ir_attachment` with `message_attachment_rel` to compute per-model totals.
 - `data/data.xml` - Initial migration configuration
 
 ## Related Modules
-- [Modules/cloud_storage](Modules/cloud_storage.md)
-- [Modules/cloud_storage_azure](Modules/cloud_storage_azure.md)
-- [Modules/cloud_storage_google](Modules/cloud_storage_google.md)
+- [Modules/cloud_storage](cloud_storage.md)
+- [Modules/cloud_storage_azure](cloud_storage_azure.md)
+- [Modules/cloud_storage_google](cloud_storage_google.md)

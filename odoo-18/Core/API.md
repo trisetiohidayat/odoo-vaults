@@ -107,5 +107,5 @@ self.invalidate_model(['field_name'])  # invalidate specific fields
 ---
 
 ## Related Links
-- [Core/BaseModel](Core/BaseModel.md) — Model foundation
-- [Core/Fields](Core/Fields.md) — Field types
+- [Core/BaseModel](BaseModel.md) — Model foundation
+- [Core/Fields](Fields.md) — Field types

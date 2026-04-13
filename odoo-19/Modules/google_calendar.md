@@ -174,9 +174,9 @@ This ensures Google is only updated when Odoo data is definitively committed.
 
 ## Related
 
-- [Modules/calendar](Modules/calendar.md) — Base calendar events and recurrences
-- [Modules/google_account](Modules/google_account.md) — OAuth2 foundation
-- [Modules/Product](Modules/product.md) — Meeting rooms and resources (via calendar)
+- [Modules/calendar](calendar.md) — Base calendar events and recurrences
+- [Modules/google_account](google_account.md) — OAuth2 foundation
+- [Modules/Product](Product.md) — Meeting rooms and resources (via calendar)
 
 ---
 *Documented: 2026-04-06*

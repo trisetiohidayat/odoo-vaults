@@ -592,7 +592,7 @@ Used throughout for 30-day/month depreciation and MTBF calculations. These are d
 
 ### 4.6 Related Documentation
 
-- [Modules/Stock](Modules/stock.md) -- stock_maintenance integration
-- [Modules/Fleet](Modules/fleet.md) -- fleet.vehicle maintenance tracking
-- [Modules/MRP](Modules/mrp.md) -- mrp.workcenter maintenance
-- [Core/API](Core/API.md) -- @api.depends, @api.constrains patterns
+- [Modules/Stock](Stock.md) -- stock_maintenance integration
+- [Modules/Fleet](fleet.md) -- fleet.vehicle maintenance tracking
+- [Modules/MRP](MRP.md) -- mrp.workcenter maintenance
+- [Core/API](API.md) -- @api.depends, @api.constrains patterns

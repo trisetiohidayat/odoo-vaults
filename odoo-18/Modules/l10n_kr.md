@@ -14,7 +14,7 @@ Republic of Korea (South Korea) accounting localization providing the Korean cha
 Republic of Korea (South Korea)
 
 ## Dependencies
-- [Core/BaseModel](Core/BaseModel.md) (account)
+- [Core/BaseModel](BaseModel.md) (account)
 - `account` — core accounting module
 
 ## Key Models

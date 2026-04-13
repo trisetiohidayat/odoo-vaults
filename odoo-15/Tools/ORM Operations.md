@@ -301,6 +301,6 @@ records = self.env['my.model'].sudo().search([...])
 ```
 
 ## See Also
-- [Core/BaseModel](Core/BaseModel.md) — CRUD operations
-- [Core/Fields](Core/Fields.md) — Field types
-- [Core/API](Core/API.md) — @api.depends
+- [Core/BaseModel](BaseModel.md) — CRUD operations
+- [Core/Fields](Fields.md) — Field types
+- [Core/API](API.md) — @api.depends

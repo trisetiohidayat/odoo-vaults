@@ -22,6 +22,6 @@ Integrates your POS with a Razorpay payment terminal. Enables customers to pay b
 - POS frontend + test assets for Razorpay terminal
 
 ## Related
-- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
-- [Modules/payment_razorpay](Modules/payment_razorpay.md) — Razorpay online payment
-- [Modules/pos_self_order_razorpay](Modules/pos_self_order_razorpay.md) — Razorpay in self-order
+- [Modules/point_of_sale](point_of_sale.md) — Base POS module
+- [Modules/payment_razorpay](payment_razorpay.md) — Razorpay online payment
+- [Modules/pos_self_order_razorpay](pos_self_order_razorpay.md) — Razorpay in self-order

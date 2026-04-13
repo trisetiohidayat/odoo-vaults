@@ -38,5 +38,5 @@
 - `data/sms_data.xml` - SMS templates for events (e.g., registration confirmation, reminder)
 
 ## Related
-- [Modules/event](Modules/event.md) - Event management
-- [Modules/sms](Modules/sms.md) - SMS sending
+- [Modules/event](event.md) - Event management
+- [Modules/sms](sms.md) - SMS sending

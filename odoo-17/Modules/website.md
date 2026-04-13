@@ -520,10 +520,10 @@ Replaces placeholder colors in theme SVG logos:
 
 ## See Also
 
-- [Modules/website_sale](Modules/website_sale.md) — e-commerce / shop
-- [Modules/Sale](Modules/sale.md) — base sale orders
-- [Modules/sale_management](Modules/sale_management.md) — quotation templates
-- [Modules/CRM](Modules/CRM.md) — website lead capture via `website_crm`
-- [Modules/website_blog](Modules/website_blog.md) — blog
-- [Modules/website_event](Modules/website_event.md) — events
-- [Core/HTTP Controller](Core/HTTP Controller.md) — @http.route, JSON responses
+- [Modules/website_sale](website_sale.md) — e-commerce / shop
+- [Modules/Sale](sale.md) — base sale orders
+- [Modules/sale_management](sale_management.md) — quotation templates
+- [Modules/CRM](crm.md) — website lead capture via `website_crm`
+- [Modules/website_blog](website_blog.md) — blog
+- [Modules/website_event](website_event.md) — events
+- [Core/HTTP Controller](HTTP Controller.md) — @http.route, JSON responses

@@ -614,9 +614,9 @@ Client-side duplicate detection endpoint. Called via RPC from the frontend `HrRe
 
 ## Related Documentation
 
-- [Modules/hr_recruitment](Modules/hr_recruitment.md) — Backend recruitment pipeline, applicant management, stages
-- [Modules/HR](Modules/hr.md) — Departments, employees, contract types
-- [Modules/Website](Modules/website.md) — Website pages, SEO, multi-website, sitemap
-- [Modules/website_mail](Modules/website_mail.md) — Website-aware messaging and portal
-- [Core/API](Core/API.md) — @api.depends, @api.onchange, sudo() behavior
-- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ir.rule, ACL CSV, implied groups
+- [Modules/hr_recruitment](hr_recruitment.md) — Backend recruitment pipeline, applicant management, stages
+- [Modules/HR](HR.md) — Departments, employees, contract types
+- [Modules/Website](website.md) — Website pages, SEO, multi-website, sitemap
+- [Modules/website_mail](website_mail.md) — Website-aware messaging and portal
+- [Core/API](API.md) — @api.depends, @api.onchange, sudo() behavior
+- [Patterns/Security Patterns](Security Patterns.md) — ir.rule, ACL CSV, implied groups

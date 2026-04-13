@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, account-qr-code-sepa]
 
 
 
-- [Modules/account](Modules/account.md) — Accounting extension
+- [Modules/account](account.md) — Accounting extension

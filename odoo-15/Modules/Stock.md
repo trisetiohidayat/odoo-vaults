@@ -236,7 +236,7 @@ def action_cancel(self):
 ```
 
 ## See Also
-- [Modules/Sale](Modules/sale.md) — Sale order delivery
-- [Modules/Purchase](Modules/purchase.md) — Purchase receipt
-- [Modules/MRP](Modules/mrp.md) — Manufacturing moves
-- [Modules/Account](Modules/account.md) — Stock valuation
+- [Modules/Sale](Sale.md) — Sale order delivery
+- [Modules/Purchase](Purchase.md) — Purchase receipt
+- [Modules/MRP](MRP.md) — Manufacturing moves
+- [Modules/Account](Account.md) — Stock valuation

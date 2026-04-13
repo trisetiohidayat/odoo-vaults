@@ -119,5 +119,5 @@ fleet.vehicle
 
 ## Related
 
-- [Modules/hr](Modules/hr.md)
-- [Modules/fleet](Modules/fleet.md)
+- [Modules/hr](HR.md)
+- [Modules/fleet](fleet.md)

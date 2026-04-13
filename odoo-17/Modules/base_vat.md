@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, base-vat]
 
 
 
-- [Modules/base](Modules/base.md) — Base utility extension
+- [Modules/base](base.md) — Base utility extension

@@ -42,5 +42,5 @@ Extends UBL BIS3 with French Chorus Pro-specific fields:
 Chorus Pro-specific invoice fields (service type, contract reference, etc.).
 
 ## Related
-- [Modules/l10n_fr_account](Modules/l10n_fr_account.md) — French accounting chart
-- [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) — UBL BIS3 framework
+- [Modules/l10n_fr_account](l10n_fr_account.md) — French accounting chart
+- [Modules/account_edi_ubl_cii](account_edi_ubl_cii.md) — UBL BIS3 framework

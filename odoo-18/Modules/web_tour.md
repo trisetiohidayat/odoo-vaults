@@ -166,6 +166,6 @@ Adds `'web_tour'` to the list of modules for frontend translation extraction.
 
 ## See Also
 
-- [Modules/onboarding](Modules/onboarding.md) — Step-based setup checklists (server-side)
-- [Modules/html_editor](Modules/html_editor.md) — Rich text editor
-- [Modules/web_hierarchy](Modules/web_hierarchy.md) — Hierarchy view
+- [Modules/onboarding](onboarding.md) — Step-based setup checklists (server-side)
+- [Modules/html_editor](html_editor.md) — Rich text editor
+- [Modules/web_hierarchy](web_hierarchy.md) — Hierarchy view

@@ -18,7 +18,7 @@
 
 ## Purpose
 
-The `website_sms` module bridges the [Modules/website](Modules/website.md) visitor-tracking system with the [Modules/sms](Modules/sms.md) SMS sending infrastructure. It adds a **Send SMS** action button to `website.visitor` records in the Odoo backend UI (form, kanban, and list views), enabling backend users to contact a known website visitor via SMS -- but only when the visitor is linked to a `res.partner` record that carries a phone number.
+The `website_sms` module bridges the [Modules/website](website.md) visitor-tracking system with the [Modules/sms](sms.md) SMS sending infrastructure. It adds a **Send SMS** action button to `website.visitor` records in the Odoo backend UI (form, kanban, and list views), enabling backend users to contact a known website visitor via SMS -- but only when the visitor is linked to a `res.partner` record that carries a phone number.
 
 The module does **not** own any models of its own. It exclusively extends the `website.visitor` model (from `website`) via `_inherit`.
 
@@ -278,9 +278,9 @@ The version in the manifest is `'1.0'`, and the module structure (single model f
 
 ## Related Modules
 
-- [Modules/website](Modules/website.md) -- defines `website.visitor`, `website.track`, visitor tracking, and the `access_token` mechanism
-- [Modules/sms](Modules/sms.md) -- defines `sms.composer`, `sms.sms`, SMS templates, and the SMS gateway abstraction
-- [Modules/crm](Modules/CRM.md) -- can extend `website.visitor` with CRM leads; `website_sms` is compatible with that extension via the `_check_for_sms_composer` hook
+- [Modules/website](website.md) -- defines `website.visitor`, `website.track`, visitor tracking, and the `access_token` mechanism
+- [Modules/sms](sms.md) -- defines `sms.composer`, `sms.sms`, SMS templates, and the SMS gateway abstraction
+- [Modules/crm](CRM.md) -- can extend `website.visitor` with CRM leads; `website_sms` is compatible with that extension via the `_check_for_sms_composer` hook
 - `website_sale` -- may link visitors to e-commerce partners; the same hook allows phone-based SMS targeting
 
 ## Tags

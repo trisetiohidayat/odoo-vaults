@@ -32,7 +32,7 @@ Spanish-specific POS configuration and invoice handling. Handles simplified invo
 - `get_invoice_name()` — Returns `account_move.name` for the linked invoice
 
 ## Related
-- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
-- [Modules/l10n_es](Modules/l10n_es.md) — Core Spanish accounting
-- [Modules/l10n_es_edi_verifactu](Modules/l10n_es_edi_verifactu.md) — Veri*Factu fiscal module
-- [Modules/l10n_es_edi_verifactu_pos](Modules/l10n_es_edi_verifactu_pos.md) — Veri*Factu integration for POS
+- [Modules/point_of_sale](point_of_sale.md) — Base POS module
+- [Modules/l10n_es](l10n_es.md) — Core Spanish accounting
+- [Modules/l10n_es_edi_verifactu](l10n_es_edi_verifactu.md) — Veri*Factu fiscal module
+- [Modules/l10n_es_edi_verifactu_pos](l10n_es_edi_verifactu_pos.md) — Veri*Factu integration for POS

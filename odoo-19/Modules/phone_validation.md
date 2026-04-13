@@ -93,8 +93,8 @@ PHONE_REGEX_PATTERN = r'[\s\\./\(\)\-]'
 | _onchange_phone_validation | Validate phone on change |
 
 ## Related
-- [Modules/sms](Modules/sms.md)
-- [Modules/mail](Modules/mail.md)
+- [Modules/sms](sms.md)
+- [Modules/mail](mail.md)
 ```
 
 ---

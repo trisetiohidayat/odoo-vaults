@@ -473,6 +473,6 @@ website_google_map
 
 ## Related Modules
 
-- [Modules/website_partner](Modules/website_partner.md) — Base partner website features (descriptions, is_published, SEO metadata)
-- [Modules/website_crm_partner_assign](Modules/website_crm_partner_assign.md) — CRM partner grading and assignment (grades, weights, assigned_partner_id, implemented_partner_ids)
-- [Modules/website_google_map](Modules/website_google_map.md) — Google Maps embedding on website pages
+- [Modules/website_partner](website_partner.md) — Base partner website features (descriptions, is_published, SEO metadata)
+- [Modules/website_crm_partner_assign](website_crm_partner_assign.md) — CRM partner grading and assignment (grades, weights, assigned_partner_id, implemented_partner_ids)
+- [Modules/website_google_map](website_google_map.md) — Google Maps embedding on website pages

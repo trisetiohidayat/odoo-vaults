@@ -343,10 +343,10 @@ The expired lot is created normally via `Form`, then edited to set `expiration_d
 
 ## Related Documentation
 
-- [Modules/MRP](Modules/mrp.md) — Manufacturing orders and workorders
-- [Modules/product_expiry](Modules/product_expiry.md) — Product lot expiry tracking, `stock.lot` expiry fields, base wizard
-- [Modules/Stock](Modules/stock.md) — Lot numbers, `stock.move`, `stock.move.line`, FEFO reservation
-- [Modules/Stock](Modules/stock.md) — `stock.quant`, `stock.picking`, `stock.move` full field reference
+- [Modules/MRP](MRP.md) — Manufacturing orders and workorders
+- [Modules/product_expiry](product_expiry.md) — Product lot expiry tracking, `stock.lot` expiry fields, base wizard
+- [Modules/Stock](Stock.md) — Lot numbers, `stock.move`, `stock.move.line`, FEFO reservation
+- [Modules/Stock](Stock.md) — `stock.quant`, `stock.picking`, `stock.move` full field reference
 
 ---
 

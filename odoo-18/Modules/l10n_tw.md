@@ -14,7 +14,7 @@ Taiwan accounting localization providing the Taiwanese chart of accounts, busine
 Taiwan
 
 ## Dependencies
-- [Core/BaseModel](Core/BaseModel.md) (account)
+- [Core/BaseModel](BaseModel.md) (account)
 - `account` — core accounting module
 - `base_address_extended` — extended address fields (city/district)
 

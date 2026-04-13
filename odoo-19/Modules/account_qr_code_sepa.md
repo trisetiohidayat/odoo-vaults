@@ -62,6 +62,6 @@ SCT          — Identification Code (SEPA Credit Transfer)
 - Account holder name or partner name must be set
 
 ## Related
-- [Modules/account_qr_code_emv](Modules/account_qr_code_emv.md)
-- [Modules/account](Modules/account.md)
-- [Modules/base_iban](Modules/base_iban.md)
+- [Modules/account_qr_code_emv](account_qr_code_emv.md)
+- [Modules/account](Account.md)
+- [Modules/base_iban](base_iban.md)

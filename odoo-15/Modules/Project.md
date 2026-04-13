@@ -220,7 +220,7 @@ def action_recurring_dialog(self):
 ```
 
 ## See Also
-- [Modules/Sale](Modules/sale.md) — Sale Project
-- [Modules/Project](Modules/project.md) — Timesheet integration
-- [Modules/CRM](Modules/CRM.md) — Project from opportunity
+- [Modules/Sale](Sale.md) — Sale Project
+- [Modules/Project](Project.md) — Timesheet integration
+- [Modules/CRM](CRM.md) — Project from opportunity
 - [Modules/HR](Modules/hr.md) — Employee timesheets

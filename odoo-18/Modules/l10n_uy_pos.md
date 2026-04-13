@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #uruguay #pos
 # l10n_uy_pos — Uruguayan Point of Sale
 
 ## Overview
-Bridge module adding Uruguayan requirements to the Point of Sale application. Depends on [Modules/l10n_uy](Modules/l10n_uy.md) and `point_of_sale`. Loads frontend assets for Uruguayan POS regulation compliance.
+Bridge module adding Uruguayan requirements to the Point of Sale application. Depends on [Modules/l10n_uy](l10n_uy.md) and `point_of_sale`. Loads frontend assets for Uruguayan POS regulation compliance.
 
 ## Country/Region
 Uruguay (UY)

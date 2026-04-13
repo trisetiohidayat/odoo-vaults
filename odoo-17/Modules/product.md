@@ -90,6 +90,6 @@ Hierarchical product categories. Used for default accounting properties, group-b
 - `product.cat_expense` and `product.product_category_1` (Saleable) also protected
 
 ## See Also
-- [Modules/sale](Modules/sale.md) — Product in sale orders
-- [Modules/purchase](Modules/purchase.md) — Product in purchase orders
-- [Modules/stock](Modules/stock.md) — Product quantities and valuation
+- [Modules/sale](sale.md) — Product in sale orders
+- [Modules/purchase](purchase.md) — Product in purchase orders
+- [Modules/stock](stock.md) — Product quantities and valuation

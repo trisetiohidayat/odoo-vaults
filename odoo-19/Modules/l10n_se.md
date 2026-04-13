@@ -36,4 +36,4 @@ It also includes the invoice OCR payment reference handling.
 - Custom model files: account_move.py, account_journal.py, template_se_K3.py, template_se.py, res_company.py, template_se_K2.py, res_partner.py
 
 ## Related
-- [Modules/l10n_se](Modules/l10n_se.md) - Core accounting
+- [Modules/l10n_se](l10n_se.md) - Core accounting

@@ -14,9 +14,9 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md)"
-  - "[Flows/Account/payment-flow](Flows/Account/payment-flow.md)"
-  - "[Flows/Purchase/purchase-withholding-flow](Flows/Purchase/purchase-withholding-flow.md)"
+  - "[Flows/Account/invoice-post-flow](invoice-post-flow.md)"
+  - "[Flows/Account/payment-flow](payment-flow.md)"
+  - "[Flows/Purchase/purchase-withholding-flow](purchase-withholding-flow.md)"
 source_module: account_edi_ubl_cii
 source_path: ~/odoo/odoo19/odoo/addons/account_edi_ubl_cii/
 created: 2026-04-07
@@ -331,9 +331,9 @@ class AccountEdiProxyUser(models.Model):
 
 ## Related
 
-- [Modules/Account](Modules/account.md) — `account.move` field and method reference
-- [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Invoice posting and journal entry creation
-- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment reconciliation after invoice
-- [Flows/Purchase/purchase-withholding-flow](Flows/Purchase/purchase-withholding-flow.md) — Withholding tax on vendor bills
-- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine design patterns
-- [Core/API](Core/API.md) — `@api.model` vs `@api.depends` decorators
+- [Modules/Account](Account.md) — `account.move` field and method reference
+- [Flows/Account/invoice-post-flow](invoice-post-flow.md) — Invoice posting and journal entry creation
+- [Flows/Account/payment-flow](payment-flow.md) — Payment reconciliation after invoice
+- [Flows/Purchase/purchase-withholding-flow](purchase-withholding-flow.md) — Withholding tax on vendor bills
+- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine design patterns
+- [Core/API](API.md) — `@api.model` vs `@api.depends` decorators

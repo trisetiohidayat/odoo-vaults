@@ -479,6 +479,6 @@ When a carrier supports `*_use_locations` (e.g., `bpost_use_locations`):
 
 ## Related Documentation
 
-- [Modules/Sale](Modules/sale.md) — Sale order being extended
-- [Modules/Stock](Modules/stock.md) — Stock picking (extended by `stock_picking_delivery`)
-- [New Features/New Modules](New Features/New Modules.md) — `delivery_dhl`, `delivery_fedex` carrier modules
+- [Modules/Sale](sale.md) — Sale order being extended
+- [Modules/Stock](stock.md) — Stock picking (extended by `stock_picking_delivery`)
+- [New Features/New Modules](New Modules.md) — `delivery_dhl`, `delivery_fedex` carrier modules

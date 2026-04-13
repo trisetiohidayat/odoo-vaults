@@ -74,5 +74,5 @@ Special rounding for COP, HNL, NIO: `decimal_places=None` means integer amount.
 **Fallback Payment Method:** Falls back to `unknown` payment method if not found.
 
 ## Related
-- [Modules/payment](Modules/payment.md)
-- [Modules/payment_razorpay](Modules/payment_razorpay.md)
+- [Modules/payment](payment.md)
+- [Modules/payment_razorpay](payment_razorpay.md)

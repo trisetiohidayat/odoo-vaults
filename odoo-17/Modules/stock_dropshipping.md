@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, stock-dropshipping]
 
 
 
-- [Modules/stock](Modules/stock.md) — Inventory base module
+- [Modules/stock](stock.md) — Inventory base module

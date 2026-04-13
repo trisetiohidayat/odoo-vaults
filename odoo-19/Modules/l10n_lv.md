@@ -40,4 +40,4 @@ co-author is Chick.Farm (visit for more information https://www.myacc.cloud)
 - Custom model files: template_lv.py
 
 ## Related
-- [Modules/l10n_lv](Modules/l10n_lv.md) - Core accounting
+- [Modules/l10n_lv](l10n_lv.md) - Core accounting

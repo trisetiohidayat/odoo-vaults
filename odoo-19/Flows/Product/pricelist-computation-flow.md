@@ -12,8 +12,8 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Product/product-creation-flow](Flows/Product/product-creation-flow.md)"
-  - "[Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md)"
+  - "[Flows/Product/product-creation-flow](product-creation-flow.md)"
+  - "[Flows/Sale/quotation-to-sale-order-flow](quotation-to-sale-order-flow.md)"
 source_module: product
 created: 2026-04-07
 version: "1.0"
@@ -359,10 +359,10 @@ class SaleOrderLine(models.Model):
 
 ## Related
 
-- [Modules/product](Modules/product.md) — Product module reference (pricelist, template, variant)
-- [Modules/Sale](Modules/sale.md) — Sale order line model
-- [Flows/Product/product-creation-flow](Flows/Product/product-creation-flow.md) — How products are created before pricing
-- [Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md) — Full sale order lifecycle
-- [Core/API](Core/API.md) — @api.depends, @api.onchange decorator patterns
-- [Modules/Stock](Modules/stock.md) — BOM/kit product stock valuation
-- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine pattern for SO
+- [Modules/product](Product.md) — Product module reference (pricelist, template, variant)
+- [Modules/Sale](Sale.md) — Sale order line model
+- [Flows/Product/product-creation-flow](product-creation-flow.md) — How products are created before pricing
+- [Flows/Sale/quotation-to-sale-order-flow](quotation-to-sale-order-flow.md) — Full sale order lifecycle
+- [Core/API](API.md) — @api.depends, @api.onchange decorator patterns
+- [Modules/Stock](Stock.md) — BOM/kit product stock valuation
+- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine pattern for SO

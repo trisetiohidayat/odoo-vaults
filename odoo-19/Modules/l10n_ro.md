@@ -22,15 +22,15 @@ created: 2026-04-06
 
 ## Description
 
-Romanian accounting chart and localization module. Manages the Accounting Chart of Accounts, VAT structure, Fiscal Position, and Tax Mapping for Romanian compliance. Also adds the Registration Number field for Romania in [Modules/res.partner](Modules/res.partner.md).
+Romanian accounting chart and localization module. Manages the Accounting Chart of Accounts, VAT structure, Fiscal Position, and Tax Mapping for Romanian compliance. Also adds the Registration Number field for Romania in [Modules/res.partner](res.partner.md).
 
 ## Dependencies
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](Modules/account.md) | Core accounting framework |
-| [Modules/base_vat](Modules/base_vat.md) | Romanian CIF (Cod de Identificare Fiscala) validation |
-| [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) | UBL/CII EDI framework for e-invoicing |
+| [Modules/Account](Account.md) | Core accounting framework |
+| [Modules/base_vat](base_vat.md) | Romanian CIF (Cod de Identificare Fiscala) validation |
+| [Modules/account_edi_ubl_cii](account_edi_ubl_cii.md) | UBL/CII EDI framework for e-invoicing |
 
 ## Auto-Install
 
@@ -90,7 +90,7 @@ Loads Romanian-specific:
 Romanian VAT/Tax ID:
 - Format: `RO` + 2-10 digits (e.g., `RO12345678`)
 - Used for both VAT and tax identification
-- Validated via [Modules/base_vat](Modules/base_vat.md)
+- Validated via [Modules/base_vat](base_vat.md)
 
 ### Additional Partner Fields
 
@@ -104,28 +104,28 @@ Romanian VAT/Tax ID:
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) | ANAF e-Factura EDI integration |
-| [Modules/l10n_ro_cpv_code](Modules/l10n_ro_cpv_code.md) | CPV product classification |
-| [Modules/l10n_ro_edi_stock](Modules/l10n_ro_edi_stock.md) | e-Transport (stock/inventory) |
-| [Modules/l10n_ro_edi_stock_batch](Modules/l10n_ro_edi_stock_batch.md) | e-Transport batch processing |
+| [Modules/l10n_ro_edi](l10n_ro_edi.md) | ANAF e-Factura EDI integration |
+| [Modules/l10n_ro_cpv_code](l10n_ro_cpv_code.md) | CPV product classification |
+| [Modules/l10n_ro_edi_stock](l10n_ro_edi_stock.md) | e-Transport (stock/inventory) |
+| [Modules/l10n_ro_edi_stock_batch](l10n_ro_edi_stock_batch.md) | e-Transport batch processing |
 
 ## Configuration
 
 1. Install the module via Apps
 2. Set company country to Romania
 3. Configure Romanian VAT number (CIF) in company settings
-4. Install [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) for ANAF e-Factura compliance
-5. Install [Modules/l10n_ro_cpv_code](Modules/l10n_ro_cpv_code.md) for product classification
+4. Install [Modules/l10n_ro_edi](l10n_ro_edi.md) for ANAF e-Factura compliance
+5. Install [Modules/l10n_ro_cpv_code](l10n_ro_cpv_code.md) for product classification
 
 ## Technical Notes
 
 - Romanian account numbers may include Romanian characters (ș, ț) in company names
 - ANAF requires structured electronic invoices (e-Factura)
 - Bucharest addresses use SECTOR 1-6 format in city field
-- UBL-based EDI via [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md)
+- UBL-based EDI via [Modules/account_edi_ubl_cii](account_edi_ubl_cii.md)
 
 ## See Also
 
-- [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) - Romanian ANAF e-Factura
-- [Modules/l10n_ro_cpv_code](Modules/l10n_ro_cpv_code.md) - CPV product classification
-- [Modules/l10n_ro_edi_stock](Modules/l10n_ro_edi_stock.md) - Romanian e-Transport
+- [Modules/l10n_ro_edi](l10n_ro_edi.md) - Romanian ANAF e-Factura
+- [Modules/l10n_ro_cpv_code](l10n_ro_cpv_code.md) - CPV product classification
+- [Modules/l10n_ro_edi_stock](l10n_ro_edi_stock.md) - Romanian e-Transport

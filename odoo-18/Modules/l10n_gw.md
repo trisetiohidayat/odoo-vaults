@@ -27,7 +27,7 @@ Inherits `account.chart.template`. Template prefix: `'gw'`. Provides `_get_gw_sy
 - `demo/demo_company.xml` — Guinea-Bissau demo company
 
 ## Chart of Accounts
-SYSCOHADA. See [Modules/l10n_bf](Modules/l10n_bf.md).
+SYSCOHADA. See [Modules/l10n_bf](l10n_bf.md).
 
 ## Tax Structure
 TVA at 15% standard rate. IS. Guinea-Bissau is a WAEMU (West African Economic and Monetary Union) member, which sets common tax frameworks.

@@ -617,4 +617,4 @@ class TestProjectAccountProfitability(TestProjectProfitabilityCommon):
 
 ## Related
 
-[Project.md](Modules/project.md), [Account.md](Modules/account.md), [Analytic.md](Modules/analytic.md), [Sale Project.md](Modules/sale-project.md), [Project Purchase.md](Project-Purchase.md.md), [Sale Timesheet.md](Modules/sale-timesheet.md)
+[Project.md](Project.md), [Account.md](Account.md), [Analytic.md](analytic.md), [Sale Project.md](Modules/sale-project.md), [Project Purchase.md](Project-Purchase.md.md), [Sale Timesheet.md](Modules/sale-timesheet.md)

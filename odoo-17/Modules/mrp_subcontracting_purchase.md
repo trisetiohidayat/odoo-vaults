@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, mrp-subcontracting-purchase]
 
 
 
-- [Modules/mrp](Modules/mrp.md) — Manufacturing base module
+- [Modules/mrp](mrp.md) — Manufacturing base module

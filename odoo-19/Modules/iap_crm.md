@@ -7,7 +7,7 @@
 - **License**: LGPL-3
 - **Auto-install**: Yes
 
-Bridge module between [Modules/iap](Modules/iap.md) and [Modules/CRM](Modules/CRM.md). Provides integration between IAP-based services (like lead enrichment and reveal) and the CRM pipeline.
+Bridge module between [Modules/iap](iap.md) and [Modules/CRM](CRM.md). Provides integration between IAP-based services (like lead enrichment and reveal) and the CRM pipeline.
 
 ## Models
 
@@ -32,8 +32,8 @@ The actual IAP reveal/enrichment logic lives in `crm_iap_enrich` and other CRM+I
 
 ## Related
 
-- [Modules/CRM](Modules/CRM.md) — CRM pipeline and lead/opportunity management.
-- [Modules/iap_mail](Modules/iap_mail.md) — IAP bus notifications and mail.thread on IAP accounts.
-- [Modules/crm_iap_enrich](Modules/crm_iap_enrich.md) — IAP lead enrichment (company data enrichment).
-- [Modules/crm_iap_mine](Modules/crm_iap_mine.md) — IAP lead mining.
-- [Modules/partner_autocomplete](Modules/partner_autocomplete.md) — Company data autocomplete via IAP.
+- [Modules/CRM](CRM.md) — CRM pipeline and lead/opportunity management.
+- [Modules/iap_mail](iap_mail.md) — IAP bus notifications and mail.thread on IAP accounts.
+- [Modules/crm_iap_enrich](crm_iap_enrich.md) — IAP lead enrichment (company data enrichment).
+- [Modules/crm_iap_mine](crm_iap_mine.md) — IAP lead mining.
+- [Modules/partner_autocomplete](partner_autocomplete.md) — Company data autocomplete via IAP.

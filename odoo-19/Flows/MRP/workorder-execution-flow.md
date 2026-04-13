@@ -347,10 +347,10 @@ def action_record_production(self):
 
 ## Related
 
-- [Flows/MRP/production-order-flow](Flows/MRP/production-order-flow.md) — Production order execution
-- [Flows/MRP/bom-to-production-flow](Flows/MRP/bom-to-production-flow.md) — BOM to production order creation
-- [Modules/MRP](Modules/mrp.md) — MRP module reference
-- [Modules/Stock](Modules/stock.md) — Inventory and materials
-- [Modules/Quality](Modules/quality.md) — Quality checks
-- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns
-- [Core/API](Core/API.md) — @api decorator patterns
+- [Flows/MRP/production-order-flow](production-order-flow.md) — Production order execution
+- [Flows/MRP/bom-to-production-flow](bom-to-production-flow.md) — BOM to production order creation
+- [Modules/MRP](MRP.md) — MRP module reference
+- [Modules/Stock](Stock.md) — Inventory and materials
+- [Modules/Quality](quality.md) — Quality checks
+- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine patterns
+- [Core/API](API.md) — @api decorator patterns

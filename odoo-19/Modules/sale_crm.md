@@ -614,6 +614,6 @@ No significant behavioral changes to `sale_crm` were introduced in the Odoo 18�
 
 ## Related
 
-- [Modules/sale](Modules/sale.md) — Core sale order module (`sale.order`, quotation lifecycle)
-- [Modules/crm](Modules/CRM.md) — Core CRM module (`crm.lead`, lead/opportunity lifecycle, merge logic)
-- [Modules/sales_team](Modules/sales_team.md) — CRM sales team module (contains `crm.team` base model)
+- [Modules/sale](Sale.md) — Core sale order module (`sale.order`, quotation lifecycle)
+- [Modules/crm](CRM.md) — Core CRM module (`crm.lead`, lead/opportunity lifecycle, merge logic)
+- [Modules/sales_team](sales_team.md) — CRM sales team module (contains `crm.team` base model)

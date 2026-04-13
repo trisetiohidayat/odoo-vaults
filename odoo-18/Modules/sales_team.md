@@ -109,4 +109,4 @@ Simple colored tag model for labeling deals/teams.
 
 ---
 
-*See also: [Modules/CRM](Modules/CRM.md), [Modules/sale](Modules/sale.md), [Modules/sale_management](Modules/sale_management.md)*
+*See also: [Modules/CRM](CRM.md), [Modules/sale](sale.md), [Modules/sale_management](sale_management.md)*

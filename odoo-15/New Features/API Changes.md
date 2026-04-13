@@ -77,6 +77,6 @@ currency_id = fields.Many2one('res.currency')
 ```
 
 ## See Also
-- [Core/API](Core/API.md) — Full decorator reference
-- [Core/BaseModel](Core/BaseModel.md) — Model definition
-- [Core/Fields](Core/Fields.md) — Field types
+- [Core/API](API.md) — Full decorator reference
+- [Core/BaseModel](BaseModel.md) — Model definition
+- [Core/Fields](Fields.md) — Field types

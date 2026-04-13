@@ -43,7 +43,7 @@ Every module documentation file should start with a **Quick Access** block:
 ### 🔗 Related Modules
 → [Modules/RelatedModule](Modules/RelatedModule.md) — Brief relationship
 → [Modules/AnotherModule](Modules/AnotherModule.md) — Brief relationship
-→ [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Pattern reference
+→ [Patterns/Workflow Patterns](Workflow Patterns.md) — Pattern reference
 ```
 
 ---
@@ -255,8 +255,8 @@ When documenting a new module, ensure:
 
 ## Related Templates
 
-- [Flows/TEMPLATE-flow](Flows/TEMPLATE-flow.md) — Flow document template
-- [Business/TEMPLATE-guide](Business/TEMPLATE-guide.md) — Business guide template
-- [Snippets/method-chain-example](Snippets/method-chain-example.md) — Method chain notation reference
-- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow patterns
-- [Patterns/Security Patterns](Patterns/Security Patterns.md) — Security patterns
+- [Flows/TEMPLATE-flow](TEMPLATE-flow.md) — Flow document template
+- [Business/TEMPLATE-guide](TEMPLATE-guide.md) — Business guide template
+- [Snippets/method-chain-example](method-chain-example.md) — Method chain notation reference
+- [Patterns/Workflow Patterns](Workflow Patterns.md) — Workflow patterns
+- [Patterns/Security Patterns](Security Patterns.md) — Security patterns

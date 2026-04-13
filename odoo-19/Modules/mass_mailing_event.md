@@ -639,13 +639,13 @@ If a user has a saved `mailing.filter` record for `event.registration`, selectin
 
 ## Related Documentation
 
-- [Modules/event](Modules/event.md) -- `event.event`, `event.registration`, registration states, seat management, computed fields (`is_finished`, `event_registrations_open`, `seats_taken`)
-- [Modules/mass_mailing](Modules/mass_mailing.md) -- `mailing.mailing`, `mailing.trace`, `mailing.filter`, `_mailing_get_default_domain` call site, recipient domain resolution, blacklist handling
-- [Core/API](Core/API.md) -- `@api.depends`, `@api.model`, computed fields, `_()` translation function, `@api.constrains`
-- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) -- `_inherit` classical inheritance used here; `_inherits` vs. `_inherit` distinction
-- [Core/Fields](Core/Fields.md) -- Field type reference (`_mailing_enabled` is a class attribute, not a field)
-- [Tools/ORM Operations](Tools/ORM Operations.md) -- `search()`, `browse()`, domain operators (`in`, `not in`)
-- [Core/HTTP Controller](Core/HTTP Controller.md) -- note: this module has no HTTP routes; all interactions are via ORM action methods
+- [Modules/event](event.md) -- `event.event`, `event.registration`, registration states, seat management, computed fields (`is_finished`, `event_registrations_open`, `seats_taken`)
+- [Modules/mass_mailing](mass_mailing.md) -- `mailing.mailing`, `mailing.trace`, `mailing.filter`, `_mailing_get_default_domain` call site, recipient domain resolution, blacklist handling
+- [Core/API](API.md) -- `@api.depends`, `@api.model`, computed fields, `_()` translation function, `@api.constrains`
+- [Patterns/Inheritance Patterns](Inheritance Patterns.md) -- `_inherit` classical inheritance used here; `_inherits` vs. `_inherit` distinction
+- [Core/Fields](Fields.md) -- Field type reference (`_mailing_enabled` is a class attribute, not a field)
+- [Tools/ORM Operations](ORM Operations.md) -- `search()`, `browse()`, domain operators (`in`, `not in`)
+- [Core/HTTP Controller](HTTP Controller.md) -- note: this module has no HTTP routes; all interactions are via ORM action methods
 
 ---
 

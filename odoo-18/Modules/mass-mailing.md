@@ -547,8 +547,8 @@ There is NO `mailing.list.dynamic` model in the base `mass_mailing` module. Dyna
 
 ## See Also
 
-- [Modules/Mail](Modules/mail.md) — mail.mail, mail.thread, mail.blacklist
-- [Modules/UTM](Modules/utm.md) — utm.campaign, utm.source, utm.medium
+- [Modules/Mail](mail.md) — mail.mail, mail.thread, mail.blacklist
+- [Modules/UTM](utm.md) — utm.campaign, utm.source, utm.medium
 - [Modules/Link Tracker](Modules/Link-Tracker.md) — link.tracker for click tracking
-- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — _inherit vs _inherits vs mixin
-- [Core/API](Core/API.md) — mail.render.mixin for QWeb template rendering
+- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — _inherit vs _inherits vs mixin
+- [Core/API](API.md) — mail.render.mixin for QWeb template rendering

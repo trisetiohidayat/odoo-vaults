@@ -88,6 +88,6 @@ An American payment provider for online payments all over the world. Uses PayPal
 **Error Handling:** Uses PayPal const module for status mapping constants.
 
 ## Related
-- [Modules/payment](Modules/payment.md)
-- [Modules/payment_adyen](Modules/payment_adyen.md)
-- [Modules/payment_stripe](Modules/payment_stripe.md)
+- [Modules/payment](payment.md)
+- [Modules/payment_adyen](payment_adyen.md)
+- [Modules/payment_stripe](payment_stripe.md)

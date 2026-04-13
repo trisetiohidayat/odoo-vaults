@@ -978,8 +978,8 @@ All country validators delegate to `python-stdnum`. Key modules used:
 
 ## Related Documentation
 
-- [Core/BaseModel](Core/BaseModel.md) — ORM foundation, `_inherit` patterns
-- [Modules/Account](Modules/account.md) — Fiscal position integration, `account.move` tax computation
-- [Core/Fields](Core/Fields.md) — `tracking=True`, `store=True`, `readonly=False` field attributes
-- [Modules/base_iban](Modules/base_iban.md) — Analogous bank account validation module
-- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — `_inherit` vs `_inherits`
+- [Core/BaseModel](BaseModel.md) — ORM foundation, `_inherit` patterns
+- [Modules/Account](Account.md) — Fiscal position integration, `account.move` tax computation
+- [Core/Fields](Fields.md) — `tracking=True`, `store=True`, `readonly=False` field attributes
+- [Modules/base_iban](base_iban.md) — Analogous bank account validation module
+- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — `_inherit` vs `_inherits`

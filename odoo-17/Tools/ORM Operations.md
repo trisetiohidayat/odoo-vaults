@@ -77,6 +77,6 @@ self.env.ref('xml_id')          # resolve external ref
 ```
 
 ## See Also
-- [Core/BaseModel](Core/BaseModel.md) — CRUD methods
-- [Core/API](Core/API.md) — @api.depends
-- [Core/Fields](Core/Fields.md) — Field types
+- [Core/BaseModel](BaseModel.md) — CRUD methods
+- [Core/API](API.md) — @api.depends
+- [Core/Fields](Fields.md) — Field types

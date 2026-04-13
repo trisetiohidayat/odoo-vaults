@@ -124,6 +124,6 @@ This module is **fully stable** across the Odoo 18 to 19 transition.
 
 ## Related
 
-- [Modules/pos_self_order](Modules/pos_self_order.md) — Base self-order module
-- [Modules/pos_sale](Modules/pos_sale.md) — POS + Sale integration
-- [Modules/sales_team](Modules/sales_team.md) — CRM Sales Team model
+- [Modules/pos_self_order](pos_self_order.md) — Base self-order module
+- [Modules/pos_sale](pos_sale.md) — POS + Sale integration
+- [Modules/sales_team](sales_team.md) — CRM Sales Team model

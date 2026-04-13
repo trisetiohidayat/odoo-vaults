@@ -39,8 +39,8 @@ version: "1.2"
 - [Modules/l10n_id#odoo-18-to-19-version-changes](Modules/l10n_id#odoo-18-to-19-version-changes.md) — Tax rate migrations 1.1→1.2→1.3
 
 ### Related Flows
-- [Flows/Cross-Module/purchase-stock-account-flow](Flows/Cross-Module/purchase-stock-account-flow.md) — PO→Receipt→Vendor Bill (with PPN tax)
-- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — QRIS payment collection
+- [Flows/Cross-Module/purchase-stock-account-flow](purchase-stock-account-flow.md) — PO→Receipt→Vendor Bill (with PPN tax)
+- [Flows/Account/payment-flow](payment-flow.md) — QRIS payment collection
 
 ---
 
@@ -869,8 +869,8 @@ The existing `l10n_id.md` contained several significant errors:
 
 ## Related Modules
 
-- [Modules/account](Modules/account.md) — Core accounting: journals, taxes, move posting
-- [Modules/l10n_id_efaktur_coretax](Modules/l10n_id_efaktur_coretax.md) — e-Faktur / CoreTax EDI export (separate module)
-- [Modules/l10n_id_pos](Modules/l10n_id_pos.md) — Indonesian POS localization
+- [Modules/account](Account.md) — Core accounting: journals, taxes, move posting
+- [Modules/l10n_id_efaktur_coretax](l10n_id_efaktur_coretax.md) — e-Faktur / CoreTax EDI export (separate module)
+- [Modules/l10n_id_pos](l10n_id_pos.md) — Indonesian POS localization
 - [DJP Indonesia](https://www.pajak.go.id)
 - [QRIS Specification](https://qris.online)

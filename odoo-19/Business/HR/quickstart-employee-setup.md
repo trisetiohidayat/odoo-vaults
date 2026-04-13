@@ -11,8 +11,8 @@ prerequisites:
   - working_hours_defined
 estimated_time: "~5 minutes per employee"
 related_flows:
-  - "[Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md)"
-  - "[Flows/HR/employee-archival-flow](Flows/HR/employee-archival-flow.md)"
+  - "[Flows/HR/employee-creation-flow](employee-creation-flow.md)"
+  - "[Flows/HR/employee-archival-flow](employee-archival-flow.md)"
 source_module: hr
 created: 2026-04-06
 version: "1.0"
@@ -45,9 +45,9 @@ Before creating employees, ensure the following are configured. Skipping these w
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) | Full method chain and branching |
-| 📖 Module Reference | [Modules/HR](Modules/hr.md) | Complete field and method reference |
-| 📋 Related Guide | [Business/HR/leave-management-guide](Business/HR/leave-management-guide.md) | Leave management process |
+| 🔀 Technical Flow | [Flows/HR/employee-creation-flow](employee-creation-flow.md) | Full method chain and branching |
+| 📖 Module Reference | [Modules/HR](HR.md) | Complete field and method reference |
+| 📋 Related Guide | [Business/HR/leave-management-guide](leave-management-guide.md) | Leave management process |
 
 ---
 
@@ -210,7 +210,7 @@ After saving, verify:
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) | Full method chain for developers |
-| 📖 Module Reference | [Modules/HR](Modules/hr.md) | Complete field and method reference |
-| 📋 Leave Management | [Business/HR/leave-management-guide](Business/HR/leave-management-guide.md) | Managing employee leave |
-| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | Workflow design patterns |
+| 🔀 Technical Flow | [Flows/HR/employee-creation-flow](employee-creation-flow.md) | Full method chain for developers |
+| 📖 Module Reference | [Modules/HR](HR.md) | Complete field and method reference |
+| 📋 Leave Management | [Business/HR/leave-management-guide](leave-management-guide.md) | Managing employee leave |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Workflow Patterns.md) | Workflow design patterns |

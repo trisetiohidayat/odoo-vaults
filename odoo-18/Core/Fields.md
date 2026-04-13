@@ -157,5 +157,5 @@ data = fields.Json(string='Metadata', precompute=True)
 ---
 
 ## Related Links
-- [Core/BaseModel](Core/BaseModel.md) — Model foundation
-- [Core/API](Core/API.md) — @api.depends, @api.onchange
+- [Core/BaseModel](BaseModel.md) — Model foundation
+- [Core/API](API.md) — @api.depends, @api.onchange

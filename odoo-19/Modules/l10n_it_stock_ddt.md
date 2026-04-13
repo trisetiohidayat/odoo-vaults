@@ -47,4 +47,4 @@ invoice line to export in the FatturaPA XML.
 - Custom model files: account_invoice.py, stock_picking.py
 
 ## Related
-- [Modules/l10n_it](Modules/l10n_it.md) - Core accounting
+- [Modules/l10n_it](l10n_it.md) - Core accounting

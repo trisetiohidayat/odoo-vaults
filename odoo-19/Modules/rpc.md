@@ -93,5 +93,5 @@ models.execute_kw('db', uid, 'password', 'res.partner', 'search_read', [[]], {'f
 ```
 
 ## Related
-- [Modules/api_doc](Modules/api_doc.md) — API documentation module
-- [Modules/web](Modules/web.md) — Odoo Web controller framework
+- [Modules/api_doc](api_doc.md) — API documentation module
+- [Modules/web](web.md) — Odoo Web controller framework

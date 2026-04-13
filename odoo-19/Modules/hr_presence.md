@@ -56,6 +56,6 @@ Mirrors the presence fields for public access.
 - Cron-based daily computation
 
 ## Related
-- [Modules/HR](Modules/hr.md) - Core HR module
-- [Modules/hr_holidays](Modules/hr_holidays.md) - Leave tracking
-- [Modules/sms](Modules/sms.md) - SMS sending
+- [Modules/HR](HR.md) - Core HR module
+- [Modules/hr_holidays](hr_holidays.md) - Leave tracking
+- [Modules/sms](sms.md) - SMS sending

@@ -25,6 +25,6 @@
 - `_check_event_ticket_service_tracking()` - Validates that products with tickets have `service_tracking = event`
 
 ## Related
-- [Modules/event](Modules/event.md) - Event management
-- [Modules/event_sale](Modules/event_sale.md) - Event ticket sales
-- [Modules/Product](Modules/product.md) - Product management
+- [Modules/event](event.md) - Event management
+- [Modules/event_sale](event_sale.md) - Event ticket sales
+- [Modules/Product](Product.md) - Product management

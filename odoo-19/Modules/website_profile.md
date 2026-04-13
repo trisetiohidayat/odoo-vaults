@@ -370,7 +370,7 @@ All gamification karma fields are defined in `gamification/models/res_users.py` 
 | `rank_id` | `Many2one` → `gamification.karma.rank` | Current rank |
 | `next_rank_id` | `Many2one` → `gamification.karma.rank` | Next rank to achieve |
 
-Rank is automatically recomputed by `_compute_karma()` (which calls `_recompute_rank()`). This is triggered on every karma tracking insert. See `[Modules/gamification](Modules/gamification.md)` for full details.
+Rank is automatically recomputed by `_compute_karma()` (which calls `_recompute_rank()`). This is triggered on every karma tracking insert. See `[Modules/gamification](gamification.md)` for full details.
 
 ---
 
@@ -430,7 +430,7 @@ If the user changes their email via `/my/account`, `CustomerPortalProfile._valid
 
 ## Related Documentation
 
-- [Modules/website_partner](Modules/website_partner.md) — `res.partner.website_description` field
-- [Modules/gamification](Modules/gamification.md) — Karma tracking, ranks, badges
-- [Core/API](Core/API.md) — `@api.depends`, `@api.model`, computed fields
-- [Core/Fields](Core/Fields.md) — Field types used across these models
+- [Modules/website_partner](website_partner.md) — `res.partner.website_description` field
+- [Modules/gamification](gamification.md) — Karma tracking, ranks, badges
+- [Core/API](API.md) — `@api.depends`, `@api.model`, computed fields
+- [Core/Fields](Fields.md) — Field types used across these models

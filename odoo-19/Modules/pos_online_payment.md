@@ -31,6 +31,6 @@ Enables online payment for POS orders. Customers can pay their POS order via a p
 - `views/account_payment_views.xml` — Account payment views
 
 ## Related
-- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
-- [Modules/payment](Modules/payment.md) — Payment engine
-- [Modules/pos_online_payment_self_order](Modules/pos_online_payment_self_order.md) — Online payment in self-order
+- [Modules/point_of_sale](point_of_sale.md) — Base POS module
+- [Modules/payment](payment.md) — Payment engine
+- [Modules/pos_online_payment_self_order](pos_online_payment_self_order.md) — Online payment in self-order

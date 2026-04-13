@@ -16,9 +16,9 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md)"
-  - "[Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md)"
-  - "[Modules/stock_landed_costs](Modules/stock_landed_costs.md)"
+  - "[Flows/Stock/receipt-flow](receipt-flow.md)"
+  - "[Flows/Stock/delivery-flow](delivery-flow.md)"
+  - "[Modules/stock_landed_costs](stock_landed_costs.md)"
 source_module: stock_account
 source_path: ~/odoo/odoo19/odoo/addons/stock_account/
 created: 2026-04-07
@@ -394,9 +394,9 @@ class StockMove(models.Model):
 
 ## Related
 
-- [Modules/Stock](Modules/stock.md) — `stock.move`, `stock.quant`, `stock.valuation.layer` field reference
-- [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Purchase receipt from PO to quant
-- [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) — Sales delivery from SO to quant
-- [Modules/stock_landed_costs](Modules/stock_landed_costs.md) — Landed cost integration with valuation
-- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine pattern in Odoo
-- [Core/API](Core/API.md) — `@api.depends` decorator for computed fields
+- [Modules/Stock](Stock.md) — `stock.move`, `stock.quant`, `stock.valuation.layer` field reference
+- [Flows/Stock/receipt-flow](receipt-flow.md) — Purchase receipt from PO to quant
+- [Flows/Stock/delivery-flow](delivery-flow.md) — Sales delivery from SO to quant
+- [Modules/stock_landed_costs](stock_landed_costs.md) — Landed cost integration with valuation
+- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine pattern in Odoo
+- [Core/API](API.md) — `@api.depends` decorator for computed fields

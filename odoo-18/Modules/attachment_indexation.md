@@ -40,4 +40,4 @@ Two main features:
 
 ---
 
-*See also: [Modules/web](Modules/web.md)*
+*See also: [Modules/web](web.md)*

@@ -28,8 +28,8 @@ Bulgarian accounting chart and tax localization module. Provides the chart of ac
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](Modules/account.md) | Core accounting framework |
-| [Modules/base_vat](Modules/base_vat.md) | Bulgarian BULSTAT/EGN validation |
+| [Modules/Account](Account.md) | Core accounting framework |
+| [Modules/base_vat](base_vat.md) | Bulgarian BULSTAT/EGN validation |
 
 ## Auto-Install
 
@@ -70,13 +70,13 @@ Pre-configured for:
 Bulgarian business registration number:
 - **BULSTAT**: 9-digit unified identification code
 - **EGN**: Personal identity number for individuals
-- Validated via [Modules/base_vat](Modules/base_vat.md)
+- Validated via [Modules/base_vat](base_vat.md)
 
 ## Related Modules
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_bg_ledger](Modules/l10n_bg_ledger.md) | Bulgarian ledger / extended reporting |
+| [Modules/l10n_bg_ledger](l10n_bg_ledger.md) | Bulgarian ledger / extended reporting |
 
 ## Configuration
 
@@ -91,9 +91,9 @@ Bulgarian business registration number:
 - BULSTAT is the primary business identifier
 - EU member since 2007 - follows EU VAT rules
 - No dedicated EDI module in Odoo 19 standard distribution
-- See [Modules/l10n_bg_ledger](Modules/l10n_bg_ledger.md) for extended Bulgarian ledger features
+- See [Modules/l10n_bg_ledger](l10n_bg_ledger.md) for extended Bulgarian ledger features
 
 ## See Also
 
-- [Modules/l10n_bg_ledger](Modules/l10n_bg_ledger.md) - Bulgarian ledger reporting
-- [Modules/Account](Modules/account.md) - Core accounting
+- [Modules/l10n_bg_ledger](l10n_bg_ledger.md) - Bulgarian ledger reporting
+- [Modules/Account](Account.md) - Core accounting

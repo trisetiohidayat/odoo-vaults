@@ -140,7 +140,7 @@ Proxies HTTP requests to `https://api.unsplash.com/{path}` using the configured 
 
 ## See Also
 
-- [Modules/web_editor](Modules/web_editor.md) — WYSIWYG editor base
-- [Modules/html_editor](Modules/html_editor.md) — OWL-based HTML editor
-- [Modules/product_images](Modules/product_images.md) — Google Custom Search image fetching
+- [Modules/web_editor](web_editor.md) — WYSIWYG editor base
+- [Modules/html_editor](html_editor.md) — OWL-based HTML editor
+- [Modules/product_images](product_images.md) — Google Custom Search image fetching
 - [Modules/base_setup](Modules/base_setup.md) — System configuration settings

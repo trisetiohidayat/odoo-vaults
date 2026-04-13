@@ -14,7 +14,7 @@ The Israel localization module provides a generic Israeli chart of accounts, VAT
 Israel (`IL`)
 
 ## Dependencies
-- [account](Modules/account.md)
+- [account](account.md)
 
 ## Key Models
 

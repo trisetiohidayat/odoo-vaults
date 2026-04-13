@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, account-debit-note-sequence]
 
 
 
-- [Modules/account](Modules/account.md) — Accounting extension
+- [Modules/account](account.md) — Accounting extension

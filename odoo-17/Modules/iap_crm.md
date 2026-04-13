@@ -29,5 +29,5 @@ Minimal extension to `crm.lead` that adds a `reveal_id` field — the technical 
 
 ## See Also
 
-- [Modules/crm_iap_enrich](Modules/crm_iap_enrich.md) — lead enrichment via IAP Clearbit
-- [Modules/crm](Modules/CRM.md) — CRM lead model
+- [Modules/crm_iap_enrich](crm_iap_enrich.md) — lead enrichment via IAP Clearbit
+- [Modules/crm](crm.md) — CRM lead model

@@ -33,8 +33,8 @@ Localized accounting for Kuwait. Activates chart of accounts for companies based
 - Demo data: `demo/demo_company.xml`
 
 ## Related
-- [Modules/account](Modules/account.md)
-- [Modules/l10n_gcc_invoice](Modules/l10n_gcc_invoice.md)
-- [Modules/l10n_sa](Modules/l10n_sa.md)
-- [Modules/l10n_om](Modules/l10n_om.md)
-- [Modules/l10n_qa](Modules/l10n_qa.md)
+- [Modules/account](Account.md)
+- [Modules/l10n_gcc_invoice](l10n_gcc_invoice.md)
+- [Modules/l10n_sa](l10n_sa.md)
+- [Modules/l10n_om](l10n_om.md)
+- [Modules/l10n_qa](l10n_qa.md)

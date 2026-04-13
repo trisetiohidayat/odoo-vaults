@@ -15,12 +15,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md)"
-  - "[Flows/HR/leave-request-flow](Flows/HR/leave-request-flow.md)"
-  - "[Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md)"
-  - "[Flows/Website/website-sale-flow](Flows/Website/website-sale-flow.md)"
+  - "[Flows/Sale/quotation-to-sale-order-flow](quotation-to-sale-order-flow.md)"
+  - "[Flows/HR/leave-request-flow](leave-request-flow.md)"
+  - "[Flows/Helpdesk/ticket-creation-flow](ticket-creation-flow.md)"
+  - "[Flows/Website/website-sale-flow](website-sale-flow.md)"
 related_guides:
-  - "[Modules/mail](Modules/mail.md)"
+  - "[Modules/mail](mail.md)"
 source_module: mail
 source_path: ~/odoo/odoo19/odoo/addons/mail/models/
 created: 2026-04-07
@@ -143,7 +143,7 @@ Multiple independent triggers can start this flow:
 
 === BUS REAL-TIME NOTIFICATION ===
 
-43. bus.bus.sendone(channel='[Modules/mail](Modules/mail.md), notification_type, message_dict')
+43. bus.bus.sendone(channel='[Modules/mail](mail.md), notification_type, message_dict')
    └─► 44. bus.bus table updated with notification row
          └─► 45. websocket long-polling push to Odoo web client
                └─► 46. JavaScript receives notification → updates inbox badge / toast
@@ -403,12 +403,12 @@ def _notify_record_by_email(self, message, recipients_data, **kwargs):
 
 ## Related
 
-- [Modules/mail](Modules/mail.md) — Mail module reference
-- [Modules/mail](Modules/mail.md) — Activity module reference
-- [Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md) — Sale order notification side effects
-- [Flows/HR/leave-request-flow](Flows/HR/leave-request-flow.md) — Leave request notification side effects
-- [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) — Helpdesk notification side effects
-- [Flows/Website/website-sale-flow](Flows/Website/website-sale-flow.md) — Website sale confirmation email
-- [Modules/mail](Modules/mail.md) — Email configuration guide
-- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
-- [Core/API](Core/API.md) — @api decorator patterns
+- [Modules/mail](mail.md) — Mail module reference
+- [Modules/mail](mail.md) — Activity module reference
+- [Flows/Sale/quotation-to-sale-order-flow](quotation-to-sale-order-flow.md) — Sale order notification side effects
+- [Flows/HR/leave-request-flow](leave-request-flow.md) — Leave request notification side effects
+- [Flows/Helpdesk/ticket-creation-flow](ticket-creation-flow.md) — Helpdesk notification side effects
+- [Flows/Website/website-sale-flow](website-sale-flow.md) — Website sale confirmation email
+- [Modules/mail](mail.md) — Email configuration guide
+- [Patterns/Workflow Patterns](Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](API.md) — @api decorator patterns

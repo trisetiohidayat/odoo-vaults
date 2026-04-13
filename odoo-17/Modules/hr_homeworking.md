@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, hr-homeworking]
 
 
 
-- [Modules/hr](Modules/hr.md) — Human resources base
+- [Modules/hr](hr.md) — Human resources base

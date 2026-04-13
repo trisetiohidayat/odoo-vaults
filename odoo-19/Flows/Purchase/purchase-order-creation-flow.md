@@ -15,11 +15,11 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Purchase/purchase-order-receipt-flow](Flows/Purchase/purchase-order-receipt-flow.md)"
-  - "[Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md)"
-  - "[Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md)"
+  - "[Flows/Purchase/purchase-order-receipt-flow](purchase-order-receipt-flow.md)"
+  - "[Flows/Purchase/purchase-to-bill-flow](purchase-to-bill-flow.md)"
+  - "[Flows/Stock/receipt-flow](receipt-flow.md)"
 related_guides:
-  - "[Modules/Purchase](Modules/purchase.md)"
+  - "[Modules/Purchase](Purchase.md)"
 source_module: purchase
 source_path: ~/odoo/odoo19/odoo/addons/purchase/
 created: 2026-04-06
@@ -121,7 +121,7 @@ PHASE 2: RFQ → PO Confirmation (draft → purchase)
           │     │
           │     └─42. Picking created in 'draft' state
           │           └─► 43. User must confirm + validate receipt separately
-          │           └─► See: [Flows/Purchase/purchase-order-receipt-flow](Flows/Purchase/purchase-order-receipt-flow.md)
+          │           └─► See: [Flows/Purchase/purchase-order-receipt-flow](purchase-order-receipt-flow.md)
           │
           ├─► 44. activity_ids create — scheduled reminder
           │     └─► 45. mail.activity: "Follow-up on purchase order" scheduled
@@ -370,10 +370,10 @@ def button_confirm(self):
 
 ## Related
 
-- [Modules/Purchase](Modules/purchase.md) — Purchase module reference
-- [Modules/Stock](Modules/stock.md) — Stock/picking module reference
-- [Flows/Purchase/purchase-order-receipt-flow](Flows/Purchase/purchase-order-receipt-flow.md) — Receipt of goods against confirmed PO
-- [Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md) — Vendor bill creation and payment
-- [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Incoming receipt (same as PO receipt)
-- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
-- [Core/API](Core/API.md) — @api decorator patterns
+- [Modules/Purchase](Purchase.md) — Purchase module reference
+- [Modules/Stock](Stock.md) — Stock/picking module reference
+- [Flows/Purchase/purchase-order-receipt-flow](purchase-order-receipt-flow.md) — Receipt of goods against confirmed PO
+- [Flows/Purchase/purchase-to-bill-flow](purchase-to-bill-flow.md) — Vendor bill creation and payment
+- [Flows/Stock/receipt-flow](receipt-flow.md) — Incoming receipt (same as PO receipt)
+- [Patterns/Workflow Patterns](Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](API.md) — @api decorator patterns

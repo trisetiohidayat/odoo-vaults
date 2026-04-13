@@ -14,4 +14,4 @@ Localized accounting for United.
 - **Localization type**: data-only (chart of accounts + taxes)
 
 ## Related
-- [Modules/l10n_gcc_pos](Modules/l10n_gcc_pos.md) — Core accounting
+- [Modules/l10n_gcc_pos](l10n_gcc_pos.md) — Core accounting

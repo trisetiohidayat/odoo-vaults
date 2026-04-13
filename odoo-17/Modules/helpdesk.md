@@ -222,8 +222,8 @@ deadline = plan_hours(sla_hours, base_deadline)
 ```
 
 ## See Also
-- [Modules/crm](Modules/CRM.md) — similar lead management and pipeline pattern
-- [Modules/project](Modules/project.md) — task management, stage tracking
-- [Modules/mail](Modules/mail.md) — mail.thread, email integration
-- [Modules/rating](Modules/rating.md) — customer satisfaction ratings
-- [Modules/portal](Modules/portal.md) — customer portal access
+- [Modules/crm](crm.md) — similar lead management and pipeline pattern
+- [Modules/project](project.md) — task management, stage tracking
+- [Modules/mail](mail.md) — mail.thread, email integration
+- [Modules/rating](rating.md) — customer satisfaction ratings
+- [Modules/portal](portal.md) — customer portal access

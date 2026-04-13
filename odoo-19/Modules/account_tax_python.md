@@ -379,5 +379,5 @@ This forces `account_test` to be loaded before `account_tax_python`. The `accoun
 
 ## Related
 
-- [Modules/account](Modules/account.md)
-- [Modules/account_test](Modules/account_test.md)
+- [Modules/account](Account.md)
+- [Modules/account_test](account_test.md)

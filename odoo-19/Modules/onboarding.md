@@ -11,7 +11,7 @@ Framework for in-app onboarding panels. Displays step-by-step setup guides that 
 
 ## Dependencies
 
-- [Modules/web](Modules/web.md) - Web framework
+- [Modules/web](web.md) - Web framework
 
 ## Models
 
@@ -91,4 +91,4 @@ Tracks completion of individual steps.
 
 ## Related
 
-- [Modules/web](Modules/web.md) - Web framework
+- [Modules/web](web.md) - Web framework

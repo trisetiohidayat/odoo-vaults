@@ -66,6 +66,6 @@ The main query joins `account_move_line`, `account_move`, `product_product`, and
 - `_read_group_select` — Returns `SQL("NULL")` for special aggregates to bypass default behavior
 
 ## Related
-- [Modules/product](Modules/product.md)
-- [Modules/account](Modules/account.md)
-- [Modules/sale_margin](Modules/sale_margin.md)
+- [Modules/product](Product.md)
+- [Modules/account](Account.md)
+- [Modules/sale_margin](sale_margin.md)

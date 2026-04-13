@@ -15,4 +15,4 @@ Localized accounting for Israel.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/Account](Modules/account.md) — Core accounting
+- [Modules/Account](Account.md) — Core accounting

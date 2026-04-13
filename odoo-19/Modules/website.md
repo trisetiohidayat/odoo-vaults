@@ -1350,14 +1350,14 @@ base.group_portal
 
 ## Related
 
-- [Modules/website_blog](Modules/website_blog.md) -- Blog posts and tags
-- [Modules/website_sale](Modules/website_sale.md) -- E-commerce storefront
-- [Modules/website_event](Modules/website_event.md) -- Event management
-- [Modules/website_forum](Modules/website_forum.md) -- Forum/community
-- [Modules/website_crm](Modules/website_crm.md) -- Lead capture forms
-- [Modules/website_payment](Modules/website_payment.md) -- Online payments
-- [Modules/website_livechat](Modules/website_livechat.md) -- Live chat
-- [Modules/website_slides](Modules/website_slides.md) -- E-learning
-- [Modules/website_hr_recruitment](Modules/website_hr_recruitment.md) -- Job applications
-- [Core/API](Core/API.md) -- HTTP routing, controllers
-- [Patterns/Security Patterns](Patterns/Security Patterns.md) -- ACL, record rules
+- [Modules/website_blog](website_blog.md) -- Blog posts and tags
+- [Modules/website_sale](website_sale.md) -- E-commerce storefront
+- [Modules/website_event](website_event.md) -- Event management
+- [Modules/website_forum](website_forum.md) -- Forum/community
+- [Modules/website_crm](website_crm.md) -- Lead capture forms
+- [Modules/website_payment](website_payment.md) -- Online payments
+- [Modules/website_livechat](website_livechat.md) -- Live chat
+- [Modules/website_slides](website_slides.md) -- E-learning
+- [Modules/website_hr_recruitment](website_hr_recruitment.md) -- Job applications
+- [Core/API](API.md) -- HTTP routing, controllers
+- [Patterns/Security Patterns](Security Patterns.md) -- ACL, record rules

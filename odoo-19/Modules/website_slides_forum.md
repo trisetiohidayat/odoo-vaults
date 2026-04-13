@@ -532,7 +532,7 @@ forum_model_nav template ──────────────► course-aw
 
 ## Related Modules
 
-- [Modules/website_slides](Modules/website_slides.md) — Course management, channel model, slide content
-- [Modules/website_forum](Modules/website_forum.md) — Forum controller, post model, karma system
+- [Modules/website_slides](website_slides.md) — Course management, channel model, slide content
+- [Modules/website_forum](website_forum.md) — Forum controller, post model, karma system
 - [forum](forum.md) — Base forum ORM, post, tag models
-- [Modules/website_profile](Modules/website_profile.md) — Profile page controller (call chain for `_prepare_user_profile_parameters`)
+- [Modules/website_profile](website_profile.md) — Profile page controller (call chain for `_prepare_user_profile_parameters`)

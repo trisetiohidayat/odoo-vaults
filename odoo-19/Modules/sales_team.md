@@ -441,7 +441,7 @@ The `_inherit = ['mail.thread']` list syntax (prototype inheritance) is stable i
 
 ### Related Documentation
 
-- [Modules/CRM](Modules/CRM.md) — `crm` module uses `crm.team` as pipeline container
-- [Modules/Sale](Modules/sale.md) — `sale.order` uses `team_id` for assignment
-- [Core/Fields](Core/Fields.md) — Many2many with compute/inverse pattern
-- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — Classic vs. prototype inheritance
+- [Modules/CRM](CRM.md) — `crm` module uses `crm.team` as pipeline container
+- [Modules/Sale](Sale.md) — `sale.order` uses `team_id` for assignment
+- [Core/Fields](Fields.md) — Many2many with compute/inverse pattern
+- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — Classic vs. prototype inheritance

@@ -40,9 +40,9 @@ This module adds accounting features for Ecuadorian localization, representing t
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](Modules/account.md) | Core accounting module |
-| [Modules/l10n_latam_invoice_document](Modules/l10n_latam_invoice_document.md) | LATAM document types support |
-| [Modules/l10n_latam_base](Modules/l10n_latam_base.md) | Latin America base localization |
+| [Modules/Account](Account.md) | Core accounting module |
+| [Modules/l10n_latam_invoice_document](l10n_latam_invoice_document.md) | LATAM document types support |
+| [Modules/l10n_latam_base](l10n_latam_base.md) | Latin America base localization |
 | `account_debit_note` | Debit note support |
 | `base_iban` | IBAN bank account support |
 
@@ -157,9 +157,9 @@ Documents are mapped to partner identification codes (ATS Table 2):
 - Views for tax, document type, partner, journal, SRI payment
 
 ## Related Modules
-- [Modules/l10n_ec](Modules/l10n_ec.md) - Core accounting (this module)
-- [Modules/l10n_ec_sale](Modules/l10n_ec_sale.md) - Ecuador sale extensions
-- [Modules/l10n_ec_stock](Modules/l10n_ec_stock.md) - Ecuador stock extensions
-- [Modules/account](Modules/account.md) - Core accounting
-- [Modules/l10n_latam_base](Modules/l10n_latam_base.md) - Latin America base localization
-- [Modules/l10n_latam_invoice_document](Modules/l10n_latam_invoice_document.md) - LATAM document types
+- [Modules/l10n_ec](l10n_ec.md) - Core accounting (this module)
+- [Modules/l10n_ec_sale](l10n_ec_sale.md) - Ecuador sale extensions
+- [Modules/l10n_ec_stock](l10n_ec_stock.md) - Ecuador stock extensions
+- [Modules/account](Account.md) - Core accounting
+- [Modules/l10n_latam_base](l10n_latam_base.md) - Latin America base localization
+- [Modules/l10n_latam_invoice_document](l10n_latam_invoice_document.md) - LATAM document types

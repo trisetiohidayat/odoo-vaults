@@ -30,7 +30,7 @@ Pakistan uses a combination of federal GST and provincial sales taxes that need 
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account](Modules/account.md) | Core accounting |
+| [Modules/account](Account.md) | Core accounting |
 
 ## Key Models
 
@@ -73,5 +73,5 @@ Extends chart of accounts with Pakistan-specific template:
 
 ## Related
 
-- [Modules/account](Modules/account.md) - Core accounting module
+- [Modules/account](Account.md) - Core accounting module
 - [FBR Pakistan](https://www.fbr.gov.pk)

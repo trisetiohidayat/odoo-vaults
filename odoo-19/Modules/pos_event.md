@@ -51,6 +51,6 @@ Link module between Point of Sale and Event management. Enables selling event ti
 - `data/point_of_sale_demo.xml` — Demo POS configuration
 
 ## Related
-- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
-- [Modules/event](Modules/event.md) — Event management
-- [Modules/pos_event_sale](Modules/pos_event_sale.md) — POS Event + Sale
+- [Modules/point_of_sale](point_of_sale.md) — Base POS module
+- [Modules/event](event.md) — Event management
+- [Modules/pos_event_sale](pos_event_sale.md) — POS Event + Sale

@@ -3,7 +3,7 @@ Module: sale_margin
 Version: Odoo 18
 Type: Extension
 Tags: #odoo #odoo18 #sale #margin #profitability
-Related Modules: [sale_management](Modules/sale_management.md), [sale](Modules/sale.md)
+Related Modules: [sale_management](sale_management.md), [sale](sale.md)
 ---
 
 # sale_margin — Sales Order Margins

@@ -62,8 +62,8 @@ Special schemes: **Brugtmoms** (used goods margin scheme), **Marginmoms** (margi
 
 ## EDI/Fiscal Reporting
 Danish e-invoicing is mandatory for B2G (government) through the OIOUBL 2.0/2.1 standard via the Nemhandel network. EDI modules:
-- `[Modules/l10n_dk_nemhandel](Modules/l10n_dk_nemhandel.md)` — OIOUBL 2.1 Nemhandel protocol
-- `[Modules/l10n_dk_oioubl](Modules/l10n_dk_oioubl.md)` — OIOUBL 2.01 format
+- `[Modules/l10n_dk_nemhandel](l10n_dk_nemhandel.md)` — OIOUBL 2.1 Nemhandel protocol
+- `[Modules/l10n_dk_oioubl](l10n_dk_oioubl.md)` — OIOUBL 2.01 format
 
 Both are available separately and extend `account_edi_ubl_cii`.
 

@@ -15,7 +15,7 @@ Monaco (`MC`)
 
 ## Dependencies
 - `l10n_fr_account` (French accounting chart — Monaco is账务ly integrated with France)
-- [account](Modules/account.md)
+- [account](account.md)
 
 ## Key Models
 No Python model files in this module. Monaco does not define its own chart template; it reuses the French chart (`l10n_fr_account`) and relies on the French chart's account codes and tax templates. The `account.chart.template` methods from `l10n_fr_account` handle account mapping for Monégasque companies.

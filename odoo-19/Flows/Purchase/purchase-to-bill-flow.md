@@ -15,9 +15,9 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md)"
-  - "[Flows/Purchase/purchase-order-receipt-flow](Flows/Purchase/purchase-order-receipt-flow.md)"
-  - "[Flows/Cross-Module/purchase-stock-account-flow](Flows/Cross-Module/purchase-stock-account-flow.md)"
+  - "[Flows/Purchase/purchase-order-creation-flow](purchase-order-creation-flow.md)"
+  - "[Flows/Purchase/purchase-order-receipt-flow](purchase-order-receipt-flow.md)"
+  - "[Flows/Cross-Module/purchase-stock-account-flow](purchase-stock-account-flow.md)"
 source_module: purchase
 source_path: ~/odoo/odoo19/odoo/addons/purchase/
 created: 2026-04-06
@@ -125,6 +125,6 @@ Create Bill action
 
 ## Related
 
-- [Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md) — PO creation
-- [Flows/Purchase/purchase-order-receipt-flow](Flows/Purchase/purchase-order-receipt-flow.md) — Receipt
-- [Flows/Cross-Module/purchase-stock-account-flow](Flows/Cross-Module/purchase-stock-account-flow.md) — Full cross-module
+- [Flows/Purchase/purchase-order-creation-flow](purchase-order-creation-flow.md) — PO creation
+- [Flows/Purchase/purchase-order-receipt-flow](purchase-order-receipt-flow.md) — Receipt
+- [Flows/Cross-Module/purchase-stock-account-flow](purchase-stock-account-flow.md) — Full cross-module

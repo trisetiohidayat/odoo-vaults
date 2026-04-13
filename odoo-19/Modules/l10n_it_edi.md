@@ -61,7 +61,7 @@ Italian tax-specific fields (nature, law reference).
 Transport Document (DDT) integration with Italian e-invoices.
 
 ## Related
-- [Modules/l10n_it](Modules/l10n_it.md) — Core Italian accounting
-- [Modules/l10n_it_edi_doi](Modules/l10n_it_edi_doi.md) — Italian Direct Import module
-- [Modules/account_edi_proxy_client](Modules/account_edi_proxy_client.md) — EDI proxy framework
-- [Modules/account_debit_note](Modules/account_debit_note.md) — Debit note support
+- [Modules/l10n_it](l10n_it.md) — Core Italian accounting
+- [Modules/l10n_it_edi_doi](l10n_it_edi_doi.md) — Italian Direct Import module
+- [Modules/account_edi_proxy_client](account_edi_proxy_client.md) — EDI proxy framework
+- [Modules/account_debit_note](account_debit_note.md) — Debit note support

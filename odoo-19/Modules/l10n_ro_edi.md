@@ -35,8 +35,8 @@ This module provides Romanian e-invoice compliance through the **ANAF (Autoritat
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) | UBL/CII EDI framework |
-| [Modules/l10n_ro](Modules/l10n_ro.md) | Romanian base accounting |
+| [Modules/account_edi_ubl_cii](account_edi_ubl_cii.md) | UBL/CII EDI framework |
+| [Modules/l10n_ro](l10n_ro.md) | Romanian base accounting |
 
 ## Auto-Install
 
@@ -206,7 +206,7 @@ def _l10n_ro_edi_fetch_invoices(self):
    - ANAF API credentials (access token)
    - Test/Production environment
    - Import journal for received invoices
-5. Install [Modules/l10n_ro_cpv_code](Modules/l10n_ro_cpv_code.md) for product classification
+5. Install [Modules/l10n_ro_cpv_code](l10n_ro_cpv_code.md) for product classification
 6. Set CPV codes on products for B2G invoices
 
 ## Technical Notes
@@ -222,13 +222,13 @@ def _l10n_ro_edi_fetch_invoices(self):
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_ro](Modules/l10n_ro.md) | Base Romanian accounting |
-| [Modules/l10n_ro_cpv_code](Modules/l10n_ro_cpv_code.md) | CPV product classification for invoices |
-| [Modules/l10n_ro_edi_stock](Modules/l10n_ro_edi_stock.md) | e-Transport for stock/inventory |
-| [Modules/l10n_ro_edi_stock_batch](Modules/l10n_ro_edi_stock_batch.md) | e-Transport batch processing |
+| [Modules/l10n_ro](l10n_ro.md) | Base Romanian accounting |
+| [Modules/l10n_ro_cpv_code](l10n_ro_cpv_code.md) | CPV product classification for invoices |
+| [Modules/l10n_ro_edi_stock](l10n_ro_edi_stock.md) | e-Transport for stock/inventory |
+| [Modules/l10n_ro_edi_stock_batch](l10n_ro_edi_stock_batch.md) | e-Transport batch processing |
 
 ## See Also
 
-- [Modules/l10n_ro](Modules/l10n_ro.md) - Romanian accounting
-- [Modules/l10n_ro_cpv_code](Modules/l10n_ro_cpv_code.md) - CPV product classification
-- [Modules/l10n_ro_edi_stock](Modules/l10n_ro_edi_stock.md) - Romanian e-Transport
+- [Modules/l10n_ro](l10n_ro.md) - Romanian accounting
+- [Modules/l10n_ro_cpv_code](l10n_ro_cpv_code.md) - CPV product classification
+- [Modules/l10n_ro_edi_stock](l10n_ro_edi_stock.md) - Romanian e-Transport

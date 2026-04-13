@@ -35,7 +35,7 @@ This module provides Greek tax compliance through the **myDATA** platform (my Di
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/l10n_gr](Modules/l10n_gr.md) | Greek base accounting |
+| [Modules/l10n_gr](l10n_gr.md) | Greek base accounting |
 
 ## Auto-Install
 
@@ -183,7 +183,7 @@ myDATA requires invoices to be classified by:
    - AADE credentials
    - Default classification categories
 5. Set preferred classification on products and accounts
-6. Configure [Modules/pos](Modules/pos.md) if using point of sale
+6. Configure [Modules/pos](pos.md) if using point of sale
 
 ## Data Files
 
@@ -197,8 +197,8 @@ myDATA requires invoices to be classified by:
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_gr](Modules/l10n_gr.md) | Base Greek accounting |
-| [Modules/pos](Modules/pos.md) | Point of Sale integration |
+| [Modules/l10n_gr](l10n_gr.md) | Base Greek accounting |
+| [Modules/pos](pos.md) | Point of Sale integration |
 
 ## Technical Notes
 
@@ -213,5 +213,5 @@ myDATA requires invoices to be classified by:
 
 ## See Also
 
-- [Modules/l10n_gr](Modules/l10n_gr.md) - Greek accounting
+- [Modules/l10n_gr](l10n_gr.md) - Greek accounting
 - [myDATA AADE Documentation](https://www.aade.gr/)

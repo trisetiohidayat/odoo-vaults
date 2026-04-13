@@ -105,6 +105,6 @@ processing → proxy status poll → done | error
 ```
 
 ## Related
-- [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md)
-- [Modules/account_edi_proxy_client](Modules/account_edi_proxy_client.md)
-- [Modules/account](Modules/account.md)
+- [Modules/account_edi_ubl_cii](account_edi_ubl_cii.md)
+- [Modules/account_edi_proxy_client](account_edi_proxy_client.md)
+- [Modules/account](Account.md)

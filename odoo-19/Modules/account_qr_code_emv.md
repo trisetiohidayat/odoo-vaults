@@ -76,6 +76,6 @@ Bridge module adding support for EMV Merchant-Presented QR-code generation for P
 This module is a bridge. Country-specific modules (e.g., `l10n_*_account_qr_code_emv`) override `_get_merchant_account_info` and `_get_additional_data_field` to provide actual proxy types (e.g., `phone`, `epc`, `national_id`).
 
 ## Related
-- [Modules/account_qr_code_sepa](Modules/account_qr_code_sepa.md)
-- [Modules/account](Modules/account.md)
-- [Modules/payment](Modules/payment.md)
+- [Modules/account_qr_code_sepa](account_qr_code_sepa.md)
+- [Modules/account](Account.md)
+- [Modules/payment](payment.md)

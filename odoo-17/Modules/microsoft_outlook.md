@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, microsoft-outlook]
 
 
 
-- [Modules/base](Modules/base.md) — Auth / base extension
+- [Modules/base](base.md) — Auth / base extension

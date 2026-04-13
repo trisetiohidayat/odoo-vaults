@@ -28,7 +28,7 @@ Also includes the **Quetzal (GTQ)** currency configuration.
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](Modules/account.md) | Core accounting module |
+| [Modules/Account](Account.md) | Core accounting module |
 | `base` | Base module |
 
 ## Key Models
@@ -78,5 +78,5 @@ Inherits `account.chart.template`:
 - **Quetzal (GTQ)** - Official currency of Guatemala
 
 ## Related Modules
-- [Modules/l10n_gt](Modules/l10n_gt.md) - Core accounting (this module)
-- [Modules/account](Modules/account.md) - Core accounting
+- [Modules/l10n_gt](l10n_gt.md) - Core accounting (this module)
+- [Modules/account](Account.md) - Core accounting

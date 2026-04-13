@@ -227,7 +227,7 @@ Odoo 19/
 → [Flows/xxx-flow](Flows/xxx-flow.md) — method chain + branching
 
 ### 📋 How-To Guides (Functional)
-→ [Business/Stock/warehouse-setup-guide](Business/Stock/warehouse-setup-guide.md) — step-by-step walkthroughs
+→ [Business/Stock/warehouse-setup-guide](warehouse-setup-guide.md) — step-by-step walkthroughs
 
 ---
 
@@ -410,10 +410,10 @@ Employee Created
 
 ## Related
 
-- Walkthrough: [Business/HR/quickstart-employee-setup](Business/HR/quickstart-employee-setup.md)
-- Flow: [Flows/HR/employee-archival-flow](Flows/HR/employee-archival-flow.md)
-- Module: [Modules/HR](Modules/hr.md)
-- Module: [Modules/resource](Modules/resource.md) (resource.resource)
+- Walkthrough: [Business/HR/quickstart-employee-setup](quickstart-employee-setup.md)
+- Flow: [Flows/HR/employee-archival-flow](employee-archival-flow.md)
+- Module: [Modules/HR](HR.md)
+- Module: [Modules/resource](resource.md) (resource.resource)
 ```
 
 ---
@@ -501,10 +501,10 @@ Click **Save**.
 
 ## Related Documentation
 
-- Technical Flow: [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md)
-- Guide: [Business/HR/leave-management-guide](Business/HR/leave-management-guide.md)
-- Module: [Modules/HR](Modules/hr.md)
-- Module: [Modules/HR](Modules/hr.md)
+- Technical Flow: [Flows/HR/employee-creation-flow](employee-creation-flow.md)
+- Guide: [Business/HR/leave-management-guide](leave-management-guide.md)
+- Module: [Modules/HR](HR.md)
+- Module: [Modules/HR](HR.md)
 ```
 
 ---

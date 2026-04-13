@@ -67,4 +67,4 @@ If name is empty AND no project_id AND no parent_id:
 
 ## Related
 
-[Project.md](Modules/project.md), [Calendar.md](Modules/calendar.md)
+[Project.md](Project.md), [Calendar.md](calendar.md)

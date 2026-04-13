@@ -30,5 +30,5 @@ Method:
 - `stock_location.xml`: Location field on equipment view.
 
 ## Related
-- [Modules/Stock](Modules/stock.md) - Stock lot management
-- [Modules/maintenance](Modules/maintenance.md) - Equipment and maintenance requests
+- [Modules/Stock](Stock.md) - Stock lot management
+- [Modules/maintenance](maintenance.md) - Equipment and maintenance requests

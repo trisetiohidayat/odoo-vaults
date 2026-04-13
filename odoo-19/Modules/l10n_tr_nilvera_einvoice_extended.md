@@ -37,4 +37,4 @@ Features include:
 - Custom model files: account_tax.py, account_move.py, account_move_send.py, account_move_line.py, product_template.py, product_product.py, res_company.py, l10n_tr_nilvera_einvoice_extended_tax_office.py, l10n_tr_nilvera_einvoice_extended_account_tax_code.py, res_config_settings.py, account_edi_xml_ubl_tr.py, template_tr.py, res_partner.py
 
 ## Related
-- [Modules/l10n_tr](Modules/l10n_tr.md) - Core accounting
+- [Modules/l10n_tr](l10n_tr.md) - Core accounting

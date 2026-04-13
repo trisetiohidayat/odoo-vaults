@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, auth-totp-portal]
 
 
 
-- [Modules/base](Modules/base.md) — Auth / base extension
+- [Modules/base](base.md) — Auth / base extension

@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, im-livechat-mail-bot]
 
 
 
-- [Modules/mail](Modules/mail.md) — Messaging / mail extension
+- [Modules/mail](mail.md) — Messaging / mail extension

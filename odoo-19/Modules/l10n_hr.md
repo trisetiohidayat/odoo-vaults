@@ -33,8 +33,8 @@ Sources:
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](Modules/account.md) | Core accounting framework |
-| [Modules/base_vat](Modules/base_vat.md) | VAT number validation for Croatian VAT (OIB) |
+| [Modules/Account](Account.md) | Core accounting framework |
+| [Modules/base_vat](base_vat.md) | VAT number validation for Croatian VAT (OIB) |
 
 ## Auto-Install
 
@@ -69,7 +69,7 @@ Pre-configured fiscal positions for:
 
 ### `account.chart.template`
 
-Inherited from [Modules/Account](Modules/account.md) to provide Croatian-specific chart of accounts data.
+Inherited from [Modules/Account](Account.md) to provide Croatian-specific chart of accounts data.
 
 ```python
 class AccountChartTemplate(models.Model):
@@ -86,7 +86,7 @@ class AccountChartTemplate(models.Model):
 Croatia uses the **OIB** (Personal Identification Number) as the VAT number:
 - 11-digit number
 - Used for both company and personal tax identification
-- Validated via [Modules/base_vat](Modules/base_vat.md)
+- Validated via [Modules/base_vat](base_vat.md)
 
 ### Tax Reporting
 
@@ -99,8 +99,8 @@ The module configures `account_tax_report_data.xml` which provides:
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_hr_edi](Modules/l10n_hr_edi.md) | EDI/e-invoicing integration (MojEracun + Fiscalization) |
-| [Modules/l10n_hr_kuna](Modules/l10n_hr_kuna.md) | Historical Kuna currency module (pre-Euro, deprecated) |
+| [Modules/l10n_hr_edi](l10n_hr_edi.md) | EDI/e-invoicing integration (MojEracun + Fiscalization) |
+| [Modules/l10n_hr_kuna](l10n_hr_kuna.md) | Historical Kuna currency module (pre-Euro, deprecated) |
 
 ## Technical Notes
 
@@ -118,5 +118,5 @@ The module configures `account_tax_report_data.xml` which provides:
 
 ## See Also
 
-- [Modules/l10n_hr_edi](Modules/l10n_hr_edi.md) - Croatian e-invoicing and fiscalization
-- [Modules/l10n_hr_kuna](Modules/l10n_hr_kuna.md) - Historical Kuna currency module
+- [Modules/l10n_hr_edi](l10n_hr_edi.md) - Croatian e-invoicing and fiscalization
+- [Modules/l10n_hr_kuna](l10n_hr_kuna.md) - Historical Kuna currency module

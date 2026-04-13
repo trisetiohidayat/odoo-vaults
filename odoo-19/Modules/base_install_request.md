@@ -16,7 +16,7 @@ Allow internal users to request module installation from administrators via emai
 
 ## Dependencies
 
-- [Modules/mail](Modules/mail.md)
+- [Modules/mail](mail.md)
 
 ## Key Features
 
@@ -54,5 +54,5 @@ User clicks "Request Access"
 
 ## Related
 
-- [Modules/mail](Modules/mail.md)
-- [Modules/base_import_module](Modules/base_import_module.md)
+- [Modules/mail](mail.md)
+- [Modules/base_import_module](base_import_module.md)

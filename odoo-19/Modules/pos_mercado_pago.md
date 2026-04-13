@@ -21,5 +21,5 @@ Integrates your POS with the Mercado Pago Smart Point terminal. Enables customer
 - POS frontend assets for Mercado Pago terminal integration
 
 ## Related
-- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
-- [Modules/payment_mercado_pago](Modules/payment_mercado_pago.md) — Mercado Pago online payment
+- [Modules/point_of_sale](point_of_sale.md) — Base POS module
+- [Modules/payment_mercado_pago](payment_mercado_pago.md) — Mercado Pago online payment

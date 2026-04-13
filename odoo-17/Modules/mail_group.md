@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, mail-group]
 
 
 
-- [Modules/mail](Modules/mail.md) — Messaging / mail extension
+- [Modules/mail](mail.md) — Messaging / mail extension

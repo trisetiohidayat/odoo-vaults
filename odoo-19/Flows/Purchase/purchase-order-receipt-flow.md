@@ -14,12 +14,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md)"
-  - "[Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md)"
-  - "[Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md)"
+  - "[Flows/Purchase/purchase-order-creation-flow](purchase-order-creation-flow.md)"
+  - "[Flows/Purchase/purchase-to-bill-flow](purchase-to-bill-flow.md)"
+  - "[Flows/Stock/receipt-flow](receipt-flow.md)"
 related_guides:
-  - "[Modules/Purchase](Modules/purchase.md)"
-  - "[Modules/Stock](Modules/stock.md)"
+  - "[Modules/Purchase](Purchase.md)"
+  - "[Modules/Stock](Stock.md)"
 source_module: purchase, stock
 source_path: ~/odoo/odoo19/odoo/addons/stock/
 created: 2026-04-06
@@ -420,10 +420,10 @@ def action_done(self):
 
 ## Related
 
-- [Modules/Purchase](Modules/purchase.md) — Purchase module reference
-- [Modules/Stock](Modules/stock.md) — Stock/picking module reference
-- [Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md) — PO creation and confirmation that triggers this flow
-- [Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md) — Vendor bill creation from received PO
-- [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Generic incoming receipt (same mechanics as PO receipt)
-- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
-- [Core/API](Core/API.md) — @api decorator patterns
+- [Modules/Purchase](Purchase.md) — Purchase module reference
+- [Modules/Stock](Stock.md) — Stock/picking module reference
+- [Flows/Purchase/purchase-order-creation-flow](purchase-order-creation-flow.md) — PO creation and confirmation that triggers this flow
+- [Flows/Purchase/purchase-to-bill-flow](purchase-to-bill-flow.md) — Vendor bill creation from received PO
+- [Flows/Stock/receipt-flow](receipt-flow.md) — Generic incoming receipt (same mechanics as PO receipt)
+- [Patterns/Workflow Patterns](Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](API.md) — @api decorator patterns

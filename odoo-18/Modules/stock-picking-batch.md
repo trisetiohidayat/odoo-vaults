@@ -3,7 +3,7 @@ Module: stock_picking_batch
 Version: Odoo 18
 Type: Core
 Tags: #stock #batch #wave #picking #logistics
-Related: [Modules/Stock](Modules/stock.md), [Modules/Stock Picking](Modules/Stock-Picking.md)
+Related: [Modules/Stock](stock.md), [Modules/Stock Picking](Modules/Stock-Picking.md)
 ---
 
 # stock_picking_batch — Batch Transfer

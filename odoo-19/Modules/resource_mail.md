@@ -320,9 +320,9 @@ If a developer wants to override the avatar card behavior:
 
 ## Related Documentation
 
-- [Modules/Resource](Modules/resource.md) — Core resource scheduling: calendars, attendances, leaves, flexible hours
-- [Modules/Mail](Modules/mail.md) — Messaging: IM status, presence, bus longpolling
-- [Modules/Calendar](Modules/calendar.md) — Calendar/event booking that consumes resource avatars
+- [Modules/Resource](resource.md) — Core resource scheduling: calendars, attendances, leaves, flexible hours
+- [Modules/Mail](mail.md) — Messaging: IM status, presence, bus longpolling
+- [Modules/Calendar](calendar.md) — Calendar/event booking that consumes resource avatars
 
 ---
 

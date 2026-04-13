@@ -11,11 +11,11 @@ Tags: #odoo18 #l10n #pos
 Link module between `pos_sale` and `l10n_be`. Adds Belgian POS sale reporting data to the POS session data bundle, specifically making intra-community VAT tax IDs available to the POS frontend for correct tax calculation on B2B EU sales in Belgium.
 
 ## Country
-[Belgium](Modules/account.md) 🇧🇪
+[Belgium](account.md) 🇧🇪
 
 ## Dependencies
 - pos_sale
-- [l10n_be](Modules/account.md)
+- [l10n_be](account.md)
 
 ## Key Models
 
@@ -27,13 +27,13 @@ Link module between `pos_sale` and `l10n_be`. Adds Belgian POS sale reporting da
 No data files.
 
 ## Chart of Accounts
-Inherits from [l10n_be](Modules/account.md).
+Inherits from [l10n_be](account.md).
 
 ## Tax Structure
-Inherits from [l10n_be](Modules/account.md).
+Inherits from [l10n_be](account.md).
 
 ## Fiscal Positions
-Intra-community fiscal position (`fiscal_position_template_3`) from [l10n_be](Modules/account.md): maps domestic Belgian VAT to 0% intra-community (reverse charge).
+Intra-community fiscal position (`fiscal_position_template_3`) from [l10n_be](account.md): maps domestic Belgian VAT to 0% intra-community (reverse charge).
 
 ## EDI/Fiscal Reporting
 Not applicable (POS module).

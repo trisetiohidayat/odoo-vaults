@@ -287,7 +287,7 @@ The webhook route handles JSON (`type='http'` but body read via `request.get_jso
 
 ## Related
 
-- [Modules/payment](Modules/payment.md) — Base payment module
-- [Modules/payment_aps](Modules/payment_aps.md) — Amazon Payment Services (MENA)
-- [Modules/payment_buckaroo](Modules/payment_buckaroo.md) — Buckaroo (EU)
-- [Modules/payment_stripe](Modules/payment_stripe.md) — Stripe
+- [Modules/payment](payment.md) — Base payment module
+- [Modules/payment_aps](payment_aps.md) — Amazon Payment Services (MENA)
+- [Modules/payment_buckaroo](payment_buckaroo.md) — Buckaroo (EU)
+- [Modules/payment_stripe](payment_stripe.md) — Stripe

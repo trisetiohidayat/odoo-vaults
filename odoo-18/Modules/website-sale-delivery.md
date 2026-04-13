@@ -3,7 +3,7 @@ Module: website_sale_delivery
 Version: Odoo 18
 Type: Integration
 Tags: #odoo18, #e-commerce, #delivery, #website, #checkout
-Related Modules: [delivery](Modules/delivery.md), [website_sale](Modules/website-sale.md), [sale](Modules/sale.md), [website_sale_stock](Modules/website-sale-stock.md), [website_sale_collect](Modules/website-sale-picking.md)
+Related Modules: [delivery](delivery.md), [website_sale](Modules/website-sale.md), [sale](sale.md), [website_sale_stock](Modules/website-sale-stock.md), [website_sale_collect](website-sale-picking.md)
 ---
 
 # website_sale_delivery — E-Commerce Delivery Methods

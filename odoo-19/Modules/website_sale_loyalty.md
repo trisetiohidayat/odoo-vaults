@@ -19,7 +19,7 @@ updated: 2026-04-11
 **License:** LGPL-3
 **Author:** Odoo S.A.
 
-Bridges the [Modules/loyalty](Modules/loyalty.md) core engine with the eCommerce storefront. Handles coupon/promo code entry on the cart page, automatic reward application, loyalty points display, e-wallet top-up, gift card redemption, and the "Share" coupon link wizard for marketing.
+Bridges the [Modules/loyalty](loyalty.md) core engine with the eCommerce storefront. Handles coupon/promo code entry on the cart page, automatic reward application, loyalty points display, e-wallet top-up, gift card redemption, and the "Share" coupon link wizard for marketing.
 
 ---
 
@@ -86,7 +86,7 @@ def _get_program_domain(self):
 ```
 
 **L3 — Cross-model logic:**
-Replaces the `sale_ok` leaf (which controls [Modules/Sale](Modules/sale.md) app eligibility) with `ecommerce_ok` when the order has a `website_id`. Also gates on `website_id` being either the current website or unset (False), meaning programs not assigned to any specific website are available on all.
+Replaces the `sale_ok` leaf (which controls [Modules/Sale](Sale.md) app eligibility) with `ecommerce_ok` when the order has a `website_id`. Also gates on `website_id` being either the current website or unset (False), meaning programs not assigned to any specific website are available on all.
 
 **L3 — Domain leaf transformation:**
 - `sale_ok=True` (B2B/backend) becomes `ecommerce_ok=True` (B2C/website)

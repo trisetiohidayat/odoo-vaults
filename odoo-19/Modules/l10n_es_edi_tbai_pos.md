@@ -55,6 +55,6 @@ Fields:
 **`_l10n_es_tbai_get_values()`** — Builds XML values with base lines, gross prices, sign handling for refunds
 
 ## Related
-- [Modules/l10n_es_edi_tbai](Modules/l10n_es_edi_tbai.md) — Core TicketBAI document engine
-- [Modules/l10n_es_pos](Modules/l10n_es_pos.md) — Spanish POS base
-- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
+- [Modules/l10n_es_edi_tbai](l10n_es_edi_tbai.md) — Core TicketBAI document engine
+- [Modules/l10n_es_pos](l10n_es_pos.md) — Spanish POS base
+- [Modules/point_of_sale](point_of_sale.md) — Base POS module

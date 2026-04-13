@@ -24,7 +24,7 @@ created: 2026-04-06
 
 This module provides the Croatian Chart of Accounts based on the **RRIF 2012** standard, designed for use with the Croatian Kuna (HRK) currency. It is a **legacy module** maintained for historical reference only.
 
-Croatia transitioned from the Kuna (HRK) to the Euro (EUR) on **January 1, 2023**. New implementations should use [Modules/l10n_hr](Modules/l10n_hr.md) which is designed for EUR.
+Croatia transitioned from the Kuna (HRK) to the Euro (EUR) on **January 1, 2023**. New implementations should use [Modules/l10n_hr](l10n_hr.md) which is designed for EUR.
 
 ### Account Structure (RRIF 2012)
 
@@ -43,7 +43,7 @@ The chart of accounts follows RRIF (Računovodstvo, revizija, financije i kontro
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](Modules/account.md) | Core accounting framework |
+| [Modules/Account](Account.md) | Core accounting framework |
 
 ## Auto-Install
 
@@ -74,15 +74,15 @@ Croatian VAT rates (2012 structure):
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_hr](Modules/l10n_hr.md) | **Recommended** - EUR-based current module |
-| [Modules/l10n_hr_edi](Modules/l10n_hr_edi.md) | E-invoicing for current Croatian compliance |
+| [Modules/l10n_hr](l10n_hr.md) | **Recommended** - EUR-based current module |
+| [Modules/l10n_hr_edi](l10n_hr_edi.md) | E-invoicing for current Croatian compliance |
 
 ## Migration Path
 
 For companies still using Kuna:
-1. Migrate to [Modules/l10n_hr](Modules/l10n_hr.md) (EUR version)
+1. Migrate to [Modules/l10n_hr](l10n_hr.md) (EUR version)
 2. Convert HRK balances to EUR using official conversion rate
-3. Install [Modules/l10n_hr_edi](Modules/l10n_hr_edi.md) for full compliance
+3. Install [Modules/l10n_hr_edi](l10n_hr_edi.md) for full compliance
 
 ## Technical Notes
 
@@ -94,5 +94,5 @@ For companies still using Kuna:
 
 ## See Also
 
-- [Modules/l10n_hr](Modules/l10n_hr.md) - Current Croatian accounting with EUR
-- [Modules/l10n_hr_edi](Modules/l10n_hr_edi.md) - Croatian e-invoicing
+- [Modules/l10n_hr](l10n_hr.md) - Current Croatian accounting with EUR
+- [Modules/l10n_hr_edi](l10n_hr_edi.md) - Croatian e-invoicing

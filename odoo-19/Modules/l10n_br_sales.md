@@ -15,4 +15,4 @@ Sale modifications for Brazil
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/l10n_br](Modules/l10n_br.md) — Core accounting
+- [Modules/l10n_br](l10n_br.md) — Core accounting

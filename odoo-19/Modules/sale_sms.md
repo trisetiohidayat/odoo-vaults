@@ -18,5 +18,5 @@ This is a thin integration module. The SMS functionality is provided by the `sms
 - `security.xml`: Record rules for SMS in sale orders.
 
 ## Related
-- [Modules/Sale](Modules/sale.md) - Sales orders
-- [Modules/sms](Modules/sms.md) - SMS sending and templates
+- [Modules/Sale](Sale.md) - Sales orders
+- [Modules/sms](sms.md) - SMS sending and templates

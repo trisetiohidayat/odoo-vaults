@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, pos-loyalty]
 
 
 
-- [Modules/point_of_sale](Modules/point_of_sale.md) — POS base module
+- [Modules/point_of_sale](point_of_sale.md) — POS base module

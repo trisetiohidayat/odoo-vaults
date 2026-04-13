@@ -23,5 +23,5 @@ Adds an hourly cost field to employees for use by cost calculation modules (e.g.
 - Tracked for audit history
 
 ## Related
-- [Modules/HR](Modules/hr.md) - Core HR module
-- [Modules/hr_timesheet](Modules/hr_timesheet.md) - Timesheet billing uses hourly cost
+- [Modules/HR](HR.md) - Core HR module
+- [Modules/hr_timesheet](hr_timesheet.md) - Timesheet billing uses hourly cost

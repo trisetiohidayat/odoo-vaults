@@ -36,9 +36,9 @@ Key features:
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account](Modules/account.md) | Core accounting |
-| [Modules/account_qr_code_emv](Modules/account_qr_code_emv.md) | EMV QR code (VietQR support) |
-| [Modules/base_iban](Modules/base_iban.md) | IBAN bank account support |
+| [Modules/account](Account.md) | Core accounting |
+| [Modules/account_qr_code_emv](account_qr_code_emv.md) | EMV QR code (VietQR support) |
+| [Modules/base_iban](base_iban.md) | IBAN bank account support |
 
 ## Key Models
 
@@ -85,8 +85,8 @@ Extends bank model with Vietnamese banking details:
 
 ## Related
 
-- [Modules/account](Modules/account.md) - Core accounting module
-- [Modules/l10n_vn_edi_viettel](Modules/l10n_vn_edi_viettel.md) - Vietnam EDI e-invoicing via Viettel SInvoice
+- [Modules/account](Account.md) - Core accounting module
+- [Modules/l10n_vn_edi_viettel](l10n_vn_edi_viettel.md) - Vietnam EDI e-invoicing via Viettel SInvoice
 
 ## See Also
 

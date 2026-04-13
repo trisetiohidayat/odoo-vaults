@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #uruguay
 # l10n_uy — Uruguay Accounting
 
 ## Overview
-Uruguayan accounting localization providing the generic chart of accounts, VAT taxes (IVA), document types, identification types, and currency configuration (UYU, UYI Unidad Indexada). DGI (Direccion General Impositiva) compliant. Co-maintained by Uruguay l10n Team, Guillem Barba, and ADHOC. Requires [Modules/l10n_latam_base](Modules/l10n_latam_base.md) and [Modules/l10n_latam_invoice_document](Modules/l10n_latam_invoice_document.md).
+Uruguayan accounting localization providing the generic chart of accounts, VAT taxes (IVA), document types, identification types, and currency configuration (UYU, UYI Unidad Indexada). DGI (Direccion General Impositiva) compliant. Co-maintained by Uruguay l10n Team, Guillem Barba, and ADHOC. Requires [Modules/l10n_latam_base](l10n_latam_base.md) and [Modules/l10n_latam_invoice_document](l10n_latam_invoice_document.md).
 
 ## Country/Region
 Uruguay (country code: UY)

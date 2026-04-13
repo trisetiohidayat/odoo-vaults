@@ -34,9 +34,9 @@ This module provides Croatian e-invoicing compliance through the **MojEracun** p
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/l10n_hr](Modules/l10n_hr.md) | Croatian base accounting localization |
-| [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) | UBL/CII EDI framework |
-| [Modules/account_peppol](Modules/account_peppol.md) | PEPPOL network access |
+| [Modules/l10n_hr](l10n_hr.md) | Croatian base accounting localization |
+| [Modules/account_edi_ubl_cii](account_edi_ubl_cii.md) | UBL/CII EDI framework |
+| [Modules/account_peppol](account_peppol.md) | PEPPOL network access |
 
 ## Models
 
@@ -193,9 +193,9 @@ Access rights managed via `security/ir.model.access.csv`:
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_hr](Modules/l10n_hr.md) | Base Croatian accounting |
-| [Modules/l10n_hr_kuna](Modules/l10n_hr_kuna.md) | Historical Kuna currency (deprecated) |
-| [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) | UBL/CII EDI framework |
+| [Modules/l10n_hr](l10n_hr.md) | Base Croatian accounting |
+| [Modules/l10n_hr_kuna](l10n_hr_kuna.md) | Historical Kuna currency (deprecated) |
+| [Modules/account_edi_ubl_cii](account_edi_ubl_cii.md) | UBL/CII EDI framework |
 
 ## Technical Notes
 

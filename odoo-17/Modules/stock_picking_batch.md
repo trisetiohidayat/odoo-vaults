@@ -185,7 +185,7 @@ class StockPicking(models.Model):
 
 **Source:** `stock_picking_batch/models/stock_picking.py` — `StockPickingType`
 
-Extends `stock.picking.type` with batch-specific fields (see [Modules/stock_picking_type](Modules/stock_picking_type.md)).
+Extends `stock.picking.type` with batch-specific fields (see [Modules/stock_picking_type](stock_picking_type.md)).
 
 ## Key Constraints
 
@@ -224,6 +224,6 @@ Plus: same `company_id`, same `picking_type_id` (if set).
 
 ## See Also
 
-- [Modules/stock](Modules/stock.md) — `stock.picking`, `stock.move`
-- [Modules/stock_picking_type](Modules/stock_picking_type.md) — picking type batch configuration
-- [Modules/stock_warehouse](Modules/stock_warehouse.md) — warehouse picking types
+- [Modules/stock](stock.md) — `stock.picking`, `stock.move`
+- [Modules/stock_picking_type](stock_picking_type.md) — picking type batch configuration
+- [Modules/stock_warehouse](stock_warehouse.md) — warehouse picking types

@@ -343,10 +343,10 @@ def _check_journal_type(self):
 
 ## Related Flows
 
-- [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Posting and validation
-- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment registration
-- [Flows/Cross-Module/sale-stock-account-flow](Flows/Cross-Module/sale-stock-account-flow.md) — SO → Invoice flow
-- [Modules/Account](Modules/account.md) — Core account models
+- [Flows/Account/invoice-post-flow](invoice-post-flow.md) — Posting and validation
+- [Flows/Account/payment-flow](payment-flow.md) — Payment registration
+- [Flows/Cross-Module/sale-stock-account-flow](sale-stock-account-flow.md) — SO → Invoice flow
+- [Modules/Account](Account.md) — Core account models
 
 ---
 

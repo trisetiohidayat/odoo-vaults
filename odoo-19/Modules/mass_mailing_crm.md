@@ -612,9 +612,9 @@ The module is performance-neutral. The only database query that runs on every ma
 
 ## Related Documentation
 
-- [Modules/mass_mailing](Modules/mass_mailing.md) — Parent mass mailing module
-- [Modules/CRM](Modules/CRM.md) — CRM module providing `crm.lead`
-- [Modules/UTM](Modules/utm.md) — UTM tracking (campaigns, sources, mediums)
-- [Core/API](Core/API.md) — ORM API decorators used
-- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — `_inherit` vs mixin class attribute patterns
-- [Modules/res.partner](Modules/res.partner.md) — Partner model that is also a mailing target
+- [Modules/mass_mailing](mass_mailing.md) — Parent mass mailing module
+- [Modules/CRM](CRM.md) — CRM module providing `crm.lead`
+- [Modules/UTM](utm.md) — UTM tracking (campaigns, sources, mediums)
+- [Core/API](API.md) — ORM API decorators used
+- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — `_inherit` vs mixin class attribute patterns
+- [Modules/res.partner](res.partner.md) — Partner model that is also a mailing target

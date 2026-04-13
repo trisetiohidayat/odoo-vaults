@@ -11,11 +11,11 @@ prerequisites:
   - project_tags_created
 estimated_time: "~20 minutes"
 related_flows:
-  - "[Flows/Project/project-creation-flow](Flows/Project/project-creation-flow.md)"
-  - "[Flows/Project/task-lifecycle-flow](Flows/Project/task-lifecycle-flow.md)"
+  - "[Flows/Project/project-creation-flow](project-creation-flow.md)"
+  - "[Flows/Project/task-lifecycle-flow](task-lifecycle-flow.md)"
 related_guides:
-  - "[Business/HR/leave-management-guide](Business/HR/leave-management-guide.md)"
-  - "[Business/Stock/warehouse-setup-guide](Business/Stock/warehouse-setup-guide.md)"
+  - "[Business/HR/leave-management-guide](leave-management-guide.md)"
+  - "[Business/Stock/warehouse-setup-guide](warehouse-setup-guide.md)"
 source_module: project
 created: 2026-04-07
 version: "1.0"
@@ -51,11 +51,11 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Project/project-creation-flow](Flows/Project/project-creation-flow.md) | Full method chain for project creation |
-| 🔀 Technical Flow | [Flows/Project/task-lifecycle-flow](Flows/Project/task-lifecycle-flow.md) | Full method chain for task creation and stage changes |
-| 📖 Module Reference | [Modules/Project](Modules/project.md) | Complete field and method reference |
-| 🔧 Configuration | [Modules/Project](Modules/project.md) → Settings section | Project app configuration options |
-| 📋 Related Guide | [Business/HR/leave-management-guide](Business/HR/leave-management-guide.md) | Team availability and leave tracking |
+| 🔀 Technical Flow | [Flows/Project/project-creation-flow](project-creation-flow.md) | Full method chain for project creation |
+| 🔀 Technical Flow | [Flows/Project/task-lifecycle-flow](task-lifecycle-flow.md) | Full method chain for task creation and stage changes |
+| 📖 Module Reference | [Modules/Project](Project.md) | Complete field and method reference |
+| 🔧 Configuration | [Modules/Project](Project.md) → Settings section | Project app configuration options |
+| 📋 Related Guide | [Business/HR/leave-management-guide](leave-management-guide.md) | Team availability and leave tracking |
 
 ---
 
@@ -400,10 +400,10 @@ Set **Deadline**: 2026-04-15.
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Project/project-creation-flow](Flows/Project/project-creation-flow.md) | Full method chain for project creation — for developers |
-| 🔀 Technical Flow | [Flows/Project/task-lifecycle-flow](Flows/Project/task-lifecycle-flow.md) | Full method chain for task lifecycle — for developers |
-| 📖 Module Reference | [Modules/Project](Modules/project.md) | Complete field and method list |
-| 📋 Related Guide | [Business/HR/leave-management-guide](Business/HR/leave-management-guide.md) | Team availability management |
-| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | Workflow design patterns for stage-based flows |
-| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model Snippets.md) | Code snippets for Project customization |
-| 📋 Related Guide | [Modules/hr_timesheet](Modules/hr_timesheet.md) | Timesheet integration with project |
+| 🔀 Technical Flow | [Flows/Project/project-creation-flow](project-creation-flow.md) | Full method chain for project creation — for developers |
+| 🔀 Technical Flow | [Flows/Project/task-lifecycle-flow](task-lifecycle-flow.md) | Full method chain for task lifecycle — for developers |
+| 📖 Module Reference | [Modules/Project](Project.md) | Complete field and method list |
+| 📋 Related Guide | [Business/HR/leave-management-guide](leave-management-guide.md) | Team availability management |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Workflow Patterns.md) | Workflow design patterns for stage-based flows |
+| 🛠️ Snippets | [Snippets/Model Snippets](Model Snippets.md) | Code snippets for Project customization |
+| 📋 Related Guide | [Modules/hr_timesheet](hr_timesheet.md) | Timesheet integration with project |

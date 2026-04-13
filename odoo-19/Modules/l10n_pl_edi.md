@@ -48,5 +48,5 @@ KSeF credentials and Polish company settings.
 Polish partner-specific fields for e-invoicing.
 
 ## Related
-- [Modules/l10n_pl](Modules/l10n_pl.md) — Core Polish accounting
-- [Modules/certificate](Modules/certificate.md) — X.509 certificate management
+- [Modules/l10n_pl](l10n_pl.md) — Core Polish accounting
+- [Modules/certificate](certificate.md) — X.509 certificate management

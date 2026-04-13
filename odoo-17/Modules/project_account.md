@@ -132,8 +132,8 @@ project_purchase (also depends on project_account)
 ---
 
 ## See Also
-- [Modules/project](Modules/project.md) — project base model
-- [Modules/analytic](Modules/analytic.md) — analytic accounting foundation
-- [Modules/sale_project](Modules/sale_project.md) — sale order / project profitability
-- [Modules/project_purchase](Modules/project_purchase.md) — purchase order costs
-- [Modules/sale_timesheet](Modules/sale_timesheet.md) — time tracking costs
+- [Modules/project](project.md) — project base model
+- [Modules/analytic](analytic.md) — analytic accounting foundation
+- [Modules/sale_project](sale_project.md) — sale order / project profitability
+- [Modules/project_purchase](project_purchase.md) — purchase order costs
+- [Modules/sale_timesheet](sale_timesheet.md) — time tracking costs

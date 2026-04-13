@@ -1094,12 +1094,12 @@ Test cases:
 
 ## Related Documentation
 
-- [Modules/web](Modules/web.md) — Web controller base (`web_home.Home` parent)
-- [Modules/auth_oauth](Modules/auth_oauth.md) — OAuth authentication (also extends `_mfa_type`)
-- [Modules/auth_signup](Modules/auth_signup.md) — User registration
-- [Modules/auth_password_policy](Modules/auth_password_policy.md) — Password strength requirements
-- [Core/API](Core/API.md) — `@check_identity` decorator, identity verification flow
-- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ir.rule, ir.model.access.csv, field groups
+- [Modules/web](web.md) — Web controller base (`web_home.Home` parent)
+- [Modules/auth_oauth](auth_oauth.md) — OAuth authentication (also extends `_mfa_type`)
+- [Modules/auth_signup](auth_signup.md) — User registration
+- [Modules/auth_password_policy](auth_password_policy.md) — Password strength requirements
+- [Core/API](API.md) — `@check_identity` decorator, identity verification flow
+- [Patterns/Security Patterns](Security Patterns.md) — ir.rule, ir.model.access.csv, field groups
 
 ---
 

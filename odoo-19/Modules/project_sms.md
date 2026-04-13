@@ -13,9 +13,9 @@ depth: L4
 
 | Resource | Type | Description |
 |---------|------|-------------|
-| [Modules/Project](Modules/project.md) | Module | Parent `project.project`, `project.task` models |
-| [Modules/sms](Modules/sms.md) | Module | SMS template, composer, and delivery pipeline |
-| [Modules/project](Modules/project.md) | Module | Email notification counterpart for project stages |
+| [Modules/Project](Project.md) | Module | Parent `project.project`, `project.task` models |
+| [Modules/sms](sms.md) | Module | SMS template, composer, and delivery pipeline |
+| [Modules/project](Project.md) | Module | Email notification counterpart for project stages |
 
 ---
 
@@ -588,9 +588,9 @@ No SMS. Template task creation does not send customer-facing notifications.
 
 ## Related Documentation
 
-- [Modules/Project](Modules/project.md) — `project.project`, `project.task`, stage models
-- [Modules/sms](Modules/sms.md) — `sms.template`, `_message_sms_with_template()`, delivery pipeline
-- [Modules/project](Modules/project.md) — Email notification counterpart for project stages
-- [Patterns/Security Patterns](Patterns/Security Patterns.md) — `ir.rule`, `perm_read`, sudo() patterns
-- [Core/Fields](Core/Fields.md) — `Many2one` field types, `ondelete` behavior
-- [Core/API](Core/API.md) — `@api.model_create_multi`, `write()` hook patterns
+- [Modules/Project](Project.md) — `project.project`, `project.task`, stage models
+- [Modules/sms](sms.md) — `sms.template`, `_message_sms_with_template()`, delivery pipeline
+- [Modules/project](Project.md) — Email notification counterpart for project stages
+- [Patterns/Security Patterns](Security Patterns.md) — `ir.rule`, `perm_read`, sudo() patterns
+- [Core/Fields](Fields.md) — `Many2one` field types, `ondelete` behavior
+- [Core/API](API.md) — `@api.model_create_multi`, `write()` hook patterns

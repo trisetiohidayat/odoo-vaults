@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, website-sale-mrp]
 
 
 
-- [Modules/website_sale](Modules/website_sale.md) — eCommerce extension
+- [Modules/website_sale](website_sale.md) — eCommerce extension

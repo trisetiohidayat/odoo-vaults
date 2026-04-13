@@ -377,12 +377,12 @@ Payment Registered
 
 ## Related Flows
 
-- [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — Invoice creation
-- [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Invoice posting
-- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment registration
-- [Modules/Sale](Modules/sale.md) — Sale order model
-- [Modules/Stock](Modules/stock.md) — Stock valuation
-- [Modules/Account](Modules/account.md) — Account models
+- [Flows/Account/invoice-creation-flow](invoice-creation-flow.md) — Invoice creation
+- [Flows/Account/invoice-post-flow](invoice-post-flow.md) — Invoice posting
+- [Flows/Account/payment-flow](payment-flow.md) — Payment registration
+- [Modules/Sale](Sale.md) — Sale order model
+- [Modules/Stock](Stock.md) — Stock valuation
+- [Modules/Account](Account.md) — Account models
 
 ---
 

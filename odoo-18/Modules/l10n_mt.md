@@ -11,10 +11,10 @@ Tags: #odoo18 #l10n #accounting
 Malta accounting localization. Provides the chart of accounts, taxes, and tax reports required for Malta-compliant bookkeeping.
 
 ## Country
-[Malta](Modules/account.md) 🇲🇹
+[Malta](account.md) 🇲🇹
 
 ## Dependencies
-- [account](Core/BaseModel.md)
+- [account](BaseModel.md)
 - base_vat
 
 ## Key Models

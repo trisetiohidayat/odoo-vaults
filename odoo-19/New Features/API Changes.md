@@ -81,8 +81,8 @@ def _onchange_field1(self):
 
 ## Related
 
-- [New Features/What's New](New Features/What's New.md) - Overview of new features
-- [New Features/New Modules](New Features/New Modules.md) - New module details
-- [Core/BaseModel](Core/BaseModel.md) - Core model API
-- [Core/Fields](Core/Fields.md) - Field types
-- [Core/API](Core/API.md) - Decorators
+- [New Features/What's New](What's New.md) - Overview of new features
+- [New Features/New Modules](New Modules.md) - New module details
+- [Core/BaseModel](BaseModel.md) - Core model API
+- [Core/Fields](Fields.md) - Field types
+- [Core/API](API.md) - Decorators

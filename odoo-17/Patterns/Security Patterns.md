@@ -183,6 +183,6 @@ The ORM silently drops fields from `read()` and `write()` results when the curre
 ---
 
 ## See Also
-- [Core/BaseModel](Core/BaseModel.md) — ORM access rights internals
-- [Modules/base](Modules/base.md) — res.users, res.company, res.groups
-- [Modules/ir_actions](Modules/ir_actions.md) — server actions and report actions
+- [Core/BaseModel](BaseModel.md) — ORM access rights internals
+- [Modules/base](base.md) — res.users, res.company, res.groups
+- [Modules/ir_actions](ir_actions.md) — server actions and report actions
