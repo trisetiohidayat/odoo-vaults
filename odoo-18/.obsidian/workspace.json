@@ -185,6 +185,7 @@
   },
   "active": "4c016e907b417ef7",
   "lastOpenFiles": [
+    "README.md",
     "Modules/l10n_es_pos_tbai.md",
     "Modules/l10n_fr_fec.md",
     "Modules/l10n_hr_kuna.md",
@@ -210,7 +211,6 @@
     "Modules/l10n_it_edi_sale.md",
     "Modules/l10n_vn_edi_viettel.md",
     "Modules/l10n_tw_edi_ecpay.md",
-    "Modules/l10n_sa_edi.md",
     "Modules/l10n_ro.md.tmp.99780.1775894262436",
     "tools.yaml",
     "Untitled.canvas"
