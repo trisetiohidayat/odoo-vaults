@@ -185,6 +185,7 @@
   },
   "active": "0e381d9fce3fba65",
   "lastOpenFiles": [
+    "README.md",
     "Modules/l10n_generic_coa.md",
     "Modules/stock_warehouse.md",
     "Modules/stock_picking_type.md",
@@ -218,7 +219,6 @@
     "Modules/report.md",
     "Modules/fetchmail.md",
     "Modules/website_twitter.md",
-    "Modules/website_sms.md",
     "Research-Log/completed-runs",
     "Research-Log/active-run",
     "Research-Log",
