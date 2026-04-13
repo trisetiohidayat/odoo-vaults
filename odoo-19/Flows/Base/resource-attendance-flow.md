@@ -405,5 +405,5 @@ def _compute_worked_hours(self):
 - [Flows/HR/attendance-checkin-flow](Flows/HR/attendance-checkin-flow.md) — Check-in flow details
 - [Flows/HR/leave-request-flow](Flows/HR/leave-request-flow.md) — Leave request flow using calendar
 - [Business/HR/quickstart-employee-setup](Business/HR/quickstart-employee-setup.md) — Employee onboarding including resource setup
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

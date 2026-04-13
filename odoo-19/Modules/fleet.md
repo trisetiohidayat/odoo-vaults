@@ -852,7 +852,7 @@ This is consumed by the scheduler to avoid creating duplicate renewal activities
 - [Modules/HR](Modules/hr.md) — HR module (driver management, plan_to_change flags)
 - [Modules/mail](Modules/mail.md) — Mail and activity tracking
 - [Core/API](Core/API.md) — @api.depends, @api.onchange patterns
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns (e.g., contract states)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns (e.g., contract states)
 
 ---
 

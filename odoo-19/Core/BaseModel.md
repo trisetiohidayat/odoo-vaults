@@ -69,6 +69,6 @@ record.unlink()
 
 - [Core/Fields](Core/Fields.md) - Field types
 - [Core/API](Core/API.md) - Decorators
-- [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) - Controllers
+- [Core/HTTP Controller](Core/HTTP Controller.md) - Controllers
 - [Core/Exceptions](Core/Exceptions.md) - Error handling
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) - _inherit
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) - _inherit

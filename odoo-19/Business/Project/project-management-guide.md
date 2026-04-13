@@ -404,6 +404,6 @@ Set **Deadline**: 2026-04-15.
 | 🔀 Technical Flow | [Flows/Project/task-lifecycle-flow](Flows/Project/task-lifecycle-flow.md) | Full method chain for task lifecycle — for developers |
 | 📖 Module Reference | [Modules/Project](Modules/project.md) | Complete field and method list |
 | 📋 Related Guide | [Business/HR/leave-management-guide](Business/HR/leave-management-guide.md) | Team availability management |
-| 🔧 Patterns | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | Workflow design patterns for stage-based flows |
-| 🛠️ Snippets | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Code snippets for Project customization |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | Workflow design patterns for stage-based flows |
+| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model Snippets.md) | Code snippets for Project customization |
 | 📋 Related Guide | [Modules/hr_timesheet](Modules/hr_timesheet.md) | Timesheet integration with project |

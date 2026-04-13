@@ -619,4 +619,4 @@ Client-side duplicate detection endpoint. Called via RPC from the frontend `HrRe
 - [Modules/Website](Modules/website.md) — Website pages, SEO, multi-website, sitemap
 - [Modules/website_mail](Modules/website_mail.md) — Website-aware messaging and portal
 - [Core/API](Core/API.md) — @api.depends, @api.onchange, sudo() behavior
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ir.rule, ACL CSV, implied groups
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ir.rule, ACL CSV, implied groups

@@ -725,4 +725,4 @@ sale_purchase/
 - [Modules/sale_timesheet](Modules/sale_timesheet.md) — Time-based service billing (may coexist with `sale_purchase`)
 - [Modules/project](Modules/project.md) — Project/task management for delivered services
 - [Core/API](Core/API.md) — `@api.depends`, `@api.onchange`, `@api.constrains` decorators used throughout
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern on `sale.order`, `purchase.order`
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine pattern on `sale.order`, `purchase.order`

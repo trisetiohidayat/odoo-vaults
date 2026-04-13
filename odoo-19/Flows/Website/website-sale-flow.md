@@ -375,5 +375,5 @@ def _cart_add(self, product_id, quantity, **kwargs):
 - [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) — Delivery creation from confirmed order
 - [Flows/Sale/sale-to-invoice-flow](Flows/Sale/sale-to-invoice-flow.md) — Invoice creation from sale order
 - [Business/Website/ecommerce-configuration-guide](Business/Website/ecommerce-configuration-guide.md) — E-commerce setup guide
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

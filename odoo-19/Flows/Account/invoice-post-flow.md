@@ -302,5 +302,5 @@ Posted Invoice (out_invoice, state=posted)
 - [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — Previous step: creating the invoice
 - [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Next step: registering payment
 - [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Automatic reconciliation logic
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

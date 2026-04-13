@@ -457,4 +457,4 @@ The `calendar_sms` module is structurally unchanged between Odoo 18 and Odoo 19.
 - [Modules/Calendar](Modules/calendar.md) -- `calendar.event`, `calendar.alarm`, `calendar.alarm_manager`, cron scheduler
 - [Modules/SMS](Modules/sms.md) -- `sms.template`, `sms.composer`, SMS gateway, `phone_sanitized`
 - [Core/API](Core/API.md) -- `@api.depends`, compute fields, `readonly=False` on computed fields
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) -- `_inherit` extension pattern vs. `_inherits` delegation
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) -- `_inherit` extension pattern vs. `_inherits` delegation

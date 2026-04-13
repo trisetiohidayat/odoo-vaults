@@ -416,5 +416,5 @@ def action_done(self):
 - [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) — Sale order to delivery (same content, SO-focused)
 - [Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md) — Generic picking lifecycle (confirm→assign→done)
 - [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Incoming receipt counterpart
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

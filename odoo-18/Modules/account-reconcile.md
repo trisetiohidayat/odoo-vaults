@@ -633,4 +633,4 @@ When reconciliation requires a residual write-off:
 - [Modules/Account](Modules/account.md) — Full account module documentation
 - [Modules/Payment](Modules/payment.md) — Payment provider integration
 - [Core/Fields](Core/Fields.md) — Json field for distribution models
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns in reconciliation
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns in reconciliation

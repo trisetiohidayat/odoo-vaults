@@ -428,5 +428,5 @@ def action_done(self):
 - [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) — Outgoing delivery (applies this action flow)
 - [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Incoming receipt (applies this action flow)
 - [Flows/Stock/internal-transfer-flow](Flows/Stock/internal-transfer-flow.md) — Internal transfer (applies this action flow)
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

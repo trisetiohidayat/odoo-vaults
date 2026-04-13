@@ -73,4 +73,4 @@ def _compute_something(self):
 ## See Also
 - [Core/BaseModel](Core/BaseModel.md) — Full model reference
 - [Core/Fields](Core/Fields.md) — Field parameters
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — Domain operators
+- [Tools/ORM Operations](Tools/ORM Operations.md) — Domain operators

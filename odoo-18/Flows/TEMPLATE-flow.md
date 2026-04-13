@@ -60,4 +60,4 @@ model.create(vals)
 
 ## Related Links
 - [Modules/{Module}](Modules/{Module}.md) — Model reference
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns

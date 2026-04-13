@@ -385,5 +385,5 @@ def _create_invoices(self, final=False):
 - [Modules/Account](Modules/account.md) — Account/invoice module reference
 - [Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md) — Sale order confirmation (prepaid invoices created here)
 - [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) — Delivery confirmation triggers postpaid invoices
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

@@ -1331,4 +1331,4 @@ The gamification module is designed as a generic platform. Domain-specific modul
 - [Modules/HR](Modules/hr.md) -- Employee management
 - [Core/API](Core/API.md) -- ORM decorators, safe_eval, domain evaluation
 - [Core/Fields](Core/Fields.md) -- Field types used in gamification
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) -- ACL and record rules in gamification
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) -- ACL and record rules in gamification

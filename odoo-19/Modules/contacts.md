@@ -1995,6 +1995,6 @@ All data access uses the ORM (`search`, `browse`, `read`, `write`, `create`, `un
 - [Core/Fields](Core/Fields.md) - Field types reference
 - [Core/API](Core/API.md) - @api.depends, @api.onchange, @api.constrains
 - [Modules/res.partner](Modules/res.partner.md) - Base partner model deep dive
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) - ACL and record rules
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) - search(), browse(), write() operations
-- [New Features/What's New](odoo-18/New Features/What's New.md) - Odoo 19 new features overview
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) - ACL and record rules
+- [Tools/ORM Operations](Tools/ORM Operations.md) - search(), browse(), write() operations
+- [New Features/What's New](New Features/What's New.md) - Odoo 19 new features overview

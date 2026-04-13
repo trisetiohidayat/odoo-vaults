@@ -189,5 +189,5 @@ def my_action(self, **kwargs):
 
 ## See Also
 - [Core/API](Core/API.md) — @api.constrains decorator
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — Access rights, groups
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — Access rights, groups
 - [Core/BaseModel](Core/BaseModel.md) — CRUD operations

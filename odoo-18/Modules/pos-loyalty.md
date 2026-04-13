@@ -349,6 +349,6 @@ Gift card programs require both a mail template (for email delivery) and a print
 - [Modules/Loyalty](Modules/loyalty.md) — Base loyalty module
 - [Modules/Point of Sale](Modules/Point-of-Sale.md) — POS core module
 - [Core/API](Core/API.md) — @api.model, @api.depends decorators
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns
 
 #odoo #odoo18 #pos_loyalty #loyalty #gift-cards #pos #coupons

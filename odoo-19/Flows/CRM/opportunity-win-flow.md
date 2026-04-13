@@ -285,5 +285,5 @@ def action_set_won_rainbow(self):
 - [Modules/CRM](Modules/CRM.md) — CRM module reference
 - [Modules/Sale](Modules/sale.md) — Sale order confirmation and revenue
 - [Modules/Account](Modules/account.md) — Revenue recognition and journal entries
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Pipeline stage patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Pipeline stage patterns
 - [Core/API](Core/API.md) — @api decorator patterns

@@ -20,7 +20,7 @@ odoo-15/
 1. [Core/BaseModel](Core/BaseModel.md) — ORM basics
 2. [Core/Fields](Core/Fields.md) — Field types
 3. [Core/API](Core/API.md) — Decorators
-4. [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — search/browse/create
+4. [Tools/ORM Operations](Tools/ORM Operations.md) — search/browse/create
 5. [Modules/Sale](Modules/sale.md) — Sale order
 6. [Modules/Stock](Modules/stock.md) — Inventory
 
@@ -31,13 +31,13 @@ odoo-15/
 | orm/model/base/CRUD | [Core/BaseModel](Core/BaseModel.md) |
 | field/char/many2one | [Core/Fields](Core/Fields.md) |
 | api/depends/onchange | [Core/API](Core/API.md) |
-| controller/http/route | [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) |
+| controller/http/route | [Core/HTTP Controller](Core/HTTP Controller.md) |
 | error/exception/validation | [Core/Exceptions](Core/Exceptions.md) |
-| inheritance/_inherit | [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) |
-| workflow/state/action | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) |
-| security/acl/groups | [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) |
-| search/browse/domain | [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) |
-| snippets/template | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) |
+| inheritance/_inherit | [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) |
+| workflow/state/action | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) |
+| security/acl/groups | [Patterns/Security Patterns](Patterns/Security Patterns.md) |
+| search/browse/domain | [Tools/ORM Operations](Tools/ORM Operations.md) |
+| snippets/template | [Snippets/Model Snippets](Snippets/Model Snippets.md) |
 | sale/quotation/so | [Modules/Sale](Modules/sale.md) |
 | stock/picking/quant | [Modules/Stock](Modules/stock.md) |
 | account/invoice/journal | [Modules/Account](Modules/account.md) |

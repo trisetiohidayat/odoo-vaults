@@ -322,5 +322,5 @@ Posted Payment (inbound, state=posted)
 - [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Previous step: posting the invoice
 - [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — Invoice creation before posting
 - [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Automatic reconciliation logic
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

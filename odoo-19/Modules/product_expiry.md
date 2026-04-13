@@ -450,4 +450,4 @@ This preserves manually-set derived dates proportional to the shift.
 - [Modules/stock](Modules/stock.md)
 - [Modules/product](Modules/product.md)
 - [Core/API](Core/API.md) — `@api.depends`, `@api.model`, compute field patterns
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL CSV, ir.rule, field groups
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, ir.rule, field groups

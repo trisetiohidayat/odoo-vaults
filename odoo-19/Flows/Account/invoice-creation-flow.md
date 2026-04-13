@@ -291,5 +291,5 @@ Posted Invoice (out_invoice)
 - [Modules/Sale](Modules/sale.md) — Sale module reference (SO invoice creation)
 - [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Next step: posting the invoice
 - [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment registration after posting
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

@@ -382,5 +382,5 @@ def _action_done(self):
 - [Modules/Stock](Modules/stock.md) — Inventory and materials
 - [Modules/Account](Modules/account.md) — Inventory valuation
 - [Modules/Quality](Modules/quality.md) — Quality checks integration
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns
 - [Core/API](Core/API.md) — @api decorator patterns

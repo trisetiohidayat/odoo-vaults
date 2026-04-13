@@ -201,5 +201,5 @@ Click **Save**.
 | 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) | Full method chain — for developers |
 | 📖 Module Reference | [Modules/Stock](Modules/stock.md) | Complete field and method list |
 | 📋 Related Guide | [Modules/Purchase](Modules/purchase.md) | Related business process |
-| 🔧 Patterns | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | Workflow design patterns |
-| 🛠️ Snippets | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Code snippets for customization |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | Workflow design patterns |
+| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model Snippets.md) | Code snippets for customization |

@@ -18,7 +18,7 @@ version: "4.0"
 - [Modules/Sale](Modules/sale.md) - Sale order from opportunity
 - [Modules/Account](Modules/account.md) - Revenue tracking
 - [Modules/Stock](Modules/stock.md) - Inventory and delivery
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) - Pipeline stage patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) - Pipeline stage patterns
 - [Modules/UTM](Modules/utm.md) - Campaign/source tracking
 - [Modules/Mail](Modules/mail.md) - Messaging and notifications
 - [Modules/Calendar](Modules/calendar.md) - Meeting integration

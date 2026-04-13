@@ -153,5 +153,5 @@ These map to the Azure Active Directory app registration credentials in `ir.conf
 
 - [Modules/Mail](Modules/mail.md) — Base mail module
 - [Modules/Microsoft Account](Modules/microsoft-account.md) — `microsoft_account` for Azure credential management pattern
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — OAuth2 token storage and group-based field visibility
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — OAuth2 token storage and group-based field visibility
 - [Modules/Auth OAuth](Modules/Auth-OAuth.md) — Alternative OAuth approach for user authentication

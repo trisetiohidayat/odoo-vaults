@@ -663,5 +663,5 @@ Batch dispatch:
 - [Modules/Fleet](Modules/fleet.md) — `fleet.vehicle`, `fleet.vehicle.model.category`, driver management
 - [Modules/stock_warehouse](Modules/stock_warehouse.md) — `stock.warehouse`, picking types, delivery steps
 - [Core/API](Core/API.md) — `@api.depends`, `@api.model`, `@api.constrains`
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Batch validation, dock routing, dispatch workflow
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL inheritance across modules
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Batch validation, dock routing, dispatch workflow
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL inheritance across modules

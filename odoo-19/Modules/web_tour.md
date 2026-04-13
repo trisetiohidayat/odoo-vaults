@@ -312,4 +312,4 @@ This bridges the gap between data-defined tours and the JS module registry — a
 - [Modules/web](Modules/web.md) — Web client architecture
 - [Modules/website_event_track](Modules/website_event_track.md) — Event track module (uses web_tour for onboarding)
 - [Core/API](Core/API.md) — @api.depends, computed fields, stored computed patterns
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — Classical _inherit patterns used in web_tour
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — Classical _inherit patterns used in web_tour

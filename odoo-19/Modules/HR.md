@@ -31,7 +31,7 @@ version: "1.2"
 ### Related Modules
 -> [Modules/resource](Modules/resource.md) — resource.resource, resource.calendar
 -> [Modules/mail](Modules/mail.md) — mail.thread, activity integration
--> [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern
+-> [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine pattern
 
 ---
 

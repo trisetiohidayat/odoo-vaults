@@ -444,4 +444,4 @@ The `website_crm_livechat` module was introduced in Odoo 18 as part of the `webs
 - [Modules/im_livechat](Modules/im_livechat.md) — Chatbot script engine, step types, `_process_step` dispatch
 - [Modules/CRM](Modules/CRM.md) — `crm.lead` base model, merge wizard, assignment
 - [Core/Fields](Core/Fields.md) — Many2many `(4, id)` link command, computed fields, `groups` attribute
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Lead creation from non-CRM contexts
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Lead creation from non-CRM contexts

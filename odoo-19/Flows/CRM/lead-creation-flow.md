@@ -277,5 +277,5 @@ def create(self, vals):
 - [Modules/CRM](Modules/CRM.md) — CRM module reference
 - [Modules/Sale](Modules/sale.md) — Sale order from opportunity
 - [Modules/mail](Modules/mail.md) — Mail and chatter integration
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Pipeline stage patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Pipeline stage patterns
 - [Core/API](Core/API.md) — @api decorator patterns

@@ -584,4 +584,4 @@ The Odoo 19 web client changed how field events propagate. The `IbanWidget` hand
 - [Modules/Account](Modules/account.md) — `account.res.partner.bank` extension (trust flags, QR codes)
 - [Modules/account_qr_code_sepa](Modules/account_qr_code_sepa.md) — SEPA QR code generation
 - [Modules/base_vat](Modules/base_vat.md) — VAT validation (analogous to IBAN validation)
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns (IBAN accounts use `acc_type` as a type discriminator, not a workflow state)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns (IBAN accounts use `acc_type` as a type discriminator, not a workflow state)

@@ -435,4 +435,4 @@ crm.lead
 - [Modules/Event](Modules/event.md) — Core event management (`event.registration`, `event.lead.rule`)
 - [Modules/CRM](Modules/CRM.md) — CRM leads and opportunities
 - [Core/Fields](Core/Fields.md) — Many2one, One2many, Many2many field behavior
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Event state machine (create → confirm → done)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Event state machine (create → confirm → done)

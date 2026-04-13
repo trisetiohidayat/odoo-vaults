@@ -526,4 +526,4 @@ invoice.with_user(pub_user).sudo().action_post()
 - [Modules/mail](Modules/mail.md) — `mail.template`, `message_post_with_source`, `mail.render.mixin`
 - [Modules/product](Modules/product.md) — `product.template`, `product.product` delegation chain
 - [Core/API](Core/API.md) — `@api.model`, `@api.depends` patterns for similar override patterns
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — `_post` state machine override pattern
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — `_post` state machine override pattern

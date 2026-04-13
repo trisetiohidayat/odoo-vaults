@@ -1130,7 +1130,7 @@ class CustomPortal(CustomerPortal):
 ## See Also
 
 - [Core/API](Core/API.md) — `@api.depends`, `@api.onchange` decorators used in portal models
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL CSV, `ir.rule`, portal security model
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, `ir.rule`, portal security model
 - [Modules/Sale](Modules/sale.md) — `sale.portal` extends this module for sales orders
 - [Modules/Purchase](Modules/purchase.md) — `purchase.portal` extends this module for purchase orders
 - [Modules/Stock](Modules/stock.md) — `stock.portal` provides portal access to pickings

@@ -239,5 +239,5 @@ See: [Modules/l10n_id](Modules/l10n_id.md) (Indonesia), [Modules/l10n_us](Module
 ---
 
 ## Related Links
-- [00 - Index](odoo-18/00 - Index.md) — Root index
+- [00 - Index](00 - Index.md) — Root index
 - [Modules/](Modules/.md) — Per-module docs

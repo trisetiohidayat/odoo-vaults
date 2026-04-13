@@ -314,5 +314,5 @@ def create(self, vals_list):
 - [Modules/Project](Modules/project.md) — Module reference
 - [Flows/Project/task-lifecycle-flow](Flows/Project/task-lifecycle-flow.md) — Task lifecycle flow
 - [Business/Project/project-management-guide](Business/Project/project-management-guide.md) — Business guide
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

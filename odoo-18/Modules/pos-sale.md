@@ -354,6 +354,6 @@ This prevents:
 - [Modules/Point of Sale](Modules/Point-of-Sale.md) — POS core
 - [Modules/Stock](Modules/stock.md) — Stock picking and move management
 - [Core/API](Core/API.md) — Computed fields, `@api.depends`, `@api.model`
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Sale order state machine
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Sale order state machine
 
 #odoo #odoo18 #pos_sale #sale-order #down-payment #pos #crm-team

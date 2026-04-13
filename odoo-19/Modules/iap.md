@@ -783,5 +783,5 @@ class CrmLead(models.Model):
 - [Modules/partner_autocomplete](Modules/partner_autocomplete.md) — uses IAP for company/contact lookup
 - [Modules/snailmail](Modules/snailmail.md) — uses IAP for postal service credits
 - [Core/API](Core/API.md) — `@api.model`, `@api.constrains`, `@api.model_create_multi` patterns
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — `search()`, `browse()`, `write()` behavior
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL CSV, `ir.rule` design
+- [Tools/ORM Operations](Tools/ORM Operations.md) — `search()`, `browse()`, `write()` behavior
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, `ir.rule` design

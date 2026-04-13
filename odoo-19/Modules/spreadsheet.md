@@ -792,5 +792,5 @@ Cells holding unresolved data sources display `"Loading..."` and throw `LoadingD
 - [Modules/spreadsheet_account](Modules/spreadsheet_account.md) — Accounting data source and currency formulas
 - [Core/API](Core/API.md) — `@api.model` RPC methods, `@api.constrains`, `@api.depends`
 - [Core/Fields](Core/Fields.md) — Binary field storage, computed/inverse pattern
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Collaboration patterns via `bus` module
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Collaboration patterns via `bus` module
 - [Modules/bus](Modules/bus.md) — WebSocket real-time collaboration

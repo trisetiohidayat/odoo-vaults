@@ -19,7 +19,7 @@ version: "3.0"
 - [Modules/Sale](Modules/sale.md) - Customer invoice source
 - [Modules/Purchase](Modules/purchase.md) - Vendor bill source
 - [Modules/Stock](Modules/stock.md) - Inventory valuation
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) - State machine pattern
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) - State machine pattern
 
 ---
 

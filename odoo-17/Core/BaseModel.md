@@ -58,5 +58,5 @@ class MyModel(models.Model):
 ## See Also
 - [Core/API](Core/API.md) — Decorator details
 - [Core/Fields](Core/Fields.md) — Field types
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — Domain operators
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — _inherit vs _inherits
+- [Tools/ORM Operations](Tools/ORM Operations.md) — Domain operators
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — _inherit vs _inherits

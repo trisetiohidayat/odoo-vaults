@@ -887,6 +887,6 @@ WHERE id = %s
 - [Modules/website_slides](Modules/website_slides.md) -- E-learning (uses similar content patterns)
 - [Modules/website_event](Modules/website_event.md) -- Event module (similar architecture)
 - [Core/API](Core/API.md) -- @api.depends, computed fields, inverse methods
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) -- State machine and action methods
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) -- State machine and action methods
 - [Modules/res.partner](Modules/res.partner.md) -- Author partner model
 - [Core/Fields](Core/Fields.md) -- Field type reference (Char, Many2one, Html, etc.)

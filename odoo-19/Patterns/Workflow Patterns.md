@@ -475,5 +475,5 @@ END: [Result / Return value]
 - [Core/API](Core/API.md) — @api.depends, @api.onchange decorator patterns
 - [Core/BaseModel](Core/BaseModel.md) — Model foundation, inheritance
 - [Core/Exceptions](Core/Exceptions.md) — UserError, ValidationError, AccessError
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — State-based access control
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — State-based access control
 - [Snippets/method-chain-example](Snippets/method-chain-example.md) — Method chain notation reference

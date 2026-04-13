@@ -1267,6 +1267,6 @@ class MyFormatEdi(models.Model):
 - [Modules/account_peppol](Modules/account_peppol.md) -- Peppol EDI format (extends proxy user)
 - [Modules/account_edi_proxy_client](Modules/account_edi_proxy_client.md) -- Base proxy HTTP client and auth
 - [Core/API](Core/API.md) -- `@api.depends`, `@api.model`, `@api.constrains`
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) -- State machine patterns in Odoo
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) -- `search()`, `browse()`, `write()` with domain operators
-- [New Features/API Changes](odoo-18/New Features/API Changes.md) -- Changes from Odoo 18 to 19
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) -- State machine patterns in Odoo
+- [Tools/ORM Operations](Tools/ORM Operations.md) -- `search()`, `browse()`, `write()` with domain operators
+- [New Features/API Changes](New Features/API Changes.md) -- Changes from Odoo 18 to 19

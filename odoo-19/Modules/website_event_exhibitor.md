@@ -507,7 +507,7 @@ Slugs are generated via `ir.http._slug()` on both the event and sponsor records.
 - [Modules/res.partner](Modules/res.partner.md) — partner model that sponsors link to
 - [Core/Fields](Core/Fields.md) — Image, Html, Selection field types
 - [Core/API](Core/API.md) — `@api.depends`, `@api.model`, computed + stored fields
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — mixin inheritance patterns
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — mixin inheritance patterns
 
 ---
 

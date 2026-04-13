@@ -1023,6 +1023,6 @@ The repair module received significant rework in Odoo 19:
 - [Modules/sale_stock](Modules/sale_stock.md) — MTO, dropship, sale-stock integration
 - [Modules/sale_management](Modules/sale_management.md) — Sale quotation management
 - [Modules/mrp_repair](Modules/mrp_repair.md) — MRP + Repair integration (phantom BOM, MTO → MO)
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine design patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine design patterns
 - [Core/Fields](Core/Fields.md) — Field types used in repair (Many2one, One2many, Properties)
 - [Core/API](Core/API.md) — @api.depends, @api.onchange, @api.model_create_multi usage in repair

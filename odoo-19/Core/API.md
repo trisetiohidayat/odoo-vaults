@@ -403,9 +403,9 @@ Model.create([vals_a, vals_b, vals_c])
 ## Related
 
 - [Flows/TEMPLATE-flow](Flows/TEMPLATE-flow.md) — Flow document template
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow and state machine patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow and state machine patterns
 - [Core/BaseModel](Core/BaseModel.md) — Model foundation, inheritance, CRUD
 - [Core/Fields](Core/Fields.md) — Field types, computed fields
 - [Core/Exceptions](Core/Exceptions.md) — ValidationError, UserError
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — Sudo usage, ACL
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — Sudo usage, ACL
 - [Snippets/method-chain-example](Snippets/method-chain-example.md) — Method chain notation reference

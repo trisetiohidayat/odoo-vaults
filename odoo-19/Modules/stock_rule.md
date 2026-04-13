@@ -609,4 +609,4 @@ if self.env.su and values.get('company_id'):
 - [Modules/stock_rule](Modules/stock_rule.md) — Automatic procurement
 - [Modules/Purchase](Modules/purchase.md) — Purchase order lifecycle
 - [Modules/MRP](Modules/mrp.md) — Manufacturing orders
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Route and procurement workflow patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Route and procurement workflow patterns

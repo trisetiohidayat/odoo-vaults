@@ -541,7 +541,7 @@ payment.transaction state transitions:
 | 🔀 Technical Flow | [Flows/Website/website-sale-flow](Flows/Website/website-sale-flow.md) | Full method chain — for developers |
 | 📖 Module Reference | [Modules/website_sale](Modules/website_sale.md) | Complete field and method list |
 | 📋 Related Guide | [Modules/website_sale](Modules/website_sale.md) | Website publishing and SEO |
-| 🔧 Patterns | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | Workflow design patterns |
-| 🛠️ Snippets | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Code snippets for customization |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | Workflow design patterns |
+| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model Snippets.md) | Code snippets for customization |
 | 💳 Payment | [Modules/payment_stripe](Modules/payment_stripe.md) | Detailed payment provider setup |
 | 🚚 Delivery | [Business/Stock/warehouse-setup-guide](Business/Stock/warehouse-setup-guide.md) | Advanced delivery configuration |

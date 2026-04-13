@@ -375,5 +375,5 @@ def button_confirm(self):
 - [Flows/Purchase/purchase-order-receipt-flow](Flows/Purchase/purchase-order-receipt-flow.md) — Receipt of goods against confirmed PO
 - [Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md) — Vendor bill creation and payment
 - [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Incoming receipt (same as PO receipt)
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

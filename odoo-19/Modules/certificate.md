@@ -368,4 +368,4 @@ Tests in `tests/test_keys_certificates.py` (`@tagged: post_install`):
 - [Modules/l10n_pl_edi](Modules/l10n_pl_edi.md) — Polish KSeF e-invoicing
 - [Modules/l10n_sa_edi](Modules/l10n_sa_edi.md) — Saudi ZATCA e-invoicing
 - [Modules/account_peppol](Modules/account_peppol.md) — Peppol network participation
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL, ir.rule, field groups
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL, ir.rule, field groups

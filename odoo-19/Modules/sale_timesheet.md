@@ -719,7 +719,7 @@ sale_timesheet
 - [Modules/Sale](Modules/sale.md) - Sales order and invoicing
 - [Modules/hr_timesheet](Modules/hr_timesheet.md) - Time tracking foundation
 - [Core/API](Core/API.md) - Domain() class and ORM patterns
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) - State machine and action patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) - State machine and action patterns
 
 ---
 

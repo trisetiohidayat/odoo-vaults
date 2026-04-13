@@ -350,7 +350,7 @@ def _create_account_move(self, balancing_account, ...):
 - [Flows/POS/pos-order-to-invoice-flow](Flows/POS/pos-order-to-invoice-flow.md) — Invoice generation from paid orders
 - [Business/POS/pos-configuration-guide](Business/POS/pos-configuration-guide.md) — POS setup and session management
 - [Modules/pos](Modules/pos.md) — Full POS module reference
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine design patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine design patterns
 - [Core/API](Core/API.md) — @api decorator patterns
 - [Modules/Account](Modules/account.md) — account.move, account.bank.statement reference
 - [Modules/Stock](Modules/stock.md) — stock.picking, stock.move reference

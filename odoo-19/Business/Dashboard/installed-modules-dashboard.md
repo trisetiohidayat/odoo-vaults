@@ -9,7 +9,7 @@ prerequisites:
   - vault_navigated
 estimated_time: "~5 minutes"
 related_guides:
-  - "[Tools/Modules Inventory](odoo-18/Tools/Modules Inventory.md)"
+  - "[Tools/Modules Inventory](Tools/Modules Inventory.md)"
   - "[Documentation/Upgrade-Plan/CHECKPOINT-master](Documentation/Upgrade-Plan/CHECKPOINT-master.md)"
 created: 2026-04-07
 updated: 2026-04-07
@@ -493,7 +493,7 @@ See [Modules/l10n_id](Modules/l10n_id.md) for full Indonesian example. See [Modu
 | Type | Link | Description |
 |------|------|-------------|
 | Guide | [Documentation/Upgrade-Plan/CHECKPOINT-master](Documentation/Upgrade-Plan/CHECKPOINT-master.md) | Coverage progress tracker |
-| Guide | [Tools/Modules Inventory](odoo-18/Tools/Modules Inventory.md) | Full module catalog |
-| Pattern | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | Cross-module flow design |
-| Snippet | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Code templates |
+| Guide | [Tools/Modules Inventory](Tools/Modules Inventory.md) | Full module catalog |
+| Pattern | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | Cross-module flow design |
+| Snippet | [Snippets/Model Snippets](Snippets/Model Snippets.md) | Code templates |
 | Core | [Core/BaseModel](Core/BaseModel.md) | ORM foundation |

@@ -809,5 +809,5 @@ Removes `ir.embedded.actions` records whose `python_method` is `action_open_proj
 - [Modules/sale_timesheet](Modules/sale_timesheet.md) — Timesheet-linked billing, UDH conversion, SOL→AAL→invoice flow
 - [Modules/hr_timesheet](Modules/hr_timesheet.md) — Timesheet entry model, portal rendering
 - [Core/API](Core/API.md)
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md)
+- [Patterns/Security Patterns](Patterns/Security Patterns.md)

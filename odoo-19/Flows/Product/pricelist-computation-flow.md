@@ -365,4 +365,4 @@ class SaleOrderLine(models.Model):
 - [Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md) — Full sale order lifecycle
 - [Core/API](Core/API.md) — @api.depends, @api.onchange decorator patterns
 - [Modules/Stock](Modules/stock.md) — BOM/kit product stock valuation
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern for SO
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine pattern for SO

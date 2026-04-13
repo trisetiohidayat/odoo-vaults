@@ -425,5 +425,5 @@ def action_done(self):
 - [Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md) — PO creation and confirmation that triggers this flow
 - [Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md) — Vendor bill creation from received PO
 - [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Generic incoming receipt (same mechanics as PO receipt)
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

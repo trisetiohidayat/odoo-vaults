@@ -522,5 +522,5 @@ website_timesheet/
 - [Modules/project](Modules/project.md) — Project and task models (`project.project`, `project.task`) that provide the `allow_timesheets` flag consumed in portal templates
 - [Modules/sale_timesheet](Modules/sale_timesheet.md) — Consumed via `sale_timesheet_portal_templates.xml` which also gates its "View Timesheets" button on `_show_portal_timesheets()`
 - [Modules/sale_project](Modules/sale_project.md) — Sale-Project bridge; SOL → project/task generation; timesheets linked to SOLs for billing
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL design, ir.rule, record-level access
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL design, ir.rule, record-level access
 - [Core/Fields](Core/Fields.md) — `ir.ui.view` model and the `key` + `active` + `inherit_id` fields

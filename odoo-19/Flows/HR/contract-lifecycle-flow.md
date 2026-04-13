@@ -353,5 +353,5 @@ def create(self, vals):
 - [Modules/resource](Modules/resource.md) — resource.resource, resource.calendar
 - [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — Employee creation
 - [Flows/HR/employee-archival-flow](Flows/HR/employee-archival-flow.md) — Archival on termination
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

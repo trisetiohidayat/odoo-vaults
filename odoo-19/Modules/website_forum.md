@@ -939,5 +939,5 @@ Key changes from Odoo 18 to 19 in `website_forum`:
 - [Modules/Website](Modules/website.md) — Multi-website support, page routing, SEO metadata
 - [Modules/website_profile](Modules/website_profile.md) — User profile, karma display, avatar
 - [Core/API](Core/API.md) — `@api.depends_context('uid')` for per-user karma rights
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine: active → pending → close/flagged/offensive
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — Karma as ACL replacement for public communities
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine: active → pending → close/flagged/offensive
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — Karma as ACL replacement for public communities

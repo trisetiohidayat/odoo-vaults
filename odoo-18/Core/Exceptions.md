@@ -58,4 +58,4 @@ except CacheMiss:
 
 ## Related Links
 - [Core/API](Core/API.md) — Decorators that raise ValidationError
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — AccessError context
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — AccessError context

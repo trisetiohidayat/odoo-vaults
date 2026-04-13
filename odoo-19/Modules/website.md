@@ -1360,4 +1360,4 @@ base.group_portal
 - [Modules/website_slides](Modules/website_slides.md) -- E-learning
 - [Modules/website_hr_recruitment](Modules/website_hr_recruitment.md) -- Job applications
 - [Core/API](Core/API.md) -- HTTP routing, controllers
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) -- ACL, record rules
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) -- ACL, record rules

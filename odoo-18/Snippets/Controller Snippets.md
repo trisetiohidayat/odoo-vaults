@@ -71,5 +71,5 @@ class MyController(http.Controller):
 ---
 
 ## Related Links
-- [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — Full controller reference
-- [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) — Model templates
+- [Core/HTTP Controller](Core/HTTP Controller.md) — Full controller reference
+- [Snippets/Model Snippets](Snippets/Model Snippets.md) — Model templates

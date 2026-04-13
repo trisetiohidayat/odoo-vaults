@@ -14,33 +14,33 @@ Comprehensive documentation for **Odoo 17** codebase, built from actual source c
 | [Core/BaseModel](Core/BaseModel.md) | ORM foundation, _name, _inherit, CRUD |
 | [Core/API](Core/API.md) | @api.depends, @api.onchange, @api.constrains |
 | [Core/Fields](Core/Fields.md) | All field types (Char, Many2one, One2many, etc.) |
-| [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) | @http.route, auth types, JSON responses |
+| [Core/HTTP Controller](Core/HTTP Controller.md) | @http.route, auth types, JSON responses |
 | [Core/Exceptions](Core/Exceptions.md) | ValidationError, UserError, AccessError |
 
 ## Patterns
 
 | Document | Description |
 |----------|-------------|
-| [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) | _inherit vs _inherits vs mixin |
-| [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | State machines, button actions |
-| [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) | ir.rule, ir.model.access, field groups |
+| [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) | _inherit vs _inherits vs mixin |
+| [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | State machines, button actions |
+| [Patterns/Security Patterns](Patterns/Security Patterns.md) | ir.rule, ir.model.access, field groups |
 
 ## Tools & Snippets
 
 | Document | Description |
 |----------|-------------|
-| [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) | search(), browse(), domains, env |
-| [Tools/Modules Inventory](odoo-18/Tools/Modules Inventory.md) | 575 modules catalog (✅=verified, ⚠️=stub) |
-| [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Copy-paste code templates |
-| [Snippets/Controller Snippets](odoo-18/Snippets/Controller Snippets.md) | HTTP/JSON controller templates |
+| [Tools/ORM Operations](Tools/ORM Operations.md) | search(), browse(), domains, env |
+| [Tools/Modules Inventory](Tools/Modules Inventory.md) | 575 modules catalog (✅=verified, ⚠️=stub) |
+| [Snippets/Model Snippets](Snippets/Model Snippets.md) | Copy-paste code templates |
+| [Snippets/Controller Snippets](Snippets/Controller Snippets.md) | HTTP/JSON controller templates |
 
 ## New Features
 
 | Document | Description |
 |----------|-------------|
-| [New Features/What's New](odoo-18/New Features/What's New.md) | Odoo 16 → 17 highlights |
-| [New Features/API Changes](odoo-18/New Features/API Changes.md) | Decorator and field changes |
-| [New Features/New Modules](odoo-18/New Features/New Modules.md) | New in Odoo 17 |
+| [New Features/What's New](New Features/What's New.md) | Odoo 16 → 17 highlights |
+| [New Features/API Changes](New Features/API Changes.md) | Decorator and field changes |
+| [New Features/New Modules](New Features/New Modules.md) | New in Odoo 17 |
 
 ---
 
@@ -110,7 +110,7 @@ Comprehensive documentation for **Odoo 17** codebase, built from actual source c
 
 ## All 575+ Modules
 
-See [Tools/Modules Inventory](odoo-18/Tools/Modules Inventory.md) for the complete catalog including 555 stubs.
+See [Tools/Modules Inventory](Tools/Modules Inventory.md) for the complete catalog including 555 stubs.
 
 ---
 

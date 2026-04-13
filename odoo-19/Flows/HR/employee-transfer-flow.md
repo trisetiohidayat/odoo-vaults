@@ -318,5 +318,5 @@ def _change_department(self, new_dept_id):
 - [Modules/Account](Modules/account.md) — Account module reference
 - [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — Employee creation flow
 - [Flows/HR/employee-archival-flow](Flows/HR/employee-archival-flow.md) — Employee archival flow
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

@@ -68,5 +68,5 @@ name = fields.Char(
 
 - [Core/BaseModel](Core/BaseModel.md) - Using fields in models
 - [Core/API](Core/API.md) - Computed fields, onchange
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) - Reading/writing fields
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) - Field-level security
+- [Tools/ORM Operations](Tools/ORM Operations.md) - Reading/writing fields
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) - Field-level security

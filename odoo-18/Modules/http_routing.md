@@ -180,6 +180,6 @@ class SessionWebsite(Session)
 ---
 
 ## Related Links
-- [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — HTTP routing reference
+- [Core/HTTP Controller](Core/HTTP Controller.md) — HTTP routing reference
 - [Modules/web](Modules/web.md) — Web client session management
 - [Modules/website](Modules/website.md) — Website builder

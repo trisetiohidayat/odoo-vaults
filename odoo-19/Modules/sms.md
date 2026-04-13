@@ -626,5 +626,5 @@ The cron is also triggered directly from `sms.sms.create()` to ensure immediate 
 - [Modules/mail](Modules/mail.md) — `mail.thread`, `mail.message`, `mail.notification`, `mail.render.mixin`, `template.reset.mixin`
 - [Modules/iap_mail](Modules/iap_mail.md) — IAP account infrastructure, credits management
 - [Core/API](Core/API.md) — `@api.model`, `@api.depends`, `@api.depends_context`, `@api.autovacuum`
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine design (used by `sms.sms` state field)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine design (used by `sms.sms` state field)
 - [Core/BaseModel](Core/BaseModel.md) — `try_lock_for_update()`, `sudo()`, recordset operations

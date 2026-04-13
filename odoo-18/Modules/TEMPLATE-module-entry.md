@@ -59,5 +59,5 @@ draft ──[confirm]──→ confirmed ──[done]──→ done
 - [Modules/{}](Modules/{}.md)
 
 ## Related Links
-- [Tools/Modules Inventory](odoo-18/Tools/Modules Inventory.md)
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)
+- [Tools/Modules Inventory](Tools/Modules Inventory.md)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md)

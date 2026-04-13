@@ -408,5 +408,5 @@ def _is_closing(self, stage_id):
 - [Modules/Helpdesk](Modules/helpdesk.md) — Module reference
 - [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) — Ticket creation and SLA application
 - [Business/Helpdesk/helpdesk-configuration-guide](Business/Helpdesk/helpdesk-configuration-guide.md) — Configuring stages and rating
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine pattern reference
 - [Core/API](Core/API.md) — @api.depends, write() override patterns

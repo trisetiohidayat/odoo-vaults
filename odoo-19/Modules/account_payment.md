@@ -2054,4 +2054,4 @@ Key testing patterns used:
 - [Modules/Sale](Modules/sale.md) — Sales order with payment integration
 - [Core/API](Core/API.md) — @api decorators (@api.depends, @api.ondelete, etc.)
 - [Core/Fields](Core/Fields.md) — Field types (Monetary, Many2many, Json, Html)
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — Access control and record rules
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — Access control and record rules

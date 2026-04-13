@@ -444,4 +444,4 @@ The `_inherit = ['mail.thread']` list syntax (prototype inheritance) is stable i
 - [Modules/CRM](Modules/CRM.md) — `crm` module uses `crm.team` as pipeline container
 - [Modules/Sale](Modules/sale.md) — `sale.order` uses `team_id` for assignment
 - [Core/Fields](Core/Fields.md) — Many2many with compute/inverse pattern
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — Classic vs. prototype inheritance
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — Classic vs. prototype inheritance

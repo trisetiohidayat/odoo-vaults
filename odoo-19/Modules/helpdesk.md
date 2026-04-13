@@ -154,7 +154,7 @@ created: 2026-04-07
 - [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) — Ticket creation, partner auto-fill, SLA application
 - [Flows/Helpdesk/ticket-resolution-flow](Flows/Helpdesk/ticket-resolution-flow.md) — Ticket close, rating, reopen, escalate
 - [Business/Helpdesk/helpdesk-configuration-guide](Business/Helpdesk/helpdesk-configuration-guide.md) — Team, stage, SLA, rating setup
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine design patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine design patterns
 - [Core/API](Core/API.md) — @api decorators used in helpdesk models
 - [Modules/rating](Modules/rating.md) — Rating infrastructure used by helpdesk
 - [Modules/mail](Modules/mail.md) — Mail.thread integration for notifications

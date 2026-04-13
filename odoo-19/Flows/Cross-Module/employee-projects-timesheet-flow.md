@@ -309,5 +309,5 @@ def create(self, vals):
 - [Modules/Sale](Modules/sale.md) — Sale module reference (SO billing)
 - [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — Employee creation
 - [Flows/Sale/sale-to-invoice-flow](Flows/Sale/sale-to-invoice-flow.md) — Sale to invoice flow
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Cross-module flow patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Cross-module flow patterns
 - [Core/API](Core/API.md) — @api decorator patterns

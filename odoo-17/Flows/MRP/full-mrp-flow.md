@@ -483,4 +483,4 @@ def _link_workorders_and_moves(self):
 - [Modules/product](Modules/product.md) — `standard_price`, product costing
 - [Modules/stock_account](Modules/stock_account.md) — WIP valuation entries
 - [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — how received/finished goods enter stock
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — state machine patterns in Odoo
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — state machine patterns in Odoo

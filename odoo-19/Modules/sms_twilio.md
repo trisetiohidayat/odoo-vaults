@@ -334,4 +334,4 @@ class TestSmsTwilio(TestSmsCommon):
 
 - [Modules/sale_margin](Modules/sale_margin.md) - Margin calculation (another CE extension module)
 - [Core/API](Core/API.md) - External API patterns
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) - SMS sending via ORM
+- [Tools/ORM Operations](Tools/ORM Operations.md) - SMS sending via ORM

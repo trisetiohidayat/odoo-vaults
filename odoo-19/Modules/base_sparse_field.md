@@ -621,4 +621,4 @@ Reads `serialization_field_id` from field metadata row and sets `attrs['sparse']
 - [Core/Fields](Core/Fields.md) — Field types reference (Char, Integer, Many2one, Serialized)
 - [Core/API](Core/API.md) — `@api.depends` and computed field patterns
 - [Core/BaseModel](Core/BaseModel.md) — ORM foundation, `_inherit`, recordset behavior
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — `search()`, `write()`, domain operators
+- [Tools/ORM Operations](Tools/ORM Operations.md) — `search()`, `write()`, domain operators

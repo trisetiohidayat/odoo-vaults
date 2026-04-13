@@ -68,7 +68,7 @@ Inventory valuation is tracked through `stock.quant` quantities at specific `sto
 ## Working with This Vault
 
 ### Wikilinks
-Use Obsidian wikilinks for cross-references: `[Modules/Stock](Modules/stock.md)`, `[Core/API](Core/API.md)`, `[Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md)`. These link to markdown files in the vault — not to Python files in the codebase.
+Use Obsidian wikilinks for cross-references: `[Modules/Stock](Modules/stock.md)`, `[Core/API](Core/API.md)`, `[Patterns/Security Patterns](Patterns/Security Patterns.md)`. These link to markdown files in the vault — not to Python files in the codebase.
 
 ### Code Locations
 When referencing Odoo source code, the canonical path pattern is:

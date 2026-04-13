@@ -616,5 +616,5 @@ The module is performance-neutral. The only database query that runs on every ma
 - [Modules/CRM](Modules/CRM.md) — CRM module providing `crm.lead`
 - [Modules/UTM](Modules/utm.md) — UTM tracking (campaigns, sources, mediums)
 - [Core/API](Core/API.md) — ORM API decorators used
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — `_inherit` vs mixin class attribute patterns
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — `_inherit` vs mixin class attribute patterns
 - [Modules/res.partner](Modules/res.partner.md) — Partner model that is also a mailing target

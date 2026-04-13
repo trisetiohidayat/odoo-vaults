@@ -118,4 +118,4 @@ def _compute_amounts(self):
 ## Related Links
 - [Core/Fields](Core/Fields.md) — Field types and parameters
 - [Core/API](Core/API.md) — Decorators
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — Full ORM reference
+- [Tools/ORM Operations](Tools/ORM Operations.md) — Full ORM reference

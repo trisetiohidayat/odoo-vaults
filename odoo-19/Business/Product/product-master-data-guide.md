@@ -402,5 +402,5 @@ Click **Save** on the BOM record.
 | 📖 Module Reference | [Modules/product](Modules/product.md) | Complete product model reference |
 | 📋 Related Guide | [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) | Stock receipt workflow |
 | 📋 Related Guide | [Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md) | Purchase order creation |
-| 🔧 Patterns | [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) | Delegation inheritance for product.product |
-| 🛠️ Snippets | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Code snippets for product customization |
+| 🔧 Patterns | [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) | Delegation inheritance for product.product |
+| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model Snippets.md) | Code snippets for product customization |

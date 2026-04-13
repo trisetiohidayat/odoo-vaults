@@ -26,7 +26,7 @@ version: "2.0"
 - [Modules/Account](Modules/account.md) — Adding custom fields to invoices via Studio
 - [Modules/Sale](Modules/sale.md) — Customizing quotation views via Studio
 - [Modules/Stock](Modules/stock.md) — Adding custom inventory fields via Studio
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — Understanding Studio's model extension mechanism
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — Understanding Studio's model extension mechanism
 - [Modules/base_automation](Modules/base_automation.md) — Studio automation rules integration
 
 ---
@@ -816,7 +816,7 @@ When upgrading from Odoo 15/16/17 to 19:
 ## Related Documentation
 
 - [Core/BaseModel](Core/BaseModel.md) — Understanding Odoo model inheritance
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — Studio's extension mechanism
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — Studio's extension mechanism
 - [Modules/base_automation](Modules/base_automation.md) — Automation rules created by Studio
 - [Core/API](Core/API.md) — @api.depends, @api.onchange for computed fields
 

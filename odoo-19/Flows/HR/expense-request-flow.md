@@ -336,4 +336,4 @@ def action_move_create(self):
 - [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — Employee setup (payable account, department)
 - [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Reimbursement payment after expense approval
 - [Core/API](Core/API.md) — @api.depends, @api.onchange decorator patterns
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern used in hr.expense.sheet
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine pattern used in hr.expense.sheet

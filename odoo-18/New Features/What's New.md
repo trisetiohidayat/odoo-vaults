@@ -53,5 +53,5 @@ Documentation in progress. This file will be populated as modules are researched
 ---
 
 ## Related Links
-- [New Features/API Changes](odoo-18/New Features/API Changes.md) — Detailed API changes
-- [New Features/New Modules](odoo-18/New Features/New Modules.md) — New module listing
+- [New Features/API Changes](New Features/API Changes.md) — Detailed API changes
+- [New Features/New Modules](New Features/New Modules.md) — New module listing

@@ -982,4 +982,4 @@ All country validators delegate to `python-stdnum`. Key modules used:
 - [Modules/Account](Modules/account.md) — Fiscal position integration, `account.move` tax computation
 - [Core/Fields](Core/Fields.md) — `tracking=True`, `store=True`, `readonly=False` field attributes
 - [Modules/base_iban](Modules/base_iban.md) — Analogous bank account validation module
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — `_inherit` vs `_inherits`
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — `_inherit` vs `_inherits`

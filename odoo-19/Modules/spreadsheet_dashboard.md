@@ -410,4 +410,4 @@ Dashboard form view defined in `views/spreadsheet_dashboard_views.xml`.
 - [Modules/spreadsheet_account](Modules/spreadsheet_account.md) — Accounting formulas used inside dashboard spreadsheets
 - [Modules/spreadsheet](Modules/spreadsheet.md) — Core spreadsheet engine
 - [Core/API](Core/API.md) — Computed fields, @api.depends_context
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — Token-based access control
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — Token-based access control

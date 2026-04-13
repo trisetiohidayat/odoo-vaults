@@ -483,5 +483,5 @@ inbound email
 ## Related Links
 - [Modules/bus](Modules/bus.md) — Real-time event bus
 - [Core/API](Core/API.md) — @api decorators
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL and ir.rule
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL and ir.rule
 - [Modules/website](Modules/website.md) — Website email aliases

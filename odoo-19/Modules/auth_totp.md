@@ -1099,7 +1099,7 @@ Test cases:
 - [Modules/auth_signup](Modules/auth_signup.md) — User registration
 - [Modules/auth_password_policy](Modules/auth_password_policy.md) — Password strength requirements
 - [Core/API](Core/API.md) — `@check_identity` decorator, identity verification flow
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ir.rule, ir.model.access.csv, field groups
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ir.rule, ir.model.access.csv, field groups
 
 ---
 

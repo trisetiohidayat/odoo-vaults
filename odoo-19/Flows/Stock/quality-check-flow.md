@@ -343,6 +343,6 @@ def do_pass(self):
 - [Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md) — Stock picking form action flow
 - [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Inbound receipt flow
 - [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) — Outbound delivery flow
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference (state machine)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference (state machine)
 - [Core/API](Core/API.md) — @api.depends, @api.onchange, @api.constrains decorators
 - [Modules/Stock](Modules/stock.md) — Stock module (stock.picking, stock.move)

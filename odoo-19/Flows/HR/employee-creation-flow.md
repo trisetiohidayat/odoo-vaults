@@ -288,4 +288,4 @@ action_archive()
 - [Business/HR/quickstart-employee-setup](Business/HR/quickstart-employee-setup.md) — Step-by-step guide
 - [Flows/HR/employee-archival-flow](Flows/HR/employee-archival-flow.md) — Archive/unarchive flow
 - [Modules/resource](Modules/resource.md) — resource.resource model
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns

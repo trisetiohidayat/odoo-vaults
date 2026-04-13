@@ -426,5 +426,5 @@ The `geoloc_provider_id` defaults to the first `base.geo_provider` record (typic
 - [Core/BaseModel](Core/BaseModel.md) — ORM foundation, abstract models
 - [Modules/res.partner](Modules/res.partner.md) — Base partner model
 - [Modules/base_address_extended](Modules/base_address_extended.md) — Address structure extension
-- [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — For understanding `request.geoip`
+- [Core/HTTP Controller](Core/HTTP Controller.md) — For understanding `request.geoip`
 - [Modules/Stock](Modules/stock.md) — Uses geolocation for warehouse routing

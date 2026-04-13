@@ -410,5 +410,5 @@ def _notify_record_by_email(self, message, recipients_data, **kwargs):
 - [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) — Helpdesk notification side effects
 - [Flows/Website/website-sale-flow](Flows/Website/website-sale-flow.md) — Website sale confirmation email
 - [Modules/mail](Modules/mail.md) — Email configuration guide
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

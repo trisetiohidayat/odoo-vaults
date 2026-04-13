@@ -389,4 +389,4 @@ def create_employee_from_applicant(self):
 - [Flows/HR/contract-lifecycle-flow](Flows/HR/contract-lifecycle-flow.md) — Contract creation after hire
 - [Flows/Base/mail-notification-flow](Flows/Base/mail-notification-flow.md) — Email notification mechanics
 - [Core/API](Core/API.md) — @api.depends, @api.onchange decorator patterns
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern via hr.recruitment.stage
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine pattern via hr.recruitment.stage

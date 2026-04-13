@@ -380,5 +380,5 @@ def action_done(self):
 - [Modules/Stock](Modules/stock.md) — Stock/picking module reference
 - [Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md) — Sale order confirmation that triggers delivery
 - [Flows/Sale/sale-to-invoice-flow](Flows/Sale/sale-to-invoice-flow.md) — Invoice creation (especially postpaid) after delivery
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

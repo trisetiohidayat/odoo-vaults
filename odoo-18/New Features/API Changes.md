@@ -32,6 +32,6 @@ Documentation in progress — will be populated as modules are researched.
 ---
 
 ## Related Links
-- [New Features/What's New](odoo-18/New Features/What's New.md) — Overview
-- [New Features/New Modules](odoo-18/New Features/New Modules.md) — New modules
+- [New Features/What's New](New Features/What's New.md) — Overview
+- [New Features/New Modules](New Features/New Modules.md) — New modules
 - [Core/API](Core/API.md) — Current API reference

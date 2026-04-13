@@ -335,5 +335,5 @@ class AccountEdiProxyUser(models.Model):
 - [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Invoice posting and journal entry creation
 - [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment reconciliation after invoice
 - [Flows/Purchase/purchase-withholding-flow](Flows/Purchase/purchase-withholding-flow.md) — Withholding tax on vendor bills
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine design patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine design patterns
 - [Core/API](Core/API.md) — `@api.model` vs `@api.depends` decorators

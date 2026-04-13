@@ -244,5 +244,5 @@ def action_confirm(self):
 - [Modules/ModuleName](Modules/ModuleName.md) — Module reference
 - [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) — Related flow
 - [Business/Sale/sales-process-guide](Business/Sale/sales-process-guide.md) — Step-by-step guide
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

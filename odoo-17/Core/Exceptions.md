@@ -40,4 +40,4 @@ raise RedirectWarning(
 
 ## See Also
 - [Core/API](Core/API.md) — @api.constrains
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md)

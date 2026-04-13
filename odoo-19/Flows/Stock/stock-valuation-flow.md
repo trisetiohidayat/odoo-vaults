@@ -398,5 +398,5 @@ class StockMove(models.Model):
 - [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Purchase receipt from PO to quant
 - [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) — Sales delivery from SO to quant
 - [Modules/stock_landed_costs](Modules/stock_landed_costs.md) — Landed cost integration with valuation
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern in Odoo
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine pattern in Odoo
 - [Core/API](Core/API.md) — `@api.depends` decorator for computed fields

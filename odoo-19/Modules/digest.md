@@ -623,6 +623,6 @@ def _compute_kpis_actions(self, company, user):
 
 - [Modules/mail](Modules/mail.md) - Email functionality
 - [Core/API](Core/API.md) - Cron jobs and scheduled actions
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) - State machine patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) - State machine patterns
 - [Modules/CRM](Modules/CRM.md) - CRM KPIs (extends digest)
 - [Modules/Sale](Modules/sale.md) - Sales KPIs (extends digest)

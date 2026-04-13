@@ -402,4 +402,4 @@ Computed from `picking_ids` states:
 - [Modules/stock](Modules/stock.md) — `stock.picking` receipt, `stock.move`
 - [Modules/account](Modules/account.md) — vendor bills, `account.move`
 - [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — detailed receipt validation flow
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — state machine patterns in Odoo
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — state machine patterns in Odoo

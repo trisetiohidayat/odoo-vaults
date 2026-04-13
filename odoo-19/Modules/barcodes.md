@@ -636,7 +636,7 @@ def check_barcode_encoding(barcode: str, encoding: str) -> bool:
 - [Modules/point_of_sale](Modules/point_of_sale.md) — POS uses `BarcodeParser` in JavaScript for product identification
 - [Modules/product](Modules/product.md) — Product `barcode` field is the primary lookup target
 - [Core/Fields](Core/Fields.md) — Barcode field type in Odoo
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine usage in picking confirmation
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine usage in picking confirmation
 
 ## See Also
 
@@ -644,4 +644,4 @@ def check_barcode_encoding(barcode: str, encoding: str) -> bool:
 - [Modules/point_of_sale](Modules/point_of_sale.md)
 - [Modules/stock_account](Modules/stock_account.md) (inventory valuation via stock.quant)
 - [Core/Fields](Core/Fields.md) (barcode field type in Odoo)
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) (state machine usage in picking confirmation)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) (state machine usage in picking confirmation)

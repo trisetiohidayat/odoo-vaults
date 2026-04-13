@@ -281,5 +281,5 @@ def _action_assign_leads(self):
 - [Flows/CRM/lead-conversion-to-opportunity-flow](Flows/CRM/lead-conversion-to-opportunity-flow.md) — Lead → Opportunity conversion
 - [Modules/CRM](Modules/CRM.md) — CRM module reference
 - [Modules/sales_team](Modules/sales_team.md) — Sales team and member management
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Pipeline stage patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Pipeline stage patterns
 - [Core/API](Core/API.md) — @api decorator patterns

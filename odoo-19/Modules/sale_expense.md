@@ -749,4 +749,4 @@ The split context only controls SOL merging behavior in the base reinvoice engin
 - [Modules/hr_expense](Modules/hr_expense.md) — Employee expense management (base `hr.expense` model)
 - [Modules/sale_management](Modules/sale_management.md) — Sales management wrapper (depends chain)
 - [Core/API](Core/API.md) — `@api.depends`, `@api.onchange`, `@api.model` decorator patterns
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine and action button patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine and action button patterns

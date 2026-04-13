@@ -18,7 +18,7 @@ level: 4
 - [Modules/Stock](Modules/stock.md) - Inventory valuation
 - [Modules/Sale](Modules/sale.md) - Sales pricing and order lines
 - [Modules/Purchase](Modules/purchase.md) - Vendor supplierinfo
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) - Variant/product patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) - Variant/product patterns
 
 ---
 

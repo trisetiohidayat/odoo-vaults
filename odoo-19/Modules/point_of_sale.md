@@ -1227,5 +1227,5 @@ When a session is open, these fields cannot be modified: `module_pos_restaurant`
 - [Modules/Stock](Modules/stock.md) — `stock.picking`, `stock.move`, `stock.quant` (Anglo-Saxon valuation)
 - [Modules/Product](Modules/product.md) — `product.product`, `product.pricelist`, `uom.uom`
 - [Modules/Sale](Modules/sale.md) — Order workflow, `sale.order` vs `pos.order` comparison
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns (applicable to order/session states)
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL, record rules, ir.rule
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns (applicable to order/session states)
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL, record rules, ir.rule

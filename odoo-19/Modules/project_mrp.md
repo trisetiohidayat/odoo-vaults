@@ -421,4 +421,4 @@ No deprecations, no API changes, no new dependencies.
 - [Modules/project_mrp_account](Modules/project_mrp_account.md) — MRP + Account bridge
 - [Modules/project_mrp_sale](Modules/project_mrp_sale.md) — MRP + Sale bridge (triple integration)
 - [Modules/project_mrp_stock_landed_costs](Modules/project_mrp_stock_landed_costs.md) — MRP + Account + Landed Costs
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machines and action methods
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machines and action methods

@@ -1175,5 +1175,5 @@ Key differences from the Odoo 18 `website_slides` module:
 - [Modules/website_profile](Modules/website_profile.md)
 - [Modules/website_mail](Modules/website_mail.md)
 - [Core/API](Core/API.md) — `@api.depends`, computed fields
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — state machines vs. action methods
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — `search()`, `write()`, domain operators
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — state machines vs. action methods
+- [Tools/ORM Operations](Tools/ORM Operations.md) — `search()`, `write()`, domain operators

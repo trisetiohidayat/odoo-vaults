@@ -326,5 +326,5 @@ def action_confirm(self):
 - [Flows/Sale/sale-to-invoice-flow](Flows/Sale/sale-to-invoice-flow.md) — Invoice creation from sale order
 - [Modules/Stock](Modules/stock.md) — Stock/picking module reference
 - [Modules/Account](Modules/account.md) — Account/invoice module reference
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

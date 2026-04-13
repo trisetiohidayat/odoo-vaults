@@ -987,8 +987,8 @@ Groups are dynamically added to the user form view as boolean/selection fields (
 
 - [Core/API](Core/API.md) -- ORM decorators like `@api.depends`, `@api.constrains`
 - [Core/BaseModel](Core/BaseModel.md) -- Model foundation, `_name`, `_inherit`, CRUD methods
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) -- ACL CSV, ir.rule, field groups
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) -- `search()`, `browse()`, `create()`, `write()`, domain operators
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) -- ACL CSV, ir.rule, field groups
+- [Tools/ORM Operations](Tools/ORM Operations.md) -- `search()`, `browse()`, `create()`, `write()`, domain operators
 - [Modules/Stock](Modules/stock.md) -- Warehouse/Inventory (uses res.partner, res.company extensively)
 - [Modules/Purchase](Modules/purchase.md) -- Purchase orders (uses res.partner)
 - [Modules/Account](Modules/account.md) -- Accounting (uses res.partner, res.company, res.currency)

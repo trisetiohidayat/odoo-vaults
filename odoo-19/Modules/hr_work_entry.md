@@ -815,4 +815,4 @@ One record per user-employee pair. Controls which employees appear in the user's
 - [Modules/HR](Modules/hr.md) — Payroll computation from validated entries
 - [Modules/HR](Modules/hr.md) — Contract/Version model
 - [Core/Fields](Core/Fields.md) — Field type reference
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine design
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine design

@@ -22,7 +22,7 @@ see_also:
   - "[Core/BaseModel](Core/BaseModel.md)"
   - "[Core/Fields](Core/Fields.md)"
   - "[Core/API](Core/API.md)"
-  - "[Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)"
+  - "[Patterns/Workflow Patterns](Patterns/Workflow Patterns.md)"
 ---
 
 # Module: sale

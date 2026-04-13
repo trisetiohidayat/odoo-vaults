@@ -591,6 +591,6 @@ No SMS. Template task creation does not send customer-facing notifications.
 - [Modules/Project](Modules/project.md) — `project.project`, `project.task`, stage models
 - [Modules/sms](Modules/sms.md) — `sms.template`, `_message_sms_with_template()`, delivery pipeline
 - [Modules/project](Modules/project.md) — Email notification counterpart for project stages
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — `ir.rule`, `perm_read`, sudo() patterns
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — `ir.rule`, `perm_read`, sudo() patterns
 - [Core/Fields](Core/Fields.md) — `Many2one` field types, `ondelete` behavior
 - [Core/API](Core/API.md) — `@api.model_create_multi`, `write()` hook patterns

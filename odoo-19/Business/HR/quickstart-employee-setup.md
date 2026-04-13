@@ -213,4 +213,4 @@ After saving, verify:
 | 🔀 Technical Flow | [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) | Full method chain for developers |
 | 📖 Module Reference | [Modules/HR](Modules/hr.md) | Complete field and method reference |
 | 📋 Leave Management | [Business/HR/leave-management-guide](Business/HR/leave-management-guide.md) | Managing employee leave |
-| 🔧 Patterns | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | Workflow design patterns |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | Workflow design patterns |

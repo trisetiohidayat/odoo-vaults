@@ -526,4 +526,4 @@ Replaces placeholder colors in theme SVG logos:
 - [Modules/CRM](Modules/CRM.md) — website lead capture via `website_crm`
 - [Modules/website_blog](Modules/website_blog.md) — blog
 - [Modules/website_event](Modules/website_event.md) — events
-- [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — @http.route, JSON responses
+- [Core/HTTP Controller](Core/HTTP Controller.md) — @http.route, JSON responses

@@ -615,5 +615,5 @@ class ProjectTags(models.Model):
 - [Modules/Sale](Modules/sale.md) — task-to-sale-order integration
 - [Modules/HR](Modules/hr.md) — timesheets linked via `analytic_account_id`
 - [Core/API](Core/API.md) — @api.depends, @api.onchange decorators
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — state machine patterns
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL CSV, ir.rule, portal.mixin
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — state machine patterns
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, ir.rule, portal.mixin

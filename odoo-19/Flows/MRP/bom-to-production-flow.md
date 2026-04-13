@@ -322,5 +322,5 @@ def _onchange_bom_id(self):
 - [Flows/MRP/workorder-execution-flow](Flows/MRP/workorder-execution-flow.md) — Workorder lifecycle
 - [Modules/MRP](Modules/mrp.md) — MRP module reference
 - [Modules/Stock](Modules/stock.md) — Inventory and materials
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns
 - [Core/API](Core/API.md) — @api decorator patterns

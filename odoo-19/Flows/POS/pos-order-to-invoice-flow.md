@@ -363,4 +363,4 @@ def _prepare_invoice_vals(self):
 - [Modules/pos](Modules/pos.md) — Full POS module reference
 - [Modules/Account](Modules/account.md) — account.move, journal entries
 - [Modules/res.partner](Modules/res.partner.md) — Partner model
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL and record rules
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL and record rules

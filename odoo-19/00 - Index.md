@@ -36,7 +36,7 @@ Knowledge graph untuk codebase **Odoo 19** — memetakan struktur, relasi, dan a
 - [Core/BaseModel](Core/BaseModel.md) — ORM foundation
 - [Core/Fields](Core/Fields.md) — Field types
 - [Core/API](Core/API.md) — Decorators & method chains
-- [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — Web controllers
+- [Core/HTTP Controller](Core/HTTP Controller.md) — Web controllers
 - [Core/Exceptions](Core/Exceptions.md) — Error handling
 
 ### Business Modules
@@ -174,21 +174,21 @@ Knowledge graph untuk codebase **Odoo 19** — memetakan struktur, relasi, dan a
 ---
 
 ## Patterns & Development
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — _inherit vs _inherits vs mixin
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine + branching decision trees
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL CSV, ir.rule, field groups
-- [Tools/Modules Inventory](odoo-18/Tools/Modules Inventory.md) — 304 modules catalog
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — search(), browse(), create(), write(), domain operators
-- [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) — Copy-paste code templates
-- [Snippets/Controller Snippets](odoo-18/Snippets/Controller Snippets.md) — HTTP route handlers
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — _inherit vs _inherits vs mixin
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine + branching decision trees
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, ir.rule, field groups
+- [Tools/Modules Inventory](Tools/Modules Inventory.md) — 304 modules catalog
+- [Tools/ORM Operations](Tools/ORM Operations.md) — search(), browse(), create(), write(), domain operators
+- [Snippets/Model Snippets](Snippets/Model Snippets.md) — Copy-paste code templates
+- [Snippets/Controller Snippets](Snippets/Controller Snippets.md) — HTTP route handlers
 - [Snippets/method-chain-example](Snippets/method-chain-example.md) — Method chain notation reference
 
 ---
 
 ## New in Odoo 19
-- [New Features/What's New](odoo-18/New Features/What's New.md) — What's new in Odoo 19
-- [New Features/API Changes](odoo-18/New Features/API Changes.md) — API changes from v18
-- [New Features/New Modules](odoo-18/New Features/New Modules.md) — New modules in v19
+- [New Features/What's New](New Features/What's New.md) — What's new in Odoo 19
+- [New Features/API Changes](New Features/API Changes.md) — API changes from v18
+- [New Features/New Modules](New Features/New Modules.md) — New modules in v19
 
 ---
 

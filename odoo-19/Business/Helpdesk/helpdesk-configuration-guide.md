@@ -54,7 +54,7 @@ Before starting, ensure the following are configured. Skipping these will cause 
 | 🔀 Technical Flow | [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) | Full method chain from ticket create to SLA application |
 | 🔀 Technical Flow | [Flows/Helpdesk/ticket-resolution-flow](Flows/Helpdesk/ticket-resolution-flow.md) | Ticket close, rating, reopen, and escalate |
 | 📖 Module Reference | [Modules/Helpdesk](Modules/helpdesk.md) | Complete field and method reference |
-| 🔧 Patterns | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | State machine and workflow design |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | State machine and workflow design |
 
 ---
 
@@ -485,5 +485,5 @@ View:
 | 🔀 Technical Flow | [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) | Full method chain — for developers |
 | 🔀 Technical Flow | [Flows/Helpdesk/ticket-resolution-flow](Flows/Helpdesk/ticket-resolution-flow.md) | Ticket close, rating, and reopen — for developers |
 | 📖 Module Reference | [Modules/Helpdesk](Modules/helpdesk.md) | Complete field and method list |
-| 🔧 Patterns | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | Workflow design patterns |
-| 🛠️ Snippets | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Code snippets for customization |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | Workflow design patterns |
+| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model Snippets.md) | Code snippets for customization |

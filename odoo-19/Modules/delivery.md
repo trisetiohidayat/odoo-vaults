@@ -933,7 +933,7 @@ OCA modules (e.g., `delivery-carrier-cost-estimation`, `delivery-iata`) follow t
 - [Modules/stock](Modules/stock.md)
 - [Modules/payment](Modules/payment.md)
 - [Core/API](Core/API.md)
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md)
 
 ---
 
@@ -1142,4 +1142,4 @@ The module adds no N+1 risk because all data is already loaded by the calling `s
 - [Modules/stock](Modules/stock.md)
 - [Modules/payment](Modules/payment.md)
 - [Core/API](Core/API.md)
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md)

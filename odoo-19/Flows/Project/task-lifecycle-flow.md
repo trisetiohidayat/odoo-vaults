@@ -444,5 +444,5 @@ def write(self, vals):
 - [Modules/Project](Modules/project.md) — Module reference
 - [Flows/Project/project-creation-flow](Flows/Project/project-creation-flow.md) — Project creation flow
 - [Business/Project/project-management-guide](Business/Project/project-management-guide.md) — Business guide
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

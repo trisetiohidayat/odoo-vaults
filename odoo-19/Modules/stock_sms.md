@@ -342,7 +342,7 @@ Notable consistent aspects:
 - [Modules/SMS](Modules/sms.md) — `sms.template`, `_message_sms_with_template`, IAP SMS gateway
 - [Modules/res.partner](Modules/res.partner.md) — `partner_id.phone` field used for SMS recipient
 - [Core/API](Core/API.md) — `@api.model`, `@api.onchange` decorators relevant to `ResConfigSettings`
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ir.rule record rules, ACL CSV format, transient model security
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ir.rule record rules, ACL CSV format, transient model security
 
 ---
 

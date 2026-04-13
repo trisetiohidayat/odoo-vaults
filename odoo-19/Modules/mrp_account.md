@@ -1257,8 +1257,8 @@ To enable manufacturing accounting:
 - [Modules/Analytic](Modules/analytic.md) — Analytic accounting (distribution, applicability)
 - [Core/API](Core/API.md) — ORM decorators used in this module (`@api.depends`, `@api.constrains`)
 - [Core/Fields](Core/Fields.md) — Field types: `Json` for analytic distribution, `Many2many` for relations
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — MO state machine (`confirmed` -> `progress` -> `done`)
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL and record rules in multi-company environments
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — MO state machine (`confirmed` -> `progress` -> `done`)
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL and record rules in multi-company environments
 
 ---
 

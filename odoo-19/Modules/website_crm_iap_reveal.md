@@ -444,4 +444,4 @@ website_crm_iap_reveal/
 - [Modules/website_crm](Modules/website_crm.md) — Website contact form; used by the controller override
 - [Modules/crm](Modules/CRM.md) — CRM base module
 - [Core/API](Core/API.md) — `@api.model`, `@api.constrains`, `@tools.ormcache` usage in this module
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Cron-based batch pipeline pattern
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Cron-based batch pipeline pattern

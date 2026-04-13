@@ -2049,4 +2049,4 @@ def _reverse_moves(self, default_values_list=None, cancel=False):
 - [Modules/account_accountant](Modules/account_accountant.md) - Required EE framework dependency
 - [Core/API](Core/API.md) - @api.depends, computed fields, recursive store
 - [Core/Fields](Core/Fields.md) - Monetary fields, Many2many relations
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) - ACL for asset models
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) - ACL for asset models

@@ -89,4 +89,4 @@ class MyModel(models.Model):
 - [Core/BaseModel](Core/BaseModel.md) - Model foundation
 - [Core/Fields](Core/Fields.md) - Adding fields
 - [Core/API](Core/API.md) - Methods
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) - Inheritance with ACL
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) - Inheritance with ACL

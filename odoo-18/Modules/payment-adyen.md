@@ -435,4 +435,4 @@ reset_payment_provider(env, 'adyen')  # Removes/demotes the provider record
 
 - [Modules/payment](Modules/payment.md) — Base payment module (`payment.provider`, `payment.transaction`, `payment.token`)
 - [Core/API](Core/API.md) — `@api.depends`, `@api.onchange`, access token pattern
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ir.rule, field groups, `base.group_system`
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ir.rule, field groups, `base.group_system`

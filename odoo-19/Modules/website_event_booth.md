@@ -356,7 +356,7 @@ All form routes use `auth='public'` with the default Odoo CSRF protection (enabl
 - [Modules/website_event](Modules/website_event.md) — website event integration
 - [Modules/website_event_booth_sale](Modules/website_event_booth_sale.md) — e-commerce cart integration for paid booth sales
 - [Modules/website_event_exhibitor](Modules/website_event_exhibitor.md) — sponsor/exhibitor website pages companion module
-- [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — @http.route decorator patterns
+- [Core/HTTP Controller](Core/HTTP Controller.md) — @http.route decorator patterns
 
 ---
 

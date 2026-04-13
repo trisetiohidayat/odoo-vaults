@@ -713,4 +713,4 @@ If you have custom code that extended `website_sale_stock` to add Click & Collec
 - [Modules/Stock](Modules/stock.md) — `stock.warehouse`, picking lifecycle
 - [Modules/account_payment](Modules/account_payment.md) — `payment.provider`, `payment.transaction`
 - [Core/Fields](Core/Fields.md) — Many2many, computed fields
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — `grouped()` on recordsets
+- [Tools/ORM Operations](Tools/ORM Operations.md) — `grouped()` on recordsets

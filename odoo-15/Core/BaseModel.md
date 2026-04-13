@@ -294,4 +294,4 @@ to disable if needed.
 ## See Also
 - [Core/Fields](Core/Fields.md) — Field types
 - [Core/API](Core/API.md) — Decorators (@api.depends, @api.onchange, @api.constrains)
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — _inherit vs _inherits vs mixin
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — _inherit vs _inherits vs mixin

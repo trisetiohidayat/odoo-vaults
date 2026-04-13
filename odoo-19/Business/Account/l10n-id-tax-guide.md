@@ -569,5 +569,5 @@ Once approved, click **Download PDF** to get the official DJP e-Faktur document 
 | 🔀 Technical Flow | [Flows/Stock/stock-valuation-flow](Flows/Stock/stock-valuation-flow.md) | Landed costs with PPN treatment |
 | 📖 Module Reference | [Modules/Account](Modules/account.md) | `account.move`, `account.tax` fields |
 | 📋 Related Guide | [Business/Account/chart-of-accounts-guide](Business/Account/chart-of-accounts-guide.md) | Indonesian COA setup |
-| 🔧 Patterns | [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) | Tax computation and fiscal positions |
-| 🛠️ Snippets | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Code for custom tax computation |
+| 🔧 Patterns | [Patterns/Security Patterns](Patterns/Security Patterns.md) | Tax computation and fiscal positions |
+| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model Snippets.md) | Code for custom tax computation |

@@ -646,8 +646,8 @@ spreadsheet_dashboard
 
 - [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Modern spreadsheet-based dashboards (parent menu root)
 - [Modules/web](Modules/web.md) — Web client view registry, `/web/view/edit_custom` endpoint
-- [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — Odoo HTTP route decorators, `auth='user'`
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — `ir.ui.view.custom` model, view customization system
+- [Core/HTTP Controller](Core/HTTP Controller.md) — Odoo HTTP route decorators, `auth='user'`
+- [Tools/ORM Operations](Tools/ORM Operations.md) — `ir.ui.view.custom` model, view customization system
 
 ---
 

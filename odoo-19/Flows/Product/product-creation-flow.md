@@ -323,4 +323,4 @@ def create(self, vals):
 - [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Stock receipt flow using product
 - [Core/API](Core/API.md) — @api.depends, @api.onchange decorator patterns
 - [Core/BaseModel](Core/BaseModel.md) — _inherit vs _inherits delegation pattern
-- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — Delegation inheritance for product.product → product.template
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — Delegation inheritance for product.product → product.template

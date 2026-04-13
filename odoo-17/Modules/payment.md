@@ -558,4 +558,4 @@ Adds `payment` module to the list of frontend modules whose strings are exported
 - [Modules/account_payment](Modules/account_payment.md) — Payment-related account flow
 - [Modules/sale](Modules/sale.md) — sale.order payment integration
 - [Modules/website_sale](Modules/website_sale.md) — Website payment form
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — search/browse/create/write patterns
+- [Tools/ORM Operations](Tools/ORM Operations.md) — search/browse/create/write patterns

@@ -110,4 +110,4 @@ def action_confirm(self):
 - [Core/Fields](Core/Fields.md) - Field types
 - [Core/API](Core/API.md) - Decorators
 - [Core/Exceptions](Core/Exceptions.md) - Validation
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) - State transitions
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) - State transitions

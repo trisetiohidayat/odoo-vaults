@@ -228,4 +228,4 @@ Detection based on method signature:
 ## See Also
 - [Core/BaseModel](Core/BaseModel.md) — Model definition
 - [Core/Fields](Core/Fields.md) — Field types
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine, action methods
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine, action methods

@@ -16,7 +16,7 @@ depth: L4
 | [Modules/Project](Modules/project.md) | Module | `project.task`, `user_ids`, assignee model |
 | [Modules/HR](Modules/hr.md) | Module | `hr.employee`, `res.users.employee_id` bridge |
 | [Modules/hr_skills](Modules/hr_skills.md) | Module | Full `hr_skills` module — `hr.employee.skill`, `hr.skill`, `hr.skill.type`, `hr.skill.level` |
-| [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) | Pattern | ACL inheritance, field groups |
+| [Patterns/Security Patterns](Patterns/Security Patterns.md) | Pattern | ACL inheritance, field groups |
 | [Core/Fields](Core/Fields.md) | Core | Field types — One2many, related fields |
 | [Core/BaseModel](Core/BaseModel.md) | Core | ORM foundation, `_inherit`, related fields |
 
@@ -556,7 +556,7 @@ The `ilike` operator uses PostgreSQL's `ILIKE`, which supports both `%` wildcard
 - [Modules/Project](Modules/project.md) — `project.task`, `user_ids` Many2many, task assignee model
 - [Modules/HR](Modules/hr.md) — `hr.employee`, `res.users.employee_id` bridge
 - [Modules/hr_skills](Modules/hr_skills.md) — Full `hr_skills` L4 documentation — `hr.employee.skill`, `hr.skill`, `hr.skill.type`, `hr.skill.level`, `_get_transformed_commands()`, certification handling
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL inheritance, field groups, record rules
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL inheritance, field groups, record rules
 - [Core/BaseModel](Core/BaseModel.md) — ORM foundation, `_inherit`, related fields, `_rec_name`
 - [Core/Fields](Core/Fields.md) — Field types including One2many, related fields, `store`, `copy`
 - [Core/API](Core/API.md) — `@api.depends`, `@api.onchange`, ORM method decorators

@@ -254,4 +254,4 @@ records = self.env['my.model'].sudo(user_id).search([...])
 - [Core/BaseModel](Core/BaseModel.md) — Full model reference
 - [Core/Fields](Core/Fields.md) — Field types detail
 - [Core/API](Core/API.md) — Decorators detail
-- [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) — Full code templates
+- [Snippets/Model Snippets](Snippets/Model Snippets.md) — Full code templates

@@ -381,5 +381,5 @@ def action_done(self):
 - [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) — Outgoing delivery counterpart
 - [Flows/Purchase/purchase-order-receipt-flow](Flows/Purchase/purchase-order-receipt-flow.md) — PO-linked receipt flow
 - [Flows/Stock/stock-valuation-flow](Flows/Stock/stock-valuation-flow.md) — Stock valuation layer and account.move integration
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

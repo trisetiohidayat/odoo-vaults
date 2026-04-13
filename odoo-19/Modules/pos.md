@@ -24,8 +24,8 @@ version: "1.0"
 - [Modules/Sale](Modules/sale.md) — sale.order integration for delivery-based POS flows
 
 ### Patterns
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine design (session states, order states)
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — POS user groups and access rights
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine design (session states, order states)
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — POS user groups and access rights
 
 ---
 
@@ -107,5 +107,5 @@ draft  →  paid  →  done  →  (invoiced via account_move link)
 - [Flows/POS/pos-order-to-invoice-flow](Flows/POS/pos-order-to-invoice-flow.md) — Invoice generation flow
 - [Business/POS/pos-configuration-guide](Business/POS/pos-configuration-guide.md) — Step-by-step setup guide
 - [Core/API](Core/API.md) — @api decorators used in POS models
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns
 - [Modules/pos](Modules/pos.md) — This file (module entry point)

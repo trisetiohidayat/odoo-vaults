@@ -1656,7 +1656,7 @@ Test: Activities are only created once
 - [Core/Fields](Core/Fields.md) - Field types used in skills
 - [Core/API](Core/API.md) - @api.depends, @api.constrains decorators
 - [Core/BaseModel](Core/BaseModel.md) - Model foundation and inheritance
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) - Access control implementation
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) - Access control implementation
 - [Modules/HR](Modules/hr.md) - Employee model extension
 - [Modules/hr_recruitment](Modules/hr_recruitment.md) - Job position model
 

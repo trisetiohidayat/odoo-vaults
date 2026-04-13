@@ -360,5 +360,5 @@ This creates a **closed-loop attribution** from email campaign to revenue, allow
 - [Modules/Sale](Modules/sale.md) — base sale module (`sale.order`, order states)
 - [Modules/Mass Mailing CRM](Modules/mass-mailing-crm.md) — CRM email marketing integration
 - [Modules/crm-sms](Modules/crm-sms.md) — CRM SMS integration
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ir.rule and access control
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ir.rule and access control
 - [Core/API](Core/API.md) — `@api.depends`, computed fields, `sudo()`

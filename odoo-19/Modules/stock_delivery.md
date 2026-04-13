@@ -491,7 +491,7 @@ def _prepare_procurement_values(self):
 
 - [Modules/Stock](Modules/stock.md) — Core stock picking management
 - [Modules/Sale](Modules/sale.md) — Sales order delivery line management
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Carrier state machine
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Carrier state machine
 
 ---
 
@@ -857,6 +857,6 @@ If the carrier's API fails to cancel (e.g., the shipment was already in transit 
 - [Modules/Delivery](Modules/delivery.md) — `delivery.carrier` base model, `integration_level`, `free_over`, provider interface
 - [Modules/Fleet](Modules/fleet.md) — Fleet vehicle model
 - [Core/API](Core/API.md) — `@api.depends`, `@api.constrains`, `@api.onchange` decorators
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Picking validation workflow, carrier state machine
-- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL CSV, record rules for carrier access
-- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — `write()`, `search()`, `browse()` performance patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Picking validation workflow, carrier state machine
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, record rules for carrier access
+- [Tools/ORM Operations](Tools/ORM Operations.md) — `write()`, `search()`, `browse()` performance patterns

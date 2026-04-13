@@ -54,13 +54,13 @@ Obsidian vault navigation via keyword search.
 ### Controllers
 | Keyword | Vault File |
 |---|---|
-| `controller` | [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) |
-| `http` | [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) |
-| `route` | [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) |
-| `auth` | [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) |
-| `json` | [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) |
-| `website` | [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) |
-| `request` | [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) |
+| `controller` | [Core/HTTP Controller](Core/HTTP Controller.md) |
+| `http` | [Core/HTTP Controller](Core/HTTP Controller.md) |
+| `route` | [Core/HTTP Controller](Core/HTTP Controller.md) |
+| `auth` | [Core/HTTP Controller](Core/HTTP Controller.md) |
+| `json` | [Core/HTTP Controller](Core/HTTP Controller.md) |
+| `website` | [Core/HTTP Controller](Core/HTTP Controller.md) |
+| `request` | [Core/HTTP Controller](Core/HTTP Controller.md) |
 
 ### Exceptions
 | Keyword | Vault File |
@@ -74,30 +74,30 @@ Obsidian vault navigation via keyword search.
 ### Patterns
 | Keyword | Vault File |
 |---|---|
-| `inheritance` | [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) |
-| `_inherit` | [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) |
-| `_inherits` | [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) |
-| `mixin` | [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) |
-| `abstract` | [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) |
-| `workflow` | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) |
-| `state` | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) |
-| `action` | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) |
-| `wizard` | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) |
-| `security` | [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) |
-| `acl` | [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) |
-| `groups` | [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) |
-| `ir.rule` | [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) |
-| `access` | [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) |
+| `inheritance` | [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) |
+| `_inherit` | [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) |
+| `_inherits` | [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) |
+| `mixin` | [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) |
+| `abstract` | [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) |
+| `workflow` | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) |
+| `state` | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) |
+| `action` | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) |
+| `wizard` | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) |
+| `security` | [Patterns/Security Patterns](Patterns/Security Patterns.md) |
+| `acl` | [Patterns/Security Patterns](Patterns/Security Patterns.md) |
+| `groups` | [Patterns/Security Patterns](Patterns/Security Patterns.md) |
+| `ir.rule` | [Patterns/Security Patterns](Patterns/Security Patterns.md) |
+| `access` | [Patterns/Security Patterns](Patterns/Security Patterns.md) |
 
 ### Tools
 | Keyword | Vault File |
 |---|---|
-| `search` | [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) |
-| `browse` | [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) |
-| `domain` | [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) |
-| `operator` | [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) |
-| `read_group` | [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) |
-| `name_search` | [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) |
+| `search` | [Tools/ORM Operations](Tools/ORM Operations.md) |
+| `browse` | [Tools/ORM Operations](Tools/ORM Operations.md) |
+| `domain` | [Tools/ORM Operations](Tools/ORM Operations.md) |
+| `operator` | [Tools/ORM Operations](Tools/ORM Operations.md) |
+| `read_group` | [Tools/ORM Operations](Tools/ORM Operations.md) |
+| `name_search` | [Tools/ORM Operations](Tools/ORM Operations.md) |
 
 ### Modules
 | Keyword | Vault File |
@@ -140,18 +140,18 @@ Obsidian vault navigation via keyword search.
 ### New Features
 | Keyword | Vault File |
 |---|---|
-| `new in 15` | [New Features/What's New](odoo-18/New Features/What's New.md) |
-| `whats new` | [New Features/What's New](odoo-18/New Features/What's New.md) |
-| `migration` | [New Features/What's New](odoo-18/New Features/What's New.md) |
-| `api changes` | [New Features/API Changes](odoo-18/New Features/API Changes.md) |
+| `new in 15` | [New Features/What's New](New Features/What's New.md) |
+| `whats new` | [New Features/What's New](New Features/What's New.md) |
+| `migration` | [New Features/What's New](New Features/What's New.md) |
+| `api changes` | [New Features/API Changes](New Features/API Changes.md) |
 
 ### Snippets
 | Keyword | Vault File |
 |---|---|
-| `snippet` | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) |
-| `template` | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) |
-| `example` | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) |
-| `controller example` | [Snippets/Controller Snippets](odoo-18/Snippets/Controller Snippets.md) |
+| `snippet` | [Snippets/Model Snippets](Snippets/Model Snippets.md) |
+| `template` | [Snippets/Model Snippets](Snippets/Model Snippets.md) |
+| `example` | [Snippets/Model Snippets](Snippets/Model Snippets.md) |
+| `controller example` | [Snippets/Controller Snippets](Snippets/Controller Snippets.md) |
 
 ### Quick Ref
 | Keyword | Vault File |

@@ -1380,4 +1380,4 @@ The `livechat_status = 'need_help'` field enables peer-to-peer escalation:
 - [Modules/im_livechat](Modules/im_livechat.md) — Discussion channels
 - [Modules/bus](Modules/bus.md) — WebSocket bus system
 - [Core/API](Core/API.md) — @api.model, @api.depends, computed fields
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns

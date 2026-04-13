@@ -352,5 +352,5 @@ When payment is received:
 | 🔀 Technical Flow | [Flows/Account/payment-flow](Flows/Account/payment-flow.md) | Payment registration |
 | 📋 Related Guide | [Business/Stock/warehouse-setup-guide](Business/Stock/warehouse-setup-guide.md) | Delivery and warehouse operations |
 | 📋 Related Guide | [Business/Account/chart-of-accounts-guide](Business/Account/chart-of-accounts-guide.md) | Accounting and invoicing |
-| 🛠️ Patterns | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | Workflow design patterns |
-| 🔧 Snippets | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Code snippets for customization |
+| 🛠️ Patterns | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | Workflow design patterns |
+| 🔧 Snippets | [Snippets/Model Snippets](Snippets/Model Snippets.md) | Code snippets for customization |

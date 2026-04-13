@@ -474,7 +474,7 @@ Validate Session:
 | Module Reference | [Modules/pos](Modules/pos.md) | Complete POS model, field, and method reference |
 | Module Reference | [Modules/Account](Modules/account.md) | account.move, journal configuration |
 | Module Reference | [Modules/res.partner](Modules/res.partner.md) | Partner model for customer management |
-| Patterns | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | State machine design for sessions |
-| Security | [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) | ACL for POS users and cashiers |
+| Patterns | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | State machine design for sessions |
+| Security | [Patterns/Security Patterns](Patterns/Security Patterns.md) | ACL for POS users and cashiers |
 | Accounting Guide | [Business/Account/chart-of-accounts-guide](Business/Account/chart-of-accounts-guide.md) | Journal and account setup |
-| Snippets | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Code templates for POS customization |
+| Snippets | [Snippets/Model Snippets](Snippets/Model Snippets.md) | Code templates for POS customization |

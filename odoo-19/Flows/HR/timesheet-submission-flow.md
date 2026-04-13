@@ -315,5 +315,5 @@ def _onchange_project_id(self):
 - [Modules/Account](Modules/account.md) — Account module reference
 - [Flows/Cross-Module/employee-projects-timesheet-flow](Flows/Cross-Module/employee-projects-timesheet-flow.md) — Cross-module timesheet flow
 - [Flows/Project/task-lifecycle-flow](Flows/Project/task-lifecycle-flow.md) — Task lifecycle reference
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns

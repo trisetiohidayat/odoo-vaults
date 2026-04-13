@@ -40,5 +40,5 @@ Odoo 17 introduced major improvements across the framework and applications.
 | mrp | Production scheduling |
 
 ## See Also
-- [New Features/API Changes](odoo-18/New Features/API Changes.md) — Specific API changes
-- [New Features/New Modules](odoo-18/New Features/New Modules.md) — New modules in 17
+- [New Features/API Changes](New Features/API Changes.md) — Specific API changes
+- [New Features/New Modules](New Features/New Modules.md) — New modules in 17

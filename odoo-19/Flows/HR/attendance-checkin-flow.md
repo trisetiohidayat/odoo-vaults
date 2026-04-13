@@ -285,5 +285,5 @@ def _attendance_action_change(self):
 - [Modules/resource](Modules/resource.md) — resource.resource, resource.calendar
 - [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — Employee creation
 - [Flows/Base/resource-attendance-flow](Flows/Base/resource-attendance-flow.md) — Resource attendance base
-- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
 - [Core/API](Core/API.md) — @api decorator patterns
