@@ -19,28 +19,49 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
-      - name: Convert wikilinks in odoo-* folders
+      - name: Convert wikilinks and fix case in odoo-* folders
         run: |
           python << 'EOF'
           import re
           import os
 
-          def slugify(text):
+          def to_path(text):
               """Convert text to path: replace spaces with dashes, preserve case"""
               return text.replace(" ", "-")
 
-          def convert_wikilinks(content):
-              # [[Page]] → [Page](page.md)
-              pattern1 = r'\[\[([^\]|]+)\]\]'
-              content = re.sub(pattern1,
-                  lambda m: f'[{m.group(1)}]({slugify(m.group(1))}.md)',
-                  content)
+          def convert_content(content):
+              # Fix markdown links with lowercase paths: [Text](lowercase/path.md)
+              # Convert back to proper case using link text
+              # [Modules/Sale](modules/sale.md) → [Modules/Sale](Modules/Sale.md)
+              # [Page|Alias](lowercase/page.md) → [Alias](Page.md)
+              def fix_md_link(m):
+                  full_match = m.group(0)
+                  text = m.group(1)
+                  url = m.group(2)
+                  # Extract the original path from link text (replace spaces with dashes)
+                  original_path = to_path(text)
+                  # Check if URL is lowercase version of the path
+                  if url.lower() != original_path.lower():
+                      return full_match  # Not a wikilink-converted link, skip
+                  if url.startswith('http') or url.startswith('mailto'):
+                      return full_match  # External link, skip
+                  return f'[{text}]({original_path}.md)'
 
-              # [[Page|Display Text]] → [Display Text](page.md)
-              pattern2 = r'\[\[([^\]|]+)\|([^\]]+)\]\]'
-              content = re.sub(pattern2,
-                  lambda m: f'[{m.group(2)}]({slugify(m.group(1))}.md)',
-                  content)
+              # Match markdown links: [text](path) where path looks like it was wikilink-converted
+              content = re.sub(r'\[([^\]]+)\]\(([^)]+\.md)\)', fix_md_link, content)
+
+              # Convert wikilinks: [[Page]] → [Page](Page.md)
+              def wikilink1(m):
+                  page = m.group(1)
+                  return f'[{page}]({to_path(page)}.md)'
+
+              def wikilink2(m):
+                  page = m.group(1)
+                  alias = m.group(2)
+                  return f'[{alias}]({to_path(page)}.md)'
+
+              content = re.sub(r'\[\[([^\]|]+)\]\]', wikilink1, content)
+              content = re.sub(r'\[\[([^\]|]+)\|([^\]]+)\]\]', wikilink2, content)
 
               return content
 
@@ -58,7 +79,7 @@ jobs:
                       path = os.path.join(root, file)
                       with open(path, 'r', encoding='utf-8') as f:
                           content = f.read()
-                      converted = convert_wikilinks(content)
+                      converted = convert_content(content)
                       if converted != content:
                           with open(path, 'w', encoding='utf-8') as f:
                               f.write(converted)
