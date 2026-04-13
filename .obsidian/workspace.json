@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "0bf8526db8d01ae1",
+    "id": "9975f8039da2d703",
     "type": "split",
     "children": [
       {
-        "id": "d6c5d1f1a7851e67",
+        "id": "68aa6cd4bf3901b3",
         "type": "tabs",
         "children": [
           {
-            "id": "197f473de0e89373",
+            "id": "fa4a7baf591c94f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modules/Account.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Account"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bea288c0ed8df8ac",
+    "id": "578b405400555268",
     "type": "split",
     "children": [
       {
-        "id": "3ae3305db50cc0bd",
+        "id": "63f31af3d308a3d1",
         "type": "tabs",
         "children": [
           {
-            "id": "c41bc928c0908305",
+            "id": "cd58a4762d887ccb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "c1780cb2b10dd97b",
+            "id": "98479367f8aa5baa",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "3567a5101cc56db8",
+            "id": "3a77fa690862b886",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "5ef8363fc83bcbe5",
+    "id": "97f1962b16a81b46",
     "type": "split",
     "children": [
       {
-        "id": "c8df4eaeaa4c49c8",
+        "id": "91a94b469d1396e0",
         "type": "tabs",
         "children": [
           {
-            "id": "ce614b0147fdb48d",
+            "id": "f6729bd36dbf02ef",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -107,7 +103,7 @@
             }
           },
           {
-            "id": "9e8f0c6302adfd0b",
+            "id": "b1491a9ddc7b55b1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -120,7 +116,7 @@
             }
           },
           {
-            "id": "72c921348d874415",
+            "id": "2e2d20fd712726e7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +131,7 @@
             }
           },
           {
-            "id": "f32a0caac68afd11",
+            "id": "0669f0ce90babdc5",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -149,7 +145,7 @@
             }
           },
           {
-            "id": "4c5c3e4340aa779e",
+            "id": "3d821b3dc3786c7b",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -180,9 +176,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "197f473de0e89373",
+  "active": "fa4a7baf591c94f4",
   "lastOpenFiles": [
-    "Modules/CRM.md",
-    "Modules/account_asset_workflow.md"
+    "odoo-15/Research-Log/active-run/run-2026-04-13.md",
+    "odoo-15/Research-Log/backlog/tax-grid.md",
+    "odoo-15/Research-Log/completed-runs",
+    "odoo-15/Research-Log/backlog",
+    "odoo-15/Research-Log/active-run",
+    "odoo-15/Research-Log",
+    "odoo-15/Business/Account/tax-grid-guide.md",
+    "odoo-15/Flows/Account/invoice-post-flow.md",
+    "odoo-15/Flows/Cross-Module/sale-stock-account-flow.md",
+    "odoo-15/Flows/Account/payment-flow.md",
+    "odoo-15/Flows/Account/invoice-creation-flow.md",
+    "odoo-15/Business/Account",
+    "odoo-15/Business",
+    "odoo-15/Flows/Cross-Module",
+    "odoo-15/Flows/Account",
+    "odoo-15/Flows"
   ]
 }
