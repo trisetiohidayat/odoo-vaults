@@ -19,51 +19,95 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
-      - name: Convert wikilinks and fix case in odoo-* folders
+      - name: Convert wikilinks using actual file names
         run: |
           python << 'EOF'
           import re
           import os
 
-          def to_path(text):
-              """Convert text to path: replace spaces with dashes, preserve case"""
-              return text.replace(" ", "-")
+          # Build a map of all actual files in the vault
+          # Key: lowercase normalized path, Value: actual relative path
+          file_map = {}
+          all_md_files = []
 
-          def convert_content(content):
-              # Fix markdown links with lowercase paths: [Text](lowercase/path.md)
-              # Convert back to proper case using link text
-              # [Modules/Sale](modules/sale.md) → [Modules/Sale](Modules/Sale.md)
-              # [Page|Alias](lowercase/page.md) → [Alias](Page.md)
-              def fix_md_link(m):
-                  full_match = m.group(0)
-                  text = m.group(1)
-                  url = m.group(2)
-                  # Extract the original path from link text (replace spaces with dashes)
-                  original_path = to_path(text)
-                  # Check if URL is lowercase version of the path
-                  if url.lower() != f'{original_path.lower()}.md':
-                      return full_match  # Not a wikilink-converted link, skip
-                  if url.startswith('http') or url.startswith('mailto'):
-                      return full_match  # External link, skip
-                  return f'[{text}]({original_path}.md)'
+          for folder in os.listdir('.'):
+              if not folder.startswith('odoo-'):
+                  continue
+              if not os.path.isdir(folder):
+                  continue
+              for root, dirs, files in os.walk(folder):
+                  for file in files:
+                      if not file.endswith('.md'):
+                          continue
+                      full_path = os.path.join(root, file)
+                      rel_path = os.path.relpath(full_path, '.')
+                      all_md_files.append(rel_path)
+                      # Key without .md extension, with forward slashes
+                      key = rel_path.replace('\\', '/').lower()
+                      file_map[key] = rel_path
 
-              # Match markdown links: [text](path) where path looks like it was wikilink-converted
-              content = re.sub(r'\[([^\]]+)\]\(([^)]+\.md)\)', fix_md_link, content)
+          def find_actual_file(link_text):
+              """Find actual file path from link text (e.g., 'Inheritance Patterns' -> 'Patterns/Inheritance Patterns.md')"""
+              # Try direct match with spaces replaced by dashes
+              candidates = [
+                  link_text.replace(" ", "-") + ".md",
+                  link_text.replace(" ", "") + ".md",
+                  link_text + ".md",
+              ]
+              for candidate in candidates:
+                  key = candidate.lower()
+                  if key in file_map:
+                      return file_map[key]
+              # Try matching just the filename
+              link_lower = link_text.lower().replace(" ", "-")
+              for key, path in file_map.items():
+                  filename = os.path.basename(key).replace(".md", "")
+                  if filename == link_lower:
+                      return path
+                  # Also try with spaces
+                  filename_spaces = filename.replace("-", " ")
+                  if filename_spaces == link_text.lower():
+                      return path
+              return None
 
-              # Convert wikilinks: [[Page]] → [Page](Page.md)
-              def wikilink1(m):
-                  page = m.group(1)
-                  return f'[{page}]({to_path(page)}.md)'
+          def fix_md_link(m):
+              full_match = m.group(0)
+              text = m.group(1)
+              url = m.group(2)
 
-              def wikilink2(m):
-                  page = m.group(1)
-                  alias = m.group(2)
-                  return f'[{alias}]({to_path(page)}.md)'
+              # Skip external links
+              if url.startswith('http') or url.startswith('mailto'):
+                  return full_match
 
-              content = re.sub(r'\[\[([^\]|]+)\]\]', wikilink1, content)
-              content = re.sub(r'\[\[([^\]|]+)\|([^\]]+)\]\]', wikilink2, content)
+              # Skip if URL already points to an existing file
+              url_lower = url.lower()
+              if url_lower in file_map:
+                  return full_match
 
-              return content
+              # Try to fix the URL by finding the actual file
+              # Extract the filename without extension
+              url_filename = os.path.basename(url).replace('.md', '')
+              actual_path = find_actual_file(url_filename.replace("-", " "))
+              if actual_path:
+                  return f'[{text}]({actual_path})'
+
+              return full_match
+
+          def convert_wikilink(m):
+              page = m.group(1)
+              actual_path = find_actual_file(page)
+              if actual_path:
+                  return f'[{page}]({actual_path})'
+              # Fallback: use original wikilink text with spaces
+              return f'[{page}]({page}.md)'
+
+          def convert_wikilink_alias(m):
+              page = m.group(1)
+              alias = m.group(2)
+              actual_path = find_actual_file(page)
+              if actual_path:
+                  return f'[{alias}]({actual_path})'
+              return f'[{alias}]({page}.md)'
 
           converted_count = 0
           for folder in os.listdir('.'):
@@ -79,10 +123,17 @@ jobs:
                       path = os.path.join(root, file)
                       with open(path, 'r', encoding='utf-8') as f:
                           content = f.read()
-                      converted = convert_content(content)
-                      if converted != content:
+
+                      # Fix markdown links first
+                      new_content = re.sub(r'\[([^\]]+)\]\(([^)]+\.md)\)', fix_md_link, content)
+
+                      # Then convert wikilinks
+                      new_content = re.sub(r'\[\[([^\]|]+)\]\]', convert_wikilink, new_content)
+                      new_content = re.sub(r'\[\[([^\]|]+)\|([^\]]+)\]\]', convert_wikilink_alias, new_content)
+
+                      if new_content != content:
                           with open(path, 'w', encoding='utf-8') as f:
-                              f.write(converted)
+                              f.write(new_content)
                           print(f"Converted: {path}")
                           converted_count += 1
 
