@@ -41,7 +41,7 @@ jobs:
                   # Extract the original path from link text (replace spaces with dashes)
                   original_path = to_path(text)
                   # Check if URL is lowercase version of the path
-                  if url.lower() != original_path.lower():
+                  if url.lower() != f'{original_path.lower()}.md':
                       return full_match  # Not a wikilink-converted link, skip
                   if url.startswith('http') or url.startswith('mailto'):
                       return full_match  # External link, skip
