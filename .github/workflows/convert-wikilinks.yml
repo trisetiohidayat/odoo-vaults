@@ -26,8 +26,8 @@ jobs:
           import os
 
           def slugify(text):
-              """Convert text to lowercase dashed slug"""
-              return text.lower().replace(" ", "-")
+              """Convert text to path: replace spaces with dashes, preserve case"""
+              return text.replace(" ", "-")
 
           def convert_wikilinks(content):
               # [[Page]] → [Page](page.md)
