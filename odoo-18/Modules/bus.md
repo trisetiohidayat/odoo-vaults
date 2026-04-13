@@ -251,6 +251,6 @@ ImDispatch.loop() [Background thread]
 ---
 
 ## Related Links
-- [Modules/mail](Modules/mail.md) — Main consumer of bus notifications
-- [Core/HTTP Controller](Core/HTTP-Controller.md) — WebSocket endpoints
-- [Modules/web](Modules/web.md) — Session info with websocket version
+- [Modules/mail](odoo-18/Modules/mail.md) — Main consumer of bus notifications
+- [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — WebSocket endpoints
+- [Modules/web](odoo-18/Modules/web.md) — Session info with websocket version

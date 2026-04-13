@@ -13,12 +13,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md)"
-  - "[Flows/Purchase/purchase-order-receipt-flow](Flows/Purchase/purchase-order-receipt-flow.md)"
-  - "[Flows/Stock/stock-valuation-flow](Flows/Stock/stock-valuation-flow.md)"
+  - "[Flows/Stock/delivery-flow](odoo-19/Flows/Stock/delivery-flow.md)"
+  - "[Flows/Purchase/purchase-order-receipt-flow](odoo-19/Flows/Purchase/purchase-order-receipt-flow.md)"
+  - "[Flows/Stock/stock-valuation-flow](odoo-19/Flows/Stock/stock-valuation-flow.md)"
 related_guides:
-  - "[Modules/Stock](Modules/Stock.md)"
-  - "[Modules/Purchase](Modules/Purchase.md)"
+  - "[Modules/Stock](odoo-18/Modules/stock.md)"
+  - "[Modules/Purchase](odoo-18/Modules/purchase.md)"
 source_module: stock, purchase
 source_path: ~/odoo/odoo19/odoo/addons/stock/
 created: 2026-04-06
@@ -376,10 +376,10 @@ def action_done(self):
 
 ## Related
 
-- [Modules/Stock](Modules/Stock.md) — Stock/picking module reference
-- [Modules/Purchase](Modules/Purchase.md) — Purchase module reference
-- [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) — Outgoing delivery counterpart
-- [Flows/Purchase/purchase-order-receipt-flow](Flows/Purchase/purchase-order-receipt-flow.md) — PO-linked receipt flow
-- [Flows/Stock/stock-valuation-flow](Flows/Stock/stock-valuation-flow.md) — Stock valuation layer and account.move integration
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Workflow pattern reference
-- [Core/API](Core/API.md) — @api decorator patterns
+- [Modules/Stock](odoo-18/Modules/stock.md) — Stock/picking module reference
+- [Modules/Purchase](odoo-18/Modules/purchase.md) — Purchase module reference
+- [Flows/Stock/delivery-flow](odoo-19/Flows/Stock/delivery-flow.md) — Outgoing delivery counterpart
+- [Flows/Purchase/purchase-order-receipt-flow](odoo-19/Flows/Purchase/purchase-order-receipt-flow.md) — PO-linked receipt flow
+- [Flows/Stock/stock-valuation-flow](odoo-19/Flows/Stock/stock-valuation-flow.md) — Stock valuation layer and account.move integration
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](odoo-18/Core/API.md) — @api decorator patterns

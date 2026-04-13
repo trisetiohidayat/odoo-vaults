@@ -7,7 +7,7 @@
 
 ## Overview
 
-Test module for the HTML field history/audit trail feature (part of [Modules/html_builder](Modules/html_builder.md)/[Modules/html_editor](Modules/html_editor.md)). Provides a test model with versioned HTML fields to verify that the HTML editor's versioning system correctly tracks and restores prior versions of rich-text fields.
+Test module for the HTML field history/audit trail feature (part of [Modules/html_builder](odoo-19/Modules/html_builder.md)/[Modules/html_editor](odoo-18/Modules/html_editor.md)). Provides a test model with versioned HTML fields to verify that the HTML editor's versioning system correctly tracks and restores prior versions of rich-text fields.
 
 ## Models
 

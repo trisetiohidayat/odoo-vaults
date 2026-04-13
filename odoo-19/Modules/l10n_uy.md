@@ -37,9 +37,9 @@ This module adds accounting functionalities for the Uruguayan localization, repr
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](Modules/Account.md) | Core accounting module |
-| [Modules/l10n_latam_invoice_document](Modules/l10n_latam_invoice_document.md) | LATAM document types support |
-| [Modules/l10n_latam_base](Modules/l10n_latam_base.md) | Latin America base localization |
+| [Modules/Account](odoo-18/Modules/account.md) | Core accounting module |
+| [Modules/l10n_latam_invoice_document](odoo-18/Modules/l10n_latam_invoice_document.md) | LATAM document types support |
+| [Modules/l10n_latam_base](odoo-18/Modules/l10n_latam_base.md) | Latin America base localization |
 
 ## Key Models
 
@@ -115,9 +115,9 @@ When a document is reversed or debited, the system restricts credit/debit notes 
 - Demo contacts: IEB Internacional, Consumidor Final Anonimo Uruguayo
 
 ## Related Modules
-- [Modules/l10n_uy](Modules/l10n_uy.md) - Core accounting (this module)
-- [Modules/l10n_uy_pos](Modules/l10n_uy_pos.md) - Uruguayan POS integration
-- [Modules/account](Modules/account.md) - Core accounting
-- [Modules/l10n_latam_base](Modules/l10n_latam_base.md) - Latin America base localization
-- [Modules/l10n_latam_invoice_document](Modules/l10n_latam_invoice_document.md) - LATAM document types
-- [Modules/l10n_latam_check](Modules/l10n_latam_check.md) - LATAM check handling
+- [Modules/l10n_uy](odoo-18/Modules/l10n_uy.md) - Core accounting (this module)
+- [Modules/l10n_uy_pos](odoo-18/Modules/l10n_uy_pos.md) - Uruguayan POS integration
+- [Modules/account](odoo-18/Modules/account.md) - Core accounting
+- [Modules/l10n_latam_base](odoo-18/Modules/l10n_latam_base.md) - Latin America base localization
+- [Modules/l10n_latam_invoice_document](odoo-18/Modules/l10n_latam_invoice_document.md) - LATAM document types
+- [Modules/l10n_latam_check](odoo-18/Modules/l10n_latam_check.md) - LATAM check handling

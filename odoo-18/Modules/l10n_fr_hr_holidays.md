@@ -11,7 +11,7 @@ Tags: #odoo18 #l10n #hr #holidays
 French time-off (HR) localization for part-time workers. When an employee works fewer days than the company calendar (e.g., Mon-Wed employee in a Mon-Fri company), taking a holiday ending on a day the company works but the employee doesn't should count until the next company rest day. Adjusts both the leave `date_to` duration and the legal duration computation. Auto-installs with `hr_holidays`.
 
 ## Country
-[France](modules/account.md) 🇫🇷
+[France](odoo-18/Modules/account.md) 🇫🇷
 
 ## Dependencies
 - hr_holidays

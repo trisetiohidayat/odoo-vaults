@@ -946,12 +946,12 @@ There is no per-company cloud storage configuration in Odoo 19.
 
 ## Related Documentation
 
-- [Modules/base_setup](Modules/base_setup.md) - Base configuration
-- [Modules/mail](Modules/mail.md) - Mail attachments
-- [Modules/documents](Modules/documents.md) - Document management
-- [Modules/cloud_storage_google](Modules/cloud_storage_google.md) - Google Cloud Storage provider
-- [Modules/cloud_storage_azure](Modules/cloud_storage_azure.md) - Azure Blob Storage provider
-- [Modules/cloud_storage_migration](Modules/cloud_storage_migration.md) - Migration module
+- [Modules/base_setup](odoo-17/Modules/base_setup.md) - Base configuration
+- [Modules/mail](odoo-18/Modules/mail.md) - Mail attachments
+- [Modules/documents](odoo-19/Modules/documents.md) - Document management
+- [Modules/cloud_storage_google](odoo-18/Modules/cloud_storage_google.md) - Google Cloud Storage provider
+- [Modules/cloud_storage_azure](odoo-18/Modules/cloud_storage_azure.md) - Azure Blob Storage provider
+- [Modules/cloud_storage_migration](odoo-19/Modules/cloud_storage_migration.md) - Migration module
 
 ## Appendix: Configuration Checklist
 

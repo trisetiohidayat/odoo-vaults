@@ -675,7 +675,7 @@ Similarly, each `lunch.alert` with `mode='chat'` and `active=True` has a cron fo
 
 ## See Also
 
-- [Modules/account](Modules/account.md) — Monetary fields, currency
-- [Core/API](Core/API.md) — `@api.depends`, computed fields
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine design
-- [Modules/Stock](Modules/Stock.md) — Inventory valuation concepts
+- [Modules/account](odoo-18/Modules/account.md) — Monetary fields, currency
+- [Core/API](odoo-18/Core/API.md) — `@api.depends`, computed fields
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine design
+- [Modules/Stock](odoo-18/Modules/stock.md) — Inventory valuation concepts

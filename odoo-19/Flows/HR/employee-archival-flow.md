@@ -12,9 +12,9 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md)"
+  - "[Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md)"
 related_guides:
-  - "[Business/HR/quickstart-employee-setup](Business/HR/quickstart-employee-setup.md)"
+  - "[Business/HR/quickstart-employee-setup](odoo-19/Business/HR/quickstart-employee-setup.md)"
 source_module: hr
 source_path: ~/odoo/odoo19/odoo/addons/hr/
 created: 2026-04-06
@@ -191,6 +191,6 @@ action_unarchive()
 
 ## Related
 
-- [Modules/HR](Modules/HR.md) — Module reference
-- [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — Creation flow (inverse of archive)
-- [Business/HR/quickstart-employee-setup](Business/HR/quickstart-employee-setup.md) — Step-by-step guide
+- [Modules/HR](odoo-18/Modules/hr.md) — Module reference
+- [Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md) — Creation flow (inverse of archive)
+- [Business/HR/quickstart-employee-setup](odoo-19/Business/HR/quickstart-employee-setup.md) — Step-by-step guide

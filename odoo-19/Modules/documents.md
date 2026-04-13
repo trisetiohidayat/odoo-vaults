@@ -441,7 +441,7 @@ On installation, demo documents are loaded from `demo/documents_document_demo.xm
 
 ## See Also
 
-- [Core/Fields](Core/Fields.md) — Binary fields, Many2many relations
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — Access control design
-- [Core/API](Core/API.md) — Computed fields, @api.depends
-- [Modules/Account](Modules/Account.md) — Document-account integration
+- [Core/Fields](odoo-18/Core/Fields.md) — Binary fields, Many2many relations
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — Access control design
+- [Core/API](odoo-18/Core/API.md) — Computed fields, @api.depends
+- [Modules/Account](odoo-18/Modules/account.md) — Document-account integration

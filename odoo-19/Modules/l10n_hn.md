@@ -28,7 +28,7 @@ Designed to meet minimum requirements for operating a business in Honduras in co
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](Modules/Account.md) | Core accounting module |
+| [Modules/Account](odoo-18/Modules/account.md) | Core accounting module |
 | `base` | Base module |
 
 ## Key Models
@@ -80,5 +80,5 @@ Inherits `account.chart.template`:
 - **Lempira (HNL)** - Official currency of Honduras, named after the indigenous leader Lempira
 
 ## Related Modules
-- [Modules/l10n_hn](Modules/l10n_hn.md) - Core accounting (this module)
-- [Modules/account](Modules/account.md) - Core accounting
+- [Modules/l10n_hn](odoo-18/Modules/l10n_hn.md) - Core accounting (this module)
+- [Modules/account](odoo-18/Modules/account.md) - Core accounting

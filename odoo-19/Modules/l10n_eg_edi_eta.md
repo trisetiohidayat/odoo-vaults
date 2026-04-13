@@ -65,5 +65,5 @@ ETA credentials, thumb drive config, branch codes.
 Egyptian partner fields (activity type, address validation).
 
 ## Related
-- [Modules/l10n_eg](Modules/l10n_eg.md) — Core Egyptian accounting
-- [Modules/account_edi](Modules/account_edi.md) — EDI framework
+- [Modules/l10n_eg](odoo-18/Modules/l10n_eg.md) — Core Egyptian accounting
+- [Modules/account_edi](odoo-17/Modules/account_edi.md) — EDI framework

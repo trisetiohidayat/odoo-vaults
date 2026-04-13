@@ -425,12 +425,12 @@ The `website` model stores layout preferences:
 
 ## See Also
 
-- [Modules/website](Modules/website.md) — base website model
-- [Modules/sale](Modules/sale.md) — base `sale.order`
-- [Modules/sale_management](Modules/sale_management.md) — optional products, quotation templates
-- [Modules/payment](Modules/payment.md) — payment processing and transactions
-- [Modules/website_sale_loyalty](Modules/website_sale_loyalty.md) — coupons, loyalty, and rewards
-- [Modules/website_sale_wishlist](Modules/website_sale_wishlist.md) — wishlist/favorites
-- [Modules/website_sale_stock](Modules/website_sale_stock.md) — inventory-aware website features
-- [Modules/delivery](Modules/delivery.md) — delivery carrier and rate computation
-- [Modules/account](Modules/account.md) — fiscal positions, invoicing
+- [Modules/website](odoo-18/Modules/website.md) — base website model
+- [Modules/sale](odoo-18/Modules/sale.md) — base `sale.order`
+- [Modules/sale_management](odoo-18/Modules/sale_management.md) — optional products, quotation templates
+- [Modules/payment](odoo-18/Modules/payment.md) — payment processing and transactions
+- [Modules/website_sale_loyalty](odoo-18/Modules/website_sale_loyalty.md) — coupons, loyalty, and rewards
+- [Modules/website_sale_wishlist](odoo-17/Modules/website_sale_wishlist.md) — wishlist/favorites
+- [Modules/website_sale_stock](odoo-18/Modules/website_sale_stock.md) — inventory-aware website features
+- [Modules/delivery](odoo-18/Modules/delivery.md) — delivery carrier and rate computation
+- [Modules/account](odoo-18/Modules/account.md) — fiscal positions, invoicing

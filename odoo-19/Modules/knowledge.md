@@ -21,9 +21,9 @@ version: "1.0"
 ## Quick Access
 
 ### 🔗 Related Modules
-- [Modules/mail](Modules/mail.md) — Article notifications and comments
-- [Modules/mail](Modules/mail.md) — Collaborative workspace channels
-- [Modules/Portal](Modules/Portal.md) — Public article sharing
+- [Modules/mail](odoo-18/Modules/mail.md) — Article notifications and comments
+- [Modules/mail](odoo-18/Modules/mail.md) — Collaborative workspace channels
+- [Modules/Portal](odoo-18/Modules/portal.md) — Public article sharing
 
 ---
 
@@ -130,7 +130,7 @@ Tags for cross-category article classification.
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/mail](Modules/mail.md) | Article comment threads |
+| [Modules/mail](odoo-18/Modules/mail.md) | Article comment threads |
 | `discuss` | Workspace channel integration |
 | `portal` | Public article portal |
 | `website` | Public-facing knowledge base |

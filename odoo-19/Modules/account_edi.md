@@ -980,7 +980,7 @@ When a database is restored from backup or copied without neutralization:
 **File:** `account_peppol/models/account_edi_proxy_user.py`
 **Model:** `Account_Edi_Proxy_ClientUser` (extends `account_edi_proxy_client.user`)
 
-Adds Peppol-specific business logic. See [Modules/account_peppol](Modules/account_peppol.md) for full documentation.
+Adds Peppol-specific business logic. See [Modules/account_peppol](odoo-17/Modules/account_peppol.md) for full documentation.
 
 Key additions:
 - `proxy_type` extended with `('peppol', 'PEPPOL')`
@@ -1263,10 +1263,10 @@ class MyFormatEdi(models.Model):
 
 ## Related Documentation
 
-- [Modules/Account](Modules/Account.md) -- Invoice and journal entry management
-- [Modules/account_peppol](Modules/account_peppol.md) -- Peppol EDI format (extends proxy user)
-- [Modules/account_edi_proxy_client](Modules/account_edi_proxy_client.md) -- Base proxy HTTP client and auth
-- [Core/API](Core/API.md) -- `@api.depends`, `@api.model`, `@api.constrains`
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) -- State machine patterns in Odoo
-- [Tools/ORM Operations](Tools/ORM-Operations.md) -- `search()`, `browse()`, `write()` with domain operators
-- [New Features/API Changes](New-Features/API-Changes.md) -- Changes from Odoo 18 to 19
+- [Modules/Account](odoo-18/Modules/account.md) -- Invoice and journal entry management
+- [Modules/account_peppol](odoo-17/Modules/account_peppol.md) -- Peppol EDI format (extends proxy user)
+- [Modules/account_edi_proxy_client](odoo-18/Modules/account_edi_proxy_client.md) -- Base proxy HTTP client and auth
+- [Core/API](odoo-18/Core/API.md) -- `@api.depends`, `@api.model`, `@api.constrains`
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) -- State machine patterns in Odoo
+- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) -- `search()`, `browse()`, `write()` with domain operators
+- [New Features/API Changes](odoo-18/New Features/API Changes.md) -- Changes from Odoo 18 to 19

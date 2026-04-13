@@ -656,7 +656,7 @@ def _unlink_except_utm_source_marketing_card(self):
 
 ## Related Documentation
 
-- [Modules/Mail](Modules/Mail.md) — Mailing and email management
-- [Modules/mass_mailing](Modules/mass_mailing.md) — Mass mailing features
-- [Core/API](Core/API.md) — QWeb rendering, mail.render.mixin
-- [Modules/link_tracker](Modules/link_tracker.md) — Click tracking, UTM sources
+- [Modules/Mail](odoo-18/Modules/mail.md) — Mailing and email management
+- [Modules/mass_mailing](odoo-18/Modules/mass_mailing.md) — Mass mailing features
+- [Core/API](odoo-18/Core/API.md) — QWeb rendering, mail.render.mixin
+- [Modules/link_tracker](odoo-18/Modules/link_tracker.md) — Click tracking, UTM sources

@@ -1350,14 +1350,14 @@ base.group_portal
 
 ## Related
 
-- [Modules/website_blog](Modules/website_blog.md) -- Blog posts and tags
-- [Modules/website_sale](Modules/website_sale.md) -- E-commerce storefront
-- [Modules/website_event](Modules/website_event.md) -- Event management
-- [Modules/website_forum](Modules/website_forum.md) -- Forum/community
-- [Modules/website_crm](Modules/website_crm.md) -- Lead capture forms
-- [Modules/website_payment](Modules/website_payment.md) -- Online payments
-- [Modules/website_livechat](Modules/website_livechat.md) -- Live chat
-- [Modules/website_slides](Modules/website_slides.md) -- E-learning
-- [Modules/website_hr_recruitment](Modules/website_hr_recruitment.md) -- Job applications
-- [Core/API](Core/API.md) -- HTTP routing, controllers
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) -- ACL, record rules
+- [Modules/website_blog](odoo-18/Modules/website_blog.md) -- Blog posts and tags
+- [Modules/website_sale](odoo-18/Modules/website_sale.md) -- E-commerce storefront
+- [Modules/website_event](odoo-18/Modules/website_event.md) -- Event management
+- [Modules/website_forum](odoo-18/Modules/website_forum.md) -- Forum/community
+- [Modules/website_crm](odoo-18/Modules/website_crm.md) -- Lead capture forms
+- [Modules/website_payment](odoo-18/Modules/website_payment.md) -- Online payments
+- [Modules/website_livechat](odoo-18/Modules/website_livechat.md) -- Live chat
+- [Modules/website_slides](odoo-18/Modules/website_slides.md) -- E-learning
+- [Modules/website_hr_recruitment](odoo-18/Modules/website_hr_recruitment.md) -- Job applications
+- [Core/API](odoo-18/Core/API.md) -- HTTP routing, controllers
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) -- ACL, record rules

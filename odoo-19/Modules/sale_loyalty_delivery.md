@@ -26,5 +26,5 @@ When `reward_type = "shipping"`:
 - `views/loyalty_reward_views.xml`: Form view modification to show shipping reward fields.
 
 ## Related
-- [Modules/sale_loyalty](Modules/sale_loyalty.md) - Loyalty programs in sales
-- [Modules/delivery](Modules/delivery.md) - Delivery carriers and pricing
+- [Modules/sale_loyalty](odoo-18/Modules/sale_loyalty.md) - Loyalty programs in sales
+- [Modules/delivery](odoo-18/Modules/delivery.md) - Delivery carriers and pricing

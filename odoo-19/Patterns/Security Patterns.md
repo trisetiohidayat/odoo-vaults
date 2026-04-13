@@ -87,7 +87,7 @@ records = admin_env['model'].search([])
 
 ## Related
 
-- [Core/BaseModel](Core/BaseModel.md) - Model access
-- [Core/API](Core/API.md) - @api.model for superuser
-- [Core/Exceptions](Core/Exceptions.md) - AccessError
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) - State-based security
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) - Model access
+- [Core/API](odoo-18/Core/API.md) - @api.model for superuser
+- [Core/Exceptions](odoo-18/Core/Exceptions.md) - AccessError
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) - State-based security

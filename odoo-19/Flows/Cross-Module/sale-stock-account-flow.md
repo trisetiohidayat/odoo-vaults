@@ -17,10 +17,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md)"
-  - "[Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md)"
-  - "[Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md)"
-  - "[Flows/Account/payment-flow](Flows/Account/payment-flow.md)"
+  - "[Flows/Sale/quotation-to-sale-order-flow](odoo-19/Flows/Sale/quotation-to-sale-order-flow.md)"
+  - "[Flows/Stock/delivery-flow](odoo-19/Flows/Stock/delivery-flow.md)"
+  - "[Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md)"
+  - "[Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md)"
 source_module: sale
 source_path: ~/odoo/odoo19/odoo/addons/sale_stock/
 created: 2026-04-06
@@ -225,10 +225,10 @@ SO Confirmed
 
 ## Related
 
-- [Modules/Sale](Modules/Sale.md) — Sale module reference
-- [Modules/Stock](Modules/Stock.md) — Stock module reference
-- [Modules/Account](Modules/Account.md) — Account module reference
-- [Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md) — Sale confirmation
-- [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) — Delivery process
-- [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Invoice posting
-- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment registration
+- [Modules/Sale](odoo-18/Modules/sale.md) — Sale module reference
+- [Modules/Stock](odoo-18/Modules/stock.md) — Stock module reference
+- [Modules/Account](odoo-18/Modules/account.md) — Account module reference
+- [Flows/Sale/quotation-to-sale-order-flow](odoo-19/Flows/Sale/quotation-to-sale-order-flow.md) — Sale confirmation
+- [Flows/Stock/delivery-flow](odoo-19/Flows/Stock/delivery-flow.md) — Delivery process
+- [Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md) — Invoice posting
+- [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) — Payment registration

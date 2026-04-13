@@ -72,6 +72,6 @@ Major new features and improvements in Odoo 19.
 
 ## Related
 
-- [New Features/API Changes](New-Features/API-Changes.md) - API differences
-- [New Features/New Modules](New-Features/New-Modules.md) - New module details
-- [Core/BaseModel](Core/BaseModel.md) - Compare with Odoo 17
+- [New Features/API Changes](odoo-18/New Features/API Changes.md) - API differences
+- [New Features/New Modules](odoo-18/New Features/New Modules.md) - New module details
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) - Compare with Odoo 17

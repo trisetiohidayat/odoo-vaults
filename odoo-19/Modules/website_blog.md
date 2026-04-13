@@ -881,12 +881,12 @@ WHERE id = %s
 
 ## Related
 
-- [Modules/website](Modules/website.md) -- Website framework (required dependency)
-- [Modules/website_mail](Modules/website_mail.md) -- Comment/discussion integration
-- [Modules/website_partner](Modules/website_partner.md) -- Author partner profiles
-- [Modules/website_slides](Modules/website_slides.md) -- E-learning (uses similar content patterns)
-- [Modules/website_event](Modules/website_event.md) -- Event module (similar architecture)
-- [Core/API](Core/API.md) -- @api.depends, computed fields, inverse methods
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) -- State machine and action methods
-- [Modules/res.partner](Modules/res.partner.md) -- Author partner model
-- [Core/Fields](Core/Fields.md) -- Field type reference (Char, Many2one, Html, etc.)
+- [Modules/website](odoo-18/Modules/website.md) -- Website framework (required dependency)
+- [Modules/website_mail](odoo-18/Modules/website_mail.md) -- Comment/discussion integration
+- [Modules/website_partner](odoo-18/Modules/website_partner.md) -- Author partner profiles
+- [Modules/website_slides](odoo-18/Modules/website_slides.md) -- E-learning (uses similar content patterns)
+- [Modules/website_event](odoo-18/Modules/website_event.md) -- Event module (similar architecture)
+- [Core/API](odoo-18/Core/API.md) -- @api.depends, computed fields, inverse methods
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) -- State machine and action methods
+- [Modules/res.partner](odoo-19/Modules/res.partner.md) -- Author partner model
+- [Core/Fields](odoo-18/Core/Fields.md) -- Field type reference (Char, Many2one, Html, etc.)

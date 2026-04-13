@@ -732,11 +732,11 @@ def setUpClass(cls):
 
 ## Related
 
-- [Modules/Product](Modules/Product.md) — products reference `uom_id` and `uom_po_id` from `uom.uom`
-- [Modules/Stock](Modules/Stock.md) — `stock.move` uses `_compute_quantity()` to convert between sale/inventory/purchase UoMs
-- [Modules/Sale](Modules/Sale.md) — `sale.order.line` uses `product_uom` on lines
-- [Modules/Purchase](Modules/Purchase.md) — `purchase.order.line` uses `product_uom` on lines
-- [Modules/MRP](Modules/MRP.md) — work orders track duration in Hours UoM
-- [Modules/Account](Modules/Account.md) — invoice lines use product UoM for quantity
-- [Core/API](Core/API.md) — `@api.depends`, `@api.onchange`, `@api.constrains` decorators used in uom_uom.py
-- [Core/Fields](Core/Fields.md) — field types used: Char, Integer, Float, Boolean, Many2one, One2many, Char (parent_path)
+- [Modules/Product](odoo-18/Modules/product.md) — products reference `uom_id` and `uom_po_id` from `uom.uom`
+- [Modules/Stock](odoo-18/Modules/stock.md) — `stock.move` uses `_compute_quantity()` to convert between sale/inventory/purchase UoMs
+- [Modules/Sale](odoo-18/Modules/sale.md) — `sale.order.line` uses `product_uom` on lines
+- [Modules/Purchase](odoo-18/Modules/purchase.md) — `purchase.order.line` uses `product_uom` on lines
+- [Modules/MRP](odoo-18/Modules/mrp.md) — work orders track duration in Hours UoM
+- [Modules/Account](odoo-18/Modules/account.md) — invoice lines use product UoM for quantity
+- [Core/API](odoo-18/Core/API.md) — `@api.depends`, `@api.onchange`, `@api.constrains` decorators used in uom_uom.py
+- [Core/Fields](odoo-18/Core/Fields.md) — field types used: Char, Integer, Float, Boolean, Many2one, One2many, Char (parent_path)

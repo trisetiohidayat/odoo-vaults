@@ -36,7 +36,7 @@ This module provides the minimum requirements to start a company in Venezuela wi
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](Modules/Account.md) | Core accounting module |
+| [Modules/Account](odoo-18/Modules/account.md) | Core accounting module |
 
 ## Key Models
 
@@ -80,6 +80,6 @@ Inherits `account.chart.template`:
 - Based on commonly used Venezuelan accounting software patterns
 
 ## Related Modules
-- [Modules/l10n_ve](Modules/l10n_ve.md) - Core accounting (this module)
-- [Modules/account](Modules/account.md) - Core accounting
-- [Modules/account_accountant](Modules/account_accountant.md) - Recommended for stock valuation in Venezuela
+- [Modules/l10n_ve](odoo-18/Modules/l10n_ve.md) - Core accounting (this module)
+- [Modules/account](odoo-18/Modules/account.md) - Core accounting
+- [Modules/account_accountant](odoo-17/Modules/account_accountant.md) - Recommended for stock valuation in Venezuela

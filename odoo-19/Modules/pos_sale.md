@@ -72,7 +72,7 @@ Key methods: `_compute_qty_delivered`, `_prepare_qty_delivered`, `_compute_qty_i
 - `post_init_hook: _pos_sale_post_init` — Post-install initialization
 
 ## Related
-- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
-- [Modules/Sale](Modules/Sale.md) — Sales module
-- [Modules/pos_sale_loyalty](Modules/pos_sale_loyalty.md) — POS Sale + Loyalty
-- [Modules/pos_sale_margin](Modules/pos_sale_margin.md) — POS Sale + Margin
+- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — Base POS module
+- [Modules/Sale](odoo-18/Modules/sale.md) — Sales module
+- [Modules/pos_sale_loyalty](odoo-18/Modules/pos_sale_loyalty.md) — POS Sale + Loyalty
+- [Modules/pos_sale_margin](odoo-18/Modules/pos_sale_margin.md) — POS Sale + Margin

@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #india #gst
 # l10n_in_gstin_status — Indian GSTIN Status Verification
 
 ## Overview
-Extension module for [Modules/l10n_in](Modules/l10n_in.md) that adds the ability to check and verify a partner's GSTIN (Goods and Services Tax Identification Number) status against the official GST Network (GSTN). Displays the verification date and active/inactive status on partner forms and invoices.
+Extension module for [Modules/l10n_in](odoo-18/Modules/l10n_in.md) that adds the ability to check and verify a partner's GSTIN (Goods and Services Tax Identification Number) status against the official GST Network (GSTN). Displays the verification date and active/inactive status on partner forms and invoices.
 
 ## Country
 India

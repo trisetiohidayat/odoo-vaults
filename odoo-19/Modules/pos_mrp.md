@@ -32,5 +32,5 @@ Link module between Point of Sale and Manufacturing (MRP). Enables POS to handle
 - `security/ir.model.access.csv` — Access control
 
 ## Related
-- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
-- [Modules/MRP](Modules/MRP.md) — Manufacturing module
+- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — Base POS module
+- [Modules/MRP](odoo-18/Modules/mrp.md) — Manufacturing module

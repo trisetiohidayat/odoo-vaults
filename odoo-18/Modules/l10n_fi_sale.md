@@ -11,7 +11,7 @@ Tags: #odoo18 #l10n #accounting
 Finland sale extension for `l10n_fi` (Finnish base accounting). Adds Finnish-structured payment reference generation to sale orders using the Finnish reference format (viitenumero). The reference follows the Finnish banking standard: numeric base number + check digit calculated with 7-3-1 weighted sum.
 
 ## Country
-[Finland](modules/account.md) 🇫🇮
+[Finland](odoo-18/Modules/account.md) 🇫🇮
 
 ## Dependencies
 - l10n_fi
@@ -30,13 +30,13 @@ Finland sale extension for `l10n_fi` (Finnish base accounting). Adds Finnish-str
 No data files.
 
 ## Chart of Accounts
-Inherits from [l10n_fi](modules/account.md).
+Inherits from [l10n_fi](odoo-18/Modules/account.md).
 
 ## Tax Structure
-Inherits from [l10n_fi](modules/account.md).
+Inherits from [l10n_fi](odoo-18/Modules/account.md).
 
 ## Fiscal Positions
-Inherits from [l10n_fi](modules/account.md).
+Inherits from [l10n_fi](odoo-18/Modules/account.md).
 
 ## EDI/Fiscal Reporting
 Finnish payment references generated here are used by `l10n_fi` invoice reference model for customer payment matching.

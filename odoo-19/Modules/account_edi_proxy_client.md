@@ -445,11 +445,11 @@ account_edi_proxy_client/
 
 ## See Also
 
-- [Modules/account_peppol](Modules/account_peppol.md) — Primary consumer; PEPPOL network integration
-- [Modules/l10n_it_edi](Modules/l10n_it_edi.md) — Italian SDI integration (extends same proxy)
-- [Modules/certificate](Modules/certificate.md) — RSA key generation and storage
-- [Modules/purchase_edi_ubl_bis3](Modules/purchase_edi_ubl_bis3.md) — Purchase order UBL export (uses proxy indirectly via account_peppol)
-- [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) — UBL BIS 3 invoice/credit note export
+- [Modules/account_peppol](odoo-17/Modules/account_peppol.md) — Primary consumer; PEPPOL network integration
+- [Modules/l10n_it_edi](odoo-18/Modules/l10n_it_edi.md) — Italian SDI integration (extends same proxy)
+- [Modules/certificate](odoo-18/Modules/certificate.md) — RSA key generation and storage
+- [Modules/purchase_edi_ubl_bis3](odoo-18/Modules/purchase_edi_ubl_bis3.md) — Purchase order UBL export (uses proxy indirectly via account_peppol)
+- [Modules/account_edi_ubl_cii](odoo-18/Modules/account_edi_ubl_cii.md) — UBL BIS 3 invoice/credit note export
 - [Peppol Network](https://peppol.eu/)
 - [Odoo Peppol Documentation](https://www.odoo.com/documentation/17.0/applications/accounting/fiscal_localizations/peppol.html)
 

@@ -298,6 +298,6 @@ class MyAPIController(http.Controller):
 ```
 
 ## See Also
-- [Snippets/Controller Snippets](Snippets/Controller-Snippets.md) — Code templates
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — Auth types, access control
-- [Core/Exceptions](Core/Exceptions.md) — Error handling
+- [Snippets/Controller Snippets](odoo-18/Snippets/Controller Snippets.md) — Code templates
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — Auth types, access control
+- [Core/Exceptions](odoo-18/Core/Exceptions.md) — Error handling

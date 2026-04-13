@@ -740,9 +740,9 @@ The `community_menu` boolean is always `False` in `website_event` base. Sub-modu
 
 ## Related Documentation
 
-- [Modules/Event](Modules/Event.md) — Core event module (event.event, event.registration, event.event.ticket, event.slot)
-- [Modules/Website](Modules/Website.md) — Website framework (website.menu, website.visitor, website.page)
-- [Core/API](Core/API.md) — `@api.depends`, `@api.depends_context`, computed fields with search
-- [Core/Fields](Core/Fields.md) — Field types, translate=True, store behavior, index='btree_not_null'
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ir.rule, ACL CSV, record-level security
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine and tracking patterns
+- [Modules/Event](odoo-18/Modules/event.md) — Core event module (event.event, event.registration, event.event.ticket, event.slot)
+- [Modules/Website](odoo-18/Modules/website.md) — Website framework (website.menu, website.visitor, website.page)
+- [Core/API](odoo-18/Core/API.md) — `@api.depends`, `@api.depends_context`, computed fields with search
+- [Core/Fields](odoo-18/Core/Fields.md) — Field types, translate=True, store behavior, index='btree_not_null'
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ir.rule, ACL CSV, record-level security
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine and tracking patterns

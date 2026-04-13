@@ -542,9 +542,9 @@ Key changes relevant to this module in the Odoo 18→19 transition:
 
 ## Related Modules
 
-- [Modules/mrp_subcontracting](Modules/mrp_subcontracting.md) — Core subcontracting MO management; this module is the direct parent
-- [Modules/stock_dropshipping](Modules/stock_dropshipping.md) — Core dropship routing; provides `route_drop_shipping` and dropship rule logic
-- [Modules/mrp_subcontracting_purchase](Modules/mrp_subcontracting_purchase.md) — Subcontracting PO to subcontractor (no dropship)
-- [Modules/mrp_subcontracting_account](Modules/mrp_subcontracting_account.md) — Subcontracting valuation and bill processing
-- [Modules/Stock](Modules/Stock.md) — `stock.move`, `stock.picking`, `stock.rule`, `stock.warehouse`, `stock.location`
-- [Modules/Purchase](Modules/Purchase.md) — `purchase.order`, `purchase.order.line`
+- [Modules/mrp_subcontracting](odoo-18/Modules/mrp_subcontracting.md) — Core subcontracting MO management; this module is the direct parent
+- [Modules/stock_dropshipping](odoo-18/Modules/stock_dropshipping.md) — Core dropship routing; provides `route_drop_shipping` and dropship rule logic
+- [Modules/mrp_subcontracting_purchase](odoo-17/Modules/mrp_subcontracting_purchase.md) — Subcontracting PO to subcontractor (no dropship)
+- [Modules/mrp_subcontracting_account](odoo-17/Modules/mrp_subcontracting_account.md) — Subcontracting valuation and bill processing
+- [Modules/Stock](odoo-18/Modules/stock.md) — `stock.move`, `stock.picking`, `stock.rule`, `stock.warehouse`, `stock.location`
+- [Modules/Purchase](odoo-18/Modules/purchase.md) — `purchase.order`, `purchase.order.line`

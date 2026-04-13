@@ -375,8 +375,8 @@ Based on source analysis:
 
 ## See Also
 
-- [Modules/website_event_track](Modules/website_event_track.md) — Base event track module
-- [Modules/website_event_track_live](Modules/website_event_track_live.md) — Live streaming for event tracks
-- [Modules/event](Modules/event.md) — Event management core
-- [Core/Fields](Core/Fields.md) — One2many, Many2one, computed fields, constraints
-- [Core/API](Core/API.md) — @api.depends, @api.constrains, @api.depends_context
+- [Modules/website_event_track](odoo-18/Modules/website_event_track.md) — Base event track module
+- [Modules/website_event_track_live](odoo-18/Modules/website_event_track_live.md) — Live streaming for event tracks
+- [Modules/event](odoo-18/Modules/event.md) — Event management core
+- [Core/Fields](odoo-18/Core/Fields.md) — One2many, Many2one, computed fields, constraints
+- [Core/API](odoo-18/Core/API.md) — @api.depends, @api.constrains, @api.depends_context

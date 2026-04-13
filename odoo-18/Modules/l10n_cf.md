@@ -27,7 +27,7 @@ Inherits `account.chart.template`. Template prefix: `'cf'`. Provides `_get_cf_sy
 - `demo/demo_company.xml` — CAR demo company
 
 ## Chart of Accounts
-SYSCOHADA. See [Modules/l10n_bf](Modules/l10n_bf.md).
+SYSCOHADA. See [Modules/l10n_bf](odoo-18/Modules/l10n_bf.md).
 
 ## Tax Structure
 TVA at rates determined by CEMAC (Communauté Économique et Monétaire de l'Afrique Centrale) framework.

@@ -985,11 +985,11 @@ Groups are dynamically added to the user form view as boolean/selection fields (
 
 ## See Also
 
-- [Core/API](Core/API.md) -- ORM decorators like `@api.depends`, `@api.constrains`
-- [Core/BaseModel](Core/BaseModel.md) -- Model foundation, `_name`, `_inherit`, CRUD methods
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) -- ACL CSV, ir.rule, field groups
-- [Tools/ORM Operations](Tools/ORM-Operations.md) -- `search()`, `browse()`, `create()`, `write()`, domain operators
-- [Modules/Stock](Modules/Stock.md) -- Warehouse/Inventory (uses res.partner, res.company extensively)
-- [Modules/Purchase](Modules/Purchase.md) -- Purchase orders (uses res.partner)
-- [Modules/Account](Modules/Account.md) -- Accounting (uses res.partner, res.company, res.currency)
-- [Modules/Sale](Modules/Sale.md) -- Sales (uses res.partner, commercial_partner_id)
+- [Core/API](odoo-18/Core/API.md) -- ORM decorators like `@api.depends`, `@api.constrains`
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) -- Model foundation, `_name`, `_inherit`, CRUD methods
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) -- ACL CSV, ir.rule, field groups
+- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) -- `search()`, `browse()`, `create()`, `write()`, domain operators
+- [Modules/Stock](odoo-18/Modules/stock.md) -- Warehouse/Inventory (uses res.partner, res.company extensively)
+- [Modules/Purchase](odoo-18/Modules/purchase.md) -- Purchase orders (uses res.partner)
+- [Modules/Account](odoo-18/Modules/account.md) -- Accounting (uses res.partner, res.company, res.currency)
+- [Modules/Sale](odoo-18/Modules/sale.md) -- Sales (uses res.partner, commercial_partner_id)

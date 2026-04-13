@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, crm-iap-mine]
 
 
 
-- [Modules/crm](Modules/crm.md) — CRM extension
+- [Modules/crm](odoo-18/Modules/CRM.md) — CRM extension

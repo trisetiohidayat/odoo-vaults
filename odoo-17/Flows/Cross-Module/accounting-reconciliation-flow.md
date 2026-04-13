@@ -453,7 +453,7 @@ The `unlink()` on partials handles:
 ---
 
 ## See Also
-- [Modules/account](Modules/account.md) — `account.move`, `account.move.line`
-- [Flows/Cross-Module/analytic-distribution-flow](Flows/Cross-Module/analytic-distribution-flow.md) — analytic distribution
-- [Flows/Sale/full-sale-to-cash-flow](Flows/Sale/full-sale-to-cash-flow.md) — sale reconciliation end-to-end
-- [Flows/Purchase/full-purchase-to-payment-flow](Flows/Purchase/full-purchase-to-payment-flow.md) — purchase reconciliation end-to-end
+- [Modules/account](odoo-18/Modules/account.md) — `account.move`, `account.move.line`
+- [Flows/Cross-Module/analytic-distribution-flow](odoo-17/Flows/Cross-Module/analytic-distribution-flow.md) — analytic distribution
+- [Flows/Sale/full-sale-to-cash-flow](odoo-17/Flows/Sale/full-sale-to-cash-flow.md) — sale reconciliation end-to-end
+- [Flows/Purchase/full-purchase-to-payment-flow](odoo-17/Flows/Purchase/full-purchase-to-payment-flow.md) — purchase reconciliation end-to-end

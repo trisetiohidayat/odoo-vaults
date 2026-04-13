@@ -1166,11 +1166,11 @@ CREATE UNIQUE INDEX account_move_secure_sequence_idx
 
 ## See Also
 
-- [Modules/Payment](Modules/Payment.md) — `account.payment` model, payment workflows
+- [Modules/Payment](odoo-18/Modules/payment.md) — `account.payment` model, payment workflows
 - [Modules/AccountAnticipation](Modules/AccountAnticipation.md) — early payment discounts, EPD
 - [Modules/AccountFollowup](Modules/AccountFollowup.md) — partner payment follow-up / dunning
 - [Modules/AccountBatchPayment](Modules/AccountBatchPayment.md) — batch payment processing
 - [Modules/AccountDebitNote](Modules/AccountDebitNote.md) — debit note issuance
 - [Modules/AccountTaxCalculation](Modules/AccountTaxCalculation.md) — tax calculation details
-- [Tools/ORM Operations](Tools/ORM-Operations.md) — `search()`, `browse()`, `write()` fundamentals
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ACL CSV, `ir.rule` for account records
+- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — `search()`, `browse()`, `write()` fundamentals
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL CSV, `ir.rule` for account records

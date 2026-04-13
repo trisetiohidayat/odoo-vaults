@@ -407,7 +407,7 @@ The partner form inheritance uses `position="replace"` with `t-if="country_enfor
 
 ## Related Documentation
 
-- [Core/BaseModel](Core/BaseModel.md) — ORM foundation
-- [Modules/res.partner](Modules/res.partner.md) — Base partner model
-- [Modules/base_geolocalize](Modules/base_geolocalize.md) — Geolocation extension for partners
-- [Patterns/Inheritance Patterns](Patterns/Inheritance-Patterns.md) — `_inherit` vs `_inherits`
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) — ORM foundation
+- [Modules/res.partner](odoo-19/Modules/res.partner.md) — Base partner model
+- [Modules/base_geolocalize](odoo-17/Modules/base_geolocalize.md) — Geolocation extension for partners
+- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — `_inherit` vs `_inherits`

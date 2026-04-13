@@ -230,7 +230,7 @@ class SaleOrderExt(models.Model):
 ```
 
 ## See Also
-- [Modules/Stock](Modules/Stock.md) — Delivery order (stock.picking)
-- [Modules/Account](Modules/Account.md) — Invoice (account.move)
-- [Modules/Project](Modules/Project.md) — Sale + Project integration
-- [Modules/Product](Modules/Product.md) — Product, Pricelist
+- [Modules/Stock](odoo-18/Modules/stock.md) — Delivery order (stock.picking)
+- [Modules/Account](odoo-18/Modules/account.md) — Invoice (account.move)
+- [Modules/Project](odoo-18/Modules/project.md) — Sale + Project integration
+- [Modules/Product](odoo-18/Modules/product.md) — Product, Pricelist

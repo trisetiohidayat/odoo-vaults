@@ -3,7 +3,7 @@ Module: google_gmail
 Version: Odoo 18
 Type: Integration
 Tags: #odoo18, #integration, #email, #gmail, #oauth2
-Related: [Modules/Mail](Modules/Mail.md), [Modules/google-account](Modules/google-account.md), [Core/API](Core/API.md)
+Related: [Modules/Mail](odoo-18/Modules/mail.md), [Modules/google-account](odoo-18/Modules/google-account.md), [Core/API](odoo-18/Core/API.md)
 ---
 
 # Gmail Integration (`google_gmail`)

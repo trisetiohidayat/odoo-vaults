@@ -454,9 +454,9 @@ DR  Cost of Goods Sold (expense)    qty * price_unit
 
 ## See Also
 
-- [Modules/sale](Modules/sale.md) -- sale.order, sale.order.line models
-- [Modules/stock](Modules/stock.md) -- stock.picking, stock.move, stock.quant
-- [Modules/account](Modules/account.md) -- account.move, reconciliation
-- [Modules/stock_account](Modules/stock_account.md) -- stock.valuation.layer, Anglo-Saxon COGS
-- [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) -- detailed picking lifecycle
-- [Flows/Sale/sales-process-flow](Flows/Sale/sales-process-flow.md) -- Odoo 17 sales process overview
+- [Modules/sale](odoo-18/Modules/sale.md) -- sale.order, sale.order.line models
+- [Modules/stock](odoo-18/Modules/stock.md) -- stock.picking, stock.move, stock.quant
+- [Modules/account](odoo-18/Modules/account.md) -- account.move, reconciliation
+- [Modules/stock_account](odoo-18/Modules/stock_account.md) -- stock.valuation.layer, Anglo-Saxon COGS
+- [Flows/Stock/delivery-flow](odoo-19/Flows/Stock/delivery-flow.md) -- detailed picking lifecycle
+- [Flows/Sale/sales-process-flow](odoo-17/Flows/Sale/sales-process-flow.md) -- Odoo 17 sales process overview

@@ -929,11 +929,11 @@ OCA modules (e.g., `delivery-carrier-cost-estimation`, `delivery-iata`) follow t
 
 ## Related Documentation
 
-- [Modules/sale](Modules/sale.md)
-- [Modules/stock](Modules/stock.md)
-- [Modules/payment](Modules/payment.md)
-- [Core/API](Core/API.md)
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md)
+- [Modules/sale](odoo-18/Modules/sale.md)
+- [Modules/stock](odoo-18/Modules/stock.md)
+- [Modules/payment](odoo-18/Modules/payment.md)
+- [Core/API](odoo-18/Core/API.md)
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)
 
 ---
 
@@ -1137,9 +1137,9 @@ The module adds no N+1 risk because all data is already loaded by the calling `s
 
 ### Updated: Related Documentation
 
-- [Modules/sale](Modules/sale.md)
-- [Modules/sale_loyalty](Modules/sale_loyalty.md) or [Modules/loyalty](Modules/loyalty.md)
-- [Modules/stock](Modules/stock.md)
-- [Modules/payment](Modules/payment.md)
-- [Core/API](Core/API.md)
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md)
+- [Modules/sale](odoo-18/Modules/sale.md)
+- [Modules/sale_loyalty](odoo-18/Modules/sale_loyalty.md) or [Modules/loyalty](odoo-18/Modules/loyalty.md)
+- [Modules/stock](odoo-18/Modules/stock.md)
+- [Modules/payment](odoo-18/Modules/payment.md)
+- [Core/API](odoo-18/Core/API.md)
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)

@@ -74,5 +74,5 @@ def _sync_partner_from_user(self):
 ---
 
 ## Related Links
-- [Core/BaseModel](Core/BaseModel.md) — CRUD access
-- [Modules/Account](Modules/Account.md) — Company-dependent security
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) — CRUD access
+- [Modules/Account](odoo-18/Modules/account.md) — Company-dependent security

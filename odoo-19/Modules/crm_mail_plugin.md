@@ -41,6 +41,6 @@ Inherits `crm.lead`. Extends lead with mail plugin support.
 - `_form_view_auto_fill()` — deprecated since SaaS-14.3, kept for supporting older mail plugin versions
 
 ## Related
-- [Modules/crm](Modules/crm.md) — CRM base
-- [Modules/mail_plugin](Modules/mail_plugin.md) — Mail plugin base
-- [Modules/crm_livechat](Modules/crm_livechat.md) — CRM + Livechat
+- [Modules/crm](odoo-18/Modules/CRM.md) — CRM base
+- [Modules/mail_plugin](odoo-17/Modules/mail_plugin.md) — Mail plugin base
+- [Modules/crm_livechat](odoo-17/Modules/crm_livechat.md) — CRM + Livechat

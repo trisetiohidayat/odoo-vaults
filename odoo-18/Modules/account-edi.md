@@ -525,6 +525,6 @@ AccountEdiProxyClientUser._peppol_auto_deregister_services('my_module')
 
 ## See Also
 
-- [Modules/account-peppol](Modules/account-peppol.md) — Peppol e-invoicing via Odoo's Access Point
-- [Modules/Account](Modules/Account.md) — Core accounting, `account.move` lifecycle
-- [Core/Fields](Core/Fields.md) — How Many2one, One2many, Binary fields work
+- [Modules/account-peppol](odoo-18/Modules/account-peppol.md) — Peppol e-invoicing via Odoo's Access Point
+- [Modules/Account](odoo-18/Modules/account.md) — Core accounting, `account.move` lifecycle
+- [Core/Fields](odoo-18/Core/Fields.md) — How Many2one, One2many, Binary fields work

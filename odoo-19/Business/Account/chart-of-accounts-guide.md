@@ -10,9 +10,9 @@ prerequisites:
   - localization_applied
 estimated_time: "~30 minutes"
 related_flows:
-  - "[Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md)"
-  - "[Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md)"
-  - "[Flows/Account/payment-flow](Flows/Account/payment-flow.md)"
+  - "[Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md)"
+  - "[Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md)"
+  - "[Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md)"
 source_module: account
 created: 2026-04-06
 version: "1.0"
@@ -41,10 +41,10 @@ version: "1.0"
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) | Invoice creation |
-| 🔀 Technical Flow | [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) | Invoice posting |
-| 🔀 Technical Flow | [Flows/Account/payment-flow](Flows/Account/payment-flow.md) | Payment registration |
-| 📖 Module Reference | [Modules/Account](Modules/Account.md) | Complete model reference |
+| 🔀 Technical Flow | [Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md) | Invoice creation |
+| 🔀 Technical Flow | [Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md) | Invoice posting |
+| 🔀 Technical Flow | [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) | Payment registration |
+| 📖 Module Reference | [Modules/Account](odoo-18/Modules/account.md) | Complete model reference |
 
 ---
 
@@ -161,7 +161,7 @@ Go to: **Accounting → Configuration → Accounts → Create**
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Invoice Creation | [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) | Invoice creation |
-| 🔀 Invoice Posting | [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) | Post invoice |
-| 🔀 Payments | [Flows/Account/payment-flow](Flows/Account/payment-flow.md) | Register payment |
-| 📖 Module Reference | [Modules/Account](Modules/Account.md) | Complete model reference |
+| 🔀 Invoice Creation | [Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md) | Invoice creation |
+| 🔀 Invoice Posting | [Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md) | Post invoice |
+| 🔀 Payments | [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) | Register payment |
+| 📖 Module Reference | [Modules/Account](odoo-18/Modules/account.md) | Complete model reference |

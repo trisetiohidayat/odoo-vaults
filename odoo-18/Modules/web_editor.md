@@ -244,7 +244,7 @@ Snippets are registered via `data/snippets.xml` and the JS snippet menu system. 
 
 ## See Also
 
-- [Modules/html_editor](Modules/html_editor.md) — Modern OWL-based editor (current)
-- [Modules/web_unsplash](Modules/web_unsplash.md) — Unsplash image integration
-- [Modules/theme_default](Modules/theme_default.md) — Default website theme
-- [Modules/mass_mailing](Modules/mass_mailing.md) — Mass mailing editor
+- [Modules/html_editor](odoo-18/Modules/html_editor.md) — Modern OWL-based editor (current)
+- [Modules/web_unsplash](odoo-18/Modules/web_unsplash.md) — Unsplash image integration
+- [Modules/theme_default](odoo-18/Modules/theme_default.md) — Default website theme
+- [Modules/mass_mailing](odoo-18/Modules/mass_mailing.md) — Mass mailing editor

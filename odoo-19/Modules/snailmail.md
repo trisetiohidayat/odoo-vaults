@@ -536,8 +536,8 @@ Once a letter is created, the `_snailmail_print()` method does **not** re-check 
 
 - `snailmail_account` -- Integrates with account module; adds snailmail sending buttons to invoice forms and automatic letter creation on invoice validation.
 - `iap_mail` -- Provides IAP account management used by snailmail for credit tracking.
-- [Modules/mail](Modules/mail.md) -- Core messaging; snailmail extends mail.message, mail.thread, and mail.notification.
-- [Modules/sms](Modules/sms.md) -- Parallel notification channel; snailmail and SMS are alternative channels for the same document.
+- [Modules/mail](odoo-18/Modules/mail.md) -- Core messaging; snailmail extends mail.message, mail.thread, and mail.notification.
+- [Modules/sms](odoo-18/Modules/sms.md) -- Parallel notification channel; snailmail and SMS are alternative channels for the same document.
 
 ## Tags
 

@@ -648,8 +648,8 @@ The `ir.sequence` for landed costs has no company绑定 (`company_id = False`), 
 
 ## Related
 
-- [Modules/stock_account](Modules/stock_account.md) -- Real-time stock valuation layer
-- [Modules/purchase_stock](Modules/purchase_stock.md) -- Receipt integration with purchases
-- [Modules/Stock](Modules/Stock.md) -- Base warehouse and inventory
-- [Modules/mrp_landed_costs](Modules/mrp_landed_costs.md) -- Manufacturing landed costs
-- [Modules/project_stock_landed_costs](Modules/project_stock_landed_costs.md) -- Project-landed cost integration
+- [Modules/stock_account](odoo-18/Modules/stock_account.md) -- Real-time stock valuation layer
+- [Modules/purchase_stock](odoo-18/Modules/purchase_stock.md) -- Receipt integration with purchases
+- [Modules/Stock](odoo-18/Modules/stock.md) -- Base warehouse and inventory
+- [Modules/mrp_landed_costs](odoo-17/Modules/mrp_landed_costs.md) -- Manufacturing landed costs
+- [Modules/project_stock_landed_costs](odoo-18/Modules/project_stock_landed_costs.md) -- Project-landed cost integration

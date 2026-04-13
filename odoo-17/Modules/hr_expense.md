@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, hr-expense]
 
 
 
-- [Modules/hr](Modules/hr.md) — Human resources base
+- [Modules/hr](odoo-18/Modules/hr.md) — Human resources base

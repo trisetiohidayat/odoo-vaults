@@ -3,7 +3,7 @@ Module: pos_hr
 Version: Odoo 18
 Type: Integration
 Tags: #pos #hr #employees #cashier #shifts
-Related: [Modules/PointOfSale](Modules/PointOfSale.md), [Modules/HR](Modules/HR.md)
+Related: [Modules/PointOfSale](Modules/PointOfSale.md), [Modules/HR](odoo-18/Modules/hr.md)
 ---
 
 # pos_hr — Point of Sale User Management

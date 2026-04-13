@@ -11,11 +11,11 @@ Tags: #odoo18 #l10n #pos #restaurant
 Belgian POS restaurant localization. Extends `pos_restaurant` and `l10n_be` to add Belgian-specific POS restaurant configuration: automatic takeaway fiscal position (21% → 6% VAT reduction), alcohol tax on luxury goods for cocktail categories, and Belgian restaurant floor configuration. Auto-installed for Belgian companies using the restaurant POS onboarding.
 
 ## Country
-[Belgium](modules/account.md) 🇧🇪
+[Belgium](odoo-18/Modules/account.md) 🇧🇪
 
 ## Dependencies
 - pos_restaurant
-- [l10n_be](modules/account.md)
+- [l10n_be](odoo-18/Modules/account.md)
 
 ## Key Models
 
@@ -33,7 +33,7 @@ Belgian POS restaurant localization. Extends `pos_restaurant` and `l10n_be` to a
 - `data/template/` — Belgian restaurant-specific tax definitions (luxury goods alcohol tax)
 
 ## Chart of Accounts
-Inherits from [l10n_be](modules/account.md) (Belgian full chart).
+Inherits from [l10n_be](odoo-18/Modules/account.md) (Belgian full chart).
 
 ## Tax Structure
 Belgian restaurant taxes + takeaway fiscal position (21% → 6%):

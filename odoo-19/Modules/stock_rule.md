@@ -602,11 +602,11 @@ if self.env.su and values.get('company_id'):
 
 ## Related Documentation
 
-- [Modules/Stock](Modules/Stock.md) — Full stock module overview
-- [Modules/stock_warehouse](Modules/stock_warehouse.md) — Warehouse configuration
-- [Modules/stock_location](Modules/stock_location.md) — Location hierarchy
-- [Modules/stock_move](Modules/stock_move.md) — Stock move model
-- [Modules/stock_rule](Modules/stock_rule.md) — Automatic procurement
-- [Modules/Purchase](Modules/Purchase.md) — Purchase order lifecycle
-- [Modules/MRP](Modules/MRP.md) — Manufacturing orders
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Route and procurement workflow patterns
+- [Modules/Stock](odoo-18/Modules/stock.md) — Full stock module overview
+- [Modules/stock_warehouse](odoo-17/Modules/stock_warehouse.md) — Warehouse configuration
+- [Modules/stock_location](odoo-19/Modules/stock_location.md) — Location hierarchy
+- [Modules/stock_move](odoo-19/Modules/stock_move.md) — Stock move model
+- [Modules/stock_rule](odoo-19/Modules/stock_rule.md) — Automatic procurement
+- [Modules/Purchase](odoo-18/Modules/purchase.md) — Purchase order lifecycle
+- [Modules/MRP](odoo-18/Modules/mrp.md) — Manufacturing orders
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Route and procurement workflow patterns

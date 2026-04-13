@@ -106,5 +106,5 @@ DATEV is a German accounting data exchange format used by accountants and tax co
 
 ## See Also
 
-- [Modules/account](Modules/account.md) — accounting framework
-- [Modules/l10n_din5008](Modules/l10n_din5008.md) — German document layout standard
+- [Modules/account](odoo-18/Modules/account.md) — accounting framework
+- [Modules/l10n_din5008](odoo-18/Modules/l10n_din5008.md) — German document layout standard

@@ -241,9 +241,9 @@ The method operates on `self.order_line` without any state filter — all order 
 
 ## Related
 
-- [Modules/website_sale_stock](Modules/website_sale_stock.md) — Parent module providing base stock display on website
-- [Modules/sale_mrp](Modules/sale_mrp.md) — Sale order + BoM integration; provides `_get_bom_component_qty()`
-- [Modules/mrp](Modules/mrp.md) — Manufacturing module; defines `is_kits`, phantom BoMs, `explode()`
-- [Modules/website_sale](Modules/website_sale.md) — Base eCommerce controller and variant system
-- [Modules/stock](Modules/stock.md) — Inventory management; provides `free_qty`, `stock.quant`
-- [Core/Fields](Core/Fields.md) — Field types used: computed Boolean (`is_kits`), Float (`free_qty`)
+- [Modules/website_sale_stock](odoo-18/Modules/website_sale_stock.md) — Parent module providing base stock display on website
+- [Modules/sale_mrp](odoo-18/Modules/sale_mrp.md) — Sale order + BoM integration; provides `_get_bom_component_qty()`
+- [Modules/mrp](odoo-18/Modules/mrp.md) — Manufacturing module; defines `is_kits`, phantom BoMs, `explode()`
+- [Modules/website_sale](odoo-18/Modules/website_sale.md) — Base eCommerce controller and variant system
+- [Modules/stock](odoo-18/Modules/stock.md) — Inventory management; provides `free_qty`, `stock.quant`
+- [Core/Fields](odoo-18/Core/Fields.md) — Field types used: computed Boolean (`is_kits`), Float (`free_qty`)

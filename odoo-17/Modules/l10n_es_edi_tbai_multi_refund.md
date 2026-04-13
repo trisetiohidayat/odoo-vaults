@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, l10n-es-edi-tbai-multi-refund]
 
 
 
-- [Modules/account](Modules/account.md) — Accounting / localization
+- [Modules/account](odoo-18/Modules/account.md) — Accounting / localization

@@ -20,6 +20,6 @@ Extends `mass_mailing_crm` to add CRM leads/opportunities as targets for SMS cam
 | `ab_testing_sms_winner_selection` | Selection | Adds `crm_lead_count` option for SMS A/B testing winner selection |
 
 ## Related
-- [Modules/mass_mailing_crm](Modules/mass_mailing_crm.md) - CRM mass mailing
-- [Modules/mass_mailing_sms](Modules/mass_mailing_sms.md) - SMS marketing
-- [Modules/CRM](Modules/CRM.md) - CRM module
+- [Modules/mass_mailing_crm](odoo-17/Modules/mass_mailing_crm.md) - CRM mass mailing
+- [Modules/mass_mailing_sms](odoo-18/Modules/mass_mailing_sms.md) - SMS marketing
+- [Modules/CRM](odoo-18/Modules/CRM.md) - CRM module

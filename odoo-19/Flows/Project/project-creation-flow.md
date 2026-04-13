@@ -15,10 +15,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Project/task-lifecycle-flow](Flows/Project/task-lifecycle-flow.md)"
-  - "[Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md)"
+  - "[Flows/Project/task-lifecycle-flow](odoo-19/Flows/Project/task-lifecycle-flow.md)"
+  - "[Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md)"
 related_guides:
-  - "[Business/Project/project-management-guide](Business/Project/project-management-guide.md)"
+  - "[Business/Project/project-management-guide](odoo-19/Business/Project/project-management-guide.md)"
 source_module: project
 source_path: ~/odoo/odoo19/odoo/addons/project/
 created: 2026-04-07
@@ -311,8 +311,8 @@ def create(self, vals_list):
 
 ## Related
 
-- [Modules/Project](Modules/Project.md) — Module reference
-- [Flows/Project/task-lifecycle-flow](Flows/Project/task-lifecycle-flow.md) — Task lifecycle flow
-- [Business/Project/project-management-guide](Business/Project/project-management-guide.md) — Business guide
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Workflow pattern reference
-- [Core/API](Core/API.md) — @api decorator patterns
+- [Modules/Project](odoo-18/Modules/project.md) — Module reference
+- [Flows/Project/task-lifecycle-flow](odoo-19/Flows/Project/task-lifecycle-flow.md) — Task lifecycle flow
+- [Business/Project/project-management-guide](odoo-19/Business/Project/project-management-guide.md) — Business guide
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](odoo-18/Core/API.md) — @api decorator patterns

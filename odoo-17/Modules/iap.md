@@ -154,6 +154,6 @@ During account creation, if `database.is_neutralized` config parameter is set, t
 
 ## See Also
 
-- [Modules/sms](Modules/sms.md) — SMS sending
-- [Modules/crm_iap_enrich](Modules/crm_iap_enrich.md) — CRM lead enrichment via IAP
-- [Modules/mail](Modules/mail.md) — email infrastructure
+- [Modules/sms](odoo-18/Modules/sms.md) — SMS sending
+- [Modules/crm_iap_enrich](odoo-17/Modules/crm_iap_enrich.md) — CRM lead enrichment via IAP
+- [Modules/mail](odoo-18/Modules/mail.md) — email infrastructure

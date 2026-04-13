@@ -16,10 +16,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md)"
-  - "[Flows/HR/contract-lifecycle-flow](Flows/HR/contract-lifecycle-flow.md)"
+  - "[Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md)"
+  - "[Flows/HR/contract-lifecycle-flow](odoo-19/Flows/HR/contract-lifecycle-flow.md)"
 related_guides:
-  - "[Modules/HR](Modules/HR.md)"
+  - "[Modules/HR](odoo-18/Modules/hr.md)"
 source_module: hr_recruitment
 source_path: ~/odoo/odoo19/odoo/addons/hr_recruitment/
 created: 2026-04-07
@@ -179,7 +179,7 @@ Application Received (hr.applicant created)
 └─► Offer accepted?
    ├─► YES → action_set_hired()
    │          └─► hr.employee created from applicant data
-   │                 └─► Proceed to [Flows/HR/contract-lifecycle-flow](Flows/HR/contract-lifecycle-flow.md)
+   │                 └─► Proceed to [Flows/HR/contract-lifecycle-flow](odoo-19/Flows/HR/contract-lifecycle-flow.md)
    │
    └─► NO → action_set_refuse() → refused stage
 ```
@@ -384,9 +384,9 @@ def create_employee_from_applicant(self):
 
 ## Related
 
-- [Modules/HR](Modules/HR.md) — HR module reference
-- [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — Employee creation (called from hire action)
-- [Flows/HR/contract-lifecycle-flow](Flows/HR/contract-lifecycle-flow.md) — Contract creation after hire
-- [Flows/Base/mail-notification-flow](Flows/Base/mail-notification-flow.md) — Email notification mechanics
-- [Core/API](Core/API.md) — @api.depends, @api.onchange decorator patterns
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine pattern via hr.recruitment.stage
+- [Modules/HR](odoo-18/Modules/hr.md) — HR module reference
+- [Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md) — Employee creation (called from hire action)
+- [Flows/HR/contract-lifecycle-flow](odoo-19/Flows/HR/contract-lifecycle-flow.md) — Contract creation after hire
+- [Flows/Base/mail-notification-flow](odoo-19/Flows/Base/mail-notification-flow.md) — Email notification mechanics
+- [Core/API](odoo-18/Core/API.md) — @api.depends, @api.onchange decorator patterns
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern via hr.recruitment.stage

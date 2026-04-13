@@ -3,7 +3,7 @@ Module: sale_timesheet
 Version: Odoo 18
 Type: Extension
 Tags: #odoo #odoo18 #sale #timesheet #billing #aal #project #service
-Related Modules: [sale_management](sale_management.md), [sale](sale.md), [project](../project/project.md), [hr_timesheet](../hr_timesheet/hr_timesheet.md)
+Related Modules: [sale_management](odoo-18/Modules/sale_management.md), [sale](odoo-18/Modules/sale.md), [project](odoo-18/Modules/project.md), [hr_timesheet](odoo-18/Modules/hr_timesheet.md)
 ---
 
 # sale_timesheet — Sale Timesheet Billing

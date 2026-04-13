@@ -15,4 +15,4 @@ Localized accounting for Belgian.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/pos_restaurant](Modules/pos_restaurant.md) — Core accounting
+- [Modules/pos_restaurant](odoo-18/Modules/pos_restaurant.md) — Core accounting

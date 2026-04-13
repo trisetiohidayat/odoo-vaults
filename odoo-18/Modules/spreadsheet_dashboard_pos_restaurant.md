@@ -22,7 +22,7 @@ Provides a `spreadsheet.dashboard` record named "POS - Restaurant" for restauran
 
 ## Extends
 
-- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — base dashboard framework
+- [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) — base dashboard framework
 - `pos_hr` — POS with employee management
 - `pos_restaurant` — restaurant floor/table management
 
@@ -40,4 +40,4 @@ Provides a `spreadsheet.dashboard` record named "POS - Restaurant" for restauran
 
 ---
 
-*See also: [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md)*
+*See also: [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md)*

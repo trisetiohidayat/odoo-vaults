@@ -4,7 +4,7 @@ Version: Odoo 18
 Type: Business
 Tags: [mail,mail_group,alias,mass_mailing,moderation,portal]
 Description: Mailing list server — public/private groups with email aliases, member management, optional moderation, and public archive portal.
-See Also: [mail](mail.md), [mass_mailing](mass_mailing.md), [Modules/mail](Modules/mail.md)
+See Also: [mail](odoo-18/Modules/mail.md), [mass_mailing](odoo-18/Modules/mass_mailing.md), [Modules/mail](odoo-18/Modules/mail.md)
 ---
 
 # mail_group — Mail Group / Mailing List Server

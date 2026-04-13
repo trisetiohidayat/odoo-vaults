@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, social-media]
 
 
 
-- [Modules/base](Modules/base.md) — Base/utility module
+- [Modules/base](odoo-18/Modules/base.md) — Base/utility module

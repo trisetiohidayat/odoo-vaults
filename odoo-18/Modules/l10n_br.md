@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #brazil
 # l10n_br — Brazilian Accounting
 
 ## Overview
-Core Brazilian localization module. Provides the Brazilian chart of accounts (SPED/PCMG-aligned), Brazilian tax fields on taxes (IPI, ICMS, PIS, COFINS, ISS, IR, CSLL), document types (NFC-e, NFS-e, etc.), fiscal position logic for interstate commerce, and partner tax identification fields (IE, IM, SUFRAMA). Maintained by Akretion and Odoo Brasil community. Requires [Modules/l10n_latam_base](Modules/l10n_latam_base.md) and [Modules/l10n_latam_invoice_document](Modules/l10n_latam_invoice_document.md).
+Core Brazilian localization module. Provides the Brazilian chart of accounts (SPED/PCMG-aligned), Brazilian tax fields on taxes (IPI, ICMS, PIS, COFINS, ISS, IR, CSLL), document types (NFC-e, NFS-e, etc.), fiscal position logic for interstate commerce, and partner tax identification fields (IE, IM, SUFRAMA). Maintained by Akretion and Odoo Brasil community. Requires [Modules/l10n_latam_base](odoo-18/Modules/l10n_latam_base.md) and [Modules/l10n_latam_invoice_document](odoo-18/Modules/l10n_latam_invoice_document.md).
 
 Also includes Pix QR code support via extended `res.partner.bank` (proxy_type selection_add with email, mobile, br_cpf_cnpj, br_random key types) and `res.city` with CEP zip range mapping.
 

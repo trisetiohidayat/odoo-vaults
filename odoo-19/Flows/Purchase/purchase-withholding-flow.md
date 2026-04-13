@@ -15,9 +15,9 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md)"
-  - "[Flows/Account/payment-flow](Flows/Account/payment-flow.md)"
-  - "[Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md)"
+  - "[Flows/Purchase/purchase-to-bill-flow](odoo-19/Flows/Purchase/purchase-to-bill-flow.md)"
+  - "[Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md)"
+  - "[Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md)"
 source_module: l10n_id
 source_path: ~/odoo/odoo19/odoo/addons/l10n_id/
 created: 2026-04-07
@@ -374,9 +374,9 @@ class AccountTax(models.Model):
 
 ## Related
 
-- [Modules/Account](Modules/Account.md) — `account.move`, `account.move.line`, `account.tax` field reference
-- [Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md) — PO to vendor bill creation
-- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Vendor payment and reconciliation
-- [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — General invoice posting flow
-- [Business/Account/l10n-id-tax-guide](Business/Account/l10n-id-tax-guide.md) — Indonesian tax guide (PPN, PPh 21/22/23/26)
-- [Core/API](Core/API.md) — `@api.depends` and tax computation decorators
+- [Modules/Account](odoo-18/Modules/account.md) — `account.move`, `account.move.line`, `account.tax` field reference
+- [Flows/Purchase/purchase-to-bill-flow](odoo-19/Flows/Purchase/purchase-to-bill-flow.md) — PO to vendor bill creation
+- [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) — Vendor payment and reconciliation
+- [Flows/Account/invoice-post-flow](odoo-19/Flows/Account/invoice-post-flow.md) — General invoice posting flow
+- [Business/Account/l10n-id-tax-guide](odoo-19/Business/Account/l10n-id-tax-guide.md) — Indonesian tax guide (PPN, PPh 21/22/23/26)
+- [Core/API](odoo-18/Core/API.md) — `@api.depends` and tax computation decorators

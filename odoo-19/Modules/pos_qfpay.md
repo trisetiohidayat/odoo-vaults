@@ -17,5 +17,5 @@ Integrates your POS with the QFPay terminal in Hong Kong. Enables card and mobil
 - POS frontend + test assets for QFPay terminal
 
 ## Related
-- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
-- [Modules/pos_self_order_qfpay](Modules/pos_self_order_qfpay.md) — QFPay in self-order
+- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — Base POS module
+- [Modules/pos_self_order_qfpay](odoo-19/Modules/pos_self_order_qfpay.md) — QFPay in self-order

@@ -228,7 +228,7 @@ All goal definitions are loaded via `data/gamification_sale_crm_data.xml`. They 
 
 ### `gamification.goal.definition` (base)
 
-See [Modules/Gamification](Modules/Gamification.md) for full field list. Key extension points used by this module:
+See [Modules/Gamification](odoo-18/Modules/gamification.md) for full field list. Key extension points used by this module:
 
 - `computation_mode`: `'count'` (leads, opportunities, orders) or `'sum'` (revenue, credit notes)
 - `monetary`: `True` on revenue/credit note definitions
@@ -239,7 +239,7 @@ See [Modules/Gamification](Modules/Gamification.md) for full field list. Key ext
 
 ### `gamification.challenge` (base)
 
-See [Modules/Gamification](Modules/Gamification.md) for full field list. CRM-specific configuration:
+See [Modules/Gamification](odoo-18/Modules/gamification.md) for full field list. CRM-specific configuration:
 
 - `period: 'monthly'` — resets goals monthly
 - `visibility_mode: 'ranking'` — leader board display
@@ -296,7 +296,7 @@ Since this module depends on `sale_crm` (which extends `crm.lead` with `sale.ord
 
 ## Related Documentation
 
-- [Modules/Gamification](Modules/Gamification.md) — Base gamification models (`gamification.challenge`, `gamification.goal`, `gamification.badge`, `gamification.goal.definition`)
-- [Modules/CRM](Modules/CRM.md) — CRM module being gamified
-- [Modules/Sale](Modules/Sale.md) — Sale order model referenced in goal definitions
-- [Modules/Account](Modules/Account.md) — Invoice reporting model used for revenue goals
+- [Modules/Gamification](odoo-18/Modules/gamification.md) — Base gamification models (`gamification.challenge`, `gamification.goal`, `gamification.badge`, `gamification.goal.definition`)
+- [Modules/CRM](odoo-18/Modules/CRM.md) — CRM module being gamified
+- [Modules/Sale](odoo-18/Modules/sale.md) — Sale order model referenced in goal definitions
+- [Modules/Account](odoo-18/Modules/account.md) — Invoice reporting model used for revenue goals

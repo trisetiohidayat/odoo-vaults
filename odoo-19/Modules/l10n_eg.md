@@ -40,4 +40,4 @@ Inherits `account.tax` to add Egyptian ETA (Egyptian Tax Authority) codes:
 - T13-T20: Additional tax variants
 
 ## Related
-- [Modules/account](Modules/account.md)
+- [Modules/account](odoo-18/Modules/account.md)

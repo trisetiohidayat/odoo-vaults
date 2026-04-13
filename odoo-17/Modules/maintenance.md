@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, maintenance]
 
 
 
-- [Modules/hr](Modules/hr.md)
+- [Modules/hr](odoo-18/Modules/hr.md)

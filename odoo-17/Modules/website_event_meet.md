@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, website-event-meet]
 
 
 
-- [Modules/website](Modules/website.md) — Website builder base
+- [Modules/website](odoo-18/Modules/website.md) — Website builder base

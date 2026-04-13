@@ -55,7 +55,7 @@ VAT at 14% standard rate (also 0% zero-rated and exempt). Withholding taxes (T4 
 Defined in `data/account_tax_report_data.xml`.
 
 ## EDI/Fiscal Reporting
-No EDI format defined in this module. EDI is provided by [Modules/l10n_eg_edi_eta](Modules/l10n_eg_edi_eta.md) which depends on this module.
+No EDI format defined in this module. EDI is provided by [Modules/l10n_eg_edi_eta](odoo-18/Modules/l10n_eg_edi_eta.md) which depends on this module.
 
 ## Installation
 Install as a standard localization module. `auto_install: ['account']` — automatically installed when account is installed if Egypt is selected.

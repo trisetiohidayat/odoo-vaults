@@ -1216,14 +1216,14 @@ The automation record itself is NOT deleted or deactivated, so the admin is noti
 
 ## 16. Related Concepts
 
-- [Modules/base_automation](Modules/base_automation.md) — Server Actions model powering automation actions
-- [Modules/mail](Modules/mail.md) — Mail Thread integration for message triggers
-- [Modules/base_automation](Modules/base_automation.md) — Scheduler configuration
-- [Modules/resource](Modules/resource.md) — Resource Calendar for working-day calculations
-- [Core/API](Core/API.md) — `@api.model`, `@api.depends`, `@api.onchange` decorators
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine and action workflow patterns
-- [Core/Fields](Core/Fields.md) — Field types (Domain, Many2oneReference, etc.)
-- [Core/Exceptions](Core/Exceptions.md) — ValidationError, UserError for automation error handling
+- [Modules/base_automation](odoo-17/Modules/base_automation.md) — Server Actions model powering automation actions
+- [Modules/mail](odoo-18/Modules/mail.md) — Mail Thread integration for message triggers
+- [Modules/base_automation](odoo-17/Modules/base_automation.md) — Scheduler configuration
+- [Modules/resource](odoo-18/Modules/resource.md) — Resource Calendar for working-day calculations
+- [Core/API](odoo-18/Core/API.md) — `@api.model`, `@api.depends`, `@api.onchange` decorators
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine and action workflow patterns
+- [Core/Fields](odoo-18/Core/Fields.md) — Field types (Domain, Many2oneReference, etc.)
+- [Core/Exceptions](odoo-18/Core/Exceptions.md) — ValidationError, UserError for automation error handling
 
 ---
 

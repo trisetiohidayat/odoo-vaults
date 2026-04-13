@@ -43,7 +43,7 @@ UBL PINT format for Japan.
 Extends partner with Japanese EDI-specific fields.
 
 ## Related
-- [Modules/l10n_jp](Modules/l10n_jp.md) — Core Japanese accounting
-- [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) — UBL BIS3 base for Peppol e-invoicing
-- [Modules/l10n_anz_ubl_pint](Modules/l10n_anz_ubl_pint.md) — Australia/New Zealand PINT format
-- [Modules/l10n_sg_ubl_pint](Modules/l10n_sg_ubl_pint.md) — Singapore PINT format
+- [Modules/l10n_jp](odoo-18/Modules/l10n_jp.md) — Core Japanese accounting
+- [Modules/account_edi_ubl_cii](odoo-18/Modules/account_edi_ubl_cii.md) — UBL BIS3 base for Peppol e-invoicing
+- [Modules/l10n_anz_ubl_pint](odoo-18/Modules/l10n_anz_ubl_pint.md) — Australia/New Zealand PINT format
+- [Modules/l10n_sg_ubl_pint](odoo-18/Modules/l10n_sg_ubl_pint.md) — Singapore PINT format

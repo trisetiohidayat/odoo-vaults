@@ -301,6 +301,6 @@ records = self.env['my.model'].sudo().search([...])
 ```
 
 ## See Also
-- [Core/BaseModel](Core/BaseModel.md) — CRUD operations
-- [Core/Fields](Core/Fields.md) — Field types
-- [Core/API](Core/API.md) — @api.depends
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) — CRUD operations
+- [Core/Fields](odoo-18/Core/Fields.md) — Field types
+- [Core/API](odoo-18/Core/API.md) — @api.depends

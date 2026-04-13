@@ -185,7 +185,7 @@ request.env['my.model'].sudo().create(vals)
 ```
 
 ## See Also
-- [Core/BaseModel](Core/BaseModel.md) — Model definition
-- [Core/HTTP Controller](Core/HTTP-Controller.md) — Auth types
-- [Core/Exceptions](Core/Exceptions.md) — AccessError
-- [Modules/res.partner](Modules/res.partner.md) — Partner security
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) — Model definition
+- [Core/HTTP Controller](odoo-18/Core/HTTP Controller.md) — Auth types
+- [Core/Exceptions](odoo-18/Core/Exceptions.md) — AccessError
+- [Modules/res.partner](odoo-19/Modules/res.partner.md) — Partner security

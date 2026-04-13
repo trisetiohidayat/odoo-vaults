@@ -644,7 +644,7 @@ website_mass_mailing
 
 ## Related Documentation
 
-- [Modules/mass_mailing](Modules/mass_mailing.md) — `mailing.list`, `mailing.contact`, `mailing.subscription` model details
-- [Modules/Website](Modules/Website.md) — `website` routing, session management, public auth
-- [Core/API](Core/API.md) — `@route` decorators, `auth='public'`, `website=True` flags
-- [Modules/google_recaptcha](Modules/google_recaptcha.md) — CAPTCHA configuration and token verification
+- [Modules/mass_mailing](odoo-18/Modules/mass_mailing.md) — `mailing.list`, `mailing.contact`, `mailing.subscription` model details
+- [Modules/Website](odoo-18/Modules/website.md) — `website` routing, session management, public auth
+- [Core/API](odoo-18/Core/API.md) — `@route` decorators, `auth='public'`, `website=True` flags
+- [Modules/google_recaptcha](odoo-17/Modules/google_recaptcha.md) — CAPTCHA configuration and token verification

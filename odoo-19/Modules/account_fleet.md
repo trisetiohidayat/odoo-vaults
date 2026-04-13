@@ -83,4 +83,4 @@ Links **fleet management** with accounting. Tracks vehicle costs through vendor 
 
 ## Related
 
-[Account.md](Account.md.md), [Fleet.md](Fleet.md.md)
+[Account.md](odoo-18/Modules/account.md), [Fleet.md](odoo-18/Modules/fleet.md)

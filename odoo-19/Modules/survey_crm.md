@@ -568,7 +568,7 @@ elif question.question_type == 'matrix' and row:  # multiple col selections
 
 ## Related Models and Modules
 
-- [Modules/survey](Modules/survey.md) — Base survey module (defines `survey.survey`, `survey.question`, `survey.user_input`)
-- [Modules/CRM](Modules/CRM.md) — CRM lead management (defines `crm.lead`, `crm.team`)
-- [Modules/website_crm](Modules/website_crm.md) — Website lead capture via contact form
+- [Modules/survey](odoo-18/Modules/survey.md) — Base survey module (defines `survey.survey`, `survey.question`, `survey.user_input`)
+- [Modules/CRM](odoo-18/Modules/CRM.md) — CRM lead management (defines `crm.lead`, `crm.team`)
+- [Modules/website_crm](odoo-18/Modules/website_crm.md) — Website lead capture via contact form
 - `utm` — UTM tracking mixin for `medium_id` and `source_id` on leads

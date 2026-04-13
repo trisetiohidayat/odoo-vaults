@@ -49,10 +49,10 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) | Full method chain and branching logic |
-| 📖 Module Reference | [Modules/Stock](Modules/Stock.md) | Complete field and method reference |
-| 📋 Related Guide | [Modules/Stock](Modules/Stock.md) | Related process walkthrough |
-| 🔧 Configuration | [Modules/Stock](Modules/Stock.md) | Advanced configuration options |
+| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](odoo-19/Flows/Sale/sale-to-delivery-flow.md) | Full method chain and branching logic |
+| 📖 Module Reference | [Modules/Stock](odoo-18/Modules/stock.md) | Complete field and method reference |
+| 📋 Related Guide | [Modules/Stock](odoo-18/Modules/stock.md) | Related process walkthrough |
+| 🔧 Configuration | [Modules/Stock](odoo-18/Modules/stock.md) | Advanced configuration options |
 
 ---
 
@@ -198,8 +198,8 @@ Click **Save**.
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) | Full method chain — for developers |
-| 📖 Module Reference | [Modules/Stock](Modules/Stock.md) | Complete field and method list |
-| 📋 Related Guide | [Modules/Purchase](Modules/Purchase.md) | Related business process |
-| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) | Workflow design patterns |
-| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model-Snippets.md) | Code snippets for customization |
+| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](odoo-19/Flows/Sale/sale-to-delivery-flow.md) | Full method chain — for developers |
+| 📖 Module Reference | [Modules/Stock](odoo-18/Modules/stock.md) | Complete field and method list |
+| 📋 Related Guide | [Modules/Purchase](odoo-18/Modules/purchase.md) | Related business process |
+| 🔧 Patterns | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | Workflow design patterns |
+| 🛠️ Snippets | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Code snippets for customization |

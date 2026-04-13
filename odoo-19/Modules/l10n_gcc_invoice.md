@@ -43,11 +43,11 @@ Extends company to support Arabic company name and address on invoice reports.
 - Settings: `views/res_config_settings_views.xml`
 
 ## Related
-- [Modules/account](Modules/account.md)
-- [Modules/l10n_sa](Modules/l10n_sa.md)
-- [Modules/l10n_ae](Modules/l10n_ae.md)
-- [Modules/l10n_kw](Modules/l10n_kw.md)
-- [Modules/l10n_om](Modules/l10n_om.md)
-- [Modules/l10n_qa](Modules/l10n_qa.md)
-- [Modules/l10n_gcc_pos](Modules/l10n_gcc_pos.md)
-- [Modules/l10n_gcc_invoice_stock_account](Modules/l10n_gcc_invoice_stock_account.md)
+- [Modules/account](odoo-18/Modules/account.md)
+- [Modules/l10n_sa](odoo-18/Modules/l10n_sa.md)
+- [Modules/l10n_ae](odoo-18/Modules/l10n_ae.md)
+- [Modules/l10n_kw](odoo-18/Modules/l10n_kw.md)
+- [Modules/l10n_om](odoo-18/Modules/l10n_om.md)
+- [Modules/l10n_qa](odoo-18/Modules/l10n_qa.md)
+- [Modules/l10n_gcc_pos](odoo-18/Modules/l10n_gcc_pos.md)
+- [Modules/l10n_gcc_invoice_stock_account](odoo-18/Modules/l10n_gcc_invoice_stock_account.md)

@@ -12,10 +12,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md)"
-  - "[Flows/HR/employee-archival-flow](Flows/HR/employee-archival-flow.md)"
+  - "[Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md)"
+  - "[Flows/HR/employee-archival-flow](odoo-19/Flows/HR/employee-archival-flow.md)"
 related_guides:
-  - "[Business/HR/quickstart-employee-setup](Business/HR/quickstart-employee-setup.md)"
+  - "[Business/HR/quickstart-employee-setup](odoo-19/Business/HR/quickstart-employee-setup.md)"
 source_module: hr_contract
 source_path: ~/odoo/odoo19/odoo/addons/hr_contract/
 created: 2026-04-07
@@ -349,9 +349,9 @@ def create(self, vals):
 
 ## Related
 
-- [Modules/HR](Modules/HR.md) — HR module reference (includes hr_contract section)
-- [Modules/resource](Modules/resource.md) — resource.resource, resource.calendar
-- [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — Employee creation
-- [Flows/HR/employee-archival-flow](Flows/HR/employee-archival-flow.md) — Archival on termination
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine pattern reference
-- [Core/API](Core/API.md) — @api decorator patterns
+- [Modules/HR](odoo-18/Modules/hr.md) — HR module reference (includes hr_contract section)
+- [Modules/resource](odoo-18/Modules/resource.md) — resource.resource, resource.calendar
+- [Flows/HR/employee-creation-flow](odoo-19/Flows/HR/employee-creation-flow.md) — Employee creation
+- [Flows/HR/employee-archival-flow](odoo-19/Flows/HR/employee-archival-flow.md) — Archival on termination
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine pattern reference
+- [Core/API](odoo-18/Core/API.md) — @api decorator patterns

@@ -22,7 +22,7 @@ Provides a `spreadsheet.dashboard` record named "eCommerce" for online sales met
 
 ## Extends
 
-- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — base dashboard framework
+- [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) — base dashboard framework
 - `website_sale` — eCommerce platform
 
 ## Data
@@ -39,4 +39,4 @@ Provides a `spreadsheet.dashboard` record named "eCommerce" for online sales met
 
 ---
 
-*See also: [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md), [Modules/website_sale](Modules/website_sale.md)*
+*See also: [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md), [Modules/website_sale](odoo-18/Modules/website_sale.md)*

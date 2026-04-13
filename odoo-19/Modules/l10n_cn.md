@@ -54,4 +54,4 @@ Large business enterprise chart template with extended account structure.
 - Tax Templates: Chinese VAT (13%, 9%, 6%, etc. — excluded from price)
 
 ## Related
-- [Modules/account](Modules/account.md)
+- [Modules/account](odoo-18/Modules/account.md)

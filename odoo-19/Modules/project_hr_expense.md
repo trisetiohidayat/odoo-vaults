@@ -501,10 +501,10 @@ The module was written for Odoo 18+ and uses `Domain.AND` and `Domain` sentinels
 
 ## Related Documentation
 
-- [Modules/project_account](Modules/project_account.md) — Parent project profitability and analytic integration
-- [Modules/hr_expense](Modules/hr_expense.md) — Employee expense management, states, approval workflow
-- [Modules/project_purchase](Modules/project_purchase.md) — Purchase orders in project profitability (shares double-count prevention logic)
-- [Modules/Stock](Modules/Stock.md) — Inventory costs in project profitability (parallel pattern)
+- [Modules/project_account](odoo-18/Modules/project_account.md) — Parent project profitability and analytic integration
+- [Modules/hr_expense](odoo-18/Modules/hr_expense.md) — Employee expense management, states, approval workflow
+- [Modules/project_purchase](odoo-18/Modules/project_purchase.md) — Purchase orders in project profitability (shares double-count prevention logic)
+- [Modules/Stock](odoo-18/Modules/stock.md) — Inventory costs in project profitability (parallel pattern)
 
 ---
 

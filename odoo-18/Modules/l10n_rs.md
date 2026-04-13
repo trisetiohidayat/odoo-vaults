@@ -11,10 +11,10 @@ Tags: #odoo18 #l10n #accounting
 Serbia accounting localization. Provides Serbian chart of accounts based on the official "Pravilnik o kontnom okviru" (Official Gazette RS 89/2020), tax structure, fiscal positions, and turnover date field. Uses Storno accounting and 4-digit codes. Authored by Modoolar and Odoo SA.
 
 ## Country
-[Serbia](modules/account.md) 🇷🇸
+[Serbia](odoo-18/Modules/account.md) 🇷🇸
 
 ## Dependencies
-- [account](core/basemodel.md)
+- [account](odoo-18/Core/BaseModel.md)
 - base_vat
 
 ## Key Models
@@ -60,7 +60,7 @@ Tax report: VAT return via `account_tax_report_data.xml`, JIS (Serbian SAF-T) fo
 Standard EU-style fiscal positions adapted for Serbian trade (B2C, B2B EU, export/import).
 
 ## EDI/Fiscal Reporting
-Serbian SAF-T (JIS — Jedinstveni Informacioni Sistem) format. Turnover date field enables correct VAT period assignment in SAF-T exports. See also [l10n_rs_edi](modules/l10n_rs_edi.md) for e-invoice (eFaktura) support.
+Serbian SAF-T (JIS — Jedinstveni Informacioni Sistem) format. Turnover date field enables correct VAT period assignment in SAF-T exports. See also [l10n_rs_edi](odoo-18/Modules/l10n_rs_edi.md) for e-invoice (eFaktura) support.
 
 ## Installation
 `auto_install: ['account']`

@@ -456,7 +456,7 @@ There is no server-side check in `pos_restaurant_adyen` that validates `card_typ
 
 ## Related Documentation
 
-- [Modules/pos_restaurant](Modules/pos_restaurant.md) — Restaurant POS base module
-- [Modules/pos_adyen](Modules/pos_adyen.md) — Adyen terminal POS integration
-- [Modules/payment_adyen](Modules/payment_adyen.md) — Adyen payment provider
-- [Modules/pos_restaurant_stripe](Modules/pos_restaurant_stripe.md) — Stripe tipping bridge (for comparison)
+- [Modules/pos_restaurant](odoo-18/Modules/pos_restaurant.md) — Restaurant POS base module
+- [Modules/pos_adyen](odoo-17/Modules/pos_adyen.md) — Adyen terminal POS integration
+- [Modules/payment_adyen](odoo-17/Modules/payment_adyen.md) — Adyen payment provider
+- [Modules/pos_restaurant_stripe](odoo-18/Modules/pos_restaurant_stripe.md) — Stripe tipping bridge (for comparison)

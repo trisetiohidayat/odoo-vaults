@@ -303,9 +303,9 @@ This means changing the BoM, updating component costs, or changing the product U
 
 ## See Also
 
-- [Modules/Sale](Modules/Sale.md) — `sale.order.line` with `purchase_price` and margin fields
-- [Modules/MRP](Modules/MRP.md) — `mrp.bom`, `mrp.production`, BoM cost computation
-- [Modules/sale_stock_margin](Modules/sale_stock_margin.md) — `purchase_price` from stock valuation layers
-- [Modules/sale_margin](Modules/sale_margin.md) — Base margin computation (`margin`, `margin_percent`)
-- [Core/API](Core/API.md) — Override pattern via `_inherit` and `super()`
-- [Modules/Product](Modules/Product.md) — `standard_price`, BoM types, product cost methods
+- [Modules/Sale](odoo-18/Modules/sale.md) — `sale.order.line` with `purchase_price` and margin fields
+- [Modules/MRP](odoo-18/Modules/mrp.md) — `mrp.bom`, `mrp.production`, BoM cost computation
+- [Modules/sale_stock_margin](odoo-18/Modules/sale_stock_margin.md) — `purchase_price` from stock valuation layers
+- [Modules/sale_margin](odoo-18/Modules/sale_margin.md) — Base margin computation (`margin`, `margin_percent`)
+- [Core/API](odoo-18/Core/API.md) — Override pattern via `_inherit` and `super()`
+- [Modules/Product](odoo-18/Modules/product.md) — `standard_price`, BoM types, product cost methods

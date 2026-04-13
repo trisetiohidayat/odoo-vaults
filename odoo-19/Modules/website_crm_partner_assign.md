@@ -817,11 +817,11 @@ website_crm_partner_assign/
 
 ## Related
 
-- [Modules/CRM](Modules/CRM.md) — CRM module
-- [Modules/website_partner](Modules/website_partner.md) — Partner page base
-- [Modules/website_google_map](Modules/website_google_map.md) — Google Maps on website
-- [Modules/partnership](Modules/partnership.md) — Partnership management (res.partner.grade base)
-- [Modules/portal](Modules/portal.md) — Customer portal authentication
-- [Modules/base_geolocalize](Modules/base_geolocalize.md) — Google Geocoding service (`_geo_localize()`)
-- [Modules/website_crm](Modules/website_crm.md) — Website CRM lead capture
-- [Modules/website_crm_iap_reveal](Modules/website_crm_iap_reveal.md) — IP-based lead generation from website visits
+- [Modules/CRM](odoo-18/Modules/CRM.md) — CRM module
+- [Modules/website_partner](odoo-18/Modules/website_partner.md) — Partner page base
+- [Modules/website_google_map](odoo-18/Modules/website_google_map.md) — Google Maps on website
+- [Modules/partnership](odoo-19/Modules/partnership.md) — Partnership management (res.partner.grade base)
+- [Modules/portal](odoo-18/Modules/portal.md) — Customer portal authentication
+- [Modules/base_geolocalize](odoo-17/Modules/base_geolocalize.md) — Google Geocoding service (`_geo_localize()`)
+- [Modules/website_crm](odoo-18/Modules/website_crm.md) — Website CRM lead capture
+- [Modules/website_crm_iap_reveal](odoo-18/Modules/website_crm_iap_reveal.md) — IP-based lead generation from website visits

@@ -344,8 +344,8 @@ sale_service (base service layer)
 
 ## See Also
 
-- [Modules/sale_project](Modules/sale_project.md) -- Project/task creation dari SOL (depends on sale_service)
-- [Modules/sale_purchase](Modules/sale_purchase.md) -- PO generation dari SOL (independent from sale_service)
-- [Modules/sale_expense](Modules/sale_expense.md) -- Expense reinvoicing (sets is_expense)
-- [Modules/sale](Modules/sale.md) -- Base sale.order.line model
-- [Core/Fields](Core/Fields.md) -- Field types, compute fields, store parameter
+- [Modules/sale_project](odoo-18/Modules/sale_project.md) -- Project/task creation dari SOL (depends on sale_service)
+- [Modules/sale_purchase](odoo-18/Modules/sale_purchase.md) -- PO generation dari SOL (independent from sale_service)
+- [Modules/sale_expense](odoo-18/Modules/sale_expense.md) -- Expense reinvoicing (sets is_expense)
+- [Modules/sale](odoo-18/Modules/sale.md) -- Base sale.order.line model
+- [Core/Fields](odoo-18/Core/Fields.md) -- Field types, compute fields, store parameter

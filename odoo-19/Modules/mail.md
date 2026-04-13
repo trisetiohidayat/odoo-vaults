@@ -2014,10 +2014,10 @@ discuss.channel (N) ──── (N) res.groups (group_ids = auto-subscribe)
 
 ## Related
 
-- [Modules/bus](Modules/bus.md) -- Real-time event bus (WebSocket)
-- [Core/API](Core/API.md) -- @api.depends, @api.onchange patterns
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) -- ACL, ir.rule, field groups
-- [Modules/res.partner](Modules/res.partner.md) -- Contact model (author/recipient)
-- [Modules/calendar](Modules/calendar.md) -- Calendar integration with activities
-- [Modules/Project](Modules/Project.md) -- Project/task with activity and follower management
-- [Modules/CRM](Modules/CRM.md) -- CRM leads with email gateway routing
+- [Modules/bus](odoo-18/Modules/bus.md) -- Real-time event bus (WebSocket)
+- [Core/API](odoo-18/Core/API.md) -- @api.depends, @api.onchange patterns
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) -- ACL, ir.rule, field groups
+- [Modules/res.partner](odoo-19/Modules/res.partner.md) -- Contact model (author/recipient)
+- [Modules/calendar](odoo-18/Modules/calendar.md) -- Calendar integration with activities
+- [Modules/Project](odoo-18/Modules/project.md) -- Project/task with activity and follower management
+- [Modules/CRM](odoo-18/Modules/CRM.md) -- CRM leads with email gateway routing

@@ -43,5 +43,5 @@ Extends leave type with Indian-specific settings.
 Employee-specific holiday configurations for India.
 
 ## Related
-- [Modules/l10n_in](Modules/l10n_in.md) — Core Indian accounting
-- [Modules/hr_holidays](Modules/hr_holidays.md) — Base leave management
+- [Modules/l10n_in](odoo-18/Modules/l10n_in.md) — Core Indian accounting
+- [Modules/hr_holidays](odoo-18/Modules/hr_holidays.md) — Base leave management

@@ -22,7 +22,7 @@ Romanian e-invoicing module integrating with **ANAF** (National Agency for Fisca
 | Class | _name | _inherit | Description |
 |---|---|---|---|
 | `AccountEdiXmlUBLRO` | `account.edi.xml.ubl.ro` | `account.edi.xml.ubl_21` | CIUS-RO format generator: Romanian invoice type codes, series, VAT registration validation |
-| `AccountEdiXmlUBLCIUSRO` | `account.edi.xml.ubl.ciusro` | `account.edi.xml.ubl_21` | Common CIUS-RO format (also used by [Modules/l10n_rs_edi](Modules/l10n_rs_edi.md)) |
+| `AccountEdiXmlUBLCIUSRO` | `account.edi.xml.ubl.ciusro` | `account.edi.xml.ubl_21` | Common CIUS-RO format (also used by [Modules/l10n_rs_edi](odoo-18/Modules/l10n_rs_edi.md)) |
 | `AccountMove` | `account.move` | `account.move` | Romanian EDI state tracking |
 | `AccountMoveSend` | `account.move.send` | `abstract.model` | Send wizard integration |
 | `L10nRoEdiDocument` | `l10n_ro_edi.document` | `base` | Document tracking: state, message, external ID, send date |

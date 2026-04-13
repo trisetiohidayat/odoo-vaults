@@ -28,7 +28,7 @@ Ukrainian accounting chart of accounts module. Provides the accounting structure
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](Modules/Account.md) | Core accounting framework |
+| [Modules/Account](odoo-18/Modules/account.md) | Core accounting framework |
 
 ## Auto-Install
 
@@ -99,4 +99,4 @@ This module is standalone. There is no dedicated EDI module for Ukraine in the s
 
 ## See Also
 
-- [Modules/Account](Modules/Account.md) - Core accounting
+- [Modules/Account](odoo-18/Modules/account.md) - Core accounting

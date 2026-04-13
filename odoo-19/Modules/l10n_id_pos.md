@@ -48,5 +48,5 @@ Adds QRIS as a payment method type for POS terminals in Indonesia.
 4. Transaction state tracked via `l10n_id.qris.transaction` model
 
 ## Related
-- [Modules/l10n_id](Modules/l10n_id.md) — Core Indonesian accounting (contains QRIS model)
-- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
+- [Modules/l10n_id](odoo-18/Modules/l10n_id.md) — Core Indonesian accounting (contains QRIS model)
+- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — Base POS module

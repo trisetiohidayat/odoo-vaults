@@ -11,14 +11,14 @@ level: 4
 ## Quick Access
 
 ### Flows (Technical)
-- [Flows/Product/product-creation-flow](Flows/Product/product-creation-flow.md) - Product creation: template, variants, attributes
-- [Flows/Product/pricelist-computation-flow](Flows/Product/pricelist-computation-flow.md) - Pricelist price computation: rule matching, formula
+- [Flows/Product/product-creation-flow](odoo-19/Flows/Product/product-creation-flow.md) - Product creation: template, variants, attributes
+- [Flows/Product/pricelist-computation-flow](odoo-19/Flows/Product/pricelist-computation-flow.md) - Pricelist price computation: rule matching, formula
 
 ### Related Modules
-- [Modules/Stock](Modules/Stock.md) - Inventory valuation
-- [Modules/Sale](Modules/Sale.md) - Sales pricing and order lines
-- [Modules/Purchase](Modules/Purchase.md) - Vendor supplierinfo
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) - Variant/product patterns
+- [Modules/Stock](odoo-18/Modules/stock.md) - Inventory valuation
+- [Modules/Sale](odoo-18/Modules/sale.md) - Sales pricing and order lines
+- [Modules/Purchase](odoo-18/Modules/purchase.md) - Vendor supplierinfo
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) - Variant/product patterns
 
 ---
 

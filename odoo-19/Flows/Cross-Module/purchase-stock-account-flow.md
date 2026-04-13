@@ -16,9 +16,9 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md)"
-  - "[Flows/Purchase/purchase-order-receipt-flow](Flows/Purchase/purchase-order-receipt-flow.md)"
-  - "[Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md)"
+  - "[Flows/Purchase/purchase-order-creation-flow](odoo-19/Flows/Purchase/purchase-order-creation-flow.md)"
+  - "[Flows/Purchase/purchase-order-receipt-flow](odoo-19/Flows/Purchase/purchase-order-receipt-flow.md)"
+  - "[Flows/Purchase/purchase-to-bill-flow](odoo-19/Flows/Purchase/purchase-to-bill-flow.md)"
 source_module: purchase
 source_path: ~/odoo/odoo19/odoo/addons/purchase_stock/
 created: 2026-04-06
@@ -173,9 +173,9 @@ PO Confirmed
 
 ## Related
 
-- [Modules/Purchase](Modules/Purchase.md) — Purchase module reference
-- [Modules/Stock](Modules/Stock.md) — Stock module reference
-- [Modules/Account](Modules/Account.md) — Account module reference
-- [Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md) — PO creation
-- [Flows/Purchase/purchase-order-receipt-flow](Flows/Purchase/purchase-order-receipt-flow.md) — Receipt
-- [Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md) — Vendor bill
+- [Modules/Purchase](odoo-18/Modules/purchase.md) — Purchase module reference
+- [Modules/Stock](odoo-18/Modules/stock.md) — Stock module reference
+- [Modules/Account](odoo-18/Modules/account.md) — Account module reference
+- [Flows/Purchase/purchase-order-creation-flow](odoo-19/Flows/Purchase/purchase-order-creation-flow.md) — PO creation
+- [Flows/Purchase/purchase-order-receipt-flow](odoo-19/Flows/Purchase/purchase-order-receipt-flow.md) — Receipt
+- [Flows/Purchase/purchase-to-bill-flow](odoo-19/Flows/Purchase/purchase-to-bill-flow.md) — Vendor bill

@@ -375,10 +375,10 @@ addons/project_stock_account/
 
 | Module | Role |
 |---|---|
-| [Modules/project_stock](Modules/project_stock.md) | Adds `project_id` to `stock.picking`; action buttons on project form |
-| [Modules/stock_account](Modules/stock_account.md) | Core stock valuation; `_prepare_analytic_lines`, `_get_analytic_distribution` on `stock.move` |
-| [Modules/project_account](Modules/project_account.md) | Base project profitability; `other_costs_aal` row; `_get_items_from_aal`; `_get_action_for_profitability_section` |
-| [Modules/analytic](Modules/analytic.md) | `account.analytic.applicability`, `account.analytic.line` |
-| [Modules/account_analytic](Modules/account_analytic.md) | Provides `_get_analytic_distribution` on `project.project` |
-| [Modules/sale_project](Modules/sale_project.md) | SO → project linkage; `reinvoiced_sale_order_id`; project profitability integration |
-| [Modules/sale_project_stock](Modules/sale_project_stock.md) | Wires `stock.picking.project_id`; auto-creates SOLs on picking validate |
+| [Modules/project_stock](odoo-18/Modules/project_stock.md) | Adds `project_id` to `stock.picking`; action buttons on project form |
+| [Modules/stock_account](odoo-18/Modules/stock_account.md) | Core stock valuation; `_prepare_analytic_lines`, `_get_analytic_distribution` on `stock.move` |
+| [Modules/project_account](odoo-18/Modules/project_account.md) | Base project profitability; `other_costs_aal` row; `_get_items_from_aal`; `_get_action_for_profitability_section` |
+| [Modules/analytic](odoo-18/Modules/analytic.md) | `account.analytic.applicability`, `account.analytic.line` |
+| [Modules/account_analytic](odoo-19/Modules/account_analytic.md) | Provides `_get_analytic_distribution` on `project.project` |
+| [Modules/sale_project](odoo-18/Modules/sale_project.md) | SO → project linkage; `reinvoiced_sale_order_id`; project profitability integration |
+| [Modules/sale_project_stock](odoo-18/Modules/sale_project_stock.md) | Wires `stock.picking.project_id`; auto-creates SOLs on picking validate |

@@ -47,7 +47,7 @@ When enabled, the website shows two prices:
 2. **Without national taxes** — excludes IIBB (gross income tax) and other provincial taxes
 
 ## Related
-- [Modules/l10n_ar](Modules/l10n_ar.md) — Core Argentinean accounting
-- [Modules/website_sale](Modules/website_sale.md) — Base eCommerce module
-- [Modules/l10n_ar_pos](Modules/l10n_ar_pos.md) — Argentine POS
-- [Modules/l10n_ar_withholding](Modules/l10n_ar_withholding.md) — Argentine withholding tax
+- [Modules/l10n_ar](odoo-18/Modules/l10n_ar.md) — Core Argentinean accounting
+- [Modules/website_sale](odoo-18/Modules/website_sale.md) — Base eCommerce module
+- [Modules/l10n_ar_pos](odoo-18/Modules/l10n_ar_pos.md) — Argentine POS
+- [Modules/l10n_ar_withholding](odoo-18/Modules/l10n_ar_withholding.md) — Argentine withholding tax

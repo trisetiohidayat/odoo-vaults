@@ -14,12 +14,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md)"
-  - "[Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md)"
-  - "[Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md)"
+  - "[Flows/Purchase/purchase-order-creation-flow](odoo-19/Flows/Purchase/purchase-order-creation-flow.md)"
+  - "[Flows/Purchase/purchase-to-bill-flow](odoo-19/Flows/Purchase/purchase-to-bill-flow.md)"
+  - "[Flows/Stock/receipt-flow](odoo-17/Flows/Stock/receipt-flow.md)"
 related_guides:
-  - "[Modules/Purchase](Modules/Purchase.md)"
-  - "[Modules/Stock](Modules/Stock.md)"
+  - "[Modules/Purchase](odoo-18/Modules/purchase.md)"
+  - "[Modules/Stock](odoo-18/Modules/stock.md)"
 source_module: purchase, stock
 source_path: ~/odoo/odoo19/odoo/addons/stock/
 created: 2026-04-06
@@ -420,10 +420,10 @@ def action_done(self):
 
 ## Related
 
-- [Modules/Purchase](Modules/Purchase.md) — Purchase module reference
-- [Modules/Stock](Modules/Stock.md) — Stock/picking module reference
-- [Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md) — PO creation and confirmation that triggers this flow
-- [Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md) — Vendor bill creation from received PO
-- [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Generic incoming receipt (same mechanics as PO receipt)
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Workflow pattern reference
-- [Core/API](Core/API.md) — @api decorator patterns
+- [Modules/Purchase](odoo-18/Modules/purchase.md) — Purchase module reference
+- [Modules/Stock](odoo-18/Modules/stock.md) — Stock/picking module reference
+- [Flows/Purchase/purchase-order-creation-flow](odoo-19/Flows/Purchase/purchase-order-creation-flow.md) — PO creation and confirmation that triggers this flow
+- [Flows/Purchase/purchase-to-bill-flow](odoo-19/Flows/Purchase/purchase-to-bill-flow.md) — Vendor bill creation from received PO
+- [Flows/Stock/receipt-flow](odoo-17/Flows/Stock/receipt-flow.md) — Generic incoming receipt (same mechanics as PO receipt)
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](odoo-18/Core/API.md) — @api decorator patterns

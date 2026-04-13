@@ -179,7 +179,7 @@ If product is returned from a sale order:
 
 ## See Also
 
-- [Modules/stock](Modules/stock.md) — stock.move, stock.move.line, picking types
-- [Modules/sale](Modules/sale.md) — return flow, SOL integration
-- [Modules/mrp_repair](Modules/mrp_repair.md) — BOM integration in repair (if installed)
-- [Modules/mail](Modules/mail.md) — mail.thread / mail.activity.mixin on repair.order
+- [Modules/stock](odoo-18/Modules/stock.md) — stock.move, stock.move.line, picking types
+- [Modules/sale](odoo-18/Modules/sale.md) — return flow, SOL integration
+- [Modules/mrp_repair](odoo-17/Modules/mrp_repair.md) — BOM integration in repair (if installed)
+- [Modules/mail](odoo-18/Modules/mail.md) — mail.thread / mail.activity.mixin on repair.order

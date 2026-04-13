@@ -30,8 +30,8 @@ Sri Lanka transitioned from the GST-type VAT system to an Income Tax-based syste
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account](Modules/account.md) | Core accounting |
-| [Modules/l10n_account_withholding_tax](Modules/l10n_account_withholding_tax.md) | Withholding tax support |
+| [Modules/account](odoo-18/Modules/account.md) | Core accounting |
+| [Modules/l10n_account_withholding_tax](odoo-18/Modules/l10n_account_withholding_tax.md) | Withholding tax support |
 
 ## Key Models
 
@@ -78,6 +78,6 @@ Extends chart of accounts with Sri Lanka-specific template:
 
 ## Related
 
-- [Modules/account](Modules/account.md) - Core accounting module
-- [Modules/l10n_account_withholding_tax](Modules/l10n_account_withholding_tax.md) - Withholding tax support
+- [Modules/account](odoo-18/Modules/account.md) - Core accounting module
+- [Modules/l10n_account_withholding_tax](odoo-18/Modules/l10n_account_withholding_tax.md) - Withholding tax support
 - [IRD Sri Lanka](https://www.ird.gov.lk)

@@ -172,5 +172,5 @@ The `pos_sale_loyalty` module itself **did not change** between Odoo 18 and Odoo
 
 ## Related
 
-- [Modules/pos_sale](Modules/pos_sale.md) — POS + Sale integration (defines `_get_sale_order_fields`)
-- [Modules/pos_loyalty](Modules/pos_loyalty.md) — POS Loyalty (defines `reward_id` field on `sale.order.line`)
+- [Modules/pos_sale](odoo-18/Modules/pos_sale.md) — POS + Sale integration (defines `_get_sale_order_fields`)
+- [Modules/pos_loyalty](odoo-18/Modules/pos_loyalty.md) — POS Loyalty (defines `reward_id` field on `sale.order.line`)

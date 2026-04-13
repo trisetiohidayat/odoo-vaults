@@ -13,8 +13,8 @@ prerequisites:
   - email_aliases_set
 estimated_time: "~20 minutes"
 related_flows:
-  - "[Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md)"
-  - "[Flows/Helpdesk/ticket-resolution-flow](Flows/Helpdesk/ticket-resolution-flow.md)"
+  - "[Flows/Helpdesk/ticket-creation-flow](odoo-19/Flows/Helpdesk/ticket-creation-flow.md)"
+  - "[Flows/Helpdesk/ticket-resolution-flow](odoo-19/Flows/Helpdesk/ticket-resolution-flow.md)"
 source_module: helpdesk
 created: 2026-04-07
 version: "1.0"
@@ -51,10 +51,10 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) | Full method chain from ticket create to SLA application |
-| 🔀 Technical Flow | [Flows/Helpdesk/ticket-resolution-flow](Flows/Helpdesk/ticket-resolution-flow.md) | Ticket close, rating, reopen, and escalate |
-| 📖 Module Reference | [Modules/Helpdesk](Modules/Helpdesk.md) | Complete field and method reference |
-| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) | State machine and workflow design |
+| 🔀 Technical Flow | [Flows/Helpdesk/ticket-creation-flow](odoo-19/Flows/Helpdesk/ticket-creation-flow.md) | Full method chain from ticket create to SLA application |
+| 🔀 Technical Flow | [Flows/Helpdesk/ticket-resolution-flow](odoo-19/Flows/Helpdesk/ticket-resolution-flow.md) | Ticket close, rating, reopen, and escalate |
+| 📖 Module Reference | [Modules/Helpdesk](odoo-18/Modules/helpdesk.md) | Complete field and method reference |
+| 🔧 Patterns | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | State machine and workflow design |
 
 ---
 
@@ -97,7 +97,7 @@ Click **[Create]**.
 | **Privacy Visibility** | All Internal Users | No | Default: Portal |
 | **Email Alias** | tier1-support | No | Auto-generated from name |
 
-> **⚡ System Trigger:** When `Email Alias` is enabled (`use_alias = True`), Odoo creates an incoming email gateway. Emails sent to `{alias_name}@{alias_domain}` automatically create `helpdesk.ticket` records. See [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) for the `message_new()` flow.
+> **⚡ System Trigger:** When `Email Alias` is enabled (`use_alias = True`), Odoo creates an incoming email gateway. Emails sent to `{alias_name}@{alias_domain}` automatically create `helpdesk.ticket` records. See [Flows/Helpdesk/ticket-creation-flow](odoo-19/Flows/Helpdesk/ticket-creation-flow.md) for the `message_new()` flow.
 
 #### Step 3 — Configure Team Members
 
@@ -482,8 +482,8 @@ View:
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) | Full method chain — for developers |
-| 🔀 Technical Flow | [Flows/Helpdesk/ticket-resolution-flow](Flows/Helpdesk/ticket-resolution-flow.md) | Ticket close, rating, and reopen — for developers |
-| 📖 Module Reference | [Modules/Helpdesk](Modules/Helpdesk.md) | Complete field and method list |
-| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) | Workflow design patterns |
-| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model-Snippets.md) | Code snippets for customization |
+| 🔀 Technical Flow | [Flows/Helpdesk/ticket-creation-flow](odoo-19/Flows/Helpdesk/ticket-creation-flow.md) | Full method chain — for developers |
+| 🔀 Technical Flow | [Flows/Helpdesk/ticket-resolution-flow](odoo-19/Flows/Helpdesk/ticket-resolution-flow.md) | Ticket close, rating, and reopen — for developers |
+| 📖 Module Reference | [Modules/Helpdesk](odoo-18/Modules/helpdesk.md) | Complete field and method list |
+| 🔧 Patterns | [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) | Workflow design patterns |
+| 🛠️ Snippets | [Snippets/Model Snippets](odoo-18/Snippets/Model Snippets.md) | Code snippets for customization |

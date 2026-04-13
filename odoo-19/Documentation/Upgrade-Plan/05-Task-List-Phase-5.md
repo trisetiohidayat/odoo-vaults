@@ -104,7 +104,7 @@ created: 2026-04-06
 - [ ] Flow: Faktur Pajak issuance
 - [ ] Flow: Withholding tax deduction
 - [ ] Common pitfalls for Indonesian localization
-- [ ] Related: [Modules/Account](Modules/Account.md), [Modules/Purchase](Modules/Purchase.md), [Modules/Sale](Modules/Sale.md)
+- [ ] Related: [Modules/Account](odoo-18/Modules/account.md), [Modules/Purchase](odoo-18/Modules/purchase.md), [Modules/Sale](odoo-18/Modules/sale.md)
 
 ### Task T5-4: Create Indonesian Localization Business Guide
 **File:** `Business/Account/l10n-id-tax-guide.md`
@@ -132,7 +132,7 @@ created: 2026-04-06
 **Content:**
 - [ ] Quick Access block pointing to parent Account module flows
 - [ ] Country-specific tax notes if materially different from standard
-- [ ] Link to [Modules/Account](Modules/Account.md) for generic flows
+- [ ] Link to [Modules/Account](odoo-18/Modules/account.md) for generic flows
 - [ ] Note about localization scope
 
 ---
@@ -192,4 +192,4 @@ All 18 tasks completed AND:
 
 **Estimated effort:** 3–4 sessions
 
-**Final deliverable:** [Documentation/Upgrade-Plan/CHECKPOINT-master](Documentation/Upgrade-Plan/CHECKPOINT-master.md)
+**Final deliverable:** [Documentation/Upgrade-Plan/CHECKPOINT-master](odoo-19/Documentation/Upgrade-Plan/CHECKPOINT-master.md)

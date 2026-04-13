@@ -395,8 +395,8 @@ This conversion can introduce floating-point precision issues for very large amo
 
 ## Related
 
-- [Modules/pos_self_order](Modules/pos_self_order.md) — Base self-order module
-- [Modules/pos_pine_labs](Modules/pos_pine_labs.md) — Pine Labs terminal integration
-- [Modules/pos_self_order_razorpay](Modules/pos_self_order_razorpay.md) — Razorpay terminal in self-order (polling, INR decimal)
-- [Modules/pos_self_order_adyen](Modules/pos_self_order_adyen.md) — Adyen terminal in self-order (push webhook, multi-currency)
-- [Modules/pos_self_order_qfpay](Modules/pos_self_order_qfpay.md) — QFPay terminal in self-order (webhook, HKD)
+- [Modules/pos_self_order](odoo-18/Modules/pos_self_order.md) — Base self-order module
+- [Modules/pos_pine_labs](odoo-18/Modules/pos_pine_labs.md) — Pine Labs terminal integration
+- [Modules/pos_self_order_razorpay](odoo-18/Modules/pos_self_order_razorpay.md) — Razorpay terminal in self-order (polling, INR decimal)
+- [Modules/pos_self_order_adyen](odoo-18/Modules/pos_self_order_adyen.md) — Adyen terminal in self-order (push webhook, multi-currency)
+- [Modules/pos_self_order_qfpay](odoo-19/Modules/pos_self_order_qfpay.md) — QFPay terminal in self-order (webhook, HKD)

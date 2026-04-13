@@ -50,5 +50,5 @@ hr.leave.create()
 ---
 
 ## Related Links
-- [Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md) — Full sale flow
-- [Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md) — Full purchase flow
+- [Flows/Sale/quotation-to-sale-order-flow](odoo-19/Flows/Sale/quotation-to-sale-order-flow.md) — Full sale flow
+- [Flows/Purchase/purchase-order-creation-flow](odoo-19/Flows/Purchase/purchase-order-creation-flow.md) — Full purchase flow

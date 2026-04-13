@@ -588,9 +588,9 @@ If a rule's `active` is set to `False` while `_recycle_records()` is iterating o
 
 ## Related Documentation
 
-- [Modules/mail](Modules/mail.md) -- `mail.thread` notifications via `message_notify()`
-- [Core/API](Core/API.md) -- `@api.depends`, `@api.constrains`, `compute_sudo`, `@api.model`
-- [Core/Fields](Core/Fields.md) -- `Domain` field class, `Many2one`, `One2many`, `index='btree_not_null'`
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) -- Cron-based automation, `state='code'` cron type
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) -- ACL CSV, `sudo()`, record rules, `all_group_ids`
-- [Tools/ORM Operations](Tools/ORM-Operations.md) -- `search()`, `flush_all()`, `sudo()`, `exists()`, `read_group`, batch processing with `split_every`
+- [Modules/mail](odoo-18/Modules/mail.md) -- `mail.thread` notifications via `message_notify()`
+- [Core/API](odoo-18/Core/API.md) -- `@api.depends`, `@api.constrains`, `compute_sudo`, `@api.model`
+- [Core/Fields](odoo-18/Core/Fields.md) -- `Domain` field class, `Many2one`, `One2many`, `index='btree_not_null'`
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) -- Cron-based automation, `state='code'` cron type
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) -- ACL CSV, `sudo()`, record rules, `all_group_ids`
+- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) -- `search()`, `flush_all()`, `sudo()`, `exists()`, `read_group`, batch processing with `split_every`

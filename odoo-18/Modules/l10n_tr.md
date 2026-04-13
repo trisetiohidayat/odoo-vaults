@@ -14,7 +14,7 @@ Türkiye (Turkey) accounting localization providing the Turkish chart of account
 Türkiye (Turkey)
 
 ## Dependencies
-- [Core/BaseModel](Core/BaseModel.md) (account)
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) (account)
 - `account` — core accounting module
 
 ## Key Models

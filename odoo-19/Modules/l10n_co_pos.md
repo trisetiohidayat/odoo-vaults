@@ -31,8 +31,8 @@ Colombian Point of Sale module extends the base Colombian accounting localizatio
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/l10n_co](Modules/l10n_co.md) | Colombian accounting base |
-| [Modules/pos](Modules/pos.md) | Point of Sale core module |
+| [Modules/l10n_co](odoo-18/Modules/l10n_co.md) | Colombian accounting base |
+| [Modules/pos](odoo-19/Modules/pos.md) | Point of Sale core module |
 
 ## Key Components
 
@@ -82,7 +82,7 @@ Colombia has mandatory retention regimes for:
 - ReteFuente (Income tax withholding)
 
 ## Related Modules
-- [Modules/l10n_co](Modules/l10n_co.md) - Core Colombian accounting
-- [Modules/l10n_co_pos](Modules/l10n_co_pos.md) - Colombian POS (this module)
-- [Modules/account](Modules/account.md) - Core accounting
-- [Modules/pos](Modules/pos.md) - Point of Sale core module
+- [Modules/l10n_co](odoo-18/Modules/l10n_co.md) - Core Colombian accounting
+- [Modules/l10n_co_pos](odoo-18/Modules/l10n_co_pos.md) - Colombian POS (this module)
+- [Modules/account](odoo-18/Modules/account.md) - Core accounting
+- [Modules/pos](odoo-19/Modules/pos.md) - Point of Sale core module

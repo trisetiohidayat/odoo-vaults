@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template for project managers and HR to visualize timesheet data — hours logged per employee, project, and task. Data is sourced from `account.analytic.line` records created by [Modules/hr_timesheet](Modules/hr_timesheet.md).
+Provides a pre-configured [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) template for project managers and HR to visualize timesheet data — hours logged per employee, project, and task. Data is sourced from `account.analytic.line` records created by [Modules/hr_timesheet](odoo-18/Modules/hr_timesheet.md).
 
 This is a **data-only module**: contains only a `data/dashboards.xml` file that creates a sample timesheet dashboard record.
 
@@ -22,6 +22,6 @@ This is a **data-only module**: contains only a `data/dashboards.xml` file that 
 - Auto-installs when `hr_timesheet` is active
 
 ## Related
-- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
-- [Modules/hr_timesheet](Modules/hr_timesheet.md) — Timesheet entry and project time tracking
-- [Modules/Project](Modules/Project.md) — Project management
+- [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/hr_timesheet](odoo-18/Modules/hr_timesheet.md) — Timesheet entry and project time tracking
+- [Modules/Project](odoo-18/Modules/project.md) — Project management

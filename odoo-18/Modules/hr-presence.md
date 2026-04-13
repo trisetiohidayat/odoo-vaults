@@ -3,7 +3,7 @@ Module: hr_presence
 Version: Odoo 18
 Type: Integration
 Tags: #odoo #odoo18 #hr #presence #attendance #ip-detection #email-tracking
-Related Modules: [Modules/HR](Modules/HR.md), [hr_holidays](modules/hr-holidays.md), [hr_work_entry](modules/hr-work-entry.md)
+Related Modules: [Modules/HR](odoo-18/Modules/hr.md), [hr_holidays](modules/hr-holidays.md), [hr_work_entry](odoo-18/Modules/hr-work-entry.md)
 ---
 
 # Employee Presence (`hr_presence`)

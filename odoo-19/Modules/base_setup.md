@@ -656,10 +656,10 @@ my_setting = fields.Boolean(
 
 ## Related Documentation
 
-- [Core/BaseModel](Core/BaseModel.md) — TransientModel lifecycle and auto-cleanup behavior
-- [Core/Fields](Core/Fields.md) — `config_parameter` attribute, `related` field pattern
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — group implication, access rights defaults
-- [Modules/base](Modules/base.md) — parent `res.config.settings` model from which base_setup inherits
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) — TransientModel lifecycle and auto-cleanup behavior
+- [Core/Fields](odoo-18/Core/Fields.md) — `config_parameter` attribute, `related` field pattern
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — group implication, access rights defaults
+- [Modules/base](odoo-18/Modules/base.md) — parent `res.config.settings` model from which base_setup inherits
 
 ---
 

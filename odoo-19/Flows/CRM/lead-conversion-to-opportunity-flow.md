@@ -269,11 +269,11 @@ def action_convert_opportunity(self, partner_id):
 
 ## Related
 
-- [Flows/CRM/lead-creation-flow](Flows/CRM/lead-creation-flow.md) — Lead creation sources
-- [Flows/CRM/opportunity-win-flow](Flows/CRM/opportunity-win-flow.md) — Mark opportunity as won
-- [Flows/CRM/lead-assignment-flow](Flows/CRM/lead-assignment-flow.md) — Auto-assignment after conversion
-- [Modules/CRM](Modules/CRM.md) — CRM module reference
-- [Modules/Sale](Modules/Sale.md) — Sale order from opportunity
-- [Modules/res.partner](Modules/res.partner.md) — Partner model reference
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Pipeline stage patterns
-- [Core/API](Core/API.md) — @api decorator patterns
+- [Flows/CRM/lead-creation-flow](odoo-19/Flows/CRM/lead-creation-flow.md) — Lead creation sources
+- [Flows/CRM/opportunity-win-flow](odoo-19/Flows/CRM/opportunity-win-flow.md) — Mark opportunity as won
+- [Flows/CRM/lead-assignment-flow](odoo-19/Flows/CRM/lead-assignment-flow.md) — Auto-assignment after conversion
+- [Modules/CRM](odoo-18/Modules/CRM.md) — CRM module reference
+- [Modules/Sale](odoo-18/Modules/sale.md) — Sale order from opportunity
+- [Modules/res.partner](odoo-19/Modules/res.partner.md) — Partner model reference
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Pipeline stage patterns
+- [Core/API](odoo-18/Core/API.md) — @api decorator patterns

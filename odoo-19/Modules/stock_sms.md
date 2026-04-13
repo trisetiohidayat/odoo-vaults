@@ -338,11 +338,11 @@ Notable consistent aspects:
 ---
 
 ## Related Documentation
-- [Modules/Stock](Modules/Stock.md) — `stock.picking` base model, `button_validate` flow, `_pre_action_done_hook`, `_send_confirmation_email`
-- [Modules/SMS](Modules/SMS.md) — `sms.template`, `_message_sms_with_template`, IAP SMS gateway
-- [Modules/res.partner](Modules/res.partner.md) — `partner_id.phone` field used for SMS recipient
-- [Core/API](Core/API.md) — `@api.model`, `@api.onchange` decorators relevant to `ResConfigSettings`
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ir.rule record rules, ACL CSV format, transient model security
+- [Modules/Stock](odoo-18/Modules/stock.md) — `stock.picking` base model, `button_validate` flow, `_pre_action_done_hook`, `_send_confirmation_email`
+- [Modules/SMS](odoo-18/Modules/sms.md) — `sms.template`, `_message_sms_with_template`, IAP SMS gateway
+- [Modules/res.partner](odoo-19/Modules/res.partner.md) — `partner_id.phone` field used for SMS recipient
+- [Core/API](odoo-18/Core/API.md) — `@api.model`, `@api.onchange` decorators relevant to `ResConfigSettings`
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ir.rule record rules, ACL CSV format, transient model security
 
 ---
 

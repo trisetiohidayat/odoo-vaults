@@ -8,13 +8,13 @@ Tags: #odoo18 #l10n #edi #jordan #jofotara
 # l10n_jo_edi_extended
 
 ## Overview
-Extends [Modules/l10n_jo_edi](Modules/l10n_jo_edi.md) with additional JoFotara features:
+Extends [Modules/l10n_jo_edi](odoo-18/Modules/l10n_jo_edi.md) with additional JoFotara features:
 1. Support for additional **invoice types** and **payment methods**
 2. **Demo mode** for testing without live JoFotara API
 3. Enhanced partner and configuration options
 
 ## EDI Format / Standard
-Same as [Modules/l10n_jo_edi](Modules/l10n_jo_edi.md) — UBL 2.1 JoFotara profile.
+Same as [Modules/l10n_jo_edi](odoo-18/Modules/l10n_jo_edi.md) — UBL 2.1 JoFotara profile.
 
 ## Dependencies
 - `l10n_jo_edi` — Base Jordanian EDI module

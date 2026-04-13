@@ -75,5 +75,5 @@ Live optional products attached to a `` `sale.order` `` (not just the template).
 
 ## See Also
 
-- [Modules/sale](Modules/sale.md) — base `` `sale.order`` `` and `` `sale.order.line` ``
-- [Modules/website_sale](Modules/website_sale.md) — e-commerce quotation flow
+- [Modules/sale](odoo-18/Modules/sale.md) — base `` `sale.order`` `` and `` `sale.order.line` ``
+- [Modules/website_sale](odoo-18/Modules/website_sale.md) — e-commerce quotation flow

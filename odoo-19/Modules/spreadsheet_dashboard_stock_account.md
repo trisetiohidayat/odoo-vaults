@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template for warehouse managers and controllers to monitor inventory levels, valuation, and stock-valuation accounting entries.
+Provides a pre-configured [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) template for warehouse managers and controllers to monitor inventory levels, valuation, and stock-valuation accounting entries.
 
 This is a **data-only module**: contains only a `data/dashboards.xml` file that creates a sample stock dashboard record.
 
@@ -23,6 +23,6 @@ This is a **data-only module**: contains only a `data/dashboards.xml` file that 
 - Auto-installs when `stock_account` is active
 
 ## Related
-- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
-- [Modules/stock_account](Modules/stock_account.md) — Stock valuation and accounting entries
-- [Modules/Stock](Modules/Stock.md) — Inventory management base
+- [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/stock_account](odoo-18/Modules/stock_account.md) — Stock valuation and accounting entries
+- [Modules/Stock](odoo-18/Modules/stock.md) — Inventory management base

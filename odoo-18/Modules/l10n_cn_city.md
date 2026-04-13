@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #china
 # l10n_cn_city — China City Data
 
 ## Overview
-Extension module for [Modules/l10n_cn](Modules/l10n_cn.md) that loads Chinese administrative divisions (provinces/municipalities/autonomous regions, cities, and county-level subdivisions) into Odoo's `res.city` and `res.country` data. Essential for correct Chinese address handling and place-of-supply determinations in GST-equivalent transactions.
+Extension module for [Modules/l10n_cn](odoo-18/Modules/l10n_cn.md) that loads Chinese administrative divisions (provinces/municipalities/autonomous regions, cities, and county-level subdivisions) into Odoo's `res.city` and `res.country` data. Essential for correct Chinese address handling and place-of-supply determinations in GST-equivalent transactions.
 
 ## Country
 China

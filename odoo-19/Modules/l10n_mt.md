@@ -35,7 +35,7 @@ Malta basic package containing chart of accounts, taxes, and tax reports. Suppor
 - Demo data: `demo/demo_company.xml`
 
 ## Related
-- [Modules/account](Modules/account.md)
-- [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md)
-- [Modules/base_vat](Modules/base_vat.md)
-- [Modules/l10n_mt_pos](Modules/l10n_mt_pos.md)
+- [Modules/account](odoo-18/Modules/account.md)
+- [Modules/account_edi_ubl_cii](odoo-18/Modules/account_edi_ubl_cii.md)
+- [Modules/base_vat](odoo-17/Modules/base_vat.md)
+- [Modules/l10n_mt_pos](odoo-18/Modules/l10n_mt_pos.md)

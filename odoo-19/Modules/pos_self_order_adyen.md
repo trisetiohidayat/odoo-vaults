@@ -393,8 +393,8 @@ There is **no explicit INR constraint** in `pos_adyen` for the Adyen terminal (u
 
 ## Related
 
-- [Modules/pos_self_order](Modules/pos_self_order.md) — Base self-order module
-- [Modules/pos_adyen](Modules/pos_adyen.md) — Adyen terminal integration
-- [Modules/pos_self_order_razorpay](Modules/pos_self_order_razorpay.md) — Razorpay terminal in self-order (polling-based, INR)
-- [Modules/pos_self_order_pine_labs](Modules/pos_self_order_pine_labs.md) — Pine Labs terminal in self-order (polling with paisa conversion, INR)
-- [Modules/pos_self_order_qfpay](Modules/pos_self_order_qfpay.md) — QFPay terminal in self-order (webhook with HKD)
+- [Modules/pos_self_order](odoo-18/Modules/pos_self_order.md) — Base self-order module
+- [Modules/pos_adyen](odoo-17/Modules/pos_adyen.md) — Adyen terminal integration
+- [Modules/pos_self_order_razorpay](odoo-18/Modules/pos_self_order_razorpay.md) — Razorpay terminal in self-order (polling-based, INR)
+- [Modules/pos_self_order_pine_labs](odoo-19/Modules/pos_self_order_pine_labs.md) — Pine Labs terminal in self-order (polling with paisa conversion, INR)
+- [Modules/pos_self_order_qfpay](odoo-19/Modules/pos_self_order_qfpay.md) — QFPay terminal in self-order (webhook with HKD)

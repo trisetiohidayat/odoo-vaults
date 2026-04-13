@@ -201,7 +201,7 @@ class CrmLeadScoringFrequency(models.Model):
 Used for predictive lead scoring based on historical data.
 
 ## See Also
-- [Modules/Sale](Modules/Sale.md) — Convert to Sale Order
-- [Modules/Project](Modules/Project.md) — Create Project
-- [Modules/Account](Modules/Account.md) — Create Invoice
-- [Modules/Product](Modules/Product.md) — Products/Services
+- [Modules/Sale](odoo-18/Modules/sale.md) — Convert to Sale Order
+- [Modules/Project](odoo-18/Modules/project.md) — Create Project
+- [Modules/Account](odoo-18/Modules/account.md) — Create Invoice
+- [Modules/Product](odoo-18/Modules/product.md) — Products/Services

@@ -242,11 +242,11 @@ These use a `Domain('project_id', '=', self.id)` so they automatically pick up p
 
 | Module | Role |
 |---|---|
-| [Modules/project_purchase](Modules/project_purchase.md) | Adds `project_id` field to `purchase.order`; enables purchase cost tracking in project profitability |
-| [Modules/project_stock](Modules/project_stock.md) | Adds `project_id` field to `stock.picking`; adds project picking action menus |
-| [Modules/purchase_stock](Modules/purchase_stock.md) | Manages PO-to-receipt flow; base `_prepare_picking` and buy-rule procurement |
-| [Modules/Stock](Modules/Stock.md) | Core stock module; `stock.rule` base model; `stock.picking` base model |
-| [Modules/Purchase](Modules/Purchase.md) | Core purchase module; `purchase.order` base model |
+| [Modules/project_purchase](odoo-18/Modules/project_purchase.md) | Adds `project_id` field to `purchase.order`; enables purchase cost tracking in project profitability |
+| [Modules/project_stock](odoo-18/Modules/project_stock.md) | Adds `project_id` field to `stock.picking`; adds project picking action menus |
+| [Modules/purchase_stock](odoo-18/Modules/purchase_stock.md) | Manages PO-to-receipt flow; base `_prepare_picking` and buy-rule procurement |
+| [Modules/Stock](odoo-18/Modules/stock.md) | Core stock module; `stock.rule` base model; `stock.picking` base model |
+| [Modules/Purchase](odoo-18/Modules/purchase.md) | Core purchase module; `purchase.order` base model |
 
 ## Tags
 

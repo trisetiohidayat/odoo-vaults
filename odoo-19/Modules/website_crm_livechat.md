@@ -437,11 +437,11 @@ The `website_crm_livechat` module was introduced in Odoo 18 as part of the `webs
 
 ## Related
 
-- [Modules/website_crm](Modules/website_crm.md) — `website.visitor.lead_ids`, `crm.lead.visitor_ids`, Page Views stat button
-- [Modules/website_livechat](Modules/website_livechat.md) — `discuss.channel.livechat_visitor_id`, livechat session tracking
-- [Modules/crm_livechat](Modules/crm_livechat.md) — `/lead` command, chatbot "Create Lead" step type, `origin_channel_id` on lead
-- [Modules/im_livechat](Modules/im_livechat.md) — Base livechat channel, operator routing, `discuss.channel` base model
-- [Modules/im_livechat](Modules/im_livechat.md) — Chatbot script engine, step types, `_process_step` dispatch
-- [Modules/CRM](Modules/CRM.md) — `crm.lead` base model, merge wizard, assignment
-- [Core/Fields](Core/Fields.md) — Many2many `(4, id)` link command, computed fields, `groups` attribute
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Lead creation from non-CRM contexts
+- [Modules/website_crm](odoo-18/Modules/website_crm.md) — `website.visitor.lead_ids`, `crm.lead.visitor_ids`, Page Views stat button
+- [Modules/website_livechat](odoo-18/Modules/website_livechat.md) — `discuss.channel.livechat_visitor_id`, livechat session tracking
+- [Modules/crm_livechat](odoo-17/Modules/crm_livechat.md) — `/lead` command, chatbot "Create Lead" step type, `origin_channel_id` on lead
+- [Modules/im_livechat](odoo-17/Modules/im_livechat.md) — Base livechat channel, operator routing, `discuss.channel` base model
+- [Modules/im_livechat](odoo-17/Modules/im_livechat.md) — Chatbot script engine, step types, `_process_step` dispatch
+- [Modules/CRM](odoo-18/Modules/CRM.md) — `crm.lead` base model, merge wizard, assignment
+- [Core/Fields](odoo-18/Core/Fields.md) — Many2many `(4, id)` link command, computed fields, `groups` attribute
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Lead creation from non-CRM contexts

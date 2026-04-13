@@ -410,8 +410,8 @@ QFPay and Adyen support more payment methods beyond card (Alipay, WeChat Pay, Pa
 
 ## Related
 
-- [Modules/pos_self_order](Modules/pos_self_order.md) — Base self-order module
-- [Modules/pos_qfpay](Modules/pos_qfpay.md) — QFPay terminal integration
-- [Modules/pos_self_order_razorpay](Modules/pos_self_order_razorpay.md) — Razorpay terminal in self-order (polling, INR)
-- [Modules/pos_self_order_pine_labs](Modules/pos_self_order_pine_labs.md) — Pine Labs terminal in self-order (polling, paisa, INR)
-- [Modules/pos_self_order_adyen](Modules/pos_self_order_adyen.md) — Adyen terminal in self-order (push webhook, multi-currency)
+- [Modules/pos_self_order](odoo-18/Modules/pos_self_order.md) — Base self-order module
+- [Modules/pos_qfpay](odoo-19/Modules/pos_qfpay.md) — QFPay terminal integration
+- [Modules/pos_self_order_razorpay](odoo-18/Modules/pos_self_order_razorpay.md) — Razorpay terminal in self-order (polling, INR)
+- [Modules/pos_self_order_pine_labs](odoo-19/Modules/pos_self_order_pine_labs.md) — Pine Labs terminal in self-order (polling, paisa, INR)
+- [Modules/pos_self_order_adyen](odoo-18/Modules/pos_self_order_adyen.md) — Adyen terminal in self-order (push webhook, multi-currency)

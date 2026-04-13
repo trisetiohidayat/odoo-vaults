@@ -592,7 +592,7 @@ Used throughout for 30-day/month depreciation and MTBF calculations. These are d
 
 ### 4.6 Related Documentation
 
-- [Modules/Stock](Modules/Stock.md) -- stock_maintenance integration
-- [Modules/Fleet](Modules/Fleet.md) -- fleet.vehicle maintenance tracking
-- [Modules/MRP](Modules/MRP.md) -- mrp.workcenter maintenance
-- [Core/API](Core/API.md) -- @api.depends, @api.constrains patterns
+- [Modules/Stock](odoo-18/Modules/stock.md) -- stock_maintenance integration
+- [Modules/Fleet](odoo-18/Modules/fleet.md) -- fleet.vehicle maintenance tracking
+- [Modules/MRP](odoo-18/Modules/mrp.md) -- mrp.workcenter maintenance
+- [Core/API](odoo-18/Core/API.md) -- @api.depends, @api.constrains patterns

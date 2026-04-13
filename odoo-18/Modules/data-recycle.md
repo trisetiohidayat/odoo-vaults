@@ -561,6 +561,6 @@ The recycle action runs under `sudo()` in the context of the cron job. The initi
 
 ## Related
 
-- [Modules/cloud-storage](Modules/cloud-storage.md) — attachments stored externally
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ACL, ir.rule, record rules
-- [Core/Fields](Core/Fields.md) — date/datetime fields
+- [Modules/cloud-storage](odoo-18/Modules/cloud-storage.md) — attachments stored externally
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL, ir.rule, record rules
+- [Core/Fields](odoo-18/Core/Fields.md) — date/datetime fields

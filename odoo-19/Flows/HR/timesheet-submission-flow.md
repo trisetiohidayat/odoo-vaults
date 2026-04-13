@@ -13,8 +13,8 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Cross-Module/employee-projects-timesheet-flow](Flows/Cross-Module/employee-projects-timesheet-flow.md)"
-  - "[Flows/Project/task-lifecycle-flow](Flows/Project/task-lifecycle-flow.md)"
+  - "[Flows/Cross-Module/employee-projects-timesheet-flow](odoo-19/Flows/Cross-Module/employee-projects-timesheet-flow.md)"
+  - "[Flows/Project/task-lifecycle-flow](odoo-19/Flows/Project/task-lifecycle-flow.md)"
 source_module: hr_timesheet
 created: 2026-04-07
 version: "1.0"
@@ -310,10 +310,10 @@ def _onchange_project_id(self):
 
 ## Related
 
-- [Modules/HR](Modules/HR.md) — HR module reference
-- [Modules/Project](Modules/Project.md) — Project module reference
-- [Modules/Account](Modules/Account.md) — Account module reference
-- [Flows/Cross-Module/employee-projects-timesheet-flow](Flows/Cross-Module/employee-projects-timesheet-flow.md) — Cross-module timesheet flow
-- [Flows/Project/task-lifecycle-flow](Flows/Project/task-lifecycle-flow.md) — Task lifecycle reference
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Workflow pattern reference
-- [Core/API](Core/API.md) — @api decorator patterns
+- [Modules/HR](odoo-18/Modules/hr.md) — HR module reference
+- [Modules/Project](odoo-18/Modules/project.md) — Project module reference
+- [Modules/Account](odoo-18/Modules/account.md) — Account module reference
+- [Flows/Cross-Module/employee-projects-timesheet-flow](odoo-19/Flows/Cross-Module/employee-projects-timesheet-flow.md) — Cross-module timesheet flow
+- [Flows/Project/task-lifecycle-flow](odoo-19/Flows/Project/task-lifecycle-flow.md) — Task lifecycle reference
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](odoo-18/Core/API.md) — @api decorator patterns

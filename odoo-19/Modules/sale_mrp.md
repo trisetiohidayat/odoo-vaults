@@ -812,9 +812,9 @@ Override `_get_bom_component_qty()` if custom UoM precision or rounding rules ar
 
 ## Related
 
-- [Modules/mrp](Modules/mrp.md) — Manufacturing orders, BOMs, work orders
-- [Modules/sale_stock](Modules/sale_stock.md) — Sale + Stock integration (procurement groups, MTO)
-- [Modules/stock](Modules/stock.md) — Stock moves, quant, picking
-- [Modules/account](Modules/account.md) — Invoice, COGS, Anglo-Saxon valuation
-- [Core/API](Core/API.md) — @api.depends, @api.onchange, computed fields
-- [Patterns/Inheritance Patterns](Patterns/Inheritance-Patterns.md) — _inherit vs _inherits vs mixin
+- [Modules/mrp](odoo-18/Modules/mrp.md) — Manufacturing orders, BOMs, work orders
+- [Modules/sale_stock](odoo-18/Modules/sale_stock.md) — Sale + Stock integration (procurement groups, MTO)
+- [Modules/stock](odoo-18/Modules/stock.md) — Stock moves, quant, picking
+- [Modules/account](odoo-18/Modules/account.md) — Invoice, COGS, Anglo-Saxon valuation
+- [Core/API](odoo-18/Core/API.md) — @api.depends, @api.onchange, computed fields
+- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — _inherit vs _inherits vs mixin

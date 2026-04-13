@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, sales-team]
 
 
 
-- [Modules/sale](Modules/sale.md) — Sales extension
+- [Modules/sale](odoo-18/Modules/sale.md) — Sales extension

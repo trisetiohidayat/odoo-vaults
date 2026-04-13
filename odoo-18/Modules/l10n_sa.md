@@ -10,7 +10,7 @@ Tags: #odoo18 #l10n #accounting #saudi #gcc
 ## Overview
 Saudi Arabia full accounting localization — chart of accounts, 15% VAT tax structure, VAT filing report, withholding tax report, fiscal positions, and ZATCA-compliant e-invoice QR code generation. This is the core Saudi localization module required for any Saudi company using Odoo accounting.
 
-See also: [Modules/l10n_sa_pos](Modules/l10n_sa_pos.md) (POS), [Modules/l10n_gcc_invoice](Modules/l10n_gcc_invoice.md) (bilingual invoice)
+See also: [Modules/l10n_sa_pos](odoo-18/Modules/l10n_sa_pos.md) (POS), [Modules/l10n_gcc_invoice](odoo-18/Modules/l10n_gcc_invoice.md) (bilingual invoice)
 
 ## Country
 Kingdom of Saudi Arabia (KSA) — country code `sa`

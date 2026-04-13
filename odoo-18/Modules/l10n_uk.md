@@ -11,10 +11,10 @@ Tags: #odoo18 #l10n #accounting
 United Kingdom accounting localization. Provides UK chart of accounts (CT600-ready), VAT structure (VAT100), UK county data, and Northern Ireland-specific fiscal positions activated on install based on company state. Authored by SmartMode LTD.
 
 ## Country
-[United Kingdom](modules/account.md) 🇬🇧 (non-EU post-Brexit)
+[United Kingdom](odoo-18/Modules/account.md) 🇬🇧 (non-EU post-Brexit)
 
 ## Dependencies
-- [account](core/basemodel.md)
+- [account](odoo-18/Core/BaseModel.md)
 - base_iban
 - base_vat
 

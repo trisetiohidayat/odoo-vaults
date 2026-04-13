@@ -646,9 +646,9 @@ def uninstall_hook(env):
 ## Related Documentation
 
 - [Core/Payment Framework](Core/Payment-Framework.md) — base payment architecture
-- [Modules/payment](Modules/payment.md) — core payment module
-- [Modules/payment-custom](Modules/payment-custom.md) — manual wire transfer provider
-- [Modules/payment-authorize](Modules/payment-authorize.md) — Authorize.Net provider (client-driven, no webhooks)
+- [Modules/payment](odoo-18/Modules/payment.md) — core payment module
+- [Modules/payment-custom](odoo-18/Modules/payment-custom.md) — manual wire transfer provider
+- [Modules/payment-authorize](odoo-18/Modules/payment-authorize.md) — Authorize.Net provider (client-driven, no webhooks)
 
 ---
 

@@ -249,7 +249,7 @@ class ProductSupplierinfo(models.Model):
     - `delay` | Integer | Delivery lead time (days)
 
 ## See Also
-- [Modules/Sale](Modules/Sale.md) — Sales price from product
-- [Modules/Purchase](Modules/Purchase.md) — Vendor price
-- [Modules/Stock](Modules/Stock.md) — Inventory management
-- [Modules/MRP](Modules/MRP.md) — BoM production
+- [Modules/Sale](odoo-18/Modules/sale.md) — Sales price from product
+- [Modules/Purchase](odoo-18/Modules/purchase.md) — Vendor price
+- [Modules/Stock](odoo-18/Modules/stock.md) — Inventory management
+- [Modules/MRP](odoo-18/Modules/mrp.md) — BoM production

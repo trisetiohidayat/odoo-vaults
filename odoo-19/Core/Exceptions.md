@@ -87,7 +87,7 @@ raise RedirectWarning(
 
 ## Related
 
-- [Core/BaseModel](Core/BaseModel.md) - Model methods
-- [Core/API](Core/API.md) - @api.constrains
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) - AccessError
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) - Action validation
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) - Model methods
+- [Core/API](odoo-18/Core/API.md) - @api.constrains
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) - AccessError
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) - Action validation

@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #edi #romania #etransport #anaf
 # l10n_ro_edi_stock
 
 ## Overview
-Romanian **e-Transport** module for electronic transport declarations. Romania's ANAF requires real-time reporting of goods transport via the e-Transport system. This module generates and submits e-Transport declarations from [Modules/Stock](Modules/Stock.md) pickings, linking them to the fiscal identity of the company and vehicles used.
+Romanian **e-Transport** module for electronic transport declarations. Romania's ANAF requires real-time reporting of goods transport via the e-Transport system. This module generates and submits e-Transport declarations from [Modules/Stock](odoo-18/Modules/stock.md) pickings, linking them to the fiscal identity of the company and vehicles used.
 
 ## EDI Format / Standard
 **e-Transport XML** — Romanian ANAF format for transport declarations. UBL-based but specialized for logistics. Links to `stock.picking` records. Vehicle details, route information, and goods classification included.

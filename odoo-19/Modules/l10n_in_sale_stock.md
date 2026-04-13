@@ -35,4 +35,4 @@ So this module is to get the warehouse address if the invoice is created from Sa
 - Custom model files: account_move.py, stock_move.py, stock_picking.py
 
 ## Related
-- [Modules/l10n_in](Modules/l10n_in.md) - Core accounting
+- [Modules/l10n_in](odoo-18/Modules/l10n_in.md) - Core accounting

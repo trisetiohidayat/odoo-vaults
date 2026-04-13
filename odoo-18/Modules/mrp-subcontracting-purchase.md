@@ -3,7 +3,7 @@ Module: mrp_subcontracting_purchase
 Version: Odoo 18
 Type: Integration
 Tags: #mrp #purchase #subcontracting #procurement #bridge
-Related: [Modules/MRP Subcontracting](Modules/MRP-Subcontracting.md), [Modules/Purchase](Modules/Purchase.md), [Modules/Stock](Modules/Stock.md)
+Related: [Modules/MRP Subcontracting](odoo-18/Modules/mrp-subcontracting.md), [Modules/Purchase](odoo-18/Modules/purchase.md), [Modules/Stock](odoo-18/Modules/stock.md)
 ---
 
 # mrp_subcontracting_purchase — Subcontracting Purchase Integration

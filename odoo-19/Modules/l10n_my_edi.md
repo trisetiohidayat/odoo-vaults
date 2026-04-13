@@ -30,16 +30,16 @@ This module enables:
 - Real-time status tracking of submitted invoices
 - Submission through the Peppol network
 
-The module depends on [Modules/l10n_my_ubl_pint](Modules/l10n_my_ubl_pint.md) for the underlying UBL format and reuses fields defined there.
+The module depends on [Modules/l10n_my_ubl_pint](odoo-18/Modules/l10n_my_ubl_pint.md) for the underlying UBL format and reuses fields defined there.
 
 ## Dependencies
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/l10n_my](Modules/l10n_my.md) | Base Malaysian accounting localization |
-| [Modules/l10n_my_ubl_pint](Modules/l10n_my_ubl_pint.md) | UBL PINT format for e-invoice generation |
-| [Modules/account_edi_proxy_client](Modules/account_edi_proxy_client.md) | EDI proxy client for API communication |
-| [Modules/account_edi](Modules/account_edi.md) | EDI framework |
+| [Modules/l10n_my](odoo-18/Modules/l10n_my.md) | Base Malaysian accounting localization |
+| [Modules/l10n_my_ubl_pint](odoo-18/Modules/l10n_my_ubl_pint.md) | UBL PINT format for e-invoice generation |
+| [Modules/account_edi_proxy_client](odoo-18/Modules/account_edi_proxy_client.md) | EDI proxy client for API communication |
+| [Modules/account_edi](odoo-17/Modules/account_edi.md) | EDI framework |
 
 ## Key Models
 
@@ -136,7 +136,7 @@ Industry classification codes required for MyInvois:
 
 ## Related
 
-- [Modules/l10n_my](Modules/l10n_my.md) - Core Malaysian accounting
-- [Modules/l10n_my_ubl_pint](Modules/l10n_my_ubl_pint.md) - UBL PINT format
-- [Modules/l10n_my_edi_pos](Modules/l10n_my_edi_pos.md) - POS e-invoicing integration
-- [Modules/account_edi_proxy_client](Modules/account_edi_proxy_client.md) - EDI proxy framework
+- [Modules/l10n_my](odoo-18/Modules/l10n_my.md) - Core Malaysian accounting
+- [Modules/l10n_my_ubl_pint](odoo-18/Modules/l10n_my_ubl_pint.md) - UBL PINT format
+- [Modules/l10n_my_edi_pos](odoo-18/Modules/l10n_my_edi_pos.md) - POS e-invoicing integration
+- [Modules/account_edi_proxy_client](odoo-18/Modules/account_edi_proxy_client.md) - EDI proxy framework

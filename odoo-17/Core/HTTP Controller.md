@@ -41,5 +41,5 @@ session_uid = request.session.uid
 ```
 
 ## See Also
-- [Snippets/Controller Snippets](Snippets/Controller-Snippets.md) — Code templates
-- [Core/API](Core/API.md) — Decorators
+- [Snippets/Controller Snippets](odoo-18/Snippets/Controller Snippets.md) — Code templates
+- [Core/API](odoo-18/Core/API.md) — Decorators

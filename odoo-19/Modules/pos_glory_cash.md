@@ -23,4 +23,4 @@ Integrates your POS with a Glory automatic cash payment device. Glory devices ha
 - Unit test assets for Glory cash machine utils
 
 ## Related
-- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
+- [Modules/point_of_sale](odoo-18/Modules/point_of_sale.md) — Base POS module

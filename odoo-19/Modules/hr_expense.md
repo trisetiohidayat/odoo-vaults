@@ -976,11 +976,11 @@ hr.expense
 
 ## Related Documentation
 
-- [Modules/hr](Modules/hr.md)
-- [Modules/account](Modules/account.md)
-- [Modules/Stock](Modules/Stock.md)
-- [Modules/product](Modules/product.md)
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md)
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md)
-- [Core/Fields](Core/Fields.md)
-- [Core/API](Core/API.md)
+- [Modules/hr](odoo-18/Modules/hr.md)
+- [Modules/account](odoo-18/Modules/account.md)
+- [Modules/Stock](odoo-18/Modules/stock.md)
+- [Modules/product](odoo-18/Modules/product.md)
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md)
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md)
+- [Core/Fields](odoo-18/Core/Fields.md)
+- [Core/API](odoo-18/Core/API.md)

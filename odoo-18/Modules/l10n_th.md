@@ -14,7 +14,7 @@ Thailand accounting localization providing the Thai chart of accounts, VAT struc
 Thailand
 
 ## Dependencies
-- [Core/BaseModel](Core/BaseModel.md) (account)
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) (account)
 - `account_qr_code_emv` — EMV QR code generation for PromptPay
 
 ## Key Models

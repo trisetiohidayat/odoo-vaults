@@ -68,6 +68,6 @@ def action_done(self):
 ```
 
 ## See Also
-- [Core/BaseModel](Core/BaseModel.md) — Full model reference
-- [Core/API](Core/API.md) — Decorators
-- [Core/Fields](Core/Fields.md) — Field types
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) — Full model reference
+- [Core/API](odoo-18/Core/API.md) — Decorators
+- [Core/Fields](odoo-18/Core/Fields.md) — Field types

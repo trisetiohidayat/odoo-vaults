@@ -17,10 +17,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md)"
-  - "[Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md)"
+  - "[Flows/Stock/picking-action-flow](odoo-19/Flows/Stock/picking-action-flow.md)"
+  - "[Flows/Stock/receipt-flow](odoo-17/Flows/Stock/receipt-flow.md)"
 related_guides:
-  - "[Modules/quality](Modules/quality.md)"
+  - "[Modules/quality](odoo-18/Modules/quality.md)"
 source_module: quality
 source_path: ~/odoo/enterprise/suqma-19.0-20250204/enterprise/quality/
 created: 2026-04-07
@@ -339,10 +339,10 @@ def do_pass(self):
 
 ## Related
 
-- [Modules/quality](Modules/quality.md) — Module reference (all models, fields, methods)
-- [Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md) — Stock picking form action flow
-- [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Inbound receipt flow
-- [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) — Outbound delivery flow
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Workflow pattern reference (state machine)
-- [Core/API](Core/API.md) — @api.depends, @api.onchange, @api.constrains decorators
-- [Modules/Stock](Modules/Stock.md) — Stock module (stock.picking, stock.move)
+- [Modules/quality](odoo-18/Modules/quality.md) — Module reference (all models, fields, methods)
+- [Flows/Stock/picking-action-flow](odoo-19/Flows/Stock/picking-action-flow.md) — Stock picking form action flow
+- [Flows/Stock/receipt-flow](odoo-17/Flows/Stock/receipt-flow.md) — Inbound receipt flow
+- [Flows/Stock/delivery-flow](odoo-19/Flows/Stock/delivery-flow.md) — Outbound delivery flow
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference (state machine)
+- [Core/API](odoo-18/Core/API.md) — @api.depends, @api.onchange, @api.constrains decorators
+- [Modules/Stock](odoo-18/Modules/stock.md) — Stock module (stock.picking, stock.move)

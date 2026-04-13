@@ -11,10 +11,10 @@ Tags: #odoo18 #l10n #accounting
 Slovenian accounting localization. Provides Slovenia chart of accounts (SURS/GDPS taxonomy), tax structure, and SI01 structured payment reference model (UJP system). Uses Storno accounting. 6-digit account codes.
 
 ## Country
-[Slovenia](modules/account.md) 🇸🇮
+[Slovenia](odoo-18/Modules/account.md) 🇸🇮
 
 ## Dependencies
-- [account](core/basemodel.md)
+- [account](odoo-18/Core/BaseModel.md)
 - base_vat
 
 ## Key Models

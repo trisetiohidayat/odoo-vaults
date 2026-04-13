@@ -275,7 +275,7 @@ def action_cancel(self):
 ```
 
 ## See Also
-- [Core/API](Core/API.md) — @api.constrains, @api.onchange
-- [Core/BaseModel](Core/BaseModel.md) — CRUD operations
-- [Core/Exceptions](Core/Exceptions.md) — UserError, ValidationError
-- [Modules/Sale](Modules/Sale.md) — Sale order workflow example
+- [Core/API](odoo-18/Core/API.md) — @api.constrains, @api.onchange
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) — CRUD operations
+- [Core/Exceptions](odoo-18/Core/Exceptions.md) — UserError, ValidationError
+- [Modules/Sale](odoo-18/Modules/sale.md) — Sale order workflow example

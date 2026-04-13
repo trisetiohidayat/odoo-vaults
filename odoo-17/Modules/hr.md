@@ -543,9 +543,9 @@ Count is only of **active** employees (default domain of `_read_group`). `expect
 
 ## See Also
 
-- [Modules/hr_expense](Modules/hr_expense.md) — Expense reports by employees
-- [Modules/hr_attendance](Modules/hr_attendance.md) — Attendance check-in/out
-- [Modules/hr_holidays](Modules/hr_holidays.md) — Leave management
-- [Modules/hr_contract](Modules/hr_contract.md) — Employment contracts
-- [Modules/base](Modules/base.md) — `res.users`, `res.partner`, `res.groups`
-- [Core/Fields](Core/Fields.md) — Field type reference
+- [Modules/hr_expense](odoo-18/Modules/hr_expense.md) — Expense reports by employees
+- [Modules/hr_attendance](odoo-18/Modules/hr_attendance.md) — Attendance check-in/out
+- [Modules/hr_holidays](odoo-18/Modules/hr_holidays.md) — Leave management
+- [Modules/hr_contract](odoo-18/Modules/hr_contract.md) — Employment contracts
+- [Modules/base](odoo-18/Modules/base.md) — `res.users`, `res.partner`, `res.groups`
+- [Core/Fields](odoo-18/Core/Fields.md) — Field type reference

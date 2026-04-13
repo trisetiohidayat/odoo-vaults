@@ -14,12 +14,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md)"
-  - "[Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md)"
-  - "[Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md)"
+  - "[Flows/Sale/sale-to-delivery-flow](odoo-19/Flows/Sale/sale-to-delivery-flow.md)"
+  - "[Flows/Stock/picking-action-flow](odoo-19/Flows/Stock/picking-action-flow.md)"
+  - "[Flows/Stock/receipt-flow](odoo-17/Flows/Stock/receipt-flow.md)"
 related_guides:
-  - "[Modules/Stock](Modules/Stock.md)"
-  - "[Modules/Sale](Modules/Sale.md)"
+  - "[Modules/Stock](odoo-18/Modules/stock.md)"
+  - "[Modules/Sale](odoo-18/Modules/sale.md)"
 source_module: stock, sale
 source_path: ~/odoo/odoo19/odoo/addons/stock/
 created: 2026-04-06
@@ -411,10 +411,10 @@ def action_done(self):
 
 ## Related
 
-- [Modules/Stock](Modules/Stock.md) — Stock/picking module reference
-- [Modules/Sale](Modules/Sale.md) — Sale module reference
-- [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) — Sale order to delivery (same content, SO-focused)
-- [Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md) — Generic picking lifecycle (confirm→assign→done)
-- [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Incoming receipt counterpart
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Workflow pattern reference
-- [Core/API](Core/API.md) — @api decorator patterns
+- [Modules/Stock](odoo-18/Modules/stock.md) — Stock/picking module reference
+- [Modules/Sale](odoo-18/Modules/sale.md) — Sale module reference
+- [Flows/Sale/sale-to-delivery-flow](odoo-19/Flows/Sale/sale-to-delivery-flow.md) — Sale order to delivery (same content, SO-focused)
+- [Flows/Stock/picking-action-flow](odoo-19/Flows/Stock/picking-action-flow.md) — Generic picking lifecycle (confirm→assign→done)
+- [Flows/Stock/receipt-flow](odoo-17/Flows/Stock/receipt-flow.md) — Incoming receipt counterpart
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](odoo-18/Core/API.md) — @api decorator patterns

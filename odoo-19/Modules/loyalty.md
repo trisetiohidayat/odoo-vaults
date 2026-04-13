@@ -587,10 +587,10 @@ Customer redeems Gift Card on future order
 
 ## Related Models
 
-- [Modules/sale_loyalty](Modules/sale_loyalty.md) — Loyalty integration in Sales Orders
-- [Modules/pos_loyalty](Modules/pos_loyalty.md) — Loyalty in Point of Sale
-- [Modules/website_sale_loyalty](Modules/website_sale_loyalty.md) — Loyalty on eCommerce
-- [Core/Fields](Core/Fields.md) — Field type reference
+- [Modules/sale_loyalty](odoo-18/Modules/sale_loyalty.md) — Loyalty integration in Sales Orders
+- [Modules/pos_loyalty](odoo-18/Modules/pos_loyalty.md) — Loyalty in Point of Sale
+- [Modules/website_sale_loyalty](odoo-18/Modules/website_sale_loyalty.md) — Loyalty on eCommerce
+- [Core/Fields](odoo-18/Core/Fields.md) — Field type reference
 
 ## Tags
 
@@ -1063,12 +1063,12 @@ For concurrent edits (e.g., POS redemption while admin updates balance), the las
 
 ## Related Models
 
-- [Modules/sale_loyalty](Modules/sale_loyalty.md) — Loyalty integration in Sales Orders
-- [Modules/sale_loyalty_delivery](Modules/sale_loyalty_delivery.md) — Free shipping reward type
-- [Modules/pos_loyalty](Modules/pos_loyalty.md) — Loyalty in Point of Sale
-- [Modules/website_sale_loyalty](Modules/website_sale_loyalty.md) — Loyalty on eCommerce
-- [Modules/delivery](Modules/delivery.md) — Delivery costs and carrier management
-- [Core/Fields](Core/Fields.md) — Field type reference
+- [Modules/sale_loyalty](odoo-18/Modules/sale_loyalty.md) — Loyalty integration in Sales Orders
+- [Modules/sale_loyalty_delivery](odoo-18/Modules/sale_loyalty_delivery.md) — Free shipping reward type
+- [Modules/pos_loyalty](odoo-18/Modules/pos_loyalty.md) — Loyalty in Point of Sale
+- [Modules/website_sale_loyalty](odoo-18/Modules/website_sale_loyalty.md) — Loyalty on eCommerce
+- [Modules/delivery](odoo-18/Modules/delivery.md) — Delivery costs and carrier management
+- [Core/Fields](odoo-18/Core/Fields.md) — Field type reference
 
 ## Tags
 

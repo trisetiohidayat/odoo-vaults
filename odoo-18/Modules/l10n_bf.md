@@ -10,7 +10,7 @@ Tags: #odoo18 #l10n #accounting #west_africa #syscohada
 ## Overview
 Burkina Faso accounting localization — provides the SYSCOHADA-compliant chart of accounts and tax report for Burkinabe companies. All West and Central African OHADA-zone countries share the same chart of accounts (SYSCOHADA), with only the tax rates and tax report line items differing per country.
 
-See also: [Modules/l10n_syscohada](Modules/l10n_syscohada.md) for the shared SYSCOHADA framework chart.
+See also: [Modules/l10n_syscohada](odoo-18/Modules/l10n_syscohada.md) for the shared SYSCOHADA framework chart.
 
 ## Country
 Burkina Faso — country code `bf`

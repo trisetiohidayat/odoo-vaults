@@ -24,14 +24,14 @@ created: 2026-04-06
 
 Base accounting localization module for Malaysia. Provides Malaysian-specific chart of accounts, tax templates, and account tags that are required for Malaysian businesses to maintain compliant accounting records.
 
-The module establishes the foundation for Malaysia's Goods and Services Tax (GST) / Sales and Service Tax (SST) reporting structures and integrates with the [Modules/l10n_my_edi](Modules/l10n_my_edi.md) module for e-invoicing.
+The module establishes the foundation for Malaysia's Goods and Services Tax (GST) / Sales and Service Tax (SST) reporting structures and integrates with the [Modules/l10n_my_edi](odoo-18/Modules/l10n_my_edi.md) module for e-invoicing.
 
 ## Dependencies
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account](Modules/account.md) | Core accounting |
-| [Modules/account_tax_python](Modules/account_tax_python.md) | Python-based tax computation |
+| [Modules/account](odoo-18/Modules/account.md) | Core accounting |
+| [Modules/account_tax_python](odoo-18/Modules/account_tax_python.md) | Python-based tax computation |
 
 ## Key Models
 
@@ -67,7 +67,7 @@ Extends product with Malaysian-specific fields:
 
 ## Related
 
-- [Modules/account](Modules/account.md) - Core accounting module
-- [Modules/l10n_my_edi](Modules/l10n_my_edi.md) - Malaysia e-invoicing (MyInvois)
-- [Modules/l10n_my_edi_pos](Modules/l10n_my_edi_pos.md) - POS e-invoicing integration
-- [Modules/l10n_my_ubl_pint](Modules/l10n_my_ubl_pint.md) - Malaysia UBL PINT format for Peppol
+- [Modules/account](odoo-18/Modules/account.md) - Core accounting module
+- [Modules/l10n_my_edi](odoo-18/Modules/l10n_my_edi.md) - Malaysia e-invoicing (MyInvois)
+- [Modules/l10n_my_edi_pos](odoo-18/Modules/l10n_my_edi_pos.md) - POS e-invoicing integration
+- [Modules/l10n_my_ubl_pint](odoo-18/Modules/l10n_my_ubl_pint.md) - Malaysia UBL PINT format for Peppol

@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, auth-totp-mail-enforce]
 
 
 
-- [Modules/base](Modules/base.md) — Auth / base extension
+- [Modules/base](odoo-18/Modules/base.md) — Auth / base extension

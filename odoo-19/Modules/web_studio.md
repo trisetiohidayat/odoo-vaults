@@ -864,8 +864,8 @@ The `_get_models()` override ensures that custom Studio models (`state='manual'`
 
 ## Related Documentation
 
-- [Modules/web_studio](Modules/web_studio.md) -- `web_enterprise` dependency
-- [Core/BaseModel](Core/BaseModel.md) -- ORM foundation (StudioMixin inherits BaseModel)
-- [Patterns/Inheritance Patterns](Patterns/Inheritance-Patterns.md) -- `_inherit` vs `_inherits` vs mixin
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) -- state machine pattern in Odoo
-- [Core/Fields](Core/Fields.md) -- field types including custom `x_` fields
+- [Modules/web_studio](odoo-19/Modules/web_studio.md) -- `web_enterprise` dependency
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) -- ORM foundation (StudioMixin inherits BaseModel)
+- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) -- `_inherit` vs `_inherits` vs mixin
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) -- state machine pattern in Odoo
+- [Core/Fields](odoo-18/Core/Fields.md) -- field types including custom `x_` fields

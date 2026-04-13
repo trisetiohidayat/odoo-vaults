@@ -21,7 +21,7 @@ tags:
 
 ## Overview
 
-`event_crm` bridges the [Modules/event](Modules/event.md) and [Modules/CRM](Modules/CRM.md) modules. When attendees register for events (or confirm attendance, or attend), the module can automatically create `crm.lead` records — typed either as `lead` or `opportunity` — pre-populated with contact information from the registration.
+`event_crm` bridges the [Modules/event](odoo-18/Modules/event.md) and [Modules/CRM](odoo-18/Modules/CRM.md) modules. When attendees register for events (or confirm attendance, or attend), the module can automatically create `crm.lead` records — typed either as `lead` or `opportunity` — pre-populated with contact information from the registration.
 
 The core mechanism is the **Lead Generation Rule** (`event.lead.rule`), a configurable object that defines:
 - **When** to trigger (on creation, confirmation, or attendance)
@@ -638,7 +638,7 @@ Registration Contact Info Updated (while registration has existing leads)
 
 ## See Also
 
-- [Modules/event](Modules/event.md) — Event management (registration, event, ticket models)
-- [Modules/CRM](Modules/CRM.md) — CRM/leads/opportunities
+- [Modules/event](odoo-18/Modules/event.md) — Event management (registration, event, ticket models)
+- [Modules/CRM](odoo-18/Modules/CRM.md) — CRM/leads/opportunities
 - `website_event` — Public event website with batch registration (powers "per order" grouping)
 - `event_sale` — Paid events with sale order integration (sale_order-based grouping via `event_lead_rule` B2B mode)

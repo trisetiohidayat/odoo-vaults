@@ -658,10 +658,10 @@ Batch dispatch:
 
 ## Related Documentation
 
-- [Modules/Stock](Modules/Stock.md) — Core `stock.picking`, `stock.location` (docks), move routing
-- [Modules/stock_picking_batch](Modules/stock_picking_batch.md) — `stock.picking.batch` base model, batch operations, merge wizard
-- [Modules/Fleet](Modules/Fleet.md) — `fleet.vehicle`, `fleet.vehicle.model.category`, driver management
-- [Modules/stock_warehouse](Modules/stock_warehouse.md) — `stock.warehouse`, picking types, delivery steps
-- [Core/API](Core/API.md) — `@api.depends`, `@api.model`, `@api.constrains`
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Batch validation, dock routing, dispatch workflow
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ACL inheritance across modules
+- [Modules/Stock](odoo-18/Modules/stock.md) — Core `stock.picking`, `stock.location` (docks), move routing
+- [Modules/stock_picking_batch](odoo-18/Modules/stock_picking_batch.md) — `stock.picking.batch` base model, batch operations, merge wizard
+- [Modules/Fleet](odoo-18/Modules/fleet.md) — `fleet.vehicle`, `fleet.vehicle.model.category`, driver management
+- [Modules/stock_warehouse](odoo-17/Modules/stock_warehouse.md) — `stock.warehouse`, picking types, delivery steps
+- [Core/API](odoo-18/Core/API.md) — `@api.depends`, `@api.model`, `@api.constrains`
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — Batch validation, dock routing, dispatch workflow
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL inheritance across modules

@@ -72,5 +72,5 @@ Action method called from the wizard button. Validates no children taxes belong 
 
 ## See Also
 
-- [Modules/Account](Modules/Account.md) — the base accounting module
-- [Core/API](Core/API.md) — `@api.depends`, `@api.constrains`
+- [Modules/Account](odoo-18/Modules/account.md) — the base accounting module
+- [Core/API](odoo-18/Core/API.md) — `@api.depends`, `@api.constrains`

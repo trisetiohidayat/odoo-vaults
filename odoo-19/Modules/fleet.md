@@ -848,16 +848,16 @@ This is consumed by the scheduler to avoid creating duplicate renewal activities
 
 ## Related Modules
 
-- [Modules/account_fleet](Modules/account_fleet.md) — Accounting integration for fleet costs
-- [Modules/HR](Modules/HR.md) — HR module (driver management, plan_to_change flags)
-- [Modules/mail](Modules/mail.md) — Mail and activity tracking
-- [Core/API](Core/API.md) — @api.depends, @api.onchange patterns
-- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine patterns (e.g., contract states)
+- [Modules/account_fleet](odoo-17/Modules/account_fleet.md) — Accounting integration for fleet costs
+- [Modules/HR](odoo-18/Modules/hr.md) — HR module (driver management, plan_to_change flags)
+- [Modules/mail](odoo-18/Modules/mail.md) — Mail and activity tracking
+- [Core/API](odoo-18/Core/API.md) — @api.depends, @api.onchange patterns
+- [Patterns/Workflow Patterns](odoo-18/Patterns/Workflow Patterns.md) — State machine patterns (e.g., contract states)
 
 ---
 
 ## See Also
 
-- [Modules/Stock](Modules/Stock.md) — warehouse/location tracking
-- [Modules/Purchase](Modules/Purchase.md) — vendor contracts
-- [Modules/Account](Modules/Account.md) — accounting entries from fleet costs
+- [Modules/Stock](odoo-18/Modules/stock.md) — warehouse/location tracking
+- [Modules/Purchase](odoo-18/Modules/purchase.md) — vendor contracts
+- [Modules/Account](odoo-18/Modules/account.md) — accounting entries from fleet costs

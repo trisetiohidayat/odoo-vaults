@@ -15,4 +15,4 @@ Finland Sale
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/l10n_fi](Modules/l10n_fi.md) — Core accounting
+- [Modules/l10n_fi](odoo-18/Modules/l10n_fi.md) — Core accounting

@@ -23,5 +23,5 @@ Bridge module between MRP Subcontracting and Purchase. Adds smart buttons and vi
 - `mrp_subcontracting_purchase_demo.xml`: Demo data for testing.
 
 ## Related
-- [Modules/mrp_subcontracting](Modules/mrp_subcontracting.md) - Subcontract BoMs and MO tracking
-- [Modules/purchase_mrp](Modules/purchase_mrp.md) - PO to MO linkage
+- [Modules/mrp_subcontracting](odoo-18/Modules/mrp_subcontracting.md) - Subcontract BoMs and MO tracking
+- [Modules/purchase_mrp](odoo-18/Modules/purchase_mrp.md) - PO to MO linkage

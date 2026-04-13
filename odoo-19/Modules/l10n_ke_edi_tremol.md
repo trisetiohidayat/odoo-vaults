@@ -47,5 +47,5 @@ Tremol device configuration and KRA credentials.
 Kenyan partner-specific fields for e-invoicing.
 
 ## Related
-- [Modules/l10n_ke](Modules/l10n_ke.md) — Core Kenyan accounting
-- [Modules/account_edi_proxy_client](Modules/account_edi_proxy_client.md) — EDI proxy framework
+- [Modules/l10n_ke](odoo-18/Modules/l10n_ke.md) — Core Kenyan accounting
+- [Modules/account_edi_proxy_client](odoo-18/Modules/account_edi_proxy_client.md) — EDI proxy framework

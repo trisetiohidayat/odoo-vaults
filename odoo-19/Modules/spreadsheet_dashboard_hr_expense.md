@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template for finance/HR teams to monitor expense submissions, approvals, and re-invoicing. Uses data from expense reports and sale order expense tracking via [Modules/sale_expense](Modules/sale_expense.md).
+Provides a pre-configured [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) template for finance/HR teams to monitor expense submissions, approvals, and re-invoicing. Uses data from expense reports and sale order expense tracking via [Modules/sale_expense](odoo-18/Modules/sale_expense.md).
 
 This is a **data-only module**: contains only a `data/dashboards.xml` file that creates a sample expense dashboard record.
 
@@ -22,6 +22,6 @@ This is a **data-only module**: contains only a `data/dashboards.xml` file that 
 - Auto-installs when `sale_expense` is active
 
 ## Related
-- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
-- [Modules/hr_expense](Modules/hr_expense.md) — HR expense management
-- [Modules/sale_expense](Modules/sale_expense.md) — Expense re-invoicing via sales orders
+- [Modules/spreadsheet_dashboard](odoo-18/Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/hr_expense](odoo-18/Modules/hr_expense.md) — HR expense management
+- [Modules/sale_expense](odoo-18/Modules/sale_expense.md) — Expense re-invoicing via sales orders

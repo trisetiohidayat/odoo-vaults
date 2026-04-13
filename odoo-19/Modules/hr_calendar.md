@@ -40,6 +40,6 @@ Returns non-working days for the current user's employee (used by calendar's hol
 - Integrates with `calendar` module's existing unavailable partner mechanism
 
 ## Related
-- [Modules/HR](Modules/HR.md) — HR base
-- [Modules/calendar](Modules/calendar.md) — Calendar module
-- [Modules/hr_homeworking](Modules/hr_homeworking.md) — Remote work scheduling
+- [Modules/HR](odoo-18/Modules/hr.md) — HR base
+- [Modules/calendar](odoo-18/Modules/calendar.md) — Calendar module
+- [Modules/hr_homeworking](odoo-17/Modules/hr_homeworking.md) — Remote work scheduling

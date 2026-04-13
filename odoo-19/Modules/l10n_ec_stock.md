@@ -20,14 +20,14 @@ created: 2026-04-06
 
 ## Description
 
-Ecuador Stock module extends the base Ecuadorian accounting localization (`l10n_ec`) with stock/inventory-specific configurations. Integrates Ecuadorian chart of accounts with [Modules/Stock](Modules/Stock.md) module inventory valuation.
+Ecuador Stock module extends the base Ecuadorian accounting localization (`l10n_ec`) with stock/inventory-specific configurations. Integrates Ecuadorian chart of accounts with [Modules/Stock](odoo-18/Modules/stock.md) module inventory valuation.
 
 ## Dependencies
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/l10n_ec](Modules/l10n_ec.md) | Ecuadorian accounting base |
-| [Modules/Stock](Modules/Stock.md) | Inventory management module |
+| [Modules/l10n_ec](odoo-18/Modules/l10n_ec.md) | Ecuadorian accounting base |
+| [Modules/Stock](odoo-18/Modules/stock.md) | Inventory management module |
 
 ## Key Components
 
@@ -79,8 +79,8 @@ Automatically configures the sale journal with SRI emission details:
 `_post_load_data()` - After loading template data, sets the default account on purchase journal based on expense category template data.
 
 ## Related Modules
-- [Modules/l10n_ec](Modules/l10n_ec.md) - Core Ecuadorian accounting
-- [Modules/l10n_ec_sale](Modules/l10n_ec_sale.md) - Ecuador sale extensions
-- [Modules/l10n_ec_stock](Modules/l10n_ec_stock.md) - Ecuador stock (this module)
-- [Modules/Stock](Modules/Stock.md) - Inventory management
-- [Modules/Account](Modules/Account.md) - Core accounting
+- [Modules/l10n_ec](odoo-18/Modules/l10n_ec.md) - Core Ecuadorian accounting
+- [Modules/l10n_ec_sale](odoo-19/Modules/l10n_ec_sale.md) - Ecuador sale extensions
+- [Modules/l10n_ec_stock](odoo-18/Modules/l10n_ec_stock.md) - Ecuador stock (this module)
+- [Modules/Stock](odoo-18/Modules/stock.md) - Inventory management
+- [Modules/Account](odoo-18/Modules/account.md) - Core accounting

@@ -56,7 +56,7 @@ class MyModel(models.Model):
 - `@api.returns('model')` — Returns model or id+model pair
 
 ## See Also
-- [Core/API](Core/API.md) — Decorator details
-- [Core/Fields](Core/Fields.md) — Field types
-- [Tools/ORM Operations](Tools/ORM-Operations.md) — Domain operators
-- [Patterns/Inheritance Patterns](Patterns/Inheritance-Patterns.md) — _inherit vs _inherits
+- [Core/API](odoo-18/Core/API.md) — Decorator details
+- [Core/Fields](odoo-18/Core/Fields.md) — Field types
+- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — Domain operators
+- [Patterns/Inheritance Patterns](odoo-18/Patterns/Inheritance Patterns.md) — _inherit vs _inherits

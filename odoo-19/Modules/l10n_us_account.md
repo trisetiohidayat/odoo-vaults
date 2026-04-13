@@ -15,4 +15,4 @@ Localized accounting for United.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/l10n_us](Modules/l10n_us.md) — Core accounting
+- [Modules/l10n_us](odoo-18/Modules/l10n_us.md) — Core accounting

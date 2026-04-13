@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #colombia
 # l10n_co — Colombia Accounting
 
 ## Overview
-Colombian accounting localization providing the chart of accounts, taxes, and DIAN (Direccion de Impuestos y Aduanas Nacionales) document types. Authored by David Arnold (XOE Solutions). Requires [Modules/l10n_latam_base](Modules/l10n_latam_base.md) and `account_debit_note`.
+Colombian accounting localization providing the chart of accounts, taxes, and DIAN (Direccion de Impuestos y Aduanas Nacionales) document types. Authored by David Arnold (XOE Solutions). Requires [Modules/l10n_latam_base](odoo-18/Modules/l10n_latam_base.md) and `account_debit_note`.
 
 ## Country/Region
 Colombia (country code: CO)

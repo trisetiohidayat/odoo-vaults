@@ -15,4 +15,4 @@ Localized accounting for Cyprus.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/Account](Modules/Account.md) — Core accounting
+- [Modules/Account](odoo-18/Modules/account.md) — Core accounting

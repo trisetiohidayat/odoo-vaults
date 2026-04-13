@@ -15,12 +15,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/POS/pos-session-flow](Flows/POS/pos-session-flow.md)"
-  - "[Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md)"
-  - "[Flows/Account/payment-flow](Flows/Account/payment-flow.md)"
+  - "[Flows/POS/pos-session-flow](odoo-19/Flows/POS/pos-session-flow.md)"
+  - "[Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md)"
+  - "[Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md)"
 related_guides:
-  - "[Business/POS/pos-configuration-guide](Business/POS/pos-configuration-guide.md)"
-  - "[Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md)"
+  - "[Business/POS/pos-configuration-guide](odoo-19/Business/POS/pos-configuration-guide.md)"
+  - "[Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md)"
 source_module: pos
 source_path: ~/odoo/odoo19/odoo/addons/point_of_sale/
 created: 2026-04-07
@@ -355,12 +355,12 @@ def _prepare_invoice_vals(self):
 
 ## Related
 
-- [Flows/POS/pos-session-flow](Flows/POS/pos-session-flow.md) — Session lifecycle and payment registration
-- [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — Generic invoice creation flow
-- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment matching and reconciliation
-- [Business/POS/pos-configuration-guide](Business/POS/pos-configuration-guide.md) — POS setup including invoice journal
-- [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — Manual invoicing guide
-- [Modules/pos](Modules/pos.md) — Full POS module reference
-- [Modules/Account](Modules/Account.md) — account.move, journal entries
-- [Modules/res.partner](Modules/res.partner.md) — Partner model
-- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ACL and record rules
+- [Flows/POS/pos-session-flow](odoo-19/Flows/POS/pos-session-flow.md) — Session lifecycle and payment registration
+- [Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md) — Generic invoice creation flow
+- [Flows/Account/payment-flow](odoo-19/Flows/Account/payment-flow.md) — Payment matching and reconciliation
+- [Business/POS/pos-configuration-guide](odoo-19/Business/POS/pos-configuration-guide.md) — POS setup including invoice journal
+- [Flows/Account/invoice-creation-flow](odoo-19/Flows/Account/invoice-creation-flow.md) — Manual invoicing guide
+- [Modules/pos](odoo-19/Modules/pos.md) — Full POS module reference
+- [Modules/Account](odoo-18/Modules/account.md) — account.move, journal entries
+- [Modules/res.partner](odoo-19/Modules/res.partner.md) — Partner model
+- [Patterns/Security Patterns](odoo-18/Patterns/Security Patterns.md) — ACL and record rules

@@ -34,6 +34,6 @@ tags: [odoo, odoo17, guide]
 
 ## See Also
 
-- [Modules/purchase](Modules/purchase.md)
-- [Modules/stock](Modules/stock.md)
-- [Modules/account](Modules/account.md)
+- [Modules/purchase](odoo-18/Modules/purchase.md)
+- [Modules/stock](odoo-18/Modules/stock.md)
+- [Modules/account](odoo-18/Modules/account.md)

@@ -29,7 +29,7 @@ All data is in English with Spanish translations. Contributions welcome via Laun
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](Modules/Account.md) | Core accounting module |
+| [Modules/Account](odoo-18/Modules/account.md) | Core accounting module |
 
 ## Key Models
 
@@ -67,6 +67,6 @@ Inherits `account.chart.template`:
 - 13% IVA tax template pre-configured for sales and purchases
 
 ## Related Modules
-- [Modules/l10n_cr](Modules/l10n_cr.md) - Core accounting (this module)
-- [Modules/l10n_latam_base](Modules/l10n_latam_base.md) - Latin America base localization
-- [Modules/account](Modules/account.md) - Core accounting
+- [Modules/l10n_cr](odoo-18/Modules/l10n_cr.md) - Core accounting (this module)
+- [Modules/l10n_latam_base](odoo-18/Modules/l10n_latam_base.md) - Latin America base localization
+- [Modules/account](odoo-18/Modules/account.md) - Core accounting

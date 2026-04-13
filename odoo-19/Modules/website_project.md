@@ -21,7 +21,7 @@ tags: [odoo19, modules, website, project, portal, form-builder]
 
 ## Purpose
 
-`website_project` bridges the [Modules/project](Modules/project.md) and [Modules/website](Modules/website.md) modules. It enables two core workflows:
+`website_project` bridges the [Modules/project](odoo-18/Modules/project.md) and [Modules/website](odoo-18/Modules/website.md) modules. It enables two core workflows:
 
 1. **Public task submission**: Anonymous and authenticated website visitors can submit tasks via a website form built with the Form Builder, without needing an Odoo account.
 2. **Portal task display**: Portal users and employees can view their tasks and projects via the website portal.
@@ -550,9 +550,9 @@ website_project
 
 ## Related Modules
 
-- [Modules/website](Modules/website.md) — Website builder, Form Builder, visitor tracking
-- [Modules/project](Modules/project.md) — Project and task models, portal templates
-- [Modules/website_project](Modules/website_project.md) — Meeting-based project page integration on website
+- [Modules/website](odoo-18/Modules/website.md) — Website builder, Form Builder, visitor tracking
+- [Modules/project](odoo-18/Modules/project.md) — Project and task models, portal templates
+- [Modules/website_project](odoo-18/Modules/website_project.md) — Meeting-based project page integration on website
 
 ## Tags
 

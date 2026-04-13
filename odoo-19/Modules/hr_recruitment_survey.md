@@ -85,5 +85,5 @@ Linked to `hr.applicant` via `applicant_id` field (added by this module).
 
 ## Related
 
-- [Modules/hr_recruitment](Modules/hr_recruitment.md)
-- [Modules/survey](Modules/survey.md)
+- [Modules/hr_recruitment](odoo-17/Modules/hr_recruitment.md)
+- [Modules/survey](odoo-18/Modules/survey.md)

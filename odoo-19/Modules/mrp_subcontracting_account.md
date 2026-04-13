@@ -346,8 +346,8 @@ When a receipt is partially received and partially billed, and a backorder is cr
 
 | Module | Relationship |
 |---|---|
-| `[Modules/mrp_subcontracting](Modules/mrp_subcontracting.md)` | Core dependency — provides the subcontracting workflow |
-| `[Modules/mrp_account](Modules/mrp_account.md)` | Core dependency — provides `extra_cost` field and base `_cal_price` |
+| `[Modules/mrp_subcontracting](odoo-18/Modules/mrp_subcontracting.md)` | Core dependency — provides the subcontracting workflow |
+| `[Modules/mrp_account](odoo-18/Modules/mrp_account.md)` | Core dependency — provides `extra_cost` field and base `_cal_price` |
 | `stock_account` | Handles Anglo-Saxon journal entry generation; `_get_aml_value` is called by this module |
 | `mrp_subcontracting_purchase` (EE) | Integrates subcontracting PO with receipt; enables full bill-based `_cal_price` flow |
 | `stock_landed_costs` | Adds additional costs (freight, duty, insurance) on top of subcontracting valuation |

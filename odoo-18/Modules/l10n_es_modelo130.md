@@ -11,10 +11,10 @@ Tags: #odoo18 #l10n #accounting
 Spain Modelo 130 tax report module. Extends the Spanish base localization (`l10n_es`) to add the Modelo 130 declaration — a quarterly self-assessment form for self-employed taxpayers in the direct assessment system. Depends entirely on `l10n_es` for the chart of accounts and base tax data.
 
 ## Country
-[Spain](modules/account.md) 🇪🇸
+[Spain](odoo-18/Modules/account.md) 🇪🇸
 
 ## Dependencies
-- [l10n_es](modules/account.md)
+- [l10n_es](odoo-18/Modules/account.md)
 
 ## Key Models
 
@@ -62,13 +62,13 @@ No custom model classes. Report is defined entirely in XML data.
 Report settings: `filter_multi_company: tax_units` (supports Spanish tax unit consolidation), `filter_journals: True`.
 
 ## Chart of Accounts
-Inherits from [l10n_es](modules/account.md).
+Inherits from [l10n_es](odoo-18/Modules/account.md).
 
 ## Tax Structure
 Withholding taxes (retenciones) in l10n_es carry `-mod130[06]` / `+mod130[06]` tags post-install.
 
 ## Fiscal Positions
-Inherits from [l10n_es](modules/account.md).
+Inherits from [l10n_es](odoo-18/Modules/account.md).
 
 ## EDI/Fiscal Reporting
 AEAT (Agencia Tributaria) Modelo 130 quarterly declaration format.

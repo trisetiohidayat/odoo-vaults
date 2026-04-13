@@ -56,17 +56,17 @@ team_id = fields.Many2one('crm.team', string='Sales Team')
 
 | Model | Relation |
 |-------|----------|
-| [Modules/Sale](Modules/Sale.md) | customer_id |
-| [Modules/Purchase](Modules/Purchase.md) | partner_id (vendor) |
-| [Modules/Account](Modules/Account.md) | partner_id |
-| [Modules/CRM](Modules/CRM.md) | partner_id |
-| [Modules/Stock](Modules/Stock.md) | partner_id |
-| [Modules/MRP](Modules/MRP.md) | None direct |
+| [Modules/Sale](odoo-18/Modules/sale.md) | customer_id |
+| [Modules/Purchase](odoo-18/Modules/purchase.md) | partner_id (vendor) |
+| [Modules/Account](odoo-18/Modules/account.md) | partner_id |
+| [Modules/CRM](odoo-18/Modules/CRM.md) | partner_id |
+| [Modules/Stock](odoo-18/Modules/stock.md) | partner_id |
+| [Modules/MRP](odoo-18/Modules/mrp.md) | None direct |
 
 ## Related
 
-- [Core/BaseModel](Core/BaseModel.md) - ORM foundation
-- [Modules/Sale](Modules/Sale.md) - Customer
-- [Modules/Purchase](Modules/Purchase.md) - Vendor
-- [Modules/Account](Modules/Account.md) - Receivables/Payables
-- [Modules/CRM](Modules/CRM.md) - Lead/Opportunity
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) - ORM foundation
+- [Modules/Sale](odoo-18/Modules/sale.md) - Customer
+- [Modules/Purchase](odoo-18/Modules/purchase.md) - Vendor
+- [Modules/Account](odoo-18/Modules/account.md) - Receivables/Payables
+- [Modules/CRM](odoo-18/Modules/CRM.md) - Lead/Opportunity

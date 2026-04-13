@@ -488,9 +488,9 @@ The SCSS files add comparison-specific styling; the JS files include the interac
 
 ## Related Modules
 
-- [Modules/website_sale](Modules/website_sale.md) — Base eCommerce module; provides the product pages, shop layout, and cart.
-- [Modules/Product](Modules/Product.md) — Core product models (`product.product`, `product.template`, `product.attribute`).
-- [Modules/website_sale_comparison_wishlist](Modules/website_sale_comparison_wishlist.md) — Bridges comparison with wishlist functionality (if installed).
+- [Modules/website_sale](odoo-18/Modules/website_sale.md) — Base eCommerce module; provides the product pages, shop layout, and cart.
+- [Modules/Product](odoo-18/Modules/product.md) — Core product models (`product.product`, `product.template`, `product.attribute`).
+- [Modules/website_sale_comparison_wishlist](odoo-18/Modules/website_sale_comparison_wishlist.md) — Bridges comparison with wishlist functionality (if installed).
 
 ---
 

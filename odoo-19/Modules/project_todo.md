@@ -67,4 +67,4 @@ If name is empty AND no project_id AND no parent_id:
 
 ## Related
 
-[Project.md](Project.md.md), [Calendar.md](Calendar.md.md)
+[Project.md](odoo-18/Modules/project.md), [Calendar.md](odoo-18/Modules/calendar.md)

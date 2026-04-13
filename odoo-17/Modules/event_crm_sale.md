@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, event-crm-sale]
 
 
 
-- [Modules/calendar](Modules/calendar.md) — Event base module
+- [Modules/calendar](odoo-18/Modules/calendar.md) — Event base module

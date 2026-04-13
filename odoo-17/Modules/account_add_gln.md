@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, account-add-gln]
 
 
 
-- [Modules/account](Modules/account.md) — Accounting extension
+- [Modules/account](odoo-18/Modules/account.md) — Accounting extension

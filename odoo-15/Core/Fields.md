@@ -347,6 +347,6 @@ sequence = fields.Integer('Sequence', copy=False)
 ```
 
 ## See Also
-- [Core/BaseModel](Core/BaseModel.md) — Model definition, CRUD
-- [Core/API](Core/API.md) — @api.depends decorator
-- [Tools/ORM Operations](Tools/ORM-Operations.md) — search(), browse(), domain operators
+- [Core/BaseModel](odoo-18/Core/BaseModel.md) — Model definition, CRUD
+- [Core/API](odoo-18/Core/API.md) — @api.depends decorator
+- [Tools/ORM Operations](odoo-18/Tools/ORM Operations.md) — search(), browse(), domain operators

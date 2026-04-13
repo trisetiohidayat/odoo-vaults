@@ -60,5 +60,5 @@ Automatically adds completed eLearning courses to employee resumes. Posts notifi
 - Course completion counts shown on employee kanban
 
 ## Related
-- [Modules/hr_skills](Modules/hr_skills.md) - Core skills module
-- [Modules/website_slides](Modules/website_slides.md) - eLearning platform
+- [Modules/hr_skills](odoo-17/Modules/hr_skills.md) - Core skills module
+- [Modules/website_slides](odoo-18/Modules/website_slides.md) - eLearning platform

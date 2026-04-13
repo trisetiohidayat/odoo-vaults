@@ -266,6 +266,6 @@ def action_cancel(self):
 ```
 
 ## See Also
-- [Modules/Stock](Modules/Stock.md) — Component/finished goods moves
-- [Modules/Product](Modules/Product.md) — BoM product
-- [Modules/Account](Modules/Account.md) — Work center costs
+- [Modules/Stock](odoo-18/Modules/stock.md) — Component/finished goods moves
+- [Modules/Product](odoo-18/Modules/product.md) — BoM product
+- [Modules/Account](odoo-18/Modules/account.md) — Work center costs

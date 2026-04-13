@@ -162,7 +162,7 @@ When `reservation_method = 'by_date'`:
 
 ## See Also
 
-- [Modules/stock](Modules/stock.md) — `stock.picking`, `stock.location`
-- [Modules/stock_warehouse](Modules/stock_warehouse.md) — warehouse configuration
-- [Modules/stock_picking_batch](Modules/stock_picking_batch.md) — batch transfers
-- [Modules/stock_rule](Modules/stock_rule.md) — procurement rules
+- [Modules/stock](odoo-18/Modules/stock.md) — `stock.picking`, `stock.location`
+- [Modules/stock_warehouse](odoo-17/Modules/stock_warehouse.md) — warehouse configuration
+- [Modules/stock_picking_batch](odoo-18/Modules/stock_picking_batch.md) — batch transfers
+- [Modules/stock_rule](odoo-19/Modules/stock_rule.md) — procurement rules

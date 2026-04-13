@@ -24,13 +24,13 @@ version: "1.0"
 ## Quick Access
 
 ### Related Flows
-- [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Barcode scanner use in inventory
-- [Flows/POS/pos-session-flow](Flows/POS/pos-session-flow.md) — Receipt printer and cash drawer integration
+- [Flows/Stock/receipt-flow](odoo-17/Flows/Stock/receipt-flow.md) — Barcode scanner use in inventory
+- [Flows/POS/pos-session-flow](odoo-19/Flows/POS/pos-session-flow.md) — Receipt printer and cash drawer integration
 
 ### Related Modules
-- [Modules/Stock](Modules/Stock.md) — Barcode scanner integration
-- [Modules/POS](Modules/POS.md) — Receipt printer and cash drawer
-- [Modules/MRP](Modules/MRP.md) — Manufacturing device control
+- [Modules/Stock](odoo-18/Modules/stock.md) — Barcode scanner integration
+- [Modules/POS](odoo-19/Modules/pos.md) — Receipt printer and cash drawer
+- [Modules/MRP](odoo-18/Modules/mrp.md) — Manufacturing device control
 
 ---
 

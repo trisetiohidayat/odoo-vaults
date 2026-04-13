@@ -3,7 +3,7 @@ Module: auth_totp_portal
 Version: Odoo 18
 Type: Extension
 Tags: [#odoo, #odoo18, #security, #auth, #totp, #2fa, #portal, #website]
-Related: [Modules/auth_totp](Modules/auth_totp.md) (base TOTP), [Modules/auth_totp_mail](Modules/auth_totp_mail.md) (notifications), [Modules/auth_totp_mail_enforce](Modules/auth_totp_mail_enforce.md) (enforcement), [Modules/Portal](Modules/Portal.md) (portal module)
+Related: [Modules/auth_totp](odoo-18/Modules/auth_totp.md) (base TOTP), [Modules/auth_totp_mail](odoo-17/Modules/auth_totp_mail.md) (notifications), [Modules/auth_totp_mail_enforce](odoo-17/Modules/auth_totp_mail_enforce.md) (enforcement), [Modules/Portal](odoo-18/Modules/portal.md) (portal module)
 ---
 
 # auth_totp_portal — TOTP for Portal Users

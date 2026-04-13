@@ -23,9 +23,9 @@ version: "1.0"
 ## Quick Access
 
 ### Related Modules
-- [Modules/Calendar](Modules/Calendar.md) — Base calendar module (dependency)
-- [Core/API](Core/API.md) — @api decorators used in sync logic
-- [Core/Fields](Core/Fields.md) — Relational fields (Many2one, One2many) used for attendees
+- [Modules/Calendar](odoo-18/Modules/calendar.md) — Base calendar module (dependency)
+- [Core/API](odoo-18/Core/API.md) — @api decorators used in sync logic
+- [Core/Fields](odoo-18/Core/Fields.md) — Relational fields (Many2one, One2many) used for attendees
 
 ---
 

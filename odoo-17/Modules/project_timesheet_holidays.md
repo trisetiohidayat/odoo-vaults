@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, project-timesheet-holidays]
 
 
 
-- [Modules/project](Modules/project.md) — Project base module
+- [Modules/project](odoo-18/Modules/project.md) — Project base module
