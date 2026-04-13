@@ -255,8 +255,8 @@ The domain is evaluated server-side with `search_count()` to compute the `mailin
 
 ## Related Documentation
 
-- [Modules/Mass Mailing](modules/mass-mailing.md) — base mass mailing module (`mailing.mailing`, `mailing.trace`)
-- [Modules/CRM](modules/crm.md) — base CRM module (`crm.lead`, UTM mixin)
-- [Modules/Mass Mailing Sale](modules/mass-mailing-sale.md) — sale order email marketing tracking
-- [Modules/crm-sms](modules/crm-sms.md) — CRM SMS integration
-- [Core/Fields](core/fields.md) — Many2one, computed fields, `store=True` behavior
+- [Modules/Mass Mailing](Modules/Mass-Mailing.md) — base mass mailing module (`mailing.mailing`, `mailing.trace`)
+- [Modules/CRM](Modules/CRM.md) — base CRM module (`crm.lead`, UTM mixin)
+- [Modules/Mass Mailing Sale](Modules/Mass-Mailing-Sale.md) — sale order email marketing tracking
+- [Modules/crm-sms](Modules/crm-sms.md) — CRM SMS integration
+- [Core/Fields](Core/Fields.md) — Many2one, computed fields, `store=True` behavior

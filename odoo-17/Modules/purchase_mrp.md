@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, purchase-mrp]
 
 
 
-- [Modules/purchase](modules/purchase.md) — Purchase base module
+- [Modules/purchase](Modules/purchase.md) — Purchase base module

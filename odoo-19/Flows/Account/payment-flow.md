@@ -12,11 +12,11 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md)"
-  - "[Flows/Account/payment-flow](flows/account/payment-flow.md)"
-  - "[Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md)"
+  - "[Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md)"
+  - "[Flows/Account/payment-flow](Flows/Account/payment-flow.md)"
+  - "[Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md)"
 related_guides:
-  - "[Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md)"
+  - "[Business/Account/chart-of-accounts-guide](Business/Account/chart-of-accounts-guide.md)"
 source_module: account
 source_path: ~/odoo/odoo19/odoo/addons/account/
 created: 2026-04-06
@@ -318,9 +318,9 @@ Posted Payment (inbound, state=posted)
 
 ## Related
 
-- [Modules/Account](modules/account.md) — Account module reference
-- [Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md) — Previous step: posting the invoice
-- [Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md) — Invoice creation before posting
-- [Flows/Account/payment-flow](flows/account/payment-flow.md) — Automatic reconciliation logic
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
-- [Core/API](core/api.md) — @api decorator patterns
+- [Modules/Account](Modules/Account.md) — Account module reference
+- [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Previous step: posting the invoice
+- [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — Invoice creation before posting
+- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Automatic reconciliation logic
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Workflow pattern reference
+- [Core/API](Core/API.md) — @api decorator patterns

@@ -107,4 +107,4 @@ Produktopsætning:
 - Custom model files: account_journal.py, account_account.py, template_dk.py, res_partner.py
 
 ## Related
-- [Modules/l10n_dk](modules/l10n_dk.md) - Core accounting
+- [Modules/l10n_dk](Modules/l10n_dk.md) - Core accounting

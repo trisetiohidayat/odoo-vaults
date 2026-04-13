@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, sale-mrp-margin]
 
 
 
-- [Modules/sale](modules/sale.md) — Sales base module
+- [Modules/sale](Modules/sale.md) — Sales base module

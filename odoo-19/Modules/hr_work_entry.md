@@ -809,10 +809,10 @@ One record per user-employee pair. Controls which employees appear in the user's
 
 ## Related
 
-- [Modules/hr](modules/hr.md) — HR core
-- [Modules/hr_work_entry_holidays](modules/hr_work_entry_holidays.md) — Leave integration
-- [Modules/hr_attendance](modules/hr_attendance.md) — Attendance-based generation
-- [Modules/HR](modules/hr.md) — Payroll computation from validated entries
-- [Modules/HR](modules/hr.md) — Contract/Version model
-- [Core/Fields](core/fields.md) — Field type reference
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine design
+- [Modules/hr](Modules/hr.md) — HR core
+- [Modules/hr_work_entry_holidays](Modules/hr_work_entry_holidays.md) — Leave integration
+- [Modules/hr_attendance](Modules/hr_attendance.md) — Attendance-based generation
+- [Modules/HR](Modules/HR.md) — Payroll computation from validated entries
+- [Modules/HR](Modules/HR.md) — Contract/Version model
+- [Core/Fields](Core/Fields.md) — Field type reference
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine design

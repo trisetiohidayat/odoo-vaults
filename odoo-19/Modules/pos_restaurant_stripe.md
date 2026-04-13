@@ -246,9 +246,9 @@ The module has **no security concerns**: it runs exclusively on the client, has 
 
 ## Related Documentation
 
-- [Modules/pos_restaurant](modules/pos_restaurant.md) — Restaurant POS base module
-- [Modules/pos_stripe](modules/pos_stripe.md) — Stripe POS integration
-- [Modules/payment_stripe](modules/payment_stripe.md) — Stripe payment provider
+- [Modules/pos_restaurant](Modules/pos_restaurant.md) — Restaurant POS base module
+- [Modules/pos_stripe](Modules/pos_stripe.md) — Stripe POS integration
+- [Modules/payment_stripe](Modules/payment_stripe.md) — Stripe payment provider
 
 ---
 

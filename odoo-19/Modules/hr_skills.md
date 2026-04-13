@@ -1639,26 +1639,26 @@ Test: Activities are only created once
 
 ## Related Modules
 
-- [Modules/HR](modules/hr.md) - Core HR module (dependency)
-- [Modules/Resource](modules/resource.md) - Resource scheduling
-- [Modules/Mail](modules/mail.md) - Activity and notification system
-- [Modules/documents](modules/documents.md) - Document management for certificates
-- [Modules/hr_recruitment](modules/hr_recruitment.md) - Applicant tracking (skill matching)
-- [Modules/hr_recruitment_skills](modules/hr_recruitment_skills.md) - Skills assessment for recruitment
-- [Modules/hr_skills](modules/hr_skills.md) - Skills assessment in events
-- [Modules/hr_skills](modules/hr_skills.md) - Skills from e-learning (integrates with slides)
-- [Modules/hr_skills](modules/hr_skills.md) - Skills from surveys/certifications
+- [Modules/HR](Modules/HR.md) - Core HR module (dependency)
+- [Modules/Resource](Modules/Resource.md) - Resource scheduling
+- [Modules/Mail](Modules/Mail.md) - Activity and notification system
+- [Modules/documents](Modules/documents.md) - Document management for certificates
+- [Modules/hr_recruitment](Modules/hr_recruitment.md) - Applicant tracking (skill matching)
+- [Modules/hr_recruitment_skills](Modules/hr_recruitment_skills.md) - Skills assessment for recruitment
+- [Modules/hr_skills](Modules/hr_skills.md) - Skills assessment in events
+- [Modules/hr_skills](Modules/hr_skills.md) - Skills from e-learning (integrates with slides)
+- [Modules/hr_skills](Modules/hr_skills.md) - Skills from surveys/certifications
 
 ---
 
 ## See Also
 
-- [Core/Fields](core/fields.md) - Field types used in skills
-- [Core/API](core/api.md) - @api.depends, @api.constrains decorators
-- [Core/BaseModel](core/basemodel.md) - Model foundation and inheritance
-- [Patterns/Security Patterns](patterns/security-patterns.md) - Access control implementation
-- [Modules/HR](modules/hr.md) - Employee model extension
-- [Modules/hr_recruitment](modules/hr_recruitment.md) - Job position model
+- [Core/Fields](Core/Fields.md) - Field types used in skills
+- [Core/API](Core/API.md) - @api.depends, @api.constrains decorators
+- [Core/BaseModel](Core/BaseModel.md) - Model foundation and inheritance
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) - Access control implementation
+- [Modules/HR](Modules/HR.md) - Employee model extension
+- [Modules/hr_recruitment](Modules/hr_recruitment.md) - Job position model
 
 ---
 

@@ -13,11 +13,11 @@ prerequisites:
   - partners_have_npwz_or_nik
 estimated_time: "~20 minutes"
 related_flows:
-  - "[Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md)"
-  - "[Flows/Purchase/purchase-withholding-flow](flows/purchase/purchase-withholding-flow.md)"
-  - "[Flows/Account/payment-flow](flows/account/payment-flow.md)"
+  - "[Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md)"
+  - "[Flows/Purchase/purchase-withholding-flow](Flows/Purchase/purchase-withholding-flow.md)"
+  - "[Flows/Account/payment-flow](Flows/Account/payment-flow.md)"
 related_guides:
-  - "[Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md)"
+  - "[Business/Account/chart-of-accounts-guide](Business/Account/chart-of-accounts-guide.md)"
 source_module: l10n_id
 created: 2026-04-07
 updated: 2026-04-07
@@ -55,11 +55,11 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Purchase/purchase-withholding-flow](flows/purchase/purchase-withholding-flow.md) | Full withholding tax method chain |
-| 🔀 Technical Flow | [Flows/Account/edi-invoice-flow](flows/account/edi-invoice-flow.md) | Peppol/e-Faktur integration |
-| 📖 Module Reference | [Modules/Account](modules/account.md) | `account.move`, `account.tax` fields |
-| 📋 Related Guide | [Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md) | Indonesian COA structure |
-| 🔧 Configuration | [Modules/Account](modules/account.md) → Tax Configuration | Tax groups, rates, fiscal positions |
+| 🔀 Technical Flow | [Flows/Purchase/purchase-withholding-flow](Flows/Purchase/purchase-withholding-flow.md) | Full withholding tax method chain |
+| 🔀 Technical Flow | [Flows/Account/edi-invoice-flow](Flows/Account/edi-invoice-flow.md) | Peppol/e-Faktur integration |
+| 📖 Module Reference | [Modules/Account](Modules/Account.md) | `account.move`, `account.tax` fields |
+| 📋 Related Guide | [Business/Account/chart-of-accounts-guide](Business/Account/chart-of-accounts-guide.md) | Indonesian COA structure |
+| 🔧 Configuration | [Modules/Account](Modules/Account.md) → Tax Configuration | Tax groups, rates, fiscal positions |
 
 ---
 
@@ -564,10 +564,10 @@ Once approved, click **Download PDF** to get the official DJP e-Faktur document 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Purchase/purchase-withholding-flow](flows/purchase/purchase-withholding-flow.md) | Full PPh 21/22/23/26 method chain |
-| 🔀 Technical Flow | [Flows/Account/edi-invoice-flow](flows/account/edi-invoice-flow.md) | e-Faktur + Peppol integration |
-| 🔀 Technical Flow | [Flows/Stock/stock-valuation-flow](flows/stock/stock-valuation-flow.md) | Landed costs with PPN treatment |
-| 📖 Module Reference | [Modules/Account](modules/account.md) | `account.move`, `account.tax` fields |
-| 📋 Related Guide | [Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md) | Indonesian COA setup |
-| 🔧 Patterns | [Patterns/Security Patterns](patterns/security-patterns.md) | Tax computation and fiscal positions |
-| 🛠️ Snippets | [Snippets/Model Snippets](snippets/model-snippets.md) | Code for custom tax computation |
+| 🔀 Technical Flow | [Flows/Purchase/purchase-withholding-flow](Flows/Purchase/purchase-withholding-flow.md) | Full PPh 21/22/23/26 method chain |
+| 🔀 Technical Flow | [Flows/Account/edi-invoice-flow](Flows/Account/edi-invoice-flow.md) | e-Faktur + Peppol integration |
+| 🔀 Technical Flow | [Flows/Stock/stock-valuation-flow](Flows/Stock/stock-valuation-flow.md) | Landed costs with PPN treatment |
+| 📖 Module Reference | [Modules/Account](Modules/Account.md) | `account.move`, `account.tax` fields |
+| 📋 Related Guide | [Business/Account/chart-of-accounts-guide](Business/Account/chart-of-accounts-guide.md) | Indonesian COA setup |
+| 🔧 Patterns | [Patterns/Security Patterns](Patterns/Security-Patterns.md) | Tax computation and fiscal positions |
+| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model-Snippets.md) | Code for custom tax computation |

@@ -8,10 +8,10 @@ Tags: #odoo18 #l10n #edi #romania #etransport #batch
 # l10n_ro_edi_stock_batch
 
 ## Overview
-Extends [Modules/l10n_ro_edi_stock](modules/l10n_ro_edi_stock.md) to support e-Transport declarations for **batch pickings** (multiple pickings grouped together). When multiple stock pickings are processed in a batch, this module generates a consolidated e-Transport declaration covering all pickings in the batch.
+Extends [Modules/l10n_ro_edi_stock](Modules/l10n_ro_edi_stock.md) to support e-Transport declarations for **batch pickings** (multiple pickings grouped together). When multiple stock pickings are processed in a batch, this module generates a consolidated e-Transport declaration covering all pickings in the batch.
 
 ## EDI Format / Standard
-Same as [Modules/l10n_ro_edi_stock](modules/l10n_ro_edi_stock.md) — e-Transport XML format for ANAF.
+Same as [Modules/l10n_ro_edi_stock](Modules/l10n_ro_edi_stock.md) — e-Transport XML format for ANAF.
 
 ## Dependencies
 - `l10n_ro_edi_stock` — Base e-Transport module

@@ -58,5 +58,5 @@ DOI fiscal position handling.
 DOI support in sales orders.
 
 ## Related
-- [Modules/l10n_it_edi](modules/l10n_it_edi.md) — Italian e-invoicing (SDI)
-- [Modules/l10n_it](modules/l10n_it.md) — Core Italian accounting
+- [Modules/l10n_it_edi](Modules/l10n_it_edi.md) — Italian e-invoicing (SDI)
+- [Modules/l10n_it](Modules/l10n_it.md) — Core Italian accounting

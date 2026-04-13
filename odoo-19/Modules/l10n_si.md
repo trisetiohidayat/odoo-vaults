@@ -45,5 +45,5 @@ Slovenian invoice/e-invoice fields.
 - UBL e-invoice support
 
 ## Related
-- [Modules/Account](modules/account.md) — Core accounting
-- [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md) — UBL e-invoicing
+- [Modules/Account](Modules/Account.md) — Core accounting
+- [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) — UBL e-invoicing

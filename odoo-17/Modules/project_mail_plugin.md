@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, project-mail-plugin]
 
 
 
-- [Modules/project](modules/project.md) — Project base module
+- [Modules/project](Modules/project.md) — Project base module

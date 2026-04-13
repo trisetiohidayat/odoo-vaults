@@ -65,7 +65,7 @@ Returns allocation data for all employees. For leave types where `overtime_deduc
 
 ## `hr.leave` — EXTENDED
 
-Inherited from `hr.leave`. See also: [Modules/HR Holidays](modules/hr-holidays.md).
+Inherited from `hr.leave`. See also: [Modules/HR Holidays](Modules/HR-Holidays.md).
 
 ### Fields
 
@@ -233,7 +233,7 @@ If the accrual level uses `frequency='hourly'` with `frequency_hourly_source='at
 
 ## `hr.attendance` — EXTENDED
 
-Inherited from `hr.attendance`. See also: [Modules/HR Attendance](modules/hr-attendance.md).
+Inherited from `hr.attendance`. See also: [Modules/HR Attendance](Modules/HR-Attendance.md).
 
 ### Overridden Method: `_get_overtime_leave_domain()`
 

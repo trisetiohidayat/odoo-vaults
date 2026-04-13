@@ -30,7 +30,7 @@ Bangladesh has a comprehensive VAT system administered by the NBR (National Boar
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account](modules/account.md) | Core accounting |
+| [Modules/account](Modules/account.md) | Core accounting |
 
 ## Key Models
 
@@ -81,5 +81,5 @@ Extends chart of accounts with Bangladesh-specific template:
 
 ## Related
 
-- [Modules/account](modules/account.md) - Core accounting module
+- [Modules/account](Modules/account.md) - Core accounting module
 - [NBR Bangladesh](https://www.nbr.gov.bd)

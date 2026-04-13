@@ -14,12 +14,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md)"
-  - "[Flows/Stock/picking-action-flow](flows/stock/picking-action-flow.md)"
-  - "[Flows/Stock/receipt-flow](flows/stock/receipt-flow.md)"
+  - "[Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md)"
+  - "[Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md)"
+  - "[Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md)"
 related_guides:
-  - "[Modules/Stock](modules/stock.md)"
-  - "[Modules/Sale](modules/sale.md)"
+  - "[Modules/Stock](Modules/Stock.md)"
+  - "[Modules/Sale](Modules/Sale.md)"
 source_module: stock, sale
 source_path: ~/odoo/odoo19/odoo/addons/stock/
 created: 2026-04-06
@@ -411,10 +411,10 @@ def action_done(self):
 
 ## Related
 
-- [Modules/Stock](modules/stock.md) — Stock/picking module reference
-- [Modules/Sale](modules/sale.md) — Sale module reference
-- [Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md) — Sale order to delivery (same content, SO-focused)
-- [Flows/Stock/picking-action-flow](flows/stock/picking-action-flow.md) — Generic picking lifecycle (confirm→assign→done)
-- [Flows/Stock/receipt-flow](flows/stock/receipt-flow.md) — Incoming receipt counterpart
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
-- [Core/API](core/api.md) — @api decorator patterns
+- [Modules/Stock](Modules/Stock.md) — Stock/picking module reference
+- [Modules/Sale](Modules/Sale.md) — Sale module reference
+- [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) — Sale order to delivery (same content, SO-focused)
+- [Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md) — Generic picking lifecycle (confirm→assign→done)
+- [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Incoming receipt counterpart
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Workflow pattern reference
+- [Core/API](Core/API.md) — @api decorator patterns

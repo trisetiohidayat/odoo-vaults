@@ -788,9 +788,9 @@ Cells holding unresolved data sources display `"Loading..."` and throw `LoadingD
 
 ## Related Documentation
 
-- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — Dashboard templates using `spreadsheet.mixin`
-- [Modules/spreadsheet_account](modules/spreadsheet_account.md) — Accounting data source and currency formulas
-- [Core/API](core/api.md) — `@api.model` RPC methods, `@api.constrains`, `@api.depends`
-- [Core/Fields](core/fields.md) — Binary field storage, computed/inverse pattern
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Collaboration patterns via `bus` module
-- [Modules/bus](modules/bus.md) — WebSocket real-time collaboration
+- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard templates using `spreadsheet.mixin`
+- [Modules/spreadsheet_account](Modules/spreadsheet_account.md) — Accounting data source and currency formulas
+- [Core/API](Core/API.md) — `@api.model` RPC methods, `@api.constrains`, `@api.depends`
+- [Core/Fields](Core/Fields.md) — Binary field storage, computed/inverse pattern
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Collaboration patterns via `bus` module
+- [Modules/bus](Modules/bus.md) — WebSocket real-time collaboration

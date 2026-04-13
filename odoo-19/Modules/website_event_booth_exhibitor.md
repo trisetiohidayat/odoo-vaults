@@ -39,6 +39,6 @@
 - `_prepare_booth_registration_sponsor_values()` - Builds sponsor values dict from request params (sponsor_name, sponsor_email, sponsor_phone, sponsor_subtitle, sponsor_website_description, sponsor_image_512)
 
 ## Related
-- [Modules/website_event_booth](modules/website_event_booth.md) - Booth registration on website
-- [Modules/website_event_exhibitor](modules/website_event_exhibitor.md) - Event exhibitor pages
-- [Modules/event_booth](modules/event_booth.md) - Booth management backend
+- [Modules/website_event_booth](Modules/website_event_booth.md) - Booth registration on website
+- [Modules/website_event_exhibitor](Modules/website_event_exhibitor.md) - Event exhibitor pages
+- [Modules/event_booth](Modules/event_booth.md) - Booth management backend

@@ -14,7 +14,7 @@ Singapore accounting localization providing the Singapore Chart of Accounts, GST
 Singapore
 
 ## Dependencies
-- [Core/BaseModel](core/basemodel.md) (account)
+- [Core/BaseModel](Core/BaseModel.md) (account)
 - `account_qr_code_emv` — EMV QR code generation for PayNow QR
 
 ## Key Models
@@ -91,7 +91,7 @@ None explicitly defined in this module.
 - IRAS GST Return report (9-box format, extended with import deferment)
 - PayNow QR codes (SGD only, via mobile number or UEN proxy)
 - UEN on partners enables Peppol endpoint resolution
-- Companion module [Modules/l10n_sg_ubl_pint](modules/l10n_sg_ubl_pint.md) for Peppol PINT SG e-invoicing
+- Companion module [Modules/l10n_sg_ubl_pint](Modules/l10n_sg_ubl_pint.md) for Peppol PINT SG e-invoicing
 
 ## Installation
 Install via Apps or during company setup by selecting Singapore as country. Post-init hook preserves tax tags on existing taxes. Auto-installs with `account`.

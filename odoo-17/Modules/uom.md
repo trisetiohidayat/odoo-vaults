@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, uom]
 
 
 
-- [Modules/base](modules/base.md) — Base/utility module
+- [Modules/base](Modules/base.md) — Base/utility module

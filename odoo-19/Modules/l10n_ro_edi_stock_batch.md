@@ -21,14 +21,14 @@ created: 2026-04-06
 
 ## Description
 
-This module extends [Modules/l10n_ro_edi_stock](modules/l10n_ro_edi_stock.md) to support **batch picking** operations for the Romanian e-Transport system. It enables consolidated e-Transport reporting for multiple stock pickings grouped into a single batch operation.
+This module extends [Modules/l10n_ro_edi_stock](Modules/l10n_ro_edi_stock.md) to support **batch picking** operations for the Romanian e-Transport system. It enables consolidated e-Transport reporting for multiple stock pickings grouped into a single batch operation.
 
 ## Dependencies
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/l10n_ro_edi_stock](modules/l10n_ro_edi_stock.md) | Base e-Transport (ANAF API utilities) |
-| [Modules/stock_picking_batch](modules/stock_picking_batch.md) | Batch picking management |
+| [Modules/l10n_ro_edi_stock](Modules/l10n_ro_edi_stock.md) | Base e-Transport (ANAF API utilities) |
+| [Modules/stock_picking_batch](Modules/stock_picking_batch.md) | Batch picking management |
 
 ## Auto-Install
 
@@ -90,10 +90,10 @@ Individual pickings within a batch inherit batch-level e-Transport reporting:
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_ro](modules/l10n_ro.md) | Base Romanian accounting |
-| [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) | ANAF e-Factura |
-| [Modules/l10n_ro_edi_stock](modules/l10n_ro_edi_stock.md) | Base e-Transport for single pickings |
-| [Modules/stock_picking_batch](modules/stock_picking_batch.md) | Batch picking management |
+| [Modules/l10n_ro](Modules/l10n_ro.md) | Base Romanian accounting |
+| [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) | ANAF e-Factura |
+| [Modules/l10n_ro_edi_stock](Modules/l10n_ro_edi_stock.md) | Base e-Transport for single pickings |
+| [Modules/stock_picking_batch](Modules/stock_picking_batch.md) | Batch picking management |
 
 ## Configuration
 
@@ -106,13 +106,13 @@ Individual pickings within a batch inherit batch-level e-Transport reporting:
 ## Technical Notes
 
 - Batch e-Transport consolidates multiple pickings into one ANAF report
-- Uses the same ANAF e-Transport API as [Modules/l10n_ro_edi_stock](modules/l10n_ro_edi_stock.md)
+- Uses the same ANAF e-Transport API as [Modules/l10n_ro_edi_stock](Modules/l10n_ro_edi_stock.md)
 - Each batch generates a single e-Transport document ID
 - Child pickings reference the parent batch document
 - Test/prod environment toggle inherited from company settings
 
 ## See Also
 
-- [Modules/l10n_ro_edi_stock](modules/l10n_ro_edi_stock.md) - e-Transport for single pickings
-- [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) - ANAF e-Factura
-- [Modules/l10n_ro](modules/l10n_ro.md) - Romanian accounting
+- [Modules/l10n_ro_edi_stock](Modules/l10n_ro_edi_stock.md) - e-Transport for single pickings
+- [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) - ANAF e-Factura
+- [Modules/l10n_ro](Modules/l10n_ro.md) - Romanian accounting

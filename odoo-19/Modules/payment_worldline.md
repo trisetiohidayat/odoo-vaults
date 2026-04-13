@@ -72,6 +72,6 @@ A French payment provider covering several European countries. Integrates with W
 
 ## Related
 
-- [Modules/payment](modules/payment.md) -- Base payment module
-- [Modules/payment_buckaroo](modules/payment_buckaroo.md) -- Another European payment provider
-- [Modules/payment_mollie](modules/payment_mollie.md) -- Another Dutch/European provider
+- [Modules/payment](Modules/payment.md) -- Base payment module
+- [Modules/payment_buckaroo](Modules/payment_buckaroo.md) -- Another European payment provider
+- [Modules/payment_mollie](Modules/payment_mollie.md) -- Another Dutch/European provider

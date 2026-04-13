@@ -469,7 +469,7 @@ The `event.booth.registration` model allows multiple pending registrations for t
 
 ## See Also
 
-- [Core/API](core/api.md) — @api.depends, @api.onchange, @api.constrains
+- [Core/API](Core/API.md) — @api.depends, @api.onchange, @api.constrains
 - `event_booth` — base booth management
 - `event_sale` — event ticket sales (sale order integration)
 - `event_crm_sale` — CRM lead creation from event registrations

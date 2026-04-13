@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, spreadsheet-dashboard-account]
 
 
 
-- [Modules/spreadsheet](modules/spreadsheet.md) — Spreadsheet base
+- [Modules/spreadsheet](Modules/spreadsheet.md) — Spreadsheet base

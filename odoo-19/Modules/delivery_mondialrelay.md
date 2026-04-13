@@ -54,6 +54,6 @@ Integrates the Mondiani Relay Point Relais delivery service. Allows customers to
 - Widget for Point Relais selection is loaded via web assets
 
 ## Related
-- [Modules/delivery](modules/delivery.md)
-- [Modules/stock_delivery](modules/stock_delivery.md)
-- [Modules/website_sale_mondialrelay](modules/website_sale_mondialrelay.md)
+- [Modules/delivery](Modules/delivery.md)
+- [Modules/stock_delivery](Modules/stock_delivery.md)
+- [Modules/website_sale_mondialrelay](Modules/website_sale_mondialrelay.md)

@@ -67,6 +67,6 @@ Inherits `chatbot.script.step`. Adds lead creation step types.
 - Group: `event.group_event_registration_desk` controls registration_id visibility
 
 ## Related
-- [Modules/crm](modules/crm.md) — CRM base
-- [Modules/im_livechat](modules/im_livechat.md) — Live chat
-- [Modules/crm_mail_plugin](modules/crm_mail_plugin.md) — CRM email plugin
+- [Modules/crm](Modules/crm.md) — CRM base
+- [Modules/im_livechat](Modules/im_livechat.md) — Live chat
+- [Modules/crm_mail_plugin](Modules/crm_mail_plugin.md) — CRM email plugin

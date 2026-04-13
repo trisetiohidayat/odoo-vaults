@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, spreadsheet-account]
 
 
 
-- [Modules/account](modules/account.md) — Accounting spreadsheet integration
+- [Modules/account](Modules/account.md) — Accounting spreadsheet integration

@@ -14,4 +14,4 @@ Localized accounting for China.
 - **Localization type**: data-only (chart of accounts + taxes)
 
 ## Related
-- [Modules/l10n_cn](modules/l10n_cn.md) — Core accounting
+- [Modules/l10n_cn](Modules/l10n_cn.md) — Core accounting

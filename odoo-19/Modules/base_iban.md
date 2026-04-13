@@ -579,9 +579,9 @@ The Odoo 19 web client changed how field events propagate. The `IbanWidget` hand
 
 ## Related Documentation
 
-- [Core/Fields](core/fields.md) — Field types used in `res.partner.bank` (`Char`, `Selection`, `Many2one`)
-- [Core/API](core/api.md) — `@api.constrains`, `@api.model_create_multi`, `@api.depends` patterns
-- [Modules/Account](modules/account.md) — `account.res.partner.bank` extension (trust flags, QR codes)
-- [Modules/account_qr_code_sepa](modules/account_qr_code_sepa.md) — SEPA QR code generation
-- [Modules/base_vat](modules/base_vat.md) — VAT validation (analogous to IBAN validation)
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns (IBAN accounts use `acc_type` as a type discriminator, not a workflow state)
+- [Core/Fields](Core/Fields.md) — Field types used in `res.partner.bank` (`Char`, `Selection`, `Many2one`)
+- [Core/API](Core/API.md) — `@api.constrains`, `@api.model_create_multi`, `@api.depends` patterns
+- [Modules/Account](Modules/Account.md) — `account.res.partner.bank` extension (trust flags, QR codes)
+- [Modules/account_qr_code_sepa](Modules/account_qr_code_sepa.md) — SEPA QR code generation
+- [Modules/base_vat](Modules/base_vat.md) — VAT validation (analogous to IBAN validation)
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine patterns (IBAN accounts use `acc_type` as a type discriminator, not a workflow state)

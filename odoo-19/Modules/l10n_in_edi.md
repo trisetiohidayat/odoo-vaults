@@ -55,7 +55,7 @@ E-invoice API credentials (username/password) per company.
 Indian GSTIN validation and partner fields.
 
 ## Related
-- [Modules/l10n_in](modules/l10n_in.md) — Core Indian accounting
-- [Modules/l10n_in_edi](modules/l10n_in_edi.md) — Indian e-invoice base
-- [Modules/l10n_in_ewaybill](modules/l10n_in_ewaybill.md) — Indian e-waybill
-- [Modules/account_edi](modules/account_edi.md) — EDI framework
+- [Modules/l10n_in](Modules/l10n_in.md) — Core Indian accounting
+- [Modules/l10n_in_edi](Modules/l10n_in_edi.md) — Indian e-invoice base
+- [Modules/l10n_in_ewaybill](Modules/l10n_in_ewaybill.md) — Indian e-waybill
+- [Modules/account_edi](Modules/account_edi.md) — EDI framework

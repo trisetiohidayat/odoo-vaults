@@ -44,7 +44,7 @@ Saudi Arabian POS localization. Enforces company country setup before opening PO
 **`_compute_l10n_sa_reason_value()`** — Maps the reason code to its translated display name
 
 ## Related
-- [Modules/l10n_sa](modules/l10n_sa.md) — Core Saudi accounting
-- [Modules/l10n_sa_edi](modules/l10n_sa_edi.md) — ZATCA e-invoicing
-- [Modules/l10n_sa_edi_pos](modules/l10n_sa_edi_pos.md) — ZATCA e-invoicing for POS
-- [Modules/l10n_gcc_pos](modules/l10n_gcc_pos.md) — GCC POS base
+- [Modules/l10n_sa](Modules/l10n_sa.md) — Core Saudi accounting
+- [Modules/l10n_sa_edi](Modules/l10n_sa_edi.md) — ZATCA e-invoicing
+- [Modules/l10n_sa_edi_pos](Modules/l10n_sa_edi_pos.md) — ZATCA e-invoicing for POS
+- [Modules/l10n_gcc_pos](Modules/l10n_gcc_pos.md) — GCC POS base

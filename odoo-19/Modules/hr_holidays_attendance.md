@@ -70,6 +70,6 @@ Converts extra attendance hours to leave allocations. Employees can convert over
 - Overtime lines marked as `compensable_as_leave` count toward leave balance
 
 ## Related
-- [Modules/hr_attendance](modules/hr_attendance.md) - Attendance tracking
-- [Modules/hr_holidays](modules/hr_holidays.md) - Leave management
-- [Modules/hr_work_entry](modules/hr_work_entry.md) - Work entries for payroll
+- [Modules/hr_attendance](Modules/hr_attendance.md) - Attendance tracking
+- [Modules/hr_holidays](Modules/hr_holidays.md) - Leave management
+- [Modules/hr_work_entry](Modules/hr_work_entry.md) - Work entries for payroll

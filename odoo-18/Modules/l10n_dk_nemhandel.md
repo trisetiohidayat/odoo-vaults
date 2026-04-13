@@ -40,13 +40,13 @@ Generates OIOUBL 2.1 compliant XML invoices. OIOUBL is the Danish profile of UBL
 - `data/nemhandel_onboarding_tour.xml` — onboarding tour data
 
 ## Chart of Accounts
-Inherits chart of accounts from `[Modules/l10n_dk](modules/l10n_dk.md)`.
+Inherits chart of accounts from `[Modules/l10n_dk](Modules/l10n_dk.md)`.
 
 ## Tax Structure
-Inherits tax structure from `[Modules/l10n_dk](modules/l10n_dk.md)`.
+Inherits tax structure from `[Modules/l10n_dk](Modules/l10n_dk.md)`.
 
 ## Fiscal Positions
-Inherits fiscal positions from `[Modules/l10n_dk](modules/l10n_dk.md)`.
+Inherits fiscal positions from `[Modules/l10n_dk](Modules/l10n_dk.md)`.
 
 ## EDI/Fiscal Reporting
 **Nemhandel OIOUBL 2.1** — Danish national e-invoicing format via the Peppol network. Mandatory for B2G invoicing. The module:

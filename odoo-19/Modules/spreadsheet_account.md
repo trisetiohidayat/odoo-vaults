@@ -403,7 +403,7 @@ Jan Invoices: =ODOO.RESIDUAL({"codes": ["130000"], "date_range": {"range_type": 
 
 ## See Also
 
-- [Modules/Account](modules/account.md) — account.move, account.move.line data model
-- [Core/API](core/api.md) — @api.model, @api.readonly decorators
-- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — Dashboard spreadsheets built on top of this module
-- [Tools/ORM Operations](tools/orm-operations.md) — _read_group, Domain composition
+- [Modules/Account](Modules/Account.md) — account.move, account.move.line data model
+- [Core/API](Core/API.md) — @api.model, @api.readonly decorators
+- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard spreadsheets built on top of this module
+- [Tools/ORM Operations](Tools/ORM-Operations.md) — _read_group, Domain composition

@@ -14,12 +14,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Purchase/purchase-order-creation-flow](flows/purchase/purchase-order-creation-flow.md)"
-  - "[Flows/Purchase/purchase-to-bill-flow](flows/purchase/purchase-to-bill-flow.md)"
-  - "[Flows/Stock/receipt-flow](flows/stock/receipt-flow.md)"
+  - "[Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md)"
+  - "[Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md)"
+  - "[Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md)"
 related_guides:
-  - "[Modules/Purchase](modules/purchase.md)"
-  - "[Modules/Stock](modules/stock.md)"
+  - "[Modules/Purchase](Modules/Purchase.md)"
+  - "[Modules/Stock](Modules/Stock.md)"
 source_module: purchase, stock
 source_path: ~/odoo/odoo19/odoo/addons/stock/
 created: 2026-04-06
@@ -420,10 +420,10 @@ def action_done(self):
 
 ## Related
 
-- [Modules/Purchase](modules/purchase.md) — Purchase module reference
-- [Modules/Stock](modules/stock.md) — Stock/picking module reference
-- [Flows/Purchase/purchase-order-creation-flow](flows/purchase/purchase-order-creation-flow.md) — PO creation and confirmation that triggers this flow
-- [Flows/Purchase/purchase-to-bill-flow](flows/purchase/purchase-to-bill-flow.md) — Vendor bill creation from received PO
-- [Flows/Stock/receipt-flow](flows/stock/receipt-flow.md) — Generic incoming receipt (same mechanics as PO receipt)
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
-- [Core/API](core/api.md) — @api decorator patterns
+- [Modules/Purchase](Modules/Purchase.md) — Purchase module reference
+- [Modules/Stock](Modules/Stock.md) — Stock/picking module reference
+- [Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md) — PO creation and confirmation that triggers this flow
+- [Flows/Purchase/purchase-to-bill-flow](Flows/Purchase/purchase-to-bill-flow.md) — Vendor bill creation from received PO
+- [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Generic incoming receipt (same mechanics as PO receipt)
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Workflow pattern reference
+- [Core/API](Core/API.md) — @api decorator patterns

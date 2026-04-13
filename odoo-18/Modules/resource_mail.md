@@ -86,7 +86,7 @@ This module bridges the gap between the pure-scheduling `resource.resource` mode
 
 ## See Also
 
-- [Core/Fields](core/fields.md) — Many2one, Many2many, and related field types
-- [Modules/Resource](modules/resource.md) — Base resource/calendar module
-- [Modules/Mail](modules/mail.md) — Mail and chatter system
-- [Modules/Mail Bot HR](modules/mail-bot-hr.md) — `mail_bot_hr` for OdooBot presence in HR user forms
+- [Core/Fields](Core/Fields.md) — Many2one, Many2many, and related field types
+- [Modules/Resource](Modules/Resource.md) — Base resource/calendar module
+- [Modules/Mail](Modules/Mail.md) — Mail and chatter system
+- [Modules/Mail Bot HR](Modules/Mail-Bot-HR.md) — `mail_bot_hr` for OdooBot presence in HR user forms

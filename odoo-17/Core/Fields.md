@@ -102,6 +102,6 @@ def _compute_total(self):
 ```
 
 ## See Also
-- [Core/BaseModel](core/basemodel.md) — Model definition
-- [Core/API](core/api.md) — @api.depends
-- [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md)
+- [Core/BaseModel](Core/BaseModel.md) — Model definition
+- [Core/API](Core/API.md) — @api.depends
+- [Patterns/Inheritance Patterns](Patterns/Inheritance-Patterns.md)

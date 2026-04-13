@@ -11,14 +11,14 @@ updated: 2026-04-11
 ## Quick Access
 
 ### Flows (Technical — AI & Developer)
-- [Flows/MRP/bom-to-production-flow](flows/mrp/bom-to-production-flow.md) — BOM to production order
-- [Flows/MRP/production-order-flow](flows/mrp/production-order-flow.md) — Production execution
-- [Flows/MRP/workorder-execution-flow](flows/mrp/workorder-execution-flow.md) — Workorder lifecycle
+- [Flows/MRP/bom-to-production-flow](Flows/MRP/bom-to-production-flow.md) — BOM to production order
+- [Flows/MRP/production-order-flow](Flows/MRP/production-order-flow.md) — Production execution
+- [Flows/MRP/workorder-execution-flow](Flows/MRP/workorder-execution-flow.md) — Workorder lifecycle
 
 ### Related Modules
-- [Modules/Stock](modules/stock.md) — Inventory and materials
-- [Modules/Quality](modules/quality.md) — Quality checks
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns
+- [Modules/Stock](Modules/Stock.md) — Inventory and materials
+- [Modules/Quality](Modules/Quality.md) — Quality checks
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine patterns
 
 ---
 
@@ -1569,15 +1569,15 @@ This enables using the project Gantt view for WO scheduling in complex productio
 
 ## Related Modules
 
-- [Modules/Stock](modules/stock.md) — Inventory management, stock moves, quants
-- [Modules/Product](modules/product.md) — Product definitions, variants, UoM
-- [Modules/Resource](modules/resource.md) — Resource calendar, work center planning
-- [Modules/Purchase](modules/purchase.md) — Component procurement
-- [Modules/Sale](modules/sale.md) — Sales orders triggering manufacturing
-- [Modules/Quality](modules/quality.md) — Quality checks during production
+- [Modules/Stock](Modules/Stock.md) — Inventory management, stock moves, quants
+- [Modules/Product](Modules/Product.md) — Product definitions, variants, UoM
+- [Modules/Resource](Modules/Resource.md) — Resource calendar, work center planning
+- [Modules/Purchase](Modules/Purchase.md) — Component procurement
+- [Modules/Sale](Modules/Sale.md) — Sales orders triggering manufacturing
+- [Modules/Quality](Modules/Quality.md) — Quality checks during production
 
 ---
 
 ## Related
 
-[Modules/Stock](modules/stock.md), [Modules/Product](modules/product.md), [Modules/Resource](modules/resource.md), [Modules/Purchase](modules/purchase.md), [Modules/Quality](modules/quality.md), [Modules/MRP](modules/mrp.md), [Modules/mrp_account](modules/mrp_account.md), [Modules/mrp_subcontracting](modules/mrp_subcontracting.md), [Modules/MRP](modules/mrp.md), [Modules/mrp_repair](modules/mrp_repair.md)
+[Modules/Stock](Modules/Stock.md), [Modules/Product](Modules/Product.md), [Modules/Resource](Modules/Resource.md), [Modules/Purchase](Modules/Purchase.md), [Modules/Quality](Modules/Quality.md), [Modules/MRP](Modules/MRP.md), [Modules/mrp_account](Modules/mrp_account.md), [Modules/mrp_subcontracting](Modules/mrp_subcontracting.md), [Modules/MRP](Modules/MRP.md), [Modules/mrp_repair](Modules/mrp_repair.md)

@@ -94,5 +94,5 @@ def page(self, **kwargs):
 ---
 
 ## Related Links
-- [Core/Exceptions](core/exceptions.md) — Error handling
-- [Snippets/Controller Snippets](snippets/controller-snippets.md) — Copy-paste templates
+- [Core/Exceptions](Core/Exceptions.md) — Error handling
+- [Snippets/Controller Snippets](Snippets/Controller-Snippets.md) — Copy-paste templates

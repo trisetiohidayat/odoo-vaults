@@ -67,8 +67,8 @@ record.unlink()
 
 ## Related
 
-- [Core/Fields](core/fields.md) - Field types
-- [Core/API](core/api.md) - Decorators
-- [Core/HTTP Controller](core/http-controller.md) - Controllers
-- [Core/Exceptions](core/exceptions.md) - Error handling
-- [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) - _inherit
+- [Core/Fields](Core/Fields.md) - Field types
+- [Core/API](Core/API.md) - Decorators
+- [Core/HTTP Controller](Core/HTTP-Controller.md) - Controllers
+- [Core/Exceptions](Core/Exceptions.md) - Error handling
+- [Patterns/Inheritance Patterns](Patterns/Inheritance-Patterns.md) - _inherit

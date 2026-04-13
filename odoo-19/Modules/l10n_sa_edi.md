@@ -60,6 +60,6 @@ ZATCA credentials, VAT number, company branch ID.
 Saudi partner fields (CR number, VAT).
 
 ## Related
-- [Modules/l10n_sa](modules/l10n_sa.md) — Core Saudi accounting
-- [Modules/l10n_sa_edi_pos](modules/l10n_sa_edi_pos.md) — POS e-invoicing for Saudi Arabia
-- [Modules/certificate](modules/certificate.md) — X.509 certificate for ZATCA signing
+- [Modules/l10n_sa](Modules/l10n_sa.md) — Core Saudi accounting
+- [Modules/l10n_sa_edi_pos](Modules/l10n_sa_edi_pos.md) — POS e-invoicing for Saudi Arabia
+- [Modules/certificate](Modules/certificate.md) — X.509 certificate for ZATCA signing

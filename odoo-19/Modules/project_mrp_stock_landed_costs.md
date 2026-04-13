@@ -11,5 +11,5 @@
 Technical bridge module that combines `project_mrp_account` (MRP costs in project profitability) with `mrp_landed_costs` (landed costs on MOs) to bring landed cost adjustments into the project profitability panel.
 
 ## Related
-- [Modules/project_mrp_account](modules/project_mrp_account.md) - MRP costs in project profitability
-- [Modules/mrp_landed_costs](modules/mrp_landed_costs.md) - Landed costs on manufacturing
+- [Modules/project_mrp_account](Modules/project_mrp_account.md) - MRP costs in project profitability
+- [Modules/mrp_landed_costs](Modules/mrp_landed_costs.md) - Landed costs on manufacturing

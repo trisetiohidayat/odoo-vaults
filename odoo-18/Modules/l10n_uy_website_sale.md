@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #uruguay #ecommerce
 # l10n_uy_website_sale — Uruguay eCommerce Bridge
 
 ## Overview
-Bridge module connecting [Modules/l10n_uy](modules/l10n_uy.md) with `website_sale`. Adds Uruguayan localization fields (department, locality) to the website address form and supports the Uruguayan consumer final partner in the eCommerce checkout.
+Bridge module connecting [Modules/l10n_uy](Modules/l10n_uy.md) with `website_sale`. Adds Uruguayan localization fields (department, locality) to the website address form and supports the Uruguayan consumer final partner in the eCommerce checkout.
 
 ## Country/Region
 Uruguay (UY)

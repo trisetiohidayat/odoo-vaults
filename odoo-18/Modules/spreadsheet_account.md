@@ -109,6 +109,6 @@ For each entry in `payload` (list of `{"company_id": int, "date": str}`), reads 
 
 ## See Also
 
-- [Modules/Spreadsheet](modules/spreadsheet.md) (`spreadsheet`) — base spreadsheet engine
-- [Modules/Spreadsheet Dashboard](modules/spreadsheet-dashboard.md) (`spreadsheet_dashboard`) — dashboard container
-- [Modules/Account](modules/account.md) — accounting data source
+- [Modules/Spreadsheet](Modules/Spreadsheet.md) (`spreadsheet`) — base spreadsheet engine
+- [Modules/Spreadsheet Dashboard](Modules/Spreadsheet-Dashboard.md) (`spreadsheet_dashboard`) — dashboard container
+- [Modules/Account](Modules/Account.md) — accounting data source

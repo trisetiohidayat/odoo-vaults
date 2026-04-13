@@ -349,7 +349,7 @@ Each bridge: payment_{code} module
 
 ## Related
 
-- [Modules/payment](modules/payment.md) — Base payment module
-- [Modules/payment_aps](modules/payment_aps.md) — Amazon Payment Services (MENA)
-- [Modules/payment_buckaroo](modules/payment_buckaroo.md) — Buckaroo (EU)
-- [Modules/payment_stripe](modules/payment_stripe.md) — Stripe
+- [Modules/payment](Modules/payment.md) — Base payment module
+- [Modules/payment_aps](Modules/payment_aps.md) — Amazon Payment Services (MENA)
+- [Modules/payment_buckaroo](Modules/payment_buckaroo.md) — Buckaroo (EU)
+- [Modules/payment_stripe](Modules/payment_stripe.md) — Stripe

@@ -861,9 +861,9 @@ The subquery joins `stock_move → stock_picking` to find the earliest done rece
 
 ## See Also
 
-- [Modules/Stock](modules/stock.md) — Core stock module (`stock.picking`, `stock.move`, `stock.quant`)
-- [Modules/Purchase](modules/purchase.md) — Purchase order module (`purchase.order`, `purchase.order.line`)
-- [Modules/stock_account](modules/stock_account.md) — Inventory valuation accounting entries
-- [Modules/sale_stock](modules/sale_stock.md) — Sale order to delivery integration, including dropship
-- [Modules/stock_dropshipping](modules/stock_dropshipping.md) — Standalone dropshipping without sale order
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine and action methods (relevant for `state` field lifecycle)
+- [Modules/Stock](Modules/Stock.md) — Core stock module (`stock.picking`, `stock.move`, `stock.quant`)
+- [Modules/Purchase](Modules/Purchase.md) — Purchase order module (`purchase.order`, `purchase.order.line`)
+- [Modules/stock_account](Modules/stock_account.md) — Inventory valuation accounting entries
+- [Modules/sale_stock](Modules/sale_stock.md) — Sale order to delivery integration, including dropship
+- [Modules/stock_dropshipping](Modules/stock_dropshipping.md) — Standalone dropshipping without sale order
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine and action methods (relevant for `state` field lifecycle)

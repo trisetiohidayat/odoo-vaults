@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) template combining sales order data with timesheet billing metrics. Shows revenue recognized from time-and-materials sales alongside project time tracking.
+Provides a pre-configured [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template combining sales order data with timesheet billing metrics. Shows revenue recognized from time-and-materials sales alongside project time tracking.
 
 This is a **data-only module**: contains only a `data/dashboards.xml` file that creates a sample sale-timesheet dashboard record.
 
@@ -22,7 +22,7 @@ This is a **data-only module**: contains only a `data/dashboards.xml` file that 
 - Auto-installs when `sale_timesheet` is active
 
 ## Related
-- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — Dashboard framework
-- [Modules/sale_timesheet](modules/sale_timesheet.md) — Timesheet-based billing on sales orders
-- [Modules/hr_timesheet](modules/hr_timesheet.md) — Timesheet entry
-- [Modules/Project](modules/project.md) — Project management
+- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/sale_timesheet](Modules/sale_timesheet.md) — Timesheet-based billing on sales orders
+- [Modules/hr_timesheet](Modules/hr_timesheet.md) — Timesheet entry
+- [Modules/Project](Modules/Project.md) — Project management

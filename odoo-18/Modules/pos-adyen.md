@@ -240,8 +240,8 @@ This validation ensures the Odoo server only acts as a transparent proxy for leg
 
 ## Related Documentation
 
-- [Modules/Point of Sale](modules/point-of-sale.md) — POS core, payment methods
-- [Modules/Account](modules/account.md) — Payment journal entries, tips
-- [Core/HTTP Controller](core/http-controller.md) — `@http.route` decorator, JSON responses
+- [Modules/Point of Sale](Modules/Point-of-Sale.md) — POS core, payment methods
+- [Modules/Account](Modules/Account.md) — Payment journal entries, tips
+- [Core/HTTP Controller](Core/HTTP-Controller.md) — `@http.route` decorator, JSON responses
 
 #odoo #odoo18 #pos_adyen #payment-terminal #adyen #pos #tip #hmac

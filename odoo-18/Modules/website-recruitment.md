@@ -3,7 +3,7 @@ Module: website_hr_recruitment
 Version: Odoo 18
 Type: Integration
 Tags: [#hr, #recruitment, #website, #portal]
-Related: [Modules/hr-recruitment](modules/hr-recruitment.md)
+Related: [Modules/hr-recruitment](Modules/hr-recruitment.md)
 ---
 
 # website_hr_recruitment — Website Job Applications

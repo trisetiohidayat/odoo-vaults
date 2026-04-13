@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, base-address-extended]
 
 
 
-- [Modules/base](modules/base.md) — Base utility extension
+- [Modules/base](Modules/base.md) — Base utility extension

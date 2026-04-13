@@ -30,4 +30,4 @@ In Odoo 17, these features are now part of `account`:
 | Accountant dashboard | Built into `account` dashboard |
 
 ## See Also
-- [Modules/Account](modules/account.md) — Core accounting in Odoo 17
+- [Modules/Account](Modules/Account.md) — Core accounting in Odoo 17

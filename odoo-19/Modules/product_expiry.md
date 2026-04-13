@@ -447,7 +447,7 @@ This preserves manually-set derived dates proportional to the shift.
 
 ## See Also
 
-- [Modules/stock](modules/stock.md)
-- [Modules/product](modules/product.md)
-- [Core/API](core/api.md) — `@api.depends`, `@api.model`, compute field patterns
-- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL CSV, ir.rule, field groups
+- [Modules/stock](Modules/stock.md)
+- [Modules/product](Modules/product.md)
+- [Core/API](Core/API.md) — `@api.depends`, `@api.model`, compute field patterns
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ACL CSV, ir.rule, field groups

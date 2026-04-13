@@ -543,10 +543,10 @@ def uninstall_hook(env):
 
 ## Related Documentation
 
-- [Core/Payment Framework](core/payment-framework.md) — base payment architecture
-- [Modules/payment](modules/payment.md) — core payment module
-- [Modules/payment-custom](modules/payment-custom.md) — manual wire transfer provider
-- [Modules/payment-razorpay](modules/payment-razorpay.md) — Razorpay provider (webhook-based)
+- [Core/Payment Framework](Core/Payment-Framework.md) — base payment architecture
+- [Modules/payment](Modules/payment.md) — core payment module
+- [Modules/payment-custom](Modules/payment-custom.md) — manual wire transfer provider
+- [Modules/payment-razorpay](Modules/payment-razorpay.md) — Razorpay provider (webhook-based)
 
 ---
 

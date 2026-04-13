@@ -17,36 +17,36 @@ odoo-15/
 
 ## Quick Start
 
-1. [Core/BaseModel](core/basemodel.md) — ORM basics
-2. [Core/Fields](core/fields.md) — Field types
-3. [Core/API](core/api.md) — Decorators
-4. [Tools/ORM Operations](tools/orm-operations.md) — search/browse/create
-5. [Modules/Sale](modules/sale.md) — Sale order
-6. [Modules/Stock](modules/stock.md) — Inventory
+1. [Core/BaseModel](Core/BaseModel.md) — ORM basics
+2. [Core/Fields](Core/Fields.md) — Field types
+3. [Core/API](Core/API.md) — Decorators
+4. [Tools/ORM Operations](Tools/ORM-Operations.md) — search/browse/create
+5. [Modules/Sale](Modules/Sale.md) — Sale order
+6. [Modules/Stock](Modules/Stock.md) — Inventory
 
 ## Module Mapping (Keyword → Vault)
 
 | Keyword | File |
 |---|---|
-| orm/model/base/CRUD | [Core/BaseModel](core/basemodel.md) |
-| field/char/many2one | [Core/Fields](core/fields.md) |
-| api/depends/onchange | [Core/API](core/api.md) |
-| controller/http/route | [Core/HTTP Controller](core/http-controller.md) |
-| error/exception/validation | [Core/Exceptions](core/exceptions.md) |
-| inheritance/_inherit | [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) |
-| workflow/state/action | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) |
-| security/acl/groups | [Patterns/Security Patterns](patterns/security-patterns.md) |
-| search/browse/domain | [Tools/ORM Operations](tools/orm-operations.md) |
-| snippets/template | [Snippets/Model Snippets](snippets/model-snippets.md) |
-| sale/quotation/so | [Modules/Sale](modules/sale.md) |
-| stock/picking/quant | [Modules/Stock](modules/stock.md) |
-| account/invoice/journal | [Modules/Account](modules/account.md) |
-| purchase/po/rfq | [Modules/Purchase](modules/purchase.md) |
-| crm/lead/opportunity | [Modules/CRM](modules/crm.md) |
-| project/task/milestone | [Modules/Project](modules/project.md) |
-| mrp/production/bom | [Modules/MRP](modules/mrp.md) |
-| product/pricelist/uom | [Modules/Product](modules/product.md) |
-| partner/contact/bank | [Modules/res.partner](modules/res.partner.md) |
+| orm/model/base/CRUD | [Core/BaseModel](Core/BaseModel.md) |
+| field/char/many2one | [Core/Fields](Core/Fields.md) |
+| api/depends/onchange | [Core/API](Core/API.md) |
+| controller/http/route | [Core/HTTP Controller](Core/HTTP-Controller.md) |
+| error/exception/validation | [Core/Exceptions](Core/Exceptions.md) |
+| inheritance/_inherit | [Patterns/Inheritance Patterns](Patterns/Inheritance-Patterns.md) |
+| workflow/state/action | [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) |
+| security/acl/groups | [Patterns/Security Patterns](Patterns/Security-Patterns.md) |
+| search/browse/domain | [Tools/ORM Operations](Tools/ORM-Operations.md) |
+| snippets/template | [Snippets/Model Snippets](Snippets/Model-Snippets.md) |
+| sale/quotation/so | [Modules/Sale](Modules/Sale.md) |
+| stock/picking/quant | [Modules/Stock](Modules/Stock.md) |
+| account/invoice/journal | [Modules/Account](Modules/Account.md) |
+| purchase/po/rfq | [Modules/Purchase](Modules/Purchase.md) |
+| crm/lead/opportunity | [Modules/CRM](Modules/CRM.md) |
+| project/task/milestone | [Modules/Project](Modules/Project.md) |
+| mrp/production/bom | [Modules/MRP](Modules/MRP.md) |
+| product/pricelist/uom | [Modules/Product](Modules/Product.md) |
+| partner/contact/bank | [Modules/res.partner](Modules/res.partner.md) |
 
 ## Core ORM Paths
 

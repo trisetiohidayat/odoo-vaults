@@ -6,7 +6,7 @@ Type: Business
 
 # Membership Management (`membership`)
 
-Manages organization membership subscriptions with invoice-based billing. Tracks membership lines linked to `account.move.line` invoices. Differs from [Modules/loyalty](modules/loyalty.md) in that membership is about recurring paid subscriptions (clubs, associations, NGOs), not point-based reward programs.
+Manages organization membership subscriptions with invoice-based billing. Tracks membership lines linked to `account.move.line` invoices. Differs from [Modules/loyalty](Modules/loyalty.md) in that membership is about recurring paid subscriptions (clubs, associations, NGOs), not point-based reward programs.
 
 **Source path:** `~/odoo/odoo18/odoo/addons/membership/`
 **Depends:** `base`, `product`, `account`

@@ -105,6 +105,6 @@ The hierarchy view uses `read_group` with `parent_path` or `parent_id` field gro
 
 ## See Also
 
-- [Modules/Web](modules/web.md) (`web`) — view registry and base view system
-- [Modules/Project](modules/project.md) (`project`) — uses hierarchy view for task breakdown
-- [Modules/CRM](modules/crm.md) — uses hierarchy view for pipeline management
+- [Modules/Web](Modules/Web.md) (`web`) — view registry and base view system
+- [Modules/Project](Modules/Project.md) (`project`) — uses hierarchy view for task breakdown
+- [Modules/CRM](Modules/CRM.md) — uses hierarchy view for pipeline management

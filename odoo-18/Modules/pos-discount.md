@@ -3,7 +3,7 @@ Module: pos_discount
 Version: Odoo 18
 Type: Business
 Tags: #pos #discount #point-of-sale #sales
-Related: [Modules/PointOfSale](modules/pointofsale.md), [Modules/Account](modules/account.md)
+Related: [Modules/PointOfSale](Modules/PointOfSale.md), [Modules/Account](Modules/Account.md)
 ---
 
 # pos_discount — POS Global Discount

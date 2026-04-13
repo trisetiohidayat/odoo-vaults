@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, gamification-sale-crm]
 
 
 
-- [Modules/base](modules/base.md) — Gamification / challenges
+- [Modules/base](Modules/base.md) — Gamification / challenges

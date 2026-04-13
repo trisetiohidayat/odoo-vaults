@@ -29,7 +29,7 @@ Completion records track which employees have completed which certifications.
 - `hr_resume_data.xml` — demo data for certification resume entries
 
 ## Related
-- [Modules/hr_skills](modules/hr_skills.md) — HR Skills base
-- [Modules/survey](modules/survey.md) — Survey/certification module
-- [Modules/hr_skills](modules/hr_skills.md) — Skills + eLearning
-- [Modules/hr_skills](modules/hr_skills.md) — Skills + Events
+- [Modules/hr_skills](Modules/hr_skills.md) — HR Skills base
+- [Modules/survey](Modules/survey.md) — Survey/certification module
+- [Modules/hr_skills](Modules/hr_skills.md) — Skills + eLearning
+- [Modules/hr_skills](Modules/hr_skills.md) — Skills + Events

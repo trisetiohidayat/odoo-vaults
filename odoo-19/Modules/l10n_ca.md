@@ -51,4 +51,4 @@ Extends `account.chart.template` with Canadian template data.
 - Tax Templates: GST, HST, PST, QST per province
 
 ## Related
-- [Modules/account](modules/account.md)
+- [Modules/account](Modules/account.md)

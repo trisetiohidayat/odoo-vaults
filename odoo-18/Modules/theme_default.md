@@ -42,4 +42,4 @@ Provides the default website theme with standard layout styles, snippet template
 
 ---
 
-*See also: [Modules/website](modules/website.md)*
+*See also: [Modules/website](Modules/website.md)*

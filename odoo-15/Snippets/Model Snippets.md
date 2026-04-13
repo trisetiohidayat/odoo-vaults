@@ -224,7 +224,7 @@ class ConfirmWizard(models.TransientModel):
 ```
 
 ## See Also
-- [Core/BaseModel](core/basemodel.md) — Model definition
-- [Core/Fields](core/fields.md) — Field types
-- [Core/API](core/api.md) — Decorators
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine
+- [Core/BaseModel](Core/BaseModel.md) — Model definition
+- [Core/Fields](Core/Fields.md) — Field types
+- [Core/API](Core/API.md) — Decorators
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine

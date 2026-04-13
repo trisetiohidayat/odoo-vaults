@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #argentina
 # l10n_ar — Argentina Accounting
 
 ## Overview
-The primary Argentine localization module. Adds the complete AFIP (Administracion Federal de Ingresos Publicos) accounting configuration: chart of accounts per AFIP responsibility type, VAT tax groups with AFIP codes, AFIP responsibility types, document types (facturas, notas de credito/debito), identification types (CUIT, CUIL, DNI), fiscal positions, and AFIP concept selection for electronic invoicing. Requires [Modules/l10n_latam_base](modules/l10n_latam_base.md) and [Modules/l10n_latam_invoice_document](modules/l10n_latam_invoice_document.md).
+The primary Argentine localization module. Adds the complete AFIP (Administracion Federal de Ingresos Publicos) accounting configuration: chart of accounts per AFIP responsibility type, VAT tax groups with AFIP codes, AFIP responsibility types, document types (facturas, notas de credito/debito), identification types (CUIT, CUIL, DNI), fiscal positions, and AFIP concept selection for electronic invoicing. Requires [Modules/l10n_latam_base](Modules/l10n_latam_base.md) and [Modules/l10n_latam_invoice_document](Modules/l10n_latam_invoice_document.md).
 
 ## Country/Region
 Argentina (country code: AR)

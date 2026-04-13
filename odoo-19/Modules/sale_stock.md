@@ -839,10 +839,10 @@ Sales Order (sale)
 
 ## Related Documentation
 
-- [Core/API](core/api.md) — ORM decorators, `@api.depends`, `@api.onchange`
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine, action methods
-- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL CSV, `ir.rule`, field groups
-- [Modules/Sale](modules/sale.md) — `sale.order`, `sale.order.line` base models
-- [Modules/Stock](modules/stock.md) — `stock.picking`, `stock.move`, `stock.route`, `stock.rule`
-- [Modules/Account](modules/account.md) — `account.move`, Anglo-Saxon valuation
-- [Modules/Product](modules/product.md) — `product.template`, `is_storable` flag
+- [Core/API](Core/API.md) — ORM decorators, `@api.depends`, `@api.onchange`
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine, action methods
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ACL CSV, `ir.rule`, field groups
+- [Modules/Sale](Modules/Sale.md) — `sale.order`, `sale.order.line` base models
+- [Modules/Stock](Modules/Stock.md) — `stock.picking`, `stock.move`, `stock.route`, `stock.rule`
+- [Modules/Account](Modules/Account.md) — `account.move`, Anglo-Saxon valuation
+- [Modules/Product](Modules/Product.md) — `product.template`, `is_storable` flag

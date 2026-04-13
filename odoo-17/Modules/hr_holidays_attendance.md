@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, hr-holidays-attendance]
 
 
 
-- [Modules/hr](modules/hr.md) — Human resources base
+- [Modules/hr](Modules/hr.md) — Human resources base

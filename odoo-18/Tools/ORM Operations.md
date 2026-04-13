@@ -152,5 +152,5 @@ models.execute_kw(db, uid, password, 'sale.order', 'search_read',
 ---
 
 ## Related Links
-- [Core/BaseModel](core/basemodel.md) — Full model reference
-- [Core/Fields](core/fields.md) — Field types
+- [Core/BaseModel](Core/BaseModel.md) — Full model reference
+- [Core/Fields](Core/Fields.md) — Field types

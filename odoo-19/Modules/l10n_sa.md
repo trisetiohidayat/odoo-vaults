@@ -42,5 +42,5 @@ Inherits `account.move` to add Saudi Arabia-specific e-invoicing fields:
 - `_l10n_sa_is_legal()`: Checks if document is legally valid in Saudi Arabia.
 
 ## Related
-- [Modules/account](modules/account.md)
-- [Modules/l10n_gcc_invoice](modules/l10n_gcc_invoice.md)
+- [Modules/account](Modules/account.md)
+- [Modules/l10n_gcc_invoice](Modules/l10n_gcc_invoice.md)

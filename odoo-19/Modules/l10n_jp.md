@@ -32,7 +32,7 @@ Japan uses a consumption tax system (類似税, resembling VAT/GST) at a standar
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account](modules/account.md) | Core accounting |
+| [Modules/account](Modules/account.md) | Core accounting |
 
 ## Key Models
 
@@ -72,5 +72,5 @@ This is primarily a data-only localization module. The chart of accounts and tax
 
 ## Related
 
-- [Modules/account](modules/account.md) - Core accounting module
+- [Modules/account](Modules/account.md) - Core accounting module
 - [National Tax Agency Japan](https://www.nta.go.jp)

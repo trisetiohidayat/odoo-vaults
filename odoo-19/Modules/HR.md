@@ -12,26 +12,26 @@ version: "1.2"
 -> Model & Field tables below
 
 ### Flows (Technical — AI & Developer)
--> [Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md) — hr.employee create + hr.version
--> [Flows/HR/employee-archival-flow](flows/hr/employee-archival-flow.md) — Archive/unarchive + subordinates
--> [Flows/HR/employee-transfer-flow](flows/hr/employee-transfer-flow.md) — Department change + approval
--> [Flows/HR/leave-request-flow](flows/hr/leave-request-flow.md) — Leave request lifecycle (hr_holidays)
--> [Flows/HR/attendance-checkin-flow](flows/hr/attendance-checkin-flow.md) — Check-in/check-out + overtime
--> [Flows/HR/contract-lifecycle-flow](flows/hr/contract-lifecycle-flow.md) — Contract create/renew/terminate
--> [Flows/HR/expense-request-flow](flows/hr/expense-request-flow.md) — Expense submit + approval + journal
--> [Flows/HR/recruitment-applicant-flow](flows/hr/recruitment-applicant-flow.md) — Applicant → hire → employee
--> [Flows/HR/timesheet-submission-flow](flows/hr/timesheet-submission-flow.md) — Timesheet + billing type branching
--> [Flows/HR/department-creation-flow](flows/hr/department-creation-flow.md) — Department + hierarchy + manager
--> [Flows/HR/job-position-flow](flows/hr/job-position-flow.md) — Job vacancy + applicant pipeline
+-> [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — hr.employee create + hr.version
+-> [Flows/HR/employee-archival-flow](Flows/HR/employee-archival-flow.md) — Archive/unarchive + subordinates
+-> [Flows/HR/employee-transfer-flow](Flows/HR/employee-transfer-flow.md) — Department change + approval
+-> [Flows/HR/leave-request-flow](Flows/HR/leave-request-flow.md) — Leave request lifecycle (hr_holidays)
+-> [Flows/HR/attendance-checkin-flow](Flows/HR/attendance-checkin-flow.md) — Check-in/check-out + overtime
+-> [Flows/HR/contract-lifecycle-flow](Flows/HR/contract-lifecycle-flow.md) — Contract create/renew/terminate
+-> [Flows/HR/expense-request-flow](Flows/HR/expense-request-flow.md) — Expense submit + approval + journal
+-> [Flows/HR/recruitment-applicant-flow](Flows/HR/recruitment-applicant-flow.md) — Applicant → hire → employee
+-> [Flows/HR/timesheet-submission-flow](Flows/HR/timesheet-submission-flow.md) — Timesheet + billing type branching
+-> [Flows/HR/department-creation-flow](Flows/HR/department-creation-flow.md) — Department + hierarchy + manager
+-> [Flows/HR/job-position-flow](Flows/HR/job-position-flow.md) — Job vacancy + applicant pipeline
 
 ### How-To Guides (Functional — Business)
--> [Business/HR/quickstart-employee-setup](business/hr/quickstart-employee-setup.md) — Step-by-step employee creation
--> [Business/HR/leave-management-guide](business/hr/leave-management-guide.md) — Leave management process
+-> [Business/HR/quickstart-employee-setup](Business/HR/quickstart-employee-setup.md) — Step-by-step employee creation
+-> [Business/HR/leave-management-guide](Business/HR/leave-management-guide.md) — Leave management process
 
 ### Related Modules
--> [Modules/resource](modules/resource.md) — resource.resource, resource.calendar
--> [Modules/mail](modules/mail.md) — mail.thread, activity integration
--> [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine pattern
+-> [Modules/resource](Modules/resource.md) — resource.resource, resource.calendar
+-> [Modules/mail](Modules/mail.md) — mail.thread, activity integration
+-> [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine pattern
 
 ---
 

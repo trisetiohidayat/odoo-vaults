@@ -27,10 +27,10 @@ Base module for Greek accounting. Manages the accounting chart, fiscal positions
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](modules/account.md) | Core accounting framework |
-| [Modules/base_iban](modules/base_iban.md) | Greek IBAN validation |
-| [Modules/base_vat](modules/base_vat.md) | Greek AFM (Αριθμός Φορολογικού Μητρώου) validation |
-| [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md) | UBL/CII EDI framework |
+| [Modules/Account](Modules/Account.md) | Core accounting framework |
+| [Modules/base_iban](Modules/base_iban.md) | Greek IBAN validation |
+| [Modules/base_vat](Modules/base_vat.md) | Greek AFM (Αριθμός Φορολογικού Μητρώου) validation |
+| [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) | UBL/CII EDI framework |
 
 ## Auto-Install
 
@@ -65,7 +65,7 @@ Greek Tax Identification Number:
 - 9-digit number
 - Format: `123456789`
 - Used for both VAT and tax registration
-- Validated via [Modules/base_vat](modules/base_vat.md)
+- Validated via [Modules/base_vat](Modules/base_vat.md)
 
 ### Greek IBAN
 
@@ -73,7 +73,7 @@ Greek bank accounts:
 - 27 characters
 - Country prefix: `GR`
 - BBAN: 21 characters (bank + account)
-- Validated via [Modules/base_iban](modules/base_iban.md)
+- Validated via [Modules/base_iban](Modules/base_iban.md)
 
 ## Models
 
@@ -88,7 +88,7 @@ Loads Greek-specific:
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_gr_edi](modules/l10n_gr_edi.md) | myDATA e-invoicing and tax reporting |
+| [Modules/l10n_gr_edi](Modules/l10n_gr_edi.md) | myDATA e-invoicing and tax reporting |
 
 ## Configuration
 
@@ -96,16 +96,16 @@ Loads Greek-specific:
 2. Set company country to Greece
 3. Configure Greek AFM in company settings
 4. Set up Greek bank accounts (GR IBAN)
-5. Install [Modules/l10n_gr_edi](modules/l10n_gr_edi.md) for myDATA compliance
+5. Install [Modules/l10n_gr_edi](Modules/l10n_gr_edi.md) for myDATA compliance
 
 ## Technical Notes
 
 - Greece is an EU member using Euro (EUR)
 - AFM is the primary tax identifier
 - Greek accounting follows EU standards
-- [Modules/l10n_gr_edi](modules/l10n_gr_edi.md) provides mandatory myDATA tax reporting
+- [Modules/l10n_gr_edi](Modules/l10n_gr_edi.md) provides mandatory myDATA tax reporting
 - Community-maintained module (P. Christeas)
 
 ## See Also
 
-- [Modules/l10n_gr_edi](modules/l10n_gr_edi.md) - Greek myDATA e-invoicing
+- [Modules/l10n_gr_edi](Modules/l10n_gr_edi.md) - Greek myDATA e-invoicing

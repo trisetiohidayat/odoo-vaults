@@ -298,6 +298,6 @@ class MyAPIController(http.Controller):
 ```
 
 ## See Also
-- [Snippets/Controller Snippets](snippets/controller-snippets.md) — Code templates
-- [Patterns/Security Patterns](patterns/security-patterns.md) — Auth types, access control
-- [Core/Exceptions](core/exceptions.md) — Error handling
+- [Snippets/Controller Snippets](Snippets/Controller-Snippets.md) — Code templates
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — Auth types, access control
+- [Core/Exceptions](Core/Exceptions.md) — Error handling

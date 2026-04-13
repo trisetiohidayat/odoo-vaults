@@ -87,7 +87,7 @@ raise RedirectWarning(
 
 ## Related
 
-- [Core/BaseModel](core/basemodel.md) - Model methods
-- [Core/API](core/api.md) - @api.constrains
-- [Patterns/Security Patterns](patterns/security-patterns.md) - AccessError
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) - Action validation
+- [Core/BaseModel](Core/BaseModel.md) - Model methods
+- [Core/API](Core/API.md) - @api.constrains
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) - AccessError
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) - Action validation

@@ -1106,9 +1106,9 @@ Without these, portal users receive `Access Error` when attempting to view deliv
 
 ## See Also
 
-- [Modules/Stock](modules/stock.md) — Stock module overview and quant/picking type documentation
-- [Core/Fields](core/fields.md) — Field type reference (Many2one, One2many, computed fields)
-- [Core/API](core/api.md) — `@api.depends`, `@api.onchange`, `@api.constrains` decorators
-- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL, ir.rule, and field-level security
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine implementation in Odoo
-- [Tools/ORM Operations](tools/orm-operations.md) — `search()`, `browse()`, `write()`, domain operators
+- [Modules/Stock](Modules/Stock.md) — Stock module overview and quant/picking type documentation
+- [Core/Fields](Core/Fields.md) — Field type reference (Many2one, One2many, computed fields)
+- [Core/API](Core/API.md) — `@api.depends`, `@api.onchange`, `@api.constrains` decorators
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ACL, ir.rule, and field-level security
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine implementation in Odoo
+- [Tools/ORM Operations](Tools/ORM-Operations.md) — `search()`, `browse()`, `write()`, domain operators

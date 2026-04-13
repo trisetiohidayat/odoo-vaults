@@ -407,7 +407,7 @@ Dashboard form view defined in `views/spreadsheet_dashboard_views.xml`.
 
 ## See Also
 
-- [Modules/spreadsheet_account](modules/spreadsheet_account.md) — Accounting formulas used inside dashboard spreadsheets
-- [Modules/spreadsheet](modules/spreadsheet.md) — Core spreadsheet engine
-- [Core/API](core/api.md) — Computed fields, @api.depends_context
-- [Patterns/Security Patterns](patterns/security-patterns.md) — Token-based access control
+- [Modules/spreadsheet_account](Modules/spreadsheet_account.md) — Accounting formulas used inside dashboard spreadsheets
+- [Modules/spreadsheet](Modules/spreadsheet.md) — Core spreadsheet engine
+- [Core/API](Core/API.md) — Computed fields, @api.depends_context
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — Token-based access control

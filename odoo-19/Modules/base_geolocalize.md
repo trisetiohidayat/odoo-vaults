@@ -423,8 +423,8 @@ The `geoloc_provider_id` defaults to the first `base.geo_provider` record (typic
 
 ## Related Documentation
 
-- [Core/BaseModel](core/basemodel.md) — ORM foundation, abstract models
-- [Modules/res.partner](modules/res.partner.md) — Base partner model
-- [Modules/base_address_extended](modules/base_address_extended.md) — Address structure extension
-- [Core/HTTP Controller](core/http-controller.md) — For understanding `request.geoip`
-- [Modules/Stock](modules/stock.md) — Uses geolocation for warehouse routing
+- [Core/BaseModel](Core/BaseModel.md) — ORM foundation, abstract models
+- [Modules/res.partner](Modules/res.partner.md) — Base partner model
+- [Modules/base_address_extended](Modules/base_address_extended.md) — Address structure extension
+- [Core/HTTP Controller](Core/HTTP-Controller.md) — For understanding `request.geoip`
+- [Modules/Stock](Modules/Stock.md) — Uses geolocation for warehouse routing

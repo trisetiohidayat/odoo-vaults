@@ -359,10 +359,10 @@ No changes to `project_mrp_sale` itself (the module has no code). However, the f
 
 ## Related Documentation
 
-- [Modules/project_mrp](modules/project_mrp.md) — MRP ↔ Project bridge (this module's foundation)
-- [Modules/sale_mrp](modules/sale_mrp.md) — Sale ↔ MRP bridge
-- [Modules/sale_project](modules/sale_project.md) — Sale ↔ Project bridge
-- [Modules/mrp](modules/mrp.md) — MRP (Manufacturing) module reference
-- [Modules/project](modules/project.md) — Project management module reference
-- [Modules/project_mrp_account](modules/project_mrp_account.md) — MRP + Account bridge (adds profitability)
-- [Modules/project_mrp_stock_landed_costs](modules/project_mrp_stock_landed_costs.md) — MRP + Account + Landed Costs
+- [Modules/project_mrp](Modules/project_mrp.md) — MRP ↔ Project bridge (this module's foundation)
+- [Modules/sale_mrp](Modules/sale_mrp.md) — Sale ↔ MRP bridge
+- [Modules/sale_project](Modules/sale_project.md) — Sale ↔ Project bridge
+- [Modules/mrp](Modules/mrp.md) — MRP (Manufacturing) module reference
+- [Modules/project](Modules/project.md) — Project management module reference
+- [Modules/project_mrp_account](Modules/project_mrp_account.md) — MRP + Account bridge (adds profitability)
+- [Modules/project_mrp_stock_landed_costs](Modules/project_mrp_stock_landed_costs.md) — MRP + Account + Landed Costs

@@ -30,5 +30,5 @@ Adds completed onsite training events to employee resumes. Links multi-slot even
 - Auto-fills resume line name from event name
 
 ## Related
-- [Modules/hr_skills](modules/hr_skills.md) - Core skills and resume module
-- [Modules/event](modules/event.md) - Event management
+- [Modules/hr_skills](Modules/hr_skills.md) - Core skills and resume module
+- [Modules/event](Modules/event.md) - Event management

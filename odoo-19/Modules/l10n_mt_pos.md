@@ -57,5 +57,5 @@ Access control via `security/ir.model.access.csv`:
 - Menu: `point_of_sale.menu_point_rep` -> Malta EXO -> Compliance Letter
 
 ## Related
-- [Modules/point_of_sale](modules/point_of_sale.md)
-- [Modules/l10n_mt](modules/l10n_mt.md)
+- [Modules/point_of_sale](Modules/point_of_sale.md)
+- [Modules/l10n_mt](Modules/l10n_mt.md)

@@ -277,9 +277,9 @@ def _action_assign_leads(self):
 
 ## Related
 
-- [Flows/CRM/lead-creation-flow](flows/crm/lead-creation-flow.md) — Lead creation sources
-- [Flows/CRM/lead-conversion-to-opportunity-flow](flows/crm/lead-conversion-to-opportunity-flow.md) — Lead → Opportunity conversion
-- [Modules/CRM](modules/crm.md) — CRM module reference
-- [Modules/sales_team](modules/sales_team.md) — Sales team and member management
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Pipeline stage patterns
-- [Core/API](core/api.md) — @api decorator patterns
+- [Flows/CRM/lead-creation-flow](Flows/CRM/lead-creation-flow.md) — Lead creation sources
+- [Flows/CRM/lead-conversion-to-opportunity-flow](Flows/CRM/lead-conversion-to-opportunity-flow.md) — Lead → Opportunity conversion
+- [Modules/CRM](Modules/CRM.md) — CRM module reference
+- [Modules/sales_team](Modules/sales_team.md) — Sales team and member management
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Pipeline stage patterns
+- [Core/API](Core/API.md) — @api decorator patterns

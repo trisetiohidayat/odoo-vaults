@@ -740,9 +740,9 @@ The `community_menu` boolean is always `False` in `website_event` base. Sub-modu
 
 ## Related Documentation
 
-- [Modules/Event](modules/event.md) — Core event module (event.event, event.registration, event.event.ticket, event.slot)
-- [Modules/Website](modules/website.md) — Website framework (website.menu, website.visitor, website.page)
-- [Core/API](core/api.md) — `@api.depends`, `@api.depends_context`, computed fields with search
-- [Core/Fields](core/fields.md) — Field types, translate=True, store behavior, index='btree_not_null'
-- [Patterns/Security Patterns](patterns/security-patterns.md) — ir.rule, ACL CSV, record-level security
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine and tracking patterns
+- [Modules/Event](Modules/Event.md) — Core event module (event.event, event.registration, event.event.ticket, event.slot)
+- [Modules/Website](Modules/Website.md) — Website framework (website.menu, website.visitor, website.page)
+- [Core/API](Core/API.md) — `@api.depends`, `@api.depends_context`, computed fields with search
+- [Core/Fields](Core/Fields.md) — Field types, translate=True, store behavior, index='btree_not_null'
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ir.rule, ACL CSV, record-level security
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine and tracking patterns

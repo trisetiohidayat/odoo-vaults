@@ -719,10 +719,10 @@ sale_purchase/
 
 ## See Also
 
-- [Modules/sale](modules/sale.md) — Base `sale.order` model
-- [Modules/purchase](modules/purchase.md) — Base `purchase.order` model
-- [Modules/sale_expense](modules/sale_expense.md) — Vendor bill reinvoicing via SO (different from `sale_purchase`)
-- [Modules/sale_timesheet](modules/sale_timesheet.md) — Time-based service billing (may coexist with `sale_purchase`)
-- [Modules/project](modules/project.md) — Project/task management for delivered services
-- [Core/API](core/api.md) — `@api.depends`, `@api.onchange`, `@api.constrains` decorators used throughout
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine pattern on `sale.order`, `purchase.order`
+- [Modules/sale](Modules/sale.md) — Base `sale.order` model
+- [Modules/purchase](Modules/purchase.md) — Base `purchase.order` model
+- [Modules/sale_expense](Modules/sale_expense.md) — Vendor bill reinvoicing via SO (different from `sale_purchase`)
+- [Modules/sale_timesheet](Modules/sale_timesheet.md) — Time-based service billing (may coexist with `sale_purchase`)
+- [Modules/project](Modules/project.md) — Project/task management for delivered services
+- [Core/API](Core/API.md) — `@api.depends`, `@api.onchange`, `@api.constrains` decorators used throughout
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine pattern on `sale.order`, `purchase.order`

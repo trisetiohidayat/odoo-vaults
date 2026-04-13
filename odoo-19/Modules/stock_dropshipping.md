@@ -650,9 +650,9 @@ The `_get_qty_procurement()` guard `self.product_id == purchase_lines_sudo.produ
 
 ## Related
 
-- [Modules/sale_purchase_stock](modules/sale_purchase_stock.md) -- Provides the SO->PO->Stock procurement chain that drives dropship
-- [Modules/Stock](modules/stock.md) -- Base warehouse, location, and inventory management
-- [Modules/Purchase](modules/purchase.md) -- Purchase order management
-- [Modules/Sale](modules/sale.md) -- Sale order management
-- [Modules/mrp_subcontracting_dropshipping](modules/mrp_subcontracting_dropshipping.md) -- Subcontracting combined with dropshipping
-- [Modules/stock_account](modules/stock_account.md) -- Valuation layer; dropship receipts create valuation entries
+- [Modules/sale_purchase_stock](Modules/sale_purchase_stock.md) -- Provides the SO->PO->Stock procurement chain that drives dropship
+- [Modules/Stock](Modules/Stock.md) -- Base warehouse, location, and inventory management
+- [Modules/Purchase](Modules/Purchase.md) -- Purchase order management
+- [Modules/Sale](Modules/Sale.md) -- Sale order management
+- [Modules/mrp_subcontracting_dropshipping](Modules/mrp_subcontracting_dropshipping.md) -- Subcontracting combined with dropshipping
+- [Modules/stock_account](Modules/stock_account.md) -- Valuation layer; dropship receipts create valuation entries

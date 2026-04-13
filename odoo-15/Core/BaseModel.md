@@ -292,6 +292,6 @@ loads it for all records in the same recordset. Use `with_context(prefetch_field
 to disable if needed.
 
 ## See Also
-- [Core/Fields](core/fields.md) — Field types
-- [Core/API](core/api.md) — Decorators (@api.depends, @api.onchange, @api.constrains)
-- [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) — _inherit vs _inherits vs mixin
+- [Core/Fields](Core/Fields.md) — Field types
+- [Core/API](Core/API.md) — Decorators (@api.depends, @api.onchange, @api.constrains)
+- [Patterns/Inheritance Patterns](Patterns/Inheritance-Patterns.md) — _inherit vs _inherits vs mixin

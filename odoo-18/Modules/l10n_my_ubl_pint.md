@@ -14,7 +14,7 @@ Malaysia Peppol PINT e-invoicing module. Provides the Malaysian implementation o
 Malaysia
 
 ## Dependencies
-- [Core/BaseModel](core/basemodel.md) (account_edi_ubl_cii)
+- [Core/BaseModel](Core/BaseModel.md) (account_edi_ubl_cii)
 - `account_edi_ubl_cii` — UBL/CII EDI framework
 
 ## Key Models

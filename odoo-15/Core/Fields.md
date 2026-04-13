@@ -347,6 +347,6 @@ sequence = fields.Integer('Sequence', copy=False)
 ```
 
 ## See Also
-- [Core/BaseModel](core/basemodel.md) — Model definition, CRUD
-- [Core/API](core/api.md) — @api.depends decorator
-- [Tools/ORM Operations](tools/orm-operations.md) — search(), browse(), domain operators
+- [Core/BaseModel](Core/BaseModel.md) — Model definition, CRUD
+- [Core/API](Core/API.md) — @api.depends decorator
+- [Tools/ORM Operations](Tools/ORM-Operations.md) — search(), browse(), domain operators

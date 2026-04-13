@@ -25,5 +25,5 @@ Bridge module between HR and Livechat. Displays livechat channel statistics (mai
 When an internal user participates in a livechat session, the system records the channel member history linked to that user's employee record. This allows HR managers to view livechat activity per employee through the reporting views.
 
 ## Related
-- [Modules/im_livechat](modules/im_livechat.md) - Live chat channels and chatbot scripts
-- [Modules/HR](modules/hr.md) - Employee management
+- [Modules/im_livechat](Modules/im_livechat.md) - Live chat channels and chatbot scripts
+- [Modules/HR](Modules/HR.md) - Employee management

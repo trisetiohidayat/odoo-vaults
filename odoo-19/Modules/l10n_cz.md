@@ -41,4 +41,4 @@ Tento modul definuje:
 - Custom model files: account_move.py, template_cz.py, l10n_cz_tax_office.py, res_company.py
 
 ## Related
-- [Modules/l10n_cz](modules/l10n_cz.md) - Core accounting
+- [Modules/l10n_cz](Modules/l10n_cz.md) - Core accounting

@@ -46,6 +46,6 @@ Fields for Italian e-invoice origin data:
 - Otherwise: inherit normally from `sale`
 
 ## Related
-- [Modules/l10n_it_edi](modules/l10n_it_edi.md) — Core Italian SDI/FatturaPA e-invoicing
-- [Modules/Sale](modules/sale.md) — Base sale order module
-- [Modules/l10n_it_edi_doi](modules/l10n_it_edi_doi.md) — Italian Declaration of Intent (scambi_elenconi)
+- [Modules/l10n_it_edi](Modules/l10n_it_edi.md) — Core Italian SDI/FatturaPA e-invoicing
+- [Modules/Sale](Modules/Sale.md) — Base sale order module
+- [Modules/l10n_it_edi_doi](Modules/l10n_it_edi_doi.md) — Italian Declaration of Intent (scambi_elenconi)

@@ -24,14 +24,14 @@ Employee lunch ordering and vendor management module. Enables employees to order
 
 | Model | `_name` | Summary |
 |---|---|---|
-| [Modules/lunch#lunch-product](modules/lunch#lunch-product.md) | `lunch.product` | Menu items linked to a vendor |
-| [Modules/lunch#lunch-product-category](modules/lunch#lunch-product-category.md) | `lunch.product.category` | Product groupings (pizza, sandwich, burger, etc.) |
-| [Modules/lunch#lunch-order](modules/lunch#lunch-order.md) | `lunch.order` | Per-user/order-date line item |
-| [Modules/lunch#lunch-topping](modules/lunch#lunch-topping.md) | `lunch.topping` | Extras grouped by topping_category (1/2/3) |
-| [Modules/lunch#lunch-supplier](modules/lunch#lunch-supplier.md) | `lunch.supplier` | Vendor with schedule, contacts, cron |
-| [Modules/lunch#lunch-location](modules/lunch#lunch-location.md) | `lunch.location` | Delivery/pickup site |
-| [Modules/lunch#lunch-cashmove](modules/lunch#lunch-cashmove.md) | `lunch.cashmove` | Wallet credit/debit ledger |
-| [Modules/lunch#lunch-alert](modules/lunch#lunch-alert.md) | `lunch.alert` | In-app banners or chat notifications |
+| [Modules/lunch#lunch-product](Modules/lunch#lunch-product.md) | `lunch.product` | Menu items linked to a vendor |
+| [Modules/lunch#lunch-product-category](Modules/lunch#lunch-product-category.md) | `lunch.product.category` | Product groupings (pizza, sandwich, burger, etc.) |
+| [Modules/lunch#lunch-order](Modules/lunch#lunch-order.md) | `lunch.order` | Per-user/order-date line item |
+| [Modules/lunch#lunch-topping](Modules/lunch#lunch-topping.md) | `lunch.topping` | Extras grouped by topping_category (1/2/3) |
+| [Modules/lunch#lunch-supplier](Modules/lunch#lunch-supplier.md) | `lunch.supplier` | Vendor with schedule, contacts, cron |
+| [Modules/lunch#lunch-location](Modules/lunch#lunch-location.md) | `lunch.location` | Delivery/pickup site |
+| [Modules/lunch#lunch-cashmove](Modules/lunch#lunch-cashmove.md) | `lunch.cashmove` | Wallet credit/debit ledger |
+| [Modules/lunch#lunch-alert](Modules/lunch#lunch-alert.md) | `lunch.alert` | In-app banners or chat notifications |
 
 Extension models:
 - `res.company`: adds `lunch_minimum_threshold`, `lunch_notify_message`
@@ -675,7 +675,7 @@ Similarly, each `lunch.alert` with `mode='chat'` and `active=True` has a cron fo
 
 ## See Also
 
-- [Modules/account](modules/account.md) — Monetary fields, currency
-- [Core/API](core/api.md) — `@api.depends`, computed fields
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine design
-- [Modules/Stock](modules/stock.md) — Inventory valuation concepts
+- [Modules/account](Modules/account.md) — Monetary fields, currency
+- [Core/API](Core/API.md) — `@api.depends`, computed fields
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine design
+- [Modules/Stock](Modules/Stock.md) — Inventory valuation concepts

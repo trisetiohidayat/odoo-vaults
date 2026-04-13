@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #peru #pos
 # l10n_pe_pos — Peruvian Point of Sale
 
 ## Overview
-Bridge module adding Peruvian requirements to the Point of Sale application. Depends on [Modules/l10n_pe](modules/l10n_pe.md) and `point_of_sale`. Extends POS sessions to load Peruvian reference data (districts, identification types) and sets default values for the POS customer.
+Bridge module adding Peruvian requirements to the Point of Sale application. Depends on [Modules/l10n_pe](Modules/l10n_pe.md) and `point_of_sale`. Extends POS sessions to load Peruvian reference data (districts, identification types) and sets default values for the POS customer.
 
 ## Country/Region
 Peru (PE)

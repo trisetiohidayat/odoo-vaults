@@ -13,8 +13,8 @@ prerequisites:
   - email_aliases_set
 estimated_time: "~20 minutes"
 related_flows:
-  - "[Flows/Helpdesk/ticket-creation-flow](flows/helpdesk/ticket-creation-flow.md)"
-  - "[Flows/Helpdesk/ticket-resolution-flow](flows/helpdesk/ticket-resolution-flow.md)"
+  - "[Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md)"
+  - "[Flows/Helpdesk/ticket-resolution-flow](Flows/Helpdesk/ticket-resolution-flow.md)"
 source_module: helpdesk
 created: 2026-04-07
 version: "1.0"
@@ -51,10 +51,10 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Helpdesk/ticket-creation-flow](flows/helpdesk/ticket-creation-flow.md) | Full method chain from ticket create to SLA application |
-| 🔀 Technical Flow | [Flows/Helpdesk/ticket-resolution-flow](flows/helpdesk/ticket-resolution-flow.md) | Ticket close, rating, reopen, and escalate |
-| 📖 Module Reference | [Modules/Helpdesk](modules/helpdesk.md) | Complete field and method reference |
-| 🔧 Patterns | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) | State machine and workflow design |
+| 🔀 Technical Flow | [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) | Full method chain from ticket create to SLA application |
+| 🔀 Technical Flow | [Flows/Helpdesk/ticket-resolution-flow](Flows/Helpdesk/ticket-resolution-flow.md) | Ticket close, rating, reopen, and escalate |
+| 📖 Module Reference | [Modules/Helpdesk](Modules/Helpdesk.md) | Complete field and method reference |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) | State machine and workflow design |
 
 ---
 
@@ -97,7 +97,7 @@ Click **[Create]**.
 | **Privacy Visibility** | All Internal Users | No | Default: Portal |
 | **Email Alias** | tier1-support | No | Auto-generated from name |
 
-> **⚡ System Trigger:** When `Email Alias` is enabled (`use_alias = True`), Odoo creates an incoming email gateway. Emails sent to `{alias_name}@{alias_domain}` automatically create `helpdesk.ticket` records. See [Flows/Helpdesk/ticket-creation-flow](flows/helpdesk/ticket-creation-flow.md) for the `message_new()` flow.
+> **⚡ System Trigger:** When `Email Alias` is enabled (`use_alias = True`), Odoo creates an incoming email gateway. Emails sent to `{alias_name}@{alias_domain}` automatically create `helpdesk.ticket` records. See [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) for the `message_new()` flow.
 
 #### Step 3 — Configure Team Members
 
@@ -110,7 +110,7 @@ Click **Add** and select users from the list.
 | **Member** | John Agent, Jane Agent | At least one member required |
 | **Assignment Method** | Balanced | Balances open ticket count |
 
-> **⚡ System Trigger:** When `Automatic Assignment` is enabled, Odoo auto-assigns new tickets to the member with the fewest open tickets (balanced) or uses round-robin (randomly). This calls `team._determine_user_to_assign()` on ticket creation. See [Flows/Helpdesk/ticket-creation-flow#step-5](flows/helpdesk/ticket-creation-flow#step-5.md).
+> **⚡ System Trigger:** When `Automatic Assignment` is enabled, Odoo auto-assigns new tickets to the member with the fewest open tickets (balanced) or uses round-robin (randomly). This calls `team._determine_user_to_assign()` on ticket creation. See [Flows/Helpdesk/ticket-creation-flow#step-5](Flows/Helpdesk/ticket-creation-flow#step-5.md).
 
 #### Step 4 — Configure Stages
 
@@ -136,7 +136,7 @@ Click **Add** in the Stages tab.
 | **Folded** | No | Set to Yes only for final closed states |
 | **Template Email** | Escalation Template | Email sent when ticket enters this stage |
 
-> **⚡ System Trigger:** When a ticket moves to a **folded stage** (`fold = True`), Odoo sets `close_date = now` and marks SLAs as reached. See [Flows/Helpdesk/ticket-resolution-flow#path-a](flows/helpdesk/ticket-resolution-flow#path-a.md).
+> **⚡ System Trigger:** When a ticket moves to a **folded stage** (`fold = True`), Odoo sets `close_date = now` and marks SLAs as reached. See [Flows/Helpdesk/ticket-resolution-flow#path-a](Flows/Helpdesk/ticket-resolution-flow#path-a.md).
 
 > **⚡ Side Effect:** The `Template Email` field links to `email.template`. When a stage change occurs, `ticket._track_template({'stage_id'})` renders and queues this template for delivery to followers.
 
@@ -187,9 +187,9 @@ Navigate to: `Helpdesk → Tickets → Create`
 | **Priority** | High (2) | No | Default: Low (0) |
 | **Ticket Type** | Billing | No | Categorization |
 
-> **⚡ System Trigger:** When **Customer** (partner) is selected, `_compute_partner_email()` and `_compute_partner_phone()` auto-fill email and phone from the partner record. See [Flows/Helpdesk/ticket-creation-flow#step-7](flows/helpdesk/ticket-creation-flow#step-7.md).
+> **⚡ System Trigger:** When **Customer** (partner) is selected, `_compute_partner_email()` and `_compute_partner_phone()` auto-fill email and phone from the partner record. See [Flows/Helpdesk/ticket-creation-flow#step-7](Flows/Helpdesk/ticket-creation-flow#step-7.md).
 
-> **⚡ System Trigger:** When **Team** is selected, `_compute_user_and_stage_ids()` fires, which calls `team._determine_stage()` (sets initial stage to "New") and `team._determine_user_to_assign()` (assigns to least-loaded member). See [Flows/Helpdesk/ticket-creation-flow#steps-4-5](flows/helpdesk/ticket-creation-flow#steps-4-5.md).
+> **⚡ System Trigger:** When **Team** is selected, `_compute_user_and_stage_ids()` fires, which calls `team._determine_stage()` (sets initial stage to "New") and `team._determine_user_to_assign()` (assigns to least-loaded member). See [Flows/Helpdesk/ticket-creation-flow#steps-4-5](Flows/Helpdesk/ticket-creation-flow#steps-4-5.md).
 
 #### Step 2 — Verify Auto-Assignment
 
@@ -215,7 +215,7 @@ Click **Assign To Me** button (shown only if `user_id` is empty).
 
 Or: Edit the **Assigned to** field directly.
 
-> **⚡ System Trigger:** Changing `user_id` via `write({'user_id': uid})` triggers `message_subscribe(uid)` to add the new assignee as a follower. See [Flows/Helpdesk/ticket-creation-flow#step-7](flows/helpdesk/ticket-creation-flow#step-7.md).
+> **⚡ System Trigger:** Changing `user_id` via `write({'user_id': uid})` triggers `message_subscribe(uid)` to add the new assignee as a follower. See [Flows/Helpdesk/ticket-creation-flow#step-7](Flows/Helpdesk/ticket-creation-flow#step-7.md).
 
 #### Step 4 — Change Stage (Kanban or Form)
 
@@ -223,7 +223,7 @@ Drag the ticket card in Kanban to the "In Progress" column.
 
 Or: Edit the **Stage** dropdown on the ticket form.
 
-> **⚡ System Trigger:** Stage change triggers `_track_template({'stage_id'})`. If the new stage has an email template, it is rendered and sent. See [Flows/Helpdesk/ticket-creation-flow#track-template](flows/helpdesk/ticket-creation-flow#track-template.md).
+> **⚡ System Trigger:** Stage change triggers `_track_template({'stage_id'})`. If the new stage has an email template, it is rendered and sent. See [Flows/Helpdesk/ticket-creation-flow#track-template](Flows/Helpdesk/ticket-creation-flow#track-template.md).
 
 ---
 
@@ -244,7 +244,7 @@ Look at the **Failed SLA Ticket** counter on the team card.
 Or: Use the search filter:
 Go to: `Helpdesk → Tickets → Filters → Failed SLA`
 
-> **⚡ System Behavior:** Tickets with `sla_fail = True` are those where `sla_deadline < now` or `sla_reached_late = True` (SLA deadline was missed). The `sla_fail` field is computed via `_compute_sla_fail()` in `helpdesk.ticket`. See [Flows/Helpdesk/ticket-creation-flow#sla-status](flows/helpdesk/ticket-creation-flow#sla-status.md).
+> **⚡ System Behavior:** Tickets with `sla_fail = True` are those where `sla_deadline < now` or `sla_reached_late = True` (SLA deadline was missed). The `sla_fail` field is computed via `_compute_sla_fail()` in `helpdesk.ticket`. See [Flows/Helpdesk/ticket-creation-flow#sla-status](Flows/Helpdesk/ticket-creation-flow#sla-status.md).
 
 #### Step 2 — View SLA Details on a Ticket
 
@@ -268,7 +268,7 @@ Click the **Escalate** button on the ticket form (visible to Helpdesk Managers).
 | **Priority** | Bumped up by 1 level | 1→2, 2→3 |
 | **Team** | Changed to escalation team | If configured |
 
-> **⚡ System Trigger:** `action_escalate()` writes `priority` bump and optionally changes `team_id`. It then calls `_sla_apply()` to recompute SLA deadlines for the new team and priority. See [Flows/Helpdesk/ticket-resolution-flow#path-e](flows/helpdesk/ticket-resolution-flow#path-e.md).
+> **⚡ System Trigger:** `action_escalate()` writes `priority` bump and optionally changes `team_id`. It then calls `_sla_apply()` to recompute SLA deadlines for the new team and priority. See [Flows/Helpdesk/ticket-resolution-flow#path-e](Flows/Helpdesk/ticket-resolution-flow#path-e.md).
 
 #### Step 4 — Manually Override SLA Deadline (Optional)
 
@@ -342,7 +342,7 @@ Create three SLA policies:
 | **Time** | 24 | Hours to deadline |
 | **Stage** | New | SLA counted from this stage |
 
-> **⚡ System Trigger:** When a ticket is created with a given priority, `helpdesk.ticket._sla_find()` searches for matching policies where `team_id`, `priority`, and `stage_id.sequence` all match. The matched SLAs are then linked via `helpdesk.sla.status`. See [Flows/Helpdesk/ticket-creation-flow#step-9](flows/helpdesk/ticket-creation-flow#step-9.md).
+> **⚡ System Trigger:** When a ticket is created with a given priority, `helpdesk.ticket._sla_find()` searches for matching policies where `team_id`, `priority`, and `stage_id.sequence` all match. The matched SLAs are then linked via `helpdesk.sla.status`. See [Flows/Helpdesk/ticket-creation-flow#step-9](Flows/Helpdesk/ticket-creation-flow#step-9.md).
 
 #### Step 3 — Configure Working Hours for SLA Accuracy
 
@@ -400,7 +400,7 @@ Check the template: `Helpdesk → Configuration → Email Templates → Rating R
 | **Subject** | Rate your experience — {{ object.number }} |
 | **Template** | 5-star rating form link |
 
-> **⚡ System Trigger:** When the ticket moves to a folded (solved) stage, `rating_parent_mixin._rating_apply()` creates `rating.rating` records for the ticket. The customer receives an email with a unique portal link. See [Flows/Helpdesk/ticket-resolution-flow#path-b](flows/helpdesk/ticket-resolution-flow#path-b.md).
+> **⚡ System Trigger:** When the ticket moves to a folded (solved) stage, `rating_parent_mixin._rating_apply()` creates `rating.rating` records for the ticket. The customer receives an email with a unique portal link. See [Flows/Helpdesk/ticket-resolution-flow#path-b](Flows/Helpdesk/ticket-resolution-flow#path-b.md).
 
 #### Step 4 — Monitor Ratings
 
@@ -482,8 +482,8 @@ View:
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Helpdesk/ticket-creation-flow](flows/helpdesk/ticket-creation-flow.md) | Full method chain — for developers |
-| 🔀 Technical Flow | [Flows/Helpdesk/ticket-resolution-flow](flows/helpdesk/ticket-resolution-flow.md) | Ticket close, rating, and reopen — for developers |
-| 📖 Module Reference | [Modules/Helpdesk](modules/helpdesk.md) | Complete field and method list |
-| 🔧 Patterns | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) | Workflow design patterns |
-| 🛠️ Snippets | [Snippets/Model Snippets](snippets/model-snippets.md) | Code snippets for customization |
+| 🔀 Technical Flow | [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) | Full method chain — for developers |
+| 🔀 Technical Flow | [Flows/Helpdesk/ticket-resolution-flow](Flows/Helpdesk/ticket-resolution-flow.md) | Ticket close, rating, and reopen — for developers |
+| 📖 Module Reference | [Modules/Helpdesk](Modules/Helpdesk.md) | Complete field and method list |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) | Workflow design patterns |
+| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model-Snippets.md) | Code snippets for customization |

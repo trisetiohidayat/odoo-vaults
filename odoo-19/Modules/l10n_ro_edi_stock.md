@@ -34,9 +34,9 @@ This module provides **e-Transport** compliance for Romania through the ANAF (Au
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/stock_delivery](modules/stock_delivery.md) | Stock delivery integration |
-| [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) | ANAF e-Factura base (provides API utilities) |
-| [Modules/stock_picking_batch](modules/stock_picking_batch.md) | Batch picking support (also required) |
+| [Modules/stock_delivery](Modules/stock_delivery.md) | Stock delivery integration |
+| [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) | ANAF e-Factura base (provides API utilities) |
+| [Modules/stock_picking_batch](Modules/stock_picking_batch.md) | Batch picking support (also required) |
 
 ## Models
 
@@ -105,11 +105,11 @@ Contains UBL-based e-Transport document templates for ANAF:
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/l10n_ro](modules/l10n_ro.md) | Base Romanian accounting |
-| [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) | ANAF e-Factura (provides shared API utilities) |
-| [Modules/l10n_ro_edi_stock_batch](modules/l10n_ro_edi_stock_batch.md) | e-Transport for batch pickings |
-| [Modules/Stock](modules/stock.md) | Stock management |
-| [Modules/stock_delivery](modules/stock_delivery.md) | Delivery integration |
+| [Modules/l10n_ro](Modules/l10n_ro.md) | Base Romanian accounting |
+| [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) | ANAF e-Factura (provides shared API utilities) |
+| [Modules/l10n_ro_edi_stock_batch](Modules/l10n_ro_edi_stock_batch.md) | e-Transport for batch pickings |
+| [Modules/Stock](Modules/Stock.md) | Stock management |
+| [Modules/stock_delivery](Modules/stock_delivery.md) | Delivery integration |
 
 ## Configuration
 
@@ -121,7 +121,7 @@ Contains UBL-based e-Transport document templates for ANAF:
 
 ## Technical Notes
 
-- Uses the same ANAF access token as [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) e-Factura
+- Uses the same ANAF access token as [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) e-Factura
 - e-Transport is mandatory for transport of excisable goods
 - XML format based on ANAF e-Transport schema v2
 - Bearer token authentication (same token as e-Factura)
@@ -130,6 +130,6 @@ Contains UBL-based e-Transport document templates for ANAF:
 
 ## See Also
 
-- [Modules/l10n_ro](modules/l10n_ro.md) - Romanian accounting
-- [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) - ANAF e-Factura
-- [Modules/l10n_ro_edi_stock_batch](modules/l10n_ro_edi_stock_batch.md) - e-Transport for batch pickings
+- [Modules/l10n_ro](Modules/l10n_ro.md) - Romanian accounting
+- [Modules/l10n_ro_edi](Modules/l10n_ro_edi.md) - ANAF e-Factura
+- [Modules/l10n_ro_edi_stock_batch](Modules/l10n_ro_edi_stock_batch.md) - e-Transport for batch pickings

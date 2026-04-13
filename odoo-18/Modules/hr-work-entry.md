@@ -3,7 +3,7 @@ Module: hr_work_entry
 Version: Odoo 18
 Type: Core
 Tags: #odoo #odoo18 #hr #work-entry #payroll #attendance
-Related Modules: [Modules/HR](modules/hr.md), [Modules/Resource](modules/resource.md), [hr_work_entry_contract](modules/hr-contracts.md), [hr_work_entry_holidays](modules/hr-holidays.md)
+Related Modules: [Modules/HR](Modules/HR.md), [Modules/Resource](Modules/Resource.md), [hr_work_entry_contract](modules/hr-contracts.md), [hr_work_entry_holidays](modules/hr-holidays.md)
 ---
 
 # Work Entry Management (`hr_work_entry`)

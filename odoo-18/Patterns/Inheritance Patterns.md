@@ -91,5 +91,5 @@ class AccountInvoice(models.Model):
 ---
 
 ## Related Links
-- [Core/BaseModel](core/basemodel.md) — Model attributes
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machines
+- [Core/BaseModel](Core/BaseModel.md) — Model attributes
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machines

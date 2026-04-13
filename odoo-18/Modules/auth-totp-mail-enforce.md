@@ -3,7 +3,7 @@ Module: auth_totp_mail_enforce
 Version: Odoo 18
 Type: Extension
 Tags: [#odoo, #odoo18, #security, #auth, #totp, #2fa, #mail, #enforcement]
-Related: [Modules/auth_totp](modules/auth_totp.md) (base TOTP), [Modules/auth_totp_mail](modules/auth_totp_mail.md) (notifications), [Modules/auth_totp_portal](modules/auth_totp_portal.md) (portal 2FA), [Core/API](core/api.md)
+Related: [Modules/auth_totp](Modules/auth_totp.md) (base TOTP), [Modules/auth_totp_mail](Modules/auth_totp_mail.md) (notifications), [Modules/auth_totp_portal](Modules/auth_totp_portal.md) (portal 2FA), [Core/API](Core/API.md)
 ---
 
 # auth_totp_mail_enforce — TOTP Email Enforcement

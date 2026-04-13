@@ -34,5 +34,5 @@ Localized accounting for Uganda. Activates chart of accounts, taxes, fiscal posi
 - Demo data: `demo/demo_company.xml`
 
 ## Related
-- [Modules/account](modules/account.md)
-- [Modules/l10n_ke](modules/l10n_ke.md)
+- [Modules/account](Modules/account.md)
+- [Modules/l10n_ke](Modules/l10n_ke.md)

@@ -712,8 +712,8 @@ def _get_deferred_period_amount(self, amount, start, end, first_date, last_date,
 
 ## See Also
 
-- [Modules/Account](modules/account.md) — Core account.move, journal entries, reconcile models (base)
-- [Modules/account_accountant](modules/account_accountant.md) — This module (EE): bank rec widget, deferred, signing
-- [Modules/Analytic](modules/analytic.md) — analytic_distribution Json field used by widget lines
-- [Modules/base_setup](modules/base_setup.md) — Bank account configuration, statement import
-- [New Features/What's New](new-features/what's-new.md) — Deferred entry changes, lock date exceptions
+- [Modules/Account](Modules/Account.md) — Core account.move, journal entries, reconcile models (base)
+- [Modules/account_accountant](Modules/account_accountant.md) — This module (EE): bank rec widget, deferred, signing
+- [Modules/Analytic](Modules/Analytic.md) — analytic_distribution Json field used by widget lines
+- [Modules/base_setup](Modules/base_setup.md) — Bank account configuration, statement import
+- [New Features/What's New](New-Features/What's-New.md) — Deferred entry changes, lock date exceptions

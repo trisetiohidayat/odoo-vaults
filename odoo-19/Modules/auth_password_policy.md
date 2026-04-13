@@ -12,7 +12,7 @@
 | **Author** | Odoo S.A. |
 | **Odoo Version** | 19.0 |
 | **Manifest Depends** | `base_setup`, `web` |
-| **Migration Note** | Single `minlength` parameter persisted in `ir.config_parameter` (not `res.company`) — see [#Design Decision](#design-decision.md) |
+| **Migration Note** | Single `minlength` parameter persisted in `ir.config_parameter` (not `res.company`) — see [#Design Decision](#Design-Decision.md) |
 
 ---
 
@@ -363,9 +363,9 @@ Positions the meter container `float: right` so it sits to the right of the pass
 
 | Module | Relationship |
 |--------|-------------|
-| [Modules/auth_signup](modules/auth_signup.md) | Provides the signup flow; `auth_password_policy` activates on password set during signup |
-| [Modules/auth_totp](modules/auth_totp.md) | Two-factor authentication; complementary to password policy |
-| [Modules/base_setup](modules/base_setup.md) | Provides the `res.config.settings` form layout this module injects into |
+| [Modules/auth_signup](Modules/auth_signup.md) | Provides the signup flow; `auth_password_policy` activates on password set during signup |
+| [Modules/auth_totp](Modules/auth_totp.md) | Two-factor authentication; complementary to password policy |
+| [Modules/base_setup](Modules/base_setup.md) | Provides the `res.config.settings` form layout this module injects into |
 | `auth_password_policy_signup` | Extended policy with `minwords`, `minclasses`; activates during portal sign-up |
 
 ---

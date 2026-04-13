@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, mrp-product-expiry]
 
 
 
-- [Modules/mrp](modules/mrp.md) — Manufacturing base module
+- [Modules/mrp](Modules/mrp.md) — Manufacturing base module

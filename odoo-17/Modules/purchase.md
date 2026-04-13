@@ -678,9 +678,9 @@ This is the most complex method in `purchase_order_line.py`. It handles:
 
 ## See Also
 
-- [Modules/purchase_stock](modules/purchase_stock.md) — Receipt picking creation on PO confirmation
-- [Modules/account](modules/account.md) — Vendor bill posting and payment
-- [Modules/purchase_requisition](modules/purchase_requisition.md) — Purchase tenders and competitive bidding
-- [Modules/purchase_mrp](modules/purchase_mrp.md) — Manufacturing component procurement
-- [Modules/product](modules/product.md) — Vendor supplier info and purchase UoM configuration
-- [Modules/purchase_product_matrix](modules/purchase_product_matrix.md) — Matrix/grid product entry for PO
+- [Modules/purchase_stock](Modules/purchase_stock.md) — Receipt picking creation on PO confirmation
+- [Modules/account](Modules/account.md) — Vendor bill posting and payment
+- [Modules/purchase_requisition](Modules/purchase_requisition.md) — Purchase tenders and competitive bidding
+- [Modules/purchase_mrp](Modules/purchase_mrp.md) — Manufacturing component procurement
+- [Modules/product](Modules/product.md) — Vendor supplier info and purchase UoM configuration
+- [Modules/purchase_product_matrix](Modules/purchase_product_matrix.md) — Matrix/grid product entry for PO

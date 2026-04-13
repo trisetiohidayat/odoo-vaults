@@ -488,8 +488,8 @@ The `mass_mailing_slides` module had no significant functional changes between O
 
 ## Related Documentation
 
-- [Modules/website_slides](modules/website_slides.md) — Course model, enrollment lifecycle, `slide.channel.partner`
-- [Modules/mass_mailing](modules/mass_mailing.md) — `mailing.mailing`, `mailing.trace`, `link.tracker`
-- [Modules/res.partner](modules/res.partner.md) — Partner model (recipient model for mailings)
-- [Core/Fields](core/fields.md) — Many2many, One2many, computed/searchable field patterns
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns (member status lifecycle: invited → joined → ongoing → completed)
+- [Modules/website_slides](Modules/website_slides.md) — Course model, enrollment lifecycle, `slide.channel.partner`
+- [Modules/mass_mailing](Modules/mass_mailing.md) — `mailing.mailing`, `mailing.trace`, `link.tracker`
+- [Modules/res.partner](Modules/res.partner.md) — Partner model (recipient model for mailings)
+- [Core/Fields](Core/Fields.md) — Many2many, One2many, computed/searchable field patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine patterns (member status lifecycle: invited → joined → ongoing → completed)

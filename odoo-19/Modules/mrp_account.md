@@ -1251,14 +1251,14 @@ To enable manufacturing accounting:
 
 ## See Also
 
-- [Modules/MRP](modules/mrp.md) — Base manufacturing module (workorders, MOs, BoMs)
-- [Modules/stock_account](modules/stock_account.md) — Stock valuation accounting integration
-- [Modules/Account](modules/account.md) — General accounting (journal entries, accounts)
-- [Modules/Analytic](modules/analytic.md) — Analytic accounting (distribution, applicability)
-- [Core/API](core/api.md) — ORM decorators used in this module (`@api.depends`, `@api.constrains`)
-- [Core/Fields](core/fields.md) — Field types: `Json` for analytic distribution, `Many2many` for relations
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — MO state machine (`confirmed` -> `progress` -> `done`)
-- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL and record rules in multi-company environments
+- [Modules/MRP](Modules/MRP.md) — Base manufacturing module (workorders, MOs, BoMs)
+- [Modules/stock_account](Modules/stock_account.md) — Stock valuation accounting integration
+- [Modules/Account](Modules/Account.md) — General accounting (journal entries, accounts)
+- [Modules/Analytic](Modules/Analytic.md) — Analytic accounting (distribution, applicability)
+- [Core/API](Core/API.md) — ORM decorators used in this module (`@api.depends`, `@api.constrains`)
+- [Core/Fields](Core/Fields.md) — Field types: `Json` for analytic distribution, `Many2many` for relations
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — MO state machine (`confirmed` -> `progress` -> `done`)
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ACL and record rules in multi-company environments
 
 ---
 

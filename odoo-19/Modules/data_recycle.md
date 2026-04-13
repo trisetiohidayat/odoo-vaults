@@ -588,9 +588,9 @@ If a rule's `active` is set to `False` while `_recycle_records()` is iterating o
 
 ## Related Documentation
 
-- [Modules/mail](modules/mail.md) -- `mail.thread` notifications via `message_notify()`
-- [Core/API](core/api.md) -- `@api.depends`, `@api.constrains`, `compute_sudo`, `@api.model`
-- [Core/Fields](core/fields.md) -- `Domain` field class, `Many2one`, `One2many`, `index='btree_not_null'`
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) -- Cron-based automation, `state='code'` cron type
-- [Patterns/Security Patterns](patterns/security-patterns.md) -- ACL CSV, `sudo()`, record rules, `all_group_ids`
-- [Tools/ORM Operations](tools/orm-operations.md) -- `search()`, `flush_all()`, `sudo()`, `exists()`, `read_group`, batch processing with `split_every`
+- [Modules/mail](Modules/mail.md) -- `mail.thread` notifications via `message_notify()`
+- [Core/API](Core/API.md) -- `@api.depends`, `@api.constrains`, `compute_sudo`, `@api.model`
+- [Core/Fields](Core/Fields.md) -- `Domain` field class, `Many2one`, `One2many`, `index='btree_not_null'`
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) -- Cron-based automation, `state='code'` cron type
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) -- ACL CSV, `sudo()`, record rules, `all_group_ids`
+- [Tools/ORM Operations](Tools/ORM-Operations.md) -- `search()`, `flush_all()`, `sudo()`, `exists()`, `read_group`, batch processing with `split_every`

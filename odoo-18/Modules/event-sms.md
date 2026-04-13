@@ -14,7 +14,7 @@ Tags: #odoo #odoo18 #event #sms #notifications
 **Auto-install:** Yes (with `event` + `sms`)
 **License:** LGPL-3
 
-Bridges the [Modules/Stock](modules/stock.md) event scheduling engine with the SMS gateway. Adds `sms` as a third `notification_type` alongside `mail` on `event.mail` and `event.type.mail`, enabling SMS reminders and post-registration confirmations for event attendees.
+Bridges the [Modules/Stock](Modules/Stock.md) event scheduling engine with the SMS gateway. Adds `sms` as a third `notification_type` alongside `mail` on `event.mail` and `event.type.mail`, enabling SMS reminders and post-registration confirmations for event attendees.
 
 ---
 
@@ -269,6 +269,6 @@ graph TD
 
 ## See Also
 
-- [Core/API](core/api.md) — @api.depends, @api.onchange decorators
-- [Modules/Stock](modules/stock.md) — event.sms notification context
+- [Core/API](Core/API.md) — @api.depends, @api.onchange decorators
+- [Modules/Stock](Modules/Stock.md) — event.sms notification context
 - `event_sale` — event ticket sales that create registrations (which then receive SMS notifications)

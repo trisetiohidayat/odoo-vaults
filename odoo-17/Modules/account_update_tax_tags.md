@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, account-update-tax-tags]
 
 
 
-- [Modules/account](modules/account.md) — Accounting extension
+- [Modules/account](Modules/account.md) — Accounting extension

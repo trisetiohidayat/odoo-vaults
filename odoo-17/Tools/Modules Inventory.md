@@ -773,9 +773,9 @@ Full docs exist for: account, analytic, auth_oauth, auth_totp, auth_totp_mail, b
 ---
 
 ## See Also
-- [Modules/base](modules/base.md) — Foundation module
-- [Modules/account](modules/account.md) — Accounting
-- [Modules/sale](modules/sale.md) — Sales
-- [Modules/stock](modules/stock.md) — Inventory
-- [Modules/mrp](modules/mrp.md) — Manufacturing
-- [Modules/website](modules/website.md) — Website builder
+- [Modules/base](Modules/base.md) — Foundation module
+- [Modules/account](Modules/account.md) — Accounting
+- [Modules/sale](Modules/sale.md) — Sales
+- [Modules/stock](Modules/stock.md) — Inventory
+- [Modules/mrp](Modules/mrp.md) — Manufacturing
+- [Modules/website](Modules/website.md) — Website builder

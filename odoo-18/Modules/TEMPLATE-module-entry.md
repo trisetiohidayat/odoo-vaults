@@ -55,9 +55,9 @@ draft ──[confirm]──→ confirmed ──[done]──→ done
 
 ## Dependencies
 
-- [Modules/{}](modules/{}.md)
-- [Modules/{}](modules/{}.md)
+- [Modules/{}](Modules/{}.md)
+- [Modules/{}](Modules/{}.md)
 
 ## Related Links
-- [Tools/Modules Inventory](tools/modules-inventory.md)
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md)
+- [Tools/Modules Inventory](Tools/Modules-Inventory.md)
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md)

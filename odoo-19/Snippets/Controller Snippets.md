@@ -91,7 +91,7 @@ def my_list(self, ids, **kwargs):
 
 ## Related
 
-- [Core/HTTP Controller](core/http-controller.md) - Full controller reference
-- [Core/BaseModel](core/basemodel.md) - Models in controllers
-- [Core/API](core/api.md) - ORM access
-- [Core/Exceptions](core/exceptions.md) - Error handling
+- [Core/HTTP Controller](Core/HTTP-Controller.md) - Full controller reference
+- [Core/BaseModel](Core/BaseModel.md) - Models in controllers
+- [Core/API](Core/API.md) - ORM access
+- [Core/Exceptions](Core/Exceptions.md) - Error handling

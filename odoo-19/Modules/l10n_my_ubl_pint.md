@@ -26,13 +26,13 @@ UBL PINT (Peppol International) e-invoicing format specification for Malaysia. T
 
 The PINT format is part of the Peppol International (PINT) specification that adapts the Peppol BIS Billing standard for use in countries outside Europe, including Malaysia.
 
-This module defines the XML schema and formatting rules. The actual API communication with MyInvois is handled by [Modules/l10n_my_edi](modules/l10n_my_edi.md).
+This module defines the XML schema and formatting rules. The actual API communication with MyInvois is handled by [Modules/l10n_my_edi](Modules/l10n_my_edi.md).
 
 ## Dependencies
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md) | UBL/CII invoice format framework |
+| [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) | UBL/CII invoice format framework |
 
 ## Key Models
 
@@ -86,7 +86,7 @@ Cleans up Malaysian PINT-specific configurations when uninstalled.
 
 ## Related
 
-- [Modules/l10n_my_edi](modules/l10n_my_edi.md) - MyInvois e-invoicing (uses this format)
-- [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md) - UBL/CII framework
-- [Modules/account_edi_proxy_client](modules/account_edi_proxy_client.md) - EDI proxy for Peppol
+- [Modules/l10n_my_edi](Modules/l10n_my_edi.md) - MyInvois e-invoicing (uses this format)
+- [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) - UBL/CII framework
+- [Modules/account_edi_proxy_client](Modules/account_edi_proxy_client.md) - EDI proxy for Peppol
 - [Peppol PINT Specification](https://peppol.org)

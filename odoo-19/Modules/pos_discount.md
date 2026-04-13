@@ -35,4 +35,4 @@ Allows the cashier to quickly give percentage-based discounts on the whole order
 - `views/pos_config_views.xml` — POS config form extension
 
 ## Related
-- [Modules/point_of_sale](modules/point_of_sale.md) — Base POS module
+- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module

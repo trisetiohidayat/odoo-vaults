@@ -430,9 +430,9 @@ crm.lead
 
 ## See Also
 
-- [Modules/event_crm](modules/event_crm.md) — Base CRM lead generation from event registrations
-- [Modules/website_event](modules/website_event.md) — Website event pages, visitor tracking, registration form
-- [Modules/Event](modules/event.md) — Core event management (`event.registration`, `event.lead.rule`)
-- [Modules/CRM](modules/crm.md) — CRM leads and opportunities
-- [Core/Fields](core/fields.md) — Many2one, One2many, Many2many field behavior
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Event state machine (create → confirm → done)
+- [Modules/event_crm](Modules/event_crm.md) — Base CRM lead generation from event registrations
+- [Modules/website_event](Modules/website_event.md) — Website event pages, visitor tracking, registration form
+- [Modules/Event](Modules/Event.md) — Core event management (`event.registration`, `event.lead.rule`)
+- [Modules/CRM](Modules/CRM.md) — CRM leads and opportunities
+- [Core/Fields](Core/Fields.md) — Many2one, One2many, Many2many field behavior
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Event state machine (create → confirm → done)

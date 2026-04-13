@@ -20,7 +20,7 @@ updated: 2026-04-11
 | **Author** | Odoo S.A. |
 | **Sequence** | 230 |
 
-The Repair module manages after-sale product repairs end-to-end: intake, parts consumption (add/remove/recycle), warranty handling, and repair costing via linked sale quotations. It integrates deeply with [Modules/Stock](modules/stock.md) (locations, lots, moves, pickings) and [Modules/Sale](modules/sale.md) (quotations, service tracking). Parts are `stock.move` records with `repair_line_type` rather than a separate `repair.line` model.
+The Repair module manages after-sale product repairs end-to-end: intake, parts consumption (add/remove/recycle), warranty handling, and repair costing via linked sale quotations. It integrates deeply with [Modules/Stock](Modules/Stock.md) (locations, lots, moves, pickings) and [Modules/Sale](Modules/Sale.md) (quotations, service tracking). Parts are `stock.move` records with `repair_line_type` rather than a separate `repair.line` model.
 
 ---
 
@@ -1019,10 +1019,10 @@ The repair module received significant rework in Odoo 19:
 ---
 
 ## Related Documentation
-- [Modules/Stock](modules/stock.md) — Locations, moves, lots, picking types, traceability
-- [Modules/sale_stock](modules/sale_stock.md) — MTO, dropship, sale-stock integration
-- [Modules/sale_management](modules/sale_management.md) — Sale quotation management
-- [Modules/mrp_repair](modules/mrp_repair.md) — MRP + Repair integration (phantom BOM, MTO → MO)
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine design patterns
-- [Core/Fields](core/fields.md) — Field types used in repair (Many2one, One2many, Properties)
-- [Core/API](core/api.md) — @api.depends, @api.onchange, @api.model_create_multi usage in repair
+- [Modules/Stock](Modules/Stock.md) — Locations, moves, lots, picking types, traceability
+- [Modules/sale_stock](Modules/sale_stock.md) — MTO, dropship, sale-stock integration
+- [Modules/sale_management](Modules/sale_management.md) — Sale quotation management
+- [Modules/mrp_repair](Modules/mrp_repair.md) — MRP + Repair integration (phantom BOM, MTO → MO)
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine design patterns
+- [Core/Fields](Core/Fields.md) — Field types used in repair (Many2one, One2many, Properties)
+- [Core/API](Core/API.md) — @api.depends, @api.onchange, @api.model_create_multi usage in repair

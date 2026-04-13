@@ -375,10 +375,10 @@ def action_reverse_moves(self):
 
 ## Related Flows
 
-- [Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md) — Draft invoice creation
-- [Flows/Account/payment-flow](flows/account/payment-flow.md) — Payment registration
-- [Flows/Cross-Module/sale-stock-account-flow](flows/cross-module/sale-stock-account-flow.md) — Full business cycle
-- [Modules/Account](modules/account.md) — Core account models
+- [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — Draft invoice creation
+- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment registration
+- [Flows/Cross-Module/sale-stock-account-flow](Flows/Cross-Module/sale-stock-account-flow.md) — Full business cycle
+- [Modules/Account](Modules/Account.md) — Core account models
 
 ---
 

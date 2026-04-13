@@ -177,6 +177,6 @@ Third-party modules can add KPIs to a digest by:
 
 ## See Also
 
-- [Modules/mail](modules/mail.md) — email sending infrastructure
-- [Modules/account](modules/account.md) — financial KPI extensions
-- [Modules/sale](modules/sale.md) — sales KPI extensions
+- [Modules/mail](Modules/mail.md) — email sending infrastructure
+- [Modules/account](Modules/account.md) — financial KPI extensions
+- [Modules/sale](Modules/sale.md) — sales KPI extensions

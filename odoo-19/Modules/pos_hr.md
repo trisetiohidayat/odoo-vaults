@@ -449,6 +449,6 @@ This report is invoked from the POS HR dashboard wizard with `employee_id` filte
 
 ## Related
 
-- [Modules/point_of_sale](modules/point_of_sale.md) — Base POS module
-- [Modules/HR](modules/hr.md) — Human Resources module
-- [Modules/Stock](modules/stock.md) — Warehouse (used by POS for product availability)
+- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
+- [Modules/HR](Modules/HR.md) — Human Resources module
+- [Modules/Stock](Modules/Stock.md) — Warehouse (used by POS for product availability)

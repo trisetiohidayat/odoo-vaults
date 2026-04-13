@@ -9,19 +9,19 @@ version: "4.0"
 ## Quick Access
 
 ### Flows (Technical)
-- [Flows/CRM/lead-creation-flow](flows/crm/lead-creation-flow.md) - Lead from multiple sources
-- [Flows/CRM/lead-conversion-to-opportunity-flow](flows/crm/lead-conversion-to-opportunity-flow.md) - Lead to Opportunity conversion
-- [Flows/CRM/opportunity-win-flow](flows/crm/opportunity-win-flow.md) - Mark as won
-- [Flows/CRM/lead-assignment-flow](flows/crm/lead-assignment-flow.md) - Auto-assignment cron
+- [Flows/CRM/lead-creation-flow](Flows/CRM/lead-creation-flow.md) - Lead from multiple sources
+- [Flows/CRM/lead-conversion-to-opportunity-flow](Flows/CRM/lead-conversion-to-opportunity-flow.md) - Lead to Opportunity conversion
+- [Flows/CRM/opportunity-win-flow](Flows/CRM/opportunity-win-flow.md) - Mark as won
+- [Flows/CRM/lead-assignment-flow](Flows/CRM/lead-assignment-flow.md) - Auto-assignment cron
 
 ### Related Modules
-- [Modules/Sale](modules/sale.md) - Sale order from opportunity
-- [Modules/Account](modules/account.md) - Revenue tracking
-- [Modules/Stock](modules/stock.md) - Inventory and delivery
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) - Pipeline stage patterns
-- [Modules/UTM](modules/utm.md) - Campaign/source tracking
-- [Modules/Mail](modules/mail.md) - Messaging and notifications
-- [Modules/Calendar](modules/calendar.md) - Meeting integration
+- [Modules/Sale](Modules/Sale.md) - Sale order from opportunity
+- [Modules/Account](Modules/Account.md) - Revenue tracking
+- [Modules/Stock](Modules/Stock.md) - Inventory and delivery
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) - Pipeline stage patterns
+- [Modules/UTM](Modules/UTM.md) - Campaign/source tracking
+- [Modules/Mail](Modules/Mail.md) - Messaging and notifications
+- [Modules/Calendar](Modules/Calendar.md) - Meeting integration
 
 ---
 

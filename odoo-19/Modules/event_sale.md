@@ -736,8 +736,8 @@ If a user changes `event_id` on an SO line in the backend after the SO was confi
 
 ## See Also
 
-- [Modules/event](modules/event.md) — Base event module (`event.event`, `event.registration`, `event.event.ticket`)
-- [Modules/event_product](modules/event_product.md) — Product-event linking (`service_tracking = 'event'`, `product_id` on tickets)
-- [Modules/sale](modules/sale.md) — Sale order flow (`sale.order`, `sale.order.line`)
-- [Modules/website_event_sale](modules/website_event_sale.md) — E-commerce integration (depends on `event_sale`)
-- [Modules/website_event](modules/website_event.md) — Event website pages and registration forms
+- [Modules/event](Modules/event.md) — Base event module (`event.event`, `event.registration`, `event.event.ticket`)
+- [Modules/event_product](Modules/event_product.md) — Product-event linking (`service_tracking = 'event'`, `product_id` on tickets)
+- [Modules/sale](Modules/sale.md) — Sale order flow (`sale.order`, `sale.order.line`)
+- [Modules/website_event_sale](Modules/website_event_sale.md) — E-commerce integration (depends on `event_sale`)
+- [Modules/website_event](Modules/website_event.md) — Event website pages and registration forms

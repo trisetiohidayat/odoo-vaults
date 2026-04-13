@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, account-audit-trail]
 
 
 
-- [Modules/account](modules/account.md) — Accounting extension
+- [Modules/account](Modules/account.md) — Accounting extension

@@ -162,7 +162,7 @@ When `reservation_method = 'by_date'`:
 
 ## See Also
 
-- [Modules/stock](modules/stock.md) — `stock.picking`, `stock.location`
-- [Modules/stock_warehouse](modules/stock_warehouse.md) — warehouse configuration
-- [Modules/stock_picking_batch](modules/stock_picking_batch.md) — batch transfers
-- [Modules/stock_rule](modules/stock_rule.md) — procurement rules
+- [Modules/stock](Modules/stock.md) — `stock.picking`, `stock.location`
+- [Modules/stock_warehouse](Modules/stock_warehouse.md) — warehouse configuration
+- [Modules/stock_picking_batch](Modules/stock_picking_batch.md) — batch transfers
+- [Modules/stock_rule](Modules/stock_rule.md) — procurement rules

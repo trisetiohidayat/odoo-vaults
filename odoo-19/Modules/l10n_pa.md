@@ -28,7 +28,7 @@ Panamanian accounting chart and tax localization based on current regulations.
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/Account](modules/account.md) | Core accounting module |
+| [Modules/Account](Modules/Account.md) | Core accounting module |
 
 ## Key Models
 
@@ -75,5 +75,5 @@ Inherits `account.chart.template`:
 - Example: `121` = Receivable, `211` = Payable
 
 ## Related Modules
-- [Modules/l10n_pa](modules/l10n_pa.md) - Core accounting (this module)
-- [Modules/account](modules/account.md) - Core accounting
+- [Modules/l10n_pa](Modules/l10n_pa.md) - Core accounting (this module)
+- [Modules/account](Modules/account.md) - Core accounting

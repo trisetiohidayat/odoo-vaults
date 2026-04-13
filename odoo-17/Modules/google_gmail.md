@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, google-gmail]
 
 
 
-- [Modules/base](modules/base.md) — Auth / base extension
+- [Modules/base](Modules/base.md) — Auth / base extension

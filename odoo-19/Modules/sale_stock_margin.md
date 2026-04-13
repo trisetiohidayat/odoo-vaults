@@ -559,10 +559,10 @@ This cascade is **single-record-scoped** for normal operations and batch-optimiz
 
 ## See Also
 
-- [Modules/Sale](modules/sale.md) — Parent `sale.order.line` model
-- [Modules/sale_margin](modules/sale_margin.md) — Base margin computation (`purchase_price`, `margin`, `margin_percent`)
-- [Modules/sale_mrp_margin](modules/sale_mrp_margin.md) — BoM-based cost for manufactured products
-- [Modules/Stock](modules/stock.md) — `stock.move`, `stock.valuation.layer`, `has_valued_move_ids`
-- [Modules/stock_account](modules/stock_account.md) — Stock valuation, average/FIFO cost computation
-- [Core/API](core/api.md) — `@api.depends` cascade, computed field override patterns
-- [Core/Fields](core/fields.md) — `fields.Float` with `store`, `copy`, `precompute`
+- [Modules/Sale](Modules/Sale.md) — Parent `sale.order.line` model
+- [Modules/sale_margin](Modules/sale_margin.md) — Base margin computation (`purchase_price`, `margin`, `margin_percent`)
+- [Modules/sale_mrp_margin](Modules/sale_mrp_margin.md) — BoM-based cost for manufactured products
+- [Modules/Stock](Modules/Stock.md) — `stock.move`, `stock.valuation.layer`, `has_valued_move_ids`
+- [Modules/stock_account](Modules/stock_account.md) — Stock valuation, average/FIFO cost computation
+- [Core/API](Core/API.md) — `@api.depends` cascade, computed field override patterns
+- [Core/Fields](Core/Fields.md) — `fields.Float` with `store`, `copy`, `precompute`

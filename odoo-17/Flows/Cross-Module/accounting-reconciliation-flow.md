@@ -453,7 +453,7 @@ The `unlink()` on partials handles:
 ---
 
 ## See Also
-- [Modules/account](modules/account.md) — `account.move`, `account.move.line`
-- [Flows/Cross-Module/analytic-distribution-flow](flows/cross-module/analytic-distribution-flow.md) — analytic distribution
-- [Flows/Sale/full-sale-to-cash-flow](flows/sale/full-sale-to-cash-flow.md) — sale reconciliation end-to-end
-- [Flows/Purchase/full-purchase-to-payment-flow](flows/purchase/full-purchase-to-payment-flow.md) — purchase reconciliation end-to-end
+- [Modules/account](Modules/account.md) — `account.move`, `account.move.line`
+- [Flows/Cross-Module/analytic-distribution-flow](Flows/Cross-Module/analytic-distribution-flow.md) — analytic distribution
+- [Flows/Sale/full-sale-to-cash-flow](Flows/Sale/full-sale-to-cash-flow.md) — sale reconciliation end-to-end
+- [Flows/Purchase/full-purchase-to-payment-flow](Flows/Purchase/full-purchase-to-payment-flow.md) — purchase reconciliation end-to-end

@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #purchase #stock #india
 # l10n_in_purchase_stock — Indian Purchase and Warehouse Management
 
 ## Overview
-Extension bridging [Modules/l10n_in_purchase](modules/l10n_in_purchase.md) + [Modules/l10n_in_stock](modules/l10n_in_stock.md) + `purchase_stock`. Adds the warehouse address to vendor bills created from Purchase Orders — a legal requirement in Indian GST for determining the place of supply and validating the originating warehouse.
+Extension bridging [Modules/l10n_in_purchase](Modules/l10n_in_purchase.md) + [Modules/l10n_in_stock](Modules/l10n_in_stock.md) + `purchase_stock`. Adds the warehouse address to vendor bills created from Purchase Orders — a legal requirement in Indian GST for determining the place of supply and validating the originating warehouse.
 
 ## Country
 India
@@ -40,7 +40,7 @@ None (pure code module).
 ## Warehouse Address Flow
 1. Purchase Order created with vendor → warehouse assigned
 2. Vendor bill created from PO → `_onchange_purchase_auto_complete()` from `l10n_in_purchase` copies GST treatment
-3. `l10n_in_purchase_stock` overrides `_l10n_in_get_warehouse_address()` (via `l10n_in_stock` base) to read warehouse address from PO and inject into the invoice (used in e-invoice JSON generation in [Modules/l10n_in_edi](modules/l10n_in_edi.md))
+3. `l10n_in_purchase_stock` overrides `_l10n_in_get_warehouse_address()` (via `l10n_in_stock` base) to read warehouse address from PO and inject into the invoice (used in e-invoice JSON generation in [Modules/l10n_in_edi](Modules/l10n_in_edi.md))
 
 ## Installation
 `auto_install = True`. Auto-installs as part of the Indian purchase-stock accounting stack.

@@ -21,5 +21,5 @@ No custom models — this module provides a `hr.timesheet.attendance.report` SQL
 - `security/hr_timesheet_attendance_report_security.xml` — record rules restricting access
 
 ## Related
-- [Modules/hr_timesheet](modules/hr_timesheet.md) — Timesheets
-- [Modules/hr_attendance](modules/hr_attendance.md) — Attendance tracking
+- [Modules/hr_timesheet](Modules/hr_timesheet.md) — Timesheets
+- [Modules/hr_attendance](Modules/hr_attendance.md) — Attendance tracking

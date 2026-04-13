@@ -66,4 +66,4 @@ Manages employee remote/hybrid work by assigning work locations (Office, Home, O
 - Location view hacks to group by today's location field
 
 ## Related
-- [Modules/HR](modules/hr.md) - Core HR module
+- [Modules/HR](Modules/HR.md) - Core HR module

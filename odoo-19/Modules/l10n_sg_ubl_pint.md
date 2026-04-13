@@ -49,7 +49,7 @@ Singapore-specific fields for e-invoicing.
 Singapore-specific partner fields.
 
 ## Related
-- [Modules/l10n_sg](modules/l10n_sg.md) — Core Singapore accounting
-- [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md) — UBL BIS3 base for Peppol e-invoicing
-- [Modules/l10n_anz_ubl_pint](modules/l10n_anz_ubl_pint.md) — Australia/New Zealand PINT format
-- [Modules/l10n_jp_ubl_pint](modules/l10n_jp_ubl_pint.md) — Japan PINT format
+- [Modules/l10n_sg](Modules/l10n_sg.md) — Core Singapore accounting
+- [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) — UBL BIS3 base for Peppol e-invoicing
+- [Modules/l10n_anz_ubl_pint](Modules/l10n_anz_ubl_pint.md) — Australia/New Zealand PINT format
+- [Modules/l10n_jp_ubl_pint](Modules/l10n_jp_ubl_pint.md) — Japan PINT format

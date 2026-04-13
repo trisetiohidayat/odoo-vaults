@@ -66,8 +66,8 @@ Work entry management for payroll. Conflict detection, validation, splitting ent
 
 ## Related Checkpoints
 
-- [Documentation/Checkpoints/Checkpoint 04 - POS Mail Event Gamification](documentation/checkpoints/checkpoint-04---pos-mail-event-gamification.md) - Core HR, Calendar, Project, Product, Stock
-- [Documentation/Checkpoints/Checkpoint 06 - Website Fleet Rating Web Delivery](documentation/checkpoints/checkpoint-06---website-fleet-rating-web-delivery.md) - Rating, Fleet, Web, Delivery, SMS, Barcodes
+- [Documentation/Checkpoints/Checkpoint 04 - POS Mail Event Gamification](Documentation/Checkpoints/Checkpoint-04---POS-Mail-Event-Gamification.md) - Core HR, Calendar, Project, Product, Stock
+- [Documentation/Checkpoints/Checkpoint 06 - Website Fleet Rating Web Delivery](Documentation/Checkpoints/Checkpoint-06---Website-Fleet-Rating-Web-Delivery.md) - Rating, Fleet, Web, Delivery, SMS, Barcodes
 
 ---
 

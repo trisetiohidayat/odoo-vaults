@@ -438,10 +438,10 @@ website_crm_iap_reveal/
 
 ## Related Documentation
 
-- [Modules/iap_crm](modules/iap_crm.md) — IAP account integration and credit management
-- [Modules/crm_iap_mine](modules/crm_iap_mine.md) — Industry/role/seniority master data; `lead_vals_from_response()` helper
-- [Modules/iap_mail](modules/iap_mail.md) — `iap_mail.enrich_company` mail template for posting enrichment data
-- [Modules/website_crm](modules/website_crm.md) — Website contact form; used by the controller override
-- [Modules/crm](modules/crm.md) — CRM base module
-- [Core/API](core/api.md) — `@api.model`, `@api.constrains`, `@tools.ormcache` usage in this module
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Cron-based batch pipeline pattern
+- [Modules/iap_crm](Modules/iap_crm.md) — IAP account integration and credit management
+- [Modules/crm_iap_mine](Modules/crm_iap_mine.md) — Industry/role/seniority master data; `lead_vals_from_response()` helper
+- [Modules/iap_mail](Modules/iap_mail.md) — `iap_mail.enrich_company` mail template for posting enrichment data
+- [Modules/website_crm](Modules/website_crm.md) — Website contact form; used by the controller override
+- [Modules/crm](Modules/crm.md) — CRM base module
+- [Core/API](Core/API.md) — `@api.model`, `@api.constrains`, `@tools.ormcache` usage in this module
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Cron-based batch pipeline pattern

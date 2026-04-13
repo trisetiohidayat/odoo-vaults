@@ -66,5 +66,5 @@ def write(self, vals):
 ```
 
 ## See Also
-- [Core/BaseModel](core/basemodel.md) — Model attributes
-- [Core/Fields](core/fields.md) — Field types
+- [Core/BaseModel](Core/BaseModel.md) — Model attributes
+- [Core/Fields](Core/Fields.md) — Field types

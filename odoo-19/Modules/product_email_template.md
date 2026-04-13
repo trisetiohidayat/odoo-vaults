@@ -522,8 +522,8 @@ invoice.with_user(pub_user).sudo().action_post()
 
 ## See Also
 
-- [Modules/account](modules/account.md) — `account.move` base model, `_post()` lifecycle
-- [Modules/mail](modules/mail.md) — `mail.template`, `message_post_with_source`, `mail.render.mixin`
-- [Modules/product](modules/product.md) — `product.template`, `product.product` delegation chain
-- [Core/API](core/api.md) — `@api.model`, `@api.depends` patterns for similar override patterns
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — `_post` state machine override pattern
+- [Modules/account](Modules/account.md) — `account.move` base model, `_post()` lifecycle
+- [Modules/mail](Modules/mail.md) — `mail.template`, `message_post_with_source`, `mail.render.mixin`
+- [Modules/product](Modules/product.md) — `product.template`, `product.product` delegation chain
+- [Core/API](Core/API.md) — `@api.model`, `@api.depends` patterns for similar override patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — `_post` state machine override pattern

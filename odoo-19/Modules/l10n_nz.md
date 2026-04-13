@@ -30,7 +30,7 @@ New Zealand operates a broad-based GST system at a single rate, with no state or
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account](modules/account.md) | Core accounting |
+| [Modules/account](Modules/account.md) | Core accounting |
 
 ## Key Models
 
@@ -93,7 +93,7 @@ Extends company with:
 
 ## Related
 
-- [Modules/account](modules/account.md) - Core accounting module
-- [Modules/l10n_anz_ubl_pint](modules/l10n_anz_ubl_pint.md) - ANZ UBL PINT format for e-invoicing
+- [Modules/account](Modules/account.md) - Core accounting module
+- [Modules/l10n_anz_ubl_pint](Modules/l10n_anz_ubl_pint.md) - ANZ UBL PINT format for e-invoicing
 - [IRD New Zealand](https://www.ird.govt.nz)
 - [NZBN Registry](https://www.nzbn.govt.nz)

@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, product-margin]
 
 
 
-- [Modules/product](modules/product.md) — Product extension
+- [Modules/product](Modules/product.md) — Product extension

@@ -8,7 +8,7 @@ created: 2026-04-06
 
 ## Quick Reference
 
-All ORM operations work on [Core/BaseModel](core/basemodel.md) recordsets.
+All ORM operations work on [Core/BaseModel](Core/BaseModel.md) recordsets.
 
 ## Environment
 
@@ -131,7 +131,7 @@ vals = records.read()[0]  # First record
 
 ## Related
 
-- [Core/BaseModel](core/basemodel.md) - Model operations
-- [Core/API](core/api.md) - Environment access
-- [Core/Fields](core/fields.md) - Field types
-- [Core/Exceptions](core/exceptions.md) - Error handling
+- [Core/BaseModel](Core/BaseModel.md) - Model operations
+- [Core/API](Core/API.md) - Environment access
+- [Core/Fields](Core/Fields.md) - Field types
+- [Core/Exceptions](Core/Exceptions.md) - Error handling

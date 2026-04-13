@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, sms-twilio]
 
 
 
-- [Modules/sms](modules/sms.md) — SMS provider extension
+- [Modules/sms](Modules/sms.md) — SMS provider extension

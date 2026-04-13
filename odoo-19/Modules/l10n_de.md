@@ -686,11 +686,11 @@ def test_out_invoice_custom_currency_rate_with_missing_delivery_date(self):
 
 ## Related Documentation
 
-- [Modules/Account](modules/account.md) — Core accounting: journal entries, move posting, tax engine, audit trail
-- [Modules/l10n_din5008](modules/l10n_din5008.md) — German document layout: paperformat, letterhead standard
-- [Modules/Stock](modules/stock.md) — Inventory valuation, stock moves, stock accounts
-- [Patterns/Security Patterns](patterns/security-patterns.md) — GoBD compliance, ir.rule, ACL CSV, audit trail
-- [New Features/API Changes](new-features/api-changes.md) — Odoo 18→19 changes in l10n localization framework
-- [Flows/Cross-Module/purchase-stock-account-flow](flows/cross-module/purchase-stock-account-flow.md) — PO→Receipt→Vendor Bill with German VAT
+- [Modules/Account](Modules/Account.md) — Core accounting: journal entries, move posting, tax engine, audit trail
+- [Modules/l10n_din5008](Modules/l10n_din5008.md) — German document layout: paperformat, letterhead standard
+- [Modules/Stock](Modules/Stock.md) — Inventory valuation, stock moves, stock accounts
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — GoBD compliance, ir.rule, ACL CSV, audit trail
+- [New Features/API Changes](New-Features/API-Changes.md) — Odoo 18→19 changes in l10n localization framework
+- [Flows/Cross-Module/purchase-stock-account-flow](Flows/Cross-Module/purchase-stock-account-flow.md) — PO→Receipt→Vendor Bill with German VAT
 - [DATEV Software Partner Portal](https://www.datev.de/web/en/home.html)
 - [GoBD Guidelines (German)](https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Weitere-Themen/2016-10-27-GoBD-Grunds%C3%A4tze-zur-Ordnungsm%C3%A4%C3%9Figkeit.html)

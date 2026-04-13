@@ -174,7 +174,7 @@ class SaleOrderExt(models.Model):
 ```
 
 ## See Also
-- [Core/BaseModel](core/basemodel.md) — Model definition basics
-- [Core/API](core/api.md) — @api.depends, @api.onchange
-- [Modules/Sale](modules/sale.md) — Sale order inheritance examples
-- [Modules/Stock](modules/stock.md) — Stock picking inheritance examples
+- [Core/BaseModel](Core/BaseModel.md) — Model definition basics
+- [Core/API](Core/API.md) — @api.depends, @api.onchange
+- [Modules/Sale](Modules/Sale.md) — Sale order inheritance examples
+- [Modules/Stock](Modules/Stock.md) — Stock picking inheritance examples

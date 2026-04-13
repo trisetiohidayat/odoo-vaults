@@ -489,9 +489,9 @@ Key ACL considerations:
 
 ### 4.8 Related Documentation
 
-- [Modules/Sale](modules/sale.md) -- sale.order and service_tracking
-- [Modules/Product](modules/product.md) -- product.template variants and pricing
-- [Modules/res.partner](modules/res.partner.md) -- Partner model
-- [Modules/CRM](modules/crm.md) -- CRM integration
+- [Modules/Sale](Modules/Sale.md) -- sale.order and service_tracking
+- [Modules/Product](Modules/Product.md) -- product.template variants and pricing
+- [Modules/res.partner](Modules/res.partner.md) -- Partner model
+- [Modules/CRM](Modules/CRM.md) -- CRM integration
 
 ---

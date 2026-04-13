@@ -11,9 +11,9 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/other-flow](flows/other-flow.md)"
+  - "[Flows/other-flow](Flows/other-flow.md)"
 related_guides:
-  - "[Business/Sale/sales-process-guide](business/sale/sales-process-guide.md)"
+  - "[Business/Sale/sales-process-guide](Business/Sale/sales-process-guide.md)"
 source_module: module_name
 source_path: ~/odoo/odoo19/odoo/addons/module_name/
 created: YYYY-MM-DD
@@ -241,8 +241,8 @@ def action_confirm(self):
 
 ## Related
 
-- [Modules/ModuleName](modules/modulename.md) — Module reference
-- [Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md) — Related flow
-- [Business/Sale/sales-process-guide](business/sale/sales-process-guide.md) — Step-by-step guide
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
-- [Core/API](core/api.md) — @api decorator patterns
+- [Modules/ModuleName](Modules/ModuleName.md) — Module reference
+- [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) — Related flow
+- [Business/Sale/sales-process-guide](Business/Sale/sales-process-guide.md) — Step-by-step guide
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Workflow pattern reference
+- [Core/API](Core/API.md) — @api decorator patterns

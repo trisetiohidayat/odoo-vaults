@@ -14,14 +14,14 @@ prerequisites:
   - currencies_configured
 estimated_time: "~20 minutes"
 related_flows:
-  - "[Flows/Website/website-sale-flow](flows/website/website-sale-flow.md)"
-  - "[Flows/Sale/quotation-to-sale-order-flow](flows/sale/quotation-to-sale-order-flow.md)"
-  - "[Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md)"
-  - "[Flows/Website/website-sale-flow](flows/website/website-sale-flow.md)"
+  - "[Flows/Website/website-sale-flow](Flows/Website/website-sale-flow.md)"
+  - "[Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md)"
+  - "[Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md)"
+  - "[Flows/Website/website-sale-flow](Flows/Website/website-sale-flow.md)"
 related_guides:
-  - "[Modules/website_sale](modules/website_sale.md)"
-  - "[Modules/payment_stripe](modules/payment_stripe.md)"
-  - "[Business/Stock/warehouse-setup-guide](business/stock/warehouse-setup-guide.md)"
+  - "[Modules/website_sale](Modules/website_sale.md)"
+  - "[Modules/payment_stripe](Modules/payment_stripe.md)"
+  - "[Business/Stock/warehouse-setup-guide](Business/Stock/warehouse-setup-guide.md)"
 source_module: website_sale
 created: 2026-04-07
 updated: 2026-04-07
@@ -60,10 +60,10 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Website/website-sale-flow](flows/website/website-sale-flow.md) | Full method chain and branching logic |
-| 📖 Module Reference | [Modules/website_sale](modules/website_sale.md) | Complete field and method reference |
-| 📋 Related Guide | [Modules/website_sale](modules/website_sale.md) | Website publishing checklist |
-| 🔧 Configuration | [Modules/payment_stripe](modules/payment_stripe.md) | Payment provider configuration |
+| 🔀 Technical Flow | [Flows/Website/website-sale-flow](Flows/Website/website-sale-flow.md) | Full method chain and branching logic |
+| 📖 Module Reference | [Modules/website_sale](Modules/website_sale.md) | Complete field and method reference |
+| 📋 Related Guide | [Modules/website_sale](Modules/website_sale.md) | Website publishing checklist |
+| 🔧 Configuration | [Modules/payment_stripe](Modules/payment_stripe.md) | Payment provider configuration |
 
 ---
 
@@ -538,10 +538,10 @@ payment.transaction state transitions:
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Website/website-sale-flow](flows/website/website-sale-flow.md) | Full method chain — for developers |
-| 📖 Module Reference | [Modules/website_sale](modules/website_sale.md) | Complete field and method list |
-| 📋 Related Guide | [Modules/website_sale](modules/website_sale.md) | Website publishing and SEO |
-| 🔧 Patterns | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) | Workflow design patterns |
-| 🛠️ Snippets | [Snippets/Model Snippets](snippets/model-snippets.md) | Code snippets for customization |
-| 💳 Payment | [Modules/payment_stripe](modules/payment_stripe.md) | Detailed payment provider setup |
-| 🚚 Delivery | [Business/Stock/warehouse-setup-guide](business/stock/warehouse-setup-guide.md) | Advanced delivery configuration |
+| 🔀 Technical Flow | [Flows/Website/website-sale-flow](Flows/Website/website-sale-flow.md) | Full method chain — for developers |
+| 📖 Module Reference | [Modules/website_sale](Modules/website_sale.md) | Complete field and method list |
+| 📋 Related Guide | [Modules/website_sale](Modules/website_sale.md) | Website publishing and SEO |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) | Workflow design patterns |
+| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model-Snippets.md) | Code snippets for customization |
+| 💳 Payment | [Modules/payment_stripe](Modules/payment_stripe.md) | Detailed payment provider setup |
+| 🚚 Delivery | [Business/Stock/warehouse-setup-guide](Business/Stock/warehouse-setup-guide.md) | Advanced delivery configuration |

@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, mass-mailing-slides]
 
 
 
-- [Modules/mass_mailing](modules/mass_mailing.md) — Mass mailing base
+- [Modules/mass_mailing](Modules/mass_mailing.md) — Mass mailing base

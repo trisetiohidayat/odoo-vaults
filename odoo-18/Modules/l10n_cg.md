@@ -27,7 +27,7 @@ Inherits `account.chart.template`. Template prefix: `'cg'`. Provides `_get_cg_sy
 - `demo/demo_company.xml` — Congo demo company
 
 ## Chart of Accounts
-SYSCOHADA. See [Modules/l10n_bf](modules/l10n_bf.md).
+SYSCOHADA. See [Modules/l10n_bf](Modules/l10n_bf.md).
 
 ## Tax Structure
 TVA at 18% standard rate. IS/IR. Congo uses the OHADA/SYSCOHADA framework.

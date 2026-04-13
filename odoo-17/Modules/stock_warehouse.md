@@ -206,7 +206,7 @@ When `active` changes:
 
 ## See Also
 
-- [Modules/stock](modules/stock.md) — `stock.location`, `stock.picking`
-- [Modules/stock_picking_type](modules/stock_picking_type.md) — operation types
-- [Modules/stock_rule](modules/stock_rule.md) — procurement rules
-- [Modules/stock_picking_batch](modules/stock_picking_batch.md) — batch transfers
+- [Modules/stock](Modules/stock.md) — `stock.location`, `stock.picking`
+- [Modules/stock_picking_type](Modules/stock_picking_type.md) — operation types
+- [Modules/stock_rule](Modules/stock_rule.md) — procurement rules
+- [Modules/stock_picking_batch](Modules/stock_picking_batch.md) — batch transfers

@@ -15,4 +15,4 @@ Localized accounting for Algeria.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/base_vat](modules/base_vat.md) — Core accounting
+- [Modules/base_vat](Modules/base_vat.md) — Core accounting

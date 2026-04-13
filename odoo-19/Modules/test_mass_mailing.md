@@ -43,5 +43,5 @@ The module includes tests covering:
 - `test_utm.py` — UTM tracking in mailings
 
 ## Related
-- [Modules/mass_mailing](modules/mass_mailing.md)
-- [Modules/mail](modules/mail.md)
+- [Modules/mass_mailing](Modules/mass_mailing.md)
+- [Modules/mail](Modules/mail.md)

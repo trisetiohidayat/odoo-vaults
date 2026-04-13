@@ -14,10 +14,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md)"
-  - "[Flows/Sale/sale-to-invoice-flow](flows/sale/sale-to-invoice-flow.md)"
+  - "[Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md)"
+  - "[Flows/Sale/sale-to-invoice-flow](Flows/Sale/sale-to-invoice-flow.md)"
 related_guides:
-  - "[Modules/Sale](modules/sale.md)"
+  - "[Modules/Sale](Modules/Sale.md)"
 source_module: sale
 source_path: ~/odoo/odoo19/odoo/addons/sale/
 created: 2026-04-06
@@ -321,10 +321,10 @@ def action_confirm(self):
 
 ## Related
 
-- [Modules/Sale](modules/sale.md) — Sale module reference
-- [Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md) — Delivery flow from confirmed sale order
-- [Flows/Sale/sale-to-invoice-flow](flows/sale/sale-to-invoice-flow.md) — Invoice creation from sale order
-- [Modules/Stock](modules/stock.md) — Stock/picking module reference
-- [Modules/Account](modules/account.md) — Account/invoice module reference
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
-- [Core/API](core/api.md) — @api decorator patterns
+- [Modules/Sale](Modules/Sale.md) — Sale module reference
+- [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) — Delivery flow from confirmed sale order
+- [Flows/Sale/sale-to-invoice-flow](Flows/Sale/sale-to-invoice-flow.md) — Invoice creation from sale order
+- [Modules/Stock](Modules/Stock.md) — Stock/picking module reference
+- [Modules/Account](Modules/Account.md) — Account/invoice module reference
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Workflow pattern reference
+- [Core/API](Core/API.md) — @api decorator patterns

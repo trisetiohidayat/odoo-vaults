@@ -1326,9 +1326,9 @@ The gamification module is designed as a generic platform. Domain-specific modul
 
 ## Related
 
-- [Modules/mail](modules/mail.md) -- Email notifications, mail.thread, message_notify
-- [Modules/digest](modules/digest.md) -- Periodic digest reports
-- [Modules/HR](modules/hr.md) -- Employee management
-- [Core/API](core/api.md) -- ORM decorators, safe_eval, domain evaluation
-- [Core/Fields](core/fields.md) -- Field types used in gamification
-- [Patterns/Security Patterns](patterns/security-patterns.md) -- ACL and record rules in gamification
+- [Modules/mail](Modules/mail.md) -- Email notifications, mail.thread, message_notify
+- [Modules/digest](Modules/digest.md) -- Periodic digest reports
+- [Modules/HR](Modules/HR.md) -- Employee management
+- [Core/API](Core/API.md) -- ORM decorators, safe_eval, domain evaluation
+- [Core/Fields](Core/Fields.md) -- Field types used in gamification
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) -- ACL and record rules in gamification

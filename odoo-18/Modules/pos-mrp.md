@@ -212,9 +212,9 @@ pos.order: _create_invoice()
 
 ## Related Documentation
 
-- [Modules/Point of Sale](modules/point-of-sale.md) — POS core
-- [Modules/MRP](modules/mrp.md) — Manufacturing module
-- [Modules/Stock](modules/stock.md) — Inventory and stock moves
-- [Core/API](core/api.md) — ORM method overrides, `_compute`, `@api.depends`
+- [Modules/Point of Sale](Modules/Point-of-Sale.md) — POS core
+- [Modules/MRP](Modules/MRP.md) — Manufacturing module
+- [Modules/Stock](Modules/Stock.md) — Inventory and stock moves
+- [Core/API](Core/API.md) — ORM method overrides, `_compute`, `@api.depends`
 
 #odoo #odoo18 #pos_mrp #mrp #phantom-bom #anglo-saxon #point_of_sale

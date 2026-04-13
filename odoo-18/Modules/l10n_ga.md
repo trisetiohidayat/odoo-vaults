@@ -27,7 +27,7 @@ Inherits `account.chart.template`. Template prefix: `'ga'`. Provides `_get_ga_sy
 - `demo/demo_company.xml` — Gabon demo company
 
 ## Chart of Accounts
-SYSCOHADA. See [Modules/l10n_bf](modules/l10n_bf.md).
+SYSCOHADA. See [Modules/l10n_bf](Modules/l10n_bf.md).
 
 ## Tax Structure
 TVA at 18% standard rate (CEMAC zone). IS. Gabon follows OHADA/CEMAC tax directives.

@@ -35,4 +35,4 @@ E-invoicing feature provided by DJP (Indonesian Tax Office). As of January 1st 2
 - Custom model files: account_move.py, account_move_line.py, product_template.py, uom_code.py, uom_uom.py, efaktur_document.py, product_code.py, res_partner.py
 
 ## Related
-- [Modules/l10n_id](modules/l10n_id.md) - Core accounting
+- [Modules/l10n_id](Modules/l10n_id.md) - Core accounting

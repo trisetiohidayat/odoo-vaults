@@ -11,14 +11,14 @@ level: 4
 ## Quick Access
 
 ### Flows (Technical)
-- [Flows/Product/product-creation-flow](flows/product/product-creation-flow.md) - Product creation: template, variants, attributes
-- [Flows/Product/pricelist-computation-flow](flows/product/pricelist-computation-flow.md) - Pricelist price computation: rule matching, formula
+- [Flows/Product/product-creation-flow](Flows/Product/product-creation-flow.md) - Product creation: template, variants, attributes
+- [Flows/Product/pricelist-computation-flow](Flows/Product/pricelist-computation-flow.md) - Pricelist price computation: rule matching, formula
 
 ### Related Modules
-- [Modules/Stock](modules/stock.md) - Inventory valuation
-- [Modules/Sale](modules/sale.md) - Sales pricing and order lines
-- [Modules/Purchase](modules/purchase.md) - Vendor supplierinfo
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) - Variant/product patterns
+- [Modules/Stock](Modules/Stock.md) - Inventory valuation
+- [Modules/Sale](Modules/Sale.md) - Sales pricing and order lines
+- [Modules/Purchase](Modules/Purchase.md) - Vendor supplierinfo
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) - Variant/product patterns
 
 ---
 

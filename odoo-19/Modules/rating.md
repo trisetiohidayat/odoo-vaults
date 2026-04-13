@@ -888,7 +888,7 @@ class PortalChatter(portal_thread.PortalChatter):
 
 A thin passthrough class that inherits from `portal_thread.PortalChatter` in the `portal` module. No own methods. Its sole purpose is to make the `portal` module's `PortalChatter` available within the `rating` addon's controller namespace (`http.Controller` registry), enabling Odoo's routing system to resolve controllers from the `rating` module when the `portal` module is installed but the `rating` module is explicitly included in the controller resolution path.
 
-See [Modules/portal](modules/portal.md) for full documentation on the portal controller. Key routes used by the rating flow:
+See [Modules/portal](Modules/portal.md) for full documentation on the portal controller. Key routes used by the rating flow:
 
 - `/mail/avatar/mail.message/<int>/author_avatar/<int>w x <int>h`: Serves message author avatars
 - `/mail/chatter_fetch`: Fetches messages for a portal thread (supports token-based access), includes rating data via `mail.message._to_store()`
@@ -1177,8 +1177,8 @@ Tests the full rating submission flow including:
 
 ## Related Documentation
 
-- [Core/API](core/api.md) - API decorators used in rating models
-- [Modules/mail](modules/mail.md) - Mail thread and message system integration
-- [Modules/portal](modules/portal.md) - Portal controller for public rating access
-- [Modules/helpdesk](modules/helpdesk.md) - Example module using rating functionality
-- [Modules/project](modules/project.md) - Example of parent-level rating aggregation
+- [Core/API](Core/API.md) - API decorators used in rating models
+- [Modules/mail](Modules/mail.md) - Mail thread and message system integration
+- [Modules/portal](Modules/portal.md) - Portal controller for public rating access
+- [Modules/helpdesk](Modules/helpdesk.md) - Example module using rating functionality
+- [Modules/project](Modules/project.md) - Example of parent-level rating aggregation

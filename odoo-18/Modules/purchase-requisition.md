@@ -620,8 +620,8 @@ When PO line is created from blanket: `product_id.uom_po_id` is used as `product
 
 ## See Also
 
-- [Modules/Purchase](modules/purchase.md) — `purchase.order` base model, RFQ lifecycle
-- [Modules/Stock](modules/stock.md) — Incoming receipts from POs
-- [Modules/Product](modules/product.md) — `product.product`, `product.supplierinfo`
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine, action methods
-- [Core/API](core/api.md) — `@api.depends`, `@api.onchange`, `@api.constrains`
+- [Modules/Purchase](Modules/Purchase.md) — `purchase.order` base model, RFQ lifecycle
+- [Modules/Stock](Modules/Stock.md) — Incoming receipts from POs
+- [Modules/Product](Modules/Product.md) — `product.product`, `product.supplierinfo`
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine, action methods
+- [Core/API](Core/API.md) — `@api.depends`, `@api.onchange`, `@api.constrains`

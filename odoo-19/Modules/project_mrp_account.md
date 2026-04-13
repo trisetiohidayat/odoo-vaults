@@ -608,7 +608,7 @@ When components are consumed in negative quantities (e.g., return of components,
 
 ## Related
 
-- [Modules/mrp_account](modules/mrp_account.md) — MO costing, WIP journal entries, work order analytic lines, `manufacturing_order` AAL category
-- [Modules/project_mrp](modules/project_mrp.md) — `project_id` on MO (from BoM), project stat buttons for MOs and BoMs
-- [Modules/Stock](modules/stock.md) — Stock move costing and `_create_analytic_move()` from `stock_account`
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine pattern (MO workflow: draft → confirmed → done)
+- [Modules/mrp_account](Modules/mrp_account.md) — MO costing, WIP journal entries, work order analytic lines, `manufacturing_order` AAL category
+- [Modules/project_mrp](Modules/project_mrp.md) — `project_id` on MO (from BoM), project stat buttons for MOs and BoMs
+- [Modules/Stock](Modules/Stock.md) — Stock move costing and `_create_analytic_move()` from `stock_account`
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine pattern (MO workflow: draft → confirmed → done)

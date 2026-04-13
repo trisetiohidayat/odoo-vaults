@@ -66,7 +66,7 @@ name = fields.Char(
 
 ## Related
 
-- [Core/BaseModel](core/basemodel.md) - Using fields in models
-- [Core/API](core/api.md) - Computed fields, onchange
-- [Tools/ORM Operations](tools/orm-operations.md) - Reading/writing fields
-- [Patterns/Security Patterns](patterns/security-patterns.md) - Field-level security
+- [Core/BaseModel](Core/BaseModel.md) - Using fields in models
+- [Core/API](Core/API.md) - Computed fields, onchange
+- [Tools/ORM Operations](Tools/ORM-Operations.md) - Reading/writing fields
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) - Field-level security

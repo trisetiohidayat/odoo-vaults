@@ -860,9 +860,9 @@ In `purchase_stock`, this returns `sale_line_id.product_id` to help `stock.rule`
 
 ## See Also
 
-- [Modules/mrp](modules/mrp.md) - manufacturing core: `mrp.production`, `mrp.bom`, `_compute_kit_quantities`
-- [Modules/purchase_stock](modules/purchase_stock.md) - procurement rules: `stock.rule` PO generation
-- [Modules/stock](modules/stock.md) - stock moves, `procurement.group`, `production_group_id`
-- [Core/BaseModel](core/basemodel.md) - `reference_ids` / `procurement.group` pattern
-- [Modules/stock_account](modules/stock_account.md) - Anglo-Saxon valuation, `_get_valuation_price_and_qty`
-- [Modules/quality_mrp](modules/quality_mrp.md) - quality checks on manufacturing (Enterprise)
+- [Modules/mrp](Modules/mrp.md) - manufacturing core: `mrp.production`, `mrp.bom`, `_compute_kit_quantities`
+- [Modules/purchase_stock](Modules/purchase_stock.md) - procurement rules: `stock.rule` PO generation
+- [Modules/stock](Modules/stock.md) - stock moves, `procurement.group`, `production_group_id`
+- [Core/BaseModel](Core/BaseModel.md) - `reference_ids` / `procurement.group` pattern
+- [Modules/stock_account](Modules/stock_account.md) - Anglo-Saxon valuation, `_get_valuation_price_and_qty`
+- [Modules/quality_mrp](Modules/quality_mrp.md) - quality checks on manufacturing (Enterprise)

@@ -152,5 +152,5 @@ def _get_sync_domain(self):
 ```
 
 ## See Also
-- [Modules/Calendar](modules/calendar.md) — `calendar.event`, `calendar.recurrence`
-- [Modules/Google](modules/google.md) — Google service credentials (`google_service`)
+- [Modules/Calendar](Modules/Calendar.md) — `calendar.event`, `calendar.recurrence`
+- [Modules/Google](Modules/Google.md) — Google service credentials (`google_service`)

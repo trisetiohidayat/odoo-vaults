@@ -25,7 +25,7 @@ iot_base/static/src/device_controller.js
 ```
 
 ### Related Modules
-- [Modules/iot_drivers](modules/iot_drivers.md) - The actual device drivers (scales, printers, etc.)
+- [Modules/iot_drivers](Modules/iot_drivers.md) - The actual device drivers (scales, printers, etc.)
 
 ## Notes
 - `installable: True` - Can be installed independently

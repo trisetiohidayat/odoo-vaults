@@ -68,6 +68,6 @@ A transfer is excluded from a batch if:
 ```
 
 ## Related
-- [Modules/stock_picking_batch](modules/stock_picking_batch.md)
-- [Modules/stock_delivery](modules/stock_delivery.md)
-- [Modules/delivery](modules/delivery.md)
+- [Modules/stock_picking_batch](Modules/stock_picking_batch.md)
+- [Modules/stock_delivery](Modules/stock_delivery.md)
+- [Modules/delivery](Modules/delivery.md)

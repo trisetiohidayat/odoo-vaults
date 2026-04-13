@@ -178,6 +178,6 @@ Social media links on websites use Font-Awesome icon classes (`fa-twitter`, `fa-
 
 ### See Also
 
-- [Modules/Website](modules/website.md) - Website builder integration
-- [Modules/Mail](modules/mail.md) - Email template system
-- [Modules/Company](modules/company.md) - res.company model
+- [Modules/Website](Modules/Website.md) - Website builder integration
+- [Modules/Mail](Modules/Mail.md) - Email template system
+- [Modules/Company](Modules/Company.md) - res.company model

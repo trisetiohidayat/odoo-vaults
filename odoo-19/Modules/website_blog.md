@@ -881,12 +881,12 @@ WHERE id = %s
 
 ## Related
 
-- [Modules/website](modules/website.md) -- Website framework (required dependency)
-- [Modules/website_mail](modules/website_mail.md) -- Comment/discussion integration
-- [Modules/website_partner](modules/website_partner.md) -- Author partner profiles
-- [Modules/website_slides](modules/website_slides.md) -- E-learning (uses similar content patterns)
-- [Modules/website_event](modules/website_event.md) -- Event module (similar architecture)
-- [Core/API](core/api.md) -- @api.depends, computed fields, inverse methods
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) -- State machine and action methods
-- [Modules/res.partner](modules/res.partner.md) -- Author partner model
-- [Core/Fields](core/fields.md) -- Field type reference (Char, Many2one, Html, etc.)
+- [Modules/website](Modules/website.md) -- Website framework (required dependency)
+- [Modules/website_mail](Modules/website_mail.md) -- Comment/discussion integration
+- [Modules/website_partner](Modules/website_partner.md) -- Author partner profiles
+- [Modules/website_slides](Modules/website_slides.md) -- E-learning (uses similar content patterns)
+- [Modules/website_event](Modules/website_event.md) -- Event module (similar architecture)
+- [Core/API](Core/API.md) -- @api.depends, computed fields, inverse methods
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) -- State machine and action methods
+- [Modules/res.partner](Modules/res.partner.md) -- Author partner model
+- [Core/Fields](Core/Fields.md) -- Field type reference (Char, Many2one, Html, etc.)

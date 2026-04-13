@@ -31,5 +31,5 @@ Loads US-specific demo data for the `base.us` demo company, including chart of a
 
 ## See Also
 
-- [Modules/account](modules/account.md) — accounting framework
-- [Modules/l10n_generic_coa](modules/l10n_generic_coa.md) — generic chart of accounts template
+- [Modules/account](Modules/account.md) — accounting framework
+- [Modules/l10n_generic_coa](Modules/l10n_generic_coa.md) — generic chart of accounts template

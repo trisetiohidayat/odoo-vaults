@@ -290,7 +290,7 @@ If the POS frontend submits an order to a session that has already been closed, 
 
 ## See Also
 
-- [Modules/account](modules/account.md) — `account.move` journal entries
-- [Modules/stock](modules/stock.md) — `stock.picking` for delivery
-- [Modules/sale](modules/sale.md) — comparison with `sale.order`
-- [Modules/payment](modules/payment.md) — payment processing
+- [Modules/account](Modules/account.md) — `account.move` journal entries
+- [Modules/stock](Modules/stock.md) — `stock.picking` for delivery
+- [Modules/sale](Modules/sale.md) — comparison with `sale.order`
+- [Modules/payment](Modules/payment.md) — payment processing

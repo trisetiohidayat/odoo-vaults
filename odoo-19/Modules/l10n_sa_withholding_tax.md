@@ -14,4 +14,4 @@ Localized accounting for Saudi.
 - **Localization type**: data-only (chart of accounts + taxes)
 
 ## Related
-- [Modules/l10n_account_withholding_tax](modules/l10n_account_withholding_tax.md) — Core accounting
+- [Modules/l10n_account_withholding_tax](Modules/l10n_account_withholding_tax.md) — Core accounting

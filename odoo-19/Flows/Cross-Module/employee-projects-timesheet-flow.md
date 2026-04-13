@@ -13,10 +13,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md)"
-  - "[Flows/Sale/sale-to-invoice-flow](flows/sale/sale-to-invoice-flow.md)"
+  - "[Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md)"
+  - "[Flows/Sale/sale-to-invoice-flow](Flows/Sale/sale-to-invoice-flow.md)"
 related_guides:
-  - "[Business/Project/project-management-guide](business/project/project-management-guide.md)"
+  - "[Business/Project/project-management-guide](Business/Project/project-management-guide.md)"
 source_module: project
 source_path: ~/odoo/odoo19/odoo/addons/project/
 created: 2026-04-07
@@ -304,10 +304,10 @@ def create(self, vals):
 
 ## Related
 
-- [Modules/project](modules/project.md) — Project module reference
-- [Modules/HR](modules/hr.md) — HR module reference
-- [Modules/Sale](modules/sale.md) — Sale module reference (SO billing)
-- [Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md) — Employee creation
-- [Flows/Sale/sale-to-invoice-flow](flows/sale/sale-to-invoice-flow.md) — Sale to invoice flow
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Cross-module flow patterns
-- [Core/API](core/api.md) — @api decorator patterns
+- [Modules/project](Modules/project.md) — Project module reference
+- [Modules/HR](Modules/HR.md) — HR module reference
+- [Modules/Sale](Modules/Sale.md) — Sale module reference (SO billing)
+- [Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md) — Employee creation
+- [Flows/Sale/sale-to-invoice-flow](Flows/Sale/sale-to-invoice-flow.md) — Sale to invoice flow
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — Cross-module flow patterns
+- [Core/API](Core/API.md) — @api decorator patterns

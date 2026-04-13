@@ -57,5 +57,5 @@ except CacheMiss:
 ---
 
 ## Related Links
-- [Core/API](core/api.md) — Decorators that raise ValidationError
-- [Patterns/Security Patterns](patterns/security-patterns.md) — AccessError context
+- [Core/API](Core/API.md) — Decorators that raise ValidationError
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — AccessError context

@@ -60,7 +60,7 @@ Hungarian fiscal positions covering:
 - Reverse charge for specific sectors (construction, agricultural, electronic communications)
 
 ## EDI/Fiscal Reporting
-Hungary uses the **Online Számla** (Online Invoice) system — mandatory real-time invoice reporting to NAV (Nemzeti Adó- és Vámhivatal). E-invoicing is required for B2G transactions. EDI handled by `l10n_hu_edi` (separate module). See `[Modules/l10n_hu_edi](modules/l10n_hu_edi.md)`.
+Hungary uses the **Online Számla** (Online Invoice) system — mandatory real-time invoice reporting to NAV (Nemzeti Adó- és Vámhivatal). E-invoicing is required for B2G transactions. EDI handled by `l10n_hu_edi` (separate module). See `[Modules/l10n_hu_edi](Modules/l10n_hu_edi.md)`.
 
 ## Installation
 Manual install or country selection.

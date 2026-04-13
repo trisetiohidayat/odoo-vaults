@@ -47,5 +47,5 @@ Kenyan e-invoicing fields (TIMS integration).
 Kenyan company settings and KRA credentials.
 
 ## Related
-- [Modules/l10n_ke_edi_tremol](modules/l10n_ke_edi_tremol.md) — Kenyan e-invoicing via Tremol G03
-- [Modules/Account](modules/account.md) — Core accounting
+- [Modules/l10n_ke_edi_tremol](Modules/l10n_ke_edi_tremol.md) — Kenyan e-invoicing via Tremol G03
+- [Modules/Account](Modules/Account.md) — Core accounting

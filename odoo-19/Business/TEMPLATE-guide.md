@@ -11,9 +11,9 @@ prerequisites:
   - prerequisite_3_created
 estimated_time: "~10 minutes"
 related_flows:
-  - "[Flows/Module/flow-name](flows/module/flow-name.md)"
+  - "[Flows/Module/flow-name](Flows/Module/flow-name.md)"
 related_guides:
-  - "[Business/Module/other-guide](business/module/other-guide.md)"
+  - "[Business/Module/other-guide](Business/Module/other-guide.md)"
 source_module: module_name
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -49,10 +49,10 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md) | Full method chain and branching logic |
-| 📖 Module Reference | [Modules/Stock](modules/stock.md) | Complete field and method reference |
-| 📋 Related Guide | [Modules/Stock](modules/stock.md) | Related process walkthrough |
-| 🔧 Configuration | [Modules/Stock](modules/stock.md) | Advanced configuration options |
+| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) | Full method chain and branching logic |
+| 📖 Module Reference | [Modules/Stock](Modules/Stock.md) | Complete field and method reference |
+| 📋 Related Guide | [Modules/Stock](Modules/Stock.md) | Related process walkthrough |
+| 🔧 Configuration | [Modules/Stock](Modules/Stock.md) | Advanced configuration options |
 
 ---
 
@@ -198,8 +198,8 @@ Click **Save**.
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md) | Full method chain — for developers |
-| 📖 Module Reference | [Modules/Stock](modules/stock.md) | Complete field and method list |
-| 📋 Related Guide | [Modules/Purchase](modules/purchase.md) | Related business process |
-| 🔧 Patterns | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) | Workflow design patterns |
-| 🛠️ Snippets | [Snippets/Model Snippets](snippets/model-snippets.md) | Code snippets for customization |
+| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) | Full method chain — for developers |
+| 📖 Module Reference | [Modules/Stock](Modules/Stock.md) | Complete field and method list |
+| 📋 Related Guide | [Modules/Purchase](Modules/Purchase.md) | Related business process |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) | Workflow design patterns |
+| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model-Snippets.md) | Code snippets for customization |

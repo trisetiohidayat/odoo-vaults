@@ -27,5 +27,5 @@
   - Renders `website_partner.partner_page` template
 
 ## Related
-- [Modules/website_customer](modules/website_customer.md) - Customer references (depends on this)
-- [Modules/website](modules/website.md) - Website builder
+- [Modules/website_customer](Modules/website_customer.md) - Customer references (depends on this)
+- [Modules/website](Modules/website.md) - Website builder

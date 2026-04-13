@@ -715,11 +715,11 @@ sale_timesheet
 
 ## Related Documentation
 
-- [Modules/Project](modules/project.md) - Core project management
-- [Modules/Sale](modules/sale.md) - Sales order and invoicing
-- [Modules/hr_timesheet](modules/hr_timesheet.md) - Time tracking foundation
-- [Core/API](core/api.md) - Domain() class and ORM patterns
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) - State machine and action patterns
+- [Modules/Project](Modules/Project.md) - Core project management
+- [Modules/Sale](Modules/Sale.md) - Sales order and invoicing
+- [Modules/hr_timesheet](Modules/hr_timesheet.md) - Time tracking foundation
+- [Core/API](Core/API.md) - Domain() class and ORM patterns
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) - State machine and action patterns
 
 ---
 

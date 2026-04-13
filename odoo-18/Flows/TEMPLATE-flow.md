@@ -59,5 +59,5 @@ model.create(vals)
 - **Validation**: Raises `ValidationError` if constraints fail
 
 ## Related Links
-- [Modules/{Module}](modules/{module}.md) — Model reference
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns
+- [Modules/{Module}](Modules/{Module}.md) — Model reference
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine patterns

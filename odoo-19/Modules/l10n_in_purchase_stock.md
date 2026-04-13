@@ -41,7 +41,7 @@ Used for Indian GST purchase valuation when warehouse moves are tied to purchase
 **`_l10n_in_get_warehouse_address()`** — EXTENDS `l10n_in`. When invoice lines are linked to a purchase order, the warehouse address is sourced from the `move_ids.warehouse_id.partner_id` of the purchase line (for purchase-linked deliveries), not just from standard inventory routes
 
 ## Related
-- [Modules/l10n_in_stock](modules/l10n_in_stock.md) — Indian warehouse accounting
-- [Modules/l10n_in_purchase_stock](modules/l10n_in_purchase_stock.md) — Indian purchase order accounting
-- [Modules/l10n_in](modules/l10n_in.md) — Core Indian accounting
-- [Modules/purchase_stock](modules/purchase_stock.md) — Base purchase-stock bridge
+- [Modules/l10n_in_stock](Modules/l10n_in_stock.md) — Indian warehouse accounting
+- [Modules/l10n_in_purchase_stock](Modules/l10n_in_purchase_stock.md) — Indian purchase order accounting
+- [Modules/l10n_in](Modules/l10n_in.md) — Core Indian accounting
+- [Modules/purchase_stock](Modules/purchase_stock.md) — Base purchase-stock bridge

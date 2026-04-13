@@ -39,4 +39,4 @@ This module also includes:
 - Custom model files: account_tax.py, account_journal.py, template_lt.py
 
 ## Related
-- [Modules/l10n_lt](modules/l10n_lt.md) - Core accounting
+- [Modules/l10n_lt](Modules/l10n_lt.md) - Core accounting

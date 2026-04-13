@@ -13,12 +13,12 @@ depth: L4
 
 | Resource | Type | Description |
 |---------|------|-------------|
-| [Modules/Project](modules/project.md) | Module | `project.task`, `user_ids`, assignee model |
-| [Modules/HR](modules/hr.md) | Module | `hr.employee`, `res.users.employee_id` bridge |
-| [Modules/hr_skills](modules/hr_skills.md) | Module | Full `hr_skills` module — `hr.employee.skill`, `hr.skill`, `hr.skill.type`, `hr.skill.level` |
-| [Patterns/Security Patterns](patterns/security-patterns.md) | Pattern | ACL inheritance, field groups |
-| [Core/Fields](core/fields.md) | Core | Field types — One2many, related fields |
-| [Core/BaseModel](core/basemodel.md) | Core | ORM foundation, `_inherit`, related fields |
+| [Modules/Project](Modules/Project.md) | Module | `project.task`, `user_ids`, assignee model |
+| [Modules/HR](Modules/HR.md) | Module | `hr.employee`, `res.users.employee_id` bridge |
+| [Modules/hr_skills](Modules/hr_skills.md) | Module | Full `hr_skills` module — `hr.employee.skill`, `hr.skill`, `hr.skill.type`, `hr.skill.level` |
+| [Patterns/Security Patterns](Patterns/Security-Patterns.md) | Pattern | ACL inheritance, field groups |
+| [Core/Fields](Core/Fields.md) | Core | Field types — One2many, related fields |
+| [Core/BaseModel](Core/BaseModel.md) | Core | ORM foundation, `_inherit`, related fields |
 
 ---
 
@@ -553,10 +553,10 @@ The `ilike` operator uses PostgreSQL's `ILIKE`, which supports both `%` wildcard
 
 ## Related Documentation
 
-- [Modules/Project](modules/project.md) — `project.task`, `user_ids` Many2many, task assignee model
-- [Modules/HR](modules/hr.md) — `hr.employee`, `res.users.employee_id` bridge
-- [Modules/hr_skills](modules/hr_skills.md) — Full `hr_skills` L4 documentation — `hr.employee.skill`, `hr.skill`, `hr.skill.type`, `hr.skill.level`, `_get_transformed_commands()`, certification handling
-- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL inheritance, field groups, record rules
-- [Core/BaseModel](core/basemodel.md) — ORM foundation, `_inherit`, related fields, `_rec_name`
-- [Core/Fields](core/fields.md) — Field types including One2many, related fields, `store`, `copy`
-- [Core/API](core/api.md) — `@api.depends`, `@api.onchange`, ORM method decorators
+- [Modules/Project](Modules/Project.md) — `project.task`, `user_ids` Many2many, task assignee model
+- [Modules/HR](Modules/HR.md) — `hr.employee`, `res.users.employee_id` bridge
+- [Modules/hr_skills](Modules/hr_skills.md) — Full `hr_skills` L4 documentation — `hr.employee.skill`, `hr.skill`, `hr.skill.type`, `hr.skill.level`, `_get_transformed_commands()`, certification handling
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ACL inheritance, field groups, record rules
+- [Core/BaseModel](Core/BaseModel.md) — ORM foundation, `_inherit`, related fields, `_rec_name`
+- [Core/Fields](Core/Fields.md) — Field types including One2many, related fields, `store`, `copy`
+- [Core/API](Core/API.md) — `@api.depends`, `@api.onchange`, ORM method decorators

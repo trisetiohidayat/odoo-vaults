@@ -48,6 +48,6 @@ Incoming: merchant_id + reference + status + ... + secure_hash_secret
 Uses `hashlib.new(algorithm)` with hex digest output.
 
 ## Related
-- [Modules/payment](modules/payment.md) — Base payment engine
-- [Modules/payment_paymob](modules/payment_paymob.md) — Paymob provider (similar multi-country gateway)
-- [Modules/payment_stripe](modules/payment_stripe.md) — Stripe provider
+- [Modules/payment](Modules/payment.md) — Base payment engine
+- [Modules/payment_paymob](Modules/payment_paymob.md) — Paymob provider (similar multi-country gateway)
+- [Modules/payment_stripe](Modules/payment_stripe.md) — Stripe provider

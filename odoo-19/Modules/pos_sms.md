@@ -19,5 +19,5 @@ Integrates the Point of Sale with SMS. Sends SMS confirmations to customers when
 - POS frontend assets for SMS confirmation flow
 
 ## Related
-- [Modules/point_of_sale](modules/point_of_sale.md) — Base POS module
-- [Modules/sms](modules/sms.md) — SMS module
+- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
+- [Modules/sms](Modules/sms.md) — SMS module

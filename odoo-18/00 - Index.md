@@ -28,44 +28,44 @@ Knowledge graph untuk codebase **Odoo 18** — memetakan struktur, relasi, dan a
 ## Quick Navigation
 
 ### Core Framework
-- [Core/BaseModel](core/basemodel.md) — ORM foundation
-- [Core/Fields](core/fields.md) — Field types
-- [Core/API](core/api.md) — Decorators & method chains
-- [Core/HTTP Controller](core/http-controller.md) — Web controllers
-- [Core/Exceptions](core/exceptions.md) — Error handling
+- [Core/BaseModel](Core/BaseModel.md) — ORM foundation
+- [Core/Fields](Core/Fields.md) — Field types
+- [Core/API](Core/API.md) — Decorators & method chains
+- [Core/HTTP Controller](Core/HTTP-Controller.md) — Web controllers
+- [Core/Exceptions](Core/Exceptions.md) — Error handling
 
 ### Business Modules
-- [Modules/Sale](modules/sale.md) — Sales
-- [Modules/Purchase](modules/purchase.md) — Purchasing
-- [Modules/Stock](modules/stock.md) — Inventory
-- [Modules/Account](modules/account.md) — Accounting
-- [Modules/CRM](modules/crm.md) — CRM
-- [Modules/MRP](modules/mrp.md) — Manufacturing
-- [Modules/Product](modules/product.md) — Products
-- [Modules/HR](modules/hr.md) — Human Resources
-- [Modules/Project](modules/project.md) — Project Management
-- [Modules/POS](modules/pos.md) — Point of Sale
-- [Modules/Helpdesk](modules/helpdesk.md) — Helpdesk
-- [Modules/res.partner](modules/res.partner.md) — Partners
+- [Modules/Sale](Modules/Sale.md) — Sales
+- [Modules/Purchase](Modules/Purchase.md) — Purchasing
+- [Modules/Stock](Modules/Stock.md) — Inventory
+- [Modules/Account](Modules/Account.md) — Accounting
+- [Modules/CRM](Modules/CRM.md) — CRM
+- [Modules/MRP](Modules/MRP.md) — Manufacturing
+- [Modules/Product](Modules/Product.md) — Products
+- [Modules/HR](Modules/HR.md) — Human Resources
+- [Modules/Project](Modules/Project.md) — Project Management
+- [Modules/POS](Modules/POS.md) — Point of Sale
+- [Modules/Helpdesk](Modules/Helpdesk.md) — Helpdesk
+- [Modules/res.partner](Modules/res.partner.md) — Partners
 
 ---
 
 ## Patterns & Development
-- [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) — _inherit vs _inherits vs mixin
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine + branching decision trees
-- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL CSV, ir.rule, field groups
-- [Tools/Modules Inventory](tools/modules-inventory.md) — 304 modules catalog
-- [Tools/ORM Operations](tools/orm-operations.md) — search(), browse(), create(), write(), domain operators
-- [Snippets/Model Snippets](snippets/model-snippets.md) — Copy-paste code templates
-- [Snippets/Controller Snippets](snippets/controller-snippets.md) — HTTP route handlers
-- [Snippets/method-chain-example](snippets/method-chain-example.md) — Method chain notation reference
+- [Patterns/Inheritance Patterns](Patterns/Inheritance-Patterns.md) — _inherit vs _inherits vs mixin
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine + branching decision trees
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ACL CSV, ir.rule, field groups
+- [Tools/Modules Inventory](Tools/Modules-Inventory.md) — 304 modules catalog
+- [Tools/ORM Operations](Tools/ORM-Operations.md) — search(), browse(), create(), write(), domain operators
+- [Snippets/Model Snippets](Snippets/Model-Snippets.md) — Copy-paste code templates
+- [Snippets/Controller Snippets](Snippets/Controller-Snippets.md) — HTTP route handlers
+- [Snippets/method-chain-example](Snippets/method-chain-example.md) — Method chain notation reference
 
 ---
 
 ## New in Odoo 18
-- [New Features/What's New](new-features/what's-new.md) — What's new in Odoo 18
-- [New Features/API Changes](new-features/api-changes.md) — API changes from v17
-- [New Features/New Modules](new-features/new-modules.md) — New modules in v18
+- [New Features/What's New](New-Features/What's-New.md) — What's new in Odoo 18
+- [New Features/API Changes](New-Features/API-Changes.md) — API changes from v17
+- [New Features/New Modules](New-Features/New-Modules.md) — New modules in v18
 
 ---
 
@@ -81,8 +81,8 @@ Knowledge graph untuk codebase **Odoo 18** — memetakan struktur, relasi, dan a
 | Phase 6 Localization | Pending | 0/150+ |
 | **TOTAL** | **64/606** | **10.5%** |
 
-- [Documentation/Checkpoints/](documentation/checkpoints/.md) — Progress tracking
-- [Research-Log/backlog](research-log/backlog.md) — Pending gaps
+- [Documentation/Checkpoints/](Documentation/Checkpoints/.md) — Progress tracking
+- [Research-Log/backlog](Research-Log/backlog.md) — Pending gaps
 
 ---
 

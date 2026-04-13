@@ -8,13 +8,13 @@ Tags: #odoo18 #l10n #edi #malaysia #myinvois
 # l10n_my_edi_extended
 
 ## Overview
-Extends [Modules/l10n_my_edi](modules/l10n_my_edi.md) with three enhanced capabilities:
+Extends [Modules/l10n_my_edi](Modules/l10n_my_edi.md) with three enhanced capabilities:
 1. **Self-billing support**: allows buyers to generate invoices on behalf of suppliers
 2. **QR code rendering**: embeds the MyInvois QR code in PDF reports
 3. **Foreign customer TIN management**: better validation and display of non-Malaysian TINs
 
 ## EDI Format / Standard
-Same as [Modules/l10n_my_edi](modules/l10n_my_edi.md) — MyInvois UBL 2.1 format.
+Same as [Modules/l10n_my_edi](Modules/l10n_my_edi.md) — MyInvois UBL 2.1 format.
 
 ## Dependencies
 - `l10n_my_edi` — Base MyInvois module (auto-installs it)

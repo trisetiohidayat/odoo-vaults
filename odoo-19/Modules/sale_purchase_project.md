@@ -425,8 +425,8 @@ If `project_id.account_id` (the analytic account on the project) is deleted afte
 
 ## Related
 
-- [Modules/sale_purchase](modules/sale_purchase.md) — Core SO to PO linking
-- [Modules/project_purchase](modules/project_purchase.md) — PO costs in project profitability
-- [Modules/sale_project](modules/sale_project.md) — Task generation from SOs
-- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns
-- [Modules/Stock](modules/stock.md) — Stock move costing (`_create_analytic_move`)
+- [Modules/sale_purchase](Modules/sale_purchase.md) — Core SO to PO linking
+- [Modules/project_purchase](Modules/project_purchase.md) — PO costs in project profitability
+- [Modules/sale_project](Modules/sale_project.md) — Task generation from SOs
+- [Patterns/Workflow Patterns](Patterns/Workflow-Patterns.md) — State machine patterns
+- [Modules/Stock](Modules/Stock.md) — Stock move costing (`_create_analytic_move`)

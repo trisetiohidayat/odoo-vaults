@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, website-sale-wishlist]
 
 
 
-- [Modules/website_sale](modules/website_sale.md) — eCommerce extension
+- [Modules/website_sale](Modules/website_sale.md) — eCommerce extension

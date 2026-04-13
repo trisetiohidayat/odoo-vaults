@@ -594,7 +594,7 @@ Hard-coded test credentials use real (but non-functional) credential IDs and pub
 
 ## See Also
 
-- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL and access control
-- [Core/API](core/api.md) — `@check_identity` decorator and identity verification
-- [Core/Exceptions](core/exceptions.md) — `AccessDenied` usage in auth flows
-- [Modules/base_setup](modules/base_setup.md) — `@check_identity` context
+- [Patterns/Security Patterns](Patterns/Security-Patterns.md) — ACL and access control
+- [Core/API](Core/API.md) — `@check_identity` decorator and identity verification
+- [Core/Exceptions](Core/Exceptions.md) — `AccessDenied` usage in auth flows
+- [Modules/base_setup](Modules/base_setup.md) — `@check_identity` context
