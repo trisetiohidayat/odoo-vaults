@@ -45,36 +45,27 @@ jobs:
                       key = rel_path.replace('\\', '/').lower()
                       vault_files[vault_folder][key] = rel_path
 
-          def find_actual_file(link_text, current_vault):
+          def find_actual_file(link_text, current_vault, current_file_path=None):
               """Find actual file path from link text within the same vault"""
-              # Try direct match first (with/without dashes)
-              candidates = [
-                  link_text.replace(" ", "-"),
-                  link_text,
-                  link_text.replace(" ", ""),
-              ]
-              # Also try if it's already a path like "Patterns/Inheritance Patterns"
-              parts = link_text.replace("\\", "/").split("/")
-              filename_candidates = []
-              for i in range(1, len(parts) + 1):
-                  path_part = "/".join(parts[-i:])
-                  filename_candidates.append(path_part.replace(" ", "-"))
-                  filename_candidates.append(path_part)
+              files = vault_files.get(current_vault, {})
 
-              all_candidates = candidates + filename_candidates
-              for candidate in all_candidates:
-                  key = (candidate + ".md").lower()
-                  if key in vault_files.get(current_vault, {}):
-                      return vault_files[current_vault][key]
+              # Normalize link text
+              link_normalized = link_text.replace("\\", "/").replace(" ", "-").lower()
 
-              # Search across all vaults if not found in current
-              link_lower = link_text.lower().replace(" ", "-")
-              for vault, files in vault_files.items():
-                  for key, path in files.items():
-                      filename = os.path.basename(key).replace(".md", "")
-                      # Match by filename only
-                      if filename == link_lower.replace(" ", "-"):
-                          return path
+              # Try exact match (case-insensitive)
+              for key, path in files.items():
+                  if key.replace("-", "").lower() == link_normalized.replace("-", "").lower():
+                      return path
+
+              # Try matching just the filename part
+              link_parts = link_normalized.split("/")
+              link_filename = link_parts[-1].replace(".md", "")
+
+              for key, path in files.items():
+                  key_filename = os.path.basename(key).replace(".md", "").replace("-", " ")
+                  if key_filename.lower() == link_filename.replace("-", " "):
+                      return path
+
               return None
 
           def fix_md_link(m, current_vault):
