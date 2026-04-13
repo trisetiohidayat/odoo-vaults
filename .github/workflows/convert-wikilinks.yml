@@ -26,7 +26,7 @@ jobs:
           import os
 
           # Build a map of all actual files per vault
-          # vault_files[vault_name] = {lowercase_filename: actual_relpath}
+          # vault_files[vault_name] = {lowercase_filename: (vault_rel_path, vault_dir)}
           vault_files = {}
 
           for vault_folder in os.listdir('.'):
@@ -41,34 +41,54 @@ jobs:
                           continue
                       # Path relative to vault folder
                       rel_path = os.path.relpath(os.path.join(root, file), vault_folder)
-                      # Key: lowercase relative path (for matching)
-                      key = rel_path.replace('\\', '/').lower()
-                      vault_files[vault_folder][key] = rel_path
+                      # Directory relative to vault
+                      rel_dir = os.path.dirname(rel_path)
+                      # Key: lowercase filename only (for matching)
+                      key = os.path.basename(rel_path).lower().replace(" ", "-").replace(".md", "")
+                      vault_files[vault_folder][key] = (rel_path, rel_dir)
 
-          def find_actual_file(link_text, current_vault, current_file_path=None):
-              """Find actual file path from link text within the same vault"""
+          def find_actual_file(link_text, current_vault, current_file_vault_dir):
+              """Find actual file path and return (vault_rel_path, vault_dir)"""
               files = vault_files.get(current_vault, {})
 
               # Normalize link text
               link_normalized = link_text.replace("\\", "/").replace(" ", "-").lower()
 
-              # Try exact match (case-insensitive)
-              for key, path in files.items():
-                  if key.replace("-", "").lower() == link_normalized.replace("-", "").lower():
-                      return path
+              # Try exact match by filename
+              link_filename = os.path.basename(link_normalized).replace(".md", "")
 
-              # Try matching just the filename part
-              link_parts = link_normalized.split("/")
-              link_filename = link_parts[-1].replace(".md", "")
+              for key, (rel_path, rel_dir) in files.items():
+                  if key.replace("-", "") == link_filename.replace("-", ""):
+                      return rel_path, rel_dir
 
-              for key, path in files.items():
-                  key_filename = os.path.basename(key).replace(".md", "").replace("-", " ")
-                  if key_filename.lower() == link_filename.replace("-", " "):
-                      return path
+              return None, None
 
-              return None
+          def get_relative_link(current_file_vault_dir, target_vault_dir, target_filename):
+              """Generate relative markdown link between two files"""
+              if current_file_vault_dir == target_vault_dir:
+                  # Same directory, just filename
+                  return target_filename
+              else:
+                  # Need to go up and down
+                  current_parts = current_file_vault_dir.split('/') if current_file_vault_dir else []
+                  target_parts = target_vault_dir.split('/') if target_vault_dir else []
 
-          def fix_md_link(m, current_vault):
+                  # Find common prefix
+                  common_len = 0
+                  for i in range(min(len(current_parts), len(target_parts))):
+                      if current_parts[i].lower() == target_parts[i].lower():
+                          common_len = i + 1
+                      else:
+                          break
+
+                  # Build relative path
+                  up_count = len(current_parts) - common_len
+                  down_parts = target_parts[common_len:]
+                  rel_parts = ['..'] * up_count + down_parts + [target_filename]
+
+                  return '/'.join(rel_parts)
+
+          def fix_md_link(m, current_vault, current_file_vault_dir):
               full_match = m.group(0)
               text = m.group(1)
               url = m.group(2)
@@ -77,34 +97,43 @@ jobs:
               if url.startswith('http') or url.startswith('mailto'):
                   return full_match
 
-              # Skip if URL already points to an existing file in current vault
-              url_normalized = url.lower()
-              vault_url_map = vault_files.get(current_vault, {})
-              if url_normalized in vault_url_map:
-                  return full_match
+              # Get current file's directory (relative to vault)
+              current_dir = os.path.dirname(url).replace('\\', '/')
+              current_filename = os.path.basename(url).replace('.md', '')
 
-              # Try to fix the URL by finding the actual file
-              url_filename = os.path.basename(url).replace('.md', '')
-              actual_path = find_actual_file(url_filename.replace("-", " "), current_vault)
+              # Try to find the actual file
+              actual_path, actual_dir = find_actual_file(current_filename, current_vault, current_dir)
+
               if actual_path:
-                  return f'[{text}]({actual_path})'
+                  # Generate relative link
+                  target_filename = os.path.basename(actual_path)
+                  relative_link = get_relative_link(current_dir, actual_dir, target_filename)
+                  return f'[{text}]({relative_link})'
 
               return full_match
 
-          def convert_wikilink(m, current_vault):
+          def convert_wikilink(m, current_vault, current_file_vault_dir):
               page = m.group(1)
-              actual_path = find_actual_file(page, current_vault)
-              if actual_path:
-                  return f'[{page}]({actual_path})'
-              return f'[{page}]({page}.md)'
+              actual_path, actual_dir = find_actual_file(page, current_vault, current_file_vault_dir)
 
-          def convert_wikilink_alias(m, current_vault):
+              if actual_path:
+                  target_filename = os.path.basename(actual_path)
+                  relative_link = get_relative_link(current_file_vault_dir, actual_dir, target_filename)
+                  return f'[{page}]({relative_link})'
+
+              return f'[{page}]({page.replace(" ", "-")}.md)'
+
+          def convert_wikilink_alias(m, current_vault, current_file_vault_dir):
               page = m.group(1)
               alias = m.group(2)
-              actual_path = find_actual_file(page, current_vault)
+              actual_path, actual_dir = find_actual_file(page, current_vault, current_file_vault_dir)
+
               if actual_path:
-                  return f'[{alias}]({actual_path})'
-              return f'[{alias}]({page}.md)'
+                  target_filename = os.path.basename(actual_path)
+                  relative_link = get_relative_link(current_file_vault_dir, actual_dir, target_filename)
+                  return f'[{alias}]({relative_link})'
+
+              return f'[{alias}]({page.replace(" ", "-")}.md)'
 
           converted_count = 0
           for vault_folder in os.listdir('.'):
@@ -117,33 +146,37 @@ jobs:
                   for file in files:
                       if not file.endswith('.md'):
                           continue
-                      path = os.path.join(root, file)
-                      with open(path, 'r', encoding='utf-8') as f:
+                      file_path = os.path.join(root, file)
+                      # Current file's directory relative to vault
+                      rel_path = os.path.relpath(file_path, vault_folder)
+                      current_file_vault_dir = os.path.dirname(rel_path).replace('\\', '/')
+
+                      with open(file_path, 'r', encoding='utf-8') as f:
                           content = f.read()
 
                       # Fix markdown links
                       new_content = re.sub(
                           r'\[([^\]]+)\]\(([^)]+\.md)\)',
-                          lambda m: fix_md_link(m, vault_folder),
+                          lambda m: fix_md_link(m, vault_folder, current_file_vault_dir),
                           content
                       )
 
                       # Convert wikilinks
                       new_content = re.sub(
                           r'\[\[([^\]|]+)\]\]',
-                          lambda m: convert_wikilink(m, vault_folder),
+                          lambda m: convert_wikilink(m, vault_folder, current_file_vault_dir),
                           new_content
                       )
                       new_content = re.sub(
                           r'\[\[([^\]|]+)\|([^\]]+)\]\]',
-                          lambda m: convert_wikilink_alias(m, vault_folder),
+                          lambda m: convert_wikilink_alias(m, vault_folder, current_file_vault_dir),
                           new_content
                       )
 
                       if new_content != content:
-                          with open(path, 'w', encoding='utf-8') as f:
+                          with open(file_path, 'w', encoding='utf-8') as f:
                               f.write(new_content)
-                          print(f"Converted: {path}")
+                          print(f"Converted: {file_path}")
                           converted_count += 1
 
           print(f"Total files converted: {converted_count}")
