@@ -25,52 +25,59 @@ jobs:
           import re
           import os
 
-          # Build a map of all actual files in the vault
-          # Key: lowercase normalized path, Value: actual relative path
-          file_map = {}
-          all_md_files = []
+          # Build a map of all actual files per vault
+          # vault_files[vault_name] = {lowercase_filename: actual_relpath}
+          vault_files = {}
 
-          for folder in os.listdir('.'):
-              if not folder.startswith('odoo-'):
+          for vault_folder in os.listdir('.'):
+              if not vault_folder.startswith('odoo-'):
                   continue
-              if not os.path.isdir(folder):
+              if not os.path.isdir(vault_folder):
                   continue
-              for root, dirs, files in os.walk(folder):
+              vault_files[vault_folder] = {}
+              for root, dirs, files in os.walk(vault_folder):
                   for file in files:
                       if not file.endswith('.md'):
                           continue
-                      full_path = os.path.join(root, file)
-                      rel_path = os.path.relpath(full_path, '.')
-                      all_md_files.append(rel_path)
-                      # Key without .md extension, with forward slashes
+                      # Path relative to vault folder
+                      rel_path = os.path.relpath(os.path.join(root, file), vault_folder)
+                      # Key: lowercase relative path (for matching)
                       key = rel_path.replace('\\', '/').lower()
-                      file_map[key] = rel_path
+                      vault_files[vault_folder][key] = rel_path
 
-          def find_actual_file(link_text):
-              """Find actual file path from link text (e.g., 'Inheritance Patterns' -> 'Patterns/Inheritance Patterns.md')"""
-              # Try direct match with spaces replaced by dashes
+          def find_actual_file(link_text, current_vault):
+              """Find actual file path from link text within the same vault"""
+              # Try direct match first (with/without dashes)
               candidates = [
-                  link_text.replace(" ", "-") + ".md",
-                  link_text.replace(" ", "") + ".md",
-                  link_text + ".md",
+                  link_text.replace(" ", "-"),
+                  link_text,
+                  link_text.replace(" ", ""),
               ]
-              for candidate in candidates:
-                  key = candidate.lower()
-                  if key in file_map:
-                      return file_map[key]
-              # Try matching just the filename
+              # Also try if it's already a path like "Patterns/Inheritance Patterns"
+              parts = link_text.replace("\\", "/").split("/")
+              filename_candidates = []
+              for i in range(1, len(parts) + 1):
+                  path_part = "/".join(parts[-i:])
+                  filename_candidates.append(path_part.replace(" ", "-"))
+                  filename_candidates.append(path_part)
+
+              all_candidates = candidates + filename_candidates
+              for candidate in all_candidates:
+                  key = (candidate + ".md").lower()
+                  if key in vault_files.get(current_vault, {}):
+                      return vault_files[current_vault][key]
+
+              # Search across all vaults if not found in current
               link_lower = link_text.lower().replace(" ", "-")
-              for key, path in file_map.items():
-                  filename = os.path.basename(key).replace(".md", "")
-                  if filename == link_lower:
-                      return path
-                  # Also try with spaces
-                  filename_spaces = filename.replace("-", " ")
-                  if filename_spaces == link_text.lower():
-                      return path
+              for vault, files in vault_files.items():
+                  for key, path in files.items():
+                      filename = os.path.basename(key).replace(".md", "")
+                      # Match by filename only
+                      if filename == link_lower.replace(" ", "-"):
+                          return path
               return None
 
-          def fix_md_link(m):
+          def fix_md_link(m, current_vault):
               full_match = m.group(0)
               text = m.group(1)
               url = m.group(2)
@@ -79,44 +86,43 @@ jobs:
               if url.startswith('http') or url.startswith('mailto'):
                   return full_match
 
-              # Skip if URL already points to an existing file
-              url_lower = url.lower()
-              if url_lower in file_map:
+              # Skip if URL already points to an existing file in current vault
+              url_normalized = url.lower()
+              vault_url_map = vault_files.get(current_vault, {})
+              if url_normalized in vault_url_map:
                   return full_match
 
               # Try to fix the URL by finding the actual file
-              # Extract the filename without extension
               url_filename = os.path.basename(url).replace('.md', '')
-              actual_path = find_actual_file(url_filename.replace("-", " "))
+              actual_path = find_actual_file(url_filename.replace("-", " "), current_vault)
               if actual_path:
                   return f'[{text}]({actual_path})'
 
               return full_match
 
-          def convert_wikilink(m):
+          def convert_wikilink(m, current_vault):
               page = m.group(1)
-              actual_path = find_actual_file(page)
+              actual_path = find_actual_file(page, current_vault)
               if actual_path:
                   return f'[{page}]({actual_path})'
-              # Fallback: use original wikilink text with spaces
               return f'[{page}]({page}.md)'
 
-          def convert_wikilink_alias(m):
+          def convert_wikilink_alias(m, current_vault):
               page = m.group(1)
               alias = m.group(2)
-              actual_path = find_actual_file(page)
+              actual_path = find_actual_file(page, current_vault)
               if actual_path:
                   return f'[{alias}]({actual_path})'
               return f'[{alias}]({page}.md)'
 
           converted_count = 0
-          for folder in os.listdir('.'):
-              if not folder.startswith('odoo-'):
+          for vault_folder in os.listdir('.'):
+              if not vault_folder.startswith('odoo-'):
                   continue
-              if not os.path.isdir(folder):
+              if not os.path.isdir(vault_folder):
                   continue
 
-              for root, dirs, files in os.walk(folder):
+              for root, dirs, files in os.walk(vault_folder):
                   for file in files:
                       if not file.endswith('.md'):
                           continue
@@ -124,12 +130,24 @@ jobs:
                       with open(path, 'r', encoding='utf-8') as f:
                           content = f.read()
 
-                      # Fix markdown links first
-                      new_content = re.sub(r'\[([^\]]+)\]\(([^)]+\.md)\)', fix_md_link, content)
+                      # Fix markdown links
+                      new_content = re.sub(
+                          r'\[([^\]]+)\]\(([^)]+\.md)\)',
+                          lambda m: fix_md_link(m, vault_folder),
+                          content
+                      )
 
-                      # Then convert wikilinks
-                      new_content = re.sub(r'\[\[([^\]|]+)\]\]', convert_wikilink, new_content)
-                      new_content = re.sub(r'\[\[([^\]|]+)\|([^\]]+)\]\]', convert_wikilink_alias, new_content)
+                      # Convert wikilinks
+                      new_content = re.sub(
+                          r'\[\[([^\]|]+)\]\]',
+                          lambda m: convert_wikilink(m, vault_folder),
+                          new_content
+                      )
+                      new_content = re.sub(
+                          r'\[\[([^\]|]+)\|([^\]]+)\]\]',
+                          lambda m: convert_wikilink_alias(m, vault_folder),
+                          new_content
+                      )
 
                       if new_content != content:
                           with open(path, 'w', encoding='utf-8') as f:
