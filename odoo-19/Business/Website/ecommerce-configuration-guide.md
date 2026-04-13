@@ -14,14 +14,14 @@ prerequisites:
   - currencies_configured
 estimated_time: "~20 minutes"
 related_flows:
-  - "[[Flows/Website/website-sale-flow]]"
-  - "[[Flows/Sale/quotation-to-sale-order-flow]]"
-  - "[[Flows/Sale/sale-to-delivery-flow]]"
-  - "[[Flows/Website/website-sale-flow]]"
+  - "[Flows/Website/website-sale-flow](flows/website/website-sale-flow.md)"
+  - "[Flows/Sale/quotation-to-sale-order-flow](flows/sale/quotation-to-sale-order-flow.md)"
+  - "[Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md)"
+  - "[Flows/Website/website-sale-flow](flows/website/website-sale-flow.md)"
 related_guides:
-  - "[[Modules/website_sale]]"
-  - "[[Modules/payment_stripe]]"
-  - "[[Business/Stock/warehouse-setup-guide]]"
+  - "[Modules/website_sale](modules/website_sale.md)"
+  - "[Modules/payment_stripe](modules/payment_stripe.md)"
+  - "[Business/Stock/warehouse-setup-guide](business/stock/warehouse-setup-guide.md)"
 source_module: website_sale
 created: 2026-04-07
 updated: 2026-04-07
@@ -60,10 +60,10 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Website/website-sale-flow]] | Full method chain and branching logic |
-| 📖 Module Reference | [[Modules/website_sale]] | Complete field and method reference |
-| 📋 Related Guide | [[Modules/website_sale]] | Website publishing checklist |
-| 🔧 Configuration | [[Modules/payment_stripe]] | Payment provider configuration |
+| 🔀 Technical Flow | [Flows/Website/website-sale-flow](flows/website/website-sale-flow.md) | Full method chain and branching logic |
+| 📖 Module Reference | [Modules/website_sale](modules/website_sale.md) | Complete field and method reference |
+| 📋 Related Guide | [Modules/website_sale](modules/website_sale.md) | Website publishing checklist |
+| 🔧 Configuration | [Modules/payment_stripe](modules/payment_stripe.md) | Payment provider configuration |
 
 ---
 
@@ -73,9 +73,9 @@ This guide covers the following use cases. Jump to the relevant section:
 
 | # | Use Case | Page | Difficulty |
 |---|----------|------|-----------|
-| 1 | Configure website with payment providers (Stripe/Midtrans) | [[#use-case-1-configure-payment-providers]] | ⭐⭐ |
-| 2 | Set up shipping methods (standard/express/local pickup) | [[#use-case-2-configure-shipping-methods]] | ⭐⭐ |
-| 3 | Configure product pages with variants and optional accessories | [[#use-case-3-configure-product-pages-with-variants]] | ⭐⭐ |
+| 1 | Configure website with payment providers (Stripe/Midtrans) | [#use-case-1-configure-payment-providers](#use-case-1-configure-payment-providers.md) | ⭐⭐ |
+| 2 | Set up shipping methods (standard/express/local pickup) | [#use-case-2-configure-shipping-methods](#use-case-2-configure-shipping-methods.md) | ⭐⭐ |
+| 3 | Configure product pages with variants and optional accessories | [#use-case-3-configure-product-pages-with-variants](#use-case-3-configure-product-pages-with-variants.md) | ⭐⭐ |
 
 ---
 
@@ -538,10 +538,10 @@ payment.transaction state transitions:
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Website/website-sale-flow]] | Full method chain — for developers |
-| 📖 Module Reference | [[Modules/website_sale]] | Complete field and method list |
-| 📋 Related Guide | [[Modules/website_sale]] | Website publishing and SEO |
-| 🔧 Patterns | [[Patterns/Workflow Patterns]] | Workflow design patterns |
-| 🛠️ Snippets | [[Snippets/Model Snippets]] | Code snippets for customization |
-| 💳 Payment | [[Modules/payment_stripe]] | Detailed payment provider setup |
-| 🚚 Delivery | [[Business/Stock/warehouse-setup-guide]] | Advanced delivery configuration |
+| 🔀 Technical Flow | [Flows/Website/website-sale-flow](flows/website/website-sale-flow.md) | Full method chain — for developers |
+| 📖 Module Reference | [Modules/website_sale](modules/website_sale.md) | Complete field and method list |
+| 📋 Related Guide | [Modules/website_sale](modules/website_sale.md) | Website publishing and SEO |
+| 🔧 Patterns | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) | Workflow design patterns |
+| 🛠️ Snippets | [Snippets/Model Snippets](snippets/model-snippets.md) | Code snippets for customization |
+| 💳 Payment | [Modules/payment_stripe](modules/payment_stripe.md) | Detailed payment provider setup |
+| 🚚 Delivery | [Business/Stock/warehouse-setup-guide](business/stock/warehouse-setup-guide.md) | Advanced delivery configuration |

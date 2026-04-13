@@ -12,8 +12,8 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/HR/department-creation-flow]]"
-  - "[[Flows/HR/recruitment-applicant-flow]]"
+  - "[Flows/HR/department-creation-flow](flows/hr/department-creation-flow.md)"
+  - "[Flows/HR/recruitment-applicant-flow](flows/hr/recruitment-applicant-flow.md)"
 source_module: hr
 created: 2026-04-07
 version: "1.0"

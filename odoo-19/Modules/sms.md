@@ -622,9 +622,9 @@ The cron is also triggered directly from `sms.sms.create()` to ensure immediate 
 
 ## See Also
 
-- [[Modules/phone_validation]] — Phone number formatting, E.164 normalization, `_phone_get_number_fields`, `_phone_format`
-- [[Modules/mail]] — `mail.thread`, `mail.message`, `mail.notification`, `mail.render.mixin`, `template.reset.mixin`
-- [[Modules/iap_mail]] — IAP account infrastructure, credits management
-- [[Core/API]] — `@api.model`, `@api.depends`, `@api.depends_context`, `@api.autovacuum`
-- [[Patterns/Workflow Patterns]] — State machine design (used by `sms.sms` state field)
-- [[Core/BaseModel]] — `try_lock_for_update()`, `sudo()`, recordset operations
+- [Modules/phone_validation](modules/phone_validation.md) — Phone number formatting, E.164 normalization, `_phone_get_number_fields`, `_phone_format`
+- [Modules/mail](modules/mail.md) — `mail.thread`, `mail.message`, `mail.notification`, `mail.render.mixin`, `template.reset.mixin`
+- [Modules/iap_mail](modules/iap_mail.md) — IAP account infrastructure, credits management
+- [Core/API](core/api.md) — `@api.model`, `@api.depends`, `@api.depends_context`, `@api.autovacuum`
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine design (used by `sms.sms` state field)
+- [Core/BaseModel](core/basemodel.md) — `try_lock_for_update()`, `sudo()`, recordset operations

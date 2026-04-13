@@ -10,7 +10,7 @@ Tags: #odoo18 #l10n #accounting #saudi #gcc #pos
 ## Overview
 Saudi Arabia Point of Sale localization. Extends the POS order-to-invoice flow to populate ZATCA confirmation datetime on POS invoices, ensuring they comply with Saudi e-invoicing requirements. Adds ZXing barcode library for QR code generation in receipts.
 
-See also: [[Modules/l10n_sa]] (accounting), [[Modules/l10n_gcc_pos]] (GCC POS framework)
+See also: [Modules/l10n_sa](modules/l10n_sa.md) (accounting), [Modules/l10n_gcc_pos](modules/l10n_gcc_pos.md) (GCC POS framework)
 
 ## Country
 Kingdom of Saudi Arabia

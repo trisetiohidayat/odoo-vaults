@@ -236,8 +236,8 @@ This replaces any manual product publish workflow and keeps the e-commerce buy b
 
 ## Related
 
-- [[Modules/website_slides]] — eLearning base: channel model, slide content, membership management
-- [[Modules/website_sale]] — eCommerce base: cart, checkout, payment, SO workflow
-- [[Modules/sale]] — Sale order confirmation and workflow
-- [[Modules/product]] — Product template and variants
-- [[Modules/sale_mrp]] — Kit products; used by website_sale_mrp for kit availability display
+- [Modules/website_slides](modules/website_slides.md) — eLearning base: channel model, slide content, membership management
+- [Modules/website_sale](modules/website_sale.md) — eCommerce base: cart, checkout, payment, SO workflow
+- [Modules/sale](modules/sale.md) — Sale order confirmation and workflow
+- [Modules/product](modules/product.md) — Product template and variants
+- [Modules/sale_mrp](modules/sale_mrp.md) — Kit products; used by website_sale_mrp for kit availability display

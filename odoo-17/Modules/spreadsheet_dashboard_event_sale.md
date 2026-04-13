@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, spreadsheet-dashboard-event-sale]
 
 
 
-- [[Modules/spreadsheet]] — Spreadsheet base
+- [Modules/spreadsheet](modules/spreadsheet.md) — Spreadsheet base

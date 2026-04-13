@@ -45,5 +45,5 @@ Provides org chart field definitions that can be reused in other apps.
 - Interactive hierarchy widget via `web_hierarchy`
 
 ## Related
-- [[Modules/HR]] - Core HR module
-- [[Modules/web_hierarchy]] - Hierarchy tree widget
+- [Modules/HR](modules/hr.md) - Core HR module
+- [Modules/web_hierarchy](modules/web_hierarchy.md) - Hierarchy tree widget

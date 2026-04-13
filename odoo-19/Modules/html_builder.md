@@ -51,9 +51,9 @@ Uses `('include', ...)`, `('prepend', ...)`, `('after', ...)`, and `('remove', .
 
 ## Related
 
-- [[Modules/html_editor]] - Core rich text editor
-- [[Modules/website]] - Website builder (primary consumer)
-- [[Modules/mass_mailing]] - Email campaign editor
+- [Modules/html_editor](modules/html_editor.md) - Core rich text editor
+- [Modules/website](modules/website.md) - Website builder (primary consumer)
+- [Modules/mass_mailing](modules/mass_mailing.md) - Email campaign editor
 
 ## Notes
 

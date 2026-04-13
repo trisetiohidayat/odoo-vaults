@@ -514,7 +514,7 @@ All queries respect inter-company isolation via `child_of` domain operators on `
 
 ## See Also
 
-- [[Core/Fields]] — Json field type used for `analytic_distribution`
-- [[Core/API]] — `@api.constrains`, `@api.depends`, `@api.onchange` decorators
-- [[Patterns/Security Patterns]] — ir.rule domain enforcement on analytic lines
-- [[Modules/Account]] — `account.move.line` which generates analytic lines
+- [Core/Fields](core/fields.md) — Json field type used for `analytic_distribution`
+- [Core/API](core/api.md) — `@api.constrains`, `@api.depends`, `@api.onchange` decorators
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ir.rule domain enforcement on analytic lines
+- [Modules/Account](modules/account.md) — `account.move.line` which generates analytic lines

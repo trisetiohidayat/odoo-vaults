@@ -1450,10 +1450,10 @@ hr.leave.allocation:  confirm ──(approve)──► validate
 
 
 
-- [[Modules/hr]] — Employee base model, `hr.version`
-- [[Modules/calendar]] — Meeting integration
-- [[Modules/resource]] — Working time calendars, `resource.calendar.leaves`
-- [[Modules/hr_attendance]] — Attendance tracking (used by accrual proration)
-- [[Modules/hr_holidays_attendance]] — Integrates attendance with leave
-- [[Modules/hr_work_entry]] — Work entries (conflicts with leaves)
-- [[Modules/HR]] — Contracts (related to `hr.version`)
+- [Modules/hr](modules/hr.md) — Employee base model, `hr.version`
+- [Modules/calendar](modules/calendar.md) — Meeting integration
+- [Modules/resource](modules/resource.md) — Working time calendars, `resource.calendar.leaves`
+- [Modules/hr_attendance](modules/hr_attendance.md) — Attendance tracking (used by accrual proration)
+- [Modules/hr_holidays_attendance](modules/hr_holidays_attendance.md) — Integrates attendance with leave
+- [Modules/hr_work_entry](modules/hr_work_entry.md) — Work entries (conflicts with leaves)
+- [Modules/HR](modules/hr.md) — Contracts (related to `hr.version`)

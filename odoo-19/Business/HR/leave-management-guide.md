@@ -11,8 +11,8 @@ prerequisites:
   - approval_chain_defined
 estimated_time: "~15 minutes"
 related_flows:
-  - "[[Flows/HR/leave-request-flow]]"
-  - "[[Flows/HR/employee-creation-flow]]"
+  - "[Flows/HR/leave-request-flow](flows/hr/leave-request-flow.md)"
+  - "[Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md)"
 source_module: hr_holidays
 created: 2026-04-06
 version: "1.0"
@@ -42,9 +42,9 @@ version: "1.0"
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/HR/leave-request-flow]] | Leave request lifecycle |
-| 🔀 Technical Flow | [[Flows/HR/employee-creation-flow]] | Employee setup |
-| 📖 Module Reference | [[Modules/HR]] | HR module reference |
+| 🔀 Technical Flow | [Flows/HR/leave-request-flow](flows/hr/leave-request-flow.md) | Leave request lifecycle |
+| 🔀 Technical Flow | [Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md) | Employee setup |
+| 📖 Module Reference | [Modules/HR](modules/hr.md) | HR module reference |
 
 ---
 
@@ -144,6 +144,6 @@ Check:
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/HR/leave-request-flow]] | Full leave request lifecycle |
-| 📖 Module Reference | [[Modules/HR]] | HR module reference |
-| 📋 Employee Setup | [[Business/HR/quickstart-employee-setup]] | Employee creation |
+| 🔀 Technical Flow | [Flows/HR/leave-request-flow](flows/hr/leave-request-flow.md) | Full leave request lifecycle |
+| 📖 Module Reference | [Modules/HR](modules/hr.md) | HR module reference |
+| 📋 Employee Setup | [Business/HR/quickstart-employee-setup](business/hr/quickstart-employee-setup.md) | Employee creation |

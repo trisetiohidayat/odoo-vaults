@@ -43,7 +43,7 @@ iot_drivers/
 - **`webrtc_client.py`** - WebRTC client for video/audio streams from devices
 
 ### Related Modules
-- [[Modules/iot_base]] - Base frontend JS utilities
+- [Modules/iot_base](modules/iot_base.md) - Base frontend JS utilities
 
 ## Notes
 - Marked `installable: False` - it is a shared framework module

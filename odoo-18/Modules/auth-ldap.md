@@ -451,6 +451,6 @@ class CompanyLDAP(models.Model):
 
 ## See Also
 
-- [[Patterns/Security Patterns]] — ACL and ir.rule
-- [[Core/API]] — `@api.model` context and sudo usage
-- [[Modules/base_setup]] — `res.config.settings` pattern
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL and ir.rule
+- [Core/API](core/api.md) — `@api.model` context and sudo usage
+- [Modules/base_setup](modules/base_setup.md) — `res.config.settings` pattern

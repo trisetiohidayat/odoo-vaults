@@ -14,4 +14,4 @@ Localized accounting for POS.
 - **Localization type**: data-only (chart of accounts + taxes)
 
 ## Related
-- [[Modules/point_of_sale]] — Core accounting
+- [Modules/point_of_sale](modules/point_of_sale.md) — Core accounting

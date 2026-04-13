@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, gamification]
 
 
 
-- [[Modules/base]] — Gamification / challenges
+- [Modules/base](modules/base.md) — Gamification / challenges

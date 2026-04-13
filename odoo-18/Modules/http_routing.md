@@ -180,6 +180,6 @@ class SessionWebsite(Session)
 ---
 
 ## Related Links
-- [[Core/HTTP Controller]] — HTTP routing reference
-- [[Modules/web]] — Web client session management
-- [[Modules/website]] — Website builder
+- [Core/HTTP Controller](core/http-controller.md) — HTTP routing reference
+- [Modules/web](modules/web.md) — Web client session management
+- [Modules/website](modules/website.md) — Website builder

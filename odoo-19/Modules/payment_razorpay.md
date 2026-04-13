@@ -98,5 +98,5 @@ Mandate max amount per payment method:
 **Return URL:** Uses `RazorpayController._return_url` with reference query param for redirect payments.
 
 ## Related
-- [[Modules/payment]]
-- [[Modules/payment_adyen]]
+- [Modules/payment](modules/payment.md)
+- [Modules/payment_adyen](modules/payment_adyen.md)

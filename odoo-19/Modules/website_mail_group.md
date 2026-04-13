@@ -133,5 +133,5 @@ Where the trailing number is the record's ID, ensuring uniqueness.
 
 ## Related Documentation
 
-- [[Modules/Mail]] -- Mail threading and group infrastructure
-- [[Modules/Website]] -- Website framework
+- [Modules/Mail](modules/mail.md) -- Mail threading and group infrastructure
+- [Modules/Website](modules/website.md) -- Website framework

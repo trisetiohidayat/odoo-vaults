@@ -61,7 +61,7 @@ Abstract base class providing Google API integration. Used as a mixin by `google
 
 ## Related
 
-- [[Modules/google_calendar]] — Google Calendar synchronization (depends on this)
+- [Modules/google_calendar](modules/google_calendar.md) — Google Calendar synchronization (depends on this)
 - `google_gmail` — Gmail integration (depends on this)
 - `google_drive` — Google Drive integration (depends on this)
 

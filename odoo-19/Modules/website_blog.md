@@ -881,12 +881,12 @@ WHERE id = %s
 
 ## Related
 
-- [[Modules/website]] -- Website framework (required dependency)
-- [[Modules/website_mail]] -- Comment/discussion integration
-- [[Modules/website_partner]] -- Author partner profiles
-- [[Modules/website_slides]] -- E-learning (uses similar content patterns)
-- [[Modules/website_event]] -- Event module (similar architecture)
-- [[Core/API]] -- @api.depends, computed fields, inverse methods
-- [[Patterns/Workflow Patterns]] -- State machine and action methods
-- [[Modules/res.partner]] -- Author partner model
-- [[Core/Fields]] -- Field type reference (Char, Many2one, Html, etc.)
+- [Modules/website](modules/website.md) -- Website framework (required dependency)
+- [Modules/website_mail](modules/website_mail.md) -- Comment/discussion integration
+- [Modules/website_partner](modules/website_partner.md) -- Author partner profiles
+- [Modules/website_slides](modules/website_slides.md) -- E-learning (uses similar content patterns)
+- [Modules/website_event](modules/website_event.md) -- Event module (similar architecture)
+- [Core/API](core/api.md) -- @api.depends, computed fields, inverse methods
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) -- State machine and action methods
+- [Modules/res.partner](modules/res.partner.md) -- Author partner model
+- [Core/Fields](core/fields.md) -- Field type reference (Char, Many2one, Html, etc.)

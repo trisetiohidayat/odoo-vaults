@@ -93,5 +93,5 @@ Helper methods:
 - `ir_cron.xml`: `_cron_post_upgrade_assign_missing_form_fields` — post-upgrade hook to re-parse PDFs and assign form fields.
 
 ## Related
-- [[Modules/sale_management]] - Sales order templates
-- [[Modules/Product]] - Product documents
+- [Modules/sale_management](modules/sale_management.md) - Sales order templates
+- [Modules/Product](modules/product.md) - Product documents

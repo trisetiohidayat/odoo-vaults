@@ -37,4 +37,4 @@ This is the latest Ethiopian Odoo localization and consists of:
 - Custom model files: template_et.py
 
 ## Related
-- [[Modules/l10n_et]] - Core accounting
+- [Modules/l10n_et](modules/l10n_et.md) - Core accounting

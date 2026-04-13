@@ -58,4 +58,4 @@ Adds `'auth_password_policy'` to the frontend translation module list.
 
 - `auth_password_policy` — base password policy module (defines the config parameter)
 - `auth_signup` — signup controller
-- [[Modules/Auth Password Policy Portal]] (`auth_password_policy_portal`) — portal equivalent
+- [Modules/Auth Password Policy Portal](modules/auth-password-policy-portal.md) (`auth_password_policy_portal`) — portal equivalent

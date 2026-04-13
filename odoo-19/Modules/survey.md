@@ -1254,8 +1254,8 @@ res.partner
 
 ## Related Documentation
 
-- [[Modules/mail]] — Email notifications, mail composer mixin
-- [[Modules/gamification]] — Badge and challenge system, certification award flow
-- [[Core/API]] — ORM decorators: `@api.depends`, `@api.constrains`, `@api.model`, `@api.onchange`
-- [[Patterns/Workflow Patterns]] — State machine: `new` → `in_progress` → `done`
-- [[Modules/website_slides]] — May extend survey with `survey_id` and completion tracking
+- [Modules/mail](modules/mail.md) — Email notifications, mail composer mixin
+- [Modules/gamification](modules/gamification.md) — Badge and challenge system, certification award flow
+- [Core/API](core/api.md) — ORM decorators: `@api.depends`, `@api.constrains`, `@api.model`, `@api.onchange`
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine: `new` → `in_progress` → `done`
+- [Modules/website_slides](modules/website_slides.md) — May extend survey with `survey_id` and completion tracking

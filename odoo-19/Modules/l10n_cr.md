@@ -29,7 +29,7 @@ All data is in English with Spanish translations. Contributions welcome via Laun
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/Account]] | Core accounting module |
+| [Modules/Account](modules/account.md) | Core accounting module |
 
 ## Key Models
 
@@ -67,6 +67,6 @@ Inherits `account.chart.template`:
 - 13% IVA tax template pre-configured for sales and purchases
 
 ## Related Modules
-- [[Modules/l10n_cr]] - Core accounting (this module)
-- [[Modules/l10n_latam_base]] - Latin America base localization
-- [[Modules/account]] - Core accounting
+- [Modules/l10n_cr](modules/l10n_cr.md) - Core accounting (this module)
+- [Modules/l10n_latam_base](modules/l10n_latam_base.md) - Latin America base localization
+- [Modules/account](modules/account.md) - Core accounting

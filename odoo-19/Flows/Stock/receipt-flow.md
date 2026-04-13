@@ -13,12 +13,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/Stock/delivery-flow]]"
-  - "[[Flows/Purchase/purchase-order-receipt-flow]]"
-  - "[[Flows/Stock/stock-valuation-flow]]"
+  - "[Flows/Stock/delivery-flow](flows/stock/delivery-flow.md)"
+  - "[Flows/Purchase/purchase-order-receipt-flow](flows/purchase/purchase-order-receipt-flow.md)"
+  - "[Flows/Stock/stock-valuation-flow](flows/stock/stock-valuation-flow.md)"
 related_guides:
-  - "[[Modules/Stock]]"
-  - "[[Modules/Purchase]]"
+  - "[Modules/Stock](modules/stock.md)"
+  - "[Modules/Purchase](modules/purchase.md)"
 source_module: stock, purchase
 source_path: ~/odoo/odoo19/odoo/addons/stock/
 created: 2026-04-06
@@ -376,10 +376,10 @@ def action_done(self):
 
 ## Related
 
-- [[Modules/Stock]] — Stock/picking module reference
-- [[Modules/Purchase]] — Purchase module reference
-- [[Flows/Stock/delivery-flow]] — Outgoing delivery counterpart
-- [[Flows/Purchase/purchase-order-receipt-flow]] — PO-linked receipt flow
-- [[Flows/Stock/stock-valuation-flow]] — Stock valuation layer and account.move integration
-- [[Patterns/Workflow Patterns]] — Workflow pattern reference
-- [[Core/API]] — @api decorator patterns
+- [Modules/Stock](modules/stock.md) — Stock/picking module reference
+- [Modules/Purchase](modules/purchase.md) — Purchase module reference
+- [Flows/Stock/delivery-flow](flows/stock/delivery-flow.md) — Outgoing delivery counterpart
+- [Flows/Purchase/purchase-order-receipt-flow](flows/purchase/purchase-order-receipt-flow.md) — PO-linked receipt flow
+- [Flows/Stock/stock-valuation-flow](flows/stock/stock-valuation-flow.md) — Stock valuation layer and account.move integration
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
+- [Core/API](core/api.md) — @api decorator patterns

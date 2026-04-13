@@ -233,4 +233,4 @@ This is a **load-order dependency**, not a functional one. The `account_tax_pyth
 
 ## Related
 
-- [[Modules/account]]
+- [Modules/account](modules/account.md)

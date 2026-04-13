@@ -340,7 +340,7 @@ These functions are defined in the JavaScript `odoo_functions_helpers.js` and ex
 
 ### How Odoo Data Flows into Spreadsheets
 
-1. User inserts an Odoo function in a cell (e.g., `=odooRecordCount("project.task", [["state", "=", "done"]])`)
+1. User inserts an Odoo function in a cell (e.g., `=odooRecordCount("project.task", ["state", "=", "done"]("state",-"=",-"done".md))`)
 2. JavaScript evaluates the function using Odoo's RPC `call` mechanism
 3. The RPC call hits a controller (not a model method) that queries the ORM
 4. The result is cached in the spreadsheet model
@@ -397,6 +397,6 @@ Client-side, the `o_spreadsheet` engine maintains a revision history:
 
 ## See Also
 
-- [[Modules/Account]] — `spreadsheet_dashboard_account` for accounting-specific dashboards
-- [[Core/API]] — `@api.constrains` used in `_check_spreadsheet_data`
-- [[Web]] — `o_spreadsheet` JavaScript engine architecture
+- [Modules/Account](modules/account.md) — `spreadsheet_dashboard_account` for accounting-specific dashboards
+- [Core/API](core/api.md) — `@api.constrains` used in `_check_spreadsheet_data`
+- [Web](web.md) — `o_spreadsheet` JavaScript engine architecture

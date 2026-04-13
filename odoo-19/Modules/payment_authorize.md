@@ -299,6 +299,6 @@ The module has a `post_init_hook` and `uninstall_hook` (defined in `__manifest__
 
 ## Related
 
-- [[Modules/payment]] — Base payment module (state machine, transaction lifecycle)
-- [[Modules/payment_stripe]] — Stripe payment provider
-- [[Modules/pos_online_payment_self_order]] — Uses Authorize.Net (or other providers) for self-order online payments
+- [Modules/payment](modules/payment.md) — Base payment module (state machine, transaction lifecycle)
+- [Modules/payment_stripe](modules/payment_stripe.md) — Stripe payment provider
+- [Modules/pos_online_payment_self_order](modules/pos_online_payment_self_order.md) — Uses Authorize.Net (or other providers) for self-order online payments

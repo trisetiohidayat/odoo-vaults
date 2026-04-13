@@ -24,17 +24,17 @@ This document covers the variant configuration system at L4 depth: attribute/val
 
 ## Table of Contents
 
-1. [[#Model-Architecture-Overview]]
-2. [[#product.product-Variant-Model]]
-3. [[#product.template-Attribute-Configuration]]
-4. [[#Attribute-Value-and-Configuration-Models]]
-5. [[#Variant-Generation-Engine]]
-6. [[#Variant-Possibility-and-Exclusions]]
-7. [[#Price-Extra-Architecture]]
-8. [[#L4-Performance-Patterns]]
-9. [[#L4-Odoo-18-to-Odoo-19-Changes]]
-10. [[#L4-Security-Analysis]]
-11. [[#L4-Extension-Points]]
+1. [#Model-Architecture-Overview](#model-architecture-overview.md)
+2. [#product.product-Variant-Model](#product.product-variant-model.md)
+3. [#product.template-Attribute-Configuration](#product.template-attribute-configuration.md)
+4. [#Attribute-Value-and-Configuration-Models](#attribute-value-and-configuration-models.md)
+5. [#Variant-Generation-Engine](#variant-generation-engine.md)
+6. [#Variant-Possibility-and-Exclusions](#variant-possibility-and-exclusions.md)
+7. [#Price-Extra-Architecture](#price-extra-architecture.md)
+8. [#L4-Performance-Patterns](#l4-performance-patterns.md)
+9. [#L4-Odoo-18-to-Odoo-19-Changes](#l4-odoo-18-to-odoo-19-changes.md)
+10. [#L4-Security-Analysis](#l4-security-analysis.md)
+11. [#L4-Extension-Points](#l4-extension-points.md)
 
 ---
 

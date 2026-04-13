@@ -15,10 +15,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/Project/task-lifecycle-flow]]"
-  - "[[Flows/HR/employee-creation-flow]]"
+  - "[Flows/Project/task-lifecycle-flow](flows/project/task-lifecycle-flow.md)"
+  - "[Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md)"
 related_guides:
-  - "[[Business/Project/project-management-guide]]"
+  - "[Business/Project/project-management-guide](business/project/project-management-guide.md)"
 source_module: project
 source_path: ~/odoo/odoo19/odoo/addons/project/
 created: 2026-04-07
@@ -311,8 +311,8 @@ def create(self, vals_list):
 
 ## Related
 
-- [[Modules/Project]] — Module reference
-- [[Flows/Project/task-lifecycle-flow]] — Task lifecycle flow
-- [[Business/Project/project-management-guide]] — Business guide
-- [[Patterns/Workflow Patterns]] — Workflow pattern reference
-- [[Core/API]] — @api decorator patterns
+- [Modules/Project](modules/project.md) — Module reference
+- [Flows/Project/task-lifecycle-flow](flows/project/task-lifecycle-flow.md) — Task lifecycle flow
+- [Business/Project/project-management-guide](business/project/project-management-guide.md) — Business guide
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
+- [Core/API](core/api.md) — @api decorator patterns

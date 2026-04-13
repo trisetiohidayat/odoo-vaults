@@ -732,14 +732,14 @@ def action_register_payment(self):
 
 ## Related Modules
 
-- [[Modules/Sale]] — Customer Invoice from SO
-- [[Modules/Purchase]] — Vendor Bill from PO
-- [[Modules/Stock]] — Stock valuation entries
+- [Modules/Sale](modules/sale.md) — Customer Invoice from SO
+- [Modules/Purchase](modules/purchase.md) — Vendor Bill from PO
+- [Modules/Stock](modules/stock.md) — Stock valuation entries
 
 ## Related Flows
 
-- [[Flows/Account/invoice-creation-flow]] — Invoice creation
-- [[Flows/Account/invoice-post-flow]] — Invoice posting
-- [[Flows/Account/payment-flow]] — Payment registration
-- [[Flows/Cross-Module/sale-stock-account-flow]] — Sales → Delivery → Invoice → Payment
-- [[Business/Account/tax-grid-guide]] — Tax Grid guide
+- [Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md) — Invoice creation
+- [Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md) — Invoice posting
+- [Flows/Account/payment-flow](flows/account/payment-flow.md) — Payment registration
+- [Flows/Cross-Module/sale-stock-account-flow](flows/cross-module/sale-stock-account-flow.md) — Sales → Delivery → Invoice → Payment
+- [Business/Account/tax-grid-guide](business/account/tax-grid-guide.md) — Tax Grid guide

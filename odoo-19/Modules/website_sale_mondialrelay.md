@@ -343,7 +343,7 @@ from odoo.tools import file_open
 
 ## See Also
 
-- [[Modules/delivery_mondialrelay]] — Carrier backend: `is_mondialrelay` detection, `res.partner` relay contacts, `action_confirm` guard, backend wizard
-- [[Modules/website_sale]] — eCommerce base: `WebsiteSale` controller, `Delivery` mixin, `address_on_checkout` template
-- [[Modules/delivery]] — Delivery method base: `choose.delivery.carrier` transient wizard, delivery rate computation
-- [[Modules/stock_delivery]] — Stock delivery integration: `stock.picking` generation from `sale.order`
+- [Modules/delivery_mondialrelay](modules/delivery_mondialrelay.md) — Carrier backend: `is_mondialrelay` detection, `res.partner` relay contacts, `action_confirm` guard, backend wizard
+- [Modules/website_sale](modules/website_sale.md) — eCommerce base: `WebsiteSale` controller, `Delivery` mixin, `address_on_checkout` template
+- [Modules/delivery](modules/delivery.md) — Delivery method base: `choose.delivery.carrier` transient wizard, delivery rate computation
+- [Modules/stock_delivery](modules/stock_delivery.md) — Stock delivery integration: `stock.picking` generation from `sale.order`

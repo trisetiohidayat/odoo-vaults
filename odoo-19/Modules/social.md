@@ -1131,11 +1131,11 @@ The `_action_post()` method catches exceptions per live post, ensuring one platf
 
 ## Related Documentation
 
-- [[Modules/social_media]] -- `social_facebook` module
-- [[Modules/social_media]] -- `social_twitter` module
-- [[Modules/Social/LinkedIn]] -- `social_linkedin` module
-- [[Modules/social_media]] -- `social_youtube` module
-- [[Modules/social_media]] -- `social_instagram` module
-- [[Modules/social_media]] -- Stream post management
-- [[Modules/social_media]] -- UTM and analytics integration
-- [[Modules/utm]] -- UTM framework
+- [Modules/social_media](modules/social_media.md) -- `social_facebook` module
+- [Modules/social_media](modules/social_media.md) -- `social_twitter` module
+- [Modules/Social/LinkedIn](modules/social/linkedin.md) -- `social_linkedin` module
+- [Modules/social_media](modules/social_media.md) -- `social_youtube` module
+- [Modules/social_media](modules/social_media.md) -- `social_instagram` module
+- [Modules/social_media](modules/social_media.md) -- Stream post management
+- [Modules/social_media](modules/social_media.md) -- UTM and analytics integration
+- [Modules/utm](modules/utm.md) -- UTM framework

@@ -14,7 +14,7 @@ Peppol PINT JP e-invoicing module for Japan. Provides the Japanese implementatio
 Japan
 
 ## Dependencies
-- [[Core/BaseModel]] (account_edi_ubl_cii)
+- [Core/BaseModel](core/basemodel.md) (account_edi_ubl_cii)
 - `account_edi_ubl_cii` — UBL/CII EDI framework
 
 ## Key Models

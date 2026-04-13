@@ -1166,11 +1166,11 @@ CREATE UNIQUE INDEX account_move_secure_sequence_idx
 
 ## See Also
 
-- [[Modules/Payment]] — `account.payment` model, payment workflows
-- [[Modules/AccountAnticipation]] — early payment discounts, EPD
-- [[Modules/AccountFollowup]] — partner payment follow-up / dunning
-- [[Modules/AccountBatchPayment]] — batch payment processing
-- [[Modules/AccountDebitNote]] — debit note issuance
-- [[Modules/AccountTaxCalculation]] — tax calculation details
-- [[Tools/ORM Operations]] — `search()`, `browse()`, `write()` fundamentals
-- [[Patterns/Security Patterns]] — ACL CSV, `ir.rule` for account records
+- [Modules/Payment](modules/payment.md) — `account.payment` model, payment workflows
+- [Modules/AccountAnticipation](modules/accountanticipation.md) — early payment discounts, EPD
+- [Modules/AccountFollowup](modules/accountfollowup.md) — partner payment follow-up / dunning
+- [Modules/AccountBatchPayment](modules/accountbatchpayment.md) — batch payment processing
+- [Modules/AccountDebitNote](modules/accountdebitnote.md) — debit note issuance
+- [Modules/AccountTaxCalculation](modules/accounttaxcalculation.md) — tax calculation details
+- [Tools/ORM Operations](tools/orm-operations.md) — `search()`, `browse()`, `write()` fundamentals
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL CSV, `ir.rule` for account records

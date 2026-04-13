@@ -7,156 +7,156 @@ Obsidian vault navigation via keyword search.
 ### Core ORM
 | Keyword | Vault File |
 |---|---|
-| `orm` | [[Core/BaseModel]] |
-| `model` | [[Core/BaseModel]] |
-| `base model` | [[Core/BaseModel]] |
-| `crud` | [[Core/BaseModel]] |
-| `create` | [[Core/BaseModel]] |
-| `write` | [[Core/BaseModel]] |
-| `search` | [[Core/BaseModel]] |
-| `browse` | [[Core/BaseModel]] |
-| `unlink` | [[Core/BaseModel]] |
-| `recordset` | [[Core/BaseModel]] |
-| `env` | [[Core/BaseModel]] |
-| `context` | [[Core/BaseModel]] |
+| `orm` | [Core/BaseModel](core/basemodel.md) |
+| `model` | [Core/BaseModel](core/basemodel.md) |
+| `base model` | [Core/BaseModel](core/basemodel.md) |
+| `crud` | [Core/BaseModel](core/basemodel.md) |
+| `create` | [Core/BaseModel](core/basemodel.md) |
+| `write` | [Core/BaseModel](core/basemodel.md) |
+| `search` | [Core/BaseModel](core/basemodel.md) |
+| `browse` | [Core/BaseModel](core/basemodel.md) |
+| `unlink` | [Core/BaseModel](core/basemodel.md) |
+| `recordset` | [Core/BaseModel](core/basemodel.md) |
+| `env` | [Core/BaseModel](core/basemodel.md) |
+| `context` | [Core/BaseModel](core/basemodel.md) |
 
 ### Fields
 | Keyword | Vault File |
 |---|---|
-| `field` | [[Core/Fields]] |
-| `char` | [[Core/Fields]] |
-| `text` | [[Core/Fields]] |
-| `html` | [[Core/Fields]] |
-| `integer` | [[Core/Fields]] |
-| `float` | [[Core/Fields]] |
-| `monetary` | [[Core/Fields]] |
-| `boolean` | [[Core/Fields]] |
-| `selection` | [[Core/Fields]] |
-| `date` | [[Core/Fields]] |
-| `datetime` | [[Core/Fields]] |
-| `binary` | [[Core/Fields]] |
-| `many2one` | [[Core/Fields]] |
-| `one2many` | [[Core/Fields]] |
-| `many2many` | [[Core/Fields]] |
-| `related` | [[Core/Fields]] |
-| `computed` | [[Core/Fields]] |
+| `field` | [Core/Fields](core/fields.md) |
+| `char` | [Core/Fields](core/fields.md) |
+| `text` | [Core/Fields](core/fields.md) |
+| `html` | [Core/Fields](core/fields.md) |
+| `integer` | [Core/Fields](core/fields.md) |
+| `float` | [Core/Fields](core/fields.md) |
+| `monetary` | [Core/Fields](core/fields.md) |
+| `boolean` | [Core/Fields](core/fields.md) |
+| `selection` | [Core/Fields](core/fields.md) |
+| `date` | [Core/Fields](core/fields.md) |
+| `datetime` | [Core/Fields](core/fields.md) |
+| `binary` | [Core/Fields](core/fields.md) |
+| `many2one` | [Core/Fields](core/fields.md) |
+| `one2many` | [Core/Fields](core/fields.md) |
+| `many2many` | [Core/Fields](core/fields.md) |
+| `related` | [Core/Fields](core/fields.md) |
+| `computed` | [Core/Fields](core/fields.md) |
 
 ### API Decorators
 | Keyword | Vault File |
 |---|---|
-| `api` | [[Core/API]] |
-| `depends` | [[Core/API]] |
-| `onchange` | [[Core/API]] |
-| `constrains` | [[Core/API]] |
-| `returns` | [[Core/API]] |
-| `model decorator` | [[Core/API]] |
+| `api` | [Core/API](core/api.md) |
+| `depends` | [Core/API](core/api.md) |
+| `onchange` | [Core/API](core/api.md) |
+| `constrains` | [Core/API](core/api.md) |
+| `returns` | [Core/API](core/api.md) |
+| `model decorator` | [Core/API](core/api.md) |
 
 ### Controllers
 | Keyword | Vault File |
 |---|---|
-| `controller` | [[Core/HTTP Controller]] |
-| `http` | [[Core/HTTP Controller]] |
-| `route` | [[Core/HTTP Controller]] |
-| `auth` | [[Core/HTTP Controller]] |
-| `json` | [[Core/HTTP Controller]] |
-| `website` | [[Core/HTTP Controller]] |
-| `request` | [[Core/HTTP Controller]] |
+| `controller` | [Core/HTTP Controller](core/http-controller.md) |
+| `http` | [Core/HTTP Controller](core/http-controller.md) |
+| `route` | [Core/HTTP Controller](core/http-controller.md) |
+| `auth` | [Core/HTTP Controller](core/http-controller.md) |
+| `json` | [Core/HTTP Controller](core/http-controller.md) |
+| `website` | [Core/HTTP Controller](core/http-controller.md) |
+| `request` | [Core/HTTP Controller](core/http-controller.md) |
 
 ### Exceptions
 | Keyword | Vault File |
 |---|---|
-| `exception` | [[Core/Exceptions]] |
-| `validation error` | [[Core/Exceptions]] |
-| `user error` | [[Core/Exceptions]] |
-| `access error` | [[Core/Exceptions]] |
-| `raise` | [[Core/Exceptions]] |
+| `exception` | [Core/Exceptions](core/exceptions.md) |
+| `validation error` | [Core/Exceptions](core/exceptions.md) |
+| `user error` | [Core/Exceptions](core/exceptions.md) |
+| `access error` | [Core/Exceptions](core/exceptions.md) |
+| `raise` | [Core/Exceptions](core/exceptions.md) |
 
 ### Patterns
 | Keyword | Vault File |
 |---|---|
-| `inheritance` | [[Patterns/Inheritance Patterns]] |
-| `_inherit` | [[Patterns/Inheritance Patterns]] |
-| `_inherits` | [[Patterns/Inheritance Patterns]] |
-| `mixin` | [[Patterns/Inheritance Patterns]] |
-| `abstract` | [[Patterns/Inheritance Patterns]] |
-| `workflow` | [[Patterns/Workflow Patterns]] |
-| `state` | [[Patterns/Workflow Patterns]] |
-| `action` | [[Patterns/Workflow Patterns]] |
-| `wizard` | [[Patterns/Workflow Patterns]] |
-| `security` | [[Patterns/Security Patterns]] |
-| `acl` | [[Patterns/Security Patterns]] |
-| `groups` | [[Patterns/Security Patterns]] |
-| `ir.rule` | [[Patterns/Security Patterns]] |
-| `access` | [[Patterns/Security Patterns]] |
+| `inheritance` | [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) |
+| `_inherit` | [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) |
+| `_inherits` | [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) |
+| `mixin` | [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) |
+| `abstract` | [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) |
+| `workflow` | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) |
+| `state` | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) |
+| `action` | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) |
+| `wizard` | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) |
+| `security` | [Patterns/Security Patterns](patterns/security-patterns.md) |
+| `acl` | [Patterns/Security Patterns](patterns/security-patterns.md) |
+| `groups` | [Patterns/Security Patterns](patterns/security-patterns.md) |
+| `ir.rule` | [Patterns/Security Patterns](patterns/security-patterns.md) |
+| `access` | [Patterns/Security Patterns](patterns/security-patterns.md) |
 
 ### Tools
 | Keyword | Vault File |
 |---|---|
-| `search` | [[Tools/ORM Operations]] |
-| `browse` | [[Tools/ORM Operations]] |
-| `domain` | [[Tools/ORM Operations]] |
-| `operator` | [[Tools/ORM Operations]] |
-| `read_group` | [[Tools/ORM Operations]] |
-| `name_search` | [[Tools/ORM Operations]] |
+| `search` | [Tools/ORM Operations](tools/orm-operations.md) |
+| `browse` | [Tools/ORM Operations](tools/orm-operations.md) |
+| `domain` | [Tools/ORM Operations](tools/orm-operations.md) |
+| `operator` | [Tools/ORM Operations](tools/orm-operations.md) |
+| `read_group` | [Tools/ORM Operations](tools/orm-operations.md) |
+| `name_search` | [Tools/ORM Operations](tools/orm-operations.md) |
 
 ### Modules
 | Keyword | Vault File |
 |---|---|
-| `sale` | [[Modules/Sale]] |
-| `quotation` | [[Modules/Sale]] |
-| `so` | [[Modules/Sale]] |
-| `sale order` | [[Modules/Sale]] |
-| `stock` | [[Modules/Stock]] |
-| `picking` | [[Modules/Stock]] |
-| `quant` | [[Modules/Stock]] |
-| `warehouse` | [[Modules/Stock]] |
-| `inventory` | [[Modules/Stock]] |
-| `account` | [[Modules/Account]] |
-| `invoice` | [[Modules/Account]] |
-| `journal` | [[Modules/Account]] |
-| `move` | [[Modules/Account]] |
-| `payment` | [[Modules/Account]] |
-| `purchase` | [[Modules/Purchase]] |
-| `po` | [[Modules/Purchase]] |
-| `rfq` | [[Modules/Purchase]] |
-| `crm` | [[Modules/CRM]] |
-| `lead` | [[Modules/CRM]] |
-| `opportunity` | [[Modules/CRM]] |
-| `project` | [[Modules/Project]] |
-| `task` | [[Modules/Project]] |
-| `milestone` | [[Modules/Project]] |
-| `mrp` | [[Modules/MRP]] |
-| `production` | [[Modules/MRP]] |
-| `bom` | [[Modules/MRP]] |
-| `workorder` | [[Modules/MRP]] |
-| `product` | [[Modules/Product]] |
-| `pricelist` | [[Modules/Product]] |
-| `uom` | [[Modules/Product]] |
-| `partner` | [[Modules/res.partner]] |
-| `contact` | [[Modules/res.partner]] |
-| `company` | [[Modules/res.partner]] |
-| `bank` | [[Modules/res.partner]] |
+| `sale` | [Modules/Sale](modules/sale.md) |
+| `quotation` | [Modules/Sale](modules/sale.md) |
+| `so` | [Modules/Sale](modules/sale.md) |
+| `sale order` | [Modules/Sale](modules/sale.md) |
+| `stock` | [Modules/Stock](modules/stock.md) |
+| `picking` | [Modules/Stock](modules/stock.md) |
+| `quant` | [Modules/Stock](modules/stock.md) |
+| `warehouse` | [Modules/Stock](modules/stock.md) |
+| `inventory` | [Modules/Stock](modules/stock.md) |
+| `account` | [Modules/Account](modules/account.md) |
+| `invoice` | [Modules/Account](modules/account.md) |
+| `journal` | [Modules/Account](modules/account.md) |
+| `move` | [Modules/Account](modules/account.md) |
+| `payment` | [Modules/Account](modules/account.md) |
+| `purchase` | [Modules/Purchase](modules/purchase.md) |
+| `po` | [Modules/Purchase](modules/purchase.md) |
+| `rfq` | [Modules/Purchase](modules/purchase.md) |
+| `crm` | [Modules/CRM](modules/crm.md) |
+| `lead` | [Modules/CRM](modules/crm.md) |
+| `opportunity` | [Modules/CRM](modules/crm.md) |
+| `project` | [Modules/Project](modules/project.md) |
+| `task` | [Modules/Project](modules/project.md) |
+| `milestone` | [Modules/Project](modules/project.md) |
+| `mrp` | [Modules/MRP](modules/mrp.md) |
+| `production` | [Modules/MRP](modules/mrp.md) |
+| `bom` | [Modules/MRP](modules/mrp.md) |
+| `workorder` | [Modules/MRP](modules/mrp.md) |
+| `product` | [Modules/Product](modules/product.md) |
+| `pricelist` | [Modules/Product](modules/product.md) |
+| `uom` | [Modules/Product](modules/product.md) |
+| `partner` | [Modules/res.partner](modules/res.partner.md) |
+| `contact` | [Modules/res.partner](modules/res.partner.md) |
+| `company` | [Modules/res.partner](modules/res.partner.md) |
+| `bank` | [Modules/res.partner](modules/res.partner.md) |
 
 ### New Features
 | Keyword | Vault File |
 |---|---|
-| `new in 15` | [[New Features/What's New]] |
-| `whats new` | [[New Features/What's New]] |
-| `migration` | [[New Features/What's New]] |
-| `api changes` | [[New Features/API Changes]] |
+| `new in 15` | [New Features/What's New](new-features/what's-new.md) |
+| `whats new` | [New Features/What's New](new-features/what's-new.md) |
+| `migration` | [New Features/What's New](new-features/what's-new.md) |
+| `api changes` | [New Features/API Changes](new-features/api-changes.md) |
 
 ### Snippets
 | Keyword | Vault File |
 |---|---|
-| `snippet` | [[Snippets/Model Snippets]] |
-| `template` | [[Snippets/Model Snippets]] |
-| `example` | [[Snippets/Model Snippets]] |
-| `controller example` | [[Snippets/Controller Snippets]] |
+| `snippet` | [Snippets/Model Snippets](snippets/model-snippets.md) |
+| `template` | [Snippets/Model Snippets](snippets/model-snippets.md) |
+| `example` | [Snippets/Model Snippets](snippets/model-snippets.md) |
+| `controller example` | [Snippets/Controller Snippets](snippets/controller-snippets.md) |
 
 ### Quick Ref
 | Keyword | Vault File |
 |---|---|
-| `cheat sheet` | [[Quick Reference]] |
-| `quick` | [[Quick Reference]] |
-| `quick reference` | [[Quick Reference]] |
-| `snippets` | [[Quick Reference]] |
+| `cheat sheet` | [Quick Reference](quick-reference.md) |
+| `quick` | [Quick Reference](quick-reference.md) |
+| `quick reference` | [Quick Reference](quick-reference.md) |
+| `snippets` | [Quick Reference](quick-reference.md) |

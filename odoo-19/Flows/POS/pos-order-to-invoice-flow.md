@@ -15,12 +15,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/POS/pos-session-flow]]"
-  - "[[Flows/Account/invoice-creation-flow]]"
-  - "[[Flows/Account/payment-flow]]"
+  - "[Flows/POS/pos-session-flow](flows/pos/pos-session-flow.md)"
+  - "[Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md)"
+  - "[Flows/Account/payment-flow](flows/account/payment-flow.md)"
 related_guides:
-  - "[[Business/POS/pos-configuration-guide]]"
-  - "[[Flows/Account/invoice-creation-flow]]"
+  - "[Business/POS/pos-configuration-guide](business/pos/pos-configuration-guide.md)"
+  - "[Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md)"
 source_module: pos
 source_path: ~/odoo/odoo19/odoo/addons/point_of_sale/
 created: 2026-04-07
@@ -355,12 +355,12 @@ def _prepare_invoice_vals(self):
 
 ## Related
 
-- [[Flows/POS/pos-session-flow]] — Session lifecycle and payment registration
-- [[Flows/Account/invoice-creation-flow]] — Generic invoice creation flow
-- [[Flows/Account/payment-flow]] — Payment matching and reconciliation
-- [[Business/POS/pos-configuration-guide]] — POS setup including invoice journal
-- [[Flows/Account/invoice-creation-flow]] — Manual invoicing guide
-- [[Modules/pos]] — Full POS module reference
-- [[Modules/Account]] — account.move, journal entries
-- [[Modules/res.partner]] — Partner model
-- [[Patterns/Security Patterns]] — ACL and record rules
+- [Flows/POS/pos-session-flow](flows/pos/pos-session-flow.md) — Session lifecycle and payment registration
+- [Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md) — Generic invoice creation flow
+- [Flows/Account/payment-flow](flows/account/payment-flow.md) — Payment matching and reconciliation
+- [Business/POS/pos-configuration-guide](business/pos/pos-configuration-guide.md) — POS setup including invoice journal
+- [Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md) — Manual invoicing guide
+- [Modules/pos](modules/pos.md) — Full POS module reference
+- [Modules/Account](modules/account.md) — account.move, journal entries
+- [Modules/res.partner](modules/res.partner.md) — Partner model
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL and record rules

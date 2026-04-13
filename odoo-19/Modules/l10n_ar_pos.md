@@ -37,7 +37,7 @@ Argentinean POS localization. Ensures the "Consumidor Final Anonimo" (anonymous 
 - `pos.session` — Session-specific Argentine adjustments
 
 ## Related
-- [[Modules/l10n_ar]] — Core Argentinean accounting
-- [[Modules/l10n_ar_website_sale]] — Argentine eCommerce
-- [[Modules/l10n_ar_withholding]] — Argentine withholding tax
-- [[Modules/l10n_ar_stock]] — Argentine inventory/warehouse
+- [Modules/l10n_ar](modules/l10n_ar.md) — Core Argentinean accounting
+- [Modules/l10n_ar_website_sale](modules/l10n_ar_website_sale.md) — Argentine eCommerce
+- [Modules/l10n_ar_withholding](modules/l10n_ar_withholding.md) — Argentine withholding tax
+- [Modules/l10n_ar_stock](modules/l10n_ar_stock.md) — Argentine inventory/warehouse

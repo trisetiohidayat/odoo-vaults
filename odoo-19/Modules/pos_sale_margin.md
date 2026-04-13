@@ -302,7 +302,7 @@ If POS orders appear in the Sales Margin report but show unexpected margin value
 
 ## See Also
 
-- [[Modules/pos_sale]] — POS + Sale bridge (pos.order.line fields, SO linking, total_cost)
-- [[Modules/sale_margin]] — SO margin computation (margin field on sale.order.line)
-- [[Modules/point_of_sale]] — POS base (pos.order, pos.order.line)
-- [[Modules/sale_management]] — Cross-document analytics report model
+- [Modules/pos_sale](modules/pos_sale.md) — POS + Sale bridge (pos.order.line fields, SO linking, total_cost)
+- [Modules/sale_margin](modules/sale_margin.md) — SO margin computation (margin field on sale.order.line)
+- [Modules/point_of_sale](modules/point_of_sale.md) — POS base (pos.order, pos.order.line)
+- [Modules/sale_management](modules/sale_management.md) — Cross-document analytics report model

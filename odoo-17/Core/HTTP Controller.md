@@ -41,5 +41,5 @@ session_uid = request.session.uid
 ```
 
 ## See Also
-- [[Snippets/Controller Snippets]] — Code templates
-- [[Core/API]] — Decorators
+- [Snippets/Controller Snippets](snippets/controller-snippets.md) — Code templates
+- [Core/API](core/api.md) — Decorators

@@ -15,4 +15,4 @@ Localized accounting for Sénégal.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [[Modules/l10n_syscohada]] — Core accounting
+- [Modules/l10n_syscohada](modules/l10n_syscohada.md) — Core accounting

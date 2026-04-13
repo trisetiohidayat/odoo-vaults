@@ -23,24 +23,24 @@ version: "1.2"
 ## Quick Access
 
 ### Models (by file)
-- [[Modules/l10n_id#l10n-id-qris-transaction]] — QRIS transaction record
-- [[Modules/l10n_id#account-move-overrides]] — QRIS-enabled invoice, DPP override
-- [[Modules/l10n_id#res-bank-overrides]] — QRIS payment method, bank API
-- [[Modules/l10n_id#template-id-chart-template]] — Indonesian COA loader
+- [Modules/l10n_id#l10n-id-qris-transaction](modules/l10n_id#l10n-id-qris-transaction.md) — QRIS transaction record
+- [Modules/l10n_id#account-move-overrides](modules/l10n_id#account-move-overrides.md) — QRIS-enabled invoice, DPP override
+- [Modules/l10n_id#res-bank-overrides](modules/l10n_id#res-bank-overrides.md) — QRIS payment method, bank API
+- [Modules/l10n_id#template-id-chart-template](modules/l10n_id#template-id-chart-template.md) — Indonesian COA loader
 
 ### Data
-- [[Modules/l10n_id#account-tax-id-csv]] — 12% PPN, STLG 20%, 0%, exempt taxes
-- [[Modules/l10n_id#account-tax-group-id-csv]] — 7 tax groups with PPN/STLG split
-- [[Modules/l10n_id#account-account-id-csv]] — 8-digit Indonesian COA
+- [Modules/l10n_id#account-tax-id-csv](modules/l10n_id#account-tax-id-csv.md) — 12% PPN, STLG 20%, 0%, exempt taxes
+- [Modules/l10n_id#account-tax-group-id-csv](modules/l10n_id#account-tax-group-id-csv.md) — 7 tax groups with PPN/STLG split
+- [Modules/l10n_id#account-account-id-csv](modules/l10n_id#account-account-id-csv.md) — 8-digit Indonesian COA
 
 ### L4 Deep Dives
-- [[Modules/l10n_id#qris-payment-workflow]] — Full QRIS lifecycle (generate → poll → auto-pay)
-- [[Modules/l10n_id#dpp-override-for-non-luxury-goods]] — 11/12 gross formula, PPnBM mechanics
-- [[Modules/l10n_id#odoo-18-to-19-version-changes]] — Tax rate migrations 1.1→1.2→1.3
+- [Modules/l10n_id#qris-payment-workflow](modules/l10n_id#qris-payment-workflow.md) — Full QRIS lifecycle (generate → poll → auto-pay)
+- [Modules/l10n_id#dpp-override-for-non-luxury-goods](modules/l10n_id#dpp-override-for-non-luxury-goods.md) — 11/12 gross formula, PPnBM mechanics
+- [Modules/l10n_id#odoo-18-to-19-version-changes](modules/l10n_id#odoo-18-to-19-version-changes.md) — Tax rate migrations 1.1→1.2→1.3
 
 ### Related Flows
-- [[Flows/Cross-Module/purchase-stock-account-flow]] — PO→Receipt→Vendor Bill (with PPN tax)
-- [[Flows/Account/payment-flow]] — QRIS payment collection
+- [Flows/Cross-Module/purchase-stock-account-flow](flows/cross-module/purchase-stock-account-flow.md) — PO→Receipt→Vendor Bill (with PPN tax)
+- [Flows/Account/payment-flow](flows/account/payment-flow.md) — QRIS payment collection
 
 ---
 
@@ -869,8 +869,8 @@ The existing `l10n_id.md` contained several significant errors:
 
 ## Related Modules
 
-- [[Modules/account]] — Core accounting: journals, taxes, move posting
-- [[Modules/l10n_id_efaktur_coretax]] — e-Faktur / CoreTax EDI export (separate module)
-- [[Modules/l10n_id_pos]] — Indonesian POS localization
+- [Modules/account](modules/account.md) — Core accounting: journals, taxes, move posting
+- [Modules/l10n_id_efaktur_coretax](modules/l10n_id_efaktur_coretax.md) — e-Faktur / CoreTax EDI export (separate module)
+- [Modules/l10n_id_pos](modules/l10n_id_pos.md) — Indonesian POS localization
 - [DJP Indonesia](https://www.pajak.go.id)
 - [QRIS Specification](https://qris.online)

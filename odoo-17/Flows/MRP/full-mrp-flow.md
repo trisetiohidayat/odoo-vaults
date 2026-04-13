@@ -479,8 +479,8 @@ def _link_workorders_and_moves(self):
 
 ## See Also
 
-- [[Modules/mrp]] — `mrp.production`, `mrp.bom`, `mrp.workorder`
-- [[Modules/product]] — `standard_price`, product costing
-- [[Modules/stock_account]] — WIP valuation entries
-- [[Flows/Stock/receipt-flow]] — how received/finished goods enter stock
-- [[Patterns/Workflow Patterns]] — state machine patterns in Odoo
+- [Modules/mrp](modules/mrp.md) — `mrp.production`, `mrp.bom`, `mrp.workorder`
+- [Modules/product](modules/product.md) — `standard_price`, product costing
+- [Modules/stock_account](modules/stock_account.md) — WIP valuation entries
+- [Flows/Stock/receipt-flow](flows/stock/receipt-flow.md) — how received/finished goods enter stock
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — state machine patterns in Odoo

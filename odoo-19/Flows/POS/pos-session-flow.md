@@ -15,10 +15,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/POS/pos-order-to-invoice-flow]]"
-  - "[[Flows/Stock/receipt-flow]]"
+  - "[Flows/POS/pos-order-to-invoice-flow](flows/pos/pos-order-to-invoice-flow.md)"
+  - "[Flows/Stock/receipt-flow](flows/stock/receipt-flow.md)"
 related_guides:
-  - "[[Business/POS/pos-configuration-guide]]"
+  - "[Business/POS/pos-configuration-guide](business/pos/pos-configuration-guide.md)"
 source_module: pos
 source_path: ~/odoo/odoo19/odoo/addons/point_of_sale/
 created: 2026-04-07
@@ -347,10 +347,10 @@ def _create_account_move(self, balancing_account, ...):
 
 ## Related
 
-- [[Flows/POS/pos-order-to-invoice-flow]] — Invoice generation from paid orders
-- [[Business/POS/pos-configuration-guide]] — POS setup and session management
-- [[Modules/pos]] — Full POS module reference
-- [[Patterns/Workflow Patterns]] — State machine design patterns
-- [[Core/API]] — @api decorator patterns
-- [[Modules/Account]] — account.move, account.bank.statement reference
-- [[Modules/Stock]] — stock.picking, stock.move reference
+- [Flows/POS/pos-order-to-invoice-flow](flows/pos/pos-order-to-invoice-flow.md) — Invoice generation from paid orders
+- [Business/POS/pos-configuration-guide](business/pos/pos-configuration-guide.md) — POS setup and session management
+- [Modules/pos](modules/pos.md) — Full POS module reference
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine design patterns
+- [Core/API](core/api.md) — @api decorator patterns
+- [Modules/Account](modules/account.md) — account.move, account.bank.statement reference
+- [Modules/Stock](modules/stock.md) — stock.picking, stock.move reference

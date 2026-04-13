@@ -12,8 +12,8 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/HR/employee-creation-flow]]"
-  - "[[Flows/HR/employee-archival-flow]]"
+  - "[Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md)"
+  - "[Flows/HR/employee-archival-flow](flows/hr/employee-archival-flow.md)"
 source_module: hr
 created: 2026-04-07
 version: "1.0"
@@ -313,10 +313,10 @@ def _change_department(self, new_dept_id):
 
 ## Related
 
-- [[Modules/HR]] — HR module reference
-- [[Modules/Project]] — Project module reference
-- [[Modules/Account]] — Account module reference
-- [[Flows/HR/employee-creation-flow]] — Employee creation flow
-- [[Flows/HR/employee-archival-flow]] — Employee archival flow
-- [[Patterns/Workflow Patterns]] — Workflow pattern reference
-- [[Core/API]] — @api decorator patterns
+- [Modules/HR](modules/hr.md) — HR module reference
+- [Modules/Project](modules/project.md) — Project module reference
+- [Modules/Account](modules/account.md) — Account module reference
+- [Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md) — Employee creation flow
+- [Flows/HR/employee-archival-flow](flows/hr/employee-archival-flow.md) — Employee archival flow
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
+- [Core/API](core/api.md) — @api decorator patterns

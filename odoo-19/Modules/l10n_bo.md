@@ -28,7 +28,7 @@ Provides the **Plan Contable Boliviano** (Bolivian Accounting Plan) aligned with
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/Account]] | Core accounting module |
+| [Modules/Account](modules/account.md) | Core accounting module |
 
 ## Key Models
 
@@ -77,6 +77,6 @@ Extends `res.company` with Bolivian-specific defaults via chart template.
 - Dotted notation for sub-accounts
 
 ## Related Modules
-- [[Modules/l10n_bo]] - Core accounting (this module)
-- [[Modules/l10n_latam_base]] - Latin America base localization
-- [[Modules/l10n_latam_invoice_document]] - LATAM document types
+- [Modules/l10n_bo](modules/l10n_bo.md) - Core accounting (this module)
+- [Modules/l10n_latam_base](modules/l10n_latam_base.md) - Latin America base localization
+- [Modules/l10n_latam_invoice_document](modules/l10n_latam_invoice_document.md) - LATAM document types

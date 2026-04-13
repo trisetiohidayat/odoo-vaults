@@ -15,9 +15,9 @@ created: 2026-04-07
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Ticket Creation | [[Flows/Helpdesk/ticket-creation-flow]] | Full method chain from create to SLA application |
-| 🔀 Ticket Resolution | [[Flows/Helpdesk/ticket-resolution-flow]] | Close, rating, reopen, escalate flows |
-| 📋 Configuration | [[Business/Helpdesk/helpdesk-configuration-guide]] | Step-by-step setup for teams, stages, SLAs, ratings |
+| 🔀 Ticket Creation | [Flows/Helpdesk/ticket-creation-flow](flows/helpdesk/ticket-creation-flow.md) | Full method chain from create to SLA application |
+| 🔀 Ticket Resolution | [Flows/Helpdesk/ticket-resolution-flow](flows/helpdesk/ticket-resolution-flow.md) | Close, rating, reopen, escalate flows |
+| 📋 Configuration | [Business/Helpdesk/helpdesk-configuration-guide](business/helpdesk/helpdesk-configuration-guide.md) | Step-by-step setup for teams, stages, SLAs, ratings |
 
 ## Key Models
 
@@ -151,10 +151,10 @@ created: 2026-04-07
 
 ## Related Documentation
 
-- [[Flows/Helpdesk/ticket-creation-flow]] — Ticket creation, partner auto-fill, SLA application
-- [[Flows/Helpdesk/ticket-resolution-flow]] — Ticket close, rating, reopen, escalate
-- [[Business/Helpdesk/helpdesk-configuration-guide]] — Team, stage, SLA, rating setup
-- [[Patterns/Workflow Patterns]] — State machine design patterns
-- [[Core/API]] — @api decorators used in helpdesk models
-- [[Modules/rating]] — Rating infrastructure used by helpdesk
-- [[Modules/mail]] — Mail.thread integration for notifications
+- [Flows/Helpdesk/ticket-creation-flow](flows/helpdesk/ticket-creation-flow.md) — Ticket creation, partner auto-fill, SLA application
+- [Flows/Helpdesk/ticket-resolution-flow](flows/helpdesk/ticket-resolution-flow.md) — Ticket close, rating, reopen, escalate
+- [Business/Helpdesk/helpdesk-configuration-guide](business/helpdesk/helpdesk-configuration-guide.md) — Team, stage, SLA, rating setup
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine design patterns
+- [Core/API](core/api.md) — @api decorators used in helpdesk models
+- [Modules/rating](modules/rating.md) — Rating infrastructure used by helpdesk
+- [Modules/mail](modules/mail.md) — Mail.thread integration for notifications

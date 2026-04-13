@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [[Modules/spreadsheet_dashboard]] template for finance/HR teams to monitor expense submissions, approvals, and re-invoicing. Uses data from expense reports and sale order expense tracking via [[Modules/sale_expense]].
+Provides a pre-configured [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) template for finance/HR teams to monitor expense submissions, approvals, and re-invoicing. Uses data from expense reports and sale order expense tracking via [Modules/sale_expense](modules/sale_expense.md).
 
 This is a **data-only module**: contains only a `data/dashboards.xml` file that creates a sample expense dashboard record.
 
@@ -22,6 +22,6 @@ This is a **data-only module**: contains only a `data/dashboards.xml` file that 
 - Auto-installs when `sale_expense` is active
 
 ## Related
-- [[Modules/spreadsheet_dashboard]] — Dashboard framework
-- [[Modules/hr_expense]] — HR expense management
-- [[Modules/sale_expense]] — Expense re-invoicing via sales orders
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/hr_expense](modules/hr_expense.md) — HR expense management
+- [Modules/sale_expense](modules/sale_expense.md) — Expense re-invoicing via sales orders

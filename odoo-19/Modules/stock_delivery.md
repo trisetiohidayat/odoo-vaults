@@ -489,9 +489,9 @@ def _prepare_procurement_values(self):
 
 ## Related Documentation
 
-- [[Modules/Stock]] — Core stock picking management
-- [[Modules/Sale]] — Sales order delivery line management
-- [[Patterns/Workflow Patterns]] — Carrier state machine
+- [Modules/Stock](modules/stock.md) — Core stock picking management
+- [Modules/Sale](modules/sale.md) — Sales order delivery line management
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Carrier state machine
 
 ---
 
@@ -852,11 +852,11 @@ If the carrier's API fails to cancel (e.g., the shipment was already in transit 
 ---
 
 ## Related Documentation
-- [[Modules/Stock]] — Core `stock.picking` model, `button_validate` flow, move line operations
-- [[Modules/Sale]] — `sale.order` delivery line, `set_delivery_line`, `_create_delivery_line`
-- [[Modules/Delivery]] — `delivery.carrier` base model, `integration_level`, `free_over`, provider interface
-- [[Modules/Fleet]] — Fleet vehicle model
-- [[Core/API]] — `@api.depends`, `@api.constrains`, `@api.onchange` decorators
-- [[Patterns/Workflow Patterns]] — Picking validation workflow, carrier state machine
-- [[Patterns/Security Patterns]] — ACL CSV, record rules for carrier access
-- [[Tools/ORM Operations]] — `write()`, `search()`, `browse()` performance patterns
+- [Modules/Stock](modules/stock.md) — Core `stock.picking` model, `button_validate` flow, move line operations
+- [Modules/Sale](modules/sale.md) — `sale.order` delivery line, `set_delivery_line`, `_create_delivery_line`
+- [Modules/Delivery](modules/delivery.md) — `delivery.carrier` base model, `integration_level`, `free_over`, provider interface
+- [Modules/Fleet](modules/fleet.md) — Fleet vehicle model
+- [Core/API](core/api.md) — `@api.depends`, `@api.constrains`, `@api.onchange` decorators
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Picking validation workflow, carrier state machine
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL CSV, record rules for carrier access
+- [Tools/ORM Operations](tools/orm-operations.md) — `write()`, `search()`, `browse()` performance patterns

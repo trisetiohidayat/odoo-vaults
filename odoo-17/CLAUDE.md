@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Context
 
-This is an **Obsidian vault** containing structured documentation for the **Odoo 17** codebase. The notes are written in Obsidian Flavored Markdown with wikilinks (`[[wikilink]]`) and frontmatter tags. The actual Odoo 17 source code lives at `~/odoo/odoo17/` — the vault maps, explains, and cross-links that codebase.
+This is an **Obsidian vault** containing structured documentation for the **Odoo 17** codebase. The notes are written in Obsidian Flavored Markdown with wikilinks (`[wikilink](wikilink.md)`) and frontmatter tags. The actual Odoo 17 source code lives at `~/odoo/odoo17/` — the vault maps, explains, and cross-links that codebase.
 
 **Vault location:** `~/odoo-vaults/odoo-17/`
 
@@ -62,7 +62,7 @@ Models like `sale.order`, `purchase.order`, `stock.picking` use a `state` Select
 ## Working with This Vault
 
 ### Wikilinks
-Use Obsidian wikilinks: `[[Core/BaseModel]]`, `[[Modules/Stock]]`, `[[Patterns/Security Patterns]]`.
+Use Obsidian wikilinks: `[Core/BaseModel](core/basemodel.md)`, `[Modules/Stock](modules/stock.md)`, `[Patterns/Security Patterns](patterns/security-patterns.md)`.
 **Python models**: use backticks, NOT wikilinks: `` `sale.order` ``
 
 ### Code Locations

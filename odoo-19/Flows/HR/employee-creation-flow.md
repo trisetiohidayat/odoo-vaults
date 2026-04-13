@@ -13,10 +13,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/HR/employee-archival-flow]]"
-  - "[[Flows/Base/resource-attendance-flow]]"
+  - "[Flows/HR/employee-archival-flow](flows/hr/employee-archival-flow.md)"
+  - "[Flows/Base/resource-attendance-flow](flows/base/resource-attendance-flow.md)"
 related_guides:
-  - "[[Business/HR/quickstart-employee-setup]]"
+  - "[Business/HR/quickstart-employee-setup](business/hr/quickstart-employee-setup.md)"
 source_module: hr
 source_path: ~/odoo/odoo19/odoo/addons/hr/
 created: 2026-04-06
@@ -284,8 +284,8 @@ action_archive()
 
 ## Related
 
-- [[Modules/HR]] — Module reference (includes method chain summary)
-- [[Business/HR/quickstart-employee-setup]] — Step-by-step guide
-- [[Flows/HR/employee-archival-flow]] — Archive/unarchive flow
-- [[Modules/resource]] — resource.resource model
-- [[Patterns/Workflow Patterns]] — State machine patterns
+- [Modules/HR](modules/hr.md) — Module reference (includes method chain summary)
+- [Business/HR/quickstart-employee-setup](business/hr/quickstart-employee-setup.md) — Step-by-step guide
+- [Flows/HR/employee-archival-flow](flows/hr/employee-archival-flow.md) — Archive/unarchive flow
+- [Modules/resource](modules/resource.md) — resource.resource model
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns

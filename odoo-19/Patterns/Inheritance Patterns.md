@@ -86,7 +86,7 @@ class MyModel(models.Model):
 
 ## Related
 
-- [[Core/BaseModel]] - Model foundation
-- [[Core/Fields]] - Adding fields
-- [[Core/API]] - Methods
-- [[Patterns/Security Patterns]] - Inheritance with ACL
+- [Core/BaseModel](core/basemodel.md) - Model foundation
+- [Core/Fields](core/fields.md) - Adding fields
+- [Core/API](core/api.md) - Methods
+- [Patterns/Security Patterns](patterns/security-patterns.md) - Inheritance with ACL

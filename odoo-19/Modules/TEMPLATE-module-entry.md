@@ -33,17 +33,17 @@ Every module documentation file should start with a **Quick Access** block:
 → Model & Field tables below
 
 ### 🔀 Flows (Technical — AI & Developer)
-→ [[Flows/ModuleName/flow-name]] — Flow description
-→ [[Flows/ModuleName/flow-name-2]] — Flow description
+→ [Flows/ModuleName/flow-name](flows/modulename/flow-name.md) — Flow description
+→ [Flows/ModuleName/flow-name-2](flows/modulename/flow-name-2.md) — Flow description
 
 ### 📋 How-To Guides (Functional — Business)
-→ [[Business/Category/guide-name]] — Guide description
-→ [[Business/Category/guide-name-2]] — Guide description
+→ [Business/Category/guide-name](business/category/guide-name.md) — Guide description
+→ [Business/Category/guide-name-2](business/category/guide-name-2.md) — Guide description
 
 ### 🔗 Related Modules
-→ [[Modules/RelatedModule]] — Brief relationship
-→ [[Modules/AnotherModule]] — Brief relationship
-→ [[Patterns/Workflow Patterns]] — Pattern reference
+→ [Modules/RelatedModule](modules/relatedmodule.md) — Brief relationship
+→ [Modules/AnotherModule](modules/anothermodule.md) — Brief relationship
+→ [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Pattern reference
 ```
 
 ---
@@ -173,8 +173,8 @@ Link to Flows/ directory:
 ## Related Flows
 
 > **For complete method chain documentation, see:**
-> - [[Flows/ModuleName/flow-1]] — Description
-> - [[Flows/ModuleName/flow-2]] — Description
+> - [Flows/ModuleName/flow-1](flows/modulename/flow-1.md) — Description
+> - [Flows/ModuleName/flow-2](flows/modulename/flow-2.md) — Description
 ```
 
 ---
@@ -255,8 +255,8 @@ When documenting a new module, ensure:
 
 ## Related Templates
 
-- [[Flows/TEMPLATE-flow]] — Flow document template
-- [[Business/TEMPLATE-guide]] — Business guide template
-- [[Snippets/method-chain-example]] — Method chain notation reference
-- [[Patterns/Workflow Patterns]] — Workflow patterns
-- [[Patterns/Security Patterns]] — Security patterns
+- [Flows/TEMPLATE-flow](flows/template-flow.md) — Flow document template
+- [Business/TEMPLATE-guide](business/template-guide.md) — Business guide template
+- [Snippets/method-chain-example](snippets/method-chain-example.md) — Method chain notation reference
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow patterns
+- [Patterns/Security Patterns](patterns/security-patterns.md) — Security patterns

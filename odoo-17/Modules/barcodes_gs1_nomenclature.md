@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, barcodes-gs1-nomenclature]
 
 
 
-- [[Modules/stock]] — Barcode scanning for inventory
+- [Modules/stock](modules/stock.md) — Barcode scanning for inventory

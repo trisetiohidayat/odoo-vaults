@@ -47,5 +47,5 @@ Adds `country_id` and `state_id` as related fields; returns `name`, `city_id`, `
 **`_pe_unlink_except_master_data()`** — Prevents deletion of the `partner_pe_cf` master data record
 
 ## Related
-- [[Modules/l10n_pe]] — Core Peruvian accounting
-- [[Modules/l10n_ar_pos]] — Argentine POS (similar consumer-final pattern)
+- [Modules/l10n_pe](modules/l10n_pe.md) — Core Peruvian accounting
+- [Modules/l10n_ar_pos](modules/l10n_ar_pos.md) — Argentine POS (similar consumer-final pattern)

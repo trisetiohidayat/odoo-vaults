@@ -14,7 +14,7 @@ Mongolia accounting localization providing the Mongolian official chart of accou
 Mongolia
 
 ## Dependencies
-- [[Core/BaseModel]] (account)
+- [Core/BaseModel](core/basemodel.md) (account)
 - `account` — core accounting module
 
 ## Key Models

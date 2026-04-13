@@ -376,11 +376,11 @@ def _action_done(self):
 
 ## Related
 
-- [[Flows/MRP/bom-to-production-flow]] — BOM to production order creation
-- [[Flows/MRP/workorder-execution-flow]] — Workorder lifecycle
-- [[Modules/MRP]] — MRP module reference
-- [[Modules/Stock]] — Inventory and materials
-- [[Modules/Account]] — Inventory valuation
-- [[Modules/Quality]] — Quality checks integration
-- [[Patterns/Workflow Patterns]] — State machine patterns
-- [[Core/API]] — @api decorator patterns
+- [Flows/MRP/bom-to-production-flow](flows/mrp/bom-to-production-flow.md) — BOM to production order creation
+- [Flows/MRP/workorder-execution-flow](flows/mrp/workorder-execution-flow.md) — Workorder lifecycle
+- [Modules/MRP](modules/mrp.md) — MRP module reference
+- [Modules/Stock](modules/stock.md) — Inventory and materials
+- [Modules/Account](modules/account.md) — Inventory valuation
+- [Modules/Quality](modules/quality.md) — Quality checks integration
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns
+- [Core/API](core/api.md) — @api decorator patterns

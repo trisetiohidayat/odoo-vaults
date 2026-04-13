@@ -20,6 +20,6 @@ Extends `mass_mailing_event` to support SMS campaigns for event attendees. Uses 
 - `action_invite_contacts()`: Opens the mixed SMS/email mailing form for contacts
 
 ## Related
-- [[Modules/mass_mailing_event]] - Event email mailing
-- [[Modules/mass_mailing_sms]] - SMS marketing
-- [[Modules/event]] - Event management
+- [Modules/mass_mailing_event](modules/mass_mailing_event.md) - Event email mailing
+- [Modules/mass_mailing_sms](modules/mass_mailing_sms.md) - SMS marketing
+- [Modules/event](modules/event.md) - Event management

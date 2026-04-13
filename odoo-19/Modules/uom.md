@@ -732,11 +732,11 @@ def setUpClass(cls):
 
 ## Related
 
-- [[Modules/Product]] — products reference `uom_id` and `uom_po_id` from `uom.uom`
-- [[Modules/Stock]] — `stock.move` uses `_compute_quantity()` to convert between sale/inventory/purchase UoMs
-- [[Modules/Sale]] — `sale.order.line` uses `product_uom` on lines
-- [[Modules/Purchase]] — `purchase.order.line` uses `product_uom` on lines
-- [[Modules/MRP]] — work orders track duration in Hours UoM
-- [[Modules/Account]] — invoice lines use product UoM for quantity
-- [[Core/API]] — `@api.depends`, `@api.onchange`, `@api.constrains` decorators used in uom_uom.py
-- [[Core/Fields]] — field types used: Char, Integer, Float, Boolean, Many2one, One2many, Char (parent_path)
+- [Modules/Product](modules/product.md) — products reference `uom_id` and `uom_po_id` from `uom.uom`
+- [Modules/Stock](modules/stock.md) — `stock.move` uses `_compute_quantity()` to convert between sale/inventory/purchase UoMs
+- [Modules/Sale](modules/sale.md) — `sale.order.line` uses `product_uom` on lines
+- [Modules/Purchase](modules/purchase.md) — `purchase.order.line` uses `product_uom` on lines
+- [Modules/MRP](modules/mrp.md) — work orders track duration in Hours UoM
+- [Modules/Account](modules/account.md) — invoice lines use product UoM for quantity
+- [Core/API](core/api.md) — `@api.depends`, `@api.onchange`, `@api.constrains` decorators used in uom_uom.py
+- [Core/Fields](core/fields.md) — field types used: Char, Integer, Float, Boolean, Many2one, One2many, Char (parent_path)

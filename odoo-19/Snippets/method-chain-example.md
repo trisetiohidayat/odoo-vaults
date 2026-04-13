@@ -351,4 +351,4 @@ sale.order.action_confirm()
   └─► mail.mail.send()  ❌ Outside (async via queue)
 ```
 
-See also: [[Flows/TEMPLATE-flow]] for full flow document structure.
+See also: [Flows/TEMPLATE-flow](flows/template-flow.md) for full flow document structure.

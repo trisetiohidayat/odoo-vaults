@@ -14,4 +14,4 @@ Localized accounting for Monaco.
 - **Localization type**: data-only (chart of accounts + taxes)
 
 ## Related
-- [[Modules/l10n_fr_account]] — Core accounting
+- [Modules/l10n_fr_account](modules/l10n_fr_account.md) — Core accounting

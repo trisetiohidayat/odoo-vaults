@@ -496,8 +496,8 @@ res.users ────────< crm.team (member)
 
 ## See Also
 
-- [[Modules/sale]] — Opportunity to Sale order conversion
-- [[Modules/project]] — CRM case to project/task conversion
-- [[Modules/mail]] — Mail threading and activity scheduling
-- [[Patterns/Workflow Patterns]] — Stage-based pipeline workflows
-- [[Modules/mrp]] — Manufacturing relationship (for quotations)
+- [Modules/sale](modules/sale.md) — Opportunity to Sale order conversion
+- [Modules/project](modules/project.md) — CRM case to project/task conversion
+- [Modules/mail](modules/mail.md) — Mail threading and activity scheduling
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Stage-based pipeline workflows
+- [Modules/mrp](modules/mrp.md) — Manufacturing relationship (for quotations)

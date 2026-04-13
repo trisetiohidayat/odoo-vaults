@@ -398,8 +398,8 @@ Computed from `picking_ids` states:
 
 ## See Also
 
-- [[Modules/purchase]] — `purchase.order` model, `purchase.order.line`
-- [[Modules/stock]] — `stock.picking` receipt, `stock.move`
-- [[Modules/account]] — vendor bills, `account.move`
-- [[Flows/Stock/receipt-flow]] — detailed receipt validation flow
-- [[Patterns/Workflow Patterns]] — state machine patterns in Odoo
+- [Modules/purchase](modules/purchase.md) — `purchase.order` model, `purchase.order.line`
+- [Modules/stock](modules/stock.md) — `stock.picking` receipt, `stock.move`
+- [Modules/account](modules/account.md) — vendor bills, `account.move`
+- [Flows/Stock/receipt-flow](flows/stock/receipt-flow.md) — detailed receipt validation flow
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — state machine patterns in Odoo

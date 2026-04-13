@@ -40,7 +40,7 @@
 
 ## Key Documentation Features
 
-- All modules include [[wikilinks]] for cross-references
+- All modules include [wikilinks](wikilinks.md) for cross-references
 - Frontmatter with module metadata (type, tags, created date)
 - Key models, fields, state values documented
 - Dependencies clearly listed

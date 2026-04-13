@@ -15,4 +15,4 @@ Localized accounting for Nigeria.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [[Modules/base_vat]] — Core accounting
+- [Modules/base_vat](modules/base_vat.md) — Core accounting

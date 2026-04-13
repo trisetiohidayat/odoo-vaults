@@ -89,6 +89,6 @@ Users must be members of at least one of the specified account groups to access 
 
 ## See Also
 
-- [[Modules/Spreadsheet Dashboard]] (`spreadsheet_dashboard`) — dashboard framework
-- [[Modules/Spreadsheet Account]] (`spreadsheet_account`) — accounting formula functions
-- [[Modules/Account]] (`account`) — accounting data source
+- [Modules/Spreadsheet Dashboard](modules/spreadsheet-dashboard.md) (`spreadsheet_dashboard`) — dashboard framework
+- [Modules/Spreadsheet Account](modules/spreadsheet-account.md) (`spreadsheet_account`) — accounting formula functions
+- [Modules/Account](modules/account.md) (`account`) — accounting data source

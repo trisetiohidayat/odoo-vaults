@@ -71,7 +71,7 @@ Stores Veri*Factu billing records for the Spanish Tax Agency (AEAT).
 - `_l10n_es_edi_verifactu_get_endpoints()` — Returns WSDL URLs
 
 ## Related
-- [[Modules/l10n_es]] — Core Spanish accounting chart
-- [[Modules/l10n_es_edi_sii]] — SII (Immediate Supply of Information) module
-- [[Modules/l10n_es_edi_tbai]] — TicketBAI (Basque country) module
-- [[Modules/certificate]] — X.509 certificate management
+- [Modules/l10n_es](modules/l10n_es.md) — Core Spanish accounting chart
+- [Modules/l10n_es_edi_sii](modules/l10n_es_edi_sii.md) — SII (Immediate Supply of Information) module
+- [Modules/l10n_es_edi_tbai](modules/l10n_es_edi_tbai.md) — TicketBAI (Basque country) module
+- [Modules/certificate](modules/certificate.md) — X.509 certificate management

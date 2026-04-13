@@ -332,13 +332,13 @@ addons/sale_project_stock/
 
 | Module | Role | Key Dependency |
 |---|---|---|
-| [[Modules/sale_project]] | SO → project linkage, `reinvoiced_sale_order_id`, `project_id` on SOL | Required |
-| [[Modules/sale_stock]] | SO → stock.move via `sale_line_id`, `_action_synch_order` | Required |
-| [[Modules/project_stock]] | `stock.picking.project_id` field, `_get_picking_action` base | Required |
-| [[Modules/project_stock_account]] | `analytic_costs` flag, picking → analytic line, profitability panel | Required |
-| [[Modules/Stock]] | Core picking and move models | Base |
-| [[Modules/Project]] | `project.project` base model | Base |
-| [[Modules/Sale]] | `sale.order`, `sale.order.line` base models | Base |
+| [Modules/sale_project](modules/sale_project.md) | SO → project linkage, `reinvoiced_sale_order_id`, `project_id` on SOL | Required |
+| [Modules/sale_stock](modules/sale_stock.md) | SO → stock.move via `sale_line_id`, `_action_synch_order` | Required |
+| [Modules/project_stock](modules/project_stock.md) | `stock.picking.project_id` field, `_get_picking_action` base | Required |
+| [Modules/project_stock_account](modules/project_stock_account.md) | `analytic_costs` flag, picking → analytic line, profitability panel | Required |
+| [Modules/Stock](modules/stock.md) | Core picking and move models | Base |
+| [Modules/Project](modules/project.md) | `project.project` base model | Base |
+| [Modules/Sale](modules/sale.md) | `sale.order`, `sale.order.line` base models | Base |
 
 ---
 

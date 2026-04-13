@@ -10,9 +10,9 @@ prerequisites:
   - localization_applied
 estimated_time: "~30 minutes"
 related_flows:
-  - "[[Flows/Account/invoice-creation-flow]]"
-  - "[[Flows/Account/invoice-post-flow]]"
-  - "[[Flows/Account/payment-flow]]"
+  - "[Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md)"
+  - "[Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md)"
+  - "[Flows/Account/payment-flow](flows/account/payment-flow.md)"
 source_module: account
 created: 2026-04-06
 version: "1.0"
@@ -41,10 +41,10 @@ version: "1.0"
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Account/invoice-creation-flow]] | Invoice creation |
-| 🔀 Technical Flow | [[Flows/Account/invoice-post-flow]] | Invoice posting |
-| 🔀 Technical Flow | [[Flows/Account/payment-flow]] | Payment registration |
-| 📖 Module Reference | [[Modules/Account]] | Complete model reference |
+| 🔀 Technical Flow | [Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md) | Invoice creation |
+| 🔀 Technical Flow | [Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md) | Invoice posting |
+| 🔀 Technical Flow | [Flows/Account/payment-flow](flows/account/payment-flow.md) | Payment registration |
+| 📖 Module Reference | [Modules/Account](modules/account.md) | Complete model reference |
 
 ---
 
@@ -161,7 +161,7 @@ Go to: **Accounting → Configuration → Accounts → Create**
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Invoice Creation | [[Flows/Account/invoice-creation-flow]] | Invoice creation |
-| 🔀 Invoice Posting | [[Flows/Account/invoice-post-flow]] | Post invoice |
-| 🔀 Payments | [[Flows/Account/payment-flow]] | Register payment |
-| 📖 Module Reference | [[Modules/Account]] | Complete model reference |
+| 🔀 Invoice Creation | [Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md) | Invoice creation |
+| 🔀 Invoice Posting | [Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md) | Post invoice |
+| 🔀 Payments | [Flows/Account/payment-flow](flows/account/payment-flow.md) | Register payment |
+| 📖 Module Reference | [Modules/Account](modules/account.md) | Complete model reference |

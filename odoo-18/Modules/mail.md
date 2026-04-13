@@ -481,7 +481,7 @@ inbound email
 ---
 
 ## Related Links
-- [[Modules/bus]] — Real-time event bus
-- [[Core/API]] — @api decorators
-- [[Patterns/Security Patterns]] — ACL and ir.rule
-- [[Modules/website]] — Website email aliases
+- [Modules/bus](modules/bus.md) — Real-time event bus
+- [Core/API](core/api.md) — @api decorators
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL and ir.rule
+- [Modules/website](modules/website.md) — Website email aliases

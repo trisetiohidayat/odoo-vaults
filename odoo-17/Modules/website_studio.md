@@ -80,7 +80,7 @@ User enters Studio mode
 
 ## See Also
 
-- [[Modules/website]] — base website module
-- [[Modules/web_studio]] — the application-level studio engine (enterprise)
-- [[Modules/website_form]] — form controller integration
+- [Modules/website](modules/website.md) — base website module
+- [Modules/web_studio](modules/web_studio.md) — the application-level studio engine (enterprise)
+- [Modules/website_form](modules/website_form.md) — form controller integration
 - Odoo Enterprise documentation: Website Studio

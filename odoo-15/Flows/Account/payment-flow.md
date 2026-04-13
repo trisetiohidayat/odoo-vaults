@@ -351,9 +351,9 @@ draft ──► posted ──► reconciled/matched
 
 ## Related Flows
 
-- [[Flows/Account/invoice-post-flow]] — Invoice posting
-- [[Modules/Account]] — Core payment model
-- [[Flows/Cross-Module/sale-stock-account-flow]] — Full cycle
+- [Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md) — Invoice posting
+- [Modules/Account](modules/account.md) — Core payment model
+- [Flows/Cross-Module/sale-stock-account-flow](flows/cross-module/sale-stock-account-flow.md) — Full cycle
 
 ---
 

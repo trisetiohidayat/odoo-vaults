@@ -13,8 +13,8 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/Cross-Module/employee-projects-timesheet-flow]]"
-  - "[[Flows/Project/task-lifecycle-flow]]"
+  - "[Flows/Cross-Module/employee-projects-timesheet-flow](flows/cross-module/employee-projects-timesheet-flow.md)"
+  - "[Flows/Project/task-lifecycle-flow](flows/project/task-lifecycle-flow.md)"
 source_module: hr_timesheet
 created: 2026-04-07
 version: "1.0"
@@ -310,10 +310,10 @@ def _onchange_project_id(self):
 
 ## Related
 
-- [[Modules/HR]] — HR module reference
-- [[Modules/Project]] — Project module reference
-- [[Modules/Account]] — Account module reference
-- [[Flows/Cross-Module/employee-projects-timesheet-flow]] — Cross-module timesheet flow
-- [[Flows/Project/task-lifecycle-flow]] — Task lifecycle reference
-- [[Patterns/Workflow Patterns]] — Workflow pattern reference
-- [[Core/API]] — @api decorator patterns
+- [Modules/HR](modules/hr.md) — HR module reference
+- [Modules/Project](modules/project.md) — Project module reference
+- [Modules/Account](modules/account.md) — Account module reference
+- [Flows/Cross-Module/employee-projects-timesheet-flow](flows/cross-module/employee-projects-timesheet-flow.md) — Cross-module timesheet flow
+- [Flows/Project/task-lifecycle-flow](flows/project/task-lifecycle-flow.md) — Task lifecycle reference
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
+- [Core/API](core/api.md) — @api decorator patterns

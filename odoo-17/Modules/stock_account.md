@@ -225,8 +225,8 @@ This auto-assigns the `stock_input` account on vendor bill lines, which is then 
 When set on a location involved in a stock move, the move's `_prepare_account_move_line()` uses these instead of the product category defaults.
 
 ## See Also
-- [[Modules/Stock]] — `stock.move`, `stock.quant`, `stock.location`
-- [[Modules/Account]] — `account.move`, journal entries
-- [[Modules/analytic]] — `account.analytic.line`
-- [[Modules/purchase]] — vendor bill Anglo-Saxon price unit hook
-- [[Modules/sale_timesheet]] — service product profitability
+- [Modules/Stock](modules/stock.md) — `stock.move`, `stock.quant`, `stock.location`
+- [Modules/Account](modules/account.md) — `account.move`, journal entries
+- [Modules/analytic](modules/analytic.md) — `account.analytic.line`
+- [Modules/purchase](modules/purchase.md) — vendor bill Anglo-Saxon price unit hook
+- [Modules/sale_timesheet](modules/sale_timesheet.md) — service product profitability

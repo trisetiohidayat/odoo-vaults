@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, website-event-booth-sale]
 
 
 
-- [[Modules/website]] — Website builder base
+- [Modules/website](modules/website.md) — Website builder base

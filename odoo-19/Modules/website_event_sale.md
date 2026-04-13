@@ -664,9 +664,9 @@ Payment provider returns to /shop/payment/transaction/{id}
 
 ## Related
 
-- [[Modules/event]] — Base event management (`event.registration` lifecycle)
-- [[Modules/event_product]] — Product-event linking (`service_tracking = 'event'`, `product_id` on tickets)
-- [[Modules/event_sale]] — Event ticket product type definition, SO-line event binding
-- [[Modules/website_event]] — Event website pages and menus
-- [[Modules/website_sale]] — eCommerce cart and checkout flow
-- [[Modules/Sale]] — Sale order processing
+- [Modules/event](modules/event.md) — Base event management (`event.registration` lifecycle)
+- [Modules/event_product](modules/event_product.md) — Product-event linking (`service_tracking = 'event'`, `product_id` on tickets)
+- [Modules/event_sale](modules/event_sale.md) — Event ticket product type definition, SO-line event binding
+- [Modules/website_event](modules/website_event.md) — Event website pages and menus
+- [Modules/website_sale](modules/website_sale.md) — eCommerce cart and checkout flow
+- [Modules/Sale](modules/sale.md) — Sale order processing

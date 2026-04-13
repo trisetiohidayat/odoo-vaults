@@ -185,7 +185,7 @@ request.env['my.model'].sudo().create(vals)
 ```
 
 ## See Also
-- [[Core/BaseModel]] — Model definition
-- [[Core/HTTP Controller]] — Auth types
-- [[Core/Exceptions]] — AccessError
-- [[Modules/res.partner]] — Partner security
+- [Core/BaseModel](core/basemodel.md) — Model definition
+- [Core/HTTP Controller](core/http-controller.md) — Auth types
+- [Core/Exceptions](core/exceptions.md) — AccessError
+- [Modules/res.partner](modules/res.partner.md) — Partner security

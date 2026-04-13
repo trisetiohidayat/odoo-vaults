@@ -14,7 +14,7 @@ New Zealand accounting localization providing the NZ chart of accounts, GST stru
 New Zealand
 
 ## Dependencies
-- [[Core/BaseModel]] (account)
+- [Core/BaseModel](core/basemodel.md) (account)
 - `account` — core accounting module
 
 ## Key Models

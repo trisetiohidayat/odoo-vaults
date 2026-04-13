@@ -313,13 +313,13 @@ No dedicated security CSV files exist. Security is enforced through:
 
 ## Related Modules
 
-- [[Modules/project]] — Core project management
-- [[Modules/stock]] — Stock picking and warehouse operations
-- [[Modules/project_stock_account]] — Adds stock valuation and analytic accounting to project stock
-- [[Modules/project_purchase_stock]] — Purchase order to receipt traceability per project
-- [[Modules/project_mrp_stock_landed_costs]] — MRP material traceability via project stock
-- [[Modules/project_purchase]] — Purchase orders linked to projects
-- [[Modules/project_mrp]] — Manufacturing orders linked to projects
+- [Modules/project](modules/project.md) — Core project management
+- [Modules/stock](modules/stock.md) — Stock picking and warehouse operations
+- [Modules/project_stock_account](modules/project_stock_account.md) — Adds stock valuation and analytic accounting to project stock
+- [Modules/project_purchase_stock](modules/project_purchase_stock.md) — Purchase order to receipt traceability per project
+- [Modules/project_mrp_stock_landed_costs](modules/project_mrp_stock_landed_costs.md) — MRP material traceability via project stock
+- [Modules/project_purchase](modules/project_purchase.md) — Purchase orders linked to projects
+- [Modules/project_mrp](modules/project_mrp.md) — Manufacturing orders linked to projects
 
 ---
 

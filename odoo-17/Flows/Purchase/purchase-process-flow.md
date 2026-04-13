@@ -79,6 +79,6 @@ Each `purchase.order.line` is linked to `stock.move` records created at PO confi
 
 ## See Also
 
-- [[Modules/purchase]] — Full `purchase.order` and `purchase.order.line` reference
-- [[Modules/stock]] — `stock.picking`, `stock.move`, `stock.quant`
-- [[Modules/account]] — Vendor bill creation and reconciliation
+- [Modules/purchase](modules/purchase.md) — Full `purchase.order` and `purchase.order.line` reference
+- [Modules/stock](modules/stock.md) — `stock.picking`, `stock.move`, `stock.quant`
+- [Modules/account](modules/account.md) — Vendor bill creation and reconciliation

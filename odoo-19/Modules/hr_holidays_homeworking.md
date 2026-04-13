@@ -23,5 +23,5 @@ Extends leave management to distinguish between remote work days and actual time
 - Per-weekday work location fields from `hr_homeworking` are exposed on the public employee model
 
 ## Related
-- [[Modules/hr_holidays]] - Leave management
-- [[Modules/hr_homeworking]] - Work location management
+- [Modules/hr_holidays](modules/hr_holidays.md) - Leave management
+- [Modules/hr_homeworking](modules/hr_homeworking.md) - Work location management

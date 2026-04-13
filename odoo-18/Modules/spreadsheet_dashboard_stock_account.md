@@ -22,7 +22,7 @@ Provides a `spreadsheet.dashboard` record named "Warehouse Metrics" for stock op
 
 ## Extends
 
-- [[Modules/spreadsheet_dashboard]] — base dashboard framework
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — base dashboard framework
 - `stock_account` — inventory valuation accounting
 
 ## Data
@@ -39,4 +39,4 @@ Provides a `spreadsheet.dashboard` record named "Warehouse Metrics" for stock op
 
 ---
 
-*See also: [[Modules/spreadsheet_dashboard]]*
+*See also: [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md)*

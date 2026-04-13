@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, payment-sips]
 
 
 
-- [[Modules/account]] — Payment provider for accounting
+- [Modules/account](modules/account.md) — Payment provider for accounting

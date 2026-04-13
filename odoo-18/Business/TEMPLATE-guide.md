@@ -44,5 +44,5 @@ Navigate to **{Menu Path}** and click **{Action}**.
 ---
 
 ## Related Links
-- [[Modules/{Module}]] — Technical reference
-- [[Flows/{Flow}]] — Process flow
+- [Modules/{Module}](modules/{module}.md) — Technical reference
+- [Flows/{Flow}](flows/{flow}.md) — Process flow

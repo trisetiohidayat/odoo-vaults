@@ -57,5 +57,5 @@ Bridges HR and Maintenance modules. Tracks equipment assigned to employees and l
 - Notification subscribers set on assignment changes
 
 ## Related
-- [[Modules/HR]] - Core HR module
-- [[Modules/maintenance]] - Maintenance module
+- [Modules/HR](modules/hr.md) - Core HR module
+- [Modules/maintenance](modules/maintenance.md) - Maintenance module

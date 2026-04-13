@@ -15,7 +15,7 @@ Decorators untuk Odoo ORM methods. Semua decorator ini mengontrol bagaimana meth
 
 **Location:** `~/odoo/odoo19/odoo/odoo/api.py`
 
-> **📖 Deep Dive:** Untuk dokumentasi method chain lengkap, lihat [[Flows/TEMPLATE-flow]].
+> **📖 Deep Dive:** Untuk dokumentasi method chain lengkap, lihat [Flows/TEMPLATE-flow](flows/template-flow.md).
 
 ---
 
@@ -402,10 +402,10 @@ Model.create([vals_a, vals_b, vals_c])
 
 ## Related
 
-- [[Flows/TEMPLATE-flow]] — Flow document template
-- [[Patterns/Workflow Patterns]] — Workflow and state machine patterns
-- [[Core/BaseModel]] — Model foundation, inheritance, CRUD
-- [[Core/Fields]] — Field types, computed fields
-- [[Core/Exceptions]] — ValidationError, UserError
-- [[Patterns/Security Patterns]] — Sudo usage, ACL
-- [[Snippets/method-chain-example]] — Method chain notation reference
+- [Flows/TEMPLATE-flow](flows/template-flow.md) — Flow document template
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow and state machine patterns
+- [Core/BaseModel](core/basemodel.md) — Model foundation, inheritance, CRUD
+- [Core/Fields](core/fields.md) — Field types, computed fields
+- [Core/Exceptions](core/exceptions.md) — ValidationError, UserError
+- [Patterns/Security Patterns](patterns/security-patterns.md) — Sudo usage, ACL
+- [Snippets/method-chain-example](snippets/method-chain-example.md) — Method chain notation reference

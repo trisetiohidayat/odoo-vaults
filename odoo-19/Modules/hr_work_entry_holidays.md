@@ -48,6 +48,6 @@ Extends leave validation and work entry generation:
 `_validate_existing_work_entry()` — validates all existing work entries after module installation.
 
 ## Related
-- [[Modules/hr_holidays]] — Leave management
-- [[Modules/hr_work_entry]] — Work entries
-- [[Modules/hr_holidays_attendance]] — Holidays + Attendance
+- [Modules/hr_holidays](modules/hr_holidays.md) — Leave management
+- [Modules/hr_work_entry](modules/hr_work_entry.md) — Work entries
+- [Modules/hr_holidays_attendance](modules/hr_holidays_attendance.md) — Holidays + Attendance

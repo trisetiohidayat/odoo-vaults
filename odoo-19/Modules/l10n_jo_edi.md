@@ -64,6 +64,6 @@ Settings view for JoFotara API credentials and configuration.
 - UBL format: ISO UBL 2.1 adapted for Jordan
 
 ## Related
-- [[Modules/account]]
-- [[Modules/account_edi_ubl_cii]]
-- [[Modules/l10n_jo]]
+- [Modules/account](modules/account.md)
+- [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md)
+- [Modules/l10n_jo](modules/l10n_jo.md)

@@ -265,7 +265,7 @@ The themes use `data-images-info='{"logo": {"format": "png"}, "all": {"module": 
 
 ## Related
 
-- [[Modules/mass_mailing]] — Base module that provides the email designer and `mailing.mailing` model
-- [[Modules/website_sale_mass_mailing]] — Integrates mass mailing themes with e-commerce
-- [[Modules/mass_mailing_crm]] — CRM-specific mailing features
-- [[Modules/mass_mailing_sms]] — SMS alongside email campaigns
+- [Modules/mass_mailing](modules/mass_mailing.md) — Base module that provides the email designer and `mailing.mailing` model
+- [Modules/website_sale_mass_mailing](modules/website_sale_mass_mailing.md) — Integrates mass mailing themes with e-commerce
+- [Modules/mass_mailing_crm](modules/mass_mailing_crm.md) — CRM-specific mailing features
+- [Modules/mass_mailing_sms](modules/mass_mailing_sms.md) — SMS alongside email campaigns

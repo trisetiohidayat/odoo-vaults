@@ -636,9 +636,9 @@ web.report_assets_common       → base_style, bootstrap_overridden, html_editor
 
 ## Related Documentation
 
-- [[Core/Fields]] — Html field type, `sanitize`, `sanitize_attributes`, `sanitize_form`, `sanitize_tags` attributes
-- [[Core/API]] — `@api.depends`, `@api.onchange` for computed field patterns
-- [[Tools/ORM Operations]] — `write()`, domain operators, recordset behavior
-- [[Patterns/Inheritance Patterns]] — `_inherit` vs mixin patterns (this module uses mixins extensively)
-- [[Modules/Website]] — CMS/snippet architecture, `save_snippet` integration
-- [[Modules/Mail]] — Email template rendering, `ir.qweb.field.html` usage
+- [Core/Fields](core/fields.md) — Html field type, `sanitize`, `sanitize_attributes`, `sanitize_form`, `sanitize_tags` attributes
+- [Core/API](core/api.md) — `@api.depends`, `@api.onchange` for computed field patterns
+- [Tools/ORM Operations](tools/orm-operations.md) — `write()`, domain operators, recordset behavior
+- [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) — `_inherit` vs mixin patterns (this module uses mixins extensively)
+- [Modules/Website](modules/website.md) — CMS/snippet architecture, `save_snippet` integration
+- [Modules/Mail](modules/mail.md) — Email template rendering, `ir.qweb.field.html` usage

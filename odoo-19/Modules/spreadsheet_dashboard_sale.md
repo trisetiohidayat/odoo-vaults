@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [[Modules/spreadsheet_dashboard]] template for sales managers with live sales metrics sourced from sale orders, invoices, and deliveries.
+Provides a pre-configured [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) template for sales managers with live sales metrics sourced from sale orders, invoices, and deliveries.
 
 This is a **data-only module**: contains only a `data/dashboards.xml` file that creates a sample sales dashboard record.
 
@@ -22,6 +22,6 @@ This is a **data-only module**: contains only a `data/dashboards.xml` file that 
 - Auto-installs when `sale` is active
 
 ## Related
-- [[Modules/spreadsheet_dashboard]] — Dashboard framework
-- [[Modules/Sale]] — Sales management base
-- [[Modules/spreadsheet_account]] — Accounting formulas for financial sheets
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/Sale](modules/sale.md) — Sales management base
+- [Modules/spreadsheet_account](modules/spreadsheet_account.md) — Accounting formulas for financial sheets

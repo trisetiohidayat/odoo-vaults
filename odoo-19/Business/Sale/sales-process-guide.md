@@ -13,10 +13,10 @@ prerequisites:
   - warehouse_configured
 estimated_time: "~30 minutes"
 related_flows:
-  - "[[Flows/Sale/quotation-to-sale-order-flow]]"
+  - "[Flows/Sale/quotation-to-sale-order-flow](flows/sale/quotation-to-sale-order-flow.md)"
 related_guides:
-  - "[[Business/Stock/warehouse-setup-guide]]"
-  - "[[Business/Account/chart-of-accounts-guide]]"
+  - "[Business/Stock/warehouse-setup-guide](business/stock/warehouse-setup-guide.md)"
+  - "[Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md)"
 source_module: sale
 created: 2026-04-06
 updated: 2026-04-06
@@ -53,11 +53,11 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Sale/quotation-to-sale-order-flow]] | Full method chain and branching logic for order creation |
-| 📖 Module Reference | [[Modules/Sale]] | Complete field and method reference for sale.order |
-| 📋 Related Guide | [[Business/Account/chart-of-accounts-guide]] | Invoice and payment management |
-| 📋 Related Guide | [[Business/Stock/warehouse-setup-guide]] | Delivery and warehouse operations |
-| 🔧 Configuration | [[Modules/Sale]] → Configuration section | Advanced sales team and workflow settings |
+| 🔀 Technical Flow | [Flows/Sale/quotation-to-sale-order-flow](flows/sale/quotation-to-sale-order-flow.md) | Full method chain and branching logic for order creation |
+| 📖 Module Reference | [Modules/Sale](modules/sale.md) | Complete field and method reference for sale.order |
+| 📋 Related Guide | [Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md) | Invoice and payment management |
+| 📋 Related Guide | [Business/Stock/warehouse-setup-guide](business/stock/warehouse-setup-guide.md) | Delivery and warehouse operations |
+| 🔧 Configuration | [Modules/Sale](modules/sale.md) → Configuration section | Advanced sales team and workflow settings |
 
 ---
 
@@ -67,9 +67,9 @@ This guide covers the following use cases. Jump to the relevant section:
 
 | # | Use Case | Page | Difficulty |
 |---|----------|------|-----------|
-| 1 | Basic Quote-to-Cash — quotation confirmed, delivered, invoiced, paid | [[#use-case-a-basic-quote-to-cash]] | ⭐ |
-| 2 | Prepaid Order — advance payment required before delivery | [[#use-case-b-prepaid-order-with-immediate-invoice]] | ⭐⭐ |
-| 3 | Postpaid Order — invoice after delivery confirmation | [[#use-case-c-postpaid-order-with-invoice-after-delivery]] | ⭐⭐ |
+| 1 | Basic Quote-to-Cash — quotation confirmed, delivered, invoiced, paid | [#use-case-a-basic-quote-to-cash](#use-case-a-basic-quote-to-cash.md) | ⭐ |
+| 2 | Prepaid Order — advance payment required before delivery | [#use-case-b-prepaid-order-with-immediate-invoice](#use-case-b-prepaid-order-with-immediate-invoice.md) | ⭐⭐ |
+| 3 | Postpaid Order — invoice after delivery confirmation | [#use-case-c-postpaid-order-with-invoice-after-delivery](#use-case-c-postpaid-order-with-invoice-after-delivery.md) | ⭐⭐ |
 
 ---
 
@@ -187,7 +187,7 @@ Click **Create and View Invoice**.
 
 Open the invoice from the SO's "Invoices" smart button → Click **Post**.
 
-> **⚡ System Trigger:** `account.move.action_post()` — see [[Flows/Account/invoice-post-flow]] for full chain.
+> **⚡ System Trigger:** `account.move.action_post()` — see [Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md) for full chain.
 > - Invoice number (move_name) is generated from the sequence
 > - Journal entries are locked
 > - PDF report is auto-generated and attached
@@ -197,7 +197,7 @@ Open the invoice from the SO's "Invoices" smart button → Click **Post**.
 
 Click **Register Payment** on the posted invoice → fill amount, journal, date → Click **Post Payment**.
 
-> **⚡ System Trigger:** `account.payment.action_post()` — see [[Flows/Account/payment-flow]] for full chain.
+> **⚡ System Trigger:** `account.payment.action_post()` — see [Flows/Account/payment-flow](flows/account/payment-flow.md) for full chain.
 > - Payment move created: Dr. Bank / Cr. Customer AR
 > - Invoice reconciled: state → 'paid' (or 'in_payment' for partial)
 > - SO's `invoice_status` field updated to 'invoiced'
@@ -345,12 +345,12 @@ When payment is received:
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Sale/quotation-to-sale-order-flow]] | Full method chain — for developers |
-| 📖 Module Reference | [[Modules/Sale]] | Complete field and method list |
-| 🔀 Technical Flow | [[Flows/Account/invoice-creation-flow]] | Invoice creation from SO |
-| 🔀 Technical Flow | [[Flows/Account/invoice-post-flow]] | Invoice posting |
-| 🔀 Technical Flow | [[Flows/Account/payment-flow]] | Payment registration |
-| 📋 Related Guide | [[Business/Stock/warehouse-setup-guide]] | Delivery and warehouse operations |
-| 📋 Related Guide | [[Business/Account/chart-of-accounts-guide]] | Accounting and invoicing |
-| 🛠️ Patterns | [[Patterns/Workflow Patterns]] | Workflow design patterns |
-| 🔧 Snippets | [[Snippets/Model Snippets]] | Code snippets for customization |
+| 🔀 Technical Flow | [Flows/Sale/quotation-to-sale-order-flow](flows/sale/quotation-to-sale-order-flow.md) | Full method chain — for developers |
+| 📖 Module Reference | [Modules/Sale](modules/sale.md) | Complete field and method list |
+| 🔀 Technical Flow | [Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md) | Invoice creation from SO |
+| 🔀 Technical Flow | [Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md) | Invoice posting |
+| 🔀 Technical Flow | [Flows/Account/payment-flow](flows/account/payment-flow.md) | Payment registration |
+| 📋 Related Guide | [Business/Stock/warehouse-setup-guide](business/stock/warehouse-setup-guide.md) | Delivery and warehouse operations |
+| 📋 Related Guide | [Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md) | Accounting and invoicing |
+| 🛠️ Patterns | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) | Workflow design patterns |
+| 🔧 Snippets | [Snippets/Model Snippets](snippets/model-snippets.md) | Code snippets for customization |

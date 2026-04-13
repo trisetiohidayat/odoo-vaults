@@ -91,7 +91,7 @@ Inherits `account.chart.template` - provides template data and company configura
 - `demo/demo_company.xml` - Demo company data
 
 ## Related Modules
-- [[Modules/l10n_do]] - Core accounting (this module)
-- [[Modules/account]] - Core accounting
-- [[Modules/l10n_latam_base]] - Latin America base localization
-- [[Modules/l10n_latam_invoice_document]] - LATAM document types
+- [Modules/l10n_do](modules/l10n_do.md) - Core accounting (this module)
+- [Modules/account](modules/account.md) - Core accounting
+- [Modules/l10n_latam_base](modules/l10n_latam_base.md) - Latin America base localization
+- [Modules/l10n_latam_invoice_document](modules/l10n_latam_invoice_document.md) - LATAM document types

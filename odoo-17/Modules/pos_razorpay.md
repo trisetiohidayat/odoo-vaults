@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, pos-razorpay]
 
 
 
-- [[Modules/point_of_sale]] — POS base module
+- [Modules/point_of_sale](modules/point_of_sale.md) — POS base module

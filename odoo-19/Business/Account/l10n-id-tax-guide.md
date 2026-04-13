@@ -13,11 +13,11 @@ prerequisites:
   - partners_have_npwz_or_nik
 estimated_time: "~20 minutes"
 related_flows:
-  - "[[Flows/Account/invoice-creation-flow]]"
-  - "[[Flows/Purchase/purchase-withholding-flow]]"
-  - "[[Flows/Account/payment-flow]]"
+  - "[Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md)"
+  - "[Flows/Purchase/purchase-withholding-flow](flows/purchase/purchase-withholding-flow.md)"
+  - "[Flows/Account/payment-flow](flows/account/payment-flow.md)"
 related_guides:
-  - "[[Business/Account/chart-of-accounts-guide]]"
+  - "[Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md)"
 source_module: l10n_id
 created: 2026-04-07
 updated: 2026-04-07
@@ -55,11 +55,11 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Purchase/purchase-withholding-flow]] | Full withholding tax method chain |
-| 🔀 Technical Flow | [[Flows/Account/edi-invoice-flow]] | Peppol/e-Faktur integration |
-| 📖 Module Reference | [[Modules/Account]] | `account.move`, `account.tax` fields |
-| 📋 Related Guide | [[Business/Account/chart-of-accounts-guide]] | Indonesian COA structure |
-| 🔧 Configuration | [[Modules/Account]] → Tax Configuration | Tax groups, rates, fiscal positions |
+| 🔀 Technical Flow | [Flows/Purchase/purchase-withholding-flow](flows/purchase/purchase-withholding-flow.md) | Full withholding tax method chain |
+| 🔀 Technical Flow | [Flows/Account/edi-invoice-flow](flows/account/edi-invoice-flow.md) | Peppol/e-Faktur integration |
+| 📖 Module Reference | [Modules/Account](modules/account.md) | `account.move`, `account.tax` fields |
+| 📋 Related Guide | [Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md) | Indonesian COA structure |
+| 🔧 Configuration | [Modules/Account](modules/account.md) → Tax Configuration | Tax groups, rates, fiscal positions |
 
 ---
 
@@ -69,10 +69,10 @@ This guide covers the following use cases. Jump to the relevant section:
 
 | # | Use Case | Page | Difficulty |
 |---|----------|------|-----------|
-| 1 | Customer invoice with 12% PPN (VAT) | [[#use-case-1-customer-invoice-with-ppn-vat]] | ⭐ |
-| 2 | Vendor bill with PPN + PPh 23 withholding | [[#use-case-2-vendor-bill-with-ppn-pph-23-withholding]] | ⭐⭐ |
-| 3 | PPh 21 employee payment (salary withholding) | [[#use-case-3-pph-21-employee-payment-salary-withholding]] | ⭐⭐ |
-| 4 | Submit e-Faktur to DJP via l10n_id_etax | [[#use-case-4-submit-e-faktur-to-djp]] | ⭐⭐⭐ |
+| 1 | Customer invoice with 12% PPN (VAT) | [#use-case-1-customer-invoice-with-ppn-vat](#use-case-1-customer-invoice-with-ppn-vat.md) | ⭐ |
+| 2 | Vendor bill with PPN + PPh 23 withholding | [#use-case-2-vendor-bill-with-ppn-pph-23-withholding](#use-case-2-vendor-bill-with-ppn-pph-23-withholding.md) | ⭐⭐ |
+| 3 | PPh 21 employee payment (salary withholding) | [#use-case-3-pph-21-employee-payment-salary-withholding](#use-case-3-pph-21-employee-payment-salary-withholding.md) | ⭐⭐ |
+| 4 | Submit e-Faktur to DJP via l10n_id_etax | [#use-case-4-submit-e-faktur-to-djp](#use-case-4-submit-e-faktur-to-djp.md) | ⭐⭐⭐ |
 
 ---
 
@@ -564,10 +564,10 @@ Once approved, click **Download PDF** to get the official DJP e-Faktur document 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Purchase/purchase-withholding-flow]] | Full PPh 21/22/23/26 method chain |
-| 🔀 Technical Flow | [[Flows/Account/edi-invoice-flow]] | e-Faktur + Peppol integration |
-| 🔀 Technical Flow | [[Flows/Stock/stock-valuation-flow]] | Landed costs with PPN treatment |
-| 📖 Module Reference | [[Modules/Account]] | `account.move`, `account.tax` fields |
-| 📋 Related Guide | [[Business/Account/chart-of-accounts-guide]] | Indonesian COA setup |
-| 🔧 Patterns | [[Patterns/Security Patterns]] | Tax computation and fiscal positions |
-| 🛠️ Snippets | [[Snippets/Model Snippets]] | Code for custom tax computation |
+| 🔀 Technical Flow | [Flows/Purchase/purchase-withholding-flow](flows/purchase/purchase-withholding-flow.md) | Full PPh 21/22/23/26 method chain |
+| 🔀 Technical Flow | [Flows/Account/edi-invoice-flow](flows/account/edi-invoice-flow.md) | e-Faktur + Peppol integration |
+| 🔀 Technical Flow | [Flows/Stock/stock-valuation-flow](flows/stock/stock-valuation-flow.md) | Landed costs with PPN treatment |
+| 📖 Module Reference | [Modules/Account](modules/account.md) | `account.move`, `account.tax` fields |
+| 📋 Related Guide | [Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md) | Indonesian COA setup |
+| 🔧 Patterns | [Patterns/Security Patterns](patterns/security-patterns.md) | Tax computation and fiscal positions |
+| 🛠️ Snippets | [Snippets/Model Snippets](snippets/model-snippets.md) | Code for custom tax computation |

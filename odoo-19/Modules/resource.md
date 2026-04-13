@@ -865,9 +865,9 @@ class MrpWorkcenter(models.Model):
 
 ## Related
 
-- [[Modules/HR]] — Uses `resource.mixin` for employee scheduling
-- [[Modules/Project]] — Task scheduling using resource calendars
-- [[Modules/MRP]] — Work center efficiency from `resource.resource.time_efficiency`
-- [[Modules/Stock]] — Warehouse capacity using resource intervals
-- [[Core/API]] — `@api.depends`, `@api.onchange` patterns
-- [[Core/BaseModel]] — ORM foundation
+- [Modules/HR](modules/hr.md) — Uses `resource.mixin` for employee scheduling
+- [Modules/Project](modules/project.md) — Task scheduling using resource calendars
+- [Modules/MRP](modules/mrp.md) — Work center efficiency from `resource.resource.time_efficiency`
+- [Modules/Stock](modules/stock.md) — Warehouse capacity using resource intervals
+- [Core/API](core/api.md) — `@api.depends`, `@api.onchange` patterns
+- [Core/BaseModel](core/basemodel.md) — ORM foundation

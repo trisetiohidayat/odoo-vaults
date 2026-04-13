@@ -14,7 +14,7 @@ Philippines accounting localization providing the Philippine chart of accounts, 
 Philippines
 
 ## Dependencies
-- [[Core/BaseModel]] (account)
+- [Core/BaseModel](core/basemodel.md) (account)
 - `account` — core accounting module
 - `base_vat` — TIN/VAT number validation
 

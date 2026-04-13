@@ -25,5 +25,5 @@ Bridge module that adds mass mailing capabilities to event track speakers. Provi
 - `_mailing_get_default_domain()`: Excludes canceled tracks
 
 ## Related
-- [[Modules/mass_mailing]] - Base mass mailing module
-- [[Modules/website_event_track]] - Event track/speaker management
+- [Modules/mass_mailing](modules/mass_mailing.md) - Base mass mailing module
+- [Modules/website_event_track](modules/website_event_track.md) - Event track/speaker management

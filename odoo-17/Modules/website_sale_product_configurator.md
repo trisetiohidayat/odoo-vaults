@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, website-sale-product-configurator]
 
 
 
-- [[Modules/website_sale]] — eCommerce extension
+- [Modules/website_sale](modules/website_sale.md) — eCommerce extension

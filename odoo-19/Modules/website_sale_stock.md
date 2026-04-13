@@ -19,7 +19,7 @@ description: "Product inventory display and availability management on eCommerce
 
 ## Purpose
 
-`website_sale_stock` bridges [[Modules/stock]] (warehouse/inventory) and [[Modules/website_sale]] (eCommerce storefront). It makes real-time stock quantities visible to online shoppers and enforces inventory-based selling rules: blocking checkout when stock is insufficient, capping cart quantities, notifying customers on replenishment, and computing combo product limits.
+`website_sale_stock` bridges [Modules/stock](modules/stock.md) (warehouse/inventory) and [Modules/website_sale](modules/website_sale.md) (eCommerce storefront). It makes real-time stock quantities visible to online shoppers and enforces inventory-based selling rules: blocking checkout when stock is insufficient, capping cart quantities, notifying customers on replenishment, and computing combo product limits.
 
 Unlike `sale_stock` (which provides `free_qty` on products) or `stock` (which manages quants and moves), this module does **not** implement its own stock tracking. It purely consumes `free_qty` from the ORM and enriches it with website-specific context, cart integration, and UI concerns.
 
@@ -27,23 +27,23 @@ Unlike `sale_stock` (which provides `free_qty` on products) or `stock` (which ma
 
 ## Table of Contents
 
-1. [[Modules/website_sale_stock#architecture|Architecture & Dependency Chain]]
-2. [[Modules/website_sale_stock#models-all|All Models — Full Field & Method Reference]]
-3. [[Modules/website_sale_stock#method-deep|L3: Core Method Deep Dives]]
-4. [[Modules/website_sale_stock#l4-escalation|L4: Performance, Multi-Website, Odoo 18→19 Changes, Security]]
-   - [[Modules/website_sale_stock#l4-perf|4.1 Performance Considerations]]
-   - [[Modules/website_sale_stock#l4-multiwh|4.2 Multi-Website Stock Isolation]]
-   - [[Modules/website_sale_stock#l4-o18-o19|4.3 Odoo 18 to 19 Changes]]
-   - [[Modules/website_sale_stock#l4-security|4.4 Security Analysis]]
-   - [[Modules/website_sale_stock#l4-edge|4.5 Edge Cases]]
-   - [[Modules/website_sale_stock#l4-schema|4.6 Schema.org / Structured Data]]
-   - [[Modules/website_sale_stock#l4-frontend-arch|4.7 The `isQuantityAllowed` System — Frontend Architecture]]
-   - [[Modules/website_sale_stock#l4-cron|4.8 Cron Job — `ir_cron_send_availability_email`]]
-5. [[Modules/website_sale_stock#controllers|Controllers]]
-6. [[Modules/website_sale_stock#frontend|JavaScript Frontend]]
-7. [[Modules/website_sale_stock#views-xml|Views & XML]]
-8. [[Modules/website_sale_stock#tests|Test Coverage]]
-9. [[Modules/website_sale_stock#snippets|Snippets & Recipes]]
+1. [Architecture & Dependency Chain](modules/website_sale_stock#architecture.md)
+2. [All Models — Full Field & Method Reference](modules/website_sale_stock#models-all.md)
+3. [L3: Core Method Deep Dives](modules/website_sale_stock#method-deep.md)
+4. [L4: Performance, Multi-Website, Odoo 18→19 Changes, Security](modules/website_sale_stock#l4-escalation.md)
+   - [4.1 Performance Considerations](modules/website_sale_stock#l4-perf.md)
+   - [4.2 Multi-Website Stock Isolation](modules/website_sale_stock#l4-multiwh.md)
+   - [4.3 Odoo 18 to 19 Changes](modules/website_sale_stock#l4-o18-o19.md)
+   - [4.4 Security Analysis](modules/website_sale_stock#l4-security.md)
+   - [4.5 Edge Cases](modules/website_sale_stock#l4-edge.md)
+   - [4.6 Schema.org / Structured Data](modules/website_sale_stock#l4-schema.md)
+   - [4.7 The `isQuantityAllowed` System — Frontend Architecture](modules/website_sale_stock#l4-frontend-arch.md)
+   - [4.8 Cron Job — `ir_cron_send_availability_email`](modules/website_sale_stock#l4-cron.md)
+5. [Controllers](modules/website_sale_stock#controllers.md)
+6. [JavaScript Frontend](modules/website_sale_stock#frontend.md)
+7. [Views & XML](modules/website_sale_stock#views-xml.md)
+8. [Test Coverage](modules/website_sale_stock#tests.md)
+9. [Snippets & Recipes](modules/website_sale_stock#snippets.md)
 
 ---
 
@@ -1250,8 +1250,8 @@ so._check_cart_is_ready_to_be_paid()  # raises ValidationError if any line has s
 
 ## Related Modules
 
-- [[Modules/website_sale]] — Base eCommerce module (product display, cart)
-- [[Modules/sale_stock]] — Sale + inventory integration (free_qty, warehouse_id on SO)
-- [[Modules/stock]] — Warehouse and inventory management (stock.quant, stock.move)
-- [[Modules/website_sale_mrp]] — Kit/BOM availability on eCommerce (extends this)
-- [[Modules/product]] — Product master data (is_storable, free_qty, uom_id)
+- [Modules/website_sale](modules/website_sale.md) — Base eCommerce module (product display, cart)
+- [Modules/sale_stock](modules/sale_stock.md) — Sale + inventory integration (free_qty, warehouse_id on SO)
+- [Modules/stock](modules/stock.md) — Warehouse and inventory management (stock.quant, stock.move)
+- [Modules/website_sale_mrp](modules/website_sale_mrp.md) — Kit/BOM availability on eCommerce (extends this)
+- [Modules/product](modules/product.md) — Product master data (is_storable, free_qty, uom_id)

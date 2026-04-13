@@ -4,7 +4,7 @@ Version: Odoo 18
 Type: Core
 Tags: [iap,in_app_purchase,credits,JSON-RPC,authorization,capture,charge]
 Description: In-App Purchase base module — iap.account, iap.service, iap.enrich.api, credit authorize/capture/cancel pattern, endpoint configuration.
-See Also: [[mail_plugin]], [[Modules/crm_iap_enrich]], [[Modules/crm_mail_plugin]]
+See Also: [mail_plugin](mail_plugin.md), [Modules/crm_iap_enrich](modules/crm_iap_enrich.md), [Modules/crm_mail_plugin](modules/crm_mail_plugin.md)
 ---
 
 # iap — In-App Purchase / IAP Service Base

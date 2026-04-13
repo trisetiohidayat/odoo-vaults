@@ -15,4 +15,4 @@ Localized accounting for Rwanda.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [[Modules/Account]] — Core accounting
+- [Modules/Account](modules/account.md) — Core accounting

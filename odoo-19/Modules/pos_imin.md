@@ -24,4 +24,4 @@ Use iMin ePOS Printers without the IoT Box in the Point of Sale. Provides direct
 - POS frontend assets for iMin printer service
 
 ## Related
-- [[Modules/point_of_sale]] — Base POS module
+- [Modules/point_of_sale](modules/point_of_sale.md) — Base POS module

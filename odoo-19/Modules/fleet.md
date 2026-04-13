@@ -848,16 +848,16 @@ This is consumed by the scheduler to avoid creating duplicate renewal activities
 
 ## Related Modules
 
-- [[Modules/account_fleet]] — Accounting integration for fleet costs
-- [[Modules/HR]] — HR module (driver management, plan_to_change flags)
-- [[Modules/mail]] — Mail and activity tracking
-- [[Core/API]] — @api.depends, @api.onchange patterns
-- [[Patterns/Workflow Patterns]] — State machine patterns (e.g., contract states)
+- [Modules/account_fleet](modules/account_fleet.md) — Accounting integration for fleet costs
+- [Modules/HR](modules/hr.md) — HR module (driver management, plan_to_change flags)
+- [Modules/mail](modules/mail.md) — Mail and activity tracking
+- [Core/API](core/api.md) — @api.depends, @api.onchange patterns
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns (e.g., contract states)
 
 ---
 
 ## See Also
 
-- [[Modules/Stock]] — warehouse/location tracking
-- [[Modules/Purchase]] — vendor contracts
-- [[Modules/Account]] — accounting entries from fleet costs
+- [Modules/Stock](modules/stock.md) — warehouse/location tracking
+- [Modules/Purchase](modules/purchase.md) — vendor contracts
+- [Modules/Account](modules/account.md) — accounting entries from fleet costs

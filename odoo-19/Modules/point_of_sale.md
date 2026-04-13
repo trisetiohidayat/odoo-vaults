@@ -1222,10 +1222,10 @@ When a session is open, these fields cannot be modified: `module_pos_restaurant`
 
 ## Related Documentation
 
-- [[Core/API]] — ORM decorators `@api.model`, `@api.depends`, `@api.constrains`
-- [[Modules/Account]] — `account.move`, fiscal positions, tax computation
-- [[Modules/Stock]] — `stock.picking`, `stock.move`, `stock.quant` (Anglo-Saxon valuation)
-- [[Modules/Product]] — `product.product`, `product.pricelist`, `uom.uom`
-- [[Modules/Sale]] — Order workflow, `sale.order` vs `pos.order` comparison
-- [[Patterns/Workflow Patterns]] — State machine patterns (applicable to order/session states)
-- [[Patterns/Security Patterns]] — ACL, record rules, ir.rule
+- [Core/API](core/api.md) — ORM decorators `@api.model`, `@api.depends`, `@api.constrains`
+- [Modules/Account](modules/account.md) — `account.move`, fiscal positions, tax computation
+- [Modules/Stock](modules/stock.md) — `stock.picking`, `stock.move`, `stock.quant` (Anglo-Saxon valuation)
+- [Modules/Product](modules/product.md) — `product.product`, `product.pricelist`, `uom.uom`
+- [Modules/Sale](modules/sale.md) — Order workflow, `sale.order` vs `pos.order` comparison
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns (applicable to order/session states)
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL, record rules, ir.rule

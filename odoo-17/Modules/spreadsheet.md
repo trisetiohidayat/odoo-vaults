@@ -73,5 +73,5 @@ Sub-modules provide pre-built spreadsheet templates:
 
 ## See Also
 
-- [[Modules/account]] — Financial reports in spreadsheets
-- [[Modules/dashboard]] — Dashboard integration
+- [Modules/account](modules/account.md) — Financial reports in spreadsheets
+- [Modules/dashboard](modules/dashboard.md) — Dashboard integration

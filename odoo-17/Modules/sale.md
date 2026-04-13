@@ -808,9 +808,9 @@ sale_order_count = fields.Integer(compute="_compute_origin_so_count")
 
 ## See Also
 
-- [[Modules/sale_stock]] — Picking creation on SO confirmation
-- [[Modules/account]] — Invoice creation and payment
-- [[Modules/sale_management]] — `done` state locking, discount wizard
-- [[Modules/sale_loyalty]] — Loyalty programs applied to SOs
-- [[Modules/sale_mrp]] — Kit products and kit delivery logic
-- [[Modules/hr_expense]] — Expense products create analytic entries on confirmed SOs
+- [Modules/sale_stock](modules/sale_stock.md) — Picking creation on SO confirmation
+- [Modules/account](modules/account.md) — Invoice creation and payment
+- [Modules/sale_management](modules/sale_management.md) — `done` state locking, discount wizard
+- [Modules/sale_loyalty](modules/sale_loyalty.md) — Loyalty programs applied to SOs
+- [Modules/sale_mrp](modules/sale_mrp.md) — Kit products and kit delivery logic
+- [Modules/hr_expense](modules/hr_expense.md) — Expense products create analytic entries on confirmed SOs

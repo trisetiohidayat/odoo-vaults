@@ -63,5 +63,5 @@ GIB-registered vehicle and trailer plate registry.
 | Unique constraint | | `unique(name, plate_number_type)` |
 
 ## Related
-- [[Modules/l10n_tr_nilvera]] — Core Turkish localization
-- [[Modules/l10n_tr_nilvera_einvoice]] — Turkish e-invoice via Nilvera
+- [Modules/l10n_tr_nilvera](modules/l10n_tr_nilvera.md) — Core Turkish localization
+- [Modules/l10n_tr_nilvera_einvoice](modules/l10n_tr_nilvera_einvoice.md) — Turkish e-invoice via Nilvera

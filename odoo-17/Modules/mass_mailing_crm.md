@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, mass-mailing-crm]
 
 
 
-- [[Modules/mass_mailing]] — Mass mailing base
+- [Modules/mass_mailing](modules/mass_mailing.md) — Mass mailing base

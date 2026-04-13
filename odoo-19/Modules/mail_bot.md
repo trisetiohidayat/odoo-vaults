@@ -546,11 +546,11 @@ mail_bot
 
 ## Related Documentation
 
-- [[Modules/mail]] — `mail.message` posting lifecycle and `_message_post_after_hook` contract
-- [[Modules/im_livechat]] — `discuss.channel` and DM creation via `_get_or_create_chat`
-- [[Core/API]] — `@api.model`, `@api.depends`, and stateful dispatch patterns
-- [[Patterns/Workflow Patterns]] — state machine pattern used for `odoobot_state`
-- [[Tools/ORM Operations]] — `sudo()`, `write()`, `message_post()` usage patterns
+- [Modules/mail](modules/mail.md) — `mail.message` posting lifecycle and `_message_post_after_hook` contract
+- [Modules/im_livechat](modules/im_livechat.md) — `discuss.channel` and DM creation via `_get_or_create_chat`
+- [Core/API](core/api.md) — `@api.model`, `@api.depends`, and stateful dispatch patterns
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — state machine pattern used for `odoobot_state`
+- [Tools/ORM Operations](tools/orm-operations.md) — `sudo()`, `write()`, `message_post()` usage patterns
 
 ---
 

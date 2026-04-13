@@ -70,4 +70,4 @@ The `reload()` method clears the table and re-populates it from code translation
 
 ---
 
-*See also: [[Core/HTTP Controller]] (translation route), Odoo documentation on i18n*
+*See also: [Core/HTTP Controller](core/http-controller.md) (translation route), Odoo documentation on i18n*

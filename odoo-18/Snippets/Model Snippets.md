@@ -112,5 +112,5 @@ def action_cancel(self):
 ---
 
 ## Related Links
-- [[Snippets/Controller Snippets]] — HTTP controllers
-- [[Core/API]] — Decorators
+- [Snippets/Controller Snippets](snippets/controller-snippets.md) — HTTP controllers
+- [Core/API](core/api.md) — Decorators

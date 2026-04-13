@@ -104,7 +104,7 @@ Setting this to `'auto'` activates `ir_cron_lead_enrichment`; `'manual'` deactiv
 
 ## See Also
 
-- [[Modules/iap]] — IAP account and credit framework
-- [[Modules/crm]] — CRM lead model
-- [[Modules/iap_mail]] — notification helpers for IAP operations
-- [[Modules/crm_iap_mine]] — lead mining / prospecting via IAP
+- [Modules/iap](modules/iap.md) — IAP account and credit framework
+- [Modules/crm](modules/crm.md) — CRM lead model
+- [Modules/iap_mail](modules/iap_mail.md) — notification helpers for IAP operations
+- [Modules/crm_iap_mine](modules/crm_iap_mine.md) — lead mining / prospecting via IAP

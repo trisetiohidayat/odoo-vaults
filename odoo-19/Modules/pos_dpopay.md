@@ -24,4 +24,4 @@ Integrates your POS with DPO payment terminal. Supports all currencies supported
 - POS frontend assets for DPO terminal integration
 
 ## Related
-- [[Modules/point_of_sale]] — Base POS module
+- [Modules/point_of_sale](modules/point_of_sale.md) — Base POS module

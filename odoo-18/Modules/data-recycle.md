@@ -561,6 +561,6 @@ The recycle action runs under `sudo()` in the context of the cron job. The initi
 
 ## Related
 
-- [[Modules/cloud-storage]] — attachments stored externally
-- [[Patterns/Security Patterns]] — ACL, ir.rule, record rules
-- [[Core/Fields]] — date/datetime fields
+- [Modules/cloud-storage](modules/cloud-storage.md) — attachments stored externally
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL, ir.rule, record rules
+- [Core/Fields](core/fields.md) — date/datetime fields

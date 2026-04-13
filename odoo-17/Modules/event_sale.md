@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, event-sale]
 
 
 
-- [[Modules/calendar]] — Event base module
+- [Modules/calendar](modules/calendar.md) — Event base module

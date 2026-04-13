@@ -2049,9 +2049,9 @@ Key testing patterns used:
 
 ## Related Documentation
 
-- [[Modules/Payment]] — Payment provider base module (`payment`)
-- [[Modules/Account]] — Accounting core module (`account`)
-- [[Modules/Sale]] — Sales order with payment integration
-- [[Core/API]] — @api decorators (@api.depends, @api.ondelete, etc.)
-- [[Core/Fields]] — Field types (Monetary, Many2many, Json, Html)
-- [[Patterns/Security Patterns]] — Access control and record rules
+- [Modules/Payment](modules/payment.md) — Payment provider base module (`payment`)
+- [Modules/Account](modules/account.md) — Accounting core module (`account`)
+- [Modules/Sale](modules/sale.md) — Sales order with payment integration
+- [Core/API](core/api.md) — @api decorators (@api.depends, @api.ondelete, etc.)
+- [Core/Fields](core/fields.md) — Field types (Monetary, Many2many, Json, Html)
+- [Patterns/Security Patterns](patterns/security-patterns.md) — Access control and record rules

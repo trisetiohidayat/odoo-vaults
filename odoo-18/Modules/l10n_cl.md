@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #chile
 # l10n_cl — Chile Accounting
 
 ## Overview
-Chilean localization module providing the Chilean chart of accounts (Plan de Cuentas Chileno), taxes (IVA 19%, 27%), SII (Servicio de Impuestos Internos) document types, taxpayer type classification, and identification types (RUT, RUN). Maintained by Blanco Martin & Asociados. Requires [[Modules/l10n_latam_base]] and [[Modules/l10n_latam_invoice_document]].
+Chilean localization module providing the Chilean chart of accounts (Plan de Cuentas Chileno), taxes (IVA 19%, 27%), SII (Servicio de Impuestos Internos) document types, taxpayer type classification, and identification types (RUT, RUN). Maintained by Blanco Martin & Asociados. Requires [Modules/l10n_latam_base](modules/l10n_latam_base.md) and [Modules/l10n_latam_invoice_document](modules/l10n_latam_invoice_document.md).
 
 ## Country/Region
 Chile (country code: CL)

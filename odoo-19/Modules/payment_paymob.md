@@ -64,6 +64,6 @@ Egypt, UAE (Etisalat), Saudi Arabia, Jordan, Oman, Kenya
 - `_check_available_country_currency_ids()` — Only one currency per Paymob account; must be a Paymob-supported currency
 
 ## Related
-- [[Modules/payment]] — Base payment engine
-- [[Modules/payment_adyen]] — Adyen provider (similar terminal flow)
-- [[Modules/payment_razorpay]] — Razorpay provider
+- [Modules/payment](modules/payment.md) — Base payment engine
+- [Modules/payment_adyen](modules/payment_adyen.md) — Adyen provider (similar terminal flow)
+- [Modules/payment_razorpay](modules/payment_razorpay.md) — Razorpay provider

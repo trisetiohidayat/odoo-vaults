@@ -30,8 +30,8 @@ Taiwan uses a business tax system similar to VAT/GST, and the module supports th
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/account]] | Core accounting |
-| [[Modules/base_address_extended]] | Extended address formatting with city/county fields |
+| [Modules/account](modules/account.md) | Core accounting |
+| [Modules/base_address_extended](modules/base_address_extended.md) | Extended address formatting with city/county fields |
 
 ## Key Models
 
@@ -59,7 +59,7 @@ Extends chart of accounts with Taiwan-specific template:
 
 ### Tax Reporting
 - Business tax returns (Form 401, 403, 404)
-- Electronic invoice support through [[Modules/l10n_tw_edi_ecpay]]
+- Electronic invoice support through [Modules/l10n_tw_edi_ecpay](modules/l10n_tw_edi_ecpay.md)
 
 ## Data Files
 
@@ -73,7 +73,7 @@ Extends chart of accounts with Taiwan-specific template:
 
 ## Related
 
-- [[Modules/account]] - Core accounting module
-- [[Modules/base_address_extended]] - Extended address support
-- [[Modules/l10n_tw_edi_ecpay]] - E-invoicing via ECPay
-- [[Modules/l10n_tw_edi_ecpay_website_sale]] - E-commerce e-invoice bridge
+- [Modules/account](modules/account.md) - Core accounting module
+- [Modules/base_address_extended](modules/base_address_extended.md) - Extended address support
+- [Modules/l10n_tw_edi_ecpay](modules/l10n_tw_edi_ecpay.md) - E-invoicing via ECPay
+- [Modules/l10n_tw_edi_ecpay_website_sale](modules/l10n_tw_edi_ecpay_website_sale.md) - E-commerce e-invoice bridge

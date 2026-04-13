@@ -144,7 +144,7 @@ recs.unlink()  # returns bool
 ```python
 # Via XML-RPC
 models.execute_kw(db, uid, password, 'sale.order', 'search_read',
-    [[['state', '=', 'sale']]],
+    [['state', '=', 'sale'](['state',-'=',-'sale'.md)],
     {'fields': ['name', 'state'], 'limit': 5}
 )
 ```
@@ -152,5 +152,5 @@ models.execute_kw(db, uid, password, 'sale.order', 'search_read',
 ---
 
 ## Related Links
-- [[Core/BaseModel]] — Full model reference
-- [[Core/Fields]] — Field types
+- [Core/BaseModel](core/basemodel.md) — Full model reference
+- [Core/Fields](core/fields.md) — Field types

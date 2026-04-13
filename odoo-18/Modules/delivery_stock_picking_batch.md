@@ -59,4 +59,4 @@ Extends `stock.picking.type` with carrier grouping and weight limits, and extend
 
 ---
 
-*See also: [[Modules/stock_picking_batch]], [[Modules/delivery]], [[Modules/stock]]*
+*See also: [Modules/stock_picking_batch](modules/stock_picking_batch.md), [Modules/delivery](modules/delivery.md), [Modules/stock](modules/stock.md)*

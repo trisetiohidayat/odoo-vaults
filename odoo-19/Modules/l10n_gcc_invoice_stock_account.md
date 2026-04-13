@@ -32,9 +32,9 @@ Adds Arabic as a secondary language for lots and serial numbers (stock tracking)
 - No model files - relies on inherited report rendering from parent modules
 
 ## Related
-- [[Modules/l10n_gcc_invoice]]
-- [[Modules/stock_account]]
-- [[Modules/stock]]
-- [[Modules/l10n_sa]]
-- [[Modules/l10n_ae]]
-- [[Modules/l10n_kw]]
+- [Modules/l10n_gcc_invoice](modules/l10n_gcc_invoice.md)
+- [Modules/stock_account](modules/stock_account.md)
+- [Modules/stock](modules/stock.md)
+- [Modules/l10n_sa](modules/l10n_sa.md)
+- [Modules/l10n_ae](modules/l10n_ae.md)
+- [Modules/l10n_kw](modules/l10n_kw.md)

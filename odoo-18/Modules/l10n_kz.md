@@ -14,7 +14,7 @@ The Kazakhstan localization module provides a base chart of accounts and the sta
 Kazakhstan (`KZ`)
 
 ## Dependencies
-- [[Modules/Account|account]]
+- [account](modules/account.md)
 
 ## Key Models
 

@@ -1129,8 +1129,8 @@ class CustomPortal(CustomerPortal):
 
 ## See Also
 
-- [[Core/API]] — `@api.depends`, `@api.onchange` decorators used in portal models
-- [[Patterns/Security Patterns]] — ACL CSV, `ir.rule`, portal security model
-- [[Modules/Sale]] — `sale.portal` extends this module for sales orders
-- [[Modules/Purchase]] — `purchase.portal` extends this module for purchase orders
-- [[Modules/Stock]] — `stock.portal` provides portal access to pickings
+- [Core/API](core/api.md) — `@api.depends`, `@api.onchange` decorators used in portal models
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL CSV, `ir.rule`, portal security model
+- [Modules/Sale](modules/sale.md) — `sale.portal` extends this module for sales orders
+- [Modules/Purchase](modules/purchase.md) — `purchase.portal` extends this module for purchase orders
+- [Modules/Stock](modules/stock.md) — `stock.portal` provides portal access to pickings

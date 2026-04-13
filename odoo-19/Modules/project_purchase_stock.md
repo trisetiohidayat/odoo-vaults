@@ -242,11 +242,11 @@ These use a `Domain('project_id', '=', self.id)` so they automatically pick up p
 
 | Module | Role |
 |---|---|
-| [[Modules/project_purchase]] | Adds `project_id` field to `purchase.order`; enables purchase cost tracking in project profitability |
-| [[Modules/project_stock]] | Adds `project_id` field to `stock.picking`; adds project picking action menus |
-| [[Modules/purchase_stock]] | Manages PO-to-receipt flow; base `_prepare_picking` and buy-rule procurement |
-| [[Modules/Stock]] | Core stock module; `stock.rule` base model; `stock.picking` base model |
-| [[Modules/Purchase]] | Core purchase module; `purchase.order` base model |
+| [Modules/project_purchase](modules/project_purchase.md) | Adds `project_id` field to `purchase.order`; enables purchase cost tracking in project profitability |
+| [Modules/project_stock](modules/project_stock.md) | Adds `project_id` field to `stock.picking`; adds project picking action menus |
+| [Modules/purchase_stock](modules/purchase_stock.md) | Manages PO-to-receipt flow; base `_prepare_picking` and buy-rule procurement |
+| [Modules/Stock](modules/stock.md) | Core stock module; `stock.rule` base model; `stock.picking` base model |
+| [Modules/Purchase](modules/purchase.md) | Core purchase module; `purchase.order` base model |
 
 ## Tags
 

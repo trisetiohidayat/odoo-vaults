@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, account-edi-ubl-cii-tax-extension]
 
 
 
-- [[Modules/account]] — Accounting extension
+- [Modules/account](modules/account.md) — Accounting extension

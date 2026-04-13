@@ -20,7 +20,7 @@ created: 2026-04-06
 
 ## Description
 
-Ecuador Sale module extends the base Ecuadorian accounting localization (`l10n_ec`) with sale-specific configurations and SRI payment method integration for the [[Modules/Sale]] module.
+Ecuador Sale module extends the base Ecuadorian accounting localization (`l10n_ec`) with sale-specific configurations and SRI payment method integration for the [Modules/Sale](modules/sale.md) module.
 
 ## Configuration
 1. Install `l10n_ec` first for the accounting base
@@ -31,8 +31,8 @@ Ecuador Sale module extends the base Ecuadorian accounting localization (`l10n_e
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/l10n_ec]] | Ecuadorian accounting base |
-| [[Modules/Sale]] | Sales management module |
+| [Modules/l10n_ec](modules/l10n_ec.md) | Ecuadorian accounting base |
+| [Modules/Sale](modules/sale.md) | Sales management module |
 
 ## Key Models
 
@@ -79,8 +79,8 @@ SRI (Servicio de Rentas Internas) requires specifying the payment method on elec
 4. Invoice's `l10n_ec_sri_payment_id` is set for SRI electronic document submission
 
 ## Related Modules
-- [[Modules/l10n_ec]] - Core Ecuadorian accounting
-- [[Modules/l10n_ec_sale]] - Ecuador sale (this module)
-- [[Modules/l10n_ec_stock]] - Ecuador stock extensions
-- [[Modules/Sale]] - Sales management
-- [[Modules/pos]] - Point of Sale
+- [Modules/l10n_ec](modules/l10n_ec.md) - Core Ecuadorian accounting
+- [Modules/l10n_ec_sale](modules/l10n_ec_sale.md) - Ecuador sale (this module)
+- [Modules/l10n_ec_stock](modules/l10n_ec_stock.md) - Ecuador stock extensions
+- [Modules/Sale](modules/sale.md) - Sales management
+- [Modules/pos](modules/pos.md) - Point of Sale

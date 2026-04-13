@@ -149,6 +149,6 @@ Returns the dashboard data for a public share link.
 
 ## See Also
 
-- [[Modules/Spreadsheet]] (`spreadsheet`) — Base spreadsheet module
-- [[Modules/Spreadsheet Account]] (`spreadsheet_account`) — Accounting formula functions
-- [[Modules/Spreadsheet Dashboard Account]] (`spreadsheet_dashboard_account`) — Pre-built accounting dashboard
+- [Modules/Spreadsheet](modules/spreadsheet.md) (`spreadsheet`) — Base spreadsheet module
+- [Modules/Spreadsheet Account](modules/spreadsheet-account.md) (`spreadsheet_account`) — Accounting formula functions
+- [Modules/Spreadsheet Dashboard Account](modules/spreadsheet-dashboard-account.md) (`spreadsheet_dashboard_account`) — Pre-built accounting dashboard

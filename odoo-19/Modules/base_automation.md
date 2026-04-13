@@ -1216,14 +1216,14 @@ The automation record itself is NOT deleted or deactivated, so the admin is noti
 
 ## 16. Related Concepts
 
-- [[Modules/base_automation]] — Server Actions model powering automation actions
-- [[Modules/mail]] — Mail Thread integration for message triggers
-- [[Modules/base_automation]] — Scheduler configuration
-- [[Modules/resource]] — Resource Calendar for working-day calculations
-- [[Core/API]] — `@api.model`, `@api.depends`, `@api.onchange` decorators
-- [[Patterns/Workflow Patterns]] — State machine and action workflow patterns
-- [[Core/Fields]] — Field types (Domain, Many2oneReference, etc.)
-- [[Core/Exceptions]] — ValidationError, UserError for automation error handling
+- [Modules/base_automation](modules/base_automation.md) — Server Actions model powering automation actions
+- [Modules/mail](modules/mail.md) — Mail Thread integration for message triggers
+- [Modules/base_automation](modules/base_automation.md) — Scheduler configuration
+- [Modules/resource](modules/resource.md) — Resource Calendar for working-day calculations
+- [Core/API](core/api.md) — `@api.model`, `@api.depends`, `@api.onchange` decorators
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine and action workflow patterns
+- [Core/Fields](core/fields.md) — Field types (Domain, Many2oneReference, etc.)
+- [Core/Exceptions](core/exceptions.md) — ValidationError, UserError for automation error handling
 
 ---
 

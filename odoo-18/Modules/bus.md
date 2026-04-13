@@ -251,6 +251,6 @@ ImDispatch.loop() [Background thread]
 ---
 
 ## Related Links
-- [[Modules/mail]] — Main consumer of bus notifications
-- [[Core/HTTP Controller]] — WebSocket endpoints
-- [[Modules/web]] — Session info with websocket version
+- [Modules/mail](modules/mail.md) — Main consumer of bus notifications
+- [Core/HTTP Controller](core/http-controller.md) — WebSocket endpoints
+- [Modules/web](modules/web.md) — Session info with websocket version

@@ -91,4 +91,4 @@ Extends `base.automation.lead.test` with `mail.thread`. Used for tests involving
 - `test_tour.py` — UI tour tests
 
 ## Related
-- [[Modules/base_automation]]
+- [Modules/base_automation](modules/base_automation.md)

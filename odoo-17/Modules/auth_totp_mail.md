@@ -78,7 +78,7 @@ User enables 2FA
 
 ## See Also
 
-- [[Modules/auth_totp]] — core TOTP authentication
-- [[Modules/auth_totp_enforce]] — enforces TOTP for all users
-- [[Modules/auth_totp_portal]] — TOTP access for portal users
-- [[Modules/res_users]] — user model with security notification support
+- [Modules/auth_totp](modules/auth_totp.md) — core TOTP authentication
+- [Modules/auth_totp_enforce](modules/auth_totp_enforce.md) — enforces TOTP for all users
+- [Modules/auth_totp_portal](modules/auth_totp_portal.md) — TOTP access for portal users
+- [Modules/res_users](modules/res_users.md) — user model with security notification support

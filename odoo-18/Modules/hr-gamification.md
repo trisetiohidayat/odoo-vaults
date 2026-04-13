@@ -3,7 +3,7 @@ Module: hr_gamification
 Version: Odoo 18
 Type: Integration
 Tags: #odoo #odoo18 #hr #gamification #badges #challenges
-Related Modules: [[Modules/Gamification]], [[Modules/HR]]
+Related Modules: [Modules/Gamification](modules/gamification.md), [Modules/HR](modules/hr.md)
 ---
 
 # HR Gamification (`hr_gamification`)

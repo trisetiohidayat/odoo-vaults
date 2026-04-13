@@ -22,7 +22,7 @@ created: 2026-04-06
 
 ## Description
 
-Hong Kong accounting localization providing a chart of accounts for companies operating in Hong Kong. The module includes Hong Kong bank information and supports EMV QR code payments for the Faster Payment System (FPS) through [[Modules/account_qr_code_emv]].
+Hong Kong accounting localization providing a chart of accounts for companies operating in Hong Kong. The module includes Hong Kong bank information and supports EMV QR code payments for the Faster Payment System (FPS) through [Modules/account_qr_code_emv](modules/account_qr_code_emv.md).
 
 Hong Kong does not have a broad-based GST or VAT, but businesses must comply with the IRD (Inland Revenue Department) requirements for profits tax.
 
@@ -30,8 +30,8 @@ Hong Kong does not have a broad-based GST or VAT, but businesses must comply wit
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/account]] | Core accounting |
-| [[Modules/account_qr_code_emv]] | EMV QR code for FPS (Faster Payment System) QR payments |
+| [Modules/account](modules/account.md) | Core accounting |
+| [Modules/account_qr_code_emv](modules/account_qr_code_emv.md) | EMV QR code for FPS (Faster Payment System) QR payments |
 
 ## Key Models
 
@@ -78,6 +78,6 @@ Extends bank model with Hong Kong-specific fields:
 
 ## Related
 
-- [[Modules/account]] - Core accounting module
-- [[Modules/account_qr_code_emv]] - FPS QR code generation
+- [Modules/account](modules/account.md) - Core accounting module
+- [Modules/account_qr_code_emv](modules/account_qr_code_emv.md) - FPS QR code generation
 - [IRD Hong Kong](https://www.ird.gov.hk)

@@ -24,15 +24,15 @@ created: 2026-04-06
 
 Philippine accounting localization providing a chart of accounts, tax templates, withholding tax structures, and BIR (Bureau of Internal Revenue) compliance features for businesses operating in the Philippines.
 
-The module integrates with [[Modules/l10n_account_withholding_tax]] to support Philippine withholding tax requirements including the BIR Form 2307 (Certificate of Final Tax Withheld at Source) for expanded withholding tax and creditable withholding tax.
+The module integrates with [Modules/l10n_account_withholding_tax](modules/l10n_account_withholding_tax.md) to support Philippine withholding tax requirements including the BIR Form 2307 (Certificate of Final Tax Withheld at Source) for expanded withholding tax and creditable withholding tax.
 
 ## Dependencies
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/account]] | Core accounting |
-| [[Modules/base_vat]] | VAT number validation |
-| [[Modules/l10n_account_withholding_tax]] | Withholding tax support (BIR Form 2307) |
+| [Modules/account](modules/account.md) | Core accounting |
+| [Modules/base_vat](modules/base_vat.md) | VAT number validation |
+| [Modules/l10n_account_withholding_tax](modules/l10n_account_withholding_tax.md) | Withholding tax support (BIR Form 2307) |
 
 ## Key Models
 
@@ -114,6 +114,6 @@ The module supports the generation of BIR Form 2307 (Certificate of Creditable/E
 
 ## Related
 
-- [[Modules/account]] - Core accounting module
-- [[Modules/l10n_account_withholding_tax]] - Withholding tax support
-- [[Modules/base_vat]] - Tax ID validation
+- [Modules/account](modules/account.md) - Core accounting module
+- [Modules/l10n_account_withholding_tax](modules/l10n_account_withholding_tax.md) - Withholding tax support
+- [Modules/base_vat](modules/base_vat.md) - Tax ID validation

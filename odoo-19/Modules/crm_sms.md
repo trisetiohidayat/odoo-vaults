@@ -24,7 +24,7 @@ l4: true
 
 ## Purpose
 
-`crm_sms` bridges the [[Modules/sms]] gateway with [[Modules/crm]] leads and opportunities. It adds SMS action buttons and security rules so CRM users can send individual and mass SMS directly from lead/opportunity views. **It defines no new Python models** — it is a pure view/data extension layer.
+`crm_sms` bridges the [Modules/sms](modules/sms.md) gateway with [Modules/crm](modules/crm.md) leads and opportunities. It adds SMS action buttons and security rules so CRM users can send individual and mass SMS directly from lead/opportunity views. **It defines no new Python models** — it is a pure view/data extension layer.
 
 ## Dependencies
 
@@ -83,7 +83,7 @@ default_res_ids: active_ids  (pre-set via context)
 target: new                  (modal popup)
 ```
 
-**When triggered:** Opens the [[Modules/sms]] composer in **mass batch mode** for all selected leads in a list/kanban view. The `mass_keep_log: True` causes `sms.composer._action_send_sms_mass()` to call `_message_log_batch()` on each lead, writing an HTML note into each lead's chatter after the SMS is queued.
+**When triggered:** Opens the [Modules/sms](modules/sms.md) composer in **mass batch mode** for all selected leads in a list/kanban view. The `mass_keep_log: True` causes `sms.composer._action_send_sms_mass()` to call `_message_log_batch()` on each lead, writing an HTML note into each lead's chatter after the SMS is queued.
 
 **Behavior in composer:**
 - `recipient_valid_count` / `recipient_invalid_count` are computed by calling `crm.lead._sms_get_recipients_info()` for each selected lead
@@ -321,16 +321,16 @@ The `sms_duplicate` check is **per-batch only** — it does not query previously
 
 | Module | Relationship |
 |--------|-------------|
-| [[Modules/crm]] | Parent; provides `crm.lead` model, views, workflow |
-| [[Modules/sms]] | Provider; `sms.composer` wizard, `sms.template`, IAP gateway |
-| [[Modules/mass_mailing_sms]] | Extends `crm_sms`; adds consent-gated mass SMS with `mail.mass_mailing` |
-| [[Modules/mass_mailing_crm_sms]] | Bridges mass_mailing and CRM SMS capabilities |
-| [[Modules/website_crm_sms]] | Adds SMS capture from website lead forms |
-| [[Modules/crm_mail_plugin]] | Outlook/Thunderbird plugin; does not interact with SMS directly |
+| [Modules/crm](modules/crm.md) | Parent; provides `crm.lead` model, views, workflow |
+| [Modules/sms](modules/sms.md) | Provider; `sms.composer` wizard, `sms.template`, IAP gateway |
+| [Modules/mass_mailing_sms](modules/mass_mailing_sms.md) | Extends `crm_sms`; adds consent-gated mass SMS with `mail.mass_mailing` |
+| [Modules/mass_mailing_crm_sms](modules/mass_mailing_crm_sms.md) | Bridges mass_mailing and CRM SMS capabilities |
+| [Modules/website_crm_sms](modules/website_crm_sms.md) | Adds SMS capture from website lead forms |
+| [Modules/crm_mail_plugin](modules/crm_mail_plugin.md) | Outlook/Thunderbird plugin; does not interact with SMS directly |
 
 ## Related
 
-- [[Modules/crm]]
-- [[Modules/sms]]
-- [[Modules/mass_mailing_sms]]
-- [[Modules/mass_mailing_crm]]
+- [Modules/crm](modules/crm.md)
+- [Modules/sms](modules/sms.md)
+- [Modules/mass_mailing_sms](modules/mass_mailing_sms.md)
+- [Modules/mass_mailing_crm](modules/mass_mailing_crm.md)

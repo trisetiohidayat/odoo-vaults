@@ -97,7 +97,7 @@ Complete list of 304 official modules in Odoo 19.
 
 ## Related
 
-- [[Core/BaseModel]] - Module structure
-- [[Modules/Sale]] - Sale modules
-- [[Modules/Purchase]] - Purchase modules
-- [[Modules/Stock]] - Inventory modules
+- [Core/BaseModel](core/basemodel.md) - Module structure
+- [Modules/Sale](modules/sale.md) - Sale modules
+- [Modules/Purchase](modules/purchase.md) - Purchase modules
+- [Modules/Stock](modules/stock.md) - Inventory modules

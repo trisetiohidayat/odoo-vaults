@@ -40,6 +40,6 @@ Inherits `mail_plugin.MailPluginController`.
 - `_translation_modules_whitelist()` — Adds `project_mail_plugin` to the translation module whitelist
 
 ## Related
-- [[Modules/project]] — Project management
-- [[Modules/mail_plugin]] — Mail plugin base (Outlook/Gmail integration)
-- [[Modules/project_todo]] — To-do tasks
+- [Modules/project](modules/project.md) — Project management
+- [Modules/mail_plugin](modules/mail_plugin.md) — Mail plugin base (Outlook/Gmail integration)
+- [Modules/project_todo](modules/project_todo.md) — To-do tasks

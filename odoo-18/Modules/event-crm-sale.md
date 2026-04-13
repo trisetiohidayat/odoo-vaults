@@ -311,7 +311,7 @@ For order-based leads, only a `partner_id` change triggers a full contact and de
 
 ## See Also
 
-- [[Modules/CRM]] — crm.lead model, lead pipeline
-- [[Core/API]] — @api.depends, @api.onchange, @api.constrains
+- [Modules/CRM](modules/crm.md) — crm.lead model, lead pipeline
+- [Core/API](core/api.md) — @api.depends, @api.onchange, @api.constrains
 - `event_crm` — base event-to-lead automation
 - `event_sale` — sale order integration for event registrations

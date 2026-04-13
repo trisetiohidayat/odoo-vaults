@@ -11,8 +11,8 @@ prerequisites:
   - vendor_list_setup
 estimated_time: "~15 minutes"
 related_flows:
-  - "[[Flows/Product/product-creation-flow]]"
-  - "[[Flows/Product/pricelist-computation-flow]]"
+  - "[Flows/Product/product-creation-flow](flows/product/product-creation-flow.md)"
+  - "[Flows/Product/pricelist-computation-flow](flows/product/pricelist-computation-flow.md)"
 source_module: product
 created: 2026-04-07
 version: "1.0"
@@ -47,11 +47,11 @@ Before creating products in Odoo 19, ensure the following foundation records are
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Product/product-creation-flow]] | Full method chain and branching logic |
-| 🔀 Technical Flow | [[Flows/Product/pricelist-computation-flow]] | Pricelist price computation for sales |
-| 📖 Module Reference | [[Modules/product]] | Complete field and method reference |
-| 📋 Related Guide | [[Flows/Stock/receipt-flow]] | Stock receipt flow using products |
-| 🔧 Configuration | [[Modules/Product]] | Accounting-related product settings |
+| 🔀 Technical Flow | [Flows/Product/product-creation-flow](flows/product/product-creation-flow.md) | Full method chain and branching logic |
+| 🔀 Technical Flow | [Flows/Product/pricelist-computation-flow](flows/product/pricelist-computation-flow.md) | Pricelist price computation for sales |
+| 📖 Module Reference | [Modules/product](modules/product.md) | Complete field and method reference |
+| 📋 Related Guide | [Flows/Stock/receipt-flow](flows/stock/receipt-flow.md) | Stock receipt flow using products |
+| 🔧 Configuration | [Modules/Product](modules/product.md) | Accounting-related product settings |
 
 ---
 
@@ -61,9 +61,9 @@ This guide covers the following use cases:
 
 | # | Use Case | Page | Difficulty |
 |---|----------|------|-----------|
-| 1 | Create a storable product with costing and valuation | [[#use-case-a-create-storable-product-with-costing]] | ⭐ |
-| 2 | Create a service product | [[#use-case-b-create-service-product]] | ⭐ |
-| 3 | Create a kit/bom product | [[#use-case-c-create-kitbom-product]] | ⭐⭐ |
+| 1 | Create a storable product with costing and valuation | [#use-case-a-create-storable-product-with-costing](#use-case-a-create-storable-product-with-costing.md) | ⭐ |
+| 2 | Create a service product | [#use-case-b-create-service-product](#use-case-b-create-service-product.md) | ⭐ |
+| 3 | Create a kit/bom product | [#use-case-c-create-kitbom-product](#use-case-c-create-kitbom-product.md) | ⭐⭐ |
 
 ---
 
@@ -93,7 +93,7 @@ Click **[Create]**.
 | **Can be sold** | ✅ Checked | No | `True` default |
 | **Can be purchased** | ✅ Checked | No | `True` default |
 
-> **⚡ System Trigger:** When you select `Storable product` (type = 'product'), Odoo enables the **Inventory** tab and the **Routes** section. The **Route** checkboxes (Make to Order, Drop Shipping, On Order) become available. Route assignment triggers `stock.location.route.rule` matching — see [[Flows/Product/product-creation-flow#complete-method-chain]].
+> **⚡ System Trigger:** When you select `Storable product` (type = 'product'), Odoo enables the **Inventory** tab and the **Routes** section. The **Route** checkboxes (Make to Order, Drop Shipping, On Order) become available. Route assignment triggers `stock.location.route.rule` matching — see [Flows/Product/product-creation-flow#complete-method-chain](flows/product/product-creation-flow#complete-method-chain.md).
 
 > **⚡ Side Effect:** Changing type to `Storable product` triggers `_onchange_type()` which resets `procurement_jit` to False and ensures no JIT-related defaults are applied.
 
@@ -132,7 +132,7 @@ Click the **Inventory** tab:
 | **Barcode** | (optional) | `barcode` field — scanned in POS/WMS. |
 | ** Routes** | `On Order` (if Make to Order) | Select applicable routes. |
 
-> **⚡ System Trigger:** When `Routes` are selected, Odoo creates many-to-many records in `stock_location_route_product_rel`. Route matching is done against `stock.location.route.rule` records — see [[Flows/Product/product-creation-flow#decision-tree]].
+> **⚡ System Trigger:** When `Routes` are selected, Odoo creates many-to-many records in `stock_location_route_product_rel`. Route matching is done against `stock.location.route.rule` records — see [Flows/Product/product-creation-flow#decision-tree](flows/product/product-creation-flow#decision-tree.md).
 
 #### Step 6 — Assign Vendor (Purchase Tab)
 
@@ -239,7 +239,7 @@ A company sells a product bundle called "Desktop Setup Kit" that consists of: 1x
 
 #### Step 1 — Create Component Products First
 
-Before creating the kit, ensure all components exist as storable products. Create them per [[#use-case-a-create-storable-product-with-costing]]:
+Before creating the kit, ensure all components exist as storable products. Create them per [#use-case-a-create-storable-product-with-costing](#use-case-a-create-storable-product-with-costing.md):
 
 - [ ] Monitor 24" — type: Storable, list_price: `180.00`, standard_price: `110.00`
 - [ ] Mechanical Keyboard — type: Storable, list_price: `75.00`, standard_price: `45.00`
@@ -397,10 +397,10 @@ Click **Save** on the BOM record.
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Product/product-creation-flow]] | Full method chain for product create |
-| 🔀 Technical Flow | [[Flows/Product/pricelist-computation-flow]] | Price computation on sale order lines |
-| 📖 Module Reference | [[Modules/product]] | Complete product model reference |
-| 📋 Related Guide | [[Flows/Stock/receipt-flow]] | Stock receipt workflow |
-| 📋 Related Guide | [[Flows/Purchase/purchase-order-creation-flow]] | Purchase order creation |
-| 🔧 Patterns | [[Patterns/Inheritance Patterns]] | Delegation inheritance for product.product |
-| 🛠️ Snippets | [[Snippets/Model Snippets]] | Code snippets for product customization |
+| 🔀 Technical Flow | [Flows/Product/product-creation-flow](flows/product/product-creation-flow.md) | Full method chain for product create |
+| 🔀 Technical Flow | [Flows/Product/pricelist-computation-flow](flows/product/pricelist-computation-flow.md) | Price computation on sale order lines |
+| 📖 Module Reference | [Modules/product](modules/product.md) | Complete product model reference |
+| 📋 Related Guide | [Flows/Stock/receipt-flow](flows/stock/receipt-flow.md) | Stock receipt workflow |
+| 📋 Related Guide | [Flows/Purchase/purchase-order-creation-flow](flows/purchase/purchase-order-creation-flow.md) | Purchase order creation |
+| 🔧 Patterns | [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) | Delegation inheritance for product.product |
+| 🛠️ Snippets | [Snippets/Model Snippets](snippets/model-snippets.md) | Code snippets for product customization |

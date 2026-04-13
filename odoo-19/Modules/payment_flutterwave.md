@@ -18,4 +18,4 @@ A Nigerian payment provider covering several African countries. Enables online p
 - African payment methods support
 
 ## Related
-- [[Modules/payment]] — Base payment engine
+- [Modules/payment](modules/payment.md) — Base payment engine

@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #latam
 # l10n_latam_base — LATAM Identification Types
 
 ## Overview
-Base shared module for all LATAM country localizations. Adds the `l10n_latam.identification.type` model that extends the partner VAT field to support country-specific identification documents (national ID, RUT, CUIT, DNI, passport, etc.) beyond just VAT numbers. Also manages partner fields and company creation hooks for LATAM identification types. Required by all LATAM country modules including [[Modules/l10n_ar]], [[Modules/l10n_br]], [[Modules/l10n_cl]], [[Modules/l10n_pe]], [[Modules/l10n_ec]], [[Modules/l10n_uy]].
+Base shared module for all LATAM country localizations. Adds the `l10n_latam.identification.type` model that extends the partner VAT field to support country-specific identification documents (national ID, RUT, CUIT, DNI, passport, etc.) beyond just VAT numbers. Also manages partner fields and company creation hooks for LATAM identification types. Required by all LATAM country modules including [Modules/l10n_ar](modules/l10n_ar.md), [Modules/l10n_br](modules/l10n_br.md), [Modules/l10n_cl](modules/l10n_cl.md), [Modules/l10n_pe](modules/l10n_pe.md), [Modules/l10n_ec](modules/l10n_ec.md), [Modules/l10n_uy](modules/l10n_uy.md).
 
 ## Country/Region
 Multi-country (LATAM)

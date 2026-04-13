@@ -53,4 +53,4 @@ Extends `account.chart.template` with South African template data.
 - Reports: SARS VAT Return structure
 
 ## Related
-- [[Modules/account]]
+- [Modules/account](modules/account.md)

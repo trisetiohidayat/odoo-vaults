@@ -34,15 +34,15 @@ This module provides Croatian e-invoicing compliance through the **MojEracun** p
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/l10n_hr]] | Croatian base accounting localization |
-| [[Modules/account_edi_ubl_cii]] | UBL/CII EDI framework |
-| [[Modules/account_peppol]] | PEPPOL network access |
+| [Modules/l10n_hr](modules/l10n_hr.md) | Croatian base accounting localization |
+| [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md) | UBL/CII EDI framework |
+| [Modules/account_peppol](modules/account_peppol.md) | PEPPOL network access |
 
 ## Models
 
 ### `account.move` Fields
 
-Extends [[account.move]] with Croatian EDI-specific fields:
+Extends [account.move](account.move.md) with Croatian EDI-specific fields:
 
 ```python
 # Business Process Type (Obvezni podaci - P signatura)
@@ -193,9 +193,9 @@ Access rights managed via `security/ir.model.access.csv`:
 
 | Module | Relationship |
 |--------|-------------|
-| [[Modules/l10n_hr]] | Base Croatian accounting |
-| [[Modules/l10n_hr_kuna]] | Historical Kuna currency (deprecated) |
-| [[Modules/account_edi_ubl_cii]] | UBL/CII EDI framework |
+| [Modules/l10n_hr](modules/l10n_hr.md) | Base Croatian accounting |
+| [Modules/l10n_hr_kuna](modules/l10n_hr_kuna.md) | Historical Kuna currency (deprecated) |
+| [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md) | UBL/CII EDI framework |
 
 ## Technical Notes
 

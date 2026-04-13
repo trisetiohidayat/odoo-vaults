@@ -713,7 +713,7 @@ Both modes use `tx.create_date` formatted as date only (not datetime) for cleane
 
 ## Related
 
-- [[Modules/website]]
-- [[Modules/payment]]
-- [[Modules/account_payment]]
-- [[Modules/website_sale]]
+- [Modules/website](modules/website.md)
+- [Modules/payment](modules/payment.md)
+- [Modules/account_payment](modules/account_payment.md)
+- [Modules/website_sale](modules/website_sale.md)

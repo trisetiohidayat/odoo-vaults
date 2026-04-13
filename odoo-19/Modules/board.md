@@ -644,10 +644,10 @@ spreadsheet_dashboard
 
 ## Related
 
-- [[Modules/spreadsheet_dashboard]] — Modern spreadsheet-based dashboards (parent menu root)
-- [[Modules/web]] — Web client view registry, `/web/view/edit_custom` endpoint
-- [[Core/HTTP Controller]] — Odoo HTTP route decorators, `auth='user'`
-- [[Tools/ORM Operations]] — `ir.ui.view.custom` model, view customization system
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — Modern spreadsheet-based dashboards (parent menu root)
+- [Modules/web](modules/web.md) — Web client view registry, `/web/view/edit_custom` endpoint
+- [Core/HTTP Controller](core/http-controller.md) — Odoo HTTP route decorators, `auth='user'`
+- [Tools/ORM Operations](tools/orm-operations.md) — `ir.ui.view.custom` model, view customization system
 
 ---
 

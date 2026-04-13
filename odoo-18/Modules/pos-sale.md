@@ -350,10 +350,10 @@ This prevents:
 
 ## Related Documentation
 
-- [[Modules/Sale]] — Sale management module
-- [[Modules/Point of Sale]] — POS core
-- [[Modules/Stock]] — Stock picking and move management
-- [[Core/API]] — Computed fields, `@api.depends`, `@api.model`
-- [[Patterns/Workflow Patterns]] — Sale order state machine
+- [Modules/Sale](modules/sale.md) — Sale management module
+- [Modules/Point of Sale](modules/point-of-sale.md) — POS core
+- [Modules/Stock](modules/stock.md) — Stock picking and move management
+- [Core/API](core/api.md) — Computed fields, `@api.depends`, `@api.model`
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Sale order state machine
 
 #odoo #odoo18 #pos_sale #sale-order #down-payment #pos #crm-team

@@ -11,11 +11,11 @@ prerequisites:
   - project_tags_created
 estimated_time: "~20 minutes"
 related_flows:
-  - "[[Flows/Project/project-creation-flow]]"
-  - "[[Flows/Project/task-lifecycle-flow]]"
+  - "[Flows/Project/project-creation-flow](flows/project/project-creation-flow.md)"
+  - "[Flows/Project/task-lifecycle-flow](flows/project/task-lifecycle-flow.md)"
 related_guides:
-  - "[[Business/HR/leave-management-guide]]"
-  - "[[Business/Stock/warehouse-setup-guide]]"
+  - "[Business/HR/leave-management-guide](business/hr/leave-management-guide.md)"
+  - "[Business/Stock/warehouse-setup-guide](business/stock/warehouse-setup-guide.md)"
 source_module: project
 created: 2026-04-07
 version: "1.0"
@@ -51,11 +51,11 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Project/project-creation-flow]] | Full method chain for project creation |
-| 🔀 Technical Flow | [[Flows/Project/task-lifecycle-flow]] | Full method chain for task creation and stage changes |
-| 📖 Module Reference | [[Modules/Project]] | Complete field and method reference |
-| 🔧 Configuration | [[Modules/Project]] → Settings section | Project app configuration options |
-| 📋 Related Guide | [[Business/HR/leave-management-guide]] | Team availability and leave tracking |
+| 🔀 Technical Flow | [Flows/Project/project-creation-flow](flows/project/project-creation-flow.md) | Full method chain for project creation |
+| 🔀 Technical Flow | [Flows/Project/task-lifecycle-flow](flows/project/task-lifecycle-flow.md) | Full method chain for task creation and stage changes |
+| 📖 Module Reference | [Modules/Project](modules/project.md) | Complete field and method reference |
+| 🔧 Configuration | [Modules/Project](modules/project.md) → Settings section | Project app configuration options |
+| 📋 Related Guide | [Business/HR/leave-management-guide](business/hr/leave-management-guide.md) | Team availability and leave tracking |
 
 ---
 
@@ -65,9 +65,9 @@ This guide covers the following use cases. Jump to the relevant section:
 
 | # | Use Case | Page | Difficulty |
 |---|----------|------|-----------|
-| 1 | Create a project with a team and configure settings | [[#use-case-a-create-a-project-with-team]] | ⭐ |
-| 2 | Create tasks and assign team members | [[#use-case-b-create-tasks-and-assign]] | ⭐⭐ |
-| 3 | Track time on a task | [[#use-case-c-track-time-on-task]] | ⭐⭐⭐ |
+| 1 | Create a project with a team and configure settings | [#use-case-a-create-a-project-with-team](#use-case-a-create-a-project-with-team.md) | ⭐ |
+| 2 | Create tasks and assign team members | [#use-case-b-create-tasks-and-assign](#use-case-b-create-tasks-and-assign.md) | ⭐⭐ |
+| 3 | Track time on a task | [#use-case-c-track-time-on-task](#use-case-c-track-time-on-task.md) | ⭐⭐⭐ |
 
 ---
 
@@ -400,10 +400,10 @@ Set **Deadline**: 2026-04-15.
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Project/project-creation-flow]] | Full method chain for project creation — for developers |
-| 🔀 Technical Flow | [[Flows/Project/task-lifecycle-flow]] | Full method chain for task lifecycle — for developers |
-| 📖 Module Reference | [[Modules/Project]] | Complete field and method list |
-| 📋 Related Guide | [[Business/HR/leave-management-guide]] | Team availability management |
-| 🔧 Patterns | [[Patterns/Workflow Patterns]] | Workflow design patterns for stage-based flows |
-| 🛠️ Snippets | [[Snippets/Model Snippets]] | Code snippets for Project customization |
-| 📋 Related Guide | [[Modules/hr_timesheet]] | Timesheet integration with project |
+| 🔀 Technical Flow | [Flows/Project/project-creation-flow](flows/project/project-creation-flow.md) | Full method chain for project creation — for developers |
+| 🔀 Technical Flow | [Flows/Project/task-lifecycle-flow](flows/project/task-lifecycle-flow.md) | Full method chain for task lifecycle — for developers |
+| 📖 Module Reference | [Modules/Project](modules/project.md) | Complete field and method list |
+| 📋 Related Guide | [Business/HR/leave-management-guide](business/hr/leave-management-guide.md) | Team availability management |
+| 🔧 Patterns | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) | Workflow design patterns for stage-based flows |
+| 🛠️ Snippets | [Snippets/Model Snippets](snippets/model-snippets.md) | Code snippets for Project customization |
+| 📋 Related Guide | [Modules/hr_timesheet](modules/hr_timesheet.md) | Timesheet integration with project |

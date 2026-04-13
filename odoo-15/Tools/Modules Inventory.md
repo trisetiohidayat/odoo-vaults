@@ -271,7 +271,7 @@ Source: `/addons/` directory
 | `helpdesk` | Helpdesk/ticket system |
 
 ## See Also
-- [[Modules/Sale]] — Sale order models
-- [[Modules/Stock]] — Stock models
-- [[Modules/Account]] — Accounting models
-- [[Modules/Project]] — Project models
+- [Modules/Sale](modules/sale.md) — Sale order models
+- [Modules/Stock](modules/stock.md) — Stock models
+- [Modules/Account](modules/account.md) — Accounting models
+- [Modules/Project](modules/project.md) — Project models

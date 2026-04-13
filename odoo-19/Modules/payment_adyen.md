@@ -95,6 +95,6 @@ A Dutch payment provider covering Europe and the US. Supports card payments, man
 **Webhook Security:** HMAC key is used to verify webhook authenticity.
 
 ## Related
-- [[Modules/payment]]
-- [[Modules/payment_stripe]]
-- [[Modules/payment_paypal]]
+- [Modules/payment](modules/payment.md)
+- [Modules/payment_stripe](modules/payment_stripe.md)
+- [Modules/payment_paypal](modules/payment_paypal.md)

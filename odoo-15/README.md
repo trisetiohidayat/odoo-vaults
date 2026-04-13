@@ -17,36 +17,36 @@ odoo-15/
 
 ## Quick Start
 
-1. [[Core/BaseModel]] — ORM basics
-2. [[Core/Fields]] — Field types
-3. [[Core/API]] — Decorators
-4. [[Tools/ORM Operations]] — search/browse/create
-5. [[Modules/Sale]] — Sale order
-6. [[Modules/Stock]] — Inventory
+1. [Core/BaseModel](core/basemodel.md) — ORM basics
+2. [Core/Fields](core/fields.md) — Field types
+3. [Core/API](core/api.md) — Decorators
+4. [Tools/ORM Operations](tools/orm-operations.md) — search/browse/create
+5. [Modules/Sale](modules/sale.md) — Sale order
+6. [Modules/Stock](modules/stock.md) — Inventory
 
 ## Module Mapping (Keyword → Vault)
 
 | Keyword | File |
 |---|---|
-| orm/model/base/CRUD | [[Core/BaseModel]] |
-| field/char/many2one | [[Core/Fields]] |
-| api/depends/onchange | [[Core/API]] |
-| controller/http/route | [[Core/HTTP Controller]] |
-| error/exception/validation | [[Core/Exceptions]] |
-| inheritance/_inherit | [[Patterns/Inheritance Patterns]] |
-| workflow/state/action | [[Patterns/Workflow Patterns]] |
-| security/acl/groups | [[Patterns/Security Patterns]] |
-| search/browse/domain | [[Tools/ORM Operations]] |
-| snippets/template | [[Snippets/Model Snippets]] |
-| sale/quotation/so | [[Modules/Sale]] |
-| stock/picking/quant | [[Modules/Stock]] |
-| account/invoice/journal | [[Modules/Account]] |
-| purchase/po/rfq | [[Modules/Purchase]] |
-| crm/lead/opportunity | [[Modules/CRM]] |
-| project/task/milestone | [[Modules/Project]] |
-| mrp/production/bom | [[Modules/MRP]] |
-| product/pricelist/uom | [[Modules/Product]] |
-| partner/contact/bank | [[Modules/res.partner]] |
+| orm/model/base/CRUD | [Core/BaseModel](core/basemodel.md) |
+| field/char/many2one | [Core/Fields](core/fields.md) |
+| api/depends/onchange | [Core/API](core/api.md) |
+| controller/http/route | [Core/HTTP Controller](core/http-controller.md) |
+| error/exception/validation | [Core/Exceptions](core/exceptions.md) |
+| inheritance/_inherit | [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) |
+| workflow/state/action | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) |
+| security/acl/groups | [Patterns/Security Patterns](patterns/security-patterns.md) |
+| search/browse/domain | [Tools/ORM Operations](tools/orm-operations.md) |
+| snippets/template | [Snippets/Model Snippets](snippets/model-snippets.md) |
+| sale/quotation/so | [Modules/Sale](modules/sale.md) |
+| stock/picking/quant | [Modules/Stock](modules/stock.md) |
+| account/invoice/journal | [Modules/Account](modules/account.md) |
+| purchase/po/rfq | [Modules/Purchase](modules/purchase.md) |
+| crm/lead/opportunity | [Modules/CRM](modules/crm.md) |
+| project/task/milestone | [Modules/Project](modules/project.md) |
+| mrp/production/bom | [Modules/MRP](modules/mrp.md) |
+| product/pricelist/uom | [Modules/Product](modules/product.md) |
+| partner/contact/bank | [Modules/res.partner](modules/res.partner.md) |
 
 ## Core ORM Paths
 

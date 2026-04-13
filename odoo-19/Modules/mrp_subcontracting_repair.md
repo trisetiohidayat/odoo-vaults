@@ -244,7 +244,7 @@ The portal repair order page (`/my/repair/<id>`) is provided by the `repair` mod
 
 ## Related
 
-- [[Modules/repair]] — Repair orders and stock.move extensions
-- [[Modules/mrp_subcontracting]] — Subcontracting BoM and production orders
-- [[Modules/Stock]] — Stock move base model
-- [[Modules/portal]] — Portal user access framework
+- [Modules/repair](modules/repair.md) — Repair orders and stock.move extensions
+- [Modules/mrp_subcontracting](modules/mrp_subcontracting.md) — Subcontracting BoM and production orders
+- [Modules/Stock](modules/stock.md) — Stock move base model
+- [Modules/portal](modules/portal.md) — Portal user access framework

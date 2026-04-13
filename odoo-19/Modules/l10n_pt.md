@@ -28,4 +28,4 @@ Portuguese accounting localization with chart of accounts, tax definitions, and 
 These overrides ensure Portuguese tax reports and invoice line calculations use tax-inclusive rounding as required by local tax rules (PRT).
 
 ## Related
-- [[Modules/Account]] — Core accounting
+- [Modules/Account](modules/account.md) — Core accounting

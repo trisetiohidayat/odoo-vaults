@@ -1169,8 +1169,8 @@ def _get_default_lang(cls):
 
 ## Related Documentation
 
-- [[Modules/web]] — Base web module (dependency), provides `is_a_bot`, debug handling, session info
-- [[Modules/website]] — Website builder, extends routing with page serving and fallback handling
-- [[Core/HTTP Controller]] — HTTP routing and controllers architecture
-- [[ir.http]] — Base HTTP routing model (in `odoo/addons/base`)
-- [[Patterns/Inheritance Patterns]] — `_inherit` vs. `_inherits` for model extension patterns
+- [Modules/web](modules/web.md) — Base web module (dependency), provides `is_a_bot`, debug handling, session info
+- [Modules/website](modules/website.md) — Website builder, extends routing with page serving and fallback handling
+- [Core/HTTP Controller](core/http-controller.md) — HTTP routing and controllers architecture
+- [ir.http](ir.http.md) — Base HTTP routing model (in `odoo/addons/base`)
+- [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) — `_inherit` vs. `_inherits` for model extension patterns

@@ -537,7 +537,7 @@ The old models (`privacy.lookup`, `privacy.lookup.found`) no longer exist in Odo
 
 ## See Also
 
-- [[Modules/mail]] - Email functionality, required dependency
-- [[Core/API]] - Cron jobs and scheduled actions
-- [[Patterns/Security Patterns]] - ACL and record rules
-- [[Modules/res.partner]] - Partner model, the primary identity anchor
+- [Modules/mail](modules/mail.md) - Email functionality, required dependency
+- [Core/API](core/api.md) - Cron jobs and scheduled actions
+- [Patterns/Security Patterns](patterns/security-patterns.md) - ACL and record rules
+- [Modules/res.partner](modules/res.partner.md) - Partner model, the primary identity anchor

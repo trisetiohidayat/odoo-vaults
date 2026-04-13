@@ -976,11 +976,11 @@ hr.expense
 
 ## Related Documentation
 
-- [[Modules/hr]]
-- [[Modules/account]]
-- [[Modules/Stock]]
-- [[Modules/product]]
-- [[Patterns/Workflow Patterns]]
-- [[Patterns/Security Patterns]]
-- [[Core/Fields]]
-- [[Core/API]]
+- [Modules/hr](modules/hr.md)
+- [Modules/account](modules/account.md)
+- [Modules/Stock](modules/stock.md)
+- [Modules/product](modules/product.md)
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md)
+- [Patterns/Security Patterns](patterns/security-patterns.md)
+- [Core/Fields](core/fields.md)
+- [Core/API](core/api.md)

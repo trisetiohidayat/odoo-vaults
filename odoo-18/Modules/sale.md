@@ -629,9 +629,9 @@ sale_stock
 
 ## Related
 
-- [[Modules/Stock]]
-- [[Modules/Account]]
-- [[Modules/CRM]]
-- [[Modules/Payment]]
-- [[Patterns/Workflow Patterns]]
-- [[Tools/Modules Inventory]]
+- [Modules/Stock](modules/stock.md)
+- [Modules/Account](modules/account.md)
+- [Modules/CRM](modules/crm.md)
+- [Modules/Payment](modules/payment.md)
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md)
+- [Tools/Modules Inventory](tools/modules-inventory.md)

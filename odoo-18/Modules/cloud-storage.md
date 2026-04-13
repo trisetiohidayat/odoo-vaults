@@ -347,4 +347,4 @@ Menu: **Settings → General Settings → Cloud Storage** (app section in res.co
 
 Access: Requires Settings access (group System)
 
-Related: [[Core/BaseModel]] (ir.attachment CRUD), [[Modules/Mail]] (chatter attachments)
+Related: [Core/BaseModel](core/basemodel.md) (ir.attachment CRUD), [Modules/Mail](modules/mail.md) (chatter attachments)

@@ -56,5 +56,5 @@ Bridges the Gamification module with HR. Allows HR officers to send badges to em
 - Grant count tracked per badge
 
 ## Related
-- [[Modules/gamification]] - Core gamification module
-- [[Modules/HR]] - Core HR module
+- [Modules/gamification](modules/gamification.md) - Core gamification module
+- [Modules/HR](modules/hr.md) - Core HR module

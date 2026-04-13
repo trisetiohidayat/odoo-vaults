@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #ecuador #ecommerce
 # l10n_ec_website_sale — Ecuador eCommerce Bridge
 
 ## Overview
-Bridge module connecting [[Modules/l10n_ec]] with `website_sale`. Adds Ecuadorian-specific fields to the eCommerce checkout: RUC, identification types, and payment methods required for e-invoicing compliance. Payment method data includes Ecuador-specific payment types (credit cards, debit cards, cash, etc.).
+Bridge module connecting [Modules/l10n_ec](modules/l10n_ec.md) with `website_sale`. Adds Ecuadorian-specific fields to the eCommerce checkout: RUC, identification types, and payment methods required for e-invoicing compliance. Payment method data includes Ecuador-specific payment types (credit cards, debit cards, cash, etc.).
 
 ## Country/Region
 Ecuador (EC)

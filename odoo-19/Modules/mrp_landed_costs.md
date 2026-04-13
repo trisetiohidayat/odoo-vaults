@@ -56,5 +56,5 @@ This ensures the landed cost split is applied only to the main finished product 
 7. Validate the landed cost — creates accounting entries and updates stock valuations
 
 ## Related
-- [[Modules/stock_landed_costs]] — Base landed cost model and logic
-- [[Modules/mrp_account]] — Manufacturing cost accounting
+- [Modules/stock_landed_costs](modules/stock_landed_costs.md) — Base landed cost model and logic
+- [Modules/mrp_account](modules/mrp_account.md) — Manufacturing cost accounting

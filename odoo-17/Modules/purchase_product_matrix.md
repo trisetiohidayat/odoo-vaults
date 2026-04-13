@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, purchase-product-matrix]
 
 
 
-- [[Modules/purchase]] — Purchase base module
+- [Modules/purchase](modules/purchase.md) — Purchase base module

@@ -817,11 +817,11 @@ website_crm_partner_assign/
 
 ## Related
 
-- [[Modules/CRM]] — CRM module
-- [[Modules/website_partner]] — Partner page base
-- [[Modules/website_google_map]] — Google Maps on website
-- [[Modules/partnership]] — Partnership management (res.partner.grade base)
-- [[Modules/portal]] — Customer portal authentication
-- [[Modules/base_geolocalize]] — Google Geocoding service (`_geo_localize()`)
-- [[Modules/website_crm]] — Website CRM lead capture
-- [[Modules/website_crm_iap_reveal]] — IP-based lead generation from website visits
+- [Modules/CRM](modules/crm.md) — CRM module
+- [Modules/website_partner](modules/website_partner.md) — Partner page base
+- [Modules/website_google_map](modules/website_google_map.md) — Google Maps on website
+- [Modules/partnership](modules/partnership.md) — Partnership management (res.partner.grade base)
+- [Modules/portal](modules/portal.md) — Customer portal authentication
+- [Modules/base_geolocalize](modules/base_geolocalize.md) — Google Geocoding service (`_geo_localize()`)
+- [Modules/website_crm](modules/website_crm.md) — Website CRM lead capture
+- [Modules/website_crm_iap_reveal](modules/website_crm_iap_reveal.md) — IP-based lead generation from website visits

@@ -30,7 +30,7 @@ Australia has a federal GST system (10% standard rate) with quarterly or monthly
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/account]] | Core accounting |
+| [Modules/account](modules/account.md) | Core accounting |
 
 ## Key Models
 
@@ -121,7 +121,7 @@ The module includes comprehensive BAS report templates:
 
 ## Related
 
-- [[Modules/account]] - Core accounting module
-- [[Modules/l10n_anz_ubl_pint]] - ANZ UBL PINT format for e-invoicing
+- [Modules/account](modules/account.md) - Core accounting module
+- [Modules/l10n_anz_ubl_pint](modules/l10n_anz_ubl_pint.md) - ANZ UBL PINT format for e-invoicing
 - [ATO](https://www.ato.gov.au)
 - [ABR](https://abr.business.gov.au)

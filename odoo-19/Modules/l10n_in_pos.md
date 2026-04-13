@@ -56,9 +56,9 @@ GST-registered company session handling.
 Indian rupee denomination bills.
 
 ## Related
-- [[Modules/l10n_in]] — Core Indian accounting
-- [[Modules/l10n_in_edi]] — Indian e-invoicing (e-Waybill)
-- [[Modules/l10n_in_purchase_stock]] — Indian purchase flow
-- [[Modules/l10n_in_sale]] — Indian sale flow
-- [[Modules/l10n_in_stock]] — Indian warehouse/inventory
-- [[Modules/point_of_sale]] — Base POS module
+- [Modules/l10n_in](modules/l10n_in.md) — Core Indian accounting
+- [Modules/l10n_in_edi](modules/l10n_in_edi.md) — Indian e-invoicing (e-Waybill)
+- [Modules/l10n_in_purchase_stock](modules/l10n_in_purchase_stock.md) — Indian purchase flow
+- [Modules/l10n_in_sale](modules/l10n_in_sale.md) — Indian sale flow
+- [Modules/l10n_in_stock](modules/l10n_in_stock.md) — Indian warehouse/inventory
+- [Modules/point_of_sale](modules/point_of_sale.md) — Base POS module

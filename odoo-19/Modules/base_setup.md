@@ -656,10 +656,10 @@ my_setting = fields.Boolean(
 
 ## Related Documentation
 
-- [[Core/BaseModel]] — TransientModel lifecycle and auto-cleanup behavior
-- [[Core/Fields]] — `config_parameter` attribute, `related` field pattern
-- [[Patterns/Security Patterns]] — group implication, access rights defaults
-- [[Modules/base]] — parent `res.config.settings` model from which base_setup inherits
+- [Core/BaseModel](core/basemodel.md) — TransientModel lifecycle and auto-cleanup behavior
+- [Core/Fields](core/fields.md) — `config_parameter` attribute, `related` field pattern
+- [Patterns/Security Patterns](patterns/security-patterns.md) — group implication, access rights defaults
+- [Modules/base](modules/base.md) — parent `res.config.settings` model from which base_setup inherits
 
 ---
 

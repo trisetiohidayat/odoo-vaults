@@ -34,5 +34,5 @@
 - `views/res_config_settings_views.xml` - Website settings form view
 
 ## Related
-- [[Modules/website_sale]] - Base eCommerce
-- [[Modules/website_mass_mailing]] - Mass mailing website integration
+- [Modules/website_sale](modules/website_sale.md) - Base eCommerce
+- [Modules/website_mass_mailing](modules/website_mass_mailing.md) - Mass mailing website integration

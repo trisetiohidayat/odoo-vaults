@@ -24,14 +24,14 @@ Employee lunch ordering and vendor management module. Enables employees to order
 
 | Model | `_name` | Summary |
 |---|---|---|
-| [[Modules/lunch#lunch-product]] | `lunch.product` | Menu items linked to a vendor |
-| [[Modules/lunch#lunch-product-category]] | `lunch.product.category` | Product groupings (pizza, sandwich, burger, etc.) |
-| [[Modules/lunch#lunch-order]] | `lunch.order` | Per-user/order-date line item |
-| [[Modules/lunch#lunch-topping]] | `lunch.topping` | Extras grouped by topping_category (1/2/3) |
-| [[Modules/lunch#lunch-supplier]] | `lunch.supplier` | Vendor with schedule, contacts, cron |
-| [[Modules/lunch#lunch-location]] | `lunch.location` | Delivery/pickup site |
-| [[Modules/lunch#lunch-cashmove]] | `lunch.cashmove` | Wallet credit/debit ledger |
-| [[Modules/lunch#lunch-alert]] | `lunch.alert` | In-app banners or chat notifications |
+| [Modules/lunch#lunch-product](modules/lunch#lunch-product.md) | `lunch.product` | Menu items linked to a vendor |
+| [Modules/lunch#lunch-product-category](modules/lunch#lunch-product-category.md) | `lunch.product.category` | Product groupings (pizza, sandwich, burger, etc.) |
+| [Modules/lunch#lunch-order](modules/lunch#lunch-order.md) | `lunch.order` | Per-user/order-date line item |
+| [Modules/lunch#lunch-topping](modules/lunch#lunch-topping.md) | `lunch.topping` | Extras grouped by topping_category (1/2/3) |
+| [Modules/lunch#lunch-supplier](modules/lunch#lunch-supplier.md) | `lunch.supplier` | Vendor with schedule, contacts, cron |
+| [Modules/lunch#lunch-location](modules/lunch#lunch-location.md) | `lunch.location` | Delivery/pickup site |
+| [Modules/lunch#lunch-cashmove](modules/lunch#lunch-cashmove.md) | `lunch.cashmove` | Wallet credit/debit ledger |
+| [Modules/lunch#lunch-alert](modules/lunch#lunch-alert.md) | `lunch.alert` | In-app banners or chat notifications |
 
 Extension models:
 - `res.company`: adds `lunch_minimum_threshold`, `lunch_notify_message`
@@ -675,7 +675,7 @@ Similarly, each `lunch.alert` with `mode='chat'` and `active=True` has a cron fo
 
 ## See Also
 
-- [[Modules/account]] — Monetary fields, currency
-- [[Core/API]] — `@api.depends`, computed fields
-- [[Patterns/Workflow Patterns]] — State machine design
-- [[Modules/Stock]] — Inventory valuation concepts
+- [Modules/account](modules/account.md) — Monetary fields, currency
+- [Core/API](core/api.md) — `@api.depends`, computed fields
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine design
+- [Modules/Stock](modules/stock.md) — Inventory valuation concepts

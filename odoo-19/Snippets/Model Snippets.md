@@ -106,8 +106,8 @@ def action_confirm(self):
 
 ## Related
 
-- [[Core/BaseModel]] - Model foundation
-- [[Core/Fields]] - Field types
-- [[Core/API]] - Decorators
-- [[Core/Exceptions]] - Validation
-- [[Patterns/Workflow Patterns]] - State transitions
+- [Core/BaseModel](core/basemodel.md) - Model foundation
+- [Core/Fields](core/fields.md) - Field types
+- [Core/API](core/api.md) - Decorators
+- [Core/Exceptions](core/exceptions.md) - Validation
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) - State transitions

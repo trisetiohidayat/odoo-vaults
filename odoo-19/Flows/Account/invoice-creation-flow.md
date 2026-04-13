@@ -12,12 +12,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/Account/invoice-post-flow]]"
-  - "[[Flows/Account/payment-flow]]"
-  - "[[Flows/Sale/quotation-to-sale-order-flow]]"
+  - "[Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md)"
+  - "[Flows/Account/payment-flow](flows/account/payment-flow.md)"
+  - "[Flows/Sale/quotation-to-sale-order-flow](flows/sale/quotation-to-sale-order-flow.md)"
 related_guides:
-  - "[[Business/Account/chart-of-accounts-guide]]"
-  - "[[Business/Sale/sales-process-guide]]"
+  - "[Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md)"
+  - "[Business/Sale/sales-process-guide](business/sale/sales-process-guide.md)"
 source_module: account
 source_path: ~/odoo/odoo19/odoo/addons/account/
 created: 2026-04-06
@@ -287,9 +287,9 @@ Posted Invoice (out_invoice)
 
 ## Related
 
-- [[Modules/Account]] — Account module reference
-- [[Modules/Sale]] — Sale module reference (SO invoice creation)
-- [[Flows/Account/invoice-post-flow]] — Next step: posting the invoice
-- [[Flows/Account/payment-flow]] — Payment registration after posting
-- [[Patterns/Workflow Patterns]] — Workflow pattern reference
-- [[Core/API]] — @api decorator patterns
+- [Modules/Account](modules/account.md) — Account module reference
+- [Modules/Sale](modules/sale.md) — Sale module reference (SO invoice creation)
+- [Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md) — Next step: posting the invoice
+- [Flows/Account/payment-flow](flows/account/payment-flow.md) — Payment registration after posting
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
+- [Core/API](core/api.md) — @api decorator patterns

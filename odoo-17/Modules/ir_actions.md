@@ -615,8 +615,8 @@ dom = expression.normalize_domain(dom)
 
 ## See Also
 
-- [[Patterns/Security Patterns]] — Record rules and ACLs
-- [[Core/BaseModel]] — ORM foundation
-- [[Core/API]] — @api.depends, @api.onchange
-- [[Modules/base]] — res.users, res.groups
-- [[Tools/ORM Operations]] — search/browse/create/write patterns
+- [Patterns/Security Patterns](patterns/security-patterns.md) — Record rules and ACLs
+- [Core/BaseModel](core/basemodel.md) — ORM foundation
+- [Core/API](core/api.md) — @api.depends, @api.onchange
+- [Modules/base](modules/base.md) — res.users, res.groups
+- [Tools/ORM Operations](tools/orm-operations.md) — search/browse/create/write patterns

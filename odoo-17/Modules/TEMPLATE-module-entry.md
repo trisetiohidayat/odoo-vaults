@@ -19,6 +19,6 @@ tags: [odoo, odoo17, module]
 ## Workflow
 
 ## See Also
-- [[Core/BaseModel]]
-- [[Core/Fields]]
-- [[Patterns/Workflow Patterns]]
+- [Core/BaseModel](core/basemodel.md)
+- [Core/Fields](core/fields.md)
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md)

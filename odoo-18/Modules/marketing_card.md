@@ -228,7 +228,7 @@ Extends the standard mail composer to replace generic card URLs with per-recipie
 
 ## See Also
 
-- [[Modules/Mass Mailing]] — `mass_mailing` base
-- [[Modules/Website]] — `website` base
-- [[Modules/Link Tracker]] — `link_tracker` for short URLs
-- [[New Features/What's New]] — Odoo 18 marketing_card changes
+- [Modules/Mass Mailing](modules/mass-mailing.md) — `mass_mailing` base
+- [Modules/Website](modules/website.md) — `website` base
+- [Modules/Link Tracker](modules/link-tracker.md) — `link_tracker` for short URLs
+- [New Features/What's New](new-features/what's-new.md) — Odoo 18 marketing_card changes

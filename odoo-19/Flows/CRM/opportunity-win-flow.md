@@ -279,11 +279,11 @@ def action_set_won_rainbow(self):
 
 ## Related
 
-- [[Flows/CRM/lead-creation-flow]] — Lead creation sources
-- [[Flows/CRM/lead-conversion-to-opportunity-flow]] — Lead → Opportunity conversion
-- [[Flows/CRM/lead-assignment-flow]] — Lead assignment
-- [[Modules/CRM]] — CRM module reference
-- [[Modules/Sale]] — Sale order confirmation and revenue
-- [[Modules/Account]] — Revenue recognition and journal entries
-- [[Patterns/Workflow Patterns]] — Pipeline stage patterns
-- [[Core/API]] — @api decorator patterns
+- [Flows/CRM/lead-creation-flow](flows/crm/lead-creation-flow.md) — Lead creation sources
+- [Flows/CRM/lead-conversion-to-opportunity-flow](flows/crm/lead-conversion-to-opportunity-flow.md) — Lead → Opportunity conversion
+- [Flows/CRM/lead-assignment-flow](flows/crm/lead-assignment-flow.md) — Lead assignment
+- [Modules/CRM](modules/crm.md) — CRM module reference
+- [Modules/Sale](modules/sale.md) — Sale order confirmation and revenue
+- [Modules/Account](modules/account.md) — Revenue recognition and journal entries
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Pipeline stage patterns
+- [Core/API](core/api.md) — @api decorator patterns

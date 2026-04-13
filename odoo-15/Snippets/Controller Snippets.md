@@ -232,6 +232,6 @@ class FormController(http.Controller):
 ```
 
 ## See Also
-- [[Core/HTTP Controller]] — HTTP controller reference
-- [[Core/Exceptions]] — Error handling
-- [[Patterns/Security Patterns]] — Auth types
+- [Core/HTTP Controller](core/http-controller.md) — HTTP controller reference
+- [Core/Exceptions](core/exceptions.md) — Error handling
+- [Patterns/Security Patterns](patterns/security-patterns.md) — Auth types

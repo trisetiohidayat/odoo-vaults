@@ -980,7 +980,7 @@ When a database is restored from backup or copied without neutralization:
 **File:** `account_peppol/models/account_edi_proxy_user.py`
 **Model:** `Account_Edi_Proxy_ClientUser` (extends `account_edi_proxy_client.user`)
 
-Adds Peppol-specific business logic. See [[Modules/account_peppol]] for full documentation.
+Adds Peppol-specific business logic. See [Modules/account_peppol](modules/account_peppol.md) for full documentation.
 
 Key additions:
 - `proxy_type` extended with `('peppol', 'PEPPOL')`
@@ -1263,10 +1263,10 @@ class MyFormatEdi(models.Model):
 
 ## Related Documentation
 
-- [[Modules/Account]] -- Invoice and journal entry management
-- [[Modules/account_peppol]] -- Peppol EDI format (extends proxy user)
-- [[Modules/account_edi_proxy_client]] -- Base proxy HTTP client and auth
-- [[Core/API]] -- `@api.depends`, `@api.model`, `@api.constrains`
-- [[Patterns/Workflow Patterns]] -- State machine patterns in Odoo
-- [[Tools/ORM Operations]] -- `search()`, `browse()`, `write()` with domain operators
-- [[New Features/API Changes]] -- Changes from Odoo 18 to 19
+- [Modules/Account](modules/account.md) -- Invoice and journal entry management
+- [Modules/account_peppol](modules/account_peppol.md) -- Peppol EDI format (extends proxy user)
+- [Modules/account_edi_proxy_client](modules/account_edi_proxy_client.md) -- Base proxy HTTP client and auth
+- [Core/API](core/api.md) -- `@api.depends`, `@api.model`, `@api.constrains`
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) -- State machine patterns in Odoo
+- [Tools/ORM Operations](tools/orm-operations.md) -- `search()`, `browse()`, `write()` with domain operators
+- [New Features/API Changes](new-features/api-changes.md) -- Changes from Odoo 18 to 19

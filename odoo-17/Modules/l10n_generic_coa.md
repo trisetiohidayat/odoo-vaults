@@ -91,6 +91,6 @@ The country module will replace or update the chart of accounts for companies in
 
 ## See Also
 
-- [[Modules/account]] — accounting framework and chart template system
-- [[Modules/l10n_us]] — US localization example
-- [[Modules/l10n_de]] — German localization (SKR03/SKR04)
+- [Modules/account](modules/account.md) — accounting framework and chart template system
+- [Modules/l10n_us](modules/l10n_us.md) — US localization example
+- [Modules/l10n_de](modules/l10n_de.md) — German localization (SKR03/SKR04)

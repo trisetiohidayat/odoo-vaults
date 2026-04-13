@@ -318,7 +318,7 @@ Questions with `triggering_answer_ids` are hidden until the triggering answer is
 ---
 
 ## See Also
-- [[Modules/portal]] — public survey access without login
-- [[Modules/mail]] — email notifications
-- [[Modules/gamification]] — badges and challenges for certifications
-- [[Modules/website_survey]] — public-facing survey pages
+- [Modules/portal](modules/portal.md) — public survey access without login
+- [Modules/mail](modules/mail.md) — email notifications
+- [Modules/gamification](modules/gamification.md) — badges and challenges for certifications
+- [Modules/website_survey](modules/website_survey.md) — public-facing survey pages

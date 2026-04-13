@@ -226,6 +226,6 @@ Detection based on method signature:
 - Auto-decorated with appropriate wrapper
 
 ## See Also
-- [[Core/BaseModel]] — Model definition
-- [[Core/Fields]] — Field types
-- [[Patterns/Workflow Patterns]] — State machine, action methods
+- [Core/BaseModel](core/basemodel.md) — Model definition
+- [Core/Fields](core/fields.md) — Field types
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine, action methods

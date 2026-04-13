@@ -7,7 +7,7 @@
 - **License**: LGPL-3
 - **Auto-install**: Yes
 
-Adds customer rating capabilities to the [[Modules/portal]] (customer portal). Integrates ratings directly into the portal's discuss/chatter widget, allowing portal users to see and submit ratings from the customer-facing interface.
+Adds customer rating capabilities to the [Modules/portal](modules/portal.md) (customer portal). Integrates ratings directly into the portal's discuss/chatter widget, allowing portal users to see and submit ratings from the customer-facing interface.
 
 ## Models
 
@@ -51,6 +51,6 @@ Adds customer rating capabilities to the [[Modules/portal]] (customer portal). I
 
 ## Related
 
-- [[Modules/rating]] — Core rating framework (rating mixin, parent rating).
-- [[Modules/portal]] — Portal customer access and chatter.
-- [[Modules/mail]] — Message/thread system.
+- [Modules/rating](modules/rating.md) — Core rating framework (rating mixin, parent rating).
+- [Modules/portal](modules/portal.md) — Portal customer access and chatter.
+- [Modules/mail](modules/mail.md) — Message/thread system.

@@ -19,7 +19,7 @@ created: 2026-04-06
 ## Description
 DIN 5008 document layout for repair orders.
 
-Extends [[Modules/l10n_din5008]] with repair-specific QWeb report templates following the DIN 5008 standard.
+Extends [Modules/l10n_din5008](modules/l10n_din5008.md) with repair-specific QWeb report templates following the DIN 5008 standard.
 
 ## Dependencies
 | Module | Purpose |
@@ -33,8 +33,8 @@ Extends [[Modules/l10n_din5008]] with repair-specific QWeb report templates foll
 - Custom model files: repair.py
 
 ## Related
-- [[Modules/l10n_din5008]] — Base DIN 5008 layout
-- [[Modules/l10n_din5008_sale]] — Sale order layout
-- [[Modules/l10n_din5008_purchase]] — Purchase order layout
-- [[Modules/l10n_din5008_expense]] — Expense report layout
-- [[Modules/l10n_din5008_stock]] — Stock delivery order layout
+- [Modules/l10n_din5008](modules/l10n_din5008.md) — Base DIN 5008 layout
+- [Modules/l10n_din5008_sale](modules/l10n_din5008_sale.md) — Sale order layout
+- [Modules/l10n_din5008_purchase](modules/l10n_din5008_purchase.md) — Purchase order layout
+- [Modules/l10n_din5008_expense](modules/l10n_din5008_expense.md) — Expense report layout
+- [Modules/l10n_din5008_stock](modules/l10n_din5008_stock.md) — Stock delivery order layout

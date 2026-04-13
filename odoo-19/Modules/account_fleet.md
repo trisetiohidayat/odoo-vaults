@@ -83,4 +83,4 @@ Links **fleet management** with accounting. Tracks vehicle costs through vendor 
 
 ## Related
 
-[[Account.md]], [[Fleet.md]]
+[Account.md](account.md.md), [Fleet.md](fleet.md.md)

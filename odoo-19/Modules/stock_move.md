@@ -893,9 +893,9 @@ The `_prepare_procurement_values()` method builds the dictionary passed to `stoc
 
 ## Related Documentation
 
-- [[Modules/Stock]] -- Overview of the stock module and other stock models
-- [[Modules/stock_quant]] -- The `stock.quant` model and inventory tracking
-- [[Modules/stock_picking]] -- The `stock.picking` model and transfer operations
-- [[Modules/stock_location]] -- Warehouse locations and location types
-- [[Core/API]] -- Odoo ORM decorators (@api.depends, @api.model, etc.) used extensively in this model
-- [[Patterns/Workflow Patterns]] -- State machine patterns used in stock moves
+- [Modules/Stock](modules/stock.md) -- Overview of the stock module and other stock models
+- [Modules/stock_quant](modules/stock_quant.md) -- The `stock.quant` model and inventory tracking
+- [Modules/stock_picking](modules/stock_picking.md) -- The `stock.picking` model and transfer operations
+- [Modules/stock_location](modules/stock_location.md) -- Warehouse locations and location types
+- [Core/API](core/api.md) -- Odoo ORM decorators (@api.depends, @api.model, etc.) used extensively in this model
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) -- State machine patterns used in stock moves

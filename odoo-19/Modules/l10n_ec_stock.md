@@ -20,14 +20,14 @@ created: 2026-04-06
 
 ## Description
 
-Ecuador Stock module extends the base Ecuadorian accounting localization (`l10n_ec`) with stock/inventory-specific configurations. Integrates Ecuadorian chart of accounts with [[Modules/Stock]] module inventory valuation.
+Ecuador Stock module extends the base Ecuadorian accounting localization (`l10n_ec`) with stock/inventory-specific configurations. Integrates Ecuadorian chart of accounts with [Modules/Stock](modules/stock.md) module inventory valuation.
 
 ## Dependencies
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/l10n_ec]] | Ecuadorian accounting base |
-| [[Modules/Stock]] | Inventory management module |
+| [Modules/l10n_ec](modules/l10n_ec.md) | Ecuadorian accounting base |
+| [Modules/Stock](modules/stock.md) | Inventory management module |
 
 ## Key Components
 
@@ -79,8 +79,8 @@ Automatically configures the sale journal with SRI emission details:
 `_post_load_data()` - After loading template data, sets the default account on purchase journal based on expense category template data.
 
 ## Related Modules
-- [[Modules/l10n_ec]] - Core Ecuadorian accounting
-- [[Modules/l10n_ec_sale]] - Ecuador sale extensions
-- [[Modules/l10n_ec_stock]] - Ecuador stock (this module)
-- [[Modules/Stock]] - Inventory management
-- [[Modules/Account]] - Core accounting
+- [Modules/l10n_ec](modules/l10n_ec.md) - Core Ecuadorian accounting
+- [Modules/l10n_ec_sale](modules/l10n_ec_sale.md) - Ecuador sale extensions
+- [Modules/l10n_ec_stock](modules/l10n_ec_stock.md) - Ecuador stock (this module)
+- [Modules/Stock](modules/stock.md) - Inventory management
+- [Modules/Account](modules/account.md) - Core accounting

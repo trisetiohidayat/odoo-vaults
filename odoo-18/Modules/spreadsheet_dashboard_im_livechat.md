@@ -22,7 +22,7 @@ Provides a `spreadsheet.dashboard` record for live chat metrics. Uses `im_livech
 
 ## Extends
 
-- [[Modules/spreadsheet_dashboard]] — base dashboard framework
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — base dashboard framework
 - `im_livechat` — live chat channel tracking
 
 ## Data
@@ -39,4 +39,4 @@ Provides a `spreadsheet.dashboard` record for live chat metrics. Uses `im_livech
 
 ---
 
-*See also: [[Modules/spreadsheet_dashboard]]*
+*See also: [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md)*

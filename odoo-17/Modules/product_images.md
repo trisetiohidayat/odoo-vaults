@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, product-images]
 
 
 
-- [[Modules/product]] — Product extension
+- [Modules/product](modules/product.md) — Product extension

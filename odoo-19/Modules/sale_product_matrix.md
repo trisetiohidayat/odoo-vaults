@@ -687,7 +687,7 @@ The demo product "My Company T-Shirt" is configured to use matrix mode by defaul
 
 ## See Also
 
-- [[Modules/sale]] — Base Sale module (sale.order, sale.order.line)
-- [[Modules/product_matrix]] — Technical matrix module (grid computation, OWL dialog, QWeb templates)
-- [[Modules/sale_product_configurator]] — Standard product configurator frontend
-- [[Modules/purchase_product_matrix]] — Analogous purchase order matrix (no `product_add_mode` gating)
+- [Modules/sale](modules/sale.md) — Base Sale module (sale.order, sale.order.line)
+- [Modules/product_matrix](modules/product_matrix.md) — Technical matrix module (grid computation, OWL dialog, QWeb templates)
+- [Modules/sale_product_configurator](modules/sale_product_configurator.md) — Standard product configurator frontend
+- [Modules/purchase_product_matrix](modules/purchase_product_matrix.md) — Analogous purchase order matrix (no `product_add_mode` gating)

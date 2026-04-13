@@ -71,5 +71,5 @@ class MyController(http.Controller):
 ---
 
 ## Related Links
-- [[Core/HTTP Controller]] — Full controller reference
-- [[Snippets/Model Snippets]] — Model templates
+- [Core/HTTP Controller](core/http-controller.md) — Full controller reference
+- [Snippets/Model Snippets](snippets/model-snippets.md) — Model templates

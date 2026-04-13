@@ -11,12 +11,12 @@ Tags: #odoo18 #l10n #accounting
 Slovakia accounting localization. Provides Slovak chart of accounts (2020), tax structure, and company-specific fields (trade registry, income tax ID). Uses Storno accounting and 6-digit codes. Slovak module version 1.0, authored by 26HOUSE.
 
 ## Country
-[[Modules/Account|Slovakia]] 🇸🇰
+[Slovakia](modules/account.md) 🇸🇰
 
 ## Dependencies
 - base_iban
 - base_vat
-- [[Core/BaseModel|account]]
+- [account](core/basemodel.md)
 
 ## Key Models
 
@@ -36,7 +36,7 @@ Slovakia accounting localization. Provides Slovak chart of accounts (2020), tax 
 
 ### AccountMove
 `models/account_move.py` — extends `account.move`
-- Adds no new fields — inherits standard [[Core/BaseModel|account.move]] with Slovak fiscal country enabled
+- Adds no new fields — inherits standard [account.move](core/basemodel.md) with Slovak fiscal country enabled
 
 ## Data Files
 - `data/template/` — Slovak chart of accounts CSV

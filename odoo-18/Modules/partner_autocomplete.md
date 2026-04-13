@@ -145,7 +145,7 @@ Converts IAP response location data (country codes, state codes) to Odoo `res.co
 def _iap_replace_location_codes(self, iap_data):
     # country_code, country_name → res.country
     if country_code := iap_data.pop('country_code', False):
-        country = self.env['res.country'].search([['code', '=ilike', country_code]])
+        country = self.env['res.country'].search(['code', '=ilike', country_code]('code',-'=ilike',-country_code.md))
 
     # state_code, state_name → res.country.state
     if state_code := iap_data.pop('state_code', False):

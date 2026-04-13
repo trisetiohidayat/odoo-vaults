@@ -518,9 +518,9 @@ website_timesheet/
 
 ## See Also
 
-- [[Modules/hr_timesheet]] — Core timesheet model (`account.analytic.line`), portal controller, and the base `_show_portal_timesheets()` stub returning `True`
-- [[Modules/project]] — Project and task models (`project.project`, `project.task`) that provide the `allow_timesheets` flag consumed in portal templates
-- [[Modules/sale_timesheet]] — Consumed via `sale_timesheet_portal_templates.xml` which also gates its "View Timesheets" button on `_show_portal_timesheets()`
-- [[Modules/sale_project]] — Sale-Project bridge; SOL → project/task generation; timesheets linked to SOLs for billing
-- [[Patterns/Security Patterns]] — ACL design, ir.rule, record-level access
-- [[Core/Fields]] — `ir.ui.view` model and the `key` + `active` + `inherit_id` fields
+- [Modules/hr_timesheet](modules/hr_timesheet.md) — Core timesheet model (`account.analytic.line`), portal controller, and the base `_show_portal_timesheets()` stub returning `True`
+- [Modules/project](modules/project.md) — Project and task models (`project.project`, `project.task`) that provide the `allow_timesheets` flag consumed in portal templates
+- [Modules/sale_timesheet](modules/sale_timesheet.md) — Consumed via `sale_timesheet_portal_templates.xml` which also gates its "View Timesheets" button on `_show_portal_timesheets()`
+- [Modules/sale_project](modules/sale_project.md) — Sale-Project bridge; SOL → project/task generation; timesheets linked to SOLs for billing
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL design, ir.rule, record-level access
+- [Core/Fields](core/fields.md) — `ir.ui.view` model and the `key` + `active` + `inherit_id` fields

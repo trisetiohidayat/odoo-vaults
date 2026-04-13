@@ -25,5 +25,5 @@ Enables withholding tax on payment for POS transactions. Loads the `is_withholdi
 **`_load_pos_data_fields()`** — EXTENDS `account`. Adds `is_withholding_tax_on_payment` to the POS session data fields, enabling the POS frontend to determine which taxes require withholding during payment processing.
 
 ## Related
-- [[Modules/l10n_account_withholding_tax]] — Core withholding tax framework
-- [[Modules/point_of_sale]] — Base POS module
+- [Modules/l10n_account_withholding_tax](modules/l10n_account_withholding_tax.md) — Core withholding tax framework
+- [Modules/point_of_sale](modules/point_of_sale.md) — Base POS module

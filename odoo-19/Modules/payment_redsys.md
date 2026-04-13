@@ -286,7 +286,7 @@ Both routes verify the same HMAC signature. The return is a GET request (custome
 
 ## Related
 
-- [[Modules/payment]] — Base payment module
-- [[Modules/payment_buckaroo]] — Buckaroo (EU)
-- [[Modules/payment_aps]] — Amazon Payment Services (MENA)
-- [[Modules/payment_stripe]] — Stripe
+- [Modules/payment](modules/payment.md) — Base payment module
+- [Modules/payment_buckaroo](modules/payment_buckaroo.md) — Buckaroo (EU)
+- [Modules/payment_aps](modules/payment_aps.md) — Amazon Payment Services (MENA)
+- [Modules/payment_stripe](modules/payment_stripe.md) — Stripe

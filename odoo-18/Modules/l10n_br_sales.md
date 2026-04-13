@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #brazil #sales
 # l10n_br_sales — Brazil Sale Bridge
 
 ## Overview
-Bridge module connecting [[Modules/l10n_br]] with the `sale` module. Adds Brazilian-specific views and portal templates for sale orders and invoices. Auto-installs with sale and l10n_br.
+Bridge module connecting [Modules/l10n_br](modules/l10n_br.md) with the `sale` module. Adds Brazilian-specific views and portal templates for sale orders and invoices. Auto-installs with sale and l10n_br.
 
 ## Country/Region
 Brazil (BR)

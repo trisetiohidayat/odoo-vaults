@@ -16,10 +16,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/HR/employee-creation-flow]]"
-  - "[[Flows/HR/contract-lifecycle-flow]]"
+  - "[Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md)"
+  - "[Flows/HR/contract-lifecycle-flow](flows/hr/contract-lifecycle-flow.md)"
 related_guides:
-  - "[[Modules/HR]]"
+  - "[Modules/HR](modules/hr.md)"
 source_module: hr_recruitment
 source_path: ~/odoo/odoo19/odoo/addons/hr_recruitment/
 created: 2026-04-07
@@ -179,7 +179,7 @@ Application Received (hr.applicant created)
 └─► Offer accepted?
    ├─► YES → action_set_hired()
    │          └─► hr.employee created from applicant data
-   │                 └─► Proceed to [[Flows/HR/contract-lifecycle-flow]]
+   │                 └─► Proceed to [Flows/HR/contract-lifecycle-flow](flows/hr/contract-lifecycle-flow.md)
    │
    └─► NO → action_set_refuse() → refused stage
 ```
@@ -384,9 +384,9 @@ def create_employee_from_applicant(self):
 
 ## Related
 
-- [[Modules/HR]] — HR module reference
-- [[Flows/HR/employee-creation-flow]] — Employee creation (called from hire action)
-- [[Flows/HR/contract-lifecycle-flow]] — Contract creation after hire
-- [[Flows/Base/mail-notification-flow]] — Email notification mechanics
-- [[Core/API]] — @api.depends, @api.onchange decorator patterns
-- [[Patterns/Workflow Patterns]] — State machine pattern via hr.recruitment.stage
+- [Modules/HR](modules/hr.md) — HR module reference
+- [Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md) — Employee creation (called from hire action)
+- [Flows/HR/contract-lifecycle-flow](flows/hr/contract-lifecycle-flow.md) — Contract creation after hire
+- [Flows/Base/mail-notification-flow](flows/base/mail-notification-flow.md) — Email notification mechanics
+- [Core/API](core/api.md) — @api.depends, @api.onchange decorator patterns
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine pattern via hr.recruitment.stage

@@ -42,4 +42,4 @@ Set the payment reference type from the Sales Journal.
 - Custom model files: template_fi.py, account_move.py, account_journal.py, res_partner.py
 
 ## Related
-- [[Modules/l10n_fi]] - Core accounting
+- [Modules/l10n_fi](modules/l10n_fi.md) - Core accounting

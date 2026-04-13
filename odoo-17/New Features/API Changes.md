@@ -33,5 +33,5 @@ No major breaking changes in `@api` decorators. Odoo 17 continues to use:
 Check `~/odoo/odoo17/odoo/odoo/modules/deprecation.py` for deprecation warnings.
 
 ## See Also
-- [[New Features/What's New]] — Overview
-- [[Core/API]] — Decorator reference
+- [New Features/What's New](new-features/what's-new.md) — Overview
+- [Core/API](core/api.md) — Decorator reference

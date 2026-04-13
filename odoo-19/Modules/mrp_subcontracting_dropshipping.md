@@ -542,9 +542,9 @@ Key changes relevant to this module in the Odoo 18→19 transition:
 
 ## Related Modules
 
-- [[Modules/mrp_subcontracting]] — Core subcontracting MO management; this module is the direct parent
-- [[Modules/stock_dropshipping]] — Core dropship routing; provides `route_drop_shipping` and dropship rule logic
-- [[Modules/mrp_subcontracting_purchase]] — Subcontracting PO to subcontractor (no dropship)
-- [[Modules/mrp_subcontracting_account]] — Subcontracting valuation and bill processing
-- [[Modules/Stock]] — `stock.move`, `stock.picking`, `stock.rule`, `stock.warehouse`, `stock.location`
-- [[Modules/Purchase]] — `purchase.order`, `purchase.order.line`
+- [Modules/mrp_subcontracting](modules/mrp_subcontracting.md) — Core subcontracting MO management; this module is the direct parent
+- [Modules/stock_dropshipping](modules/stock_dropshipping.md) — Core dropship routing; provides `route_drop_shipping` and dropship rule logic
+- [Modules/mrp_subcontracting_purchase](modules/mrp_subcontracting_purchase.md) — Subcontracting PO to subcontractor (no dropship)
+- [Modules/mrp_subcontracting_account](modules/mrp_subcontracting_account.md) — Subcontracting valuation and bill processing
+- [Modules/Stock](modules/stock.md) — `stock.move`, `stock.picking`, `stock.rule`, `stock.warehouse`, `stock.location`
+- [Modules/Purchase](modules/purchase.md) — `purchase.order`, `purchase.order.line`

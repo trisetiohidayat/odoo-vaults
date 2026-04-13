@@ -149,7 +149,7 @@ Accessed from:
 - The `to_delete` flag marks records for garbage collection instead of immediate deletion, avoiding race conditions with in-flight webhooks
 
 ## See Also
-- [[Modules/mail]] — Email vs SMS, `mail.thread` SMS capability
+- [Modules/mail](modules/mail.md) — Email vs SMS, `mail.thread` SMS capability
 - `calendar_sms` — SMS reminders for calendar events
 - `sms_twilio` — Twilio-specific SMS provider addon
 - `phone_numbers` / `phone_validation` — Phone number formatting and validation

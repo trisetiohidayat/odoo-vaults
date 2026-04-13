@@ -56,7 +56,7 @@ class MyModel(models.Model):
 - `@api.returns('model')` — Returns model or id+model pair
 
 ## See Also
-- [[Core/API]] — Decorator details
-- [[Core/Fields]] — Field types
-- [[Tools/ORM Operations]] — Domain operators
-- [[Patterns/Inheritance Patterns]] — _inherit vs _inherits
+- [Core/API](core/api.md) — Decorator details
+- [Core/Fields](core/fields.md) — Field types
+- [Tools/ORM Operations](tools/orm-operations.md) — Domain operators
+- [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) — _inherit vs _inherits

@@ -34,8 +34,8 @@ This module provides Serbian e-invoice compliance through the **eFaktura** syste
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/account_edi_ubl_cii]] | UBL/CII EDI framework |
-| [[Modules/l10n_rs]] | Serbian base accounting |
+| [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md) | UBL/CII EDI framework |
+| [Modules/l10n_rs](modules/l10n_rs.md) | Serbian base accounting |
 
 ## Auto-Install
 
@@ -57,11 +57,11 @@ Inherits from `account.edi.xml.ubl_21`.
 
 ### `account.move` Fields
 
-Extends [[account.move]] with Serbian EDI fields.
+Extends [account.move](account.move.md) with Serbian EDI fields.
 
 ### `res.partner` Fields
 
-Extends [[Modules/res.partner]] with Serbian EDI fields:
+Extends [Modules/res.partner](modules/res.partner.md) with Serbian EDI fields:
 
 ```python
 # Public funds identifier (JBKJS - Jedinstveni biro konstante računa)
@@ -126,8 +126,8 @@ For Serbian invoices, the `InvoicePeriod` node includes a `DescriptionCode`:
 
 | Module | Relationship |
 |--------|-------------|
-| [[Modules/l10n_rs]] | Base Serbian accounting |
-| [[Modules/account_edi_ubl_cii]] | UBL/CII framework |
+| [Modules/l10n_rs](modules/l10n_rs.md) | Base Serbian accounting |
+| [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md) | UBL/CII framework |
 
 ## Configuration
 
@@ -149,4 +149,4 @@ For Serbian invoices, the `InvoicePeriod` node includes a `DescriptionCode`:
 
 ## See Also
 
-- [[Modules/l10n_rs]] - Serbian accounting
+- [Modules/l10n_rs](modules/l10n_rs.md) - Serbian accounting

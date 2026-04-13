@@ -35,7 +35,7 @@ Malta basic package containing chart of accounts, taxes, and tax reports. Suppor
 - Demo data: `demo/demo_company.xml`
 
 ## Related
-- [[Modules/account]]
-- [[Modules/account_edi_ubl_cii]]
-- [[Modules/base_vat]]
-- [[Modules/l10n_mt_pos]]
+- [Modules/account](modules/account.md)
+- [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md)
+- [Modules/base_vat](modules/base_vat.md)
+- [Modules/l10n_mt_pos](modules/l10n_mt_pos.md)

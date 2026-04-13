@@ -12,10 +12,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/HR/employee-creation-flow]]"
-  - "[[Flows/Base/resource-attendance-flow]]"
+  - "[Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md)"
+  - "[Flows/Base/resource-attendance-flow](flows/base/resource-attendance-flow.md)"
 related_guides:
-  - "[[Business/HR/leave-management-guide]]"
+  - "[Business/HR/leave-management-guide](business/hr/leave-management-guide.md)"
 source_module: hr_attendance
 source_path: ~/odoo/odoo19/odoo/addons/hr_attendance/
 created: 2026-04-07
@@ -281,9 +281,9 @@ def _attendance_action_change(self):
 
 ## Related
 
-- [[Modules/HR]] — HR module reference
-- [[Modules/resource]] — resource.resource, resource.calendar
-- [[Flows/HR/employee-creation-flow]] — Employee creation
-- [[Flows/Base/resource-attendance-flow]] — Resource attendance base
-- [[Patterns/Workflow Patterns]] — Workflow pattern reference
-- [[Core/API]] — @api decorator patterns
+- [Modules/HR](modules/hr.md) — HR module reference
+- [Modules/resource](modules/resource.md) — resource.resource, resource.calendar
+- [Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md) — Employee creation
+- [Flows/Base/resource-attendance-flow](flows/base/resource-attendance-flow.md) — Resource attendance base
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
+- [Core/API](core/api.md) — @api decorator patterns

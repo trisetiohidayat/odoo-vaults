@@ -14,7 +14,7 @@ State machine implementation for business processes in Odoo 19. This guide cover
 
 **Key principle:** Transitions are controlled by **explicit `action_*()` methods** that validate before writing to the `state` field.
 
-> **📖 Deep Dive:** Untuk method chain lengkap dengan branching, lihat [[Flows/TEMPLATE-flow]].
+> **📖 Deep Dive:** Untuk method chain lengkap dengan branching, lihat [Flows/TEMPLATE-flow](flows/template-flow.md).
 
 ---
 
@@ -471,9 +471,9 @@ END: [Result / Return value]
 
 ## Related
 
-- [[Flows/TEMPLATE-flow]] — Full flow document template with branching
-- [[Core/API]] — @api.depends, @api.onchange decorator patterns
-- [[Core/BaseModel]] — Model foundation, inheritance
-- [[Core/Exceptions]] — UserError, ValidationError, AccessError
-- [[Patterns/Security Patterns]] — State-based access control
-- [[Snippets/method-chain-example]] — Method chain notation reference
+- [Flows/TEMPLATE-flow](flows/template-flow.md) — Full flow document template with branching
+- [Core/API](core/api.md) — @api.depends, @api.onchange decorator patterns
+- [Core/BaseModel](core/basemodel.md) — Model foundation, inheritance
+- [Core/Exceptions](core/exceptions.md) — UserError, ValidationError, AccessError
+- [Patterns/Security Patterns](patterns/security-patterns.md) — State-based access control
+- [Snippets/method-chain-example](snippets/method-chain-example.md) — Method chain notation reference

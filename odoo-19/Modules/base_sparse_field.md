@@ -618,7 +618,7 @@ Reads `serialization_field_id` from field metadata row and sets `attrs['sparse']
 
 ## Related
 
-- [[Core/Fields]] — Field types reference (Char, Integer, Many2one, Serialized)
-- [[Core/API]] — `@api.depends` and computed field patterns
-- [[Core/BaseModel]] — ORM foundation, `_inherit`, recordset behavior
-- [[Tools/ORM Operations]] — `search()`, `write()`, domain operators
+- [Core/Fields](core/fields.md) — Field types reference (Char, Integer, Many2one, Serialized)
+- [Core/API](core/api.md) — `@api.depends` and computed field patterns
+- [Core/BaseModel](core/basemodel.md) — ORM foundation, `_inherit`, recordset behavior
+- [Tools/ORM Operations](tools/orm-operations.md) — `search()`, `write()`, domain operators

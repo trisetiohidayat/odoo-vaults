@@ -36,6 +36,6 @@ tags: [odoo, odoo17, guide]
 
 ## See Also
 
-- [[Modules/account]]
-- [[Modules/purchase]]
-- [[Modules/sale]]
+- [Modules/account](modules/account.md)
+- [Modules/purchase](modules/purchase.md)
+- [Modules/sale](modules/sale.md)

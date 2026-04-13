@@ -3,7 +3,7 @@ Module: google_recaptcha
 Version: Odoo 18
 Type: Integration
 Tags: #odoo18, #integration, #security, #recaptcha
-Related: [[Core/API]], [[Modules/Mail]], [[Modules/Web]]
+Related: [Core/API](core/api.md), [Modules/Mail](modules/mail.md), [Modules/Web](modules/web.md)
 ---
 
 # Google reCAPTCHA Integration (`google_recaptcha`)

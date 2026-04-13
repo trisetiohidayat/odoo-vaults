@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, delivery-mondialrelay]
 
 
 
-- [[Modules/stock]]
+- [Modules/stock](modules/stock.md)

@@ -832,10 +832,10 @@ class MyModel(models.Model):
 
 ## Related Documentation
 
-- [[Core/API]] — @api.model, @api.depends decorators, name_create context
-- [[Tools/ORM Operations]] — search(), browse(), load() methods
-- [[Patterns/Inheritance Patterns]] — Extending base_import for custom formats
-- [[New Features/What's New]] — Odoo 19 OWL import UI changes
+- [Core/API](core/api.md) — @api.model, @api.depends decorators, name_create context
+- [Tools/ORM Operations](tools/orm-operations.md) — search(), browse(), load() methods
+- [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) — Extending base_import for custom formats
+- [New Features/What's New](new-features/what's-new.md) — Odoo 19 OWL import UI changes
 
 ## Tags
 

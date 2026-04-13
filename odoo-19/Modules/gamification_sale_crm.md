@@ -39,8 +39,8 @@ gamification_sale_crm
 ### Module Philosophy
 
 gamification_sale_crm bridges two worlds:
-1. **[[Modules/gamification]]** — provides the goal/challenge/badge engine (scheduled goals, ranking, reporting, rewards)
-2. **[[Modules/CRM]] + [[Modules/Sale]] + [[Modules/Account]]** — provide the source-of-truth business records (leads, orders, invoices)
+1. **[Modules/gamification](modules/gamification.md)** — provides the goal/challenge/badge engine (scheduled goals, ranking, reporting, rewards)
+2. **[Modules/CRM](modules/crm.md) + [Modules/Sale](modules/sale.md) + [Modules/Account](modules/account.md)** — provide the source-of-truth business records (leads, orders, invoices)
 
 Without gamification_sale_crm, the gamification framework has no CRM-specific KPIs to score. Without gamification, sale_crm has no motivation layer.
 
@@ -555,10 +555,10 @@ The module's performance impact is dominated by the `account.invoice.report` vie
 
 ## See Also
 
-- [[Modules/gamification]] — Base gamification framework (challenges, goals, badges, karma)
-- [[Modules/crm]] — `crm.lead` model and pipeline management
-- [[Modules/Sale]] — `sale.order` confirmation flow
-- [[Modules/Account]] — `account.move` and invoice reporting
-- [[Modules/sale_crm]] — Links sale orders to CRM leads/opportunities
-- [[Modules/gamification]] — HR-specific gamification goals
-- [[Modules/gamification]] — Gamification overview module
+- [Modules/gamification](modules/gamification.md) — Base gamification framework (challenges, goals, badges, karma)
+- [Modules/crm](modules/crm.md) — `crm.lead` model and pipeline management
+- [Modules/Sale](modules/sale.md) — `sale.order` confirmation flow
+- [Modules/Account](modules/account.md) — `account.move` and invoice reporting
+- [Modules/sale_crm](modules/sale_crm.md) — Links sale orders to CRM leads/opportunities
+- [Modules/gamification](modules/gamification.md) — HR-specific gamification goals
+- [Modules/gamification](modules/gamification.md) — Gamification overview module

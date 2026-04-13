@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #pos #indonesia
 # l10n_id_pos — Indonesian Point of Sale
 
 ## Overview
-Indonesian POS extension adding QRIS payment verification support to the Point of Sale module. Works in conjunction with [[Modules/l10n_id]] to enable QRIS-based payment and order tracking at POS terminals.
+Indonesian POS extension adding QRIS payment verification support to the Point of Sale module. Works in conjunction with [Modules/l10n_id](modules/l10n_id.md) to enable QRIS-based payment and order tracking at POS terminals.
 
 ## Country
 Indonesia
@@ -34,7 +34,7 @@ Indonesia
 - Extends the QRIS transaction model from base `l10n_id` for POS-specific usage (pos.order linkage)
 
 ## Data Files
-No separate data files — inherits all QRIS data structures from [[Modules/l10n_id]].
+No separate data files — inherits all QRIS data structures from [Modules/l10n_id](modules/l10n_id.md).
 
 ## QRIS POS Flow
 1. POS order payment via QRIS method → transaction UUID recorded
@@ -46,4 +46,4 @@ No separate data files — inherits all QRIS data structures from [[Modules/l10n
 Auto-installs with its dependencies. Part of the Indonesian POS stack: `l10n_id` + `point_of_sale` + `l10n_id_pos`.
 
 ## Historical Notes
-Version 1.0 in Odoo 18. Extends the QRIS payment mechanism from [[Modules/l10n_id]] into the POS workflow.
+Version 1.0 in Odoo 18. Extends the QRIS payment mechanism from [Modules/l10n_id](modules/l10n_id.md) into the POS workflow.

@@ -25,7 +25,7 @@ description: Links product templates to email templates, automatically sending p
 | Auto-install    | No                                                         |
 | Installable     | Yes                                                        |
 
-**Purpose:** Links [[product.template]] records to [[mail.template]] records so that when a **customer invoice** (`out_invoice`) is validated (posted via `_post()`), an email is dispatched to the customer for each invoice line whose product has a template assigned. Intended for sending product-specific materials, agendas, access credentials, or documentation automatically at invoice posting.
+**Purpose:** Links [product.template](product.template.md) records to [mail.template](mail.template.md) records so that when a **customer invoice** (`out_invoice`) is validated (posted via `_post()`), an email is dispatched to the customer for each invoice line whose product has a template assigned. Intended for sending product-specific materials, agendas, access credentials, or documentation automatically at invoice posting.
 
 ---
 
@@ -522,8 +522,8 @@ invoice.with_user(pub_user).sudo().action_post()
 
 ## See Also
 
-- [[Modules/account]] — `account.move` base model, `_post()` lifecycle
-- [[Modules/mail]] — `mail.template`, `message_post_with_source`, `mail.render.mixin`
-- [[Modules/product]] — `product.template`, `product.product` delegation chain
-- [[Core/API]] — `@api.model`, `@api.depends` patterns for similar override patterns
-- [[Patterns/Workflow Patterns]] — `_post` state machine override pattern
+- [Modules/account](modules/account.md) — `account.move` base model, `_post()` lifecycle
+- [Modules/mail](modules/mail.md) — `mail.template`, `message_post_with_source`, `mail.render.mixin`
+- [Modules/product](modules/product.md) — `product.template`, `product.product` delegation chain
+- [Core/API](core/api.md) — `@api.model`, `@api.depends` patterns for similar override patterns
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — `_post` state machine override pattern

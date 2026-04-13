@@ -11,7 +11,7 @@ Tags: #odoo18 #l10n #accounting #stock
 Italian localization extension that adds the *Documento di Trasporto* (DDT) — Transport Document. Italy requires a DDT whenever goods are physically transferred between parties. The DDT legitimizes transport (e.g., police checks) and must accompany shipments. This module generates a separate DDT number sequence per warehouse/outgoing picking type, attaches transport metadata, links DDTs to invoices for FatturaPA XML export, and provides a printable DDT report.
 
 ## Country
-[[Modules/Account|Italy]] 🇮🇹
+[Italy](modules/account.md) 🇮🇹
 
 ## Dependencies
 - l10n_it_edi

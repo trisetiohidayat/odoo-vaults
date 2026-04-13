@@ -745,8 +745,8 @@ The split context only controls SOL merging behavior in the base reinvoice engin
 
 ## See Also
 
-- [[Modules/sale]] — Base sale module (reinvoice engine: `_sale_*` methods on `account.move.line`)
-- [[Modules/hr_expense]] — Employee expense management (base `hr.expense` model)
-- [[Modules/sale_management]] — Sales management wrapper (depends chain)
-- [[Core/API]] — `@api.depends`, `@api.onchange`, `@api.model` decorator patterns
-- [[Patterns/Workflow Patterns]] — State machine and action button patterns
+- [Modules/sale](modules/sale.md) — Base sale module (reinvoice engine: `_sale_*` methods on `account.move.line`)
+- [Modules/hr_expense](modules/hr_expense.md) — Employee expense management (base `hr.expense` model)
+- [Modules/sale_management](modules/sale_management.md) — Sales management wrapper (depends chain)
+- [Core/API](core/api.md) — `@api.depends`, `@api.onchange`, `@api.model` decorator patterns
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine and action button patterns

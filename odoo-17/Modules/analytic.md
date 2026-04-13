@@ -149,7 +149,7 @@ applicability = fields.Selection([
 ```
 
 ## See Also
-- [[Modules/Account]] — Journal entries with `analytic_distribution`
-- [[Modules/Stock Account]] — Stock move analytic lines
-- [[Modules/Purchase]] — Purchase order analytic distribution
-- [[Modules/Sale]] — Sale order analytic distribution
+- [Modules/Account](modules/account.md) — Journal entries with `analytic_distribution`
+- [Modules/Stock Account](modules/stock-account.md) — Stock move analytic lines
+- [Modules/Purchase](modules/purchase.md) — Purchase order analytic distribution
+- [Modules/Sale](modules/sale.md) — Sale order analytic distribution

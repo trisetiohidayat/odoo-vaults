@@ -338,11 +338,11 @@ Notable consistent aspects:
 ---
 
 ## Related Documentation
-- [[Modules/Stock]] — `stock.picking` base model, `button_validate` flow, `_pre_action_done_hook`, `_send_confirmation_email`
-- [[Modules/SMS]] — `sms.template`, `_message_sms_with_template`, IAP SMS gateway
-- [[Modules/res.partner]] — `partner_id.phone` field used for SMS recipient
-- [[Core/API]] — `@api.model`, `@api.onchange` decorators relevant to `ResConfigSettings`
-- [[Patterns/Security Patterns]] — ir.rule record rules, ACL CSV format, transient model security
+- [Modules/Stock](modules/stock.md) — `stock.picking` base model, `button_validate` flow, `_pre_action_done_hook`, `_send_confirmation_email`
+- [Modules/SMS](modules/sms.md) — `sms.template`, `_message_sms_with_template`, IAP SMS gateway
+- [Modules/res.partner](modules/res.partner.md) — `partner_id.phone` field used for SMS recipient
+- [Core/API](core/api.md) — `@api.model`, `@api.onchange` decorators relevant to `ResConfigSettings`
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ir.rule record rules, ACL CSV format, transient model security
 
 ---
 

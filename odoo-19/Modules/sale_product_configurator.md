@@ -653,8 +653,8 @@ Supported since Odoo 19 (test added: `test_multiple_attribute_lines_same_attribu
 
 ## See Also
 
-- [[Modules/sale]] — Sale order base
-- [[Modules/product]] — Product and attribute definitions
-- [[Modules/sale_management]] — Sale management features
-- [[Modules/website_sale_product_configurator]] — Website-side configurator (EE)
-- [[Modules/sale_product_matrix]] — Grid-based matrix entry
+- [Modules/sale](modules/sale.md) — Sale order base
+- [Modules/product](modules/product.md) — Product and attribute definitions
+- [Modules/sale_management](modules/sale_management.md) — Sale management features
+- [Modules/website_sale_product_configurator](modules/website_sale_product_configurator.md) — Website-side configurator (EE)
+- [Modules/sale_product_matrix](modules/sale_product_matrix.md) — Grid-based matrix entry

@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [[Modules/spreadsheet_dashboard]] template for project managers and HR to visualize timesheet data — hours logged per employee, project, and task. Data is sourced from `account.analytic.line` records created by [[Modules/hr_timesheet]].
+Provides a pre-configured [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) template for project managers and HR to visualize timesheet data — hours logged per employee, project, and task. Data is sourced from `account.analytic.line` records created by [Modules/hr_timesheet](modules/hr_timesheet.md).
 
 This is a **data-only module**: contains only a `data/dashboards.xml` file that creates a sample timesheet dashboard record.
 
@@ -22,6 +22,6 @@ This is a **data-only module**: contains only a `data/dashboards.xml` file that 
 - Auto-installs when `hr_timesheet` is active
 
 ## Related
-- [[Modules/spreadsheet_dashboard]] — Dashboard framework
-- [[Modules/hr_timesheet]] — Timesheet entry and project time tracking
-- [[Modules/Project]] — Project management
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/hr_timesheet](modules/hr_timesheet.md) — Timesheet entry and project time tracking
+- [Modules/Project](modules/project.md) — Project management

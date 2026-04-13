@@ -16,11 +16,11 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/Sale/quotation-to-sale-order-flow]]"
-  - "[[Flows/Sale/sale-to-delivery-flow]]"
-  - "[[Flows/Sale/sale-to-invoice-flow]]"
+  - "[Flows/Sale/quotation-to-sale-order-flow](flows/sale/quotation-to-sale-order-flow.md)"
+  - "[Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md)"
+  - "[Flows/Sale/sale-to-invoice-flow](flows/sale/sale-to-invoice-flow.md)"
 related_guides:
-  - "[[Business/Website/ecommerce-configuration-guide]]"
+  - "[Business/Website/ecommerce-configuration-guide](business/website/ecommerce-configuration-guide.md)"
 source_module: website_sale
 source_path: ~/odoo/odoo19/odoo/addons/website_sale/
 created: 2026-04-07
@@ -369,11 +369,11 @@ def _cart_add(self, product_id, quantity, **kwargs):
 
 ## Related
 
-- [[Modules/Sale]] — Sale module reference
-- [[Modules/website_sale]] — Website sale module reference
-- [[Flows/Sale/quotation-to-sale-order-flow]] — Sale order confirmation flow
-- [[Flows/Sale/sale-to-delivery-flow]] — Delivery creation from confirmed order
-- [[Flows/Sale/sale-to-invoice-flow]] — Invoice creation from sale order
-- [[Business/Website/ecommerce-configuration-guide]] — E-commerce setup guide
-- [[Patterns/Workflow Patterns]] — Workflow pattern reference
-- [[Core/API]] — @api decorator patterns
+- [Modules/Sale](modules/sale.md) — Sale module reference
+- [Modules/website_sale](modules/website_sale.md) — Website sale module reference
+- [Flows/Sale/quotation-to-sale-order-flow](flows/sale/quotation-to-sale-order-flow.md) — Sale order confirmation flow
+- [Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md) — Delivery creation from confirmed order
+- [Flows/Sale/sale-to-invoice-flow](flows/sale/sale-to-invoice-flow.md) — Invoice creation from sale order
+- [Business/Website/ecommerce-configuration-guide](business/website/ecommerce-configuration-guide.md) — E-commerce setup guide
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
+- [Core/API](core/api.md) — @api decorator patterns

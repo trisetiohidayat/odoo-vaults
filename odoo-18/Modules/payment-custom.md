@@ -278,10 +278,10 @@ This means adding a new bank account journal automatically updates the wire tran
 
 ## Related Documentation
 
-- [[Core/Payment Framework]] — base payment architecture
-- [[Modules/payment]] — core payment module
-- [[Modules/payment-authorize]] — Authorize.Net provider
-- [[Modules/payment-razorpay]] — Razorpay provider
+- [Core/Payment Framework](core/payment-framework.md) — base payment architecture
+- [Modules/payment](modules/payment.md) — core payment module
+- [Modules/payment-authorize](modules/payment-authorize.md) — Authorize.Net provider
+- [Modules/payment-razorpay](modules/payment-razorpay.md) — Razorpay provider
 
 ---
 

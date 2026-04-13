@@ -28,8 +28,8 @@ Provides POS-specific configurations, assets, and document handling for the Urug
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/l10n_uy]] | Uruguayan accounting base |
-| [[Modules/pos]] | Point of Sale core module |
+| [Modules/l10n_uy](modules/l10n_uy.md) | Uruguayan accounting base |
+| [Modules/pos](modules/pos.md) | Point of Sale core module |
 
 ## Key Components
 
@@ -38,7 +38,7 @@ Provides POS-specific configurations, assets, and document handling for the Urug
 - Loaded via `point_of_sale._assets_pos` bundle
 
 ### Document Type Integration
-Integrates with [[Modules/l10n_latam_invoice_document]] to handle:
+Integrates with [Modules/l10n_latam_invoice_document](modules/l10n_latam_invoice_document.md) to handle:
 - E-ticket documents for POS receipts (codes 101-103, 201-203)
 - E-receipt documents for consumer transactions
 - Proper sequence management for POS-specific document types
@@ -61,8 +61,8 @@ The POS environment in Uruguay uses specific document types:
 4. Set up fiscal printer integration if required by DGI regulations
 
 ## Related Modules
-- [[Modules/l10n_uy]] - Core Uruguayan accounting
-- [[Modules/l10n_uy_pos]] - Uruguayan POS (this module)
-- [[Modules/l10n_latam_base]] - Latin America base localization
-- [[Modules/l10n_latam_invoice_document]] - LATAM document types
-- [[Modules/pos]] - Point of Sale core module
+- [Modules/l10n_uy](modules/l10n_uy.md) - Core Uruguayan accounting
+- [Modules/l10n_uy_pos](modules/l10n_uy_pos.md) - Uruguayan POS (this module)
+- [Modules/l10n_latam_base](modules/l10n_latam_base.md) - Latin America base localization
+- [Modules/l10n_latam_invoice_document](modules/l10n_latam_invoice_document.md) - LATAM document types
+- [Modules/pos](modules/pos.md) - Point of Sale core module

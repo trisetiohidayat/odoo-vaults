@@ -251,7 +251,7 @@ records = self.env['my.model'].sudo(user_id).search([...])
 | `AccessDenied` | Login/auth failure |
 
 ## See Also
-- [[Core/BaseModel]] — Full model reference
-- [[Core/Fields]] — Field types detail
-- [[Core/API]] — Decorators detail
-- [[Snippets/Model Snippets]] — Full code templates
+- [Core/BaseModel](core/basemodel.md) — Full model reference
+- [Core/Fields](core/fields.md) — Field types detail
+- [Core/API](core/api.md) — Decorators detail
+- [Snippets/Model Snippets](snippets/model-snippets.md) — Full code templates

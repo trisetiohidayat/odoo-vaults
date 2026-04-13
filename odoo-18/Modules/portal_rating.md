@@ -153,6 +153,6 @@ Formats a message for portal display, optionally including rating data if `'rati
 
 ## See Also
 
-- [[Modules/Rating]] (`rating`) — base rating system
-- [[Modules/Portal]] (`portal`) — portal controller base
-- [[Modules/Website]] (`website`) — website restricted editor group
+- [Modules/Rating](modules/rating.md) (`rating`) — base rating system
+- [Modules/Portal](modules/portal.md) (`portal`) — portal controller base
+- [Modules/Website](modules/website.md) (`website`) — website restricted editor group

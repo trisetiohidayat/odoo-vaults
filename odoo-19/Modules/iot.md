@@ -24,13 +24,13 @@ version: "1.0"
 ## Quick Access
 
 ### Related Flows
-- [[Flows/Stock/receipt-flow]] — Barcode scanner use in inventory
-- [[Flows/POS/pos-session-flow]] — Receipt printer and cash drawer integration
+- [Flows/Stock/receipt-flow](flows/stock/receipt-flow.md) — Barcode scanner use in inventory
+- [Flows/POS/pos-session-flow](flows/pos/pos-session-flow.md) — Receipt printer and cash drawer integration
 
 ### Related Modules
-- [[Modules/Stock]] — Barcode scanner integration
-- [[Modules/POS]] — Receipt printer and cash drawer
-- [[Modules/MRP]] — Manufacturing device control
+- [Modules/Stock](modules/stock.md) — Barcode scanner integration
+- [Modules/POS](modules/pos.md) — Receipt printer and cash drawer
+- [Modules/MRP](modules/mrp.md) — Manufacturing device control
 
 ---
 

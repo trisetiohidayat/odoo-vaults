@@ -104,7 +104,7 @@ created: 2026-04-06
 - [ ] Flow: Faktur Pajak issuance
 - [ ] Flow: Withholding tax deduction
 - [ ] Common pitfalls for Indonesian localization
-- [ ] Related: [[Modules/Account]], [[Modules/Purchase]], [[Modules/Sale]]
+- [ ] Related: [Modules/Account](modules/account.md), [Modules/Purchase](modules/purchase.md), [Modules/Sale](modules/sale.md)
 
 ### Task T5-4: Create Indonesian Localization Business Guide
 **File:** `Business/Account/l10n-id-tax-guide.md`
@@ -132,7 +132,7 @@ created: 2026-04-06
 **Content:**
 - [ ] Quick Access block pointing to parent Account module flows
 - [ ] Country-specific tax notes if materially different from standard
-- [ ] Link to [[Modules/Account]] for generic flows
+- [ ] Link to [Modules/Account](modules/account.md) for generic flows
 - [ ] Note about localization scope
 
 ---
@@ -155,7 +155,7 @@ created: 2026-04-06
 - [ ] All wikilinks from Flow → Flow, Flow → Module, Flow → Guide
 - [ ] All wikilinks from Module Quick Access → relevant Flows and Guides
 - [ ] All wikilinks from Guide → relevant Flows and Modules
-- [ ] No broken `[[link]]` references
+- [ ] No broken `[link](link.md)` references
 - [ ] Update `Tools/ORM Operations.md` with cross-model examples if missing
 
 ### Task Gap-3: Create Master Index Update
@@ -192,4 +192,4 @@ All 18 tasks completed AND:
 
 **Estimated effort:** 3–4 sessions
 
-**Final deliverable:** [[Documentation/Upgrade-Plan/CHECKPOINT-master]]
+**Final deliverable:** [Documentation/Upgrade-Plan/CHECKPOINT-master](documentation/upgrade-plan/checkpoint-master.md)

@@ -3,7 +3,7 @@ Module: website_payment
 Version: Odoo 18
 Type: Integration
 Tags: #payment #website #e-commerce #donations
-Related: [[Modules/Account]], [[Modules/Website]]
+Related: [Modules/Account](modules/account.md), [Modules/Website](modules/website.md)
 ---
 
 # website_payment — Website Online Payments

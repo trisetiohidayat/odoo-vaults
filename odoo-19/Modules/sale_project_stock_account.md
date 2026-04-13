@@ -13,5 +13,5 @@ Technical bridge module. Combines `sale_project` and `project_stock_account` to 
 This module has no models of its own — it exists solely to enforce correct installation order and auto-install the full stack.
 
 ## Related
-- [[Modules/sale_project]] - SO to project/task generation
-- [[Modules/project_stock_account]] - Picking analytic moves in project profitability
+- [Modules/sale_project](modules/sale_project.md) - SO to project/task generation
+- [Modules/project_stock_account](modules/project_stock_account.md) - Picking analytic moves in project profitability

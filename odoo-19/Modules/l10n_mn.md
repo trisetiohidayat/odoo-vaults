@@ -37,4 +37,4 @@ Financial requirement contributor: Baskhuu Lodoikhuu. BumanIT LLC
 - Custom model files: template_mn.py
 
 ## Related
-- [[Modules/l10n_mn]] - Core accounting
+- [Modules/l10n_mn](modules/l10n_mn.md) - Core accounting

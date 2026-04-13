@@ -269,11 +269,11 @@ def action_convert_opportunity(self, partner_id):
 
 ## Related
 
-- [[Flows/CRM/lead-creation-flow]] — Lead creation sources
-- [[Flows/CRM/opportunity-win-flow]] — Mark opportunity as won
-- [[Flows/CRM/lead-assignment-flow]] — Auto-assignment after conversion
-- [[Modules/CRM]] — CRM module reference
-- [[Modules/Sale]] — Sale order from opportunity
-- [[Modules/res.partner]] — Partner model reference
-- [[Patterns/Workflow Patterns]] — Pipeline stage patterns
-- [[Core/API]] — @api decorator patterns
+- [Flows/CRM/lead-creation-flow](flows/crm/lead-creation-flow.md) — Lead creation sources
+- [Flows/CRM/opportunity-win-flow](flows/crm/opportunity-win-flow.md) — Mark opportunity as won
+- [Flows/CRM/lead-assignment-flow](flows/crm/lead-assignment-flow.md) — Auto-assignment after conversion
+- [Modules/CRM](modules/crm.md) — CRM module reference
+- [Modules/Sale](modules/sale.md) — Sale order from opportunity
+- [Modules/res.partner](modules/res.partner.md) — Partner model reference
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Pipeline stage patterns
+- [Core/API](core/api.md) — @api decorator patterns

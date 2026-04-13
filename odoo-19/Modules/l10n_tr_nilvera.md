@@ -45,7 +45,7 @@ Extends journal with Nilvera-specific alias configuration.
 Adds Nilvera API credentials and settings.
 
 ## Related
-- [[Modules/l10n_tr]] — Core Turkish accounting
-- [[Modules/l10n_tr_nilvera_einvoice]] — Turkish e-invoice via Nilvera
-- [[Modules/l10n_tr_nilvera_edispatch]] — Turkish e-despatch note via Nilvera
-- [[Modules/l10n_tr_nilvera_einvoice_extended]] — Extended Turkish e-invoice features
+- [Modules/l10n_tr](modules/l10n_tr.md) — Core Turkish accounting
+- [Modules/l10n_tr_nilvera_einvoice](modules/l10n_tr_nilvera_einvoice.md) — Turkish e-invoice via Nilvera
+- [Modules/l10n_tr_nilvera_edispatch](modules/l10n_tr_nilvera_edispatch.md) — Turkish e-despatch note via Nilvera
+- [Modules/l10n_tr_nilvera_einvoice_extended](modules/l10n_tr_nilvera_einvoice_extended.md) — Extended Turkish e-invoice features

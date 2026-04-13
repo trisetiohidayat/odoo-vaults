@@ -21,9 +21,9 @@ version: "1.0"
 ## Quick Access
 
 ### 🔗 Related Modules
-- [[Modules/mail]] — Article notifications and comments
-- [[Modules/mail]] — Collaborative workspace channels
-- [[Modules/Portal]] — Public article sharing
+- [Modules/mail](modules/mail.md) — Article notifications and comments
+- [Modules/mail](modules/mail.md) — Collaborative workspace channels
+- [Modules/Portal](modules/portal.md) — Public article sharing
 
 ---
 
@@ -130,7 +130,7 @@ Tags for cross-category article classification.
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/mail]] | Article comment threads |
+| [Modules/mail](modules/mail.md) | Article comment threads |
 | `discuss` | Workspace channel integration |
 | `portal` | Public article portal |
 | `website` | Public-facing knowledge base |

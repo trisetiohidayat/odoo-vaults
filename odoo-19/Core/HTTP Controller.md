@@ -86,8 +86,8 @@ return http.request.make_response(data, headers=[
 
 ## Related
 
-- [[Core/BaseModel]] - Models in controllers
-- [[Core/Fields]] - Field types
-- [[Core/API]] - ORM access
-- [[Core/Exceptions]] - Error handling
-- [[Modules/Sale]] - Example controller
+- [Core/BaseModel](core/basemodel.md) - Models in controllers
+- [Core/Fields](core/fields.md) - Field types
+- [Core/API](core/api.md) - ORM access
+- [Core/Exceptions](core/exceptions.md) - Error handling
+- [Modules/Sale](modules/sale.md) - Example controller

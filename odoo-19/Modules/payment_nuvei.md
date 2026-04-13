@@ -40,4 +40,4 @@ Latin America (Brazil, Mexico, Argentina, Chile, Colombia, etc.), international 
 Nuvei-specific transaction handling (payment creation, HMAC-signed requests, webhook processing).
 
 ## Related
-- [[Modules/payment]] — Base payment engine
+- [Modules/payment](modules/payment.md) — Base payment engine

@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, hr-timesheet-attendance]
 
 
 
-- [[Modules/hr]] — Human resources base
+- [Modules/hr](modules/hr.md) — Human resources base

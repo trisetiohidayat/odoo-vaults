@@ -758,8 +758,8 @@ sale.order
 
 ## Related Documentation
 
-- [[Modules/website]] - Website framework
-- [[Modules/sale]] - Sales management
-- [[Modules/product]] - Product management
-- [[Modules/delivery]] - Shipping methods
-- [[Modules/payment]] - Payment providers
+- [Modules/website](modules/website.md) - Website framework
+- [Modules/sale](modules/sale.md) - Sales management
+- [Modules/product](modules/product.md) - Product management
+- [Modules/delivery](modules/delivery.md) - Shipping methods
+- [Modules/payment](modules/payment.md) - Payment providers

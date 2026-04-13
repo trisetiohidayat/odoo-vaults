@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, auth-ldap]
 
 
 
-- [[Modules/base]] — Auth / base extension
+- [Modules/base](modules/base.md) — Auth / base extension

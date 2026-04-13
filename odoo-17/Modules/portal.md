@@ -60,6 +60,6 @@ When inheriting `portal.mixin`, the model automatically gains:
 
 ## See Also
 
-- [[Modules/mail]] — Mail threading and messaging
-- [[Modules/sale]] — Sale orders portal access
-- [[Modules/account]] — Invoice portal access
+- [Modules/mail](modules/mail.md) — Mail threading and messaging
+- [Modules/sale](modules/sale.md) — Sale orders portal access
+- [Modules/account](modules/account.md) — Invoice portal access

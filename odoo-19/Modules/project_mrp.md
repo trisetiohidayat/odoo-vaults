@@ -416,9 +416,9 @@ No deprecations, no API changes, no new dependencies.
 
 ## Related Documentation
 
-- [[Modules/mrp]] — MRP (Manufacturing) module reference
-- [[Modules/project]] — Project management module reference
-- [[Modules/project_mrp_account]] — MRP + Account bridge
-- [[Modules/project_mrp_sale]] — MRP + Sale bridge (triple integration)
-- [[Modules/project_mrp_stock_landed_costs]] — MRP + Account + Landed Costs
-- [[Patterns/Workflow Patterns]] — State machines and action methods
+- [Modules/mrp](modules/mrp.md) — MRP (Manufacturing) module reference
+- [Modules/project](modules/project.md) — Project management module reference
+- [Modules/project_mrp_account](modules/project_mrp_account.md) — MRP + Account bridge
+- [Modules/project_mrp_sale](modules/project_mrp_sale.md) — MRP + Sale bridge (triple integration)
+- [Modules/project_mrp_stock_landed_costs](modules/project_mrp_stock_landed_costs.md) — MRP + Account + Landed Costs
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machines and action methods

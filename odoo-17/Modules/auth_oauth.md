@@ -140,6 +140,6 @@ Since the user's password may be unknown (they registered via OAuth), the `_chec
 
 ## See Also
 
-- [[Modules/auth_totp]] — two-factor authentication
-- [[Modules/auth_signup]] — user registration and signup
-- [[Modules/base]] — user model foundation
+- [Modules/auth_totp](modules/auth_totp.md) — two-factor authentication
+- [Modules/auth_signup](modules/auth_signup.md) — user registration and signup
+- [Modules/base](modules/base.md) — user model foundation

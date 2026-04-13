@@ -31,8 +31,8 @@ In retail/POS environments, individual line item invoices are impractical. This 
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/l10n_my_edi]] | MyInvois e-invoicing base |
-| [[Modules/point_of_sale]] | Point of Sale module |
+| [Modules/l10n_my_edi](modules/l10n_my_edi.md) | MyInvois e-invoicing base |
+| [Modules/point_of_sale](modules/point_of_sale.md) | Point of Sale module |
 
 ## Key Models
 
@@ -81,6 +81,6 @@ In POS environments, multiple transactions are grouped into daily or session-bas
 
 ## Related
 
-- [[Modules/l10n_my_edi]] - Core MyInvois e-invoicing
-- [[Modules/l10n_my]] - Base Malaysian accounting
-- [[Modules/point_of_sale]] - Point of Sale module
+- [Modules/l10n_my_edi](modules/l10n_my_edi.md) - Core MyInvois e-invoicing
+- [Modules/l10n_my](modules/l10n_my.md) - Base Malaysian accounting
+- [Modules/point_of_sale](modules/point_of_sale.md) - Point of Sale module

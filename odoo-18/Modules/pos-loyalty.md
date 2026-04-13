@@ -9,7 +9,7 @@ Dependencies: loyalty, point_of_sale
 
 ## Overview
 
-`pos_loyalty` bridges the [[Modules/Loyalty]] module with the Point of Sale. It enables loyalty programs, gift cards, promotions, and coupon-based discounts to be applied and redeemed at the POS terminal. It is an **auto-install** module that depends on both `loyalty` and `point_of_sale`.
+`pos_loyalty` bridges the [Modules/Loyalty](modules/loyalty.md) module with the Point of Sale. It enables loyalty programs, gift cards, promotions, and coupon-based discounts to be applied and redeemed at the POS terminal. It is an **auto-install** module that depends on both `loyalty` and `point_of_sale`.
 
 **Key architectural role:**
 - Extends `pos.config` with loyalty program resolution logic
@@ -346,9 +346,9 @@ Gift card programs require both a mail template (for email delivery) and a print
 
 ## Related Documentation
 
-- [[Modules/Loyalty]] — Base loyalty module
-- [[Modules/Point of Sale]] — POS core module
-- [[Core/API]] — @api.model, @api.depends decorators
-- [[Patterns/Workflow Patterns]] — State machine patterns
+- [Modules/Loyalty](modules/loyalty.md) — Base loyalty module
+- [Modules/Point of Sale](modules/point-of-sale.md) — POS core module
+- [Core/API](core/api.md) — @api.model, @api.depends decorators
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns
 
 #odoo #odoo18 #pos_loyalty #loyalty #gift-cards #pos #coupons

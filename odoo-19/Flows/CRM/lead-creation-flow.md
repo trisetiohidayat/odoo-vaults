@@ -272,10 +272,10 @@ def create(self, vals):
 
 ## Related
 
-- [[Flows/CRM/lead-conversion-to-opportunity-flow]] — Lead → Opportunity conversion
-- [[Flows/CRM/lead-assignment-flow]] — Auto-assignment of unassigned leads
-- [[Modules/CRM]] — CRM module reference
-- [[Modules/Sale]] — Sale order from opportunity
-- [[Modules/mail]] — Mail and chatter integration
-- [[Patterns/Workflow Patterns]] — Pipeline stage patterns
-- [[Core/API]] — @api decorator patterns
+- [Flows/CRM/lead-conversion-to-opportunity-flow](flows/crm/lead-conversion-to-opportunity-flow.md) — Lead → Opportunity conversion
+- [Flows/CRM/lead-assignment-flow](flows/crm/lead-assignment-flow.md) — Auto-assignment of unassigned leads
+- [Modules/CRM](modules/crm.md) — CRM module reference
+- [Modules/Sale](modules/sale.md) — Sale order from opportunity
+- [Modules/mail](modules/mail.md) — Mail and chatter integration
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Pipeline stage patterns
+- [Core/API](core/api.md) — @api decorator patterns

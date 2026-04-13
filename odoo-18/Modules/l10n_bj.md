@@ -27,7 +27,7 @@ Inherits `account.chart.template`. Template prefix: `'bj'`. Provides `_get_bj_sy
 - `demo/demo_company.xml` — Benin demo company
 
 ## Chart of Accounts
-SYSCOHADA (OHADA uniform accounting system). See [[Modules/l10n_bf]] for details.
+SYSCOHADA (OHADA uniform accounting system). See [Modules/l10n_bf](modules/l10n_bf.md) for details.
 
 ## Tax Structure
 TVA at 18% standard rate, IS/IR for companies/individuals. Benin's tax framework follows OHADA directives.

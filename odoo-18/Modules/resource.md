@@ -202,7 +202,7 @@ Added fields:
 ---
 
 ## Related Links
-- [[Core/BaseModel]] — ORM foundation
-- [[Modules/HR]] — HR module
-- [[Modules/Project]] — Project scheduling
-- [[Modules/MRP]] — Manufacturing scheduling
+- [Core/BaseModel](core/basemodel.md) — ORM foundation
+- [Modules/HR](modules/hr.md) — HR module
+- [Modules/Project](modules/project.md) — Project scheduling
+- [Modules/MRP](modules/mrp.md) — Manufacturing scheduling

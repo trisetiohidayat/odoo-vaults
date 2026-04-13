@@ -27,4 +27,4 @@ A payment provider for running fake payment flows for demo and testing purposes.
 - `demo` providers must always be in `test` or `disabled` state (never `enabled`)
 
 ## Related
-- [[Modules/payment]] — Base payment engine
+- [Modules/payment](modules/payment.md) — Base payment engine

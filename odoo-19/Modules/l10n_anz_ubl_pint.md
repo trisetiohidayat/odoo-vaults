@@ -29,7 +29,7 @@ The PINT format adapts the Peppol BIS Billing standard for use in Australia and 
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/account_edi_ubl_cii]] | UBL/CII invoice format framework |
+| [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md) | UBL/CII invoice format framework |
 
 ## Key Models
 
@@ -86,10 +86,10 @@ Extends partner with ANZ-specific EDI fields:
 
 ## Related
 
-- [[Modules/account_edi_ubl_cii]] - UBL/CII framework
-- [[Modules/l10n_au]] - Australian accounting
-- [[Modules/l10n_nz]] - New Zealand accounting
-- [[Modules/account_edi_proxy_client]] - EDI proxy for Peppol
+- [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md) - UBL/CII framework
+- [Modules/l10n_au](modules/l10n_au.md) - Australian accounting
+- [Modules/l10n_nz](modules/l10n_nz.md) - New Zealand accounting
+- [Modules/account_edi_proxy_client](modules/account_edi_proxy_client.md) - EDI proxy for Peppol
 - [Peppol](https://peppol.org)
 - [AU e-invoicing](https://www.austroads.com.au)
 - [NZ e-invoicing](https://www.nz.govt.nz)

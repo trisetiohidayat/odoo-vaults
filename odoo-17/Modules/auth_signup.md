@@ -139,7 +139,7 @@ Each auth module implements `authenticate()` or registers an authentication meth
 - Archived users have their partner signup tokens canceled
 
 ## See Also
-- [[Modules/mail]] — Email notifications sent during signup
+- [Modules/mail](modules/mail.md) — Email notifications sent during signup
 - `auth_oauth` — OAuth2 sign-in
 - `auth_totp` — Two-factor authentication
 - `portal` — Public portal user creation

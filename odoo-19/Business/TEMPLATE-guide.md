@@ -11,9 +11,9 @@ prerequisites:
   - prerequisite_3_created
 estimated_time: "~10 minutes"
 related_flows:
-  - "[[Flows/Module/flow-name]]"
+  - "[Flows/Module/flow-name](flows/module/flow-name.md)"
 related_guides:
-  - "[[Business/Module/other-guide]]"
+  - "[Business/Module/other-guide](business/module/other-guide.md)"
 source_module: module_name
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -49,10 +49,10 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Sale/sale-to-delivery-flow]] | Full method chain and branching logic |
-| 📖 Module Reference | [[Modules/Stock]] | Complete field and method reference |
-| 📋 Related Guide | [[Modules/Stock]] | Related process walkthrough |
-| 🔧 Configuration | [[Modules/Stock]] | Advanced configuration options |
+| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md) | Full method chain and branching logic |
+| 📖 Module Reference | [Modules/Stock](modules/stock.md) | Complete field and method reference |
+| 📋 Related Guide | [Modules/Stock](modules/stock.md) | Related process walkthrough |
+| 🔧 Configuration | [Modules/Stock](modules/stock.md) | Advanced configuration options |
 
 ---
 
@@ -62,9 +62,9 @@ This guide covers the following use cases. Jump to the relevant section:
 
 | # | Use Case | Page | Difficulty |
 |---|----------|------|-----------|
-| 1 | [Use case A — e.g., "Create employee with PKWT"] | [[#use-case-a-create-employee-with-pkwt]] | ⭐ |
-| 2 | [Use case B — e.g., "Create employee with freelance contract"] | [[#use-case-b-create-employee-with-freelance]] | ⭐⭐ |
-| 3 | [Use case C — e.g., "Renew expiring contract"] | [[#use-case-c-renew-expiring-contract]] | ⭐⭐⭐ |
+| 1 | [Use case A — e.g., "Create employee with PKWT"] | [#use-case-a-create-employee-with-pkwt](#use-case-a-create-employee-with-pkwt.md) | ⭐ |
+| 2 | [Use case B — e.g., "Create employee with freelance contract"] | [#use-case-b-create-employee-with-freelance](#use-case-b-create-employee-with-freelance.md) | ⭐⭐ |
+| 3 | [Use case C — e.g., "Renew expiring contract"] | [#use-case-c-renew-expiring-contract](#use-case-c-renew-expiring-contract.md) | ⭐⭐⭐ |
 
 ---
 
@@ -94,7 +94,7 @@ Click **[Button/Action]**.
 | **Department** | [value] | No | — |
 | **Job Position** | [value] | No | — |
 
-> **⚡ System Trigger:** If you link a **User** (res.users), Odoo auto-fills Name, Email, and Timezone from the user record via [`_onchange_user()`]([[Flows/Module/flow#method-chain]]).
+> **⚡ System Trigger:** If you link a **User** (res.users), Odoo auto-fills Name, Email, and Timezone from the user record via [`_onchange_user()`]([Flows/Module/flow#method-chain](flows/module/flow#method-chain.md)).
 
 #### Step 3 — Configure Contract
 
@@ -198,8 +198,8 @@ Click **Save**.
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Sale/sale-to-delivery-flow]] | Full method chain — for developers |
-| 📖 Module Reference | [[Modules/Stock]] | Complete field and method list |
-| 📋 Related Guide | [[Modules/Purchase]] | Related business process |
-| 🔧 Patterns | [[Patterns/Workflow Patterns]] | Workflow design patterns |
-| 🛠️ Snippets | [[Snippets/Model Snippets]] | Code snippets for customization |
+| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](flows/sale/sale-to-delivery-flow.md) | Full method chain — for developers |
+| 📖 Module Reference | [Modules/Stock](modules/stock.md) | Complete field and method list |
+| 📋 Related Guide | [Modules/Purchase](modules/purchase.md) | Related business process |
+| 🔧 Patterns | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) | Workflow design patterns |
+| 🛠️ Snippets | [Snippets/Model Snippets](snippets/model-snippets.md) | Code snippets for customization |

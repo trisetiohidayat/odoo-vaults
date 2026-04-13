@@ -418,8 +418,8 @@ In multi-company environments, tax records are company-specific. The `_load_pos_
 
 ## See Also
 
-- [[Modules/account_tax_python]] — Python-defined tax formulas (`amount_type='code'`)
-- [[Modules/point_of_sale]] — POS data loading infrastructure (`_load_pos_data_fields`)
-- [[Modules/account]] — Base tax model (`account.tax`)
-- [[Modules/pos_sale]] — POS sale integration (order lines, tax computation)
-- [[Modules/account]] — Tax computation engine (`_eval_tax_amount_formula`)
+- [Modules/account_tax_python](modules/account_tax_python.md) — Python-defined tax formulas (`amount_type='code'`)
+- [Modules/point_of_sale](modules/point_of_sale.md) — POS data loading infrastructure (`_load_pos_data_fields`)
+- [Modules/account](modules/account.md) — Base tax model (`account.tax`)
+- [Modules/pos_sale](modules/pos_sale.md) — POS sale integration (order lines, tax computation)
+- [Modules/account](modules/account.md) — Tax computation engine (`_eval_tax_amount_formula`)

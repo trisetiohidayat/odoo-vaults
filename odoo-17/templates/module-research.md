@@ -49,5 +49,5 @@ research_depth: deep
 -
 
 ## See Also
-- [[Modules/related]]
-- [[Core/relevant]]
+- [Modules/related](modules/related.md)
+- [Core/relevant](core/relevant.md)

@@ -306,6 +306,6 @@ class BaseDocumentLayout(models.TransientModel):
 ---
 
 ## Related Links
-- [[Core/HTTP Controller]] — HTTP routing reference
-- [[Modules/http_routing]] — Multilingual URL routing
-- [[Modules/website]] — Website builder
+- [Core/HTTP Controller](core/http-controller.md) — HTTP routing reference
+- [Modules/http_routing](modules/http_routing.md) — Multilingual URL routing
+- [Modules/website](modules/website.md) — Website builder

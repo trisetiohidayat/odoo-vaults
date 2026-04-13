@@ -568,7 +568,7 @@ elif question.question_type == 'matrix' and row:  # multiple col selections
 
 ## Related Models and Modules
 
-- [[Modules/survey]] — Base survey module (defines `survey.survey`, `survey.question`, `survey.user_input`)
-- [[Modules/CRM]] — CRM lead management (defines `crm.lead`, `crm.team`)
-- [[Modules/website_crm]] — Website lead capture via contact form
+- [Modules/survey](modules/survey.md) — Base survey module (defines `survey.survey`, `survey.question`, `survey.user_input`)
+- [Modules/CRM](modules/crm.md) — CRM lead management (defines `crm.lead`, `crm.team`)
+- [Modules/website_crm](modules/website_crm.md) — Website lead capture via contact form
 - `utm` — UTM tracking mixin for `medium_id` and `source_id` on leads

@@ -44,4 +44,4 @@ Notes:
 - Custom model files: template_lu.py
 
 ## Related
-- [[Modules/l10n_lu]] - Core accounting
+- [Modules/l10n_lu](modules/l10n_lu.md) - Core accounting

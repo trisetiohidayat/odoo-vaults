@@ -22,7 +22,7 @@ Provides a `spreadsheet.dashboard` record named "Project" for tracking project t
 
 ## Extends
 
-- [[Modules/spreadsheet_dashboard]] — base dashboard framework
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — base dashboard framework
 - `hr_timesheet` — HR timesheet tracking
 
 ## Data
@@ -39,4 +39,4 @@ Provides a `spreadsheet.dashboard` record named "Project" for tracking project t
 
 ---
 
-*See also: [[Modules/spreadsheet_dashboard]], [[Modules/hr_timesheet]]*
+*See also: [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md), [Modules/hr_timesheet](modules/hr_timesheet.md)*

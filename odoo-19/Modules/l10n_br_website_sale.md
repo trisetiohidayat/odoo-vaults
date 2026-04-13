@@ -22,5 +22,5 @@ Brazilian eCommerce pricing configuration. Auto-enables tax-included pricing dis
 **`create()`** — OVERRIDES `website`. For new websites associated with a Brazilian company, automatically sets `show_line_subtotals_tax_selection` to `'tax_included'` so all prices on the eCommerce site include Brazilian taxes (ICMS, PIS, COFINS, etc.)
 
 ## Related
-- [[Modules/l10n_br]] — Core Brazilian accounting
-- [[Modules/website_sale]] — Base eCommerce module
+- [Modules/l10n_br](modules/l10n_br.md) — Core Brazilian accounting
+- [Modules/website_sale](modules/website_sale.md) — Base eCommerce module

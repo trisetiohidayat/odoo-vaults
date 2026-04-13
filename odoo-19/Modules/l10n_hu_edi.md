@@ -33,9 +33,9 @@ This module enables electronic invoicing compliance for Hungary through the **NA
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/account_debit_note]] | Debit note support |
-| [[Modules/base_iban]] | IBAN validation for Hungarian bank accounts |
-| [[Modules/l10n_hu]] | Hungarian base accounting |
+| [Modules/account_debit_note](modules/account_debit_note.md) | Debit note support |
+| [Modules/base_iban](modules/base_iban.md) | IBAN validation for Hungarian bank accounts |
+| [Modules/l10n_hu](modules/l10n_hu.md) | Hungarian base accounting |
 
 ## Auto-Install
 
@@ -68,7 +68,7 @@ class L10nHuEdiConnection:
 
 ### EDI State Machine
 
-The `l10n_hu_edi_state` field on [[account.move]] tracks invoice lifecycle:
+The `l10n_hu_edi_state` field on [account.move](account.move.md) tracks invoice lifecycle:
 
 ```
 [pending] --[upload]--> [sent] --[query_status]--> [confirmed / confirmed_warning / rejected]
@@ -172,8 +172,8 @@ Access rights via `security/ir.model.access.csv`:
 
 | Module | Relationship |
 |--------|-------------|
-| [[Modules/l10n_hu]] | Base Hungarian accounting |
-| [[Modules/account_debit_note]] | Debit note support |
+| [Modules/l10n_hu](modules/l10n_hu.md) | Base Hungarian accounting |
+| [Modules/account_debit_note](modules/account_debit_note.md) | Debit note support |
 
 ## Technical Notes
 

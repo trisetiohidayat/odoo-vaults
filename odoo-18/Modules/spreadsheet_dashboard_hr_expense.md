@@ -22,7 +22,7 @@ Provides a `spreadsheet.dashboard` record with a pre-built expense spreadsheet. 
 
 ## Extends
 
-- [[Modules/spreadsheet_dashboard]] — base dashboard framework
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — base dashboard framework
 - `sale_expense` — expense-linked sales workflow
 
 ## Data
@@ -39,4 +39,4 @@ Provides a `spreadsheet.dashboard` record with a pre-built expense spreadsheet. 
 
 ---
 
-*See also: [[Modules/spreadsheet_dashboard]]*
+*See also: [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md)*

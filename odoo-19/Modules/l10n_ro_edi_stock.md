@@ -26,23 +26,23 @@ This module provides **e-Transport** compliance for Romania through the ANAF (Au
 ### Key Capabilities
 
 - **ANAF e-Transport API**: Report transport operations to ANAF
-- **Stock Picking Integration**: Link transport reports to [[stock.picking]] records
-- **Delivery Carrier Support**: Integrate with [[delivery.carrier]] for transport mode
+- **Stock Picking Integration**: Link transport reports to [stock.picking](stock.picking.md) records
+- **Delivery Carrier Support**: Integrate with [delivery.carrier](delivery.carrier.md) for transport mode
 - **E-Transport Status Tracking**: Track the status of transport reports
 
 ## Dependencies
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/stock_delivery]] | Stock delivery integration |
-| [[Modules/l10n_ro_edi]] | ANAF e-Factura base (provides API utilities) |
-| [[Modules/stock_picking_batch]] | Batch picking support (also required) |
+| [Modules/stock_delivery](modules/stock_delivery.md) | Stock delivery integration |
+| [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) | ANAF e-Factura base (provides API utilities) |
+| [Modules/stock_picking_batch](modules/stock_picking_batch.md) | Batch picking support (also required) |
 
 ## Models
 
 ### `stock.picking` Fields
 
-Extends [[stock.picking]] with e-Transport fields:
+Extends [stock.picking](stock.picking.md) with e-Transport fields:
 
 ```python
 l10n_ro_edi_etransport_document_ids = fields.One2many(
@@ -89,7 +89,7 @@ class ETransportAPI:
 
 ### `delivery.carrier`
 
-Extends [[delivery.carrier]] for Romanian e-Transport transport modes:
+Extends [delivery.carrier](delivery.carrier.md) for Romanian e-Transport transport modes:
 - Road, Rail, Air, Maritime, Multimodal transport classification
 
 ## Template Data
@@ -105,11 +105,11 @@ Contains UBL-based e-Transport document templates for ANAF:
 
 | Module | Relationship |
 |--------|-------------|
-| [[Modules/l10n_ro]] | Base Romanian accounting |
-| [[Modules/l10n_ro_edi]] | ANAF e-Factura (provides shared API utilities) |
-| [[Modules/l10n_ro_edi_stock_batch]] | e-Transport for batch pickings |
-| [[Modules/Stock]] | Stock management |
-| [[Modules/stock_delivery]] | Delivery integration |
+| [Modules/l10n_ro](modules/l10n_ro.md) | Base Romanian accounting |
+| [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) | ANAF e-Factura (provides shared API utilities) |
+| [Modules/l10n_ro_edi_stock_batch](modules/l10n_ro_edi_stock_batch.md) | e-Transport for batch pickings |
+| [Modules/Stock](modules/stock.md) | Stock management |
+| [Modules/stock_delivery](modules/stock_delivery.md) | Delivery integration |
 
 ## Configuration
 
@@ -121,7 +121,7 @@ Contains UBL-based e-Transport document templates for ANAF:
 
 ## Technical Notes
 
-- Uses the same ANAF access token as [[Modules/l10n_ro_edi]] e-Factura
+- Uses the same ANAF access token as [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) e-Factura
 - e-Transport is mandatory for transport of excisable goods
 - XML format based on ANAF e-Transport schema v2
 - Bearer token authentication (same token as e-Factura)
@@ -130,6 +130,6 @@ Contains UBL-based e-Transport document templates for ANAF:
 
 ## See Also
 
-- [[Modules/l10n_ro]] - Romanian accounting
-- [[Modules/l10n_ro_edi]] - ANAF e-Factura
-- [[Modules/l10n_ro_edi_stock_batch]] - e-Transport for batch pickings
+- [Modules/l10n_ro](modules/l10n_ro.md) - Romanian accounting
+- [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) - ANAF e-Factura
+- [Modules/l10n_ro_edi_stock_batch](modules/l10n_ro_edi_stock_batch.md) - e-Transport for batch pickings

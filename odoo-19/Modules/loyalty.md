@@ -587,10 +587,10 @@ Customer redeems Gift Card on future order
 
 ## Related Models
 
-- [[Modules/sale_loyalty]] — Loyalty integration in Sales Orders
-- [[Modules/pos_loyalty]] — Loyalty in Point of Sale
-- [[Modules/website_sale_loyalty]] — Loyalty on eCommerce
-- [[Core/Fields]] — Field type reference
+- [Modules/sale_loyalty](modules/sale_loyalty.md) — Loyalty integration in Sales Orders
+- [Modules/pos_loyalty](modules/pos_loyalty.md) — Loyalty in Point of Sale
+- [Modules/website_sale_loyalty](modules/website_sale_loyalty.md) — Loyalty on eCommerce
+- [Core/Fields](core/fields.md) — Field type reference
 
 ## Tags
 
@@ -1063,12 +1063,12 @@ For concurrent edits (e.g., POS redemption while admin updates balance), the las
 
 ## Related Models
 
-- [[Modules/sale_loyalty]] — Loyalty integration in Sales Orders
-- [[Modules/sale_loyalty_delivery]] — Free shipping reward type
-- [[Modules/pos_loyalty]] — Loyalty in Point of Sale
-- [[Modules/website_sale_loyalty]] — Loyalty on eCommerce
-- [[Modules/delivery]] — Delivery costs and carrier management
-- [[Core/Fields]] — Field type reference
+- [Modules/sale_loyalty](modules/sale_loyalty.md) — Loyalty integration in Sales Orders
+- [Modules/sale_loyalty_delivery](modules/sale_loyalty_delivery.md) — Free shipping reward type
+- [Modules/pos_loyalty](modules/pos_loyalty.md) — Loyalty in Point of Sale
+- [Modules/website_sale_loyalty](modules/website_sale_loyalty.md) — Loyalty on eCommerce
+- [Modules/delivery](modules/delivery.md) — Delivery costs and carrier management
+- [Core/Fields](core/fields.md) — Field type reference
 
 ## Tags
 

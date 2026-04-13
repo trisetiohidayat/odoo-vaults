@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [[Modules/spreadsheet_dashboard]] template for POS managers to track sales performance per employee and session. Combines POS order data from [[Modules/point_of_sale]] with employee attribution from [[Modules/pos_hr]].
+Provides a pre-configured [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) template for POS managers to track sales performance per employee and session. Combines POS order data from [Modules/point_of_sale](modules/point_of_sale.md) with employee attribution from [Modules/pos_hr](modules/pos_hr.md).
 
 This is a **data-only module**: contains only a `data/dashboards.xml` file that creates a sample POS-HR dashboard record.
 
@@ -22,6 +22,6 @@ This is a **data-only module**: contains only a `data/dashboards.xml` file that 
 - Auto-installs when `pos_hr` is active
 
 ## Related
-- [[Modules/spreadsheet_dashboard]] — Dashboard framework
-- [[Modules/pos_hr]] — POS employee login and per-cashier reporting
-- [[Modules/point_of_sale]] — Point of Sale base
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/pos_hr](modules/pos_hr.md) — POS employee login and per-cashier reporting
+- [Modules/point_of_sale](modules/point_of_sale.md) — Point of Sale base

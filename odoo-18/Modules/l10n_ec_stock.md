@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #ecuador #stock
 # l10n_ec_stock — Ecuador Stock
 
 ## Overview
-Bridge module between [[Modules/l10n_ec]] and `stock`. Adds Ecuadorian SRI (Servicio de Rentas Internas) compliance to stock operations. Post-init hook activates Ecuadorian data in stock module. Works with [[Modules/Stock]] integration.
+Bridge module between [Modules/l10n_ec](modules/l10n_ec.md) and `stock`. Adds Ecuadorian SRI (Servicio de Rentas Internas) compliance to stock operations. Post-init hook activates Ecuadorian data in stock module. Works with [Modules/Stock](modules/stock.md) integration.
 
 ## Country/Region
 Ecuador (EC)

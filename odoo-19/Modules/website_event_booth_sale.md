@@ -450,12 +450,12 @@ total_price = sum(booth.booth_category_id.price_reduce for booth in event_booths
 
 ## See Also
 
-- [[Modules/event_booth]] — core booth data model (`event.booth`, `event.booth.category`)
-- [[Modules/event_booth_sale]] — pricing and sale order integration for booths
-- [[Modules/website_event_booth]] — public booth registration portal (free booths, no payment)
-- [[Modules/Sale]] — sale order and cart mechanics
-- [[Modules/website_sale]] — website e-commerce integration
-- [[Modules/Event]] — event management base module
+- [Modules/event_booth](modules/event_booth.md) — core booth data model (`event.booth`, `event.booth.category`)
+- [Modules/event_booth_sale](modules/event_booth_sale.md) — pricing and sale order integration for booths
+- [Modules/website_event_booth](modules/website_event_booth.md) — public booth registration portal (free booths, no payment)
+- [Modules/Sale](modules/sale.md) — sale order and cart mechanics
+- [Modules/website_sale](modules/website_sale.md) — website e-commerce integration
+- [Modules/Event](modules/event.md) — event management base module
 
 ---
 

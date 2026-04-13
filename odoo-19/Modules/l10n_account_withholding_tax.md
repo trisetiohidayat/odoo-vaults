@@ -71,5 +71,5 @@ Excludes products from withholding base when configured.
 Per-company withholding account configuration.
 
 ## Related
-- [[Modules/Account]] — Core accounting
-- [[Modules/account_tax_python]] — Tax computation in Python
+- [Modules/Account](modules/account.md) — Core accounting
+- [Modules/account_tax_python](modules/account_tax_python.md) — Tax computation in Python

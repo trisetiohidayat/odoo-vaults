@@ -48,5 +48,5 @@ Added `_unlink_except_used_by_employee()`: prevents deletion of a work location 
 - If `weekly=False`: if the selected location matches the weekly default, deletes any exception; if an exception already exists, updates it; otherwise creates a new `hr.employee.location` record.
 
 ## Related
-- [[Modules/hr_homeworking]] - Core homeworking/work location management
-- [[Modules/calendar]] - Calendar events and availability
+- [Modules/hr_homeworking](modules/hr_homeworking.md) - Core homeworking/work location management
+- [Modules/calendar](modules/calendar.md) - Calendar events and availability

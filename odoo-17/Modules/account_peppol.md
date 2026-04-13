@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, account-peppol]
 
 
 
-- [[Modules/account]] — Accounting extension
+- [Modules/account](modules/account.md) — Accounting extension

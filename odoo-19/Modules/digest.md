@@ -621,8 +621,8 @@ def _compute_kpis_actions(self, company, user):
 
 ## See Also
 
-- [[Modules/mail]] - Email functionality
-- [[Core/API]] - Cron jobs and scheduled actions
-- [[Patterns/Workflow Patterns]] - State machine patterns
-- [[Modules/CRM]] - CRM KPIs (extends digest)
-- [[Modules/Sale]] - Sales KPIs (extends digest)
+- [Modules/mail](modules/mail.md) - Email functionality
+- [Core/API](core/api.md) - Cron jobs and scheduled actions
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) - State machine patterns
+- [Modules/CRM](modules/crm.md) - CRM KPIs (extends digest)
+- [Modules/Sale](modules/sale.md) - Sales KPIs (extends digest)

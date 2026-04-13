@@ -2044,9 +2044,9 @@ def _reverse_moves(self, default_values_list=None, cancel=False):
 
 ## See Also
 
-- [[Modules/Account]] - Journal entries that become asset acquisitions
-- [[Modules/account_analytic]] - Analytic distribution on asset depreciation
-- [[Modules/account_accountant]] - Required EE framework dependency
-- [[Core/API]] - @api.depends, computed fields, recursive store
-- [[Core/Fields]] - Monetary fields, Many2many relations
-- [[Patterns/Security Patterns]] - ACL for asset models
+- [Modules/Account](modules/account.md) - Journal entries that become asset acquisitions
+- [Modules/account_analytic](modules/account_analytic.md) - Analytic distribution on asset depreciation
+- [Modules/account_accountant](modules/account_accountant.md) - Required EE framework dependency
+- [Core/API](core/api.md) - @api.depends, computed fields, recursive store
+- [Core/Fields](core/fields.md) - Monetary fields, Many2many relations
+- [Patterns/Security Patterns](patterns/security-patterns.md) - ACL for asset models

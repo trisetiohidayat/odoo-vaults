@@ -704,10 +704,10 @@ purchase_price = fields.Float(..., groups="base.group_user")
 
 ## See Also
 
-- [[Modules/Sale]] — Parent `sale.order` and `sale.order.line` models
-- [[Modules/Product]] — `standard_price`, `cost_currency_id`, `uom_id` fields used in cost computation
-- [[Patterns/Inheritance Patterns]] — Classical `_inherit` extension pattern
-- [[Core/Fields]] — `fields.Monetary`, `fields.Float` with `precompute`, `store`, `aggregator` attributes
-- [[Core/API]] — `@api.depends`, computed field patterns
-- [[Patterns/Security Patterns]] — Field-level `groups` security
-- [[New Features/What's New]] — Odoo 19 new features overview
+- [Modules/Sale](modules/sale.md) — Parent `sale.order` and `sale.order.line` models
+- [Modules/Product](modules/product.md) — `standard_price`, `cost_currency_id`, `uom_id` fields used in cost computation
+- [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) — Classical `_inherit` extension pattern
+- [Core/Fields](core/fields.md) — `fields.Monetary`, `fields.Float` with `precompute`, `store`, `aggregator` attributes
+- [Core/API](core/api.md) — `@api.depends`, computed field patterns
+- [Patterns/Security Patterns](patterns/security-patterns.md) — Field-level `groups` security
+- [New Features/What's New](new-features/what's-new.md) — Odoo 19 new features overview

@@ -38,6 +38,6 @@ This module enables to generate E-waybill through IRN.
 Extends e-waybill to generate via IRN (Invoice Registration Number) from GST portal.
 
 ## Related
-- [[Modules/l10n_in]] — Core Indian accounting
-- [[Modules/l10n_in_edi]] — Indian e-invoice (IRN/e-invoice)
-- [[Modules/l10n_in_ewaybill]] — Indian e-waybill base
+- [Modules/l10n_in](modules/l10n_in.md) — Core Indian accounting
+- [Modules/l10n_in_edi](modules/l10n_in_edi.md) — Indian e-invoice (IRN/e-invoice)
+- [Modules/l10n_in_ewaybill](modules/l10n_in_ewaybill.md) — Indian e-waybill base

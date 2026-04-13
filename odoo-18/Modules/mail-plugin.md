@@ -4,7 +4,7 @@ Version: Odoo 18
 Type: Integration
 Tags: [mail,plugin,outlook,gmail,RPC,res.partner,iap,enrichment]
 Description: Mail plugin base — Outlook/Gmail sidebars, partner search, IAP enrichment, email logging. Provides the JSON-RPC bridge between mail clients and Odoo.
-See Also: [[mail]], [[iap]], [[Modules/crm_mail_plugin]], [[Modules/crm_iap_enrich]]
+See Also: [mail](mail.md), [iap](iap.md), [Modules/crm_mail_plugin](modules/crm_mail_plugin.md), [Modules/crm_iap_enrich](modules/crm_iap_enrich.md)
 ---
 
 # mail_plugin — Mail Plugin (Outlook / Gmail Sidebar)

@@ -179,7 +179,7 @@ If product is returned from a sale order:
 
 ## See Also
 
-- [[Modules/stock]] — stock.move, stock.move.line, picking types
-- [[Modules/sale]] — return flow, SOL integration
-- [[Modules/mrp_repair]] — BOM integration in repair (if installed)
-- [[Modules/mail]] — mail.thread / mail.activity.mixin on repair.order
+- [Modules/stock](modules/stock.md) — stock.move, stock.move.line, picking types
+- [Modules/sale](modules/sale.md) — return flow, SOL integration
+- [Modules/mrp_repair](modules/mrp_repair.md) — BOM integration in repair (if installed)
+- [Modules/mail](modules/mail.md) — mail.thread / mail.activity.mixin on repair.order

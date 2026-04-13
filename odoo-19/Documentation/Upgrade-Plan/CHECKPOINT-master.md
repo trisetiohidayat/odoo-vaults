@@ -18,14 +18,14 @@ Progress tracker for the vault upgrade from reference docs to Master Knowledge B
 - Business Consultants — Level 2: Step-by-step guides, configuration
 
 **Total Estimated Tasks:** ~90 tasks across 5 phases
-**Design Document:** [[Documentation/Upgrade-Plan/00-LEVELING-UP-DESIGN]]
+**Design Document:** [Documentation/Upgrade-Plan/00-LEVELING-UP-DESIGN](documentation/upgrade-plan/00-leveling-up-design.md)
 
 ---
 
 ## Phase Progress
 
 ### Phase 1 — Foundation & Templates 🟢 COMPLETE
-**File:** [[Documentation/Upgrade-Plan/01-Task-List-Phase-1]]
+**File:** [Documentation/Upgrade-Plan/01-Task-List-Phase-1](documentation/upgrade-plan/01-task-list-phase-1.md)
 **Tasks:** 9 (9 done) ✅
 **Status:** Complete
 **Started:** 2026-04-06
@@ -46,7 +46,7 @@ Progress tracker for the vault upgrade from reference docs to Master Knowledge B
 ---
 
 ### Phase 2 — Tier 1: Critical Business 🟢 COMPLETE
-**File:** [[Documentation/Upgrade-Plan/02-Task-List-Phase-2]]
+**File:** [Documentation/Upgrade-Plan/02-Task-List-Phase-2](documentation/upgrade-plan/02-task-list-phase-2.md)
 **Tasks:** 33 (33 done)
 **Status:** ✅ Complete
 **Started:** 2026-04-06
@@ -93,7 +93,7 @@ Progress tracker for the vault upgrade from reference docs to Master Knowledge B
 ---
 
 ### Phase 3 — Tier 2: Operational 🟢 COMPLETE
-**File:** [[Documentation/Upgrade-Plan/03-Task-List-Phase-3]]
+**File:** [Documentation/Upgrade-Plan/03-Task-List-Phase-3](documentation/upgrade-plan/03-task-list-phase-3.md)
 **Tasks:** 14 (12 done)
 **Status:** ✅ Complete
 **Started:** 2026-04-07
@@ -120,7 +120,7 @@ Progress tracker for the vault upgrade from reference docs to Master Knowledge B
 ---
 
 ### Phase 4 — Tier 3: Supporting 🟢 COMPLETE
-**File:** [[Documentation/Upgrade-Plan/04-Task-List-Phase-4]]
+**File:** [Documentation/Upgrade-Plan/04-Task-List-Phase-4](documentation/upgrade-plan/04-task-list-phase-4.md)
 **Tasks:** 14 (14 done)
 **Status:** ✅ Complete
 **Started:** 2026-04-07
@@ -146,7 +146,7 @@ Progress tracker for the vault upgrade from reference docs to Master Knowledge B
 ---
 
 ### Phase 5 — Tier 4 & 5: Enhancements & Gaps 🟢 COMPLETE
-**File:** [[Documentation/Upgrade-Plan/05-Task-List-Phase-5]]
+**File:** [Documentation/Upgrade-Plan/05-Task-List-Phase-5](documentation/upgrade-plan/05-task-list-phase-5.md)
 **Tasks:** 16 (16 done)
 **Status:** ✅ Complete
 **Started:** 2026-04-07
@@ -346,4 +346,4 @@ Modules/enhanced/
 ---
 
 *Last updated: 2026-04-07*
-*Design: [[Documentation/Upgrade-Plan/00-LEVELING-UP-DESIGN]]*
+*Design: [Documentation/Upgrade-Plan/00-LEVELING-UP-DESIGN](documentation/upgrade-plan/00-leveling-up-design.md)*

@@ -255,7 +255,7 @@ The `Domain` import from `odoo.fields` for constructing search domains was alrea
 
 ## See Also
 
-- [[Modules/website_event_track]] — Base event track module (parent of this module)
-- [[Modules/website_event_track_quiz]] — Quiz module layered on top of event tracks
-- [[Modules/event]] — Event management core
-- [[Core/Fields]] — Char, Boolean, Computed field patterns
+- [Modules/website_event_track](modules/website_event_track.md) — Base event track module (parent of this module)
+- [Modules/website_event_track_quiz](modules/website_event_track_quiz.md) — Quiz module layered on top of event tracks
+- [Modules/event](modules/event.md) — Event management core
+- [Core/Fields](core/fields.md) — Char, Boolean, Computed field patterns

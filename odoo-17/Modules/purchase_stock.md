@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, purchase-stock]
 
 
 
-- [[Modules/purchase]] — Purchase base module
+- [Modules/purchase](modules/purchase.md) — Purchase base module

@@ -552,7 +552,7 @@ Analogous to `sale_product_matrix` but for purchase orders. Uses the same `_get_
 
 ## See Also
 
-- [[Modules/product]] — Product template, attribute lines, variant creation logic
-- [[Modules/sale_product_matrix]] — Sale order grid entry (primary consumer)
-- [[Modules/purchase_product_matrix]] — Purchase order grid entry
-- [[Modules/sale_product_configurator]] — Standard single-variant configurator dialog
+- [Modules/product](modules/product.md) — Product template, attribute lines, variant creation logic
+- [Modules/sale_product_matrix](modules/sale_product_matrix.md) — Sale order grid entry (primary consumer)
+- [Modules/purchase_product_matrix](modules/purchase_product_matrix.md) — Purchase order grid entry
+- [Modules/sale_product_configurator](modules/sale_product_configurator.md) — Standard single-variant configurator dialog

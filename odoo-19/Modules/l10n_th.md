@@ -30,8 +30,8 @@ The module uses the `account_qr_code_emv` dependency to support QR payment codes
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/account]] | Core accounting |
-| [[Modules/account_qr_code_emv]] | EMV QR code generation for Thai QR payments |
+| [Modules/account](modules/account.md) | Core accounting |
+| [Modules/account_qr_code_emv](modules/account_qr_code_emv.md) | EMV QR code generation for Thai QR payments |
 
 ## Key Models
 
@@ -85,5 +85,5 @@ Custom report actions for Thai invoice formatting.
 
 ## Related
 
-- [[Modules/account]] - Core accounting module
-- [[Modules/account_qr_code_emv]] - QR code generation
+- [Modules/account](modules/account.md) - Core accounting module
+- [Modules/account_qr_code_emv](modules/account_qr_code_emv.md) - QR code generation

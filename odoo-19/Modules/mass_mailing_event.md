@@ -639,13 +639,13 @@ If a user has a saved `mailing.filter` record for `event.registration`, selectin
 
 ## Related Documentation
 
-- [[Modules/event]] -- `event.event`, `event.registration`, registration states, seat management, computed fields (`is_finished`, `event_registrations_open`, `seats_taken`)
-- [[Modules/mass_mailing]] -- `mailing.mailing`, `mailing.trace`, `mailing.filter`, `_mailing_get_default_domain` call site, recipient domain resolution, blacklist handling
-- [[Core/API]] -- `@api.depends`, `@api.model`, computed fields, `_()` translation function, `@api.constrains`
-- [[Patterns/Inheritance Patterns]] -- `_inherit` classical inheritance used here; `_inherits` vs. `_inherit` distinction
-- [[Core/Fields]] -- Field type reference (`_mailing_enabled` is a class attribute, not a field)
-- [[Tools/ORM Operations]] -- `search()`, `browse()`, domain operators (`in`, `not in`)
-- [[Core/HTTP Controller]] -- note: this module has no HTTP routes; all interactions are via ORM action methods
+- [Modules/event](modules/event.md) -- `event.event`, `event.registration`, registration states, seat management, computed fields (`is_finished`, `event_registrations_open`, `seats_taken`)
+- [Modules/mass_mailing](modules/mass_mailing.md) -- `mailing.mailing`, `mailing.trace`, `mailing.filter`, `_mailing_get_default_domain` call site, recipient domain resolution, blacklist handling
+- [Core/API](core/api.md) -- `@api.depends`, `@api.model`, computed fields, `_()` translation function, `@api.constrains`
+- [Patterns/Inheritance Patterns](patterns/inheritance-patterns.md) -- `_inherit` classical inheritance used here; `_inherits` vs. `_inherit` distinction
+- [Core/Fields](core/fields.md) -- Field type reference (`_mailing_enabled` is a class attribute, not a field)
+- [Tools/ORM Operations](tools/orm-operations.md) -- `search()`, `browse()`, domain operators (`in`, `not in`)
+- [Core/HTTP Controller](core/http-controller.md) -- note: this module has no HTTP routes; all interactions are via ORM action methods
 
 ---
 

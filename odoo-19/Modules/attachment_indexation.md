@@ -370,5 +370,5 @@ This is intentional. Indexing failures should never block attachment creation or
 
 ## Related
 
-- [[Modules/base]]
-- [[Modules/web]]
+- [Modules/base](modules/base.md)
+- [Modules/web](modules/web.md)

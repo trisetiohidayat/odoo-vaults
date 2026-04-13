@@ -39,6 +39,6 @@ French-specific work entry version generation for leave requests.
 French work entry handling for leave types (part-time RTT, public holidays).
 
 ## Related
-- [[Modules/l10n_fr]] — Core French accounting
-- [[Modules/l10n_fr_hr_holidays]] — French leave management
-- [[Modules/hr_work_entry_holidays]] — Work entry generation for leaves
+- [Modules/l10n_fr](modules/l10n_fr.md) — Core French accounting
+- [Modules/l10n_fr_hr_holidays](modules/l10n_fr_hr_holidays.md) — French leave management
+- [Modules/hr_work_entry_holidays](modules/hr_work_entry_holidays.md) — Work entry generation for leaves

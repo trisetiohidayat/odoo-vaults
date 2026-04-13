@@ -716,9 +716,9 @@ Extends `purchase.requisition` form view. Injects `picking_type_id` field after 
 
 ## Related Modules
 
-- `[[Modules/Stock]]` — `stock.move`, `stock.rule`, `stock.picking`, `stock.warehouse`, MTO route
-- `[[Modules/Purchase]]` — `purchase.order`, `purchase.order.line`, `stock.rule._run_buy()`
-- `[[Modules/purchase_requisition]]` — blanket orders, purchase templates, alternative PO wizard, `purchase.order.group`, `purchase.requisition.create.alternative`
+- `[Modules/Stock](modules/stock.md)` — `stock.move`, `stock.rule`, `stock.picking`, `stock.warehouse`, MTO route
+- `[Modules/Purchase](modules/purchase.md)` — `purchase.order`, `purchase.order.line`, `stock.rule._run_buy()`
+- `[Modules/purchase_requisition](modules/purchase_requisition.md)` — blanket orders, purchase templates, alternative PO wizard, `purchase.order.group`, `purchase.requisition.create.alternative`
 - `purchase_stock` — base stock/purchase bridge: `stock.rule._run_buy()`, PO creation from procurement, supplierinfo selection
 - `sale_purchase` — related but not a dependency: creates PO from `service_to_purchase` SOL on SO confirmation
-- `[[Modules/Sale]]` — sale order → subcontracted service → PO flow
+- `[Modules/Sale](modules/sale.md)` — sale order → subcontracted service → PO flow

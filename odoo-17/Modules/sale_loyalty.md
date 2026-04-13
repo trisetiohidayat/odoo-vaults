@@ -379,6 +379,6 @@ Tracks how a specific coupon's points are affected by an order. Each `(order, co
 
 ## See Also
 
-- [[Modules/sale]] — `sale.order` base
-- [[Modules/loyalty]] — Base loyalty framework (program, rule, reward, card)
-- [[Modules/website_sale_loyalty]] — eCommerce-specific loyalty integration
+- [Modules/sale](modules/sale.md) — `sale.order` base
+- [Modules/loyalty](modules/loyalty.md) — Base loyalty framework (program, rule, reward, card)
+- [Modules/website_sale_loyalty](modules/website_sale_loyalty.md) — eCommerce-specific loyalty integration

@@ -441,7 +441,7 @@ On installation, demo documents are loaded from `demo/documents_document_demo.xm
 
 ## See Also
 
-- [[Core/Fields]] — Binary fields, Many2many relations
-- [[Patterns/Security Patterns]] — Access control design
-- [[Core/API]] — Computed fields, @api.depends
-- [[Modules/Account]] — Document-account integration
+- [Core/Fields](core/fields.md) — Binary fields, Many2many relations
+- [Patterns/Security Patterns](patterns/security-patterns.md) — Access control design
+- [Core/API](core/api.md) — Computed fields, @api.depends
+- [Modules/Account](modules/account.md) — Document-account integration

@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [[Modules/spreadsheet_dashboard]] template for event managers showing event sales performance. Dashboard content is sourced from `event.registration`, `event.ticket`, and sale order data via [[Modules/spreadsheet_dashboard]].
+Provides a pre-configured [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) template for event managers showing event sales performance. Dashboard content is sourced from `event.registration`, `event.ticket`, and sale order data via [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md).
 
 This is a **data-only module**: contains only a `data/dashboards.xml` file that creates a sample event sales dashboard record.
 
@@ -22,6 +22,6 @@ This is a **data-only module**: contains only a `data/dashboards.xml` file that 
 - Auto-installs when `event_sale` is active
 
 ## Related
-- [[Modules/spreadsheet_dashboard]] — Dashboard framework
-- [[Modules/event_sale]] — Event ticket sales
-- [[Modules/event]] — Event management base
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/event_sale](modules/event_sale.md) — Event ticket sales
+- [Modules/event](modules/event.md) — Event management base

@@ -198,6 +198,6 @@ domain = Domain.OR([
 
 ## Related
 
-- [[Modules/pos_stripe]] — Stripe Terminal integration (defines `stripe_payment_intent()`)
-- [[Modules/pos_self_order]] — Base self-order module
-- [[Modules/pos_online_payment_self_order]] — Online payment in self-order (mobile mode)
+- [Modules/pos_stripe](modules/pos_stripe.md) — Stripe Terminal integration (defines `stripe_payment_intent()`)
+- [Modules/pos_self_order](modules/pos_self_order.md) — Base self-order module
+- [Modules/pos_online_payment_self_order](modules/pos_online_payment_self_order.md) — Online payment in self-order (mobile mode)

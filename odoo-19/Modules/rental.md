@@ -21,14 +21,14 @@ version: "1.0"
 ## Quick Access
 
 ### 🔀 Related Flows
-- [[Flows/Sale/quotation-to-sale-order-flow]] — Rental quotation workflow
-- [[Flows/Sale/sale-to-invoice-flow]] — Rental invoicing
-- [[Flows/Stock/delivery-flow]] — Rental product delivery
+- [Flows/Sale/quotation-to-sale-order-flow](flows/sale/quotation-to-sale-order-flow.md) — Rental quotation workflow
+- [Flows/Sale/sale-to-invoice-flow](flows/sale/sale-to-invoice-flow.md) — Rental invoicing
+- [Flows/Stock/delivery-flow](flows/stock/delivery-flow.md) — Rental product delivery
 
 ### 🔗 Related Modules
-- [[Modules/Sale]] — Rental quotation base
-- [[Modules/Stock]] — Rental inventory management
-- [[Modules/Fleet]] — Vehicle rental tracking
+- [Modules/Sale](modules/sale.md) — Rental quotation base
+- [Modules/Stock](modules/stock.md) — Rental inventory management
+- [Modules/Fleet](modules/fleet.md) — Vehicle rental tracking
 
 ---
 
@@ -130,9 +130,9 @@ Vehicles tracked as rental assets.
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/Sale]] | Rental order base (sale order extension) |
-| [[Modules/Stock]] | Rental inventory and pickings |
-| [[Modules/Fleet]] | Vehicle rental asset tracking |
+| [Modules/Sale](modules/sale.md) | Rental order base (sale order extension) |
+| [Modules/Stock](modules/stock.md) | Rental inventory and pickings |
+| [Modules/Fleet](modules/fleet.md) | Vehicle rental asset tracking |
 
 ---
 

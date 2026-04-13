@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [[Modules/spreadsheet_dashboard]] template for warehouse managers and controllers to monitor inventory levels, valuation, and stock-valuation accounting entries.
+Provides a pre-configured [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) template for warehouse managers and controllers to monitor inventory levels, valuation, and stock-valuation accounting entries.
 
 This is a **data-only module**: contains only a `data/dashboards.xml` file that creates a sample stock dashboard record.
 
@@ -23,6 +23,6 @@ This is a **data-only module**: contains only a `data/dashboards.xml` file that 
 - Auto-installs when `stock_account` is active
 
 ## Related
-- [[Modules/spreadsheet_dashboard]] — Dashboard framework
-- [[Modules/stock_account]] — Stock valuation and accounting entries
-- [[Modules/Stock]] — Inventory management base
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/stock_account](modules/stock_account.md) — Stock valuation and accounting entries
+- [Modules/Stock](modules/stock.md) — Inventory management base

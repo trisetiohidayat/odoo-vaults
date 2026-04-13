@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, partner-autocomplete]
 
 
 
-- [[Modules/base]] — Partner autocomplete
+- [Modules/base](modules/base.md) — Partner autocomplete

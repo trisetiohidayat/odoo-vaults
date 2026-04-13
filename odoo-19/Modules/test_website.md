@@ -79,4 +79,4 @@ Route handlers for test pages (e.g., controller page rendering, form handling, e
 - `data/test_website_demo.xml`
 
 ## Related
-- [[Modules/website]]
+- [Modules/website](modules/website.md)

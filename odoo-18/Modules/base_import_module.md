@@ -194,6 +194,6 @@ Override: also validates views from imported modules (`m.imported = True`). Grou
 
 ## See Also
 
-- [[Modules/Base]] — core Odoo models (ir.module.module, ir.ui.view)
-- [[Modules/Portal]] — portal user access
+- [Modules/Base](modules/base.md) — core Odoo models (ir.module.module, ir.ui.view)
+- [Modules/Portal](modules/portal.md) — portal user access
 - Odoo Apps Store (`apps.odoo.com`) — official module marketplace

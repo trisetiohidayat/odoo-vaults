@@ -15,4 +15,4 @@ Localized accounting for Swiss.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [[Modules/l10n_ch]] — Core accounting
+- [Modules/l10n_ch](modules/l10n_ch.md) — Core accounting

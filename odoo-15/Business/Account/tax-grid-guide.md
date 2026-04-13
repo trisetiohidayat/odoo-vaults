@@ -394,10 +394,10 @@ WHERE aml.move_id = [move_id]
 
 ## Related Documentation
 
-- [[Modules/Account]] — Core account models
-- [[Flows/Account/invoice-post-flow]] — Invoice posting
-- [[Flows/Account/payment-flow]] — Payment and CABA
-- [[Flows/Cross-Module/sale-stock-account-flow]] — Full business cycle
+- [Modules/Account](modules/account.md) — Core account models
+- [Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md) — Invoice posting
+- [Flows/Account/payment-flow](flows/account/payment-flow.md) — Payment and CABA
+- [Flows/Cross-Module/sale-stock-account-flow](flows/cross-module/sale-stock-account-flow.md) — Full business cycle
 
 ---
 

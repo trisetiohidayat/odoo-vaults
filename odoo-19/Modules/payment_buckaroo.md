@@ -258,7 +258,7 @@ The actual outcome is determined by `brq_statuscode` in the POST data, not the U
 
 ## Related
 
-- [[Modules/payment]] — Base payment module
-- [[Modules/payment_aps]] — Amazon Payment Services (MENA)
-- [[Modules/payment_iyzico]] — Iyzico (Turkey)
-- [[Modules/payment_stripe]] — Stripe
+- [Modules/payment](modules/payment.md) — Base payment module
+- [Modules/payment_aps](modules/payment_aps.md) — Amazon Payment Services (MENA)
+- [Modules/payment_iyzico](modules/payment_iyzico.md) — Iyzico (Turkey)
+- [Modules/payment_stripe](modules/payment_stripe.md) — Stripe

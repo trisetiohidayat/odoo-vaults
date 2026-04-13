@@ -387,9 +387,9 @@ The module uses the `quality_control` security model: quality checks belong to a
 
 ## See Also
 
-- [[Modules/quality]] — base quality module (quality.point, quality.check, quality.alert)
-- [[Modules/quality_mrp]] — quality checks on stock moves (incoming/outgoing)
-- [[Modules/quality]] — quality management overview
-- [[Modules/mrp]] — manufacturing core (`mrp.production`, `mrp.workorder`)
-- [[Modules/purchase_mrp]] — purchase-MO bridge (Community Edition)
-- [[Core/API]] — `@api.depends`, `@api.onchange` patterns used in computed fields
+- [Modules/quality](modules/quality.md) — base quality module (quality.point, quality.check, quality.alert)
+- [Modules/quality_mrp](modules/quality_mrp.md) — quality checks on stock moves (incoming/outgoing)
+- [Modules/quality](modules/quality.md) — quality management overview
+- [Modules/mrp](modules/mrp.md) — manufacturing core (`mrp.production`, `mrp.workorder`)
+- [Modules/purchase_mrp](modules/purchase_mrp.md) — purchase-MO bridge (Community Edition)
+- [Core/API](core/api.md) — `@api.depends`, `@api.onchange` patterns used in computed fields

@@ -31,8 +31,8 @@ Colombian Point of Sale module extends the base Colombian accounting localizatio
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/l10n_co]] | Colombian accounting base |
-| [[Modules/pos]] | Point of Sale core module |
+| [Modules/l10n_co](modules/l10n_co.md) | Colombian accounting base |
+| [Modules/pos](modules/pos.md) | Point of Sale core module |
 
 ## Key Components
 
@@ -82,7 +82,7 @@ Colombia has mandatory retention regimes for:
 - ReteFuente (Income tax withholding)
 
 ## Related Modules
-- [[Modules/l10n_co]] - Core Colombian accounting
-- [[Modules/l10n_co_pos]] - Colombian POS (this module)
-- [[Modules/account]] - Core accounting
-- [[Modules/pos]] - Point of Sale core module
+- [Modules/l10n_co](modules/l10n_co.md) - Core Colombian accounting
+- [Modules/l10n_co_pos](modules/l10n_co_pos.md) - Colombian POS (this module)
+- [Modules/account](modules/account.md) - Core accounting
+- [Modules/pos](modules/pos.md) - Point of Sale core module

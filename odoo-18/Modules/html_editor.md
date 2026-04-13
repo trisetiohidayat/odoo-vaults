@@ -156,5 +156,5 @@ Returns embed URL, video ID, and params dict for the detected platform:
 
 ## See Also
 
-- [[Modules/Web Editor]] (`web_editor`) — WYSIWYG editor with snippets
-- [[Modules/Web Unsplash]] (`web_unsplash`) — Unsplash image integration
+- [Modules/Web Editor](modules/web-editor.md) (`web_editor`) — WYSIWYG editor with snippets
+- [Modules/Web Unsplash](modules/web-unsplash.md) (`web_unsplash`) — Unsplash image integration

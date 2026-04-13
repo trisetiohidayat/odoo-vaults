@@ -407,7 +407,7 @@ Standard Odoo multi-company enforcement: users can only see and write batches be
 
 ## Related
 
-- [[Modules/Stock]] — Base warehouse management
-- [[Modules/Purchase]] — Purchase order → receipt flow
-- [[Modules/Sale]] — Sale order → delivery flow
-- [[Modules/MRP]] — Manufacturing → work order flow
+- [Modules/Stock](modules/stock.md) — Base warehouse management
+- [Modules/Purchase](modules/purchase.md) — Purchase order → receipt flow
+- [Modules/Sale](modules/sale.md) — Sale order → delivery flow
+- [Modules/MRP](modules/mrp.md) — Manufacturing → work order flow

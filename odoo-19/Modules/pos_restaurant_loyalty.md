@@ -355,9 +355,9 @@ This module has **no security concerns**:
 
 ## Related Documentation
 
-- [[Modules/pos_restaurant]] — Restaurant POS base module
-- [[Modules/pos_loyalty]] — Loyalty program module
-- [[Modules/point_of_sale]] — POS base module
+- [Modules/pos_restaurant](modules/pos_restaurant.md) — Restaurant POS base module
+- [Modules/pos_loyalty](modules/pos_loyalty.md) — Loyalty program module
+- [Modules/point_of_sale](modules/point_of_sale.md) — POS base module
 
 ---
 

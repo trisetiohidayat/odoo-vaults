@@ -24,5 +24,5 @@ Integrates your POS with Pine Labs payment terminals. Available only for compani
 - POS frontend + unit test assets for Pine Labs
 
 ## Related
-- [[Modules/point_of_sale]] — Base POS module
-- [[Modules/pos_self_order_pine_labs]] — Pine Labs in self-order
+- [Modules/point_of_sale](modules/point_of_sale.md) — Base POS module
+- [Modules/pos_self_order_pine_labs](modules/pos_self_order_pine_labs.md) — Pine Labs in self-order

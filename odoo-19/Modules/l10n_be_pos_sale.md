@@ -15,4 +15,4 @@ Localized accounting for l10n_be_pos_sale.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [[Modules/pos_sale]] — Core accounting
+- [Modules/pos_sale](modules/pos_sale.md) — Core accounting

@@ -1350,14 +1350,14 @@ base.group_portal
 
 ## Related
 
-- [[Modules/website_blog]] -- Blog posts and tags
-- [[Modules/website_sale]] -- E-commerce storefront
-- [[Modules/website_event]] -- Event management
-- [[Modules/website_forum]] -- Forum/community
-- [[Modules/website_crm]] -- Lead capture forms
-- [[Modules/website_payment]] -- Online payments
-- [[Modules/website_livechat]] -- Live chat
-- [[Modules/website_slides]] -- E-learning
-- [[Modules/website_hr_recruitment]] -- Job applications
-- [[Core/API]] -- HTTP routing, controllers
-- [[Patterns/Security Patterns]] -- ACL, record rules
+- [Modules/website_blog](modules/website_blog.md) -- Blog posts and tags
+- [Modules/website_sale](modules/website_sale.md) -- E-commerce storefront
+- [Modules/website_event](modules/website_event.md) -- Event management
+- [Modules/website_forum](modules/website_forum.md) -- Forum/community
+- [Modules/website_crm](modules/website_crm.md) -- Lead capture forms
+- [Modules/website_payment](modules/website_payment.md) -- Online payments
+- [Modules/website_livechat](modules/website_livechat.md) -- Live chat
+- [Modules/website_slides](modules/website_slides.md) -- E-learning
+- [Modules/website_hr_recruitment](modules/website_hr_recruitment.md) -- Job applications
+- [Core/API](core/api.md) -- HTTP routing, controllers
+- [Patterns/Security Patterns](patterns/security-patterns.md) -- ACL, record rules

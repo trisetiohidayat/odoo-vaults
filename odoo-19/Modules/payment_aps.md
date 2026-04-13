@@ -257,7 +257,7 @@ def aps_return_from_checkout(self, **data):
 
 ## Related
 
-- [[Modules/payment]] — Base payment module
-- [[Modules/payment_stripe]] — Stripe (direct/PCI-compliant)
-- [[Modules/payment_buckaroo]] — Buckaroo (EU)
-- [[Modules/payment_adyen]] — Adyen
+- [Modules/payment](modules/payment.md) — Base payment module
+- [Modules/payment_stripe](modules/payment_stripe.md) — Stripe (direct/PCI-compliant)
+- [Modules/payment_buckaroo](modules/payment_buckaroo.md) — Buckaroo (EU)
+- [Modules/payment_adyen](modules/payment_adyen.md) — Adyen

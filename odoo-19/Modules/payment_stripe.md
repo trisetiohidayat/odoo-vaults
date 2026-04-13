@@ -86,6 +86,6 @@ An Irish-American payment provider covering the US and many other countries. Sup
 **Supported Countries:** Defined in `const.SUPPORTED_COUNTRIES`.
 
 ## Related
-- [[Modules/payment]]
-- [[Modules/payment_adyen]]
-- [[Modules/payment_paypal]]
+- [Modules/payment](modules/payment.md)
+- [Modules/payment_adyen](modules/payment_adyen.md)
+- [Modules/payment_paypal](modules/payment_paypal.md)

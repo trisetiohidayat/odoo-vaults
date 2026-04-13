@@ -31,7 +31,7 @@ The CPV system is the EU-standard vocabulary for procurement classification:
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/l10n_ro_edi]] | Romanian e-invoicing (which depends on [[Modules/l10n_ro]]) |
+| [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) | Romanian e-invoicing (which depends on [Modules/l10n_ro](modules/l10n_ro.md)) |
 
 ## Category
 
@@ -57,7 +57,7 @@ code,description,parent_code
 
 ### `product.template`
 
-Extends [[product.template]] to add CPV code field:
+Extends [product.template](product.template.md) to add CPV code field:
 
 ```python
 l10n_ro_cpv_code = fields.Many2one(
@@ -94,7 +94,7 @@ class L10nRoCpvCode(models.Model):
 
 ### CIUS-RO Integration
 
-The [[Modules/l10n_ro_edi]] module automatically:
+The [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) module automatically:
 - Reads CPV code from product
 - Includes it in the UBL invoice under `Item/CommodityClassification`
 - Validates that CPV code is present for Romanian B2G invoices
@@ -103,8 +103,8 @@ The [[Modules/l10n_ro_edi]] module automatically:
 
 | Module | Relationship |
 |--------|-------------|
-| [[Modules/l10n_ro]] | Base Romanian accounting |
-| [[Modules/l10n_ro_edi]] | E-invoicing that uses CPV codes |
+| [Modules/l10n_ro](modules/l10n_ro.md) | Base Romanian accounting |
+| [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) | E-invoicing that uses CPV codes |
 
 ## Technical Notes
 
@@ -115,5 +115,5 @@ The [[Modules/l10n_ro_edi]] module automatically:
 
 ## See Also
 
-- [[Modules/l10n_ro]] - Romanian accounting
-- [[Modules/l10n_ro_edi]] - ANAF e-Factura integration
+- [Modules/l10n_ro](modules/l10n_ro.md) - Romanian accounting
+- [Modules/l10n_ro_edi](modules/l10n_ro_edi.md) - ANAF e-Factura integration

@@ -61,4 +61,4 @@ A purchase tender (also called a "Call for Bids" or "Blanket Order"). Used to re
 
 ## See Also
 
-- [[Modules/Purchase]] — base `` `purchase.order` `` and `` `purchase.order.line` ``
+- [Modules/Purchase](modules/purchase.md) — base `` `purchase.order` `` and `` `purchase.order.line` ``

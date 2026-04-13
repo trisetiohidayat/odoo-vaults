@@ -21,5 +21,5 @@ Key community additions:
 - `microsoft_calendar` sync
 
 ## See Also
-- [[Tools/Modules Inventory]] — Full module list
-- [[New Features/What's New]]
+- [Tools/Modules Inventory](tools/modules-inventory.md) — Full module list
+- [New Features/What's New](new-features/what's-new.md)

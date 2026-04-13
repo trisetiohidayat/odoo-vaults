@@ -11,11 +11,11 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/Account/invoice-creation-flow]]"
-  - "[[Flows/Account/payment-flow]]"
-  - "[[Flows/Account/payment-flow]]"
+  - "[Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md)"
+  - "[Flows/Account/payment-flow](flows/account/payment-flow.md)"
+  - "[Flows/Account/payment-flow](flows/account/payment-flow.md)"
 related_guides:
-  - "[[Business/Account/chart-of-accounts-guide]]"
+  - "[Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md)"
 source_module: account
 source_path: ~/odoo/odoo19/odoo/addons/account/
 created: 2026-04-06
@@ -298,9 +298,9 @@ Posted Invoice (out_invoice, state=posted)
 
 ## Related
 
-- [[Modules/Account]] — Account module reference
-- [[Flows/Account/invoice-creation-flow]] — Previous step: creating the invoice
-- [[Flows/Account/payment-flow]] — Next step: registering payment
-- [[Flows/Account/payment-flow]] — Automatic reconciliation logic
-- [[Patterns/Workflow Patterns]] — Workflow pattern reference
-- [[Core/API]] — @api decorator patterns
+- [Modules/Account](modules/account.md) — Account module reference
+- [Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md) — Previous step: creating the invoice
+- [Flows/Account/payment-flow](flows/account/payment-flow.md) — Next step: registering payment
+- [Flows/Account/payment-flow](flows/account/payment-flow.md) — Automatic reconciliation logic
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Workflow pattern reference
+- [Core/API](core/api.md) — @api decorator patterns

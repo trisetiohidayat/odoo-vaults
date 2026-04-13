@@ -54,5 +54,5 @@ Inherits `crm.lead`. Extends lead with IAP enrichment tracking.
 - Credits consumed via IAP `reveal` service
 
 ## Related
-- [[Modules/iap_crm]] — IAP CRM base
-- [[Modules/crm_iap_mine]] — Lead mining
+- [Modules/iap_crm](modules/iap_crm.md) — IAP CRM base
+- [Modules/crm_iap_mine](modules/crm_iap_mine.md) — Lead mining

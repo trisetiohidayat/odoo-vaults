@@ -43,5 +43,5 @@ Netherlands, Germany, France, Belgium, Austria, and most European markets
 Mollie-specific transaction handling (create payment, webhook processing).
 
 ## Related
-- [[Modules/payment]] — Base payment engine
-- [[Modules/pos_mollie]] — Mollie POS terminal integration
+- [Modules/payment](modules/payment.md) — Base payment engine
+- [Modules/pos_mollie](modules/pos_mollie.md) — Mollie POS terminal integration

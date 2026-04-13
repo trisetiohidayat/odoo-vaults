@@ -318,9 +318,9 @@ def _onchange_bom_id(self):
 
 ## Related
 
-- [[Flows/MRP/production-order-flow]] — Production order execution
-- [[Flows/MRP/workorder-execution-flow]] — Workorder lifecycle
-- [[Modules/MRP]] — MRP module reference
-- [[Modules/Stock]] — Inventory and materials
-- [[Patterns/Workflow Patterns]] — State machine patterns
-- [[Core/API]] — @api decorator patterns
+- [Flows/MRP/production-order-flow](flows/mrp/production-order-flow.md) — Production order execution
+- [Flows/MRP/workorder-execution-flow](flows/mrp/workorder-execution-flow.md) — Workorder lifecycle
+- [Modules/MRP](modules/mrp.md) — MRP module reference
+- [Modules/Stock](modules/stock.md) — Inventory and materials
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns
+- [Core/API](core/api.md) — @api decorator patterns

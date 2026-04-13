@@ -9,17 +9,17 @@ version: "3.0"
 ## Quick Access
 
 ### Flows (Technical)
-- [[Flows/Account/invoice-creation-flow]] - Draft invoice creation
-- [[Flows/Account/invoice-post-flow]] - Post invoice (draft to posted)
-- [[Flows/Account/payment-flow]] - Register payment and reconciliation
-- [[Flows/Cross-Module/sale-stock-account-flow]] - Sale to Stock to Invoice
-- [[Flows/Cross-Module/purchase-stock-account-flow]] - PO to Receipt to Bill
+- [Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md) - Draft invoice creation
+- [Flows/Account/invoice-post-flow](flows/account/invoice-post-flow.md) - Post invoice (draft to posted)
+- [Flows/Account/payment-flow](flows/account/payment-flow.md) - Register payment and reconciliation
+- [Flows/Cross-Module/sale-stock-account-flow](flows/cross-module/sale-stock-account-flow.md) - Sale to Stock to Invoice
+- [Flows/Cross-Module/purchase-stock-account-flow](flows/cross-module/purchase-stock-account-flow.md) - PO to Receipt to Bill
 
 ### Related Modules
-- [[Modules/Sale]] - Customer invoice source
-- [[Modules/Purchase]] - Vendor bill source
-- [[Modules/Stock]] - Inventory valuation
-- [[Patterns/Workflow Patterns]] - State machine pattern
+- [Modules/Sale](modules/sale.md) - Customer invoice source
+- [Modules/Purchase](modules/purchase.md) - Vendor bill source
+- [Modules/Stock](modules/stock.md) - Inventory valuation
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) - State machine pattern
 
 ---
 

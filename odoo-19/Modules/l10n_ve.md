@@ -36,7 +36,7 @@ This module provides the minimum requirements to start a company in Venezuela wi
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/Account]] | Core accounting module |
+| [Modules/Account](modules/account.md) | Core accounting module |
 
 ## Key Models
 
@@ -80,6 +80,6 @@ Inherits `account.chart.template`:
 - Based on commonly used Venezuelan accounting software patterns
 
 ## Related Modules
-- [[Modules/l10n_ve]] - Core accounting (this module)
-- [[Modules/account]] - Core accounting
-- [[Modules/account_accountant]] - Recommended for stock valuation in Venezuela
+- [Modules/l10n_ve](modules/l10n_ve.md) - Core accounting (this module)
+- [Modules/account](modules/account.md) - Core accounting
+- [Modules/account_accountant](modules/account_accountant.md) - Recommended for stock valuation in Venezuela

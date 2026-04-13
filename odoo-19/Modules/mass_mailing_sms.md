@@ -82,6 +82,6 @@ Extends A/B testing with SMS-specific winner selection options.
 Extends mass mailing tracking with SMS-specific endpoints.
 
 ## Related
-- [[Modules/mass_mailing]] - Email marketing base
-- [[Modules/sms]] - SMS sending module
-- [[Modules/portal]] - Customer portal
+- [Modules/mass_mailing](modules/mass_mailing.md) - Email marketing base
+- [Modules/sms](modules/sms.md) - SMS sending module
+- [Modules/portal](modules/portal.md) - Customer portal

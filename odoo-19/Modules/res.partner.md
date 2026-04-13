@@ -56,17 +56,17 @@ team_id = fields.Many2one('crm.team', string='Sales Team')
 
 | Model | Relation |
 |-------|----------|
-| [[Modules/Sale]] | customer_id |
-| [[Modules/Purchase]] | partner_id (vendor) |
-| [[Modules/Account]] | partner_id |
-| [[Modules/CRM]] | partner_id |
-| [[Modules/Stock]] | partner_id |
-| [[Modules/MRP]] | None direct |
+| [Modules/Sale](modules/sale.md) | customer_id |
+| [Modules/Purchase](modules/purchase.md) | partner_id (vendor) |
+| [Modules/Account](modules/account.md) | partner_id |
+| [Modules/CRM](modules/crm.md) | partner_id |
+| [Modules/Stock](modules/stock.md) | partner_id |
+| [Modules/MRP](modules/mrp.md) | None direct |
 
 ## Related
 
-- [[Core/BaseModel]] - ORM foundation
-- [[Modules/Sale]] - Customer
-- [[Modules/Purchase]] - Vendor
-- [[Modules/Account]] - Receivables/Payables
-- [[Modules/CRM]] - Lead/Opportunity
+- [Core/BaseModel](core/basemodel.md) - ORM foundation
+- [Modules/Sale](modules/sale.md) - Customer
+- [Modules/Purchase](modules/purchase.md) - Vendor
+- [Modules/Account](modules/account.md) - Receivables/Payables
+- [Modules/CRM](modules/crm.md) - Lead/Opportunity

@@ -106,5 +106,5 @@ New modules introduced in Odoo 18 that were not present in Odoo 17.
 ---
 
 ## Related Links
-- [[New Features/What's New]] — Overview
-- [[Tools/Modules Inventory]] — Full module catalog
+- [New Features/What's New](new-features/what's-new.md) — Overview
+- [Tools/Modules Inventory](tools/modules-inventory.md) — Full module catalog

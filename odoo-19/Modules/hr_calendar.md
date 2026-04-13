@@ -40,6 +40,6 @@ Returns non-working days for the current user's employee (used by calendar's hol
 - Integrates with `calendar` module's existing unavailable partner mechanism
 
 ## Related
-- [[Modules/HR]] — HR base
-- [[Modules/calendar]] — Calendar module
-- [[Modules/hr_homeworking]] — Remote work scheduling
+- [Modules/HR](modules/hr.md) — HR base
+- [Modules/calendar](modules/calendar.md) — Calendar module
+- [Modules/hr_homeworking](modules/hr_homeworking.md) — Remote work scheduling

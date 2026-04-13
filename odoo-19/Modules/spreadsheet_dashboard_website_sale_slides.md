@@ -10,7 +10,7 @@
 
 ## Description
 
-Provides a pre-configured [[Modules/spreadsheet_dashboard]] template for eLearning managers and course instructors to track enrollment, completion rates, and revenue from paid courses sold via the website.
+Provides a pre-configured [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) template for eLearning managers and course instructors to track enrollment, completion rates, and revenue from paid courses sold via the website.
 
 This is a **data-only module**: contains only a `data/dashboards.xml` file that creates a sample eLearning dashboard record.
 
@@ -23,6 +23,6 @@ This is a **data-only module**: contains only a `data/dashboards.xml` file that 
 - Auto-installs when `website_sale_slides` is active
 
 ## Related
-- [[Modules/spreadsheet_dashboard]] — Dashboard framework
-- [[Modules/website_slides]] — eLearning courses and slides
-- [[Modules/website_sale_slides]] — Course sales via website
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — Dashboard framework
+- [Modules/website_slides](modules/website_slides.md) — eLearning courses and slides
+- [Modules/website_sale_slides](modules/website_sale_slides.md) — Course sales via website

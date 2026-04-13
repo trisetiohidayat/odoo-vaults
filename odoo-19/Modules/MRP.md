@@ -11,14 +11,14 @@ updated: 2026-04-11
 ## Quick Access
 
 ### Flows (Technical — AI & Developer)
-- [[Flows/MRP/bom-to-production-flow]] — BOM to production order
-- [[Flows/MRP/production-order-flow]] — Production execution
-- [[Flows/MRP/workorder-execution-flow]] — Workorder lifecycle
+- [Flows/MRP/bom-to-production-flow](flows/mrp/bom-to-production-flow.md) — BOM to production order
+- [Flows/MRP/production-order-flow](flows/mrp/production-order-flow.md) — Production execution
+- [Flows/MRP/workorder-execution-flow](flows/mrp/workorder-execution-flow.md) — Workorder lifecycle
 
 ### Related Modules
-- [[Modules/Stock]] — Inventory and materials
-- [[Modules/Quality]] — Quality checks
-- [[Patterns/Workflow Patterns]] — State machine patterns
+- [Modules/Stock](modules/stock.md) — Inventory and materials
+- [Modules/Quality](modules/quality.md) — Quality checks
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns
 
 ---
 
@@ -1569,15 +1569,15 @@ This enables using the project Gantt view for WO scheduling in complex productio
 
 ## Related Modules
 
-- [[Modules/Stock]] — Inventory management, stock moves, quants
-- [[Modules/Product]] — Product definitions, variants, UoM
-- [[Modules/Resource]] — Resource calendar, work center planning
-- [[Modules/Purchase]] — Component procurement
-- [[Modules/Sale]] — Sales orders triggering manufacturing
-- [[Modules/Quality]] — Quality checks during production
+- [Modules/Stock](modules/stock.md) — Inventory management, stock moves, quants
+- [Modules/Product](modules/product.md) — Product definitions, variants, UoM
+- [Modules/Resource](modules/resource.md) — Resource calendar, work center planning
+- [Modules/Purchase](modules/purchase.md) — Component procurement
+- [Modules/Sale](modules/sale.md) — Sales orders triggering manufacturing
+- [Modules/Quality](modules/quality.md) — Quality checks during production
 
 ---
 
 ## Related
 
-[[Modules/Stock]], [[Modules/Product]], [[Modules/Resource]], [[Modules/Purchase]], [[Modules/Quality]], [[Modules/MRP]], [[Modules/mrp_account]], [[Modules/mrp_subcontracting]], [[Modules/MRP]], [[Modules/mrp_repair]]
+[Modules/Stock](modules/stock.md), [Modules/Product](modules/product.md), [Modules/Resource](modules/resource.md), [Modules/Purchase](modules/purchase.md), [Modules/Quality](modules/quality.md), [Modules/MRP](modules/mrp.md), [Modules/mrp_account](modules/mrp_account.md), [Modules/mrp_subcontracting](modules/mrp_subcontracting.md), [Modules/MRP](modules/mrp.md), [Modules/mrp_repair](modules/mrp_repair.md)

@@ -33,8 +33,8 @@ Source: [Paragraf.rs](https://www.paragraf.rs/propisi/pravilnik-o-kontnom-okviru
 
 | Module | Purpose |
 |--------|---------|
-| [[Modules/Account]] | Core accounting framework |
-| [[Modules/base_vat]] | Serbian PIB (Matični broj) validation |
+| [Modules/Account](modules/account.md) | Core accounting framework |
+| [Modules/base_vat](modules/base_vat.md) | Serbian PIB (Matični broj) validation |
 
 ## Auto-Install
 
@@ -62,13 +62,13 @@ Serbian VAT (Porez na dodatu vrednost / PDV) rates:
 Serbian company registration number:
 - 8-digit unique identifier
 - Used for both VAT and business registration
-- Format validated via [[Modules/base_vat]]
+- Format validated via [Modules/base_vat](modules/base_vat.md)
 
 ## Models
 
 ### `account.move` Extension
 
-Extends [[account.move]] for Serbian-specific fields:
+Extends [account.move](account.move.md) for Serbian-specific fields:
 
 ```python
 # Tax obligations code for Serbian e-invoicing
@@ -89,14 +89,14 @@ Loads Serbian-specific:
 
 | Module | Relationship |
 |--------|-------------|
-| [[Modules/l10n_rs_edi]] | Serbian eFaktura EDI integration |
+| [Modules/l10n_rs_edi](modules/l10n_rs_edi.md) | Serbian eFaktura EDI integration |
 
 ## Configuration
 
 1. Install the module via Apps
 2. Set company country to Serbia
 3. Configure Serbian registration number (PIB) in company settings
-4. Install [[Modules/l10n_rs_edi]] for eFaktura compliance
+4. Install [Modules/l10n_rs_edi](modules/l10n_rs_edi.md) for eFaktura compliance
 
 ## Technical Notes
 
@@ -108,4 +108,4 @@ Loads Serbian-specific:
 
 ## See Also
 
-- [[Modules/l10n_rs_edi]] - Serbian eFaktura
+- [Modules/l10n_rs_edi](modules/l10n_rs_edi.md) - Serbian eFaktura

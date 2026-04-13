@@ -605,7 +605,7 @@ Based on code patterns in Odoo 19:
 
 ## Related Documentation
 
-- [[Modules/website_slides]] — Full eLearning course management (slides, channels, karma, ratings)
-- [[Modules/survey]] — Survey/quiz/certification engine (questions, scoring, certification badges)
-- [[Patterns/Workflow Patterns]] — State machine patterns used by orders, pickings, and courses
-- [[Patterns/Security Patterns]] — ACL CSV and ir.rule configuration demonstrated here
+- [Modules/website_slides](modules/website_slides.md) — Full eLearning course management (slides, channels, karma, ratings)
+- [Modules/survey](modules/survey.md) — Survey/quiz/certification engine (questions, scoring, certification badges)
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns used by orders, pickings, and courses
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL CSV and ir.rule configuration demonstrated here

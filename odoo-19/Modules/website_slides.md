@@ -1167,13 +1167,13 @@ Key differences from the Odoo 18 `website_slides` module:
 
 ## Related
 
-- [[Modules/website]]
-- [[Modules/website_blog]]
-- [[Modules/portal]]
-- [[Modules/rating]]
-- [[Modules/gamification]]
-- [[Modules/website_profile]]
-- [[Modules/website_mail]]
-- [[Core/API]] — `@api.depends`, computed fields
-- [[Patterns/Workflow Patterns]] — state machines vs. action methods
-- [[Tools/ORM Operations]] — `search()`, `write()`, domain operators
+- [Modules/website](modules/website.md)
+- [Modules/website_blog](modules/website_blog.md)
+- [Modules/portal](modules/portal.md)
+- [Modules/rating](modules/rating.md)
+- [Modules/gamification](modules/gamification.md)
+- [Modules/website_profile](modules/website_profile.md)
+- [Modules/website_mail](modules/website_mail.md)
+- [Core/API](core/api.md) — `@api.depends`, computed fields
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — state machines vs. action methods
+- [Tools/ORM Operations](tools/orm-operations.md) — `search()`, `write()`, domain operators

@@ -77,5 +77,5 @@ Called by the report framework. Loads the `accounting.assert.test` records and r
 
 ## See Also
 
-- [[Modules/Account]] — the base accounting module
-- [[Core/ORM Operations]] — safe_eval context
+- [Modules/Account](modules/account.md) — the base accounting module
+- [Core/ORM Operations](core/orm-operations.md) — safe_eval context

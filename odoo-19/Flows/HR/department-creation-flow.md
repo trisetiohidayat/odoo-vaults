@@ -12,8 +12,8 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[[Flows/HR/employee-creation-flow]]"
-  - "[[Flows/HR/employee-transfer-flow]]"
+  - "[Flows/HR/employee-creation-flow](flows/hr/employee-creation-flow.md)"
+  - "[Flows/HR/employee-transfer-flow](flows/hr/employee-transfer-flow.md)"
 source_module: hr
 created: 2026-04-07
 version: "1.0"

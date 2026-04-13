@@ -658,10 +658,10 @@ Batch dispatch:
 
 ## Related Documentation
 
-- [[Modules/Stock]] — Core `stock.picking`, `stock.location` (docks), move routing
-- [[Modules/stock_picking_batch]] — `stock.picking.batch` base model, batch operations, merge wizard
-- [[Modules/Fleet]] — `fleet.vehicle`, `fleet.vehicle.model.category`, driver management
-- [[Modules/stock_warehouse]] — `stock.warehouse`, picking types, delivery steps
-- [[Core/API]] — `@api.depends`, `@api.model`, `@api.constrains`
-- [[Patterns/Workflow Patterns]] — Batch validation, dock routing, dispatch workflow
-- [[Patterns/Security Patterns]] — ACL inheritance across modules
+- [Modules/Stock](modules/stock.md) — Core `stock.picking`, `stock.location` (docks), move routing
+- [Modules/stock_picking_batch](modules/stock_picking_batch.md) — `stock.picking.batch` base model, batch operations, merge wizard
+- [Modules/Fleet](modules/fleet.md) — `fleet.vehicle`, `fleet.vehicle.model.category`, driver management
+- [Modules/stock_warehouse](modules/stock_warehouse.md) — `stock.warehouse`, picking types, delivery steps
+- [Core/API](core/api.md) — `@api.depends`, `@api.model`, `@api.constrains`
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — Batch validation, dock routing, dispatch workflow
+- [Patterns/Security Patterns](patterns/security-patterns.md) — ACL inheritance across modules

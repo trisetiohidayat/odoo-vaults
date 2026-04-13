@@ -56,5 +56,5 @@ Argentine withholding during payment registration.
 Argentine tax conditions (tax type, gross income number, earnings scale).
 
 ## Related
-- [[Modules/l10n_ar]] — Core Argentine accounting
-- [[Modules/l10n_latam_check]] — Latam check/cheque management
+- [Modules/l10n_ar](modules/l10n_ar.md) — Core Argentine accounting
+- [Modules/l10n_latam_check](modules/l10n_latam_check.md) — Latam check/cheque management

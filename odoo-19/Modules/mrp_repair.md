@@ -457,9 +457,9 @@ The `mrp_repair` module has remained structurally stable between Odoo 18 and Odo
 ---
 
 ## Related Documentation
-- [[Modules/repair]] — Base repair module
-- [[Modules/Stock]] — Locations, moves, stock rules, procurement
-- [[Modules/MRP]] — Manufacturing orders, BOM, phantom explosion
-- [[Patterns/Workflow Patterns]] — State machine and approval flows
-- [[Core/Fields]] — Field types: Many2one, One2many, Many2many, computed fields
-- [[Core/API]] — @api.depends, @api.model_create_multi, @api.depends context
+- [Modules/repair](modules/repair.md) — Base repair module
+- [Modules/Stock](modules/stock.md) — Locations, moves, stock rules, procurement
+- [Modules/MRP](modules/mrp.md) — Manufacturing orders, BOM, phantom explosion
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine and approval flows
+- [Core/Fields](core/fields.md) — Field types: Many2one, One2many, Many2many, computed fields
+- [Core/API](core/api.md) — @api.depends, @api.model_create_multi, @api.depends context

@@ -52,6 +52,6 @@ L10n_sa_edi_pos does not add fields but the `l10n_sa_edi` company-level ZATCA se
 5. For simplified invoices paid via POS terminal, payment means code is sourced from POS payment method type
 
 ## Related
-- [[Modules/l10n_sa_edi]] — Core ZATCA e-invoicing
-- [[Modules/l10n_sa_pos]] — Saudi POS base
-- [[Modules/l10n_sa_withholding_tax]] — Saudi withholding tax
+- [Modules/l10n_sa_edi](modules/l10n_sa_edi.md) — Core ZATCA e-invoicing
+- [Modules/l10n_sa_pos](modules/l10n_sa_pos.md) — Saudi POS base
+- [Modules/l10n_sa_withholding_tax](modules/l10n_sa_withholding_tax.md) — Saudi withholding tax

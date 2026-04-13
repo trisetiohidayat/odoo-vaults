@@ -2014,10 +2014,10 @@ discuss.channel (N) ──── (N) res.groups (group_ids = auto-subscribe)
 
 ## Related
 
-- [[Modules/bus]] -- Real-time event bus (WebSocket)
-- [[Core/API]] -- @api.depends, @api.onchange patterns
-- [[Patterns/Security Patterns]] -- ACL, ir.rule, field groups
-- [[Modules/res.partner]] -- Contact model (author/recipient)
-- [[Modules/calendar]] -- Calendar integration with activities
-- [[Modules/Project]] -- Project/task with activity and follower management
-- [[Modules/CRM]] -- CRM leads with email gateway routing
+- [Modules/bus](modules/bus.md) -- Real-time event bus (WebSocket)
+- [Core/API](core/api.md) -- @api.depends, @api.onchange patterns
+- [Patterns/Security Patterns](patterns/security-patterns.md) -- ACL, ir.rule, field groups
+- [Modules/res.partner](modules/res.partner.md) -- Contact model (author/recipient)
+- [Modules/calendar](modules/calendar.md) -- Calendar integration with activities
+- [Modules/Project](modules/project.md) -- Project/task with activity and follower management
+- [Modules/CRM](modules/crm.md) -- CRM leads with email gateway routing

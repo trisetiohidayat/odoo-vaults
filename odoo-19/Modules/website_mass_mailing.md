@@ -644,7 +644,7 @@ website_mass_mailing
 
 ## Related Documentation
 
-- [[Modules/mass_mailing]] — `mailing.list`, `mailing.contact`, `mailing.subscription` model details
-- [[Modules/Website]] — `website` routing, session management, public auth
-- [[Core/API]] — `@route` decorators, `auth='public'`, `website=True` flags
-- [[Modules/google_recaptcha]] — CAPTCHA configuration and token verification
+- [Modules/mass_mailing](modules/mass_mailing.md) — `mailing.list`, `mailing.contact`, `mailing.subscription` model details
+- [Modules/Website](modules/website.md) — `website` routing, session management, public auth
+- [Core/API](core/api.md) — `@route` decorators, `auth='public'`, `website=True` flags
+- [Modules/google_recaptcha](modules/google_recaptcha.md) — CAPTCHA configuration and token verification

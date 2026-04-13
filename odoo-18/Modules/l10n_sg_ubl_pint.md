@@ -14,7 +14,7 @@ Singapore Peppol PINT e-invoicing module. Provides the Singapore implementation 
 Singapore
 
 ## Dependencies
-- [[Core/BaseModel]] (account_edi_ubl_cii_tax_extension)
+- [Core/BaseModel](core/basemodel.md) (account_edi_ubl_cii_tax_extension)
 - `account_edi_ubl_cii_tax_extension` — extended UBL/CII with tax category codes
 
 ## Key Models

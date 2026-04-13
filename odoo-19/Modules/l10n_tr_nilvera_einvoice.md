@@ -92,5 +92,5 @@ Buttons and computed visibility for Nilvera:
 - `views/account_move_views.xml` — Nilvera status field and buttons
 
 ## Related
-- [[Modules/l10n_tr_nilvera]] — Core Turkish localization
-- [[Modules/l10n_tr_nilvera_edispatch]] — e-Despatch (e-İrsaliye) via Nilvera
+- [Modules/l10n_tr_nilvera](modules/l10n_tr_nilvera.md) — Core Turkish localization
+- [Modules/l10n_tr_nilvera_edispatch](modules/l10n_tr_nilvera_edispatch.md) — e-Despatch (e-İrsaliye) via Nilvera

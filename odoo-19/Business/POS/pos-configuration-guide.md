@@ -13,11 +13,11 @@ prerequisites:
   - invoice_journal_configured
 estimated_time: "~15 minutes"
 related_flows:
-  - "[[Flows/POS/pos-session-flow]]"
-  - "[[Flows/POS/pos-order-to-invoice-flow]]"
-  - "[[Flows/Account/invoice-creation-flow]]"
+  - "[Flows/POS/pos-session-flow](flows/pos/pos-session-flow.md)"
+  - "[Flows/POS/pos-order-to-invoice-flow](flows/pos/pos-order-to-invoice-flow.md)"
+  - "[Flows/Account/invoice-creation-flow](flows/account/invoice-creation-flow.md)"
 related_guides:
-  - "[[Business/Account/chart-of-accounts-guide]]"
+  - "[Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md)"
 source_module: pos
 created: 2026-04-07
 updated: 2026-04-07
@@ -57,11 +57,11 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| Technical Flow | [[Flows/POS/pos-session-flow]] | Full session lifecycle method chain |
-| Technical Flow | [[Flows/POS/pos-order-to-invoice-flow]] | Order-to-invoice method chain |
-| Module Reference | [[Modules/pos]] | Complete POS model and field reference |
-| Configuration | [[Modules/pos]] → Payment Methods | Payment method setup details |
-| Related Guide | [[Business/Account/chart-of-accounts-guide]] | Accounting journals and accounts |
+| Technical Flow | [Flows/POS/pos-session-flow](flows/pos/pos-session-flow.md) | Full session lifecycle method chain |
+| Technical Flow | [Flows/POS/pos-order-to-invoice-flow](flows/pos/pos-order-to-invoice-flow.md) | Order-to-invoice method chain |
+| Module Reference | [Modules/pos](modules/pos.md) | Complete POS model and field reference |
+| Configuration | [Modules/pos](modules/pos.md) → Payment Methods | Payment method setup details |
+| Related Guide | [Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md) | Accounting journals and accounts |
 
 ---
 
@@ -71,9 +71,9 @@ This guide covers the following use cases. Jump to the relevant section:
 
 | # | Use Case | Page | Difficulty |
 |---|----------|------|-----------|
-| 1 | Configure POS with cash payment only | [[#use-case-1-configure-pos-with-cash-only]] | Easy |
-| 2 | Configure POS with mixed payments (cash + card + pay later) | [[#use-case-2-configure-pos-with-mixed-payments]] | Medium |
-| 3 | Open, operate, and close a POS session with reconciliation | [[#use-case-3-open-operate-and-close-session-with-reconciliation]] | Easy |
+| 1 | Configure POS with cash payment only | [#use-case-1-configure-pos-with-cash-only](#use-case-1-configure-pos-with-cash-only.md) | Easy |
+| 2 | Configure POS with mixed payments (cash + card + pay later) | [#use-case-2-configure-pos-with-mixed-payments](#use-case-2-configure-pos-with-mixed-payments.md) | Medium |
+| 3 | Open, operate, and close a POS session with reconciliation | [#use-case-3-open-operate-and-close-session-with-reconciliation](#use-case-3-open-operate-and-close-session-with-reconciliation.md) | Easy |
 
 ---
 
@@ -469,12 +469,12 @@ Validate Session:
 
 | Type | Link | Description |
 |------|------|-------------|
-| Technical Flow | [[Flows/POS/pos-session-flow]] | Full session lifecycle — for developers |
-| Technical Flow | [[Flows/POS/pos-order-to-invoice-flow]] | Order-to-invoice method chain |
-| Module Reference | [[Modules/pos]] | Complete POS model, field, and method reference |
-| Module Reference | [[Modules/Account]] | account.move, journal configuration |
-| Module Reference | [[Modules/res.partner]] | Partner model for customer management |
-| Patterns | [[Patterns/Workflow Patterns]] | State machine design for sessions |
-| Security | [[Patterns/Security Patterns]] | ACL for POS users and cashiers |
-| Accounting Guide | [[Business/Account/chart-of-accounts-guide]] | Journal and account setup |
-| Snippets | [[Snippets/Model Snippets]] | Code templates for POS customization |
+| Technical Flow | [Flows/POS/pos-session-flow](flows/pos/pos-session-flow.md) | Full session lifecycle — for developers |
+| Technical Flow | [Flows/POS/pos-order-to-invoice-flow](flows/pos/pos-order-to-invoice-flow.md) | Order-to-invoice method chain |
+| Module Reference | [Modules/pos](modules/pos.md) | Complete POS model, field, and method reference |
+| Module Reference | [Modules/Account](modules/account.md) | account.move, journal configuration |
+| Module Reference | [Modules/res.partner](modules/res.partner.md) | Partner model for customer management |
+| Patterns | [Patterns/Workflow Patterns](patterns/workflow-patterns.md) | State machine design for sessions |
+| Security | [Patterns/Security Patterns](patterns/security-patterns.md) | ACL for POS users and cashiers |
+| Accounting Guide | [Business/Account/chart-of-accounts-guide](business/account/chart-of-accounts-guide.md) | Journal and account setup |
+| Snippets | [Snippets/Model Snippets](snippets/model-snippets.md) | Code templates for POS customization |

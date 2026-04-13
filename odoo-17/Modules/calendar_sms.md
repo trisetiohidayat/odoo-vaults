@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, calendar-sms]
 
 
 
-- [[Modules/mail]] — Messaging / mail extension
+- [Modules/mail](modules/mail.md) — Messaging / mail extension

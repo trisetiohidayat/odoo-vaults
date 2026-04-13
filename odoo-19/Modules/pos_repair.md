@@ -22,5 +22,5 @@ Link module between Point of Sale and Repair. Allows repair orders to be created
 - POS frontend assets for repair flow
 
 ## Related
-- [[Modules/point_of_sale]] — Base POS module
-- [[Modules/repair]] — Repair management module
+- [Modules/point_of_sale](modules/point_of_sale.md) — Base POS module
+- [Modules/repair](modules/repair.md) — Repair management module

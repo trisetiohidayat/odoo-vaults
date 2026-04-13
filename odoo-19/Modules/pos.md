@@ -11,21 +11,21 @@ version: "1.0"
 ## Quick Access
 
 ### Flows (Technical — AI & Developer)
-- [[Flows/POS/pos-session-flow]] — Session lifecycle: create → open → orders → close → accounting entries
-- [[Flows/POS/pos-order-to-invoice-flow]] — Order to invoice: draft → posted → reconciled
+- [Flows/POS/pos-session-flow](flows/pos/pos-session-flow.md) — Session lifecycle: create → open → orders → close → accounting entries
+- [Flows/POS/pos-order-to-invoice-flow](flows/pos/pos-order-to-invoice-flow.md) — Order to invoice: draft → posted → reconciled
 
 ### Guides (Functional — Business)
-- [[Business/POS/pos-configuration-guide]] — Configure POS with payment methods, open/close sessions, reconcile cash
+- [Business/POS/pos-configuration-guide](business/pos/pos-configuration-guide.md) — Configure POS with payment methods, open/close sessions, reconcile cash
 
 ### Related Modules
-- [[Modules/Account]] — Invoicing and accounting entries generated at session close
-- [[Modules/Stock]] — Stock picking created at session close (update_stock_at_closing)
-- [[Modules/res.partner]] — Customer partners for POS orders and invoices
-- [[Modules/Sale]] — sale.order integration for delivery-based POS flows
+- [Modules/Account](modules/account.md) — Invoicing and accounting entries generated at session close
+- [Modules/Stock](modules/stock.md) — Stock picking created at session close (update_stock_at_closing)
+- [Modules/res.partner](modules/res.partner.md) — Customer partners for POS orders and invoices
+- [Modules/Sale](modules/sale.md) — sale.order integration for delivery-based POS flows
 
 ### Patterns
-- [[Patterns/Workflow Patterns]] — State machine design (session states, order states)
-- [[Patterns/Security Patterns]] — POS user groups and access rights
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine design (session states, order states)
+- [Patterns/Security Patterns](patterns/security-patterns.md) — POS user groups and access rights
 
 ---
 
@@ -103,9 +103,9 @@ draft  →  paid  →  done  →  (invoiced via account_move link)
 
 ## Related Documentation
 
-- [[Flows/POS/pos-session-flow]] — Full method chain documentation
-- [[Flows/POS/pos-order-to-invoice-flow]] — Invoice generation flow
-- [[Business/POS/pos-configuration-guide]] — Step-by-step setup guide
-- [[Core/API]] — @api decorators used in POS models
-- [[Patterns/Workflow Patterns]] — State machine patterns
-- [[Modules/pos]] — This file (module entry point)
+- [Flows/POS/pos-session-flow](flows/pos/pos-session-flow.md) — Full method chain documentation
+- [Flows/POS/pos-order-to-invoice-flow](flows/pos/pos-order-to-invoice-flow.md) — Invoice generation flow
+- [Business/POS/pos-configuration-guide](business/pos/pos-configuration-guide.md) — Step-by-step setup guide
+- [Core/API](core/api.md) — @api decorators used in POS models
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md) — State machine patterns
+- [Modules/pos](modules/pos.md) — This file (module entry point)

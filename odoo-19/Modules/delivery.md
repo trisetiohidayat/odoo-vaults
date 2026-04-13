@@ -929,11 +929,11 @@ OCA modules (e.g., `delivery-carrier-cost-estimation`, `delivery-iata`) follow t
 
 ## Related Documentation
 
-- [[Modules/sale]]
-- [[Modules/stock]]
-- [[Modules/payment]]
-- [[Core/API]]
-- [[Patterns/Workflow Patterns]]
+- [Modules/sale](modules/sale.md)
+- [Modules/stock](modules/stock.md)
+- [Modules/payment](modules/payment.md)
+- [Core/API](core/api.md)
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md)
 
 ---
 
@@ -1137,9 +1137,9 @@ The module adds no N+1 risk because all data is already loaded by the calling `s
 
 ### Updated: Related Documentation
 
-- [[Modules/sale]]
-- [[Modules/sale_loyalty]] or [[Modules/loyalty]]
-- [[Modules/stock]]
-- [[Modules/payment]]
-- [[Core/API]]
-- [[Patterns/Workflow Patterns]]
+- [Modules/sale](modules/sale.md)
+- [Modules/sale_loyalty](modules/sale_loyalty.md) or [Modules/loyalty](modules/loyalty.md)
+- [Modules/stock](modules/stock.md)
+- [Modules/payment](modules/payment.md)
+- [Core/API](core/api.md)
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md)

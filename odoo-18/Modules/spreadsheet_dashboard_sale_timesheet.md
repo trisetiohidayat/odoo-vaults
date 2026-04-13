@@ -22,7 +22,7 @@ Provides a `spreadsheet.dashboard` record named "Timesheets" for billable time t
 
 ## Extends
 
-- [[Modules/spreadsheet_dashboard]] — base dashboard framework
+- [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md) — base dashboard framework
 - `sale_timesheet` — time billed on sale orders
 
 ## Data
@@ -39,4 +39,4 @@ Provides a `spreadsheet.dashboard` record named "Timesheets" for billable time t
 
 ---
 
-*See also: [[Modules/spreadsheet_dashboard]]*
+*See also: [Modules/spreadsheet_dashboard](modules/spreadsheet_dashboard.md)*

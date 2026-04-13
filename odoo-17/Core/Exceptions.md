@@ -39,5 +39,5 @@ raise RedirectWarning(
 ```
 
 ## See Also
-- [[Core/API]] — @api.constrains
-- [[Patterns/Workflow Patterns]]
+- [Core/API](core/api.md) — @api.constrains
+- [Patterns/Workflow Patterns](patterns/workflow-patterns.md)

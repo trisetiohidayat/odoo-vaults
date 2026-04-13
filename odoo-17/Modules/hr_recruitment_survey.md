@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, hr-recruitment-survey]
 
 
 
-- [[Modules/hr]] — Human resources base
+- [Modules/hr](modules/hr.md) — Human resources base

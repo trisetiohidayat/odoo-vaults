@@ -46,6 +46,6 @@ Danish e-invoice fields.
 Danish partner-specific fields (EAN, CVR).
 
 ## Related
-- [[Modules/l10n_dk]] — Core Danish accounting
-- [[Modules/l10n_dk_nemhandel]] — Newer OIOUBL 2.1 / Nemhandel format
-- [[Modules/account_edi_ubl_cii]] — UBL framework
+- [Modules/l10n_dk](modules/l10n_dk.md) — Core Danish accounting
+- [Modules/l10n_dk_nemhandel](modules/l10n_dk_nemhandel.md) — Newer OIOUBL 2.1 / Nemhandel format
+- [Modules/account_edi_ubl_cii](modules/account_edi_ubl_cii.md) — UBL framework

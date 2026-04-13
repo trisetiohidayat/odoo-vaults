@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, website-slides-survey]
 
 
 
-- [[Modules/website]] — Website builder base
+- [Modules/website](modules/website.md) — Website builder base

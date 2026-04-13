@@ -11,9 +11,9 @@ prerequisites:
   - picking_types_setup
 estimated_time: "~15 minutes"
 related_flows:
-  - "[[Flows/Purchase/purchase-order-creation-flow]]"
-  - "[[Flows/Purchase/purchase-order-receipt-flow]]"
-  - "[[Flows/Purchase/purchase-to-bill-flow]]"
+  - "[Flows/Purchase/purchase-order-creation-flow](flows/purchase/purchase-order-creation-flow.md)"
+  - "[Flows/Purchase/purchase-order-receipt-flow](flows/purchase/purchase-order-receipt-flow.md)"
+  - "[Flows/Purchase/purchase-to-bill-flow](flows/purchase/purchase-to-bill-flow.md)"
 source_module: purchase
 created: 2026-04-06
 version: "1.0"
@@ -42,10 +42,10 @@ version: "1.0"
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [[Flows/Purchase/purchase-order-creation-flow]] | RFQ → PO confirmation |
-| 🔀 Technical Flow | [[Flows/Purchase/purchase-order-receipt-flow]] | PO → receipt |
-| 🔀 Technical Flow | [[Flows/Purchase/purchase-to-bill-flow]] | Receipt → vendor bill |
-| 📖 Module Reference | [[Modules/Purchase]] | Complete model reference |
+| 🔀 Technical Flow | [Flows/Purchase/purchase-order-creation-flow](flows/purchase/purchase-order-creation-flow.md) | RFQ → PO confirmation |
+| 🔀 Technical Flow | [Flows/Purchase/purchase-order-receipt-flow](flows/purchase/purchase-order-receipt-flow.md) | PO → receipt |
+| 🔀 Technical Flow | [Flows/Purchase/purchase-to-bill-flow](flows/purchase/purchase-to-bill-flow.md) | Receipt → vendor bill |
+| 📖 Module Reference | [Modules/Purchase](modules/purchase.md) | Complete model reference |
 
 ---
 
@@ -215,7 +215,7 @@ On posted bill, click **Register Payment**.
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 PO Creation Flow | [[Flows/Purchase/purchase-order-creation-flow]] | RFQ → PO confirmation |
-| 🔀 Receipt Flow | [[Flows/Purchase/purchase-order-receipt-flow]] | PO → goods received |
-| 🔀 Purchase-to-Bill | [[Flows/Purchase/purchase-to-bill-flow]] | Receipt → vendor bill |
-| 📖 Module Reference | [[Modules/Purchase]] | Complete model reference |
+| 🔀 PO Creation Flow | [Flows/Purchase/purchase-order-creation-flow](flows/purchase/purchase-order-creation-flow.md) | RFQ → PO confirmation |
+| 🔀 Receipt Flow | [Flows/Purchase/purchase-order-receipt-flow](flows/purchase/purchase-order-receipt-flow.md) | PO → goods received |
+| 🔀 Purchase-to-Bill | [Flows/Purchase/purchase-to-bill-flow](flows/purchase/purchase-to-bill-flow.md) | Receipt → vendor bill |
+| 📖 Module Reference | [Modules/Purchase](modules/purchase.md) | Complete model reference |

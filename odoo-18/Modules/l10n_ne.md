@@ -27,7 +27,7 @@ Inherits `account.chart.template`. Template prefix: `'ne'`. Provides `_get_ne_sy
 - `demo/demo_company.xml` — Niger demo company
 
 ## Chart of Accounts
-SYSCOHADA. See [[Modules/l10n_bf]].
+SYSCOHADA. See [Modules/l10n_bf](modules/l10n_bf.md).
 
 ## Tax Structure
 TVA at 19% standard rate (WAEMU zone). Niger uses OHADA/SYSCOHADA accounting framework.

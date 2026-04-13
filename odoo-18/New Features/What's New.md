@@ -53,5 +53,5 @@ Documentation in progress. This file will be populated as modules are researched
 ---
 
 ## Related Links
-- [[New Features/API Changes]] — Detailed API changes
-- [[New Features/New Modules]] — New module listing
+- [New Features/API Changes](new-features/api-changes.md) — Detailed API changes
+- [New Features/New Modules](new-features/new-modules.md) — New module listing

@@ -300,6 +300,6 @@ sale.order.line (service_tracking='event')
 
 ## See Also
 
-- [[Modules/Event]] — base event module (registration states, seat management, mail schedulers)
-- [[Modules/Sale]] — sale order confirmation flow
-- [[Core/API]] — `@api.depends`, `@api.constrains`
+- [Modules/Event](modules/event.md) — base event module (registration states, seat management, mail schedulers)
+- [Modules/Sale](modules/sale.md) — sale order confirmation flow
+- [Core/API](core/api.md) — `@api.depends`, `@api.constrains`
