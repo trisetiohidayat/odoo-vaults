@@ -1,58 +1,105 @@
 ---
-type: module
+title: "Cloud Storage Migration"
 module: cloud_storage_migration
-tags: [odoo, odoo19, technical, attachment, migration, cloud]
-created: 2026-04-06
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
 ---
 
 # Cloud Storage Migration
 
 ## Overview
-| Property | Value |
-|----------|-------|
-| **Name** | Cloud Storage Migration |
-| **Technical** | `cloud_storage_migration` |
-| **Category** | Technical Settings |
-| **Depends** | `cloud_storage` |
-| **License** | LGPL-3 |
 
-## Description
-Migrates existing local (binary) attachments to cloud storage. Provides a reporting dashboard and cron-based batch migration of attachments by model.
+Module `cloud_storage_migration` — auto-generated from source code.
 
-## Key Models
+**Source:** `addons/cloud_storage_migration/`
+**Models:** 3
+**Fields:** 19
+**Methods:** 4
 
-### `cloud.storage.migration.report` (Auto=False SQL View)
-Read-only model backed by a SQL view that aggregates attachment statistics per model.
+## Models
 
-**Fields:**
-| Field | Type | Description |
-|-------|------|-------------|
-| `res_model` | Char | Technical model name |
-| `res_model_name` | Char (computed) | Display name from `ir.model` |
-| `message_sum_size` | Integer | Total size (MB) of attachments linked to mail messages |
-| `message_max_size` | Integer | Largest message attachment (MB) |
-| `message_count` | Integer | Count of message-linked attachments |
-| `message_to_migrate` | Boolean (computed) | Whether message attachments for this model are scheduled |
-| `all_sum_size` | Integer | Total size (MB) of all attachments for this model |
-| `all_max_size` | Integer | Largest attachment (MB) for this model |
-| `all_count` | Integer | Total attachment count |
-| `all_to_migrate` | Boolean (computed) | Whether all attachments for this model are scheduled |
-| `has_attachment_rel` | Boolean (computed) | Whether this model has a relational field linking to `ir.attachment` |
+### cloud.storage.migration.report (`cloud.storage.migration.report`)
 
-**SQL View:**
-Joins `ir_attachment` with `message_attachment_rel` to compute per-model totals. Filters to `type = 'binary'`, non-residual attachments with file sizes.
+Initialize the SQL view for the cloud storage migration report.
 
-**Migration Scheduling:**
-- `all_to_migrate`: True if model is in `cloud_storage_migration_all_models` ICP
-- `message_to_migrate`: True if model is in `cloud_storage_migration_message_models` ICP
+**File:** `cloud_storage_migration_report.py` | Class: `CloudStorageMigrationReport`
 
-**Method:** `get_progress()` - Returns 0-100 percentage based on `cloud_storage_migration_min_attachment_id` / `cloud_storage_migration_max_attachment_id` ICP values.
+#### Fields (11)
 
-## Data / Cron
-- `data/ir_cron.xml` - Scheduled action for batch migration
-- `data/data.xml` - Initial migration configuration
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `res_model` | `Char` | Y | — | — | — | — |
+| `res_model_name` | `Char` | Y | — | — | — | — |
+| `message_sum_size` | `Integer` | — | — | — | — | — |
+| `message_max_size` | `Integer` | — | — | — | — | — |
+| `message_count` | `Integer` | — | — | — | — | — |
+| `message_to_migrate` | `Boolean` | Y | — | — | — | — |
+| `all_sum_size` | `Integer` | — | — | — | — | — |
+| `all_max_size` | `Integer` | — | — | — | — | — |
+| `all_count` | `Integer` | — | — | — | — | — |
+| `all_to_migrate` | `Boolean` | Y | — | — | — | — |
+| `has_attachment_rel` | `Boolean` | Y | — | — | — | — |
 
-## Related Modules
-- [Modules/cloud_storage](cloud_storage.md)
-- [Modules/cloud_storage_azure](cloud_storage_azure.md)
-- [Modules/cloud_storage_google](cloud_storage_google.md)
+
+#### Methods (2)
+
+| Method | Description |
+|--------|-------------|
+| `init` | |
+| `get_progress` | |
+
+
+### ir.attachment (`ir.attachment`)
+
+Migrate attachment from local binary storage to cloud storage
+
+**File:** `ir_attachment.py` | Class: `CloudStorageAttachmentMigration`
+
+#### Fields (3)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `check_model` | `SQL` | — | — | — | — | — |
+| `check_documents` | `SQL` | — | — | — | — | — |
+| `query` | `SQL` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### res.config.settings (`res.config.settings`)
+
+—
+
+**File:** `res_config_settings.py` | Class: `CloudStorageMigrationSettings`
+
+#### Fields (5)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `cloud_storage_migration_progress` | `Integer` | — | — | — | — | — |
+| `cloud_storage_migration_message_model_ids` | `One2many` | — | — | — | Y | — |
+| `cloud_storage_migration_message_models` | `Char` | — | — | — | — | — |
+| `cloud_storage_migration_all_model_ids` | `One2many` | — | — | — | Y | — |
+| `cloud_storage_migration_all_models` | `Char` | — | — | — | — | — |
+
+
+#### Methods (2)
+
+| Method | Description |
+|--------|-------------|
+| `get_values` | |
+| `action_open_cloud_storage_migration_configurations` | |
+
+
+
+
+## Related
+
+- [[Modules/Base]]
+- [[Modules/Base]]

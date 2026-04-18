@@ -1,29 +1,47 @@
-# Account Add GLN
+---
+title: "Account Add Gln"
+module: account_add_gln
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
 
-**Module:** `account_add_gln`
-**Category:** Accounting/Accounting
-**Depends:** `account`
-**Auto-install:** True
-**License:** LGPL-3
+# Account Add Gln
 
 ## Overview
 
-Adds a Global Location Number (GLN) field to partners. GLN is used to identify stock locations and is mandatory on UBL/CII eInvoices. This module is intended to be merged into the core `account` module in a future version.
+Module `account_add_gln` — auto-generated from source code.
+
+**Source:** `addons/account_add_gln/`
+**Models:** 1
+**Fields:** 1
+**Methods:** 0
 
 ## Models
 
-### `res.partner` (inherited)
-Extends `res.partner` with:
+### res.partner (`res.partner`)
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `global_location_number` | Char | Global Location Number (GLN) |
+—
 
-## Usage
+**File:** `res_partner.py` | Class: `ResPartner`
 
-The GLN can be set on partner records (particularly delivery addresses) and is used in electronic invoice formats (UBL/CII) to identify locations.
+#### Fields (1)
 
-## Technical Notes
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `global_location_number` | `Char` | — | — | — | — | — |
 
-- Auto-installed when `account` is installed.
-- Adds a view extension for the partner form.
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
+
+## Related
+
+- [[Modules/Base]]
+- [[Modules/Account]]

@@ -1,78 +1,97 @@
 ---
-type: module
+title: "Payment Mercado Pago"
 module: payment_mercado_pago
-tags: [odoo, odoo19, payment, mercadopago, latam]
-created: 2026-04-06
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
 ---
 
-# Payment Provider: Mercado Pago
+# Payment Mercado Pago
 
 ## Overview
-| Property | Value |
-|----------|-------|
-| **Name** | Payment Provider: Mercado Pago |
-| **Technical** | `payment_mercado_pago` |
-| **Category** | Accounting/Payment Providers |
-| **Version** | 1.0 |
-| **License** | LGPL-3 |
-| **Author** | Odoo S.A. |
 
-## Description
-A payment provider covering several countries in Latin America (Brazil, Argentina, Mexico, etc.). Supports redirect-based checkout, token-based S2S payments, and customer card management.
+Module `payment_mercado_pago` — auto-generated from source code.
 
-## Dependencies
-- payment
+**Source:** `addons/payment_mercado_pago/`
+**Models:** 3
+**Fields:** 8
+**Methods:** 1
 
-## Key Models
+## Models
 
-### payment.transaction (Inherited)
-**File:** `models/payment_transaction.py`
+### res.country (`res.country`)
 
-#### Key Methods
+Override of `payment` to enable additional features.
+
+**File:** `payment_provider.py` | Class: `PaymentProvider`
+
+#### Fields (7)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `code` | `Selection` | — | — | — | — | — |
+| `mercado_pago_account_country_id` | `Many2one` | — | — | — | — | — |
+| `mercado_pago_is_oauth_supported` | `Boolean` | Y | — | — | — | — |
+| `mercado_pago_access_token` | `Char` | — | — | — | — | — |
+| `mercado_pago_access_token_expiry` | `Datetime` | — | — | — | — | — |
+| `mercado_pago_refresh_token` | `Char` | — | — | — | — | — |
+| `mercado_pago_public_key` | `Char` | Y | — | — | — | — |
+
+
+#### Methods (1)
+
 | Method | Description |
 |--------|-------------|
-| `_get_specific_rendering_values()` | Creates checkout preference, returns `api_url` and `url_params` for redirect form |
-| `_mercado_pago_prepare_preference_request_payload()` | Builds preference with back_urls, items, payer info for redirect flow |
-| `_mercado_pago_prepare_payment_request_payload()` | Builds payload for direct/token payment |
-| `_mercado_pago_prepare_base_request_payload()` | Base payload with external_reference and webhook notification_url |
-| `_send_payment_request()` | Sends card token payment via `/v1/payments` endpoint |
-| `_mercado_pago_convert_amount()` | Rounds amount for special currencies (COP, HNL, NIO as integers) |
-| `_extract_reference()` | Extracts from `external_reference` |
-| `_extract_amount_data()` | Extracts from `additional_info.items` or `transaction_amount` |
-| `_apply_updates()` | Updates tx state, payment method, provider reference |
-| `_extract_token_values()` | Fetches/creates MP customer, fetches card via `/v1/customers/{id}/cards`, returns `provider_ref` as card_id |
+| `action_start_onboarding` | |
 
-#### Payment Return Flow
-- Uses `init_point` (live) or `sandbox_init_point` (test) from preference response
-- Redirect form embeds URL params as hidden inputs to preserve them
 
-#### State Mapping
-| Mercado Pago Status | Odoo State |
-|---------------------|------------|
-| `pending` statuses | `pending` |
-| `approved` | `done` |
-| `cancelled` | `canceled` |
-| `error` | `error` |
+### payment.token (`payment.token`)
 
-#### Tokenization Flow
-1. Search existing MP customer by email (`GET /v1/customers/search`)
-2. If not found, create new customer (`POST /v1/customers`)
-3. Create card token (`POST /v1/customers/{id}/cards`)
-4. Store `provider_ref` = card_id, `payment_details` = last_four_digits, `mercado_pago_customer_id` = customer_id
+—
 
-#### Currency Decimal Handling
-Special rounding for COP, HNL, NIO: `decimal_places=None` means integer amount.
+**File:** `payment_token.py` | Class: `PaymentToken`
 
-## Architecture Notes
+#### Fields (1)
 
-**Webhook Route:** `const.WEBHOOK_ROUTE/{sanitized_reference}` - reference in URL path for lookup.
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `mercado_pago_customer_id` | `Char` | — | — | — | — | — |
 
-**Error Message Mapping:** `const.ERROR_MESSAGE_MAPPING` maps `status_detail` codes to user-friendly messages.
 
-**Payment Method Mapping:** Maps MP `payment_type_id` and `payment_method_id` to Odoo payment methods via `const.PAYMENT_METHODS_MAPPING`.
+#### Methods (0)
 
-**Fallback Payment Method:** Falls back to `unknown` payment method if not found.
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### payment.transaction (`payment.transaction`)
+
+Override of `payment` to return Mercado Pago-specific rendering values.
+
+        Note: self.ensure_one() from `_get_rendering_values`.
+
+        :param dict processing_values: The generic and specific 
+
+**File:** `payment_transaction.py` | Class: `PaymentTransaction`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/payment](payment.md)
-- [Modules/payment_razorpay](payment_razorpay.md)
+
+- [[Modules/Base]]
+- [[Modules/Base]]

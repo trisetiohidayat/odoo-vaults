@@ -1,15 +1,47 @@
-# Project MRP Stock Landed Costs
+---
+title: "Project Mrp Stock Landed Costs"
+module: project_mrp_stock_landed_costs
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Project Mrp Stock Landed Costs
 
 ## Overview
-- **Name:** Project MRP Landed Costs
-- **Category:** Supply Chain/Manufacturing
-- **Depends:** `project_mrp_account`, `mrp_landed_costs`
-- **Auto-install:** Yes
-- **License:** LGPL-3
 
-## Description
-Technical bridge module that combines `project_mrp_account` (MRP costs in project profitability) with `mrp_landed_costs` (landed costs on MOs) to bring landed cost adjustments into the project profitability panel.
+Module `project_mrp_stock_landed_costs` — auto-generated from source code.
+
+**Source:** `addons/project_mrp_stock_landed_costs/`
+**Models:** 1
+**Fields:** 0
+**Methods:** 0
+
+## Models
+
+### stock.valuation.adjustment.lines (`stock.valuation.adjustment.lines`)
+
+—
+
+**File:** `stock_landed_costs.py` | Class: `StockValuationAdjustmentLines`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/project_mrp_account](project_mrp_account.md) - MRP costs in project profitability
-- [Modules/mrp_landed_costs](mrp_landed_costs.md) - Landed costs on manufacturing
+
+- [[Modules/Base]]
+- [[Modules/Project]]

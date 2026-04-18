@@ -1,49 +1,115 @@
-# HR Org Chart
+---
+title: "Hr Org Chart"
+module: hr_org_chart
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Hr Org Chart
 
 ## Overview
-- **Name**: HR Org Chart (`hr_org_chart`)
-- **Category**: Human Resources
-- **Depends**: `hr`, `web_hierarchy`
-- **Version**: 1.0
-- **License**: LGPL-3
-- **Auto-install**: True (with `hr`)
 
-Extends the employee form with an interactive organizational chart showing N+1 (manager), N+2 (manager's manager), and direct subordinates.
+Module `hr_org_chart` — auto-generated from source code.
+
+**Source:** `addons/hr_org_chart/`
+**Models:** 4
+**Fields:** 10
+**Methods:** 0
 
 ## Models
 
-### `hr.employee` (extends)
-| Field | Type | Description |
-|-------|------|-------------|
-| `subordinate_ids` | One2many | All subordinates (direct + indirect), computed |
-| `is_subordinate` | Boolean | Whether current user is subordinate of this employee |
-| `child_count` | Integer | Direct subordinates count |
-| `child_all_count` | Integer | Indirect subordinates count |
-| `department_color` | Integer | Department color (related) |
+### hr.employee (`hr.employee`)
 
-- `_get_subordinates`: Recursively computes all subordinates
-- `_compute_subordinates`: Sets `subordinate_ids` and `child_all_count`
-- `_compute_is_subordinate`: Checks if current user is subordinate
-- `_compute_child_count`: Counts direct child employees
+—
 
-### `hr.employee.public` (extends)
-| Field | Type | Description |
-|-------|------|-------------|
-| `subordinate_ids` | One2many | Related to employee |
-| `is_subordinate` | Boolean | Related |
-| `child_count`, `child_all_count` | Integer | Computed via `_compute_from_employee` |
-| `department_color` | Integer | Related |
+**File:** `hr_employee.py` | Class: `HrEmployee`
 
-### `hr_org_chart.mixin` (Mixin's helper)
-Provides org chart field definitions that can be reused in other apps.
+#### Fields (2)
 
-## Key Features
-- N+1 manager display on employee form
-- N+2 hierarchy
-- Direct and indirect subordinates count
-- Department color coding
-- Interactive hierarchy widget via `web_hierarchy`
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `subordinate_ids` | `One2many` | Y | — | — | — | — |
+| `is_subordinate` | `Boolean` | Y | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### hr.employee.public (`hr.employee.public`)
+
+—
+
+**File:** `hr_employee.py` | Class: `HrEmployeePublic`
+
+#### Fields (2)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `subordinate_ids` | `One2many` | Y | — | Y | — | — |
+| `is_subordinate` | `Boolean` | — | — | Y | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### hr.employee (`hr.employee`)
+
+Helper function to compute subordinates_ids.
+        Get all subordinates (direct and indirect) of an employee.
+        An employee can be a manager of his own manager (recursive hierarchy; e.g. the C
+
+**File:** `hr_org_chart_mixin.py` | Class: `HrEmployee`
+
+#### Fields (3)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `child_all_count` | `Integer` | Y | — | Y | Y | — |
+| `department_color` | `Integer` | Y | — | Y | — | — |
+| `child_count` | `Integer` | Y | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### hr.employee.public (`hr.employee.public`)
+
+—
+
+**File:** `hr_org_chart_mixin.py` | Class: `HrEmployeePublic`
+
+#### Fields (3)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `child_all_count` | `Integer` | Y | — | — | — | — |
+| `department_color` | `Integer` | Y | — | — | — | — |
+| `child_count` | `Integer` | Y | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/HR](HR.md) - Core HR module
-- [Modules/web_hierarchy](web_hierarchy.md) - Hierarchy tree widget
+
+- [[Modules/Base]]
+- [[Modules/HR]]

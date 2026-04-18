@@ -1,17 +1,47 @@
+---
+title: "Sale Project Stock Account"
+module: sale_project_stock_account
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
 # Sale Project Stock Account
 
 ## Overview
-- **Name:** Sale Project Stock Account
-- **Category:** Services/Project
-- **Depends:** `sale_project`, `project_stock_account`
-- **Auto-install:** Yes
-- **License:** LGPL-3
 
-## Description
-Technical bridge module. Combines `sale_project` and `project_stock_account` to ensure that when a sale order generates both project tasks and stock pickings, the picking-level analytic accounting integrates cleanly with the project profitability panel.
+Module `sale_project_stock_account` — auto-generated from source code.
 
-This module has no models of its own — it exists solely to enforce correct installation order and auto-install the full stack.
+**Source:** `addons/sale_project_stock_account/`
+**Models:** 1
+**Fields:** 0
+**Methods:** 0
+
+## Models
+
+### stock.move (`stock.move`)
+
+—
+
+**File:** `stock_move.py` | Class: `StockMove`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/sale_project](sale_project.md) - SO to project/task generation
-- [Modules/project_stock_account](project_stock_account.md) - Picking analytic moves in project profitability
+
+- [[Modules/Base]]
+- [[Modules/Sale]]

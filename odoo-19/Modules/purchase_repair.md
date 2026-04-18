@@ -1,46 +1,67 @@
-# purchase_repair
+---
+title: "Purchase Repair"
+module: purchase_repair
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
 
-Odoo 19 Purchase/After-Sales Module
+# Purchase Repair
 
 ## Overview
 
-`purchase_repair` links **Purchase Orders and Repair Orders**. When a repair order generates a purchase (e.g., ordering replacement parts), the PO is linked to the repair order for traceability.
+Module `purchase_repair` — auto-generated from source code.
 
-## Module Details
+**Source:** `addons/purchase_repair/`
+**Models:** 2
+**Fields:** 2
+**Methods:** 2
 
-- **Category**: Supply Chain/Purchase
-- **Depends**: `repair`, `purchase_stock`
-- **Version**: 1.0
-- **Author**: Odoo S.A.
-- **License**: LGPL-3
-- **Auto-install**: Yes
+## Models
 
-## Key Components
+### purchase.order (`purchase.order`)
 
-### Models
+—
 
-#### `purchase.order` (Inherited)
+**File:** `purchase_order.py` | Class: `PurchaseOrder`
 
-| Field | Type | Description |
-|---|---|---|
-| `repair_count` | Integer | Count of linked repair orders (computed) |
+#### Fields (1)
 
-`_compute_repair_count()` — Counts repair orders that have destination moves linked to this PO's order lines.
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `repair_count` | `Integer` | Y | — | — | — | — |
 
-`action_view_repair_orders()` — Opens the related repair order(s) from the PO form.
 
-#### `repair.order` (Inherited)
+#### Methods (1)
 
-| Field | Type | Description |
-|---|---|---|
-| `purchase_count` | Integer | Count of generated POs (computed) |
+| Method | Description |
+|--------|-------------|
+| `action_view_repair_orders` | |
 
-`_compute_purchase_count()` — Counts POs created from repair moves (`created_purchase_line_ids`).
 
-`action_view_purchase_orders()` — Opens linked purchase orders from the repair form.
+### repair.order (`repair.order`)
 
-## Usage
+—
 
-1. Create a Repair Order for a product under warranty or paid repair.
-2. Use the repair's "Create Purchase Order" functionality (via `purchase_stock`) to source parts.
-3. The PO is linked to the repair — from the PO you can view the source repair, and from the repair you can view generated POs.
+**File:** `repair_order.py` | Class: `RepairOrder`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `purchase_count` | `Integer` | Y | — | — | — | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `action_view_purchase_orders` | |
+
+
+
+
+## Related
+
+- [[Modules/Base]]
+- [[Modules/Purchase]]

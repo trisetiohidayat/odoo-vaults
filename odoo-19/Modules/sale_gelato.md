@@ -1,117 +1,208 @@
-# sale_gelato
+---
+title: "Sale Gelato"
+module: sale_gelato
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
 
-Odoo 19 Sales/e-Commerce Module
+# Sale Gelato
 
 ## Overview
 
-`sale_gelato` integrates Odoo with **Gelato** (print-on-demand platform). Products are synchronized from Gelato as product templates/variants with print image areas. When sale orders are confirmed, they are automatically sent to Gelato for printing and fulfillment.
+Module `sale_gelato` — auto-generated from source code.
 
-## Module Details
+**Source:** `addons/sale_gelato/`
+**Models:** 8
+**Fields:** 10
+**Methods:** 7
 
-- **Category**: Sales/Sales
-- **Depends**: Core sale, delivery, product document modules
-- **Version**: 1.0
-- **Author**: Odoo S.A.
-- **License**: LGPL-3
+## Models
 
-## Key Concepts
+### delivery.carrier (`delivery.carrier`)
 
-### Gelato Print-on-Demand
+Override of `delivery` to exclude regular delivery methods from Gelato orders and Gelato
+        delivery methods from non-Gelato orders.
 
-Gelato is a global print-on-demand network. Products (e.g., personalized books, calendars, photo products) are designed in Gelato and synchronized into Odoo. When a customer orders, Odoo sends the order to Gelato which prints and ships directly.
+        :param sale.order order: The current order.
+        :
 
-## Key Components
+**File:** `delivery_carrier.py` | Class: `ProviderGelato`
 
-### Company Configuration
+#### Fields (2)
 
-#### `res.company` (Inherited)
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `delivery_type` | `Selection` | — | — | — | — | — |
+| `gelato_shipping_service_type` | `Selection` | — | — | — | — | Y |
 
-| Field | Type | Description |
-|---|---|---|
-| `gelato_api_key` | Char | Gelato API key (system admin only) |
-| `gelato_webhook_secret` | Char | Gelato webhook secret |
 
-### Product Models
+#### Methods (2)
 
-#### `product.template` (Inherited)
+| Method | Description |
+|--------|-------------|
+| `available_carriers` | |
+| `gelato_rate_shipment` | |
 
-| Field | Type | Description |
-|---|---|---|
-| `gelato_template_ref` | Char | Gelato template reference ID |
-| `gelato_product_uid` | Char | Gelato product UID (from variant) |
-| `gelato_image_ids` | One2many | Print image documents (res_model=product.template) |
-| `gelato_missing_images` | Boolean | Some print images are not set |
 
-**Key Methods:**
-- `action_sync_gelato_template_info()` — Fetches template from Gelato API and creates variants + print image records.
-- `_create_attributes_from_gelato_info()` — Creates product attributes/variants from Gelato variant data. Sets `description_ecommerce`.
-- `_create_print_images_from_gelato_info()` — Creates `product.document` records with `is_gelato=True` for print areas.
-- `_get_product_document_domain()` — Excludes Gelato print images from regular document list.
+### product.document (`product.document`)
 
-#### `product.product` (Inherited)
+Create the payload for a single file of an 'orders' request.
 
-| Field | Type | Description |
-|---|---|---|
-| `gelato_product_uid` | Char | Gelato product UID for this variant (readonly) |
+        :return: The file payload.
+        :rtype: dict
 
-### Product Documents
+**File:** `product_document.py` | Class: `ProductDocument`
 
-#### `product.document` (Inherited)
+#### Fields (1)
 
-| Field | Type | Description |
-|---|---|---|
-| `is_gelato` | Boolean | Marks document as a Gelato print image (readonly) |
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `is_gelato` | `Boolean` | — | — | — | — | — |
 
-`_gelato_prepare_file_payload()` — Converts the print image attachment to a Gelato API file payload with signed URL.
 
-### Sale Order
+#### Methods (0)
 
-#### `sale.order` (Inherited)
+| Method | Description |
+|--------|-------------|
+| — | — |
 
-`_prevent_mixing_gelato_and_non_gelato_products()` — Constraint: Gelato and non-Gelato products cannot be in the same order.
 
-**Delivery:**
-- `action_open_delivery_wizard()` — Pre-selects Gelato delivery method when order contains Gelato products.
-- `action_confirm()` — Sends Gelato order to Gelato API after SO confirmation.
+### product.product (`product.product`)
 
-**_create_order_on_gelato()`** — Main integration method:
-- Builds order payload with items (Gelato product UIDs + print images + quantities).
-- Adds shipping address and shipment method.
-- Creates order as `draft` type on Gelato, with post-commit hooks to confirm or delete.
-- Posts chatter notification on success.
+—
 
-**_confirm_order_on_gelato()`** — Post-commit PATCH to Gelato to confirm the draft order.
+**File:** `product_product.py` | Class: `ProductProduct`
 
-**_delete_order_on_gelato()`** — Post-commit DELETE on Gelato if Odoo transaction rolls back.
+#### Fields (1)
 
-#### `sale.order.line` (Inherited)
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `gelato_product_uid` | `Char` | — | — | — | — | — |
 
-`_gelato_prepare_items_payload()` — Serializes sale order lines to Gelato items API format.
 
-### Delivery
+#### Methods (0)
 
-#### `delivery.carrier` (Inherited)
+| Method | Description |
+|--------|-------------|
+| — | — |
 
-| Field | Type | Description |
-|---|---|---|
-| `delivery_type` | Selection | Adds `'gelato'` option |
-| `gelato_shipping_service_type` | Selection | `'normal'` (Standard) or `'express'` (Express Delivery) |
 
-**_is_available_for_order()** — Excludes non-Gelato delivery methods from Gelato orders and vice versa.
+### product.document (`product.document`)
 
-`available_carriers()` — Filters delivery methods based on Gelato/non-Gelato order type.
+Fetch the template information from Gelato and update the product template accordingly.
 
-`gelato_rate_shipment()` — Fetches shipping rates from Gelato API based on order items and shipping address.
+        :return: The action to display a toast notification to the user.
+        :rtype: dict
 
-### Partner
+**File:** `product_template.py` | Class: `ProductTemplate`
 
-#### `res.partner` (Inherited)
+#### Fields (4)
 
-`_gelato_prepare_address_payload()` — Formats partner address for Gelato API with field length limits (street 35 chars, city 30 chars, etc.), splitting long addresses into addressLine1/2.
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `gelato_template_ref` | `Char` | Y | — | — | — | — |
+| `gelato_product_uid` | `Char` | Y | — | — | — | — |
+| `gelato_image_ids` | `One2many` | — | — | — | — | — |
+| `gelato_missing_images` | `Boolean` | Y | — | — | — | — |
 
-## Business Rules
 
-1. **No mixing**: Gelato and non-Gelato products cannot coexist in one sale order.
-2. **Complete address required**: Partner address must have name, street, city, country, email, and zip (if required).
-3. **Print images required**: Products must have print images before they can be published.
-4. **No stock pickings**: Gelato products do not trigger standard stock procurement (handled by `sale_gelato_stock`).
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `action_sync_gelato_template_info` | |
+
+
+### res.company (`res.company`)
+
+—
+
+**File:** `res_company.py` | Class: `ResCompany`
+
+#### Fields (2)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `gelato_api_key` | `Char` | — | — | — | — | — |
+| `gelato_webhook_secret` | `Char` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### res.partner (`res.partner`)
+
+Trim address fields according to maximum length allowed by Gelato.
+
+**File:** `res_partner.py` | Class: `ResPartner`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### sale.order (`sale.order`)
+
+Ensure that the order lines don't mix Gelato and non-Gelato products.
+
+        This method is not a constraint and is called from the `create` and `write` methods of
+        `sale.order.line` to cover
+
+**File:** `sale_order.py` | Class: `SaleOrder`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (2)
+
+| Method | Description |
+|--------|-------------|
+| `action_open_delivery_wizard` | |
+| `action_confirm` | |
+
+
+### sale.order.line (`sale.order.line`)
+
+—
+
+**File:** `sale_order_line.py` | Class: `SaleOrderLine`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (2)
+
+| Method | Description |
+|--------|-------------|
+| `create` | |
+| `write` | |
+
+
+
+
+## Related
+
+- [[Modules/Base]]
+- [[Modules/Sale]]

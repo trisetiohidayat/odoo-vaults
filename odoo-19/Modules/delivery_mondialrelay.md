@@ -1,59 +1,90 @@
 ---
-type: module
+title: "Delivery Mondialrelay"
 module: delivery_mondialrelay
-tags: [odoo, odoo19, delivery, shipping, mondial-relay, ecommerce]
-created: 2026-04-06
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
 ---
 
-# Delivery Mondial Relay
+# Delivery Mondialrelay
 
 ## Overview
-| Property | Value |
-|----------|-------|
-| **Name** | Delivery Mondial Relay |
-| **Technical** | `delivery_mondialrelay` |
-| **Category** | Shipping Connectors |
-| **License** | LGPL-3 |
-| **Author** | Odoo S.A. |
 
-## Description
-Integrates the Mondiani Relay Point Relais delivery service. Allows customers to select a Point Relais as their shipping address in the eCommerce checkout. The module provides the widget integration; it does **not** implement the Mondial Relay WebService (pricing and Point Relais selection must be configured separately).
+Module `delivery_mondialrelay` — auto-generated from source code.
 
-## Dependencies
-- `stock_delivery`
+**Source:** `addons/delivery_mondialrelay/`
+**Models:** 3
+**Fields:** 4
+**Methods:** 3
 
-## Key Models
-| Model | Type | Description |
-|-------|------|-------------|
-| `delivery.carrier` | Extension | Adds Mondiani Relay-specific fields and tracking |
-| `sale.order` | Extension | Validates carrier/address consistency on confirmation |
+## Models
 
-## `delivery.carrier` (Extension)
-### Fields
-| Field | Type | Description |
-|-------|------|-------------|
-| `is_mondialrelay` | Boolean | Computed; True if product default_code = `'MR'` |
-| `mondialrelay_brand` | Char | Brand code; default `'BDTEST  '` (for testing) |
-| `mondialrelay_packagetype` | Char | Package type; default `'24R'` (Advanced, system only) |
+### delivery.carrier (`delivery.carrier`)
 
-### Methods
-| Method | Purpose |
-|--------|---------|
-| `_compute_is_mondialrelay` | Sets True if product default_code == `'MR'` |
-| `_search_is_mondialrelay` | Domain search: `product_id.default_code = 'MR'` |
-| `fixed_get_tracking_link` | Delegates to `base_on_rule_get_tracking_link` for MR carriers |
-| `base_on_rule_get_tracking_link` | Returns Mondiani Relay tracking URL: `https://www.mondialrelay.com/public/permanent/tracking.aspx?ens={brand}&exp={track}&language={lang}` |
+—
 
-## `sale.order` (Extension)
-### Validation
-- `action_confirm` — Raises error if any SO has a Mondiani Relay carrier but the shipping address is not a Mondiani Relay address (or vice versa). Prevents mismatched configurations.
+**File:** `delivery_carrier.py` | Class: `DeliveryCarrier`
 
-## Configuration Notes
-- Requires a delivery product with `default_code = 'MR'`
-- Pricing rules should be configured in `delivery.carrier` as regular pricing rules (not real-time WebService)
-- Widget for Point Relais selection is loaded via web assets
+#### Fields (3)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `is_mondialrelay` | `Boolean` | Y | — | — | — | — |
+| `mondialrelay_brand` | `Char` | Y | — | — | — | — |
+| `mondialrelay_packagetype` | `Char` | Y | — | — | — | — |
+
+
+#### Methods (2)
+
+| Method | Description |
+|--------|-------------|
+| `fixed_get_tracking_link` | |
+| `base_on_rule_get_tracking_link` | |
+
+
+### res.partner (`res.partner`)
+
+—
+
+**File:** `res_partner.py` | Class: `ResPartner`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `is_mondialrelay` | `Boolean` | Y | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### sale.order (`sale.order`)
+
+—
+
+**File:** `sale_order.py` | Class: `SaleOrder`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `action_confirm` | |
+
+
+
 
 ## Related
-- [Modules/delivery](delivery.md)
-- [Modules/stock_delivery](stock_delivery.md)
-- [Modules/website_sale_mondialrelay](website_sale_mondialrelay.md)
+
+- [[Modules/Base]]
+- [[Modules/Base]]

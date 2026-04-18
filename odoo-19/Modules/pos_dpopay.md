@@ -1,27 +1,76 @@
-# POS DPO Pay
+---
+title: "Pos Dpopay"
+module: pos_dpopay
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Pos Dpopay
 
 ## Overview
-- **Name:** PoS DPO Pay
-- **Category:** Sales/Point of Sale
-- **Depends:** `point_of_sale`
-- **Author:** Odoo S.A.
-- **License:** LGPL-3
 
-## Description
-Integrates your POS with DPO payment terminal. Supports all currencies supported by the terminal — primarily for the **African region**. Enables customers to pay using debit/credit cards and Mobile Money (Airtel Money / M-Pesa).
+Module `pos_dpopay` — auto-generated from source code.
 
-## Features
-- Quick payment via card swiping, scanning, or tapping
-- Mobile Money support: Airtel Money, M-Pesa
-- Supported cards: Visa, MasterCard, American Express, etc.
-- Requires a DPO merchant account
+**Source:** `addons/pos_dpopay/`
+**Models:** 2
+**Fields:** 11
+**Methods:** 1
 
-## Data Files
-- `views/pos_payment_method_views.xml` — Payment method configuration
-- `views/pos_payment_views.xml` — Payment views
+## Models
 
-## Assets
-- POS frontend assets for DPO terminal integration
+### pos.payment (`pos.payment`)
+
+—
+
+**File:** `pos_payment.py` | Class: `PosPayment`
+
+#### Fields (3)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `dpopay_rrn` | `Char` | — | — | — | — | Y |
+| `dpopay_transaction_ref` | `Char` | — | — | — | — | Y |
+| `dpopay_mobile_money_phone` | `Char` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### pos.payment.method (`pos.payment.method`)
+
+—
+
+**File:** `pos_payment_method.py` | Class: `PosPaymentMethod`
+
+#### Fields (8)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `dpopay_client_id` | `Char` | — | — | — | — | — |
+| `dpopay_client_secret` | `Char` | — | — | — | — | — |
+| `dpopay_mid` | `Char` | — | — | — | — | — |
+| `dpopay_tid` | `Char` | — | — | — | — | — |
+| `dpopay_payment_mode` | `Selection` | — | — | — | — | — |
+| `dpopay_chain_id` | `Char` | — | — | — | — | — |
+| `dpopay_test_mode` | `Boolean` | — | — | — | — | — |
+| `dpopay_bearer_token` | `Char` | — | — | — | — | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `send_dpopay_request` | |
+
+
+
 
 ## Related
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module
+
+- [[Modules/Base]]
+- [[Modules/Base]]

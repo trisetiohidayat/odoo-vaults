@@ -1,58 +1,47 @@
-# Module Install Request (base_install_request)
+---
+title: "Base Install Request"
+module: base_install_request
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
 
-## Module Overview
+# Base Install Request
 
-| Property | Value |
-|----------|-------|
-| **Name** | Base - Module Install Request |
-| **Technical Name** | `base_install_request` |
-| **Category** | Hidden |
-| **License** | LGPL-3 |
-| **Auto Install** | Yes |
+## Overview
 
-## Description
+Module `base_install_request` — auto-generated from source code.
 
-Allow internal users to request module installation from administrators via email workflow.
-
-## Dependencies
-
-- [Modules/mail](mail.md)
-
-## Key Features
-
-1. **Request Access Button** - Users can request module installation
-2. **Email Notification** - Sends request to administrators
-3. **Admin Review** - Shows all dependent apps to be installed
-4. **Install Wizard** - One-click module installation
+**Source:** `addons/base_install_request/`
+**Models:** 1
+**Fields:** 0
+**Methods:** 1
 
 ## Models
 
-### base.module.install.request
+### ir.module.module (`ir.module.module`)
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `module_id` | Many2one | Module to request |
-| `user_id` | Many2one | Requesting user |
-| `body_html` | Html | Justification message |
+—
 
-### base.module.install.review
+**File:** `ir_module_module.py` | Class: `IrModuleModule`
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `module_id` | Many2one | Module to install |
-| `modules_description` | Html | Dependent apps preview |
+#### Fields (0)
 
-## Workflow
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
 
-```
-User clicks "Request Access"
-    → User enters justification
-    → Email sent to administrators
-    → Admin reviews (shows dependencies)
-    → Admin clicks "Install"
-```
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `action_open_install_request` | |
+
+
+
 
 ## Related
 
-- [Modules/mail](mail.md)
-- [Modules/base_import_module](base_import_module.md)
+- [[Modules/Base]]
+- [[Modules/Base]]

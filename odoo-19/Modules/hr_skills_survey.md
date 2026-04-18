@@ -1,35 +1,92 @@
-# Skills Certification (hr_skills_survey)
+---
+title: "Hr Skills Survey"
+module: hr_skills_survey
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Hr Skills Survey
 
 ## Overview
-- **Category:** Human Resources/Employees
-- **Depends:** `hr_skills`, `survey`
-- **Auto-install:** True
-- **License:** LGPL-3
 
-Adds survey certifications to employee resumes. When an employee passes a certification survey, a resume line is created. Supports certification validity periods.
+Module `hr_skills_survey` — auto-generated from source code.
+
+**Source:** `addons/hr_skills_survey/`
+**Models:** 3
+**Fields:** 4
+**Methods:** 1
 
 ## Models
 
-### `survey.survey` (inherited)
-Extends surveys with certification validity:
+### hr.resume.line (`hr.resume.line`)
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `certification_validity_months` | Integer | Validity period in months. 0 = never expires |
+—
 
-### `hr.resume.line` (inherited via `hr_skills`)
-Resume lines are created when a survey certification is awarded (triggered from `survey.user` completion).
+**File:** `hr_resume_line.py` | Class: `HrResumeLine`
 
-### `survey.user` (inherited via `survey`)
-Completion records track which employees have completed which certifications.
+#### Fields (3)
 
-## Key Features
-- Certification validity: `certification_validity_months` field allows time-limited certifications
-- Resume lines created from passed surveys (via the `survey` module's completion triggers)
-- `hr_resume_data.xml` — demo data for certification resume entries
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `department_id` | `Many2one` | — | — | Y | Y | — |
+| `survey_id` | `Many2one` | Y | — | — | Y | — |
+| `expiration_status` | `Selection` | Y | — | — | Y | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `copy_data` | |
+
+
+### survey.survey (`survey.survey`)
+
+—
+
+**File:** `survey_survey.py` | Class: `SurveySurvey`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `certification_validity_months` | `Integer` | — | — | — | — | Y |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### survey.user_input (`survey.user_input`)
+
+Will add certification to employee's resume if
+        - The survey is a certification
+        - The user is linked to an employee
+        - The user succeeded the test
+
+**File:** `survey_user.py` | Class: `SurveyUser_Input`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/hr_skills](hr_skills.md) — HR Skills base
-- [Modules/survey](survey.md) — Survey/certification module
-- [Modules/hr_skills](hr_skills.md) — Skills + eLearning
-- [Modules/hr_skills](hr_skills.md) — Skills + Events
+
+- [[Modules/Base]]
+- [[Modules/HR]]

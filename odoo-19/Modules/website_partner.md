@@ -1,31 +1,49 @@
+---
+title: "Website Partner"
+module: website_partner
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
 # Website Partner
 
 ## Overview
-- **Name**: Website Partner
-- **Category**: Website/Website
-- **Depends**: `website`
-- **Summary**: Partner directory on the website with SEO and publication controls
-- **Version**: 0.1
+
+Module `website_partner` — auto-generated from source code.
+
+**Source:** `addons/website_partner/`
+**Models:** 1
+**Fields:** 3
+**Methods:** 0
 
 ## Models
 
-### `res.partner` (extended)
-- `website_description` (Html) - Full partner description for the website
-- `website_short_description` (Text) - Short description/bio
-- `is_published` (Boolean) - Controls visibility on the website
-- `_compute_website_url()` - Sets URL to `/partners/<slug>`
-- `_track_subtype()` - Notifies on `is_published` changes
+### res.partner (`res.partner`)
 
-## Controllers
+—
 
-### `WebsitePartnerPage`
+**File:** `res_partner.py` | Class: `ResPartner`
 
-**Routes:**
-- `GET /partners/<partner_id>` - Public partner detail page
-  - Supports slug redirection
-  - Checks `website_published` flag or website restricted editor access
-  - Renders `website_partner.partner_page` template
+#### Fields (3)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `website_description` | `Html` | — | — | — | — | — |
+| `website_short_description` | `Text` | Y | — | — | — | — |
+| `is_published` | `Boolean` | Y | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/website_customer](website_customer.md) - Customer references (depends on this)
-- [Modules/website](website.md) - Website builder
+
+- [[Modules/Base]]
+- [[Modules/Website]]

@@ -1,42 +1,111 @@
-# SMS on Events
+---
+title: "Event Sms"
+module: event_sms
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Event Sms
 
 ## Overview
-- **Name**: SMS on Events
-- **Category**: Marketing/Events
-- **Depends**: `event`, `sms`
-- **Summary**: Schedule and send SMS reminders for event registrations
-- **Auto-install**: True
 
-## Key Features
-- Adds **SMS** as a notification type option for event mail schedulers
-- Links SMS templates to event registration reminders
-- Supports event-level and event-type-level SMS scheduling
+Module `event_sms` — auto-generated from source code.
 
-## Extended Models
+**Source:** `addons/event_sms/`
+**Models:** 4
+**Fields:** 5
+**Methods:** 1
 
-### `event.mail` (extended)
-- `notification_type` - Added `sms` option alongside `mail`
-- `template_ref` - Added `sms.template` to the reference selection
-- `_compute_notification_type()` - Auto-sets to `sms` when template is an SMS template
-- `_execute_event_based_for_registrations()` - Handles SMS sending via `_send_sms()`
-- `_send_sms()` - Sends SMS to registrations using `_message_sms_schedule_mass()`
-- `_template_model_by_notification_type()` - Maps `sms` to `sms.template`
+## Models
 
-### `event.mail.registration` (extended)
-- `_execute_on_registrations()` - For SMS schedulers, calls `_send_sms()` on each registration; marks `mail_sent = True`
+### event.mail (`event.mail`)
 
-### `event.type.mail` (extended)
-- `notification_type` - Added `sms` option
-- `template_ref` - Added `sms.template` reference
-- `_compute_notification_type()` - Auto-detects SMS templates
+SMS action: send SMS to attendees
 
-### `sms.template` (extended)
-- `_search()` - Supports `filter_template_on_event` context to restrict to `event.registration` model
-- `unlink()` - Cascades deletion to linked `event.mail` and `event.type.mail` records
+**File:** `event_mail.py` | Class: `EventMail`
 
-## Data
-- `data/sms_data.xml` - SMS templates for events (e.g., registration confirmation, reminder)
+#### Fields (2)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `notification_type` | `Selection` | Y | — | — | — | — |
+| `template_ref` | `Reference` | Y | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### event.mail.registration (`event.mail.registration`)
+
+—
+
+**File:** `event_mail_registration.py` | Class: `EventMailRegistration`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### event.type.mail (`event.type.mail`)
+
+—
+
+**File:** `event_type_mail.py` | Class: `EventTypeMail`
+
+#### Fields (2)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `notification_type` | `Selection` | Y | — | — | — | — |
+| `template_ref` | `Reference` | Y | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### sms.template (`sms.template`)
+
+Context-based hack to filter reference field in a m2o search box to emulate a domain the ORM currently does not support.
+
+        As we can not specify a domain on a reference field, we added a contex
+
+**File:** `sms_template.py` | Class: `SmsTemplate`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `domain` | `Domain` | — | — | — | — | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `unlink` | |
+
+
+
 
 ## Related
-- [Modules/event](event.md) - Event management
-- [Modules/sms](sms.md) - SMS sending
+
+- [[Modules/Base]]
+- [[Modules/Base]]

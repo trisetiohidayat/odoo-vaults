@@ -1,38 +1,69 @@
-# Checkout Newsletter
+---
+title: "Website Sale Mass Mailing"
+module: website_sale_mass_mailing
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Website Sale Mass Mailing
 
 ## Overview
-- **Name**: Checkout Newsletter
-- **Category**: Website/Website
-- **Depends**: `website_sale`, `website_mass_mailing`
-- **Summary**: Let new customers sign up for a newsletter during checkout
-- **Auto-install**: True
 
-## Key Features
-- Adds a newsletter opt-in checkbox to the checkout process
-- Subscribes the customer to a mailing list when they complete their order with the newsletter option selected
-- Uses the `MassMailController.subscribe_to_newsletter()` method from `website_mass_mailing`
-- Configurable per-website newsletter mailing list
+Module `website_sale_mass_mailing` — auto-generated from source code.
 
-## Extended Models
+**Source:** `addons/website_sale_mass_mailing/`
+**Models:** 2
+**Fields:** 3
+**Methods:** 1
 
-**`website`**
-- `newsletter_id` (Many2one `mailing.list`) - Newsletter mailing list for this website
+## Models
 
-**`res.config.settings`**
-- `is_newsletter_enabled` (Boolean) - Toggle newsletter checkbox on/off for the website
-- `newsletter_id` (Many2one) - Related newsletter list
-- `_compute_is_newsletter_enabled()` - Reads whether the newsletter view is active on the website
-- `set_values()` - Activates/deactivates the newsletter view based on the setting
+### res.config.settings (`res.config.settings`)
 
-## Extended Controllers
+Computing newsletter setting when changing the website in the res.config.settings page to
+        show the correct value in the checkbox.
 
-**`WebsiteSale` (extends `website_sale.controllers.main.WebsiteSale`)**
-- `_handle_extra_form_data()` - If `newsletter` is in form data and email is present, subscribes the email to the configured mailing list using `MassMailController.subscribe_to_newsletter()`
+**File:** `res_config_settings.py` | Class: `ResConfigSettings`
 
-## Views
-- `views/templates.xml` - Newsletter snippet/checkout widget
-- `views/res_config_settings_views.xml` - Website settings form view
+#### Fields (2)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `is_newsletter_enabled` | `Boolean` | Y | — | Y | Y | — |
+| `newsletter_id` | `Many2one` | Y | — | Y | — | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `set_values` | |
+
+
+### mailing.list (`mailing.list`)
+
+—
+
+**File:** `website.py` | Class: `Website`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `newsletter_id` | `Many2one` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/website_sale](website_sale.md) - Base eCommerce
-- [Modules/website_mass_mailing](website_mass_mailing.md) - Mass mailing website integration
+
+- [[Modules/Base]]
+- [[Modules/Website]]

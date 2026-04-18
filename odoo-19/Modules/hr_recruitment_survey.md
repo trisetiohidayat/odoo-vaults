@@ -1,89 +1,112 @@
 ---
-type: module
+title: "Hr Recruitment Survey"
 module: hr_recruitment_survey
-tags: [odoo, odoo19, hr, recruitment, survey, interview]
-created: 2026-04-06
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
 ---
 
-# Recruitment Survey
+# Hr Recruitment Survey
 
 ## Overview
 
-| Property | Value |
-|----------|-------|
-| **Name** | Hr Recruitment Interview Forms |
-| **Technical** | `hr_recruitment_survey` |
-| **Category** | Human Resources |
-| **Version** | 1.0 |
-| **License** | LGPL-3 |
-| **Author** | Odoo S.A. |
+Module `hr_recruitment_survey` — auto-generated from source code.
 
-## Description
+**Source:** `addons/hr_recruitment_survey/`
+**Models:** 4
+**Fields:** 6
+**Methods:** 6
 
-Integrates survey/questionnaire functionality into the recruitment process. Allows defining interview forms for job positions and sending them to applicants.
+## Models
 
-## Dependencies
+### hr.applicant (`hr.applicant`)
 
-- `survey`
-- `hr_recruitment`
+If response is available then print this response otherwise print survey form (print template of the survey)
 
-## Key Models
+**File:** `hr_applicant.py` | Class: `HrApplicant`
 
-| Model | Description |
-|-------|-------------|
-| `hr.applicant` | Applicant (inherited) |
-| `hr.job` | Job position (inherited) |
-| `survey.user_input` | Survey responses (linked to applicant) |
+#### Fields (2)
 
-## hr.applicant (extends hr_recruitment.hr_applicant)
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `survey_id` | `Many2one` | — | — | Y | — | — |
+| `response_ids` | `One2many` | — | — | — | — | — |
 
-**File:** `models/hr_applicant.py`
 
-### Additional Fields
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `survey_id` | Many2one | Survey linked to the job (related) |
-| `response_ids` | One2many | Survey responses (survey.user_input) |
-
-### Key Methods
+#### Methods (2)
 
 | Method | Description |
 |--------|-------------|
-| `action_print_survey()` | Print survey (response if available, else template) |
-| `action_send_survey()` | Open wizard to send survey to applicant |
+| `action_print_survey` | |
+| `action_send_survey` | |
 
-### Workflow
 
-1. Define a survey on the job position (`job_id.survey_id`)
-2. Recruiter calls `action_send_survey()` on an applicant
-3. If no `partner_id`, creates one from applicant name/email/phone
-4. Opens `survey.invite` wizard pre-filled with:
-   - Survey
-   - Applicant partner
-   - Applicant as `default_applicant_id`
-   - Deadline set to now + 15 days
-5. Survey responses are stored in `response_ids`
+### hr.job (`hr.job`)
 
----
+—
 
-## hr.job (extends hr_recruitment.hr_job)
+**File:** `hr_job.py` | Class: `HrJob`
 
-**File:** `models/hr_job.py`
+#### Fields (1)
 
-No additional fields or methods. The survey is referenced through `survey_id` on `hr.applicant` which is computed from `job_id.survey_id`.
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `survey_id` | `Many2one` | — | — | — | — | — |
 
-## survey.user_input
 
-Linked to `hr.applicant` via `applicant_id` field (added by this module).
+#### Methods (2)
 
-### Fields
+| Method | Description |
+|--------|-------------|
+| `action_test_survey` | |
+| `action_new_survey` | |
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `applicant_id` | Many2one | Applicant (added by this module) |
+
+### survey.survey (`survey.survey`)
+
+—
+
+**File:** `survey_survey.py` | Class: `SurveySurvey`
+
+#### Fields (2)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `survey_type` | `Selection` | Y | — | — | — | — |
+| `hr_job_ids` | `One2many` | Y | — | — | — | — |
+
+
+#### Methods (2)
+
+| Method | Description |
+|--------|-------------|
+| `get_formview_id` | |
+| `action_survey_user_input_completed` | |
+
+
+### survey.user_input (`survey.user_input`)
+
+—
+
+**File:** `survey_user_input.py` | Class: `SurveyUser_Input`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `applicant_id` | `Many2one` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
 
-- [Modules/hr_recruitment](hr_recruitment.md)
-- [Modules/survey](survey.md)
+- [[Modules/Base]]
+- [[Modules/HR]]

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d6c5d1f1a7851e67",
+        "id": "33f3c352d81c49b5",
         "type": "tabs",
         "children": [
           {
-            "id": "197f473de0e89373",
+            "id": "22e63553183ac578",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modules/Account.md",
+                "file": "Modules/account_edi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Account"
+              "title": "account_edi"
             }
           }
         ]
@@ -180,9 +180,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "197f473de0e89373",
+  "active": "22e63553183ac578",
   "lastOpenFiles": [
-    "Modules/CRM.md",
-    "Modules/account_asset_workflow.md"
+    "Modules/account_edi_proxy_client.md",
+    "Modules/account_edi.md",
+    "Modules/account_debit_note.md",
+    "Modules/Account.md",
+    "Modules/res_partner.md",
+    "Modules/resource.md",
+    "Flows/Account/payment-flow.md",
+    "Modules/account_asset.md",
+    "Modules/l10n_din5008_repair.md",
+    "Snippets/Wizard-Deep-Dive.md",
+    "Modules/account_add_gln.md",
+    "Documentation/Checkpoints/Checkpoint 01 - Base Modules.md",
+    "Research-Log/active-run/checkpoint.md",
+    "Research-Log/verified-status.md",
+    "Research-Log/USER-GUIDE.md",
+    "Research-Log/backlog.md",
+    "Research-Log/completed-runs/placeholder.md",
+    "Snippets/POS-View-Patterns.md",
+    "Patterns/Cross-Module-Integration.md",
+    "Snippets/Kanban-View-Patterns.md",
+    "New Features/Whats-New-Deep.md",
+    "Tools/Testing-Guide.md",
+    "Patterns/Module-Extension-Chains.md",
+    "Core/ORM-Internals.md",
+    "Tools/Performance-Optimization.md",
+    "Tools/Debugging-Guide.md"
   ]
 }

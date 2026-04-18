@@ -1,39 +1,47 @@
-# IAP CRM
+---
+title: "Iap Crm"
+module: iap_crm
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Iap Crm
 
 ## Overview
 
-- **Category**: Hidden/Tools
-- **Depends**: `crm`, `iap_mail`
-- **License**: LGPL-3
-- **Auto-install**: Yes
+Module `iap_crm` — auto-generated from source code.
 
-Bridge module between [Modules/iap](iap.md) and [Modules/CRM](CRM.md). Provides integration between IAP-based services (like lead enrichment and reveal) and the CRM pipeline.
+**Source:** `addons/iap_crm/`
+**Models:** 1
+**Fields:** 1
+**Methods:** 0
 
 ## Models
 
-### `crm.lead` (Extended)
+### crm.lead (`crm.lead`)
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `reveal_id` | Char | Technical ID of the IAP reveal request. Indexed `btree_not_null`. Used to track which IAP service revealed this lead's company data. |
+—
+
+**File:** `crm_lead.py` | Class: `CrmLead`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `reveal_id` | `Char` | — | — | — | — | — |
+
+
+#### Methods (0)
 
 | Method | Description |
 |--------|-------------|
-| `_merge_get_fields()` | Adds `reveal_id` to the list of fields preserved during lead merging. |
+| — | — |
 
-## What It Does
 
-This is a thin bridge module. The `reveal_id` field allows Odoo to track which IAP reveal request populated a given lead, which is useful for:
-- Auditing which IAP service enriched a lead.
-- Correlating with IAP service logs.
-- Avoiding duplicate enrichment requests.
 
-The actual IAP reveal/enrichment logic lives in `crm_iap_enrich` and other CRM+IAP modules that call into IAP services.
 
 ## Related
 
-- [Modules/CRM](CRM.md) — CRM pipeline and lead/opportunity management.
-- [Modules/iap_mail](iap_mail.md) — IAP bus notifications and mail.thread on IAP accounts.
-- [Modules/crm_iap_enrich](crm_iap_enrich.md) — IAP lead enrichment (company data enrichment).
-- [Modules/crm_iap_mine](crm_iap_mine.md) — IAP lead mining.
-- [Modules/partner_autocomplete](partner_autocomplete.md) — Company data autocomplete via IAP.
+- [[Modules/Base]]
+- [[Modules/Base]]

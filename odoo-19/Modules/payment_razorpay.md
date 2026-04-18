@@ -1,102 +1,104 @@
 ---
-type: module
+title: "Payment Razorpay"
 module: payment_razorpay
-tags: [odoo, odoo19, payment, razorpay]
-created: 2026-04-06
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
 ---
 
-# Payment Provider: Razorpay
+# Payment Razorpay
 
 ## Overview
-| Property | Value |
-|----------|-------|
-| **Name** | Payment Provider: Razorpay |
-| **Technical** | `payment_razorpay` |
-| **Category** | Accounting/Payment Providers |
-| **Version** | 1.0 |
-| **License** | LGPL-3 |
-| **Author** | Odoo S.A. |
 
-## Description
-A payment provider covering India. Supports INR transactions, tokenization for recurring payments (eMandate), manual capture, and refunds.
+Module `payment_razorpay` — auto-generated from source code.
 
-## Dependencies
-- payment
+**Source:** `addons/payment_razorpay/`
+**Models:** 3
+**Fields:** 9
+**Methods:** 2
 
-## Key Models
+## Models
 
-### payment.provider (Inherited)
-**File:** `models/payment_provider.py`
+### payment.provider (`payment.provider`)
 
-#### Fields
-| Field | Type | Description |
-|-------|------|-------------|
-| `code` | Selection | Added `razorpay` option |
-| `razorpay_key_id` | Char | Public key for frontend (set by user) |
-| `razorpay_public_token` | Char | Public token for frontend (set by user) |
+Override of `payment` to enable additional features.
 
-#### Feature Support
-| Feature | Support |
-|---------|---------|
-| Manual capture | Supported (authorized then captured) |
-| Refund | `partial` |
-| Tokenization | `True` (eMandate recurring) |
+**File:** `payment_provider.py` | Class: `PaymentProvider`
 
-### payment.transaction (Inherited)
-**File:** `models/payment_transaction.py`
+#### Fields (9)
 
-#### Key Methods
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `code` | `Selection` | — | — | — | — | — |
+| `razorpay_key_id` | `Char` | — | — | — | — | — |
+| `razorpay_key_secret` | `Char` | — | — | — | — | — |
+| `razorpay_webhook_secret` | `Char` | — | — | — | — | — |
+| `razorpay_account_id` | `Char` | — | — | — | — | — |
+| `razorpay_refresh_token` | `Char` | — | — | — | — | — |
+| `razorpay_public_token` | `Char` | — | — | — | — | — |
+| `razorpay_access_token` | `Char` | — | — | — | — | — |
+| `razorpay_access_token_expiry` | `Datetime` | Y | — | — | — | — |
+
+
+#### Methods (2)
+
 | Method | Description |
 |--------|-------------|
-| `_get_specific_processing_values()` | Creates customer + order, returns key_id, customer_id, order_id, tokenize flag |
-| `_razorpay_create_customer()` | Creates Razorpay customer with name, email, phone |
-| `_razorpay_create_order()` | Creates Razorpay order for payment |
-| `_razorpay_prepare_order_payload()` | Builds order with amount, currency, payment method, mandate token |
-| `_razorpay_get_mandate_max_amount()` | Computes max amount for eMandate (INR 1,00,000 default) |
-| `_validate_phone_number()` | Formats phone number via `_phone_format` with country |
-| `_send_payment_request()` | Sends token-based recurring payment request |
-| `_send_refund_request()` | Sends refund with reference in notes |
-| `_send_capture_request()` | Captures authorized payment |
-| `_send_void_request()` | Raises UserError (Razorpay cannot be voided) |
-| `_search_by_reference()` | Searches by description for payments, by notes for refunds, or creates child tx |
-| `_extract_token_values()` | Returns customer_id + token_id combined in `provider_ref` |
+| `action_start_onboarding` | |
+| `action_razorpay_create_webhook` | |
 
-#### Amount Handling
-- Amounts converted to minor currency units (paise) via `payment_utils.to_minor_currency_units()`
-- INR converted back to target currency for non-INR transactions via `_razorpay_convert_inr_to_currency()`
 
-#### Tokenization
-Provider ref format: `{customer_id},{token_id}` (comma-separated)
+### payment.token (`payment.token`)
 
-Mandate max amount per payment method:
-- Card: INR 100,000 (default)
-- UPI: varies
-- eMandate valid for 10 years with `frequency: as_presented`
+Return a warning message when the maximum payment amount is exceeded.
 
-#### eMandate Rules
-- Prevent duplicate token payments within 36 hours
-- Max amount = min(pm_max_amount, max(amount*1.5, MRR*5))
+        :param float amount: The amount to be paid.
+        :param currency_id: The currency of the amount.
+        :return: A wa
 
-#### State Mapping
-| Razorpay Status | Odoo State |
-|-----------------|------------|
-| `authorized` (if capture_manually) | `authorized` |
-| `captured` | `done` |
-| `refunded` | `done` (refund child tx) |
-| `error` | `error` |
+**File:** `payment_token.py` | Class: `PaymentToken`
 
-## Architecture Notes
+#### Fields (0)
 
-**Customer Creation:** Every new payment creates a Razorpay customer unless a token already exists.
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
 
-**Webhook:** Supports payment, refund, and capture webhook entities.
 
-**Refund Tracking:** Refund reference stored in `notes.reference` field for lookup.
+#### Methods (0)
 
-**Partial Refunds:** Supported via standard refund flow.
+| Method | Description |
+|--------|-------------|
+| — | — |
 
-**Return URL:** Uses `RazorpayController._return_url` with reference query param for redirect payments.
+
+### payment.transaction (`payment.transaction`)
+
+Override of `payment` to return razorpay-specific processing values.
+
+        Note: self.ensure_one() from `_get_processing_values`
+
+        :param dict processing_values: The generic and specific pro
+
+**File:** `payment_transaction.py` | Class: `PaymentTransaction`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/payment](payment.md)
-- [Modules/payment_adyen](payment_adyen.md)
+
+- [[Modules/Base]]
+- [[Modules/Base]]

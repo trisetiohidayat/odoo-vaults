@@ -1,29 +1,67 @@
+---
+title: "Mass Mailing Event Track"
+module: mass_mailing_event_track
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
 # Mass Mailing Event Track
 
 ## Overview
-- **Name:** Mass mailing on track speakers
-- **Category:** Marketing/Email Marketing
-- **Summary:** Mass mail event track speakers
-- **Version:** 1.0
-- **Depends:** `website_event_track`, `mass_mailing`
-- **Auto-install:** True
-- **License:** LGPL-3
 
-## Description
-Bridge module that adds mass mailing capabilities to event track speakers. Provides a button on event forms to email speakers about their scheduled talks.
+Module `mass_mailing_event_track` — auto-generated from source code.
+
+**Source:** `addons/mass_mailing_event_track/`
+**Models:** 2
+**Fields:** 0
+**Methods:** 1
 
 ## Models
 
-### `event.event` (extends `event.event`)
-#### Methods
-- `action_mass_mailing_track_speakers()`: Opens mass mailing form targeted at speakers of confirmed (non-canceled) tracks for this event
+### event.event (`event.event`)
 
-### `event.track` (extends `event.track`)
-- `_mailing_enabled = True`: Activates mailing on tracks
+—
 
-#### Methods
-- `_mailing_get_default_domain()`: Excludes canceled tracks
+**File:** `event_event.py` | Class: `EventEvent`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `action_mass_mailing_track_speakers` | |
+
+
+### event.track (`event.track`)
+
+—
+
+**File:** `event_track.py` | Class: `EventTrack`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/mass_mailing](mass_mailing.md) - Base mass mailing module
-- [Modules/website_event_track](website_event_track.md) - Event track/speaker management
+
+- [[Modules/Base]]
+- [[Modules/Base]]

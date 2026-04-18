@@ -1,26 +1,47 @@
-# Recruitment SMS (hr_recruitment_sms)
+---
+title: "Hr Recruitment Sms"
+module: hr_recruitment_sms
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Hr Recruitment Sms
 
 ## Overview
-- **Category:** Human Resources/Recruitment
-- **Depends:** `hr_recruitment`, `sms`
-- **Auto-install:** True
-- **License:** LGPL-3
 
-Adds SMS capability to the recruitment module. HR can send SMS messages to job applicants directly from the applicant form.
+Module `hr_recruitment_sms` — auto-generated from source code.
+
+**Source:** `addons/hr_recruitment_sms/`
+**Models:** 1
+**Fields:** 0
+**Methods:** 1
 
 ## Models
 
-### `hr.applicant` (inherited via `hr_recruitment`)
-The applicant form gets SMS action buttons via the `sms` module integration.
+### hr.applicant (`hr.applicant`)
 
-## Key Features
-- SMS composer accessible from the applicant form view
-- Mass SMS composition supported for bulk applicant outreach
-- Works with `sms.template` for templated recruitment SMS
-- Uses `mobile_phone` or `partner_phone` as the destination number field
-- `mail.thread.phone` mixin (from `hr_recruitment`) provides phone number formatting and SMS sending capabilities
+—
+
+**File:** `hr_applicant.py` | Class: `HrApplicant`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `action_send_sms` | |
+
+
+
 
 ## Related
-- [Modules/hr_recruitment](hr_recruitment.md) — Recruitment base
-- [Modules/sms](sms.md) — SMS module
-- [Modules/hr_recruitment_skills](hr_recruitment_skills.md) — Recruitment + Skills
+
+- [[Modules/Base]]
+- [[Modules/HR]]

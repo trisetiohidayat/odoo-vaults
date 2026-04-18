@@ -1,69 +1,176 @@
-# HR Homeworking
+---
+title: "Hr Homeworking"
+module: hr_homeworking
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Hr Homeworking
 
 ## Overview
-- **Name**: Remote Work (`hr_homeworking`)
-- **Category**: Human Resources/Remote Work
-- **Depends**: `hr`
-- **Version**: 2.0
-- **License**: LGPL-3
-- **Auto-install**: True
 
-Manages employee remote/hybrid work by assigning work locations (Office, Home, Other) to each day of the week, with support for exceptional one-day location changes.
+Module `hr_homeworking` — auto-generated from source code.
+
+**Source:** `addons/hr_homeworking/`
+**Models:** 6
+**Fields:** 32
+**Methods:** 3
 
 ## Models
 
-### `hr.employee` (extends)
-| Field | Type | Description |
-|-------|------|-------------|
-| `monday_location_id` through `sunday_location_id` | Many2one | Default work location per weekday |
-| `exceptional_location_id` | Many2one | Non-scheduled location for today (computed) |
-| `today_location_name` | Char | Name of current location |
-| `hr_icon_display` | Selection | Extended with `presence_home`, `presence_office`, `presence_other` |
+### hr.employee (`hr.employee`)
 
-- `_get_current_day_location_field`: Returns the location field for today
-- `_compute_exceptional_location_id`: Looks up today's `hr.employee.location` exception
-- `_compute_presence_icon`: Sets icon based on today's effective location
-- `_compute_work_location_name`, `_compute_work_location_type`: Compute from today's location
-- `get_views`: Replaces placeholder fields in search/list views with today's field
+—
 
-### `hr.employee.public` (extends)
-| Field | Type | Description |
-|-------|------|-------------|
-| `monday_location_id` through `sunday_location_id` | Many2one | Weekday locations |
-| `today_location_name` | Char | Current location |
+**File:** `hr_employee.py` | Class: `HrEmployee`
 
-### `hr.employee.location` (Model)
-| Field | Type | Description |
-|-------|------|-------------|
-| `work_location_id` | Many2one | Work location reference |
-| `work_location_name` | Char | Location name (related) |
-| `work_location_type` | Selection | Location type (related) |
-| `employee_id` | Many2one | Employee |
-| `date` | Date | Specific date for this exception |
-| `day_week_string` | Char | Formatted day of week |
+#### Fields (10)
 
-- Constraint: unique(employee_id, date) -- one default + one exception per day
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `monday_location_id` | `Many2one` | — | — | — | — | — |
+| `tuesday_location_id` | `Many2one` | — | — | — | — | — |
+| `wednesday_location_id` | `Many2one` | — | — | — | — | — |
+| `thursday_location_id` | `Many2one` | — | — | — | — | — |
+| `friday_location_id` | `Many2one` | — | — | — | — | — |
+| `saturday_location_id` | `Many2one` | Y | — | — | — | — |
+| `sunday_location_id` | `Many2one` | Y | — | — | — | — |
+| `exceptional_location_id` | `Many2one` | Y | — | — | — | — |
+| `hr_icon_display` | `Selection` | — | — | — | — | — |
+| `today_location_name` | `Char` | — | — | — | — | — |
 
-### `hr.work.location` (extends)
-- `_unlink_except_used_by_employee`: Prevents deletion of locations in use; unlinks exceptions using it
 
-### `res.users` (extends)
-| Field | Type | Description |
-|-------|------|-------------|
-| `monday_location_id` through `sunday_location_id` | Many2one | User's work locations (related to employee) |
+#### Methods (1)
 
-- `_get_employee_fields_to_sync`: Includes DAY fields in user sync
-- `_compute_im_status`: Overrides IM status with location type (`presence_home_online`, etc.)
+| Method | Description |
+|--------|-------------|
+| `get_views` | |
 
-### `res.partner` (extends)
-- `_compute_im_status`: Extends partner IM status with employee's current location type
 
-## Key Features
-- Assign default work locations (Office/Home/Other) per weekday per employee
-- Exceptional one-day location overrides via `hr.employee.location`
-- Presence indicators (icons) on employee kanban reflect current location
-- IM status suffixed with location type (e.g., `presence_home_online`)
-- Location view hacks to group by today's location field
+### hr.employee.public (`hr.employee.public`)
+
+—
+
+**File:** `hr_employee_public.py` | Class: `HrEmployeePublic`
+
+#### Fields (8)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `monday_location_id` | `Many2one` | — | — | — | — | — |
+| `tuesday_location_id` | `Many2one` | — | — | — | — | — |
+| `wednesday_location_id` | `Many2one` | — | — | — | — | — |
+| `thursday_location_id` | `Many2one` | — | — | — | — | — |
+| `friday_location_id` | `Many2one` | — | — | — | — | — |
+| `saturday_location_id` | `Many2one` | — | — | — | — | — |
+| `sunday_location_id` | `Many2one` | — | — | — | — | — |
+| `today_location_name` | `Char` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### hr.employee.location (`hr.employee.location`)
+
+—
+
+**File:** `hr_homeworking.py` | Class: `HrEmployeeLocation`
+
+#### Fields (7)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `work_location_id` | `Many2one` | — | — | Y | — | Y |
+| `work_location_name` | `Char` | — | — | Y | — | Y |
+| `work_location_type` | `Selection` | — | — | Y | — | Y |
+| `employee_id` | `Many2one` | Y | — | Y | — | Y |
+| `employee_name` | `Char` | Y | — | Y | — | — |
+| `date` | `Date` | Y | — | — | — | — |
+| `day_week_string` | `Char` | Y | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### hr.work.location (`hr.work.location`)
+
+—
+
+**File:** `hr_work_location.py` | Class: `HrWorkLocation`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### res.partner (`res.partner`)
+
+—
+
+**File:** `res_partner.py` | Class: `ResPartner`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### res.users (`res.users`)
+
+—
+
+**File:** `res_users.py` | Class: `ResUsers`
+
+#### Fields (7)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `monday_location_id` | `Many2one` | — | — | Y | — | — |
+| `tuesday_location_id` | `Many2one` | — | — | Y | — | — |
+| `wednesday_location_id` | `Many2one` | — | — | Y | — | — |
+| `thursday_location_id` | `Many2one` | — | — | Y | — | — |
+| `friday_location_id` | `Many2one` | — | — | Y | — | — |
+| `saturday_location_id` | `Many2one` | — | — | Y | — | — |
+| `sunday_location_id` | `Many2one` | — | — | Y | — | — |
+
+
+#### Methods (2)
+
+| Method | Description |
+|--------|-------------|
+| `SELF_READABLE_FIELDS` | |
+| `SELF_WRITEABLE_FIELDS` | |
+
+
+
 
 ## Related
-- [Modules/HR](HR.md) - Core HR module
+
+- [[Modules/Base]]
+- [[Modules/HR]]

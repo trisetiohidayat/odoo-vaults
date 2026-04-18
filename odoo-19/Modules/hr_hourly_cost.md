@@ -1,27 +1,47 @@
-# HR Hourly Cost
+---
+title: "Hr Hourly Cost"
+module: hr_hourly_cost
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Hr Hourly Cost
 
 ## Overview
-- **Name**: Employee Hourly Wage (`hr_hourly_cost`)
-- **Category**: Services/Employee Hourly Cost
-- **Depends**: `hr`
-- **Version**: 1.0
-- **License**: LGPL-3
 
-Adds an hourly cost field to employees for use by cost calculation modules (e.g., `hr_timesheet`).
+Module `hr_hourly_cost` — auto-generated from source code.
+
+**Source:** `addons/hr_hourly_cost/`
+**Models:** 1
+**Fields:** 1
+**Methods:** 0
 
 ## Models
 
-### `hr.employee` (extends)
-| Field | Type | Description |
-|-------|------|-------------|
-| `hourly_cost` | Monetary | Hourly cost currency-aware field, groups=hr.group_hr_user, default=0.0, tracking=True |
+### hr.employee (`hr.employee`)
 
-## Key Features
-- Stores employee hourly cost on the employee record
-- Currency-aware monetary field
-- Used by `hr_timesheet` for billing rate calculation
-- Tracked for audit history
+—
+
+**File:** `hr_employee.py` | Class: `HrEmployee`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `hourly_cost` | `Monetary` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/HR](HR.md) - Core HR module
-- [Modules/hr_timesheet](hr_timesheet.md) - Timesheet billing uses hourly cost
+
+- [[Modules/Base]]
+- [[Modules/HR]]

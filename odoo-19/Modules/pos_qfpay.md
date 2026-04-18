@@ -1,21 +1,52 @@
-# POS QFPay
+---
+title: "Pos Qfpay"
+module: pos_qfpay
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Pos Qfpay
 
 ## Overview
-- **Name:** POS QFPay
-- **Category:** Sales/Point of Sale
-- **Depends:** `point_of_sale`
-- **Author:** Odoo S.A.
-- **License:** LGPL-3
 
-## Description
-Integrates your POS with the QFPay terminal in Hong Kong. Enables card and mobile wallet payments via QFPay for the Hong Kong market.
+Module `pos_qfpay` — auto-generated from source code.
 
-## Data Files
-- `views/pos_payment_method_views.xml` — Payment method configuration
+**Source:** `addons/pos_qfpay/`
+**Models:** 1
+**Fields:** 6
+**Methods:** 1
 
-## Assets
-- POS frontend + test assets for QFPay terminal
+## Models
+
+### pos.payment.method (`pos.payment.method`)
+
+—
+
+**File:** `pos_payment_method.py` | Class: `PosPaymentMethod`
+
+#### Fields (6)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `qfpay_terminal_ip_address` | `Char` | — | — | — | — | — |
+| `qfpay_pos_key` | `Char` | — | — | — | — | — |
+| `qfpay_notification_key` | `Char` | — | — | — | — | — |
+| `qfpay_latest_response` | `Char` | — | — | — | — | — |
+| `qfpay_payment_type` | `Selection` | — | — | — | — | — |
+| `cipher` | `Cipher` | — | — | — | — | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `qfpay_sign_request` | |
+
+
+
 
 ## Related
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module
-- [Modules/pos_self_order_qfpay](pos_self_order_qfpay.md) — QFPay in self-order
+
+- [[Modules/Base]]
+- [[Modules/Base]]

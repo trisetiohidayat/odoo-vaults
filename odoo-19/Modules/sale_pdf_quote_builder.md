@@ -1,97 +1,187 @@
-# Sale PDF Quote Builder
+---
+title: "Sale Pdf Quote Builder"
+module: sale_pdf_quote_builder
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Sale Pdf Quote Builder
 
 ## Overview
-- **Name:** Sales PDF Quotation Builder
-- **Category:** Sales/Sales
-- **Depends:** `sale_management`
-- **Auto-install:** Yes
-- **License:** LGPL-3
 
-## Description
-Allows building professional quotations by attaching PDF headers, footers, and product documents (e.g. spec sheets) directly into the quotation PDF. Supports **fillable PDF form fields** — dynamic values from the SO/SOL can be auto-filled into form fields in the attached PDFs.
+Module `sale_pdf_quote_builder` — auto-generated from source code.
+
+**Source:** `addons/sale_pdf_quote_builder/`
+**Models:** 7
+**Fields:** 23
+**Methods:** 4
 
 ## Models
 
-### `quotation.document`
-Inherits from `ir.attachment`. Represents a reusable header or footer PDF.
+### ir.actions.report (`ir.actions.report`)
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `ir_attachment_id` | Many2one | Inherited ir.attachment |
-| `document_type` | Selection | `"header"` or `"footer"` |
-| `quotation_template_ids` | Many2many | Restrict to specific SO templates (or all if empty) |
-| `form_field_ids` | Many2many | Auto-computed form fields found in the PDF |
-| `add_by_default` | Boolean | Auto-add to new SOs |
-| `sequence` | Integer | Display order |
+Override to add and fill headers, footers and product documents to the sale quotation.
 
-Constraints:
-- `_check_pdf_validity()`: Only PDF files allowed; encrypted PDFs rejected.
-- `_compute_form_field_ids()`: On `datas` change, parses the PDF for form fields and creates `sale.pdf.form.field` records.
+**File:** `ir_actions_report.py` | Class: `IrActionsReport`
 
-### `product.document` (extends `product.document`)
-| Field | Type | Description |
-|-------|------|-------------|
-| `attached_on_sale` | Selection | Added `"inside"` option — include document inside the quote PDF between header and order lines |
-| `form_field_ids` | Many2many | Auto-computed form fields for product PDFs |
+#### Fields (2)
 
-Constraints:
-- `_check_attached_on_and_datas_compatibility()`: `inside` requires `type=binary` and PDF format.
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `writer` | `PdfFileWriter` | — | — | — | — | — |
+| `reader` | `PdfFileReader` | — | — | — | — | — |
 
-### `sale.pdf.form.field`
-Tracks named form fields discovered in PDF documents and maps them to SO/SOL field paths.
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `name` | Char | Field name as written in the PDF |
-| `document_type` | Selection | `"quotation_document"` or `"product_document"` |
-| `path` | Char | Dot-path to SO/SOL field for auto-fill (e.g. `partner_id.name`); empty = custom/user-defined field |
-| `product_document_ids` / `quotation_document_ids` | Many2many | Linked documents |
+#### Methods (0)
 
-Key methods:
-- `_check_form_field_name_follows_pattern()`: Alphanumeric/hyphen/underscore only; cannot start with `sol_id_`.
-- `_check_valid_and_existing_paths()`: Validates that the dot-path exists on `sale.order` or `sale.order.line`.
-- `_add_basic_mapped_form_fields()`: Seeds default mappings (amount_total, partner_id__name, etc.).
-- `_create_or_update_form_fields_on_pdf_records()`: Parses PDFs for form fields and creates/links records.
+| Method | Description |
+|--------|-------------|
+| — | — |
 
-### `sale.order.template` (extends `sale.order.template`)
-| Field | Type | Description |
-|-------|------|-------------|
-| `quotation_document_ids` | Many2many | Headers/footers to auto-apply for this template |
 
-### `sale.order` (extends `sale.order`)
-| Field | Type | Description |
-|-------|------|-------------|
-| `quotation_document_ids` | Many2many | Selected header/footer PDFs |
-| `available_quotation_document_ids` | Many2many | Computed — documents visible for this SO |
-| `is_pdf_quote_builder_available` | Boolean | Computed — any docs or product docs available |
-| `customizable_pdf_form_fields` | JSON | Custom form field values entered by user |
+### sale.pdf.form.field (`sale.pdf.form.field`)
 
-Methods:
-- `get_update_included_pdf_params()`: Returns dialog params for the PDF builder UI (selected docs, form field values).
+—
 
-### `ir.actions.report` (extends `ir.actions.report`)
-Overrides `_render_qweb_pdf_prepare_streams()` to inject headers, product documents, and footers into the SO PDF.
+**File:** `product_document.py` | Class: `ProductDocument`
 
-Pipeline for each order:
-1. Append header pages to writer.
-2. For each SOL with `product_document_ids`, append those PDF pages.
-3. Append the standard SO report pages.
-4. Append footer pages.
-5. Fill form fields using `pdf.fill_form_fields_pdf()`.
+#### Fields (2)
 
-Helper methods:
-- `_update_mapping_and_add_pages_to_writer()`: Maps form fields to values and adds PDF pages.
-- `_get_value_from_path()`: Resolves dot-path on SO/SOL with formatting (date, monetary, boolean, etc.).
-- `_get_custom_value_from_order()`: Reads user-entered custom field values from JSON.
-- `_add_pages_to_writer()`: Merges PDF pages, prefixes form field names to avoid collisions, sets read-only+multiline flags.
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `attached_on_sale` | `Selection` | — | — | — | — | — |
+| `form_field_ids` | `Many2many` | Y | — | — | Y | — |
 
-## Data
-- `sale_pdf_form_field.xml`: Default form field mappings.
-- `sale_pdf_quote_builder_demo.xml`: Demo data.
 
-## Cron
-- `ir_cron.xml`: `_cron_post_upgrade_assign_missing_form_fields` — post-upgrade hook to re-parse PDFs and assign form fields.
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `action_open_pdf_form_fields` | |
+
+
+### quotation.document (`quotation.document`)
+
+—
+
+**File:** `quotation_document.py` | Class: `QuotationDocument`
+
+#### Fields (7)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `ir_attachment_id` | `Many2one` | — | — | — | — | Y |
+| `document_type` | `Selection` | — | — | — | — | Y |
+| `active` | `Boolean` | — | — | — | — | — |
+| `sequence` | `Integer` | — | — | — | — | — |
+| `quotation_template_ids` | `Many2many` | — | — | — | — | — |
+| `form_field_ids` | `Many2many` | Y | — | — | Y | — |
+| `add_by_default` | `Boolean` | — | — | — | — | — |
+
+
+#### Methods (2)
+
+| Method | Description |
+|--------|-------------|
+| `action_open_pdf_form_fields` | |
+| `create` | |
+
+
+### quotation.document (`quotation.document`)
+
+—
+
+**File:** `sale_order.py` | Class: `SaleOrder`
+
+#### Fields (4)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `available_quotation_document_ids` | `Many2many` | Y | — | — | — | — |
+| `is_pdf_quote_builder_available` | `Boolean` | Y | — | — | — | — |
+| `quotation_document_ids` | `Many2many` | — | — | — | — | — |
+| `customizable_pdf_form_fields` | `Json` | Y | — | — | — | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `get_update_included_pdf_params` | |
+
+
+### product.document (`product.document`)
+
+—
+
+**File:** `sale_order_line.py` | Class: `SaleOrderLine`
+
+#### Fields (2)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `available_product_document_ids` | `Many2many` | Y | — | — | — | — |
+| `product_document_ids` | `Many2many` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### quotation.document (`quotation.document`)
+
+—
+
+**File:** `sale_order_template.py` | Class: `SaleOrderTemplate`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `quotation_document_ids` | `Many2many` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### sale.pdf.form.field (`sale.pdf.form.field`)
+
+Ensure the names only contains alphanumerics, hyphens and underscores.
+
+        :return: None
+        :raises: ValidationError if the names aren't alphanumerics, hyphens and underscores.
+
+**File:** `sale_pdf_form_field.py` | Class: `SalePdfFormField`
+
+#### Fields (5)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `name` | `Char` | — | — | — | — | Y |
+| `document_type` | `Selection` | — | — | — | — | Y |
+| `path` | `Char` | — | — | — | — | — |
+| `product_document_ids` | `Many2many` | — | — | — | — | — |
+| `quotation_document_ids` | `Many2many` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/sale_management](sale_management.md) - Sales order templates
-- [Modules/Product](Product.md) - Product documents
+
+- [[Modules/Base]]
+- [[Modules/Sale]]

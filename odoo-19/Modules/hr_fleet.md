@@ -1,123 +1,218 @@
 ---
-type: module
+title: "Hr Fleet"
 module: hr_fleet
-tags: [odoo, odoo19, hr, fleet, vehicles]
-created: 2026-04-06
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
 ---
 
-# Fleet for HR
+# Hr Fleet
 
 ## Overview
 
-| Property | Value |
-|----------|-------|
-| **Name** | Fleet History |
-| **Technical** | `hr_fleet` |
-| **Category** | Human Resources |
-| **Version** | 1.0 |
-| **License** | LGPL-3 |
-| **Author** | Odoo S.A. |
+Module `hr_fleet` — auto-generated from source code.
 
-## Description
+**Source:** `addons/hr_fleet/`
+**Models:** 9
+**Fields:** 15
+**Methods:** 9
 
-Links HR employees with fleet vehicles. Maintains vehicle assignment history, tracks drivers as employees (not just contacts), and synchronizes car data with employee records.
+## Models
 
-## Dependencies
+### hr.employee (`hr.employee`)
 
-- `hr`
-- `fleet`
+—
 
-## Key Models
+**File:** `employee.py` | Class: `HrEmployee`
 
-| Model | Description |
-|-------|-------------|
-| `fleet.vehicle` | Vehicle records (inherited/extended) |
-| `fleet.vehicle.assignation.log` | Vehicle assignment history |
-| `hr.employee` | Employee records (extended) |
+#### Fields (4)
 
-## fleet.vehicle (extends fleet.fleet)
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `employee_cars_count` | `Integer` | Y | — | — | — | — |
+| `car_ids` | `One2many` | Y | — | — | — | — |
+| `license_plate` | `Char` | Y | — | — | — | — |
+| `mobility_card` | `Char` | — | — | — | — | — |
 
-**File:** `models/fleet_vehicle.py`
 
-### Fields
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `driver_employee_id` | Many2one | Driver as HR employee |
-| `driver_employee_name` | Char | Related from driver_employee_id |
-| `future_driver_employee_id` | Many2one | Next driver as HR employee |
-| `mobility_card` | Char | Employee mobility card (computed) |
-
-### Key Methods
+#### Methods (2)
 
 | Method | Description |
 |--------|-------------|
-| `_update_create_write_vals()` | Sync driver employee <-> driver contact |
-| `_compute_driver_employee_id()` | Find employee from driver contact |
-| `_compute_future_driver_employee_id()` | Find next employee from future driver contact |
-| `_compute_mobility_card()` | Copy from driver employee |
-| `action_open_employee()` | Open related employee form |
-| `open_assignation_logs()` | Open assignment history (list view) |
+| `action_open_employee_cars` | |
+| `write` | |
 
----
 
-## hr.employee (extends hr.hr)
+### hr.employee.public (`hr.employee.public`)
 
-**File:** `models/employee.py`
+—
 
-### Additional Fields
+**File:** `employee.py` | Class: `HrEmployeePublic`
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `employee_cars_count` | Integer | Number of cars assigned (computed) |
-| `car_ids` | One2many | Vehicles where employee is driver |
-| `license_plate` | Char | License plates from cars (computed) |
-| `mobility_card` | Char | Mobility card number |
+#### Fields (1)
 
-### Key Methods
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `mobility_card` | `Char` | — | — | — | — | — |
+
+
+#### Methods (0)
 
 | Method | Description |
 |--------|-------------|
-| `action_open_employee_cars()` | Open car history list |
-| `_compute_license_plate()` | Combine fleet plates with private plate |
-| `_search_license_plate()` | Search by fleet or private plate |
-| `_compute_employee_cars_count()` | Count assignment logs |
-| `_check_work_contact_id()` | Prevent removing address if linked to car |
+| — | — |
 
-### Constraints
 
-| Constraint | Description |
-|-----------|-------------|
-| `_check_work_contact_id()` | Cannot remove work_contact_id from employees linked to cars |
+### fleet.vehicle (`fleet.vehicle`)
 
----
+—
 
-## Model Relationships
+**File:** `fleet_vehicle.py` | Class: `FleetVehicle`
 
-```
-hr.employee
-  |-- car_ids --> fleet.vehicle
-       |-- driver_employee_id --> hr.employee
-       |-- future_driver_employee_id --> hr.employee
-       |-- driver_id --> res.partner
-            (via work_contact_id sync)
+#### Fields (4)
 
-fleet.vehicle
-  |-- driver_employee_id --> hr.employee
-  |-- driver_id --> res.partner
-  |-- future_driver_employee_id --> hr.employee
-  |-- future_driver_id --> res.partner
-```
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `mobility_card` | `Char` | Y | — | — | Y | — |
+| `driver_employee_id` | `Many2one` | Y | — | — | Y | — |
+| `driver_employee_name` | `Char` | Y | — | Y | Y | — |
+| `future_driver_employee_id` | `Many2one` | Y | — | — | Y | — |
 
-## Key Behaviors
 
-- Setting `driver_employee_id` on a vehicle automatically updates `driver_id` to the employee's work contact
-- Setting `driver_id` to a contact that maps to exactly one employee auto-fills `driver_employee_id`
-- Same bidirectional sync applies to future drivers
-- Changing an employee's `work_contact_id` updates linked vehicles' driver_id
-- `mobility_card` is synced from employee to vehicle
+#### Methods (4)
+
+| Method | Description |
+|--------|-------------|
+| `create` | |
+| `write` | |
+| `action_open_employee` | |
+| `open_assignation_logs` | |
+
+
+### fleet.vehicle.assignation.log (`fleet.vehicle.assignation.log`)
+
+—
+
+**File:** `fleet_vehicle_assignation_log.py` | Class: `FleetVehicleAssignationLog`
+
+#### Fields (2)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `driver_employee_id` | `Many2one` | Y | — | — | Y | — |
+| `attachment_number` | `Integer` | Y | — | — | — | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `action_get_attachment_view` | |
+
+
+### fleet.vehicle.log.contract (`fleet.vehicle.log.contract`)
+
+—
+
+**File:** `fleet_vehicle_log_contract.py` | Class: `FleetVehicleLogContract`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `purchaser_employee_id` | `Many2one` | — | — | Y | — | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `action_open_employee` | |
+
+
+### fleet.vehicle.log.services (`fleet.vehicle.log.services`)
+
+—
+
+**File:** `fleet_vehicle_log_services.py` | Class: `FleetVehicleLogServices`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `purchaser_employee_id` | `Many2one` | Y | — | — | Y | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### fleet.vehicle.odometer (`fleet.vehicle.odometer`)
+
+—
+
+**File:** `fleet_vehicle_odometer.py` | Class: `FleetVehicleOdometer`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `driver_employee_id` | `Many2one` | — | — | Y | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### ir.attachment (`ir.attachment`)
+
+—
+
+**File:** `ir_attachment.py` | Class: `IrAttachment`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (1)
+
+| Method | Description |
+|--------|-------------|
+| `action_preview_attachment` | |
+
+
+### mail.activity.plan.template (`mail.activity.plan.template`)
+
+Ensure that hr types are used only on employee model
+
+**File:** `mail_activity_plan_template.py` | Class: `MailActivityPlanTemplate`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `responsible_type` | `Selection` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
 
-- [Modules/hr](HR.md)
-- [Modules/fleet](fleet.md)
+- [[Modules/Base]]
+- [[Modules/HR]]

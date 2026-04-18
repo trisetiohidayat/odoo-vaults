@@ -1,27 +1,47 @@
-# POS iMin
+---
+title: "Pos Imin"
+module: pos_imin
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Pos Imin
 
 ## Overview
-- **Name:** POS iMin
-- **Category:** Sales/Point of Sale
-- **Depends:** `point_of_sale`
-- **Author:** Odoo S.A.
-- **License:** LGPL-3
 
-## Description
-Use iMin ePOS Printers without the IoT Box in the Point of Sale. Provides direct printer integration via iMin ePOS SDK (JavaScript) loaded in POS.
+Module `pos_imin` — auto-generated from source code.
 
-## Key Features
-- Direct thermal printer integration (no IoT box required)
-- iMin ePOS printer service in POS
-- Receipt and order ticket printing
+**Source:** `addons/pos_imin/`
+**Models:** 1
+**Fields:** 0
+**Methods:** 0
 
-## Data Files
-- `views/pos_config_views.xml` — POS configuration views
-- `views/res_config_settings_views.xml` — Settings
+## Models
 
-## Assets
-- `pos_imin/static/lib/imin-printer/imin-printer.js` — iMin ePOS SDK
-- POS frontend assets for iMin printer service
+### res.config.settings (`res.config.settings`)
+
+—
+
+**File:** `res_config_settings.py` | Class: `ResConfigSettings`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module
+
+- [[Modules/Base]]
+- [[Modules/Base]]

@@ -1,71 +1,63 @@
 ---
-type: module
+title: "Product Margin"
 module: product_margin
-tags: [odoo, odoo19, product, margin, sales, reporting, accounting]
-created: 2026-04-06
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
 ---
 
-# Margins by Products
+# Product Margin
 
 ## Overview
-| Property | Value |
-|----------|-------|
-| **Name** | Margins by Products |
-| **Technical** | `product_margin` |
-| **Category** | Sales/Sales |
-| **License** | LGPL-3 |
-| **Author** | Odoo S.A. (original: CCI Connect asbl) |
 
-## Description
-Adds a product margin reporting view accessible from the Products menu. Computes sales, purchases, margins, and related indicators based on posted and/or paid invoices. Values are computed via direct SQL for performance.
+Module `product_margin` — auto-generated from source code.
 
-## Dependencies
-- `account`
+**Source:** `addons/product_margin/`
+**Models:** 1
+**Fields:** 17
+**Methods:** 0
 
-## Key Models
-| Model | Type | Description |
-|-------|------|-------------|
-| `product.product` | Extension | 16 computed margin fields; SQL-based computation |
+## Models
 
-## `product.product` (Extension)
-### Computed Fields (all read-only, computed via `_compute_product_margin_fields_values`)
-| Field | Type | Description |
-|-------|------|-------------|
-| `date_from` | Date | Report period start (default: Jan 1) |
-| `date_to` | Date | Report period end (default: Dec 31) |
-| `invoice_state` | Selection | `paid`, `open_paid`, `draft_open_paid` |
-| `sale_avg_price` | Float | Average customer invoice unit price |
-| `purchase_avg_price` | Float | Average vendor bill unit price |
-| `sale_num_invoiced` | Float | Sum of quantities in customer invoices |
-| `purchase_num_invoiced` | Float | Sum of quantities in vendor bills |
-| `turnover` | Float | Revenue (out_invoice) minus credits (out_refund) |
-| `total_cost` | Float | Sum of invoice price x qty for vendor bills |
-| `sale_expected` | Float | Sum of list_price x qty for customer invoices |
-| `normal_cost` | Float | standard_price x purchase_num_invoiced |
-| `total_margin` | Float | turnover - total_cost |
-| `expected_margin` | Float | sale_expected - normal_cost |
-| `total_margin_rate` | Float | total_margin * 100 / turnover |
-| `expected_margin_rate` | Float | expected_margin * 100 / sale_expected |
-| `sales_gap` | Float | sale_expected - turnover |
-| `purchase_gap` | Float | normal_cost - total_cost |
+### product.product (`product.product`)
 
-### Context Keys for Computation
-| Key | Description |
-|-----|-------------|
-| `date_from` | Period start (default: current year Jan 1) |
-| `date_to` | Period end (default: current year Dec 31) |
-| `invoice_state` | `paid`, `open_paid` (default), `draft_open_paid` |
-| `force_company` | Override company for multi-company |
+Inherit _read_group to calculate the sum of the non-stored fields, as it is not automatically done anymore through the XML.
 
-### SQL Computation
-The main query joins `account_move_line`, `account_move`, `product_product`, and `product_template` (for `list_price`). It uses currency rate conversion and applies the discount factor `(100 - discount) / 100`.
+**File:** `product_product.py` | Class: `ProductProduct`
 
-### Read Group Overrides
-- `_read_group` — Custom handling for special aggregate fields that are not stored
-- `_read_grouping_sets` — Same for modern grouping sets API
-- `_read_group_select` — Returns `SQL("NULL")` for special aggregates to bypass default behavior
+#### Fields (17)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `date_from` | `Date` | Y | — | — | — | — |
+| `date_to` | `Date` | Y | — | — | — | — |
+| `invoice_state` | `Selection` | Y | — | — | — | — |
+| `sale_avg_price` | `Float` | Y | — | — | — | — |
+| `purchase_avg_price` | `Float` | Y | — | — | — | — |
+| `sale_num_invoiced` | `Float` | Y | — | — | — | — |
+| `purchase_num_invoiced` | `Float` | Y | — | — | — | — |
+| `sales_gap` | `Float` | Y | — | — | — | — |
+| `purchase_gap` | `Float` | Y | — | — | — | — |
+| `turnover` | `Float` | Y | — | — | — | — |
+| `total_cost` | `Float` | Y | — | — | — | — |
+| `sale_expected` | `Float` | Y | — | — | — | — |
+| `normal_cost` | `Float` | Y | — | — | — | — |
+| `total_margin` | `Float` | Y | — | — | — | — |
+| `expected_margin` | `Float` | Y | — | — | — | — |
+| `total_margin_rate` | `Float` | Y | — | — | — | — |
+| `expected_margin_rate` | `Float` | Y | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/product](Product.md)
-- [Modules/account](Account.md)
-- [Modules/sale_margin](sale_margin.md)
+
+- [[Modules/Base]]
+- [[Modules/Base]]

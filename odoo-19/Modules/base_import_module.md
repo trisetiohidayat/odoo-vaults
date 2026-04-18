@@ -1,53 +1,132 @@
-# Base Import Module (`base_import_module`)
+---
+title: "Base Import Module"
+module: base_import_module
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
 
-**Category:** Hidden/Tools
-**Depends:** `web`
-**Installable:** True
-**Auto-install:** True
-**Author:** Odoo S.A.
-**License:** LGPL-3
+# Base Import Module
 
 ## Overview
 
-Allows authorized users to import a custom Odoo module (ZIP file) containing `.xml` data files and static assets. Provides a UI for uploading and installing module packages that are not from the official Odoo Apps.
+Module `base_import_module` — auto-generated from source code.
+
+**Source:** `addons/base_import_module/`
+**Models:** 4
+**Fields:** 10
+**Methods:** 10
 
 ## Models
 
-### `base.import.module` (TransientModel)
-Wizard for importing module ZIP files.
+### base.import.module (`base.import.module`)
 
-**Methods:**
-- `import_module()` — Handles ZIP upload and extraction; calls `ir.module.module._import_zipfile()`.
-- `get_dependencies_to_install_names()` — Returns list of module dependencies that need to be installed.
-- `action_module_open()` — Opens the installed module in the Apps list.
+Import Module
 
-### `ir.module.module` (Extension)
-Extends module management with import and ZIP upload capabilities.
+**File:** `base_import_module.py` | Class: `BaseImportModule`
 
-**Key Methods:**
-- `_import_module(module, path, force=False, with_demo=False)` — Imports a module from a filesystem path. Reads XML files, CSV data, demo data. Handles manifest, security files, views, and QWEB templates. Updates translations.
-- `_import_zipfile(module_file, force=False, with_demo=False)` — Unzips a module archive, validates manifest, calls `_import_module()` for extraction, then creates/upgrades the module record.
-- `_get_imported_module_names()` — Returns names of modules imported from ZIP (vs. loaded from addons path).
-- `_get_missing_dependencies(zip_data)` — Parses ZIP manifest to find dependencies not currently installed.
-- `_get_missing_dependencies_modules(zip_data)` — Returns `ir.module.module` records for missing dependencies.
-- `button_immediate_install_app()` — Installs a module from import wizard.
-- `_load_module_terms(modules, langs, overwrite)` — Loads translation terms from CSV/XML files into `ir.translation`.
-- `_get_imported_module_translations_for_webclient(module, lang)` — Returns imported module translations in a format usable by the web client.
-- `_extract_resource_attachment_translations(module, lang)` — Extracts translations from attachment filenames.
-- `_get_latest_version()` — Fetches latest module version from Apps. Used for comparing against imported version.
-- `_get_icon_image()` — Returns base64-encoded module icon image.
-- `web_search_read(...)` / `web_read(...)` — JSON-RPC methods for module list view.
-- `_get_modules_from_apps(fields, module_type, module_name, domain, limit, offset)` — Fetches module info from Odoo Apps store.
-- `_call_apps(payload)` — Makes RPC call to Odoo Apps service.
-- `_get_industry_categories_from_apps()` — Fetches industry category list from Apps.
-- `more_info()` — Returns additional info about a module from Apps.
-- `search_panel_select_range(field_name)` — Provides field values for search panel.
-- `_get_modules_to_load_domain()` — Returns domain for modules to load on the frontend.
+#### Fields (7)
 
-### `ir.http` (Extension)
-Extends translations delivery to include imported module translations.
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `module_file` | `Binary` | — | — | — | — | Y |
+| `state` | `Selection` | — | — | — | — | — |
+| `import_message` | `Text` | — | — | — | — | — |
+| `force` | `Boolean` | — | — | — | — | — |
+| `with_demo` | `Boolean` | — | — | — | — | — |
+| `modules_dependencies` | `Text` | — | — | — | — | — |
+| `fp` | `BytesIO` | — | — | — | — | — |
 
-### `ir.ui.view` (Extension)
-Validates custom views imported from ZIP.
 
-- `_validate_custom_views(model)` — Performs safety checks on custom QWeb view XML.
+#### Methods (3)
+
+| Method | Description |
+|--------|-------------|
+| `import_module` | |
+| `get_dependencies_to_install_names` | |
+| `action_module_open` | |
+
+
+### ir.http (`ir.http`)
+
+—
+
+**File:** `ir_http.py` | Class: `IrHttp`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### ir.module.module (`ir.module.module`)
+
+SELECT ia.id
+                FROM ir_attachment ia
+                JOIN ir_model_data imd
+                ON ia.id = imd.res_id
+                AND imd.model = 'ir.attachment'
+                AND imd.
+
+**File:** `ir_module.py` | Class: `IrModuleModule`
+
+#### Fields (3)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `imported` | `Boolean` | — | — | — | — | — |
+| `module_type` | `Selection` | — | — | — | — | — |
+| `translation_importer` | `TranslationImporter` | — | — | — | — | — |
+
+
+#### Methods (7)
+
+| Method | Description |
+|--------|-------------|
+| `module_uninstall` | |
+| `web_search_read` | |
+| `more_info` | |
+| `web_read` | |
+| `button_upgrade` | |
+| `button_immediate_install_app` | |
+| `search_panel_select_range` | |
+
+
+### ir.ui.view (`ir.ui.view`)
+
+SELECT max(v.id)
+               FROM ir_ui_view v
+          LEFT JOIN ir_model_data md ON (md.model = 'ir.ui.view' AND md.res_id = v.id)
+          LEFT JOIN ir_module_module m ON (m.name = md.module)
+
+
+**File:** `ir_ui_view.py` | Class: `IrUiView`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
+
+## Related
+
+- [[Modules/Base]]
+- [[Modules/Base]]

@@ -1,25 +1,50 @@
-# POS Mollie
+---
+title: "Pos Mollie"
+module: pos_mollie
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Pos Mollie
 
 ## Overview
-- **Name:** POS Mollie
-- **Category:** Sales/Point of Sale
-- **Depends:** `point_of_sale`, `payment_mollie`
-- **Author:** Odoo S.A.
-- **License:** LGPL-3
 
-## Description
-Integrates your POS with a Mollie payment terminal. Enables card/UPI payments via Mollie POS terminal.
+Module `pos_mollie` — auto-generated from source code.
 
-## Features
-- Quick payment via card terminal
-- Supported across Mollie's European markets
+**Source:** `addons/pos_mollie/`
+**Models:** 1
+**Fields:** 2
+**Methods:** 3
 
-## Data Files
-- `views/pos_payment_method_views.xml` — Payment method configuration
+## Models
 
-## Assets
-- POS frontend assets for Mollie terminal
+### pos.payment.method (`pos.payment.method`)
+
+—
+
+**File:** `pos_payment_method.py` | Class: `PosPaymentMethod`
+
+#### Fields (2)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `mollie_terminal_id` | `Char` | — | — | — | — | — |
+| `mollie_payment_provider_id` | `Many2one` | — | — | — | — | — |
+
+
+#### Methods (3)
+
+| Method | Description |
+|--------|-------------|
+| `mollie_create_payment` | |
+| `mollie_create_refund` | |
+| `mollie_cancel_payment` | |
+
+
+
 
 ## Related
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module
-- [Modules/payment_mollie](payment_mollie.md) — Mollie payment provider
+
+- [[Modules/Base]]
+- [[Modules/Base]]

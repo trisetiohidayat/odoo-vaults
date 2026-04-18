@@ -1,58 +1,73 @@
 ---
-type: module
+title: "Crm Iap Enrich"
 module: crm_iap_enrich
-tags: [odoo, odoo19, crm, iap, enrichment, lead]
-created: 2026-04-06
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
 ---
 
-# CRM IAP Enrich
+# Crm Iap Enrich
 
 ## Overview
-| Property | Value |
-|----------|-------|
-| **Name** | Lead Enrichment |
-| **Technical** | `crm_iap_enrich` |
-| **License** | LGPL-3 |
-| **Author** | Odoo S.A. |
 
-## Description
-Enriches CRM leads and opportunities automatically using the IAP (In-App Purchase) service based on email domain. Fills in missing company data (name, address, phone, city, zip, country) from the lead's email domain.
+Module `crm_iap_enrich` — auto-generated from source code.
 
-## Dependencies
-- `iap_crm`
-- `iap_mail`
+**Source:** `addons/crm_iap_enrich/`
+**Models:** 2
+**Fields:** 3
+**Methods:** 4
 
 ## Models
 
-### crm.lead
-Inherits `crm.lead`. Extends lead with IAP enrichment tracking.
+### reveal (`reveal`)
 
-**Fields:**
-- `iap_enrich_done` (Boolean) — Whether IAP enrichment has been performed on this lead
-- `show_enrich_button` (Boolean, computed) — Whether manual enrichment button should be shown
+Handle from the service and enrich the lead accordingly
 
-**Key Methods:**
-- `iap_enrich()` — Handles both cron and manual enrichment triggers; calls `_iap_enrich_from_response()`
-- `_iap_enrich_from_response()` — Fills in: `name`, `clearbit_id`/`reveal_id`, `street`, `city`, `zip`, `phone` (first from response), `country_id`, `state_id` (from codes); posts a mail message with enriched data
-- `_merge_get_fields_specific()` — Ensures `iap_enrich_done` is properly merged when leads are merged (True if any merged lead was enriched)
+        :param iap_response: dict{lead_id: company data or False}
 
-## Key Features
+**File:** `crm_lead.py` | Class: `CrmLead`
 
-### Automatic Enrichment
-- Cron job (`ir_cron_lead_enrichment`) runs every 24 hours (configurable)
-- Enriches leads created in the last 24 hours that have an email address but no existing enrichment
-- Uses `iap.enrich.api._request_enrich()` to fetch company data from email domain
-- Skips generic email providers (gmail.com, hotmail.com, etc.)
-- Batched processing (50 leads per batch) with credit management
+#### Fields (3)
 
-### Manual Enrichment
-- `show_enrich_button` computed based on: active lead, has email, not already enriched, not already revealed, not 100% probability
-- User can trigger enrichment manually via button
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `iap_enrich_done` | `Boolean` | Y | — | — | — | — |
+| `show_enrich_button` | `Boolean` | Y | — | — | — | — |
+| `all_lead_ids` | `OrderedSet` | — | — | — | — | — |
 
-## Configuration
-- Setting: `crm.iap.lead.enrich.setting` — controls auto-enrichment on lead creation (`auto`, `manual`)
-- Credits consumed via IAP `reveal` service
+
+#### Methods (2)
+
+| Method | Description |
+|--------|-------------|
+| `create` | |
+| `iap_enrich` | |
+
+
+### res.config.settings (`res.config.settings`)
+
+—
+
+**File:** `res_config_settings.py` | Class: `ResConfigSettings`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (2)
+
+| Method | Description |
+|--------|-------------|
+| `get_values` | |
+| `set_values` | |
+
+
+
 
 ## Related
-- [Modules/iap_crm](iap_crm.md) — IAP CRM base
-- [Modules/crm_iap_mine](crm_iap_mine.md) — Lead mining
+
+- [[Modules/Base]]
+- [[Modules/CRM]]

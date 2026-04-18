@@ -1,26 +1,67 @@
-# POS Repair
+---
+title: "Pos Repair"
+module: pos_repair
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Pos Repair
 
 ## Overview
-- **Name:** POS - Repair
-- **Category:** Technical
-- **Depends:** `point_of_sale`, `repair`
-- **Auto-install:** True
-- **Author:** Odoo S.A.
-- **License:** LGPL-3
 
-## Description
-Link module between Point of Sale and Repair. Allows repair orders to be created, managed, or referenced from the POS interface.
+Module `pos_repair` — auto-generated from source code.
+
+**Source:** `addons/pos_repair/`
+**Models:** 2
+**Fields:** 1
+**Methods:** 0
 
 ## Models
 
-### `sale.order.line` (Extended)
-| Field | Type | Description |
-|-------|------|-------------|
-| `is_repair_line` | Boolean | Computed: True if linked to a repair via stock moves |
+### sale.order.line (`sale.order.line`)
 
-## Assets
-- POS frontend assets for repair flow
+—
+
+**File:** `sale_order_line.py` | Class: `SaleOrderLine`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `is_repair_line` | `Boolean` | Y | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### stock.picking (`stock.picking`)
+
+—
+
+**File:** `stock_picking.py` | Class: `StockPicking`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module
-- [Modules/repair](repair.md) — Repair management module
+
+- [[Modules/Base]]
+- [[Modules/Base]]

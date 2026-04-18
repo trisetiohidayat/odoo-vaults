@@ -1,26 +1,49 @@
-# POS Glory Cash
+---
+title: "Pos Glory Cash"
+module: pos_glory_cash
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Pos Glory Cash
 
 ## Overview
-- **Name:** POS Glory Cash Machines
-- **Category:** Sales/Point of Sale
-- **Depends:** `point_of_sale`
-- **Author:** Odoo S.A.
-- **License:** LGPL-3
 
-## Description
-Integrates your POS with a Glory automatic cash payment device. Glory devices handle cash counting, change calculation, and counterfeit detection.
+Module `pos_glory_cash` — auto-generated from source code.
 
-## Features
-- Automatic cash payment processing
-- Change calculation from Glory device
-- Cash reconciliation in POS session
+**Source:** `addons/pos_glory_cash/`
+**Models:** 1
+**Fields:** 3
+**Methods:** 0
 
-## Data Files
-- `views/pos_payment_method_views.xml` — Payment method configuration
+## Models
 
-## Assets
-- Frontend: backend assets + POS frontend assets (split bundle)
-- Unit test assets for Glory cash machine utils
+### pos.payment.method (`pos.payment.method`)
+
+—
+
+**File:** `pos_payment_method.py` | Class: `PosPaymentMethod`
+
+#### Fields (3)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `glory_websocket_address` | `Char` | — | — | — | — | — |
+| `glory_username` | `Char` | — | — | — | — | — |
+| `glory_password` | `Char` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module
+
+- [[Modules/Base]]
+- [[Modules/Base]]

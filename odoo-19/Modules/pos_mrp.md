@@ -1,36 +1,67 @@
-# POS MRP
+---
+title: "Pos Mrp"
+module: pos_mrp
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Pos Mrp
 
 ## Overview
-- **Name:** pos_mrp
-- **Category:** Sales/Point of Sale
-- **Depends:** `point_of_sale`, `mrp`
-- **Auto-install:** True
-- **Author:** Odoo S.A.
-- **License:** LGPL-3
 
-## Description
-Link module between Point of Sale and Manufacturing (MRP). Enables POS to handle products with phantom Bills of Materials (Kits), properly resolving their cost using the Anglo-Saxon accounting method.
+Module `pos_mrp` — auto-generated from source code.
+
+**Source:** `addons/pos_mrp/`
+**Models:** 2
+**Fields:** 0
+**Methods:** 0
 
 ## Models
 
-### `pos.order.line` (Extended)
+### pos.order.line (`pos.order.line`)
+
+—
+
+**File:** `pos_order.py` | Class: `PosOrderLine`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
 | Method | Description |
 |--------|-------------|
-| `_get_stock_moves_to_consider()` | Overrides to explode BoM and match correct stock moves for kit products |
+| — | — |
 
-### `pos.order` (Extended)
+
+### pos.order (`pos.order`)
+
+—
+
+**File:** `pos_order.py` | Class: `PosOrder`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
 | Method | Description |
 |--------|-------------|
-| `_get_pos_anglo_saxon_price_unit()` | Overrides to compute correct cost for kit products by exploding the phantom BoM and summing component costs |
+| — | — |
 
-## Key Features
-- Accurate COGS calculation for kit/phantom BoM products sold at POS
-- Explodes kit products into components for stock move matching
-- Anglo-Saxon accounting: uses component costs from BoM instead of product cost
 
-## Data Files
-- `security/ir.model.access.csv` — Access control
+
 
 ## Related
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module
-- [Modules/MRP](MRP.md) — Manufacturing module
+
+- [[Modules/Base]]
+- [[Modules/Base]]

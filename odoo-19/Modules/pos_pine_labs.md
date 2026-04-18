@@ -1,28 +1,77 @@
-# POS Pine Labs
+---
+title: "Pos Pine Labs"
+module: pos_pine_labs
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Pos Pine Labs
 
 ## Overview
-- **Name:** POS Pine Labs
-- **Category:** Sales/Point of Sale
-- **Depends:** `point_of_sale`
-- **Author:** Odoo S.A.
-- **License:** LGPL-3
 
-## Description
-Integrates your POS with Pine Labs payment terminals. Available only for companies using INR currency. Enables card/UPI payments via Pine Labs terminals.
+Module `pos_pine_labs` — auto-generated from source code.
 
-## Features
-- Quick payment via card swiping, scanning, or tapping
-- UPI QR code support
-- Supported cards: Visa, MasterCard, RuPay
-- INR currency only
+**Source:** `addons/pos_pine_labs/`
+**Models:** 2
+**Fields:** 7
+**Methods:** 3
 
-## Data Files
-- `views/pos_payment_views.xml` — Payment views
-- `views/pos_payment_method_views.xml` — Payment method configuration
+## Models
 
-## Assets
-- POS frontend + unit test assets for Pine Labs
+### pos.payment (`pos.payment`)
+
+—
+
+**File:** `pos_payment.py` | Class: `PosPayment`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `pine_labs_plutus_transaction_ref` | `Char` | — | — | — | Y | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### pos.payment.method (`pos.payment.method`)
+
+Sends a payment request to the Pine Labs POS API.
+
+        :param dict data: Contains `amount`, `transactionNumber`, and `sequenceNumber`.
+        :return: On success, returns `responseCode`, `status`
+
+**File:** `pos_payment_method.py` | Class: `PosPaymentMethod`
+
+#### Fields (6)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `pine_labs_merchant` | `Char` | — | — | — | Y | — |
+| `pine_labs_store` | `Char` | — | — | — | Y | — |
+| `pine_labs_client` | `Char` | — | — | — | — | — |
+| `pine_labs_security_token` | `Char` | — | — | — | — | — |
+| `pine_labs_allowed_payment_mode` | `Selection` | — | — | — | — | — |
+| `pine_labs_test_mode` | `Boolean` | — | — | — | — | — |
+
+
+#### Methods (3)
+
+| Method | Description |
+|--------|-------------|
+| `pine_labs_make_payment_request` | |
+| `pine_labs_fetch_payment_status` | |
+| `pine_labs_cancel_payment_request` | |
+
+
+
 
 ## Related
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module
-- [Modules/pos_self_order_pine_labs](pos_self_order_pine_labs.md) — Pine Labs in self-order
+
+- [[Modules/Base]]
+- [[Modules/Base]]

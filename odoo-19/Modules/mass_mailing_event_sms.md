@@ -1,25 +1,48 @@
-# Mass Mailing Event SMS
+---
+title: "Mass Mailing Event Sms"
+module: mass_mailing_event_sms
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Mass Mailing Event Sms
 
 ## Overview
-- **Name:** Event Attendees SMS Marketing
-- **Category:** Marketing/Email Marketing
-- **Summary:** SMS marketing on event attendees
-- **Version:** 1.0
-- **Depends:** `event`, `mass_mailing`, `mass_mailing_event`, `mass_mailing_sms`, `sms`
-- **Auto-install:** True
-- **License:** LGPL-3
 
-## Description
-Extends `mass_mailing_event` to support SMS campaigns for event attendees. Uses the mixed (SMS+email) mailing form view.
+Module `mass_mailing_event_sms` — auto-generated from source code.
+
+**Source:** `addons/mass_mailing_event_sms/`
+**Models:** 1
+**Fields:** 0
+**Methods:** 2
 
 ## Models
 
-### `event.event` (extends `event.event`)
-#### Methods
-- `action_mass_mailing_attendees()`: Opens the mixed SMS/email mailing form (overrides to set `view_id`)
-- `action_invite_contacts()`: Opens the mixed SMS/email mailing form for contacts
+### event.event (`event.event`)
+
+—
+
+**File:** `event.py` | Class: `EventEvent`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (2)
+
+| Method | Description |
+|--------|-------------|
+| `action_mass_mailing_attendees` | |
+| `action_invite_contacts` | |
+
+
+
 
 ## Related
-- [Modules/mass_mailing_event](mass_mailing_event.md) - Event email mailing
-- [Modules/mass_mailing_sms](mass_mailing_sms.md) - SMS marketing
-- [Modules/event](event.md) - Event management
+
+- [[Modules/Base]]
+- [[Modules/Base]]

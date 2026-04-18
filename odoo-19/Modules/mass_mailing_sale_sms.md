@@ -1,25 +1,47 @@
-# Mass Mailing Sale SMS
+---
+title: "Mass Mailing Sale Sms"
+module: mass_mailing_sale_sms
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Mass Mailing Sale Sms
 
 ## Overview
-- **Name:** Mass mailing SMS on sale orders
-- **Category:** Marketing/Email Marketing
-- **Summary:** Add sale order info on mass mailing SMS
-- **Version:** 1.0
-- **Depends:** `mass_mailing_sale`, `mass_mailing_sms`
-- **Auto-install:** True
-- **License:** LGPL-3
 
-## Description
-Extends `mass_mailing_sale` to support SMS campaigns for sale order customers. Combines sale order targeting with SMS mailing capabilities.
+Module `mass_mailing_sale_sms` — auto-generated from source code.
+
+**Source:** `addons/mass_mailing_sale_sms/`
+**Models:** 1
+**Fields:** 1
+**Methods:** 0
 
 ## Models
 
-### `utm.campaign` (extends `utm.campaign`)
-| Field | Type | Description |
-|-------|------|-------------|
-| `ab_testing_sms_winner_selection` | Selection | Adds `sale_quotation_count` and `sale_invoiced_amount` options for SMS A/B testing winner selection |
+### utm.campaign (`utm.campaign`)
+
+—
+
+**File:** `utm.py` | Class: `UtmCampaign`
+
+#### Fields (1)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `ab_testing_sms_winner_selection` | `Selection` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
 
 ## Related
-- [Modules/mass_mailing_sale](mass_mailing_sale.md) - Sale mass mailing
-- [Modules/mass_mailing_sms](mass_mailing_sms.md) - SMS marketing
-- [Modules/Sale](Sale.md) - Sales module
+
+- [[Modules/Base]]
+- [[Modules/Base]]

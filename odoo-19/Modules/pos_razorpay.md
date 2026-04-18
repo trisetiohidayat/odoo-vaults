@@ -1,27 +1,79 @@
-# POS Razorpay
+---
+title: "Pos Razorpay"
+module: pos_razorpay
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
+
+# Pos Razorpay
 
 ## Overview
-- **Name:** POS Razorpay
-- **Category:** Sales/Point of Sale
-- **Depends:** `point_of_sale`
-- **Author:** Odoo S.A.
-- **License:** LGPL-3
 
-## Description
-Integrates your POS with a Razorpay payment terminal. Enables customers to pay by debit/credit cards and UPI through Razorpay POS terminals.
+Module `pos_razorpay` — auto-generated from source code.
 
-## Features
-- Fast payment by swiping/scanning card or QR code
-- Supported cards: Visa, MasterCard, Rupay, UPI
-- Requires a Razorpay merchant account
+**Source:** `addons/pos_razorpay/`
+**Models:** 2
+**Fields:** 11
+**Methods:** 4
 
-## Data Files
-- `views/pos_payment_method_views.xml` — Payment method configuration
+## Models
 
-## Assets
-- POS frontend + test assets for Razorpay terminal
+### pos.payment (`pos.payment`)
+
+—
+
+**File:** `pos_payment.py` | Class: `PosPayment`
+
+#### Fields (2)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `razorpay_reverse_ref_no` | `Char` | — | — | — | — | — |
+| `razorpay_p2p_request_id` | `Char` | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### pos.payment.method (`pos.payment.method`)
+
+—
+
+**File:** `pos_payment_method.py` | Class: `PosPaymentMethod`
+
+#### Fields (9)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| `razorpay_tid` | `Char` | — | — | — | — | — |
+| `razorpay_allowed_payment_modes` | `Selection` | — | — | — | — | — |
+| `razorpay_username` | `Char` | — | — | — | — | — |
+| `razorpay_api_key` | `Char` | — | — | — | — | — |
+| `razorpay_test_mode` | `Boolean` | — | — | — | — | — |
+| `razorpay` | `RazorpayPosRequest` | — | — | — | — | — |
+| `razorpay` | `RazorpayPosRequest` | — | — | — | — | — |
+| `razorpay` | `RazorpayPosRequest` | — | — | — | — | — |
+| `razorpay` | `RazorpayPosRequest` | — | — | — | — | — |
+
+
+#### Methods (4)
+
+| Method | Description |
+|--------|-------------|
+| `razorpay_make_refund_request` | |
+| `razorpay_make_payment_request` | |
+| `razorpay_fetch_payment_status` | |
+| `razorpay_cancel_payment_request` | |
+
+
+
 
 ## Related
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module
-- [Modules/payment_razorpay](payment_razorpay.md) — Razorpay online payment
-- [Modules/pos_self_order_razorpay](pos_self_order_razorpay.md) — Razorpay in self-order
+
+- [[Modules/Base]]
+- [[Modules/Base]]

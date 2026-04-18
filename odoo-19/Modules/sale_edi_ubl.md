@@ -1,54 +1,93 @@
-# sale_edi_ubl
+---
+title: "Sale Edi Ubl"
+module: sale_edi_ubl
+type: module
+generated: 2026-04-17
+generator: orchestrator.py
+---
 
-Odoo 19 Sales/EDI Module
+# Sale Edi Ubl
 
 ## Overview
 
-`sale_edi_ubl` enables Odoo to **import and export Sale Orders via the UBL Bis 3 format** (Peppol Ordering 3.0). It extends `account_edi_ubl_cii` with sale order-specific EDI capabilities for electronic document interchange with B2B partners.
+Module `sale_edi_ubl` — auto-generated from source code.
 
-## Module Details
+**Source:** `addons/sale_edi_ubl/`
+**Models:** 3
+**Fields:** 0
+**Methods:** 0
 
-- **Category**: Sales/Sales
-- **Depends**: `sale`, `account_edi_ubl_cii`
-- **Version**: 1.0
-- **Author**: Odoo S.A.
-- **License**: LGPL-3
-- **Auto-install**: Yes
+## Models
 
-## Key Components
+### product.product (`product.product`)
 
-### Abstract Model: `sale.edi.xml.ubl_bis3`
+Override of `account` to include the variant identifiers in the search order.
 
-Inherits from `account.edi.xml.ubl_bis3` and implements sale order-specific EDI:
+        If the product is not found using `*ItemIdentification:ID` elements, tries again with the
+        `*ItemIdentific
 
-**Export (UBL XML generation):**
-- `_export_order()` — Generates the full UBL Order XML document.
-- `_get_sale_order_node()` — Builds the document structure with header, parties, lines, taxes, monetary totals.
-- `_add_sale_order_header_nodes()` — CustomizationID `urn:fdc:peppol.eu:poacc:trns:order:3`, ProfileID `urn:fdc:peppol.eu:poacc:bis:ordering:3`, order type code 220.
-- `_add_sale_order_monetary_total_nodes()` — Includes line extension, tax, allowance/charge, prepaid, and payable amounts.
-- `_ubl_get_line_allowance_charge_discount_node()` — Extends to strip reason/multiplier/base from discount nodes for the ordering profile.
+**File:** `product_product.py` | Class: `ProductProduct`
 
-**Import (UBL XML parsing):**
-- `_retrieve_order_vals()` — Extracts order vals from UBL tree (partner, lines, delivery address, etc.).
-- `_import_order_ubl()` — Main import entry point, also recomputes `price_unit` and `discount` from sale price data.
-- `_get_product_xpaths()` — Adds `variant_barcode` (`ExtendedID`) and `variant_default_code` (`SellersItemIdentification/ExtendedID`) to support product variant matching.
+#### Fields (0)
 
-### Models
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
 
-#### `sale.order` (Inherited)
 
-- `_get_edi_builders()` — Adds `sale.edi.xml.ubl_bis3` to EDI builders.
-- `_get_import_file_type()` — Identifies UBL Bis 3 files by CustomizationID `urn:fdc:peppol.eu:poacc:trns:order:3`.
-- `_get_edi_decoder()` — Routes to `_import_order_ubl()` for matching files.
-- `_create_activity_set_details()` — Creates a mail activity on the order for unimported details.
+#### Methods (0)
 
-#### `product.product` (Inherited)
+| Method | Description |
+|--------|-------------|
+| — | — |
 
-Extends `_get_product_domain_search_order()` to include `variant_default_code` and `variant_barcode` in product search priority, enabling variant-level matching in UBL imports.
 
-## Peppol Compliance
+### sale.edi.xml.ubl_bis3 (`sale.edi.xml.ubl_bis3`)
 
-- Format: UBL Order 2.1 (Peppol BIS Ordering 3.0)
-- Customization ID: `urn:fdc:peppol.eu:poacc:trns:order:3`
-- Profile ID: `urn:fdc:peppol.eu:poacc:bis:ordering:3`
-- Order Type Code: 220
+Fill order details by extracting details from xml tree.
+        param order: Order to fill details from xml tree.
+        param tree: Xml tree to extract details.
+        :return: list of logs to add 
+
+**File:** `sale_edi_xml_ubl_bis3.py` | Class: `SaleEdiXmlUbl_Bis3`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+### sale.order (`sale.order`)
+
+Identify UBL files.
+
+**File:** `sale_order.py` | Class: `SaleOrder`
+
+#### Fields (0)
+
+| Field | Type | Computed | Onchange | Related | Store | Required |
+|-------|------|----------|----------|---------|-------|----------|
+| — | — | — | — | — | — | — |
+
+
+#### Methods (0)
+
+| Method | Description |
+|--------|-------------|
+| — | — |
+
+
+
+
+## Related
+
+- [[Modules/Base]]
+- [[Modules/Sale]]
