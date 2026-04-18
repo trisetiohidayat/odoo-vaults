@@ -329,8 +329,8 @@ These fields are used by `hr_holidays_homeworking` in the JavaScript patches via
 
 ## Related
 
-- [Modules/hr_holidays](hr_holidays.md) -- Leave types, leave requests, allocations, approval workflow
-- [Modules/hr_homeworking](hr_homeworking.md) -- Work locations, weekday scheduling, exceptional overrides
-- [Modules/HR](HR.md) -- Core `hr.employee` model, `_compute_presence_icon()`, attendance
-- [Modules/hr_attendance](hr_attendance.md) -- Attendance check-in/check-out, presence computation
-- [Modules/hr_org_chart](hr_org_chart.md) -- Organizational chart showing employee hierarchy
+- [Modules/hr_holidays](Modules/hr_holidays.md) -- Leave types, leave requests, allocations, approval workflow
+- [Modules/hr_homeworking](Modules/hr_homeworking.md) -- Work locations, weekday scheduling, exceptional overrides
+- [Modules/HR](Modules/HR.md) -- Core `hr.employee` model, `_compute_presence_icon()`, attendance
+- [Modules/hr_attendance](Modules/hr_attendance.md) -- Attendance check-in/check-out, presence computation
+- [Modules/hr_org_chart](Modules/hr_org_chart.md) -- Organizational chart showing employee hierarchy

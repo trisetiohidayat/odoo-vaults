@@ -179,6 +179,6 @@ The IoT Box connects to the main Odoo server as a "device":
 
 ## Related Documentation
 
-- [Modules/IoT](iot.md) -- IoT device management
-- [Modules/Stock](Stock.md) -- Barcode scanning, label printing
-- [Modules/POS](pos.md) -- Point of Sale hardware integration
+- [Modules/IoT](Modules/iot.md) -- IoT device management
+- [Modules/Stock](Modules/Stock.md) -- Barcode scanning, label printing
+- [Modules/POS](Modules/pos.md) -- Point of Sale hardware integration

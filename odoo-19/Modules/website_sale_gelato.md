@@ -28,7 +28,7 @@ modified: 2024-11-20
 **License:** LGPL-3
 **Author:** Odoo S.A.
 
-`website_sale_gelato` bridges [Modules/sale_gelato](sale_gelato.md) (print-on-demand product management) and [Modules/website_sale](website_sale.md) (eCommerce). It adds website-specific constraints and actions to prevent publishing Gelato products without print images and to unpublish products when new print images are created from Gelato. It also prevents mixing Gelato and non-Gelato products in the same cart, which is critical because Gelato products require separate shipping.
+`website_sale_gelato` bridges [Modules/sale_gelato](Modules/sale_gelato.md) (print-on-demand product management) and [Modules/website_sale](Modules/website_sale.md) (eCommerce). It adds website-specific constraints and actions to prevent publishing Gelato products without print images and to unpublish products when new print images are created from Gelato. It also prevents mixing Gelato and non-Gelato products in the same cart, which is critical because Gelato products require separate shipping.
 
 ## Architecture
 
@@ -275,9 +275,9 @@ Configures the Gelato-specific delivery carrier used for print-on-demand shipmen
 
 | Module | Role |
 |---|---|
-| [Modules/sale_gelato](sale_gelato.md) | Core Gelato integration; defines `gelato_product_uid`, `gelato_template_ref`, `gelato_image_ids`, and the base constraint on `sale.order` |
-| [Modules/website_sale](website_sale.md) | eCommerce cart and checkout; provides `_verify_updated_quantity()` that is overridden here |
-| [Modules/sale_gelato_stock](sale_gelato_stock.md) | Gelato stock management; does not directly interact but is often installed alongside |
+| [Modules/sale_gelato](Modules/sale_gelato.md) | Core Gelato integration; defines `gelato_product_uid`, `gelato_template_ref`, `gelato_image_ids`, and the base constraint on `sale.order` |
+| [Modules/website_sale](Modules/website_sale.md) | eCommerce cart and checkout; provides `_verify_updated_quantity()` that is overridden here |
+| [Modules/sale_gelato_stock](Modules/sale_gelato_stock.md) | Gelato stock management; does not directly interact but is often installed alongside |
 | `sale` | Sale order processing; base `sale.order` model |
 | `product` | Product master data; `product.template` and `product.document` models |
 
@@ -304,6 +304,6 @@ Key points for migration:
 
 ## See Also
 
-- [Modules/sale_gelato](sale_gelato.md)
-- [Modules/sale_gelato_stock](sale_gelato_stock.md)
-- [Modules/website_sale](website_sale.md)
+- [Modules/sale_gelato](Modules/sale_gelato.md)
+- [Modules/sale_gelato_stock](Modules/sale_gelato_stock.md)
+- [Modules/website_sale](Modules/website_sale.md)

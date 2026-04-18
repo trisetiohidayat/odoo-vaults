@@ -26,8 +26,8 @@ description: Sends SMS receipts to customers from the Point of Sale when orders 
 
 `pos_sms` is a thin bridge module that connects two existing systems:
 
-- **[Modules/point_of_sale](point_of_sale.md):** POS sessions, orders, and the `action_sent_message_on_sms` JS trigger
-- **[Modules/sms](sms.md):** SMS templates, the `sms.composer` API, and the SMS delivery engine
+- **[Modules/point_of_sale](Modules/point_of_sale.md):** POS sessions, orders, and the `action_sent_message_on_sms` JS trigger
+- **[Modules/sms](Modules/sms.md):** SMS templates, the `sms.composer` API, and the SMS delivery engine
 
 The module does **not** implement its own SMS sending logic. It uses the standard `sms.composer` to render and dispatch template-based SMS. This means it inherits the full delivery reliability, error handling, and queue management of the `sms` module with zero additional infrastructure.
 
@@ -362,7 +362,7 @@ Key observations:
 
 ## See Also
 
-- [Modules/point_of_sale](point_of_sale.md) — `pos.config`, `pos.order`, POS sessions
-- [Modules/sms](sms.md) — SMS templates, `sms.composer`, SMS delivery
-- [Core/API](API.md) — ORM field patterns, `@api.model`, `@api.constrains`
-- [Modules/mail](mail.md) — Email receipt alternative to SMS
+- [Modules/point_of_sale](Modules/point_of_sale.md) — `pos.config`, `pos.order`, POS sessions
+- [Modules/sms](Modules/sms.md) — SMS templates, `sms.composer`, SMS delivery
+- [Core/API](Core/API.md) — ORM field patterns, `@api.model`, `@api.constrains`
+- [Modules/mail](Modules/mail.md) — Email receipt alternative to SMS

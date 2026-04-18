@@ -40,7 +40,7 @@ Adds Arabic as a secondary language on Point of Sale receipts for GCC countries.
 - Asset bundle: `point_of_sale._assets_pos`
 
 ## Related
-- [Modules/point_of_sale](point_of_sale.md)
-- [Modules/l10n_gcc_invoice](l10n_gcc_invoice.md)
-- [Modules/l10n_sa_pos](l10n_sa_pos.md)
-- [Modules/l10n_ae_pos](l10n_ae_pos.md)
+- [Modules/point_of_sale](Modules/point_of_sale.md)
+- [Modules/l10n_gcc_invoice](Modules/l10n_gcc_invoice.md)
+- [Modules/l10n_sa_pos](Modules/l10n_sa_pos.md)
+- [Modules/l10n_ae_pos](Modules/l10n_ae_pos.md)

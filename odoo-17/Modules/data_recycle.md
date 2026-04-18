@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, data-recycle]
 
 
 
-- [Modules/base](base.md) — Base/utility module
+- [Modules/base](Modules/base.md) — Base/utility module

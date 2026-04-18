@@ -82,5 +82,5 @@ Get a key to configure the webhook.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

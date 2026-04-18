@@ -69,5 +69,5 @@ Handle from the service and enrich the lead accordingly
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/CRM]]
+- [Modules/Base](base.md)
+- [Modules/CRM](CRM.md)

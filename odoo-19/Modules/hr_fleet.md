@@ -214,5 +214,5 @@ Ensure that hr types are used only on employee model
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/HR]]
+- [Modules/Base](base.md)
+- [Modules/HR](HR.md)

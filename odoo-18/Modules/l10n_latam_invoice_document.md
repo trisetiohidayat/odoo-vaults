@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #latam #documents
 # l10n_latam_invoice_document — LATAM Document Types
 
 ## Overview
-Provides the LATAM document type taxonomy for fiscal invoice numbering. Introduces `l10n_latam.document.type` — a model defining country-specific document types (invoice, debit note, credit note) with codes, prefixes, and report names. Integrates with `account.journal` (via `l10n_latam_use_documents` flag), `account.move` (document type and number fields), and `account.chart.template` (auto-enables document usage on journals). The framework is extended by each country module (Argentina, Chile, Peru, Uruguay, Ecuador, Brazil) to populate country-specific document type data. Required by [Modules/l10n_ar](l10n_ar.md), [Modules/l10n_br](l10n_br.md), [Modules/l10n_cl](l10n_cl.md), [Modules/l10n_pe](l10n_pe.md), [Modules/l10n_ec](l10n_ec.md), [Modules/l10n_uy](l10n_uy.md).
+Provides the LATAM document type taxonomy for fiscal invoice numbering. Introduces `l10n_latam.document.type` — a model defining country-specific document types (invoice, debit note, credit note) with codes, prefixes, and report names. Integrates with `account.journal` (via `l10n_latam_use_documents` flag), `account.move` (document type and number fields), and `account.chart.template` (auto-enables document usage on journals). The framework is extended by each country module (Argentina, Chile, Peru, Uruguay, Ecuador, Brazil) to populate country-specific document type data. Required by [Modules/l10n_ar](Modules/l10n_ar.md), [Modules/l10n_br](Modules/l10n_br.md), [Modules/l10n_cl](Modules/l10n_cl.md), [Modules/l10n_pe](Modules/l10n_pe.md), [Modules/l10n_ec](Modules/l10n_ec.md), [Modules/l10n_uy](Modules/l10n_uy.md).
 
 ## Country/Region
 Multi-country (LATAM)

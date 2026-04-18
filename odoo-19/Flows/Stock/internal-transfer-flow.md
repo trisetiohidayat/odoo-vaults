@@ -12,11 +12,11 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Stock/picking-action-flow](picking-action-flow.md)"
-  - "[Flows/Stock/delivery-flow](delivery-flow.md)"
-  - "[Flows/Stock/receipt-flow](receipt-flow.md)"
+  - "[Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md)"
+  - "[Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md)"
+  - "[Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md)"
 related_guides:
-  - "[Modules/Stock](Stock.md)"
+  - "[Modules/Stock](Modules/Stock.md)"
 source_module: stock
 source_path: ~/odoo/odoo19/odoo/addons/stock/
 created: 2026-04-06
@@ -389,9 +389,9 @@ def action_done(self):
 
 ## Related
 
-- [Modules/Stock](Stock.md) — Stock/picking module reference
-- [Flows/Stock/picking-action-flow](picking-action-flow.md) — Generic picking lifecycle (confirm→assign→done)
-- [Flows/Stock/delivery-flow](delivery-flow.md) — Outgoing delivery (similar logic, external destination)
-- [Flows/Stock/receipt-flow](receipt-flow.md) — Incoming receipt (similar logic, external source)
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — Workflow pattern reference
-- [Core/API](API.md) — @api decorator patterns
+- [Modules/Stock](Modules/Stock.md) — Stock/picking module reference
+- [Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md) — Generic picking lifecycle (confirm→assign→done)
+- [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) — Outgoing delivery (similar logic, external destination)
+- [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Incoming receipt (similar logic, external source)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](Core/API.md) — @api decorator patterns

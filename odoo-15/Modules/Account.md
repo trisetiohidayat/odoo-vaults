@@ -732,14 +732,14 @@ def action_register_payment(self):
 
 ## Related Modules
 
-- [Modules/Sale](Sale.md) — Customer Invoice from SO
-- [Modules/Purchase](Purchase.md) — Vendor Bill from PO
-- [Modules/Stock](Stock.md) — Stock valuation entries
+- [Modules/Sale](Modules/Sale.md) — Customer Invoice from SO
+- [Modules/Purchase](Modules/Purchase.md) — Vendor Bill from PO
+- [Modules/Stock](Modules/Stock.md) — Stock valuation entries
 
 ## Related Flows
 
-- [Flows/Account/invoice-creation-flow](invoice-creation-flow.md) — Invoice creation
-- [Flows/Account/invoice-post-flow](invoice-post-flow.md) — Invoice posting
-- [Flows/Account/payment-flow](payment-flow.md) — Payment registration
-- [Flows/Cross-Module/sale-stock-account-flow](sale-stock-account-flow.md) — Sales → Delivery → Invoice → Payment
-- [Business/Account/tax-grid-guide](tax-grid-guide.md) — Tax Grid guide
+- [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — Invoice creation
+- [Flows/Account/invoice-post-flow](Flows/Account/invoice-post-flow.md) — Invoice posting
+- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — Payment registration
+- [Flows/Cross-Module/sale-stock-account-flow](Flows/Cross-Module/sale-stock-account-flow.md) — Sales → Delivery → Invoice → Payment
+- [Business/Account/tax-grid-guide](Business/Account/tax-grid-guide.md) — Tax Grid guide

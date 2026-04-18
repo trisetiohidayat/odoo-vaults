@@ -27,7 +27,7 @@ Inherits `account.chart.template`. Template prefix: `'km'`. Provides `_get_km_sy
 - `demo/demo_company.xml` — Comoros demo company
 
 ## Chart of Accounts
-SYSCOHADA. See [Modules/l10n_bf](l10n_bf.md).
+SYSCOHADA. See [Modules/l10n_bf](Modules/l10n_bf.md).
 
 ## Tax Structure
 TVA at 10% standard rate. IS. Comoros uses OHADA framework.

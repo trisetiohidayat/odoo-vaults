@@ -7,7 +7,7 @@ created: 2026-04-14
 
 # Debugging Guide
 
-> **Prerequisite reading:** [[Core/API]] for decorator patterns, [[Core/BaseModel]] for ORM internals, [[Patterns/Workflow Patterns]] for state machine debugging
+> **Prerequisite reading:** [Core/API](../Core/API.md) for decorator patterns, [Core/BaseModel](../Core/BaseModel.md) for ORM internals, [Patterns/Workflow Patterns](../Patterns/Workflow Patterns.md) for state machine debugging
 
 ---
 
@@ -778,7 +778,7 @@ vendor_ids = models.execute_kw(
     db, uid, password,
     'res.partner',
     'search',
-    [[['supplier_rank', '>', 0]]],
+    [['supplier_rank', '>', 0](['supplier_rank',-'>',-0.md)],
     {'limit': 5}
 )
 print(f"Vendor IDs: {vendor_ids}")
@@ -788,7 +788,7 @@ vendors = models.execute_kw(
     db, uid, password,
     'res.partner',
     'search_read',
-    [[['supplier_rank', '>', 0]]],
+    [['supplier_rank', '>', 0](['supplier_rank',-'>',-0.md)],
     {'fields': ['id', 'name', 'email', 'phone'], 'limit': 5}
 )
 print(json.dumps(vendors, indent=2))
@@ -905,7 +905,7 @@ vendors = jsonrpc_call('call', 'object', 'execute_kw', [
     'roedl', uid, 'admin',
     'res.partner',
     'search_read',
-    [[['supplier_rank', '>', 0]]],
+    [['supplier_rank', '>', 0](['supplier_rank',-'>',-0.md)],
     {'fields': ['name', 'email'], 'limit': 10}
 ])
 print(vendors)
@@ -948,7 +948,7 @@ def inspect_rpc_error(response):
 
 ## 6. Error Deep Dive
 
-> **Reference:** See [[Core/Exceptions]] for the complete exception hierarchy
+> **Reference:** See [Core/Exceptions](../Core/Exceptions.md) for the complete exception hierarchy
 
 ### 6.1 AccessError (ACL Violations)
 
@@ -1736,9 +1736,9 @@ def test_vendor_invoice_flow(self):
 
 ## Related Links
 
-- [[Core/API]] — API decorators, onchange, depends
-- [[Core/BaseModel]] — ORM internals, CRUD operations
-- [[Core/Exceptions]] — Exception hierarchy (UserError, ValidationError, AccessError, MissingError)
-- [[Patterns/Workflow Patterns]] — State machines, action methods
-- [[Tools/Testing-Guide]] — Writing and running tests
-- [[Core/Fields]] — Field types, computed fields, storage
+- [Core/API](../Core/API.md) — API decorators, onchange, depends
+- [Core/BaseModel](../Core/BaseModel.md) — ORM internals, CRUD operations
+- [Core/Exceptions](../Core/Exceptions.md) — Exception hierarchy (UserError, ValidationError, AccessError, MissingError)
+- [Patterns/Workflow Patterns](../Patterns/Workflow Patterns.md) — State machines, action methods
+- [Tools/Testing-Guide](Testing-Guide.md) — Writing and running tests
+- [Core/Fields](../Core/Fields.md) — Field types, computed fields, storage

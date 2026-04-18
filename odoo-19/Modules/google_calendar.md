@@ -221,5 +221,5 @@ Get list of google fields that won't be formatted in session_info.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

@@ -44,5 +44,5 @@ This method return the url needed to allow this instance of Odoo to access to th
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

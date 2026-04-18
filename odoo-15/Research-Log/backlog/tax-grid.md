@@ -47,6 +47,6 @@
 ## Notes
 
 - Source: `/Users/tri-mac/project/roedl/odoo15.0-roedl/odoo/addons/account/models/`
-- Semua model Utama sudah terdokumentasi di [Modules/Account](Account.md)
-- Tax Grid sudah ada dedicated guide di [Business/Account/tax-grid-guide](tax-grid-guide.md)
+- Semua model Utama sudah terdokumentasi di [Modules/Account](Modules/Account.md)
+- Tax Grid sudah ada dedicated guide di [Business/Account/tax-grid-guide](Business/Account/tax-grid-guide.md)
 - Flow sudah ada di [Flows/Account/*](Flows/Account/*.md) dan [Flows/Cross-Module/*](Flows/Cross-Module/*.md)

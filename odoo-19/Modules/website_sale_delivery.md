@@ -274,8 +274,8 @@ sale.order._action_confirm()
 
 ## Related
 
-- [Modules/delivery](delivery.md) — Base carrier model, rate computation, pickup locations
-- [Modules/website_sale](website_sale.md) — eCommerce base: cart, checkout, payment
-- [Modules/website_sale_mondialrelay](website_sale_mondialrelay.md) — Point Relais integration via `delivery_mondialrelay`
-- [Modules/stock](Stock.md) — Inventory; shipping_weight used by `base_on_rule` rate computation
-- [Modules/sale](Sale.md) — `carrier_id`, `delivery_set`, `shipping_weight` fields
+- [Modules/delivery](Modules/delivery.md) — Base carrier model, rate computation, pickup locations
+- [Modules/website_sale](Modules/website_sale.md) — eCommerce base: cart, checkout, payment
+- [Modules/website_sale_mondialrelay](Modules/website_sale_mondialrelay.md) — Point Relais integration via `delivery_mondialrelay`
+- [Modules/stock](Modules/Stock.md) — Inventory; shipping_weight used by `base_on_rule` rate computation
+- [Modules/sale](Modules/Sale.md) — `carrier_id`, `delivery_set`, `shipping_weight` fields

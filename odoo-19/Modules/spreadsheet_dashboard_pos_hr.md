@@ -15,7 +15,7 @@ tags: [odoo, odoo19, spreadsheet, dashboard, pos, point-of-sale, hr, employee]
 | License | LGPL-3 |
 | Module type | Data-only (no Python models) |
 
-Provides a pre-configured [spreadsheet_dashboard](spreadsheet_dashboard.md) template named "Point of Sale" for POS managers. Combines POS order reporting with employee/cashier data from `pos_hr`. Auto-installs when `pos_hr` is active and appears in the Sales dashboard group.
+Provides a pre-configured [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template named "Point of Sale" for POS managers. Combines POS order reporting with employee/cashier data from `pos_hr`. Auto-installs when `pos_hr` is active and appears in the Sales dashboard group.
 
 ## Module Architecture
 
@@ -241,8 +241,8 @@ spreadsheet_dashboard_pos_hr
 
 ## Related Modules
 
-- [spreadsheet_dashboard](spreadsheet_dashboard.md) — Dashboard framework
-- [spreadsheet_dashboard_sale](spreadsheet_dashboard_sale.md) — Sales order dashboards (non-POS)
+- [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [spreadsheet_dashboard_sale](Modules/spreadsheet_dashboard_sale.md) — Sales order dashboards (non-POS)
 - `pos_hr` — Adds employee attribution to POS orders
 - `point_of_sale` — Core POS models and reporting view
 

@@ -53,4 +53,4 @@ configuration of their taxes and fiscal positions manually.
 - Custom model files: account_move.py, base_document_layout.py, template_mc.py, res_company.py, template_fr.py, res_partner.py
 
 ## Related
-- [Modules/l10n_fr](l10n_fr.md) - Core accounting
+- [Modules/l10n_fr](Modules/l10n_fr.md) - Core accounting

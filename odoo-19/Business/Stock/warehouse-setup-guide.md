@@ -11,9 +11,9 @@ prerequisites:
   - picking_types_setup
 estimated_time: "~20 minutes"
 related_flows:
-  - "[Flows/Stock/receipt-flow](receipt-flow.md)"
-  - "[Flows/Stock/delivery-flow](delivery-flow.md)"
-  - "[Flows/Stock/internal-transfer-flow](internal-transfer-flow.md)"
+  - "[Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md)"
+  - "[Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md)"
+  - "[Flows/Stock/internal-transfer-flow](Flows/Stock/internal-transfer-flow.md)"
 source_module: stock
 created: 2026-04-06
 version: "1.0"
@@ -43,9 +43,9 @@ version: "1.0"
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Stock/receipt-flow](receipt-flow.md) | Receipt process |
-| 🔀 Technical Flow | [Flows/Stock/delivery-flow](delivery-flow.md) | Delivery process |
-| 📖 Module Reference | [Modules/Stock](Stock.md) | Complete model reference |
+| 🔀 Technical Flow | [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) | Receipt process |
+| 🔀 Technical Flow | [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) | Delivery process |
+| 📖 Module Reference | [Modules/Stock](Modules/Stock.md) | Complete model reference |
 
 ---
 
@@ -198,7 +198,7 @@ New picking types added:
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Receipt Flow | [Flows/Stock/receipt-flow](receipt-flow.md) | Incoming receipt process |
-| 🔀 Delivery Flow | [Flows/Stock/delivery-flow](delivery-flow.md) | Outgoing delivery process |
-| 🔀 Picking Actions | [Flows/Stock/picking-action-flow](picking-action-flow.md) | confirm→assign→done |
-| 📖 Module Reference | [Modules/Stock](Stock.md) | Complete model reference |
+| 🔀 Receipt Flow | [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) | Incoming receipt process |
+| 🔀 Delivery Flow | [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) | Outgoing delivery process |
+| 🔀 Picking Actions | [Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md) | confirm→assign→done |
+| 📖 Module Reference | [Modules/Stock](Modules/Stock.md) | Complete model reference |

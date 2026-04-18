@@ -130,5 +130,5 @@ Ensure that when publishing a course that its linked product is also published
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Website]]
+- [Modules/Base](base.md)
+- [Modules/Website](website.md)

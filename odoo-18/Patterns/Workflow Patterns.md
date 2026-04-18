@@ -91,6 +91,6 @@ draft ──[confirm]──→ sale ──[done]──→ done
 ---
 
 ## Related Links
-- [Modules/Sale](sale.md) — Sale order state machine
-- [Modules/Stock](stock.md) — Picking state transitions
-- [Modules/Purchase](purchase.md) — Purchase order workflow
+- [Modules/Sale](Modules/sale.md) — Sale order state machine
+- [Modules/Stock](Modules/stock.md) — Picking state transitions
+- [Modules/Purchase](Modules/purchase.md) — Purchase order workflow

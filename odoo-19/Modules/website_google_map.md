@@ -37,9 +37,9 @@ This module is controller/view-only - it does not define any models. It extends 
 
 ## Related
 
-- [Modules/base_geolocalize](base_geolocalize.md) - Base geolocalization features
-- [Modules/website_partner](website_partner.md) - Partner contact pages on website
-- [Modules/website](website.md) - Website builder
+- [Modules/base_geolocalize](Modules/base_geolocalize.md) - Base geolocalization features
+- [Modules/website_partner](Modules/website_partner.md) - Partner contact pages on website
+- [Modules/website](Modules/website.md) - Website builder
 
 ## Notes
 

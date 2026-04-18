@@ -43,5 +43,5 @@ Module `website_mail_group` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Website]]
+- [Modules/Base](base.md)
+- [Modules/Website](website.md)

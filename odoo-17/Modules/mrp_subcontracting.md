@@ -155,7 +155,7 @@ bom_line_ids = [
 
 ## See Also
 
-- [Modules/mrp](mrp.md) — mrp.production, BoM types
-- [Modules/purchase](purchase.md) — PO creates the incoming receipt
-- [Modules/stock](stock.md) — stock.picking, stock.location
-- [Modules/stock_account](stock_account.md) — subcontracting cost posting
+- [Modules/mrp](Modules/mrp.md) — mrp.production, BoM types
+- [Modules/purchase](Modules/purchase.md) — PO creates the incoming receipt
+- [Modules/stock](Modules/stock.md) — stock.picking, stock.location
+- [Modules/stock_account](Modules/stock_account.md) — subcontracting cost posting

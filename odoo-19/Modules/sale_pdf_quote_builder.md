@@ -183,5 +183,5 @@ Ensure the names only contains alphanumerics, hyphens and underscores.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Sale]]
+- [Modules/Base](base.md)
+- [Modules/Sale](Sale.md)

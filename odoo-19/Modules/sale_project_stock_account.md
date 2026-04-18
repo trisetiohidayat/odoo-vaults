@@ -43,5 +43,5 @@ Module `sale_project_stock_account` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Sale]]
+- [Modules/Base](base.md)
+- [Modules/Sale](Sale.md)

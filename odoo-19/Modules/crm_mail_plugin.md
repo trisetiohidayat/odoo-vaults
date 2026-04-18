@@ -23,7 +23,7 @@ uuid: b8d4f7a3-2c9e-5f1b-8a3d-4e6f8b1c5d7e
 
 The `crm_mail_plugin` module integrates Odoo's CRM application with the Outlook and Gmail mail plugin. It enables sales teams to convert emails received in their mailbox into CRM leads without leaving their email client, and to log email content as internal notes on existing leads. The module extends the base `mail_plugin` infrastructure to add CRM-specific actions to the email client's sidebar panel.
 
-This is the CRM counterpart to [Modules/project_mail_plugin](project_mail_plugin.md), which provides the same integration for the Project application. Both modules share the same architectural pattern: extending `MailPluginController` from `mail_plugin` to add model-specific data and actions to the contact panel.
+This is the CRM counterpart to [Modules/project_mail_plugin](Modules/project_mail_plugin.md), which provides the same integration for the Project application. Both modules share the same architectural pattern: extending `MailPluginController` from `mail_plugin` to add model-specific data and actions to the contact panel.
 
 ## Architecture
 
@@ -250,10 +250,10 @@ To automatically assign newly created leads to the right salesperson:
 
 ## Related
 
-- [Modules/crm](CRM.md) — CRM base module: lead, opportunity, pipeline, team
-- [Modules/mail_plugin](mail_plugin.md) — Mail plugin base: Outlook/Gmail add-in infrastructure
-- [Modules/project_mail_plugin](project_mail_plugin.md) — Project equivalent: email-to-task conversion
-- [Modules/crm_livechat](crm_livechat.md) — CRM + Livechat integration
+- [Modules/crm](Modules/CRM.md) — CRM base module: lead, opportunity, pipeline, team
+- [Modules/mail_plugin](Modules/mail_plugin.md) — Mail plugin base: Outlook/Gmail add-in infrastructure
+- [Modules/project_mail_plugin](Modules/project_mail_plugin.md) — Project equivalent: email-to-task conversion
+- [Modules/crm_livechat](Modules/crm_livechat.md) — CRM + Livechat integration
 - [Modules/crm_helpdesk](crm_helpdesk.md) — CRM + Helpdesk integration
 
 ## Real-World Scenarios
@@ -354,8 +354,8 @@ The project plugin is architecturally richer because tasks have a natural list-p
 
 ## Related
 
-- [Modules/crm](CRM.md) — CRM base: lead, opportunity, stage, team, assignment rules
-- [Modules/mail_plugin](mail_plugin.md) — Mail plugin base: Outlook/Gmail add-in, generic thread messaging
-- [Modules/project_mail_plugin](project_mail_plugin.md) — Project equivalent: task creation and project search
+- [Modules/crm](Modules/CRM.md) — CRM base: lead, opportunity, stage, team, assignment rules
+- [Modules/mail_plugin](Modules/mail_plugin.md) — Mail plugin base: Outlook/Gmail add-in, generic thread messaging
+- [Modules/project_mail_plugin](Modules/project_mail_plugin.md) — Project equivalent: task creation and project search
 - [Modules/crm_iap_lead](crm_iap_lead.md) — IAP-based lead generation from website forms
 - [Modules/crm_helpdesk](crm_helpdesk.md) — CRM + Helpdesk: ticket-to-lead conversion

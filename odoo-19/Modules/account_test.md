@@ -47,5 +47,5 @@ Module `account_test` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Account]]
+- [Modules/Base](base.md)
+- [Modules/Account](Account.md)

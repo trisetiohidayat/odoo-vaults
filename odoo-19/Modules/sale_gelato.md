@@ -204,5 +204,5 @@ Ensure that the order lines don't mix Gelato and non-Gelato products.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Sale]]
+- [Modules/Base](base.md)
+- [Modules/Sale](Sale.md)

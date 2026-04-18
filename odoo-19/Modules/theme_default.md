@@ -417,7 +417,7 @@ Key considerations when migrating websites that use `theme_default`:
 
 ## See Also
 
-- [Modules/website](Modules/website.md) — The website module that hosts the theme system
+- [Modules/website](website.md) — The website module that hosts the theme system
 - [Modules/theme_bootsnip](Modules/theme_bootsnip.md) — Example of an official child theme
-- [Core/HTTP Controller](Core/HTTP Controller.md) — How website controllers render pages
-- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — Odoo's inheritance system for templates and SCSS
+- [Core/HTTP Controller](HTTP Controller.md) — How website controllers render pages
+- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — Odoo's inheritance system for templates and SCSS

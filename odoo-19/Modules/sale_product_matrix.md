@@ -89,5 +89,5 @@ Matrix loading and update: fields and methods :
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Sale]]
+- [Modules/Base](base.md)
+- [Modules/Sale](Sale.md)

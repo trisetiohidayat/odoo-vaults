@@ -14,7 +14,7 @@ Vietnam accounting localization providing the Vietnamese chart of accounts based
 Vietnam
 
 ## Dependencies
-- [Core/BaseModel](BaseModel.md) (account)
+- [Core/BaseModel](Core/BaseModel.md) (account)
 - `account` — core accounting module
 - `account_qr_code_emv` — EMV QR code generation for VietQR
 - `base_iban` — IBAN/bank account support

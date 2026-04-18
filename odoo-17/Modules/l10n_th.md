@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, l10n-th]
 
 
 
-- [Modules/account](account.md) — Accounting / localization
+- [Modules/account](Modules/account.md) — Accounting / localization

@@ -318,7 +318,7 @@ The configurable default percentage means that the same POS terminal can be used
 
 ## Related
 
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module: sessions, orders, payments
-- [Modules/pos_loyalty](pos_loyalty.md) — Loyalty programs and rewards in POS
-- [Modules/pos_restaurant](pos_restaurant.md) — Restaurant-specific POS features
-- [Modules/account](Account.md) — Accounting: taxes, invoices, journal entries
+- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module: sessions, orders, payments
+- [Modules/pos_loyalty](Modules/pos_loyalty.md) — Loyalty programs and rewards in POS
+- [Modules/pos_restaurant](Modules/pos_restaurant.md) — Restaurant-specific POS features
+- [Modules/account](Modules/Account.md) — Accounting: taxes, invoices, journal entries

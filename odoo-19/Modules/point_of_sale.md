@@ -1222,10 +1222,10 @@ When a session is open, these fields cannot be modified: `module_pos_restaurant`
 
 ## Related Documentation
 
-- [Core/API](API.md) — ORM decorators `@api.model`, `@api.depends`, `@api.constrains`
-- [Modules/Account](Account.md) — `account.move`, fiscal positions, tax computation
-- [Modules/Stock](Stock.md) — `stock.picking`, `stock.move`, `stock.quant` (Anglo-Saxon valuation)
-- [Modules/Product](Product.md) — `product.product`, `product.pricelist`, `uom.uom`
-- [Modules/Sale](Sale.md) — Order workflow, `sale.order` vs `pos.order` comparison
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine patterns (applicable to order/session states)
-- [Patterns/Security Patterns](Security Patterns.md) — ACL, record rules, ir.rule
+- [Core/API](Core/API.md) — ORM decorators `@api.model`, `@api.depends`, `@api.constrains`
+- [Modules/Account](Modules/Account.md) — `account.move`, fiscal positions, tax computation
+- [Modules/Stock](Modules/Stock.md) — `stock.picking`, `stock.move`, `stock.quant` (Anglo-Saxon valuation)
+- [Modules/Product](Modules/Product.md) — `product.product`, `product.pricelist`, `uom.uom`
+- [Modules/Sale](Modules/Sale.md) — Order workflow, `sale.order` vs `pos.order` comparison
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns (applicable to order/session states)
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL, record rules, ir.rule

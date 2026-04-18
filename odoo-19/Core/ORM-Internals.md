@@ -16,7 +16,7 @@ module: orm
 
 ## Overview
 
-Dokumentasi ini menjelaskan internal ORM Odoo 19 secara mendalam — bagaimana recordset bekerja, mekanisme caching, environment management, dan flow control. Berbeda dengan [[Core/BaseModel]] yang fokus pada penggunaan API, dokumen ini mengekspos mekanisme internal yang jarang ter文档化.
+Dokumentasi ini menjelaskan internal ORM Odoo 19 secara mendalam — bagaimana recordset bekerja, mekanisme caching, environment management, dan flow control. Berbeda dengan [Core/BaseModel](BaseModel.md) yang fokus pada penggunaan API, dokumen ini mengekspos mekanisme internal yang jarang ter文档化.
 
 **Source Location:** `odoo/odoo/orm/models.py` (7,127 lines), `orm/fields.py`, `orm/environments.py`
 
@@ -1335,11 +1335,11 @@ def _system_operation(self):
 
 ## Related Documentation
 
-- [[Core/BaseModel]] - Base model usage and common methods
-- [[Core/Fields]] - Field types and attributes
-- [[Core/API]] - Decorators (@api.depends, @api.onchange, etc.)
-- [[Patterns/Inheritance Patterns]] - _inherit, _inherits patterns
-- [[Core/Exceptions]] - ORM exceptions (ValidationError, AccessError)
+- [Core/BaseModel](BaseModel.md) - Base model usage and common methods
+- [Core/Fields](Fields.md) - Field types and attributes
+- [Core/API](API.md) - Decorators (@api.depends, @api.onchange, etc.)
+- [Patterns/Inheritance Patterns](../Patterns/Inheritance Patterns.md) - _inherit, _inherits patterns
+- [Core/Exceptions](Exceptions.md) - ORM exceptions (ValidationError, AccessError)
 
 ## Tags
 

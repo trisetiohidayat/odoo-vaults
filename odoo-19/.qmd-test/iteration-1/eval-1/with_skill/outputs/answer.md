@@ -29,7 +29,7 @@ class SaleOrder(models.Model):
 ```
 This mixes in `mail.thread` (for messaging/Chatter) and `portal.mixin` (for portal access) alongside the base `sale.order`.
 
-**Source:** [Patterns/Inheritance Patterns.md](Patterns/Inheritance Patterns.md)
+**Source:** [Patterns/Inheritance Patterns.md](Inheritance Patterns.md)
 
 ---
 
@@ -55,7 +55,7 @@ In this example, `my.order.line` gets its own table, but fields from `product.pr
 A real-world example in Odoo is `hr.employee`, which uses `_inherits` on `hr.version`:
 > `hr.employee` uses Odoo's delegation inheritance (`_inherits`) rather than classic extension. This means every `hr.employee` record has a corresponding `hr.version` record stored in a separate table (`hr_version`). Fields defined on `hr.version` appear directly on `hr.employee` via SQL join at read time.
 
-**Source:** [Modules/HR.md](Modules/HR.md)
+**Source:** [Modules/HR.md](HR.md)
 
 ---
 
@@ -95,7 +95,7 @@ A real-world example in Odoo is `hr.employee`, which uses `_inherits` on `hr.ver
 
 ## Sources
 
-- [Patterns/Inheritance Patterns.md](Patterns/Inheritance Patterns.md) — Primary source for three inheritance patterns with code examples
-- [Modules/HR.md](Modules/HR.md) — Real-world `_inherits` example with `hr.employee` / `hr.version`
+- [Patterns/Inheritance Patterns.md](Inheritance Patterns.md) — Primary source for three inheritance patterns with code examples
+- [Modules/HR.md](HR.md) — Real-world `_inherits` example with `hr.employee` / `hr.version`
 - [Modules/mail-group.md](Modules/mail-group.md) — Odoo 19 change: `_inherits` removed in favor of `related` fields
-- [Core/BaseModel.md](Core/BaseModel.md) — `_inherit` as a key model attribute
+- [Core/BaseModel.md](BaseModel.md) — `_inherit` as a key model attribute

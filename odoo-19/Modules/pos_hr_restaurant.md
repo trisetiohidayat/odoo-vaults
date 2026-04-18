@@ -357,9 +357,9 @@ The import of `pos_restaurant`'s `pos_store` in `pos_hr_restaurant` ensures `pos
 
 ## Related Documentation
 
-- [Modules/pos_hr](pos_hr.md) — Employee login and session management
-- [Modules/pos_restaurant](pos_restaurant.md) — Restaurant floor plan and table management
-- [Modules/point_of_sale](point_of_sale.md) — POS base module
-- [Modules/pos_restaurant_stripe](pos_restaurant_stripe.md) — Stripe tipping bridge
-- [Modules/pos_restaurant_adyen](pos_restaurant_adyen.md) — Adyen tipping bridge
-- [Modules/pos_restaurant_loyalty](pos_restaurant_loyalty.md) — Loyalty bridge
+- [Modules/pos_hr](Modules/pos_hr.md) — Employee login and session management
+- [Modules/pos_restaurant](Modules/pos_restaurant.md) — Restaurant floor plan and table management
+- [Modules/point_of_sale](Modules/point_of_sale.md) — POS base module
+- [Modules/pos_restaurant_stripe](Modules/pos_restaurant_stripe.md) — Stripe tipping bridge
+- [Modules/pos_restaurant_adyen](Modules/pos_restaurant_adyen.md) — Adyen tipping bridge
+- [Modules/pos_restaurant_loyalty](Modules/pos_restaurant_loyalty.md) — Loyalty bridge

@@ -324,8 +324,8 @@ Because this is a read-only SQL view, attempting to create, write, or unlink rec
 
 ## Related Documentation
 
-- [Modules/hr_timesheet](hr_timesheet.md) — Timesheets (project time tracking via `account_analytic_line`)
-- [Modules/hr_attendance](hr_attendance.md) — Attendance tracking (clock-in/clock-out)
-- [Modules/hr](hr.md) — Human Resources core module
-- [Modules/CRM](CRM.md) — CRM module
-- [Patterns/Cross-Module-Integration](Patterns/Cross-Module-Integration.md) — Cross-module reporting patterns
+- [Modules/hr_timesheet](Modules/hr_timesheet.md) — Timesheets (project time tracking via `account_analytic_line`)
+- [Modules/hr_attendance](Modules/hr_attendance.md) — Attendance tracking (clock-in/clock-out)
+- [Modules/hr](Modules/HR.md) — Human Resources core module
+- [Modules/CRM](Modules/CRM.md) — CRM module
+- [Patterns/Cross-Module-Integration](Cross-Module-Integration.md) — Cross-module reporting patterns

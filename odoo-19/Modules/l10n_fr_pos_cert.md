@@ -44,4 +44,4 @@ The module adds following features:
 - Custom model files: pos.py, account_closing.py, res_company.py, account_fiscal_position.py
 
 ## Related
-- [Modules/l10n_fr](l10n_fr.md) - Core accounting
+- [Modules/l10n_fr](Modules/l10n_fr.md) - Core accounting

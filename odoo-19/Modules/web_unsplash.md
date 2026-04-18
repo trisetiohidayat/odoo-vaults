@@ -32,7 +32,7 @@ Unsplash provides free high-resolution photos under the [Unsplash License](https
 
 ## Architecture
 
-This is a **frontend integration module** that connects the [Modules/html_editor](html_editor.md) image picker to the Unsplash API. It consists of:
+This is a **frontend integration module** that connects the [Modules/html_editor](Modules/html_editor.md) image picker to the Unsplash API. It consists of:
 
 - A **backend model layer** that stores Unsplash credentials and manages attachment rights for Unsplash URLs
 - A **frontend service layer** (JavaScript) that wraps the Unsplash REST API
@@ -246,9 +246,9 @@ This approach keeps Odoo's storage minimal but means Unsplash images require int
 
 ## Related
 
-- [Modules/html_editor](html_editor.md) — Core rich text editor with media dialog
-- [Modules/website](website.md) — Website builder, primary consumer of Unsplash images
-- [Modules/mass_mailing](mass_mailing.md) — Email editor also uses the media dialog
+- [Modules/html_editor](Modules/html_editor.md) — Core rich text editor with media dialog
+- [Modules/website](Modules/website.md) — Website builder, primary consumer of Unsplash images
+- [Modules/mass_mailing](Modules/mass_mailing.md) — Email editor also uses the media dialog
 - [Modules/web_unsplash](../Tools/Unsplash%20Image%20Integration.md) — (if custom doc exists)
 
 ## Image Insertion Workflow

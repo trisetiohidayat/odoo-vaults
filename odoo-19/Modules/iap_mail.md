@@ -25,7 +25,7 @@ uuid: e8a1f5c4-7d3b-4e9a-8f6c-2b0d5e7f1a9c
 **License:** LGPL-3
 **Author:** Odoo S.A.
 
-`iap_mail` bridges Odoo's IAP (In-App Purchase) infrastructure and the [Modules/mail](mail.md) module. It does two fundamental things:
+`iap_mail` bridges Odoo's IAP (In-App Purchase) infrastructure and the [Modules/mail](Modules/mail.md) module. It does two fundamental things:
 
 1. **Real-time bus notifications** -- Adds four class methods to `iap.account` that send real-time toast notifications to the Odoo web client via the Odoo bus (WebSocket). This enables IAP services to immediately alert users when credits run low, when an enrichment operation succeeds, or when it fails.
 
@@ -265,11 +265,11 @@ iap_email:
 
 | Module | Role | Integration Point |
 |--------|------|-------------------|
-| [Modules/iap](iap.md) | IAP account model | `iap.account` is the base model being extended |
-| [Modules/mail](mail.md) | Mail thread and bus | `mail.thread` mixin + Odoo bus system |
-| [Modules/iap_crm](iap_crm.md) | CRM + IAP bridge | Depends on `iap_mail` for notifications |
-| [Modules/crm_iap_enrich](crm_iap_enrich.md) | Lead enrichment | Uses `iap_mail` notification methods |
-| [Modules/partner_autocomplete](partner_autocomplete.md) | Partner data autocomplete | Uses `iap_mail` notification methods |
+| [Modules/iap](Modules/iap.md) | IAP account model | `iap.account` is the base model being extended |
+| [Modules/mail](Modules/mail.md) | Mail thread and bus | `mail.thread` mixin + Odoo bus system |
+| [Modules/iap_crm](Modules/iap_crm.md) | CRM + IAP bridge | Depends on `iap_mail` for notifications |
+| [Modules/crm_iap_enrich](Modules/crm_iap_enrich.md) | Lead enrichment | Uses `iap_mail` notification methods |
+| [Modules/partner_autocomplete](Modules/partner_autocomplete.md) | Partner data autocomplete | Uses `iap_mail` notification methods |
 
 ## Extension Points
 
@@ -282,11 +282,11 @@ iap_email:
 
 ## Related
 
-- [Modules/iap](iap.md) -- IAP infrastructure and account management
-- [Modules/mail](mail.md) -- Mail thread, bus, and notification rendering
-- [Modules/iap_crm](iap_crm.md) -- CRM+IAP bridge; depends on `iap_mail`
-- [Modules/crm_iap_enrich](crm_iap_enrich.md) -- Lead enrichment; uses `iap_mail` notifications
-- [Modules/partner_autocomplete](partner_autocomplete.md) -- Partner autocomplete; uses `iap_mail` notifications
+- [Modules/iap](Modules/iap.md) -- IAP infrastructure and account management
+- [Modules/mail](Modules/mail.md) -- Mail thread, bus, and notification rendering
+- [Modules/iap_crm](Modules/iap_crm.md) -- CRM+IAP bridge; depends on `iap_mail`
+- [Modules/crm_iap_enrich](Modules/crm_iap_enrich.md) -- Lead enrichment; uses `iap_mail` notifications
+- [Modules/partner_autocomplete](Modules/partner_autocomplete.md) -- Partner autocomplete; uses `iap_mail` notifications
 
 
 ## Deep Dive: The Odoo Bus System

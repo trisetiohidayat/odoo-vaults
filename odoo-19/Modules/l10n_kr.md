@@ -30,7 +30,7 @@ Korea has a comprehensive VAT system administered by the NTS (National Tax Servi
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account](Account.md) | Core accounting |
+| [Modules/account](Modules/Account.md) | Core accounting |
 
 ## Key Models
 
@@ -81,5 +81,5 @@ This is primarily a data-only localization module. The chart of accounts and tax
 
 ## Related
 
-- [Modules/account](Account.md) - Core accounting module
+- [Modules/account](Modules/Account.md) - Core accounting module
 - [NTS Korea](https://www.nts.go.kr)

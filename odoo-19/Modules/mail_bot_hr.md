@@ -184,12 +184,12 @@ Since this module adds no data access, it requires no additional ACL entries. It
 
 ## Related
 
-- [Modules/mail_bot](mail_bot.md) -- OdooBot core: AI assistant, slash commands, onboarding
-- [Modules/hr](hr.md) -- HR module: employee records, HR-modified user forms
-- [Modules/mail](mail.md) -- Messaging infrastructure: channels, messages, Discuss app
-- [Modules/hr_skills](hr_skills.md) -- HR Skills: resume lines, skills tracking
-- [Modules/hr_skills_event](hr_skills_event.md) -- HR Skills Event: onsite training resume lines
-- [Modules/hr_skills_survey](hr_skills_survey.md) -- HR Skills Survey: certification resume lines
+- [Modules/mail_bot](Modules/mail_bot.md) -- OdooBot core: AI assistant, slash commands, onboarding
+- [Modules/hr](Modules/HR.md) -- HR module: employee records, HR-modified user forms
+- [Modules/mail](Modules/mail.md) -- Messaging infrastructure: channels, messages, Discuss app
+- [Modules/hr_skills](Modules/hr_skills.md) -- HR Skills: resume lines, skills tracking
+- [Modules/hr_skills_event](Modules/hr_skills_event.md) -- HR Skills Event: onsite training resume lines
+- [Modules/hr_skills_survey](Modules/hr_skills_survey.md) -- HR Skills Survey: certification resume lines
 
 
 ## The Two-View Inheritance Pattern Explained

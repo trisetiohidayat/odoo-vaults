@@ -76,6 +76,6 @@ Grants portal users read-only access to `stock.move` for subcontracted repair or
 
 ## See Also
 
-- [Modules/MRP Subcontracting](mrp-subcontracting.md) (`mrp_subcontracting`) — subcontracting BoM support
-- [Modules/Repair](repair.md) (`repair`) — repair order management
-- [Modules/Portal](portal.md) (`portal`) — portal user access system
+- [Modules/MRP Subcontracting](Modules/mrp-subcontracting.md) (`mrp_subcontracting`) — subcontracting BoM support
+- [Modules/Repair](Modules/repair.md) (`repair`) — repair order management
+- [Modules/Portal](Modules/portal.md) (`portal`) — portal user access system

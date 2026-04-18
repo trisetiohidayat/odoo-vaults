@@ -38,4 +38,4 @@ Step 4: Repeat steps 1,2,3 for all GSTIN you have in odoo. If you have a multi-c
 - Custom model files: account_move.py, ir_attachment.py, res_company.py, res_config_settings.py, l10n_in_ewaybill.py, ewaybill_type.py, error_codes.py
 
 ## Related
-- [Modules/l10n_in](l10n_in.md) - Core accounting
+- [Modules/l10n_in](Modules/l10n_in.md) - Core accounting

@@ -15,7 +15,7 @@ tags: [odoo, odoo19, spreadsheet, dashboard, timesheet, hr_timesheet, project]
 | License | LGPL-3 |
 | Module type | Data-only (no Python models) |
 
-Provides a pre-configured [spreadsheet_dashboard](spreadsheet_dashboard.md) template for project managers and HR to visualize timesheet data — hours logged per employee, project, and task. Auto-installs whenever `hr_timesheet` is active. Places the "Project" dashboard in the Project dashboard group.
+Provides a pre-configured [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template for project managers and HR to visualize timesheet data — hours logged per employee, project, and task. Auto-installs whenever `hr_timesheet` is active. Places the "Project" dashboard in the Project dashboard group.
 
 ## Module Architecture
 
@@ -191,8 +191,8 @@ Since this dashboard shows all timesheet lines without filtering to billable tim
 
 ## Related Modules
 
-- [spreadsheet_dashboard](spreadsheet_dashboard.md) — Dashboard framework
-- [spreadsheet_dashboard_sale_timesheet](spreadsheet_dashboard_sale_timesheet.md) — Extends timesheet analytics with sale order billing
+- [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [spreadsheet_dashboard_sale_timesheet](Modules/spreadsheet_dashboard_sale_timesheet.md) — Extends timesheet analytics with sale order billing
 - `hr_timesheet` — Creates `account.analytic.line` for project time entries
 - `project` — `project.project` and `project.task` models
 

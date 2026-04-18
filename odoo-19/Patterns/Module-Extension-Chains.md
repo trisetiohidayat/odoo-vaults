@@ -3,14 +3,14 @@ title: "Odoo 19 Module Extension Chains"
 type: patterns
 tags: [odoo, odoo19, architecture, inheritance, extension-modules]
 related:
-  - "[[Core/BaseModel]]"
-  - "[[Patterns/Inheritance Patterns]]"
-  - "[[Modules/Stock]]"
-  - "[[Modules/Sale]]"
-  - "[[Modules/Purchase]]"
-  - "[[Modules/MRP]]"
-  - "[[Modules/Account]]"
-  - "[[Modules/Project]]"
+  - "[Core/BaseModel](../Core/BaseModel.md)"
+  - "[Patterns/Inheritance Patterns](Inheritance Patterns.md)"
+  - "[Modules/Stock](../Modules/Stock.md)"
+  - "[Modules/Sale](../Modules/Sale.md)"
+  - "[Modules/Purchase](../Modules/Purchase.md)"
+  - "[Modules/MRP](../Modules/MRP.md)"
+  - "[Modules/Account](../Modules/Account.md)"
+  - "[Modules/Project](../Modules/Project.md)"
 created: 2026-04-14
 ---
 
@@ -1015,11 +1015,11 @@ Each layer adds a profitability section to the project update view. The stack is
 
 ## See Also
 
-- [[Core/BaseModel]] — ORM foundation and inheritance patterns
-- [[Patterns/Inheritance Patterns]] — detailed inheritance mechanics (_inherit vs _inherits vs mixin)
-- [[Modules/Stock]] — stock.quant, stock.move, stock.picking core models
-- [[Modules/Sale]] — sale.order, sale.order.line core models
-- [[Modules/Purchase]] — purchase.order, purchase.order.line core models
-- [[Modules/MRP]] — mrp.production, mrp.bom core models
-- [[Modules/Account]] — account.move, account.move.line core models
-- [[Modules/Project]] — project.project, project.task core models
+- [Core/BaseModel](../Core/BaseModel.md) — ORM foundation and inheritance patterns
+- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — detailed inheritance mechanics (_inherit vs _inherits vs mixin)
+- [Modules/Stock](../Modules/Stock.md) — stock.quant, stock.move, stock.picking core models
+- [Modules/Sale](../Modules/Sale.md) — sale.order, sale.order.line core models
+- [Modules/Purchase](../Modules/Purchase.md) — purchase.order, purchase.order.line core models
+- [Modules/MRP](../Modules/MRP.md) — mrp.production, mrp.bom core models
+- [Modules/Account](../Modules/Account.md) — account.move, account.move.line core models
+- [Modules/Project](../Modules/Project.md) — project.project, project.task core models

@@ -963,8 +963,8 @@ mrp.production.action_confirm()
 
 ## See Also
 
-- `[Modules/Stock](stock.md)` — stock.move, stock.picking, stock.quant structure
-- `[Core/API](API.md)` — @api.depends, @api.constrains decorators
-- `[Patterns/Workflow Patterns](Workflow Patterns.md)` — state machine design pattern
+- `[Modules/Stock](Modules/stock.md)` — stock.move, stock.picking, stock.quant structure
+- `[Core/API](Core/API.md)` — @api.depends, @api.constrains decorators
+- `[Patterns/Workflow Patterns](Patterns/Workflow Patterns.md)` — state machine design pattern
 - `addons/mrp/models/mrp_unbuild.py` — unbuild/disassembly orders
 - `addons/mrp/models/stock_move.py` — move confirmation and reservation logic

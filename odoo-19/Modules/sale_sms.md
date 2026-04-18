@@ -22,7 +22,7 @@ uuid: b2a1e3c4-5d6f-7890-abcd-ef1234567890
 
 ## What It Does
 
-`sale_sms` is a thin **bridge module** that links two independent subsystems -- the [Modules/Sale](Sale.md) order management subsystem and the [Modules/sms](sms.md) SMS notification subsystem -- without adding any Python model code of its own. It grants the `sales_team.group_sale_manager` group access to `sms.template` records scoped to `sale.order` and `res.partner` models, and registers a global record rule so sale managers can Create/Read/Write/Delete SMS templates that apply to the sales domain. The actual SMS sending logic (triggering sends on state transitions, rendering templates, calling the SMS gateway) lives entirely inside the `sms` module.
+`sale_sms` is a thin **bridge module** that links two independent subsystems -- the [Modules/Sale](Modules/Sale.md) order management subsystem and the [Modules/sms](Modules/sms.md) SMS notification subsystem -- without adding any Python model code of its own. It grants the `sales_team.group_sale_manager` group access to `sms.template` records scoped to `sale.order` and `res.partner` models, and registers a global record rule so sale managers can Create/Read/Write/Delete SMS templates that apply to the sales domain. The actual SMS sending logic (triggering sends on state transitions, rendering templates, calling the SMS gateway) lives entirely inside the `sms` module.
 
 ## Module Structure
 
@@ -155,11 +155,11 @@ The `sale.order` model itself is **not modified** by `sale_sms`. The `sale` modu
 
 ## Related
 
-- [Modules/Sale](Sale.md) -- `sale.order` model, state machine, action methods
-- [Modules/sale_management](sale_management.md) -- Quotation send, sale order template
-- [Modules/sms](sms.md) -- SMS template, composer, gateway dispatch, delivery tracking
-- [Modules/mail](mail.md) -- Email notification pattern (analogous to SMS)
-- [Modules/portal](portal.md) -- Customer portal for order tracking
+- [Modules/Sale](Modules/Sale.md) -- `sale.order` model, state machine, action methods
+- [Modules/sale_management](Modules/sale_management.md) -- Quotation send, sale order template
+- [Modules/sms](Modules/sms.md) -- SMS template, composer, gateway dispatch, delivery tracking
+- [Modules/mail](Modules/mail.md) -- Email notification pattern (analogous to SMS)
+- [Modules/portal](Modules/portal.md) -- Customer portal for order tracking
 
 ## Common Use Cases
 

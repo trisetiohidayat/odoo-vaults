@@ -356,9 +356,9 @@ This creates a **closed-loop attribution** from email campaign to revenue, allow
 
 ## Related Documentation
 
-- [Modules/Mass Mailing](mass-mailing.md) — base mass mailing module (`mailing.mailing`, `mailing.trace`)
-- [Modules/Sale](sale.md) — base sale module (`sale.order`, order states)
-- [Modules/Mass Mailing CRM](mass-mailing-crm.md) — CRM email marketing integration
-- [Modules/crm-sms](crm-sms.md) — CRM SMS integration
-- [Patterns/Security Patterns](Security Patterns.md) — ir.rule and access control
-- [Core/API](API.md) — `@api.depends`, computed fields, `sudo()`
+- [Modules/Mass Mailing](Modules/mass-mailing.md) — base mass mailing module (`mailing.mailing`, `mailing.trace`)
+- [Modules/Sale](Modules/sale.md) — base sale module (`sale.order`, order states)
+- [Modules/Mass Mailing CRM](Modules/mass-mailing-crm.md) — CRM email marketing integration
+- [Modules/crm-sms](Modules/crm-sms.md) — CRM SMS integration
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ir.rule and access control
+- [Core/API](Core/API.md) — `@api.depends`, computed fields, `sudo()`

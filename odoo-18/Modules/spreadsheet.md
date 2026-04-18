@@ -397,6 +397,6 @@ Client-side, the `o_spreadsheet` engine maintains a revision history:
 
 ## See Also
 
-- [Modules/Account](account.md) — `spreadsheet_dashboard_account` for accounting-specific dashboards
-- [Core/API](API.md) — `@api.constrains` used in `_check_spreadsheet_data`
-- [Web](web.md) — `o_spreadsheet` JavaScript engine architecture
+- [Modules/Account](Modules/account.md) — `spreadsheet_dashboard_account` for accounting-specific dashboards
+- [Core/API](Core/API.md) — `@api.constrains` used in `_check_spreadsheet_data`
+- [Web](Modules/web.md) — `o_spreadsheet` JavaScript engine architecture

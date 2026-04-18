@@ -11,12 +11,12 @@ Tags: #odoo18 #l10n #accounting
 Netherlands accounting localization. Provides Dutch chart of accounts, XBRL taxonomy tags, tax report, and company-specific rounding difference accounts for Dutch GAAP compliance. Authored by Onestein.
 
 ## Country
-[Netherlands](account.md) 🇳🇱
+[Netherlands](Modules/account.md) 🇳🇱
 
 ## Dependencies
 - base_iban
 - base_vat
-- [account](BaseModel.md)
+- [account](Core/BaseModel.md)
 
 ## Key Models
 

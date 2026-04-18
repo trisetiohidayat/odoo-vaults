@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, hr-work-entry-contract]
 
 
 
-- [Modules/hr](hr.md) — Human resources base
+- [Modules/hr](Modules/hr.md) — Human resources base

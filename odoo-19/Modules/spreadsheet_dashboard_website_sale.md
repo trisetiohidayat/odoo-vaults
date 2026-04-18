@@ -15,7 +15,7 @@ tags: [odoo, odoo19, spreadsheet, dashboard, ecommerce, website-sale, online-sho
 | License | LGPL-3 |
 | Module type | Data-only (no Python models) |
 
-Provides a pre-configured [spreadsheet_dashboard](spreadsheet_dashboard.md) template named "eCommerce" for online shop managers. Tracks online sales performance, product popularity, and channel attribution within the Website dashboard group. Auto-installs when `website_sale` is active.
+Provides a pre-configured [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template named "eCommerce" for online shop managers. Tracks online sales performance, product popularity, and channel attribution within the Website dashboard group. Auto-installs when `website_sale` is active.
 
 ## Module Architecture
 
@@ -229,10 +229,10 @@ spreadsheet_dashboard_website_sale
 
 ## Related Modules
 
-- [spreadsheet_dashboard](spreadsheet_dashboard.md) — Dashboard framework
-- [spreadsheet_dashboard_sale](spreadsheet_dashboard_sale.md) — Offline sales analytics (same data, different filter)
-- [spreadsheet_dashboard_website_sale_slides](spreadsheet_dashboard_website_sale_slides.md) — eLearning analytics (same Website group)
-- [spreadsheet_account](spreadsheet_account.md) — Accounting formulas for financial integration
+- [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [spreadsheet_dashboard_sale](Modules/spreadsheet_dashboard_sale.md) — Offline sales analytics (same data, different filter)
+- [spreadsheet_dashboard_website_sale_slides](Modules/spreadsheet_dashboard_website_sale_slides.md) — eLearning analytics (same Website group)
+- [spreadsheet_account](Modules/spreadsheet_account.md) — Accounting formulas for financial integration
 - `website_sale` — eCommerce shop: `website_id` on orders, product publishing
 
 ## Source Files

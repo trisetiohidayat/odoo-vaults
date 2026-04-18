@@ -467,7 +467,7 @@ Add to the module's `__manifest__.py`:
 
 ## Related
 
-- [Modules/web](web.md) — Web framework (dependency)
-- [Modules/sale](sale.md) — Sales (uses onboarding for initial setup)
-- [Modules/stock](stock.md) — Inventory (uses onboarding)
-- [Modules/account](account.md) — Accounting (uses onboarding)
+- [Modules/web](Modules/web.md) — Web framework (dependency)
+- [Modules/sale](Modules/Sale.md) — Sales (uses onboarding for initial setup)
+- [Modules/stock](Modules/Stock.md) — Inventory (uses onboarding)
+- [Modules/account](Modules/Account.md) — Accounting (uses onboarding)

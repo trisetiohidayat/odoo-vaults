@@ -354,7 +354,7 @@ By mapping modules to Transifex projects, the module enables granular tracking o
 
 ## Related
 
-- [Core/API](Core/API.md) — API decorators: `@api.model`, `@api.depends`
-- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — How Odoo extends models
-- [Modules/web](web.md) — Web controller layer
-- [Modules/base](Base.md) — Base module: translations, languages
+- [Core/API](API.md) — API decorators: `@api.model`, `@api.depends`
+- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — How Odoo extends models
+- [Modules/web](Modules/web.md) — Web controller layer
+- [Modules/base](Modules/base.md) — Base module: translations, languages

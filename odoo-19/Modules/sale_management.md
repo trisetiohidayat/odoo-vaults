@@ -19,9 +19,9 @@ related_modules:
   - sale
   - digest
 see_also:
-  - "[Modules/sale](Sale.md)"
-  - "[Core/BaseModel](BaseModel.md)"
-  - "[Core/Fields](Fields.md)"
+  - "[Modules/sale](Modules/Sale.md)"
+  - "[Core/BaseModel](Core/BaseModel.md)"
+  - "[Core/Fields](Core/Fields.md)"
 ---
 
 # sale_management

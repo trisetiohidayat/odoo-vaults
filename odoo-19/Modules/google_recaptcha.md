@@ -365,7 +365,7 @@ Google provides aggregate accuracy data per action in the reCAPTCHA admin consol
 
 ## Related
 
-- [Modules/website](website.md) — Website builder with form protection
-- [Modules/web](web.md) — Web framework and HTTP pipeline
-- [Modules/auth_signup](auth_signup.md) — User registration (often protected by reCAPTCHA)
-- [Modules/website_crm](website_crm.md) — Website lead capture forms
+- [Modules/website](Modules/website.md) — Website builder with form protection
+- [Modules/web](Modules/web.md) — Web framework and HTTP pipeline
+- [Modules/auth_signup](Modules/auth_signup.md) — User registration (often protected by reCAPTCHA)
+- [Modules/website_crm](Modules/website_crm.md) — Website lead capture forms

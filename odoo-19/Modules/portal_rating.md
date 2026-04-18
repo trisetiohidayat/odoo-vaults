@@ -27,7 +27,7 @@ tags:
 
 ## Description
 
-The `portal_rating` module extends Odoo's [Modules/portal](portal.md) with **customer rating capabilities** — allowing portal users (customers) to view, submit, and interact with ratings from the customer-facing interface. Ratings are displayed within the portal's chatter widget on records such as helpdesk tickets, project tasks, or any model that mixes in `rating.rating`.
+The `portal_rating` module extends Odoo's [Modules/portal](Modules/portal.md) with **customer rating capabilities** — allowing portal users (customers) to view, submit, and interact with ratings from the customer-facing interface. Ratings are displayed within the portal's chatter widget on records such as helpdesk tickets, project tasks, or any model that mixes in `rating.rating`.
 
 The module works by:
 - Extending `rating.rating` with **publisher comment** fields (allowing business users to respond to ratings)
@@ -432,8 +432,8 @@ This helps customers gauge service quality from other customers' experiences.
 
 ## Related
 
-- [Modules/rating](rating.md) — Core rating framework (parent rating, rating mixin, statistics)
-- [Modules/portal](portal.md) — Customer portal access (chatter, message formatting)
-- [Modules/mail](mail.md) — Message and thread system
-- [Modules/helpdesk](helpdesk.md) — Helpdesk module (uses portal ratings extensively)
-- [Modules/project](project.md) — Project management (uses ratings for task completion)
+- [Modules/rating](Modules/rating.md) — Core rating framework (parent rating, rating mixin, statistics)
+- [Modules/portal](Modules/portal.md) — Customer portal access (chatter, message formatting)
+- [Modules/mail](Modules/mail.md) — Message and thread system
+- [Modules/helpdesk](Modules/helpdesk.md) — Helpdesk module (uses portal ratings extensively)
+- [Modules/project](Modules/Project.md) — Project management (uses ratings for task completion)

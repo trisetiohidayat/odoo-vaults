@@ -189,7 +189,7 @@ When goods are returned to vendor:
 
 ## See Also
 
-- [Modules/stock](stock.md) — Full stock module reference
-- [Modules/purchase](purchase.md) — Purchase order workflow
-- [Modules/account](account.md) — Vendor bill matching
+- [Modules/stock](Modules/stock.md) — Full stock module reference
+- [Modules/purchase](Modules/purchase.md) — Purchase order workflow
+- [Modules/account](Modules/account.md) — Vendor bill matching
 - [Flows/Stock/delivery-flow](Flows/Stock/delivery-flow.md) — Outgoing delivery flow

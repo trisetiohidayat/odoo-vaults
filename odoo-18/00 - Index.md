@@ -28,44 +28,44 @@ Knowledge graph untuk codebase **Odoo 18** — memetakan struktur, relasi, dan a
 ## Quick Navigation
 
 ### Core Framework
-- [Core/BaseModel](BaseModel.md) — ORM foundation
-- [Core/Fields](Fields.md) — Field types
-- [Core/API](API.md) — Decorators & method chains
-- [Core/HTTP Controller](HTTP Controller.md) — Web controllers
-- [Core/Exceptions](Exceptions.md) — Error handling
+- [Core/BaseModel](Core/BaseModel.md) — ORM foundation
+- [Core/Fields](Core/Fields.md) — Field types
+- [Core/API](Core/API.md) — Decorators & method chains
+- [Core/HTTP Controller](Core/HTTP Controller.md) — Web controllers
+- [Core/Exceptions](Core/Exceptions.md) — Error handling
 
 ### Business Modules
-- [Modules/Sale](sale.md) — Sales
-- [Modules/Purchase](purchase.md) — Purchasing
-- [Modules/Stock](stock.md) — Inventory
-- [Modules/Account](account.md) — Accounting
-- [Modules/CRM](CRM.md) — CRM
-- [Modules/MRP](mrp.md) — Manufacturing
-- [Modules/Product](product.md) — Products
-- [Modules/HR](hr.md) — Human Resources
-- [Modules/Project](project.md) — Project Management
+- [Modules/Sale](Modules/sale.md) — Sales
+- [Modules/Purchase](Modules/purchase.md) — Purchasing
+- [Modules/Stock](Modules/stock.md) — Inventory
+- [Modules/Account](Modules/account.md) — Accounting
+- [Modules/CRM](Modules/CRM.md) — CRM
+- [Modules/MRP](Modules/mrp.md) — Manufacturing
+- [Modules/Product](Modules/product.md) — Products
+- [Modules/HR](Modules/hr.md) — Human Resources
+- [Modules/Project](Modules/project.md) — Project Management
 - [Modules/POS](Modules/pos.md) — Point of Sale
-- [Modules/Helpdesk](helpdesk.md) — Helpdesk
+- [Modules/Helpdesk](Modules/helpdesk.md) — Helpdesk
 - [Modules/res.partner](Modules/res.partner.md) — Partners
 
 ---
 
 ## Patterns & Development
-- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — _inherit vs _inherits vs mixin
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine + branching decision trees
-- [Patterns/Security Patterns](Security Patterns.md) — ACL CSV, ir.rule, field groups
-- [Tools/Modules Inventory](Modules Inventory.md) — 304 modules catalog
-- [Tools/ORM Operations](ORM Operations.md) — search(), browse(), create(), write(), domain operators
-- [Snippets/Model Snippets](Model Snippets.md) — Copy-paste code templates
-- [Snippets/Controller Snippets](Controller Snippets.md) — HTTP route handlers
-- [Snippets/method-chain-example](method-chain-example.md) — Method chain notation reference
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — _inherit vs _inherits vs mixin
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine + branching decision trees
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, ir.rule, field groups
+- [Tools/Modules Inventory](Tools/Modules Inventory.md) — 304 modules catalog
+- [Tools/ORM Operations](Tools/ORM Operations.md) — search(), browse(), create(), write(), domain operators
+- [Snippets/Model Snippets](Snippets/Model Snippets.md) — Copy-paste code templates
+- [Snippets/Controller Snippets](Snippets/Controller Snippets.md) — HTTP route handlers
+- [Snippets/method-chain-example](Snippets/method-chain-example.md) — Method chain notation reference
 
 ---
 
 ## New in Odoo 18
-- [New Features/What's New](What's New.md) — What's new in Odoo 18
-- [New Features/API Changes](API Changes.md) — API changes from v17
-- [New Features/New Modules](New Modules.md) — New modules in v18
+- [New Features/What's New](New Features/What's New.md) — What's new in Odoo 18
+- [New Features/API Changes](New Features/API Changes.md) — API changes from v17
+- [New Features/New Modules](New Features/New Modules.md) — New modules in v18
 
 ---
 
@@ -82,7 +82,7 @@ Knowledge graph untuk codebase **Odoo 18** — memetakan struktur, relasi, dan a
 | **TOTAL** | **64/606** | **10.5%** |
 
 - [Documentation/Checkpoints/](Documentation/Checkpoints/.md) — Progress tracking
-- [Research-Log/backlog](backlog.md) — Pending gaps
+- [Research-Log/backlog](Research-Log/backlog.md) — Pending gaps
 
 ---
 

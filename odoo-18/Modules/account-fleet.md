@@ -14,7 +14,7 @@ Tags: #odoo18, #fleet, #accounting, #integration
 **Auto-install:** Yes
 **License:** LGPL-3
 
-The `account_fleet` module bridges the [Modules/Fleet](fleet.md) and [Core/Account](account.md) modules. It enables vendor bills (purchase invoices) to be linked to specific vehicles, automatically creates service log entries from bill lines, and provides a "Bills" button on the vehicle form for direct access to all accounting documents related to a vehicle.
+The `account_fleet` module bridges the [Modules/Fleet](Modules/fleet.md) and [Core/Account](Modules/account.md) modules. It enables vendor bills (purchase invoices) to be linked to specific vehicles, automatically creates service log entries from bill lines, and provides a "Bills" button on the vehicle form for direct access to all accounting documents related to a vehicle.
 
 This is a **pure integration module** — it contains no standalone business logic. All models it defines or extends are thin bridges.
 

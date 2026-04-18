@@ -223,10 +223,10 @@ The module maintains a clean separation between two fulfillment models: external
 
 ## Related
 
-- [Modules/sale_gelato](sale_gelato.md) — Gelato API integration: order submission, product sync
-- [Modules/sale_stock](sale_stock.md) — Stock procurement from sales orders
-- [Modules/sale](Sale.md) — Sales order and order line models
-- [Modules/stock](Stock.md) — Stock moves, pickings, and warehouse management
+- [Modules/sale_gelato](Modules/sale_gelato.md) — Gelato API integration: order submission, product sync
+- [Modules/sale_stock](Modules/sale_stock.md) — Stock procurement from sales orders
+- [Modules/sale](Modules/Sale.md) — Sales order and order line models
+- [Modules/stock](Modules/Stock.md) — Stock moves, pickings, and warehouse management
 
 ## Real-World Scenarios
 
@@ -294,7 +294,7 @@ Gelato fulfillment is most similar to dropshipping in its Odoo stock impact, but
 
 ## Related
 
-- [Modules/sale_gelato](sale_gelato.md) — Gelato API integration: product sync, order submission, tracking
-- [Modules/sale_stock](sale_stock.md) — Standard stock procurement from sales orders
+- [Modules/sale_gelato](Modules/sale_gelato.md) — Gelato API integration: product sync, order submission, tracking
+- [Modules/sale_stock](Modules/sale_stock.md) — Standard stock procurement from sales orders
 - [Modules/sale_dropshipping](sale_dropshipping.md) — Dropship fulfillment route
-- [Modules/sale](Sale.md) — Sales order and order line models
+- [Modules/sale](Modules/Sale.md) — Sales order and order line models

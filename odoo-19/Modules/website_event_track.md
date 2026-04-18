@@ -733,12 +733,12 @@ The `website_event_track` module had the following notable changes between Odoo 
 
 ## Related
 
-- [Modules/event](event.md) — Base event management
-- [Modules/website_event](website_event.md) — Event on website
-- [Modules/website_event_track_live](website_event_track_live.md) — Live streaming integration
-- [Modules/website_event_track_quiz](website_event_track_quiz.md) — Quiz during tracks
-- [Modules/website_event_track_live_quiz](website_event_track_live_quiz.md) — Combined live + quiz
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine patterns in Odoo
+- [Modules/event](Modules/event.md) — Base event management
+- [Modules/website_event](Modules/website_event.md) — Event on website
+- [Modules/website_event_track_live](Modules/website_event_track_live.md) — Live streaming integration
+- [Modules/website_event_track_quiz](Modules/website_event_track_quiz.md) — Quiz during tracks
+- [Modules/website_event_track_live_quiz](Modules/website_event_track_live_quiz.md) — Combined live + quiz
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns in Odoo
 
 ---
 

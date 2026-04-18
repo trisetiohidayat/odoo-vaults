@@ -85,5 +85,5 @@ Verifies if a picking can be safely inserted into the batch without violating au
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

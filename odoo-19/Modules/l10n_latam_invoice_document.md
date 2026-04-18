@@ -374,6 +374,6 @@ def _get_l10n_latam_documents_domain(self):
 
 ## Related
 
-- [Modules/Account](Account.md) - Core accounting module
-- [Modules/l10n_latam_check](l10n_latam_check.md) - LATAM check management
-- [Patterns/Workflow Patterns](Workflow Patterns.md) - State machine patterns
+- [Modules/Account](Modules/Account.md) - Core accounting module
+- [Modules/l10n_latam_check](Modules/l10n_latam_check.md) - LATAM check management
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) - State machine patterns

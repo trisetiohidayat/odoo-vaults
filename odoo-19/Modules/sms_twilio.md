@@ -176,5 +176,5 @@ Update the SMS tracker with the Twilio Status and Error code/msg
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

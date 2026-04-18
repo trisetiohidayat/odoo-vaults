@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #argentina #ecommerce
 # l10n_ar_website_sale — Argentine eCommerce Bridge
 
 ## Overview
-Bridge module for [Modules/l10n_ar](l10n_ar.md) and `website_sale`. Exposes AFIP Responsibility Type and Identification Type fields in the eCommerce checkout form so Argentine customers can specify their fiscal condition during online purchases.
+Bridge module for [Modules/l10n_ar](Modules/l10n_ar.md) and `website_sale`. Exposes AFIP Responsibility Type and Identification Type fields in the eCommerce checkout form so Argentine customers can specify their fiscal condition during online purchases.
 
 ## Country/Region
 Argentina (AR)

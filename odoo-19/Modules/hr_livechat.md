@@ -22,7 +22,7 @@ uuid: f6a7b8c9-0d1e-2345-efab-123456789bcd
 
 ## What It Does
 
-`hr_livechat` is a bridge module that connects the [Modules/im_livechat](im_livechat.md) live chat system with the [Modules/HR](HR.md) employee management module. It does not add any Python model code. Instead, it extends three search view XML definitions to add a **"My Team" filter** to each view. This filter allows HR managers and team leaders to narrow the livechat session list to show only sessions handled by employees who are members of their department -- enabling team-level performance reporting on livechat activity without exposing all employees' livechat statistics.
+`hr_livechat` is a bridge module that connects the [Modules/im_livechat](Modules/im_livechat.md) live chat system with the [Modules/HR](Modules/HR.md) employee management module. It does not add any Python model code. Instead, it extends three search view XML definitions to add a **"My Team" filter** to each view. This filter allows HR managers and team leaders to narrow the livechat session list to show only sessions handled by employees who are members of their department -- enabling team-level performance reporting on livechat activity without exposing all employees' livechat statistics.
 
 The module is `auto_install: True`. When a database has both `hr` and `im_livechat` installed but not `hr_livechat`, Odoo automatically installs it to provide the team-scoped filtering capability.
 
@@ -249,8 +249,8 @@ The `im_livechat` module itself provides a separate integration: **livechat chan
 
 ## Related
 
-- [Modules/im_livechat](im_livechat.md) -- Livechat channel model, chatbot scripts, operator routing, session history
-- [Modules/HR](HR.md) -- `hr.employee`, `hr.department`, `member_of_department` computed field
-- [Modules/mail](mail.md) -- `discuss.channel`, `discuss.channel.member`, messaging system
-- [Modules/hr_org_chart](hr_org_chart.md) -- Organizational chart for department hierarchy visualization
+- [Modules/im_livechat](Modules/im_livechat.md) -- Livechat channel model, chatbot scripts, operator routing, session history
+- [Modules/HR](Modules/HR.md) -- `hr.employee`, `hr.department`, `member_of_department` computed field
+- [Modules/mail](Modules/mail.md) -- `discuss.channel`, `discuss.channel.member`, messaging system
+- [Modules/hr_org_chart](Modules/hr_org_chart.md) -- Organizational chart for department hierarchy visualization
 - [Modules/report_mail_channel](report_mail_channel.md) -- Mail/livechat channel statistics and reporting

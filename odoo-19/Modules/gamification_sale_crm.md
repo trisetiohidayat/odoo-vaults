@@ -39,8 +39,8 @@ gamification_sale_crm
 ### Module Philosophy
 
 gamification_sale_crm bridges two worlds:
-1. **[Modules/gamification](gamification.md)** — provides the goal/challenge/badge engine (scheduled goals, ranking, reporting, rewards)
-2. **[Modules/CRM](CRM.md) + [Modules/Sale](Sale.md) + [Modules/Account](Account.md)** — provide the source-of-truth business records (leads, orders, invoices)
+1. **[Modules/gamification](Modules/gamification.md)** — provides the goal/challenge/badge engine (scheduled goals, ranking, reporting, rewards)
+2. **[Modules/CRM](Modules/CRM.md) + [Modules/Sale](Modules/Sale.md) + [Modules/Account](Modules/Account.md)** — provide the source-of-truth business records (leads, orders, invoices)
 
 Without gamification_sale_crm, the gamification framework has no CRM-specific KPIs to score. Without gamification, sale_crm has no motivation layer.
 
@@ -555,10 +555,10 @@ The module's performance impact is dominated by the `account.invoice.report` vie
 
 ## See Also
 
-- [Modules/gamification](gamification.md) — Base gamification framework (challenges, goals, badges, karma)
-- [Modules/crm](CRM.md) — `crm.lead` model and pipeline management
-- [Modules/Sale](Sale.md) — `sale.order` confirmation flow
-- [Modules/Account](Account.md) — `account.move` and invoice reporting
-- [Modules/sale_crm](sale_crm.md) — Links sale orders to CRM leads/opportunities
-- [Modules/gamification](gamification.md) — HR-specific gamification goals
-- [Modules/gamification](gamification.md) — Gamification overview module
+- [Modules/gamification](Modules/gamification.md) — Base gamification framework (challenges, goals, badges, karma)
+- [Modules/crm](Modules/CRM.md) — `crm.lead` model and pipeline management
+- [Modules/Sale](Modules/Sale.md) — `sale.order` confirmation flow
+- [Modules/Account](Modules/Account.md) — `account.move` and invoice reporting
+- [Modules/sale_crm](Modules/sale_crm.md) — Links sale orders to CRM leads/opportunities
+- [Modules/gamification](Modules/gamification.md) — HR-specific gamification goals
+- [Modules/gamification](Modules/gamification.md) — Gamification overview module

@@ -27,7 +27,7 @@ Inherits `account.chart.template`. Template prefix: `'ml'`. Provides `_get_ml_sy
 - `demo/demo_company.xml` — Mali demo company
 
 ## Chart of Accounts
-SYSCOHADA. See [Modules/l10n_bf](l10n_bf.md).
+SYSCOHADA. See [Modules/l10n_bf](Modules/l10n_bf.md).
 
 ## Tax Structure
 TVA at 18% standard rate (WAEMU harmonized rate). Mali uses OHADA/SYSCOHADA accounting and WAEMU common tax framework.

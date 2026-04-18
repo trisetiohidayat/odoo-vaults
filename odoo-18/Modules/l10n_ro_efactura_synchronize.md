@@ -11,10 +11,10 @@ Tags: #odoo18 #l10n #accounting #edi
 Romania E-Factura SPV (Sistemul de Facturare Electronică) synchronization module. Extends `l10n_ro_edi` (CIUS-RO EDI) to automatically fetch invoice status from ANAF (Autoritatea Națională de Administrare Fiscală) and import received vendor bills. Runs as a daily CRON job. B2G mandatory as of 2024.
 
 ## Country
-[Romania](account.md) 🇷🇴
+[Romania](Modules/account.md) 🇷🇴
 
 ## Dependencies
-- [l10n_ro](l10n_ro.md) (via `l10n_ro_edi`)
+- [l10n_ro](Modules/l10n_ro.md) (via `l10n_ro_edi`)
 
 ## Key Models
 
@@ -54,13 +54,13 @@ Romania E-Factura SPV (Sistemul de Facturare Electronică) synchronization modul
 - `views/res_config_settings.xml` — settings view for imported journal
 
 ## Chart of Accounts
-Inherits from [l10n_ro](l10n_ro.md).
+Inherits from [l10n_ro](Modules/l10n_ro.md).
 
 ## Tax Structure
-Inherits from [l10n_ro](l10n_ro.md).
+Inherits from [l10n_ro](Modules/l10n_ro.md).
 
 ## Fiscal Positions
-Inherits from [l10n_ro](l10n_ro.md).
+Inherits from [l10n_ro](Modules/l10n_ro.md).
 
 ## EDI/Fiscal Reporting
 Romanian e-Factura / SPV mandatory B2G invoice exchange with ANAF.

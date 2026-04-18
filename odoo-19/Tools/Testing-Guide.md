@@ -7,7 +7,7 @@ created: 2026-04-14
 
 # Testing Guide
 
-> **Prerequisite reading:** [[Core/BaseModel]] for model test setup, [[Core/API]] for API decorators, [[Patterns/Workflow Patterns]] for testing state transitions
+> **Prerequisite reading:** [Core/BaseModel](../Core/BaseModel.md) for model test setup, [Core/API](../Core/API.md) for API decorators, [Patterns/Workflow Patterns](../Patterns/Workflow Patterns.md) for testing state transitions
 
 ---
 
@@ -2102,9 +2102,9 @@ def test_external_api_call(self, mock_get):
 
 ## Related Links
 
-- [[Core/BaseModel]] — Model inheritance, CRUD operations
-- [[Core/API]] — API decorators, onchange, depends
-- [[Patterns/Workflow Patterns]] — State machine testing patterns
-- [[Tools/Debugging-Guide]] — Debugging test failures
-- [[Core/Fields]] — Field types for test assertions
-- [[Core/Exceptions]] — Exception types in test assertions
+- [Core/BaseModel](../Core/BaseModel.md) — Model inheritance, CRUD operations
+- [Core/API](../Core/API.md) — API decorators, onchange, depends
+- [Patterns/Workflow Patterns](../Patterns/Workflow Patterns.md) — State machine testing patterns
+- [Tools/Debugging-Guide](Debugging-Guide.md) — Debugging test failures
+- [Core/Fields](../Core/Fields.md) — Field types for test assertions
+- [Core/Exceptions](../Core/Exceptions.md) — Exception types in test assertions

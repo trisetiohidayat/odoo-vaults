@@ -11,7 +11,7 @@ Tags: #odoo18 #l10n #pos
 Swiss Point of Sale localization. Extends `point_of_sale` and `l10n_ch` to handle Swiss-specific bank partner requirements in POS. Specifically, for Swiss POS orders, the partner bank account (required for QR payment/BIC IBAN) is only set when the payment method is not "Pay Later" — cash/card payments should not trigger the bank partner requirement.
 
 ## Country
-[Switzerland](account.md) 🇨🇭 (non-EU)
+[Switzerland](Modules/account.md) 🇨🇭 (non-EU)
 
 ## Dependencies
 - l10n_ch
@@ -27,13 +27,13 @@ Swiss Point of Sale localization. Extends `point_of_sale` and `l10n_ch` to handl
 No data files.
 
 ## Chart of Accounts
-Inherits from [l10n_ch](account.md) (Swiss chart).
+Inherits from [l10n_ch](Modules/account.md) (Swiss chart).
 
 ## Tax Structure
-Inherits from [l10n_ch](account.md) (Swiss VAT: 8.1% standard, 2.6% reduced, 0% exlude).
+Inherits from [l10n_ch](Modules/account.md) (Swiss VAT: 8.1% standard, 2.6% reduced, 0% exlude).
 
 ## Fiscal Positions
-Inherits from [l10n_ch](account.md).
+Inherits from [l10n_ch](Modules/account.md).
 
 ## EDI/Fiscal Reporting
 Swiss QR-bill / ESR payment references handled by `l10n_ch`.

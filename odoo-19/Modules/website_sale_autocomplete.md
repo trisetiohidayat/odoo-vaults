@@ -837,8 +837,8 @@ def test_autocomplete(self):
 
 ## Related
 
-- [Modules/website_sale](website_sale.md) — E-commerce checkout and address form
-- [Modules/google_address_autocomplete](google_address_autocomplete.md) — Base Google address autocomplete module (`googlePlacesSession`, `AutoCompleteController`, `FIELDS_MAPPING`, session token handling)
-- [Modules/partner_autocomplete](partner_autocomplete.md) — Partner contact auto-fill using different providers (not Google)
-- [Modules/base_geolocalize](base_geolocalize.md) — Geocoding from partner address
-- [Modules/website_sale_delivery](website_sale_delivery.md) — Delivery method selection (depends on correct country/state being set by autocomplete)
+- [Modules/website_sale](Modules/website_sale.md) — E-commerce checkout and address form
+- [Modules/google_address_autocomplete](Modules/google_address_autocomplete.md) — Base Google address autocomplete module (`googlePlacesSession`, `AutoCompleteController`, `FIELDS_MAPPING`, session token handling)
+- [Modules/partner_autocomplete](Modules/partner_autocomplete.md) — Partner contact auto-fill using different providers (not Google)
+- [Modules/base_geolocalize](Modules/base_geolocalize.md) — Geocoding from partner address
+- [Modules/website_sale_delivery](Modules/website_sale_delivery.md) — Delivery method selection (depends on correct country/state being set by autocomplete)

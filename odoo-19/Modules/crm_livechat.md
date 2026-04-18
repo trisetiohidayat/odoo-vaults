@@ -136,5 +136,5 @@ Create a lead from channel /lead command
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/CRM]]
+- [Modules/Base](base.md)
+- [Modules/CRM](CRM.md)

@@ -70,5 +70,5 @@ Override of `payment` to return Iyzico specific rendering values.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

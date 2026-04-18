@@ -219,7 +219,7 @@ File changes trigger registry reload without full restart.
 ## Relasi dengan Konsep Lain
 
 - [module-loading-sequence](module-loading-sequence.md) — load_modules() detail (STEP 1-6)
-- [server-wide-modules](server-wide-modules.md) — server_wide_modules = ['base', 'rpc', 'web']
+- [server-wide-modules](Core/Server-Wide-Modules.md) — server_wide_modules = ['base', 'rpc', 'web']
 - [odoo-minimal-installation](odoo-minimal-installation.md) — 14 modules loaded in minimal vs ~300 in full
 - [ir-module-module-deep-dive](ir-module-module-deep-dive.md) — Registry.new() creates module records
-- [manifest-schema](manifest-schema.md) — bootstrap=True loads translations before login
+- [manifest-schema](Snippets/Manifest-Schema.md) — bootstrap=True loads translations before login

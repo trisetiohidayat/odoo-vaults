@@ -63,5 +63,5 @@ Module `project_purchase_stock` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Project]]
+- [Modules/Base](base.md)
+- [Modules/Project](Project.md)

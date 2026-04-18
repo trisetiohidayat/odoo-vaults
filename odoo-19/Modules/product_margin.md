@@ -59,5 +59,5 @@ Inherit _read_group to calculate the sum of the non-stored fields, as it is not 
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

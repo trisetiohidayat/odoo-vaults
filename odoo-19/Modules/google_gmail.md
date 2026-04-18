@@ -431,8 +431,8 @@ Tokens are refreshed proactively: when `access_token_expiration - 10 seconds < c
 
 ## Related
 
-- [Modules/mail](mail.md) — Core email and messaging framework
-- [Modules/fetchmail](fetchmail.md) — Incoming mail server configuration
+- [Modules/mail](Modules/mail.md) — Core email and messaging framework
+- [Modules/fetchmail](Modules/fetchmail.md) — Incoming mail server configuration
 - [Modules/mail_mail](mail_mail.md) — Outgoing mail server configuration
-- [Modules/google_calendar](google_calendar.md) — Google Calendar OAuth2 integration
-- [Modules/microsoft_outlook](microsoft_outlook.md) — Outlook OAuth2 for mail
+- [Modules/google_calendar](Modules/google_calendar.md) — Google Calendar OAuth2 integration
+- [Modules/microsoft_outlook](Modules/microsoft_outlook.md) — Outlook OAuth2 for mail

@@ -35,4 +35,4 @@ Updated for Odoo 9 by Bringsvor Consulting AS <www.bringsvor.com>
 - Custom model files: template_no.py, account_tax.py, account_move.py, account_journal.py, res_company.py, res_partner.py
 
 ## Related
-- [Modules/l10n_no](l10n_no.md) - Core accounting
+- [Modules/l10n_no](Modules/l10n_no.md) - Core accounting

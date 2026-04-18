@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #argentina #pos
 # l10n_ar_pos — Argentine Point of Sale with AR Document
 
 ## Overview
-Bridge module that adds Argentine-specific requirements to the Point of Sale application. Depends on [Modules/l10n_ar](l10n_ar.md) and `point_of_sale`. Extends the POS session to load Argentine-specific reference data and partner records for the POS interface.
+Bridge module that adds Argentine-specific requirements to the Point of Sale application. Depends on [Modules/l10n_ar](Modules/l10n_ar.md) and `point_of_sale`. Extends the POS session to load Argentine-specific reference data and partner records for the POS interface.
 
 ## Country/Region
 Argentina (AR)

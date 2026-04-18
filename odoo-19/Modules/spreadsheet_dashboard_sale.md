@@ -15,7 +15,7 @@ tags: [odoo, odoo19, spreadsheet, dashboard, sales, sale-order, crm]
 | License | LGPL-3 |
 | Module type | Data-only (no Python models) |
 
-Provides two pre-configured [spreadsheet_dashboard](spreadsheet_dashboard.md) templates for sales managers: a **Sales** dashboard focused on revenue and orders, and a **Product** dashboard focused on product performance analytics. Auto-installs when the `sale` module is active.
+Provides two pre-configured [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) templates for sales managers: a **Sales** dashboard focused on revenue and orders, and a **Product** dashboard focused on product performance analytics. Auto-installs when the `sale` module is active.
 
 This is the most broadly relevant spreadsheet dashboard in the suite — virtually every Odoo installation with sales capabilities will have it.
 
@@ -274,10 +274,10 @@ spreadsheet_dashboard_sale
 
 ## Related Modules
 
-- [spreadsheet_dashboard](spreadsheet_dashboard.md) — Dashboard framework
-- [spreadsheet_account](spreadsheet_account.md) — Accounting formulas for financial integration
-- [spreadsheet_dashboard_sale_timesheet](spreadsheet_dashboard_sale_timesheet.md) — Timesheet-billed sales analytics
-- [spreadsheet_dashboard_website_sale](spreadsheet_dashboard_website_sale.md) — eCommerce channel analytics
+- [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [spreadsheet_account](Modules/spreadsheet_account.md) — Accounting formulas for financial integration
+- [spreadsheet_dashboard_sale_timesheet](Modules/spreadsheet_dashboard_sale_timesheet.md) — Timesheet-billed sales analytics
+- [spreadsheet_dashboard_website_sale](Modules/spreadsheet_dashboard_website_sale.md) — eCommerce channel analytics
 
 ## Source Files
 

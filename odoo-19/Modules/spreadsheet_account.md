@@ -77,5 +77,5 @@ Fetch data for ODOO.CREDIT, ODOO.DEBIT and ODOO.BALANCE formulas
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

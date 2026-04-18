@@ -50,5 +50,5 @@ Captures the payment identified by paymentIntentId.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

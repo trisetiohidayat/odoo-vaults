@@ -50,5 +50,5 @@ Module `social_media` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

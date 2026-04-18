@@ -468,8 +468,8 @@ reset_payment_provider(env, 'paypal')  # Removes/demotes provider
 
 ## See Also
 
-- [Modules/payment](payment.md) — Base payment module
+- [Modules/payment](Modules/payment.md) — Base payment module
 - [Modules/payment_stripe](Modules/payment_stripe.md) — Stripe provider for comparison
 - [Modules/payment_adyen](Modules/payment_adyen.md) — Adyen provider for comparison
-- [Core/API](API.md) — Idempotency key pattern
-- [Patterns/Security Patterns](Security Patterns.md) — Field groups for credentials
+- [Core/API](Core/API.md) — Idempotency key pattern
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — Field groups for credentials

@@ -43,5 +43,5 @@ Module `sale_stock_product_expiry` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Sale]]
+- [Modules/Base](base.md)
+- [Modules/Sale](Sale.md)

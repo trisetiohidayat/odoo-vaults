@@ -732,11 +732,11 @@ def setUpClass(cls):
 
 ## Related
 
-- [Modules/Product](Product.md) — products reference `uom_id` and `uom_po_id` from `uom.uom`
-- [Modules/Stock](Stock.md) — `stock.move` uses `_compute_quantity()` to convert between sale/inventory/purchase UoMs
-- [Modules/Sale](Sale.md) — `sale.order.line` uses `product_uom` on lines
-- [Modules/Purchase](Purchase.md) — `purchase.order.line` uses `product_uom` on lines
-- [Modules/MRP](MRP.md) — work orders track duration in Hours UoM
-- [Modules/Account](Account.md) — invoice lines use product UoM for quantity
-- [Core/API](API.md) — `@api.depends`, `@api.onchange`, `@api.constrains` decorators used in uom_uom.py
-- [Core/Fields](Fields.md) — field types used: Char, Integer, Float, Boolean, Many2one, One2many, Char (parent_path)
+- [Modules/Product](Modules/Product.md) — products reference `uom_id` and `uom_po_id` from `uom.uom`
+- [Modules/Stock](Modules/Stock.md) — `stock.move` uses `_compute_quantity()` to convert between sale/inventory/purchase UoMs
+- [Modules/Sale](Modules/Sale.md) — `sale.order.line` uses `product_uom` on lines
+- [Modules/Purchase](Modules/Purchase.md) — `purchase.order.line` uses `product_uom` on lines
+- [Modules/MRP](Modules/MRP.md) — work orders track duration in Hours UoM
+- [Modules/Account](Modules/Account.md) — invoice lines use product UoM for quantity
+- [Core/API](Core/API.md) — `@api.depends`, `@api.onchange`, `@api.constrains` decorators used in uom_uom.py
+- [Core/Fields](Core/Fields.md) — field types used: Char, Integer, Float, Boolean, Many2one, One2many, Char (parent_path)

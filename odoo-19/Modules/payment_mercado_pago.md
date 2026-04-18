@@ -93,5 +93,5 @@ Override of `payment` to return Mercado Pago-specific rendering values.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

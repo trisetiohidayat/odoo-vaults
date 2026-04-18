@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, sale-pdf-quote-builder]
 
 
 
-- [Modules/sale](sale.md) — Sales base module
+- [Modules/sale](Modules/sale.md) — Sales base module

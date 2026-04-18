@@ -32,6 +32,6 @@ Documentation in progress — will be populated as modules are researched.
 ---
 
 ## Related Links
-- [New Features/What's New](What's New.md) — Overview
-- [New Features/New Modules](New Modules.md) — New modules
-- [Core/API](API.md) — Current API reference
+- [New Features/What's New](New Features/What's New.md) — Overview
+- [New Features/New Modules](New Features/New Modules.md) — New modules
+- [Core/API](Core/API.md) — Current API reference

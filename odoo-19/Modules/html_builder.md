@@ -28,7 +28,7 @@ tags:
 
 ## Description
 
-The `html_builder` module is a **pure frontend infrastructure module** that extends the [Modules/html_editor](html_editor.md) with styles, templates, and rendering logic specifically needed in the **website builder** and **email template editor** contexts. It does not define any database models or business logic.
+The `html_builder` module is a **pure frontend infrastructure module** that extends the [Modules/html_editor](Modules/html_editor.md) with styles, templates, and rendering logic specifically needed in the **website builder** and **email template editor** contexts. It does not define any database models or business logic.
 
 In essence, `html_builder` acts as a **SCSS/CSS and template asset layer** that enriches the base HTML editor with:
 
@@ -274,8 +274,8 @@ The compiled CSS is served at a URL like `/web/assets/1234/html_builder.assets/w
 
 ## Related
 
-- [Modules/html_editor](html_editor.md) — Core rich text editor (the primary consumer)
-- [Modules/website](website.md) — Website builder (primary consumer of html_builder assets)
-- [Modules/mass_mailing](mass_mailing.md) — Email campaign editor (uses mail-compatible styles)
-- [Modules/web_unsplash](web_unsplash.md) — Unsplash image picker integration
-- [Core/Fields](Core/Fields.md) — HTML field type documentation
+- [Modules/html_editor](Modules/html_editor.md) — Core rich text editor (the primary consumer)
+- [Modules/website](Modules/website.md) — Website builder (primary consumer of html_builder assets)
+- [Modules/mass_mailing](Modules/mass_mailing.md) — Email campaign editor (uses mail-compatible styles)
+- [Modules/web_unsplash](Modules/web_unsplash.md) — Unsplash image picker integration
+- [Core/Fields](Fields.md) — HTML field type documentation

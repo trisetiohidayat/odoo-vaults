@@ -71,6 +71,6 @@ def _compute_something(self):
 ```
 
 ## See Also
-- [Core/BaseModel](BaseModel.md) — Full model reference
-- [Core/Fields](Fields.md) — Field parameters
-- [Tools/ORM Operations](ORM Operations.md) — Domain operators
+- [Core/BaseModel](Core/BaseModel.md) — Full model reference
+- [Core/Fields](Core/Fields.md) — Field parameters
+- [Tools/ORM Operations](Tools/ORM Operations.md) — Domain operators

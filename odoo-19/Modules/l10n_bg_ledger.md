@@ -38,4 +38,4 @@ Extends journal with Bulgaria-specific fields (VAT numbers, invoice type codes).
 Extends journal entry with Bulgaria-specific fields for VAT ledger reporting.
 
 ## Related
-- [Modules/l10n_bg](l10n_bg.md) — Core Bulgarian accounting chart
+- [Modules/l10n_bg](Modules/l10n_bg.md) — Core Bulgarian accounting chart

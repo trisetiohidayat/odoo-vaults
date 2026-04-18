@@ -25,7 +25,7 @@ uuid: b7e4d2a1-9c3f-4e8b-8d1c-5a2f6b8e0d3c
 **License:** LGPL-3
 **Author:** Odoo S.A.
 
-`hr_skills_event` bridges Odoo's [Modules/event](event.md) and [Modules/hr_skills](hr_skills.md) modules to automatically populate employee resumes with completed onsite training events. Where `hr_skills` provides the general resume framework (`hr.resume.line`, resume types, skill tracking), this module adds a specialized "Onsite" course type that links directly to `event.event` records.
+`hr_skills_event` bridges Odoo's [Modules/event](Modules/event.md) and [Modules/hr_skills](Modules/hr_skills.md) modules to automatically populate employee resumes with completed onsite training events. Where `hr_skills` provides the general resume framework (`hr.resume.line`, resume types, skill tracking), this module adds a specialized "Onsite" course type that links directly to `event.event` records.
 
 The core scenario it enables: when employees attend a multi-slot event (a multi-day training workshop, a conference, or an onsite seminar), the system can automatically create a resume line on each attendee's HR profile. This creates a complete training history without manual data entry.
 
@@ -170,10 +170,10 @@ The `course_type = 'onsite'` option is presented alongside the standard types in
 
 | Module | Role | Integration Point |
 |--------|------|-------------------|
-| [Modules/hr_skills](hr_skills.md) | Base resume model | `hr.resume.line` is the model being extended |
-| [Modules/event](event.md) | Event and registration models | `event.event` is the target of `event_id` |
-| [Modules/hr_skills_survey](hr_skills_survey.md) | Certification resume lines | Parallel bridge; certification + onsite are both resume categories |
-| [Modules/survey](survey.md) | Survey/certification | `hr_skills_survey` depends on survey; `hr_skills_event` does not |
+| [Modules/hr_skills](Modules/hr_skills.md) | Base resume model | `hr.resume.line` is the model being extended |
+| [Modules/event](Modules/event.md) | Event and registration models | `event.event` is the target of `event_id` |
+| [Modules/hr_skills_survey](Modules/hr_skills_survey.md) | Certification resume lines | Parallel bridge; certification + onsite are both resume categories |
+| [Modules/survey](Modules/survey.md) | Survey/certification | `hr_skills_survey` depends on survey; `hr_skills_event` does not |
 
 ## Security
 
@@ -196,10 +196,10 @@ Users need read access to `event.event` and `event.registration` to use the `eve
 
 ## Related
 
-- [Modules/hr_skills](hr_skills.md) -- Base resume framework, skill tracking, course types
-- [Modules/event](event.md) -- Event management, multi-slot events, registration
-- [Modules/hr_skills_survey](hr_skills_survey.md) -- Survey certification resume lines
-- [Modules/hr](hr.md) -- Employee master data, `partner_id.employee` flag
+- [Modules/hr_skills](Modules/hr_skills.md) -- Base resume framework, skill tracking, course types
+- [Modules/event](Modules/event.md) -- Event management, multi-slot events, registration
+- [Modules/hr_skills_survey](Modules/hr_skills_survey.md) -- Survey certification resume lines
+- [Modules/hr](Modules/HR.md) -- Employee master data, `partner_id.employee` flag
 
 
 ## Business Flow: Onsite Training to Resume

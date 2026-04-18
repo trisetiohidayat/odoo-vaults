@@ -376,8 +376,8 @@ _get_claimable_rewards(forced_coupons)
 
 ## Related
 
-- [Modules/sale_loyalty](sale_loyalty.md) -- Loyalty programs: rewards, coupons, points, e-wallets, gift cards
-- [Modules/delivery](delivery.md) -- Delivery carriers: shipping methods, pricing, rules
-- [Modules/loyalty](loyalty.md) -- Loyalty program definition: programs, rewards, cards, rules
-- [Modules/sale](sale.md) -- Sales order management
-- [Modules/website_sale_loyalty](website_sale_loyalty.md) -- E-commerce loyalty: loyalty points display on shop
+- [Modules/sale_loyalty](Modules/sale_loyalty.md) -- Loyalty programs: rewards, coupons, points, e-wallets, gift cards
+- [Modules/delivery](Modules/delivery.md) -- Delivery carriers: shipping methods, pricing, rules
+- [Modules/loyalty](Modules/loyalty.md) -- Loyalty program definition: programs, rewards, cards, rules
+- [Modules/sale](Modules/Sale.md) -- Sales order management
+- [Modules/website_sale_loyalty](Modules/website_sale_loyalty.md) -- E-commerce loyalty: loyalty points display on shop

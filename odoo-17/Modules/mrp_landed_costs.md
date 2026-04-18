@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, mrp-landed-costs]
 
 
 
-- [Modules/mrp](mrp.md) — Manufacturing base module
+- [Modules/mrp](Modules/mrp.md) — Manufacturing base module

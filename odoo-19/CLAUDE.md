@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Context
 
-This is an **Obsidian vault** containing structured documentation for the **Odoo 19** codebase. The notes are written in Obsidian Flavored Markdown with wikilinks (`[Modules/Stock](Stock.md)`) and frontmatter tags. The actual Odoo 19 source code lives at `~/odoo/odoo19/` — the vault maps, explains, and cross-links that codebase.
+This is an **Obsidian vault** containing structured documentation for the **Odoo 19** codebase. The notes are written in Obsidian Flavored Markdown with wikilinks (`[Modules/Stock](Modules/Stock.md)`) and frontmatter tags. The actual Odoo 19 source code lives at `~/odoo/odoo19/` — the vault maps, explains, and cross-links that codebase.
 
 **Vault location:** `~/odoo-vaults/odoo-19/`
 
@@ -68,7 +68,7 @@ Inventory valuation is tracked through `stock.quant` quantities at specific `sto
 ## Working with This Vault
 
 ### Wikilinks
-Use Obsidian wikilinks for cross-references: `[Modules/Stock](Stock.md)`, `[Core/API](API.md)`, `[Patterns/Security Patterns](Security Patterns.md)`. These link to markdown files in the vault — not to Python files in the codebase.
+Use Obsidian wikilinks for cross-references: `[Modules/Stock](Modules/Stock.md)`, `[Core/API](Core/API.md)`, `[Patterns/Security Patterns](Patterns/Security Patterns.md)`. These link to markdown files in the vault — not to Python files in the codebase.
 
 ### Code Locations
 When referencing Odoo source code, the canonical path pattern is:

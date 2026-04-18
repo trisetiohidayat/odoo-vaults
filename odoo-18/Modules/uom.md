@@ -141,7 +141,7 @@ qty_in_target = qty_in_reference / target_factor
 ---
 
 ## Related Links
-- [Modules/Product](product.md) — Product with UoM
-- [Modules/Stock](stock.md) — Stock move quantities
-- [Modules/Sale](sale.md) — Sales order line UoM
-- [Modules/Purchase](purchase.md) — Purchase order line UoM
+- [Modules/Product](Modules/product.md) — Product with UoM
+- [Modules/Stock](Modules/stock.md) — Stock move quantities
+- [Modules/Sale](Modules/sale.md) — Sales order line UoM
+- [Modules/Purchase](Modules/purchase.md) — Purchase order line UoM

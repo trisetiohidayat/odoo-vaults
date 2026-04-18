@@ -319,8 +319,8 @@ The template creates the element; the JS makes it interactive. Neither works wit
 
 ## Related
 
-- [Modules/website_sale_comparison](website_sale_comparison.md) -- Product comparison: comparison table, attribute rows, max products
-- [Modules/website_sale_wishlist](website_sale_wishlist.md) -- Wishlist: save products for later, share wishlist
-- [Modules/website_sale](website_sale.md) -- E-commerce core: product pages, cart, checkout
-- [Modules/sale](sale.md) -- Sales order management
-- [Modules/product](product.md) -- Product master: templates, variants, attributes
+- [Modules/website_sale_comparison](Modules/website_sale_comparison.md) -- Product comparison: comparison table, attribute rows, max products
+- [Modules/website_sale_wishlist](Modules/website_sale_wishlist.md) -- Wishlist: save products for later, share wishlist
+- [Modules/website_sale](Modules/website_sale.md) -- E-commerce core: product pages, cart, checkout
+- [Modules/sale](Modules/Sale.md) -- Sales order management
+- [Modules/product](Modules/Product.md) -- Product master: templates, variants, attributes

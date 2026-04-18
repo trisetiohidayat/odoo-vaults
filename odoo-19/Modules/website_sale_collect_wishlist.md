@@ -27,7 +27,7 @@ modified: 2024-11-20
 **License:** LGPL-3
 **Author:** Odoo S.A.
 
-`website_sale_collect_wishlist` is a thin bridge module that connects two eCommerce features — [Modules/website_sale_wishlist](website_sale_wishlist.md) (wishlist/saved products) and [Modules/website_sale_collect](website_sale_collect.md) (Click & Collect with in-store stock checking). It ensures that when a product is unavailable at the customer's selected pickup location, the wishlist functionality remains accessible on the pickup selection page. This prevents the loss of a potential sale when the customer's preferred store does not stock the product.
+`website_sale_collect_wishlist` is a thin bridge module that connects two eCommerce features — [Modules/website_sale_wishlist](Modules/website_sale_wishlist.md) (wishlist/saved products) and [Modules/website_sale_collect](Modules/website_sale_collect.md) (Click & Collect with in-store stock checking). It ensures that when a product is unavailable at the customer's selected pickup location, the wishlist functionality remains accessible on the pickup selection page. This prevents the loss of a potential sale when the customer's preferred store does not stock the product.
 
 ## Architecture
 
@@ -238,9 +238,9 @@ This module has no Python model files. The `__init__.py` is empty. All functiona
 
 | Module | Role |
 |---|---|
-| [Modules/website_sale_wishlist](website_sale_wishlist.md) | Provides wishlist storage, `_is_in_wishlist()`, and the AJAX add widget |
-| [Modules/website_sale_collect](website_sale_collect.md) | Provides Click & Collect stock checking, pickup location selection, and the `unavailable_products_warning` template |
-| [Modules/website_sale](website_sale.md) | Base eCommerce; checkout flow and cart management |
+| [Modules/website_sale_wishlist](Modules/website_sale_wishlist.md) | Provides wishlist storage, `_is_in_wishlist()`, and the AJAX add widget |
+| [Modules/website_sale_collect](Modules/website_sale_collect.md) | Provides Click & Collect stock checking, pickup location selection, and the `unavailable_products_warning` template |
+| [Modules/website_sale](Modules/website_sale.md) | Base eCommerce; checkout flow and cart management |
 | `stock` | Inventory management; provides `stock.quant` for stock level queries |
 
 ## Security Considerations
@@ -271,6 +271,6 @@ Because this module relies entirely on template inheritance, it can be further e
 
 ## See Also
 
-- [Modules/website_sale_wishlist](website_sale_wishlist.md)
-- [Modules/website_sale_collect](website_sale_collect.md)
-- [Modules/website_sale](website_sale.md)
+- [Modules/website_sale_wishlist](Modules/website_sale_wishlist.md)
+- [Modules/website_sale_collect](Modules/website_sale_collect.md)
+- [Modules/website_sale](Modules/website_sale.md)

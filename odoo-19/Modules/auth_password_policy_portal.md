@@ -219,7 +219,7 @@ The complete flow when a portal user changes their password:
 
 The portal password change flow uses `auth_signup`'s `AuthSignupHome` controller internally for the actual password update logic. The `auth_password_policy_portal` module does **not** directly override `AuthSignupHome`; instead it extends the portal-specific security template and injects values into the portal controller's context.
 
-For the **signup** flow (new user self-registration via `/web/signup`), see [Modules/auth_password_policy_signup](auth_password_policy_signup.md) -- a separate but related module that handles the signup form.
+For the **signup** flow (new user self-registration via `/web/signup`), see [Modules/auth_password_policy_signup](Modules/auth_password_policy_signup.md) -- a separate but related module that handles the signup form.
 
 ## Security Considerations
 
@@ -232,15 +232,15 @@ For the **signup** flow (new user self-registration via `/web/signup`), see [Mod
 
 ## Related
 
-- [Modules/auth_password_policy](auth_password_policy.md) -- Base module that stores the policy config and provides server-side validation
-- [Modules/auth_password_policy_signup](auth_password_policy_signup.md) -- Same pattern for the signup (self-registration) form
-- [Modules/auth_signup](auth_signup.md) -- Self-registration controller and template
-- [Modules/portal](portal.md) -- Customer portal base controller and templates
-- [Patterns/Security Patterns](Security Patterns.md) -- Odoo's ACL, record rules, and ir.config_parameter patterns
+- [Modules/auth_password_policy](Modules/auth_password_policy.md) -- Base module that stores the policy config and provides server-side validation
+- [Modules/auth_password_policy_signup](Modules/auth_password_policy_signup.md) -- Same pattern for the signup (self-registration) form
+- [Modules/auth_signup](Modules/auth_signup.md) -- Self-registration controller and template
+- [Modules/portal](Modules/portal.md) -- Customer portal base controller and templates
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) -- Odoo's ACL, record rules, and ir.config_parameter patterns
 
 ## Differences from `auth_password_policy_signup`
 
-Both `auth_password_policy_portal` and [Modules/auth_password_policy_signup](auth_password_policy_signup.md) implement the same architectural pattern (controller override + QWeb extension) but target different user flows. Here is a head-to-head comparison:
+Both `auth_password_policy_portal` and [Modules/auth_password_policy_signup](Modules/auth_password_policy_signup.md) implement the same architectural pattern (controller override + QWeb extension) but target different user flows. Here is a head-to-head comparison:
 
 | Criterion | `auth_password_policy_portal` | `auth_password_policy_signup` |
 |-----------|-------------------------------|-------------------------------|

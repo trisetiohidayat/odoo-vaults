@@ -258,8 +258,8 @@ The `calendar_alarm_manager` module runs via cron and fires `ir.cron.trigger` en
 ---
 
 ## See Also
-- [Modules/mail](mail.md) — notification framework, message_notify
+- [Modules/mail](Modules/mail.md) — notification framework, message_notify
 - [Modules/res_partner](Modules/res_partner.md) — partners as attendees
-- [Modules/google_calendar](google_calendar.md) — Google Calendar two-way sync
-- [Modules/microsoft_calendar](microsoft_calendar.md) — Outlook Calendar sync
+- [Modules/google_calendar](Modules/google_calendar.md) — Google Calendar two-way sync
+- [Modules/microsoft_calendar](Modules/microsoft_calendar.md) — Outlook Calendar sync
 - [Modules/discuss](Modules/discuss.md) — video call integration

@@ -15,7 +15,7 @@ Decorators untuk Odoo ORM methods. Semua decorator ini mengontrol bagaimana meth
 
 **Location:** `~/odoo/odoo19/odoo/odoo/api.py`
 
-> **📖 Deep Dive:** Untuk dokumentasi method chain lengkap, lihat [Flows/TEMPLATE-flow](TEMPLATE-flow.md).
+> **📖 Deep Dive:** Untuk dokumentasi method chain lengkap, lihat [Flows/TEMPLATE-flow](Flows/TEMPLATE-flow.md).
 
 ---
 
@@ -402,10 +402,10 @@ Model.create([vals_a, vals_b, vals_c])
 
 ## Related
 
-- [Flows/TEMPLATE-flow](TEMPLATE-flow.md) — Flow document template
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — Workflow and state machine patterns
-- [Core/BaseModel](BaseModel.md) — Model foundation, inheritance, CRUD
-- [Core/Fields](Fields.md) — Field types, computed fields
-- [Core/Exceptions](Exceptions.md) — ValidationError, UserError
-- [Patterns/Security Patterns](Security Patterns.md) — Sudo usage, ACL
-- [Snippets/method-chain-example](method-chain-example.md) — Method chain notation reference
+- [Flows/TEMPLATE-flow](Flows/TEMPLATE-flow.md) — Flow document template
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow and state machine patterns
+- [Core/BaseModel](Core/BaseModel.md) — Model foundation, inheritance, CRUD
+- [Core/Fields](Core/Fields.md) — Field types, computed fields
+- [Core/Exceptions](Core/Exceptions.md) — ValidationError, UserError
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — Sudo usage, ACL
+- [Snippets/method-chain-example](Snippets/method-chain-example.md) — Method chain notation reference

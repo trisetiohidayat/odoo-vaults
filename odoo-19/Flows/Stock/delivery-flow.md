@@ -14,12 +14,12 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Sale/sale-to-delivery-flow](sale-to-delivery-flow.md)"
-  - "[Flows/Stock/picking-action-flow](picking-action-flow.md)"
-  - "[Flows/Stock/receipt-flow](receipt-flow.md)"
+  - "[Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md)"
+  - "[Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md)"
+  - "[Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md)"
 related_guides:
-  - "[Modules/Stock](Stock.md)"
-  - "[Modules/Sale](Sale.md)"
+  - "[Modules/Stock](Modules/Stock.md)"
+  - "[Modules/Sale](Modules/Sale.md)"
 source_module: stock, sale
 source_path: ~/odoo/odoo19/odoo/addons/stock/
 created: 2026-04-06
@@ -411,10 +411,10 @@ def action_done(self):
 
 ## Related
 
-- [Modules/Stock](Stock.md) — Stock/picking module reference
-- [Modules/Sale](Sale.md) — Sale module reference
-- [Flows/Sale/sale-to-delivery-flow](sale-to-delivery-flow.md) — Sale order to delivery (same content, SO-focused)
-- [Flows/Stock/picking-action-flow](picking-action-flow.md) — Generic picking lifecycle (confirm→assign→done)
-- [Flows/Stock/receipt-flow](receipt-flow.md) — Incoming receipt counterpart
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — Workflow pattern reference
-- [Core/API](API.md) — @api decorator patterns
+- [Modules/Stock](Modules/Stock.md) — Stock/picking module reference
+- [Modules/Sale](Modules/Sale.md) — Sale module reference
+- [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) — Sale order to delivery (same content, SO-focused)
+- [Flows/Stock/picking-action-flow](Flows/Stock/picking-action-flow.md) — Generic picking lifecycle (confirm→assign→done)
+- [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Incoming receipt counterpart
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](Core/API.md) — @api decorator patterns

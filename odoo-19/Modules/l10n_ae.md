@@ -32,5 +32,5 @@ Inherits `account.move` to add UAE-specific invoice reporting:
 - `_l10n_ae_is_simplified()`: Returns True if customer is an individual (B2C invoice).
 
 ## Related
-- [Modules/account](Account.md)
-- [Modules/l10n_gcc_invoice](l10n_gcc_invoice.md)
+- [Modules/account](Modules/Account.md)
+- [Modules/l10n_gcc_invoice](Modules/l10n_gcc_invoice.md)

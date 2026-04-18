@@ -15,7 +15,7 @@ tags: [odoo, odoo19, spreadsheet, dashboard, stock, inventory, stock-account, va
 | License | LGPL-3 |
 | Module type | Data-only (no Python models) |
 
-Provides a pre-configured [spreadsheet_dashboard](spreadsheet_dashboard.md) template named "Warehouse Metrics" for warehouse managers and financial controllers. Focuses on inventory valuation and stock-level analytics that require both inventory (`stock`) and accounting (`stock_account`) data. Auto-installs when `stock_account` is active and appears in the Logistics dashboard group at sequence 300.
+Provides a pre-configured [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template named "Warehouse Metrics" for warehouse managers and financial controllers. Focuses on inventory valuation and stock-level analytics that require both inventory (`stock`) and accounting (`stock_account`) data. Auto-installs when `stock_account` is active and appears in the Logistics dashboard group at sequence 300.
 
 ## Module Architecture
 
@@ -208,7 +208,7 @@ Inventory Adjustment:
     Dr./Cr. Inventory Adjustment account
 ```
 
-The dashboard can reflect these accounting impacts — the inventory value shown in the spreadsheet should reconcile with the balance of inventory accounts in [spreadsheet_account](spreadsheet_account.md).
+The dashboard can reflect these accounting impacts — the inventory value shown in the spreadsheet should reconcile with the balance of inventory accounts in [spreadsheet_account](Modules/spreadsheet_account.md).
 
 ## Stock Move Flow
 
@@ -265,8 +265,8 @@ Warehouse filtering uses `location_id` → `location_id.warehouse_id` to show pe
 
 ## Related Modules
 
-- [spreadsheet_dashboard](spreadsheet_dashboard.md) — Dashboard framework
-- [spreadsheet_account](spreadsheet_account.md) — Accounting formulas for GL balance integration
+- [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [spreadsheet_account](Modules/spreadsheet_account.md) — Accounting formulas for GL balance integration
 - `stock_account` — Inventory valuation and accounting entries
 - `stock` — Core inventory management models
 

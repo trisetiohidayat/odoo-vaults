@@ -103,5 +103,5 @@ Injects `gs1_group_separator_encodings` (the `gs1_separator_fnc1` value) into th
 
 ## See Also
 
-- [Modules/Barcodes](barcodes.md) (`barcodes`) — base barcode module
-- [Modules/Stock](stock.md) — uses barcode scanning for inventory
+- [Modules/Barcodes](Modules/barcodes.md) (`barcodes`) — base barcode module
+- [Modules/Stock](Modules/stock.md) — uses barcode scanning for inventory

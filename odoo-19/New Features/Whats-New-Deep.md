@@ -10,7 +10,7 @@ Comprehensive technical documentation of Odoo 19's most significant architectura
 
 **Source verified against:** `~/odoo/odoo19/odoo/addons/`
 
-> **Companion doc:** [New Features/What's New](What's New.md) for a high-level overview. This document is the technical companion for developers who need to understand how things actually work.
+> **Companion doc:** [New Features/What's New](New Features/What's New.md) for a high-level overview. This document is the technical companion for developers who need to understand how things actually work.
 
 ---
 
@@ -1848,14 +1848,14 @@ pos_self_order
 
 ## Related Documents
 
-- [New Features/What's New](What's New.md) — High-level feature summary
-- [New Features/API Changes](API Changes.md) — API change reference
-- [Core/BaseModel](Core/BaseModel.md) — ORM model internals
-- [Core/Fields](Core/Fields.md) — Field type reference
-- [Core/API](Core/API.md) — Decorator reference
-- [Patterns/Security Patterns](Patterns/Security Patterns.md) — Security design
-- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns
-- [Modules/Stock](Modules/Stock.md) — Stock and subcontracting
-- [Modules/Account](Modules/Account.md) — PEPPOL and invoicing
-- [Modules/MRP](Modules/MRP.md) — Manufacturing and subcontracting
-- [Modules/POS](Modules/POS.md) — Point of Sale
+- [New Features/What's New](New Features/What's New.md) — High-level feature summary
+- [New Features/API Changes](New Features/API Changes.md) — API change reference
+- [Core/BaseModel](BaseModel.md) — ORM model internals
+- [Core/Fields](Fields.md) — Field type reference
+- [Core/API](API.md) — Decorator reference
+- [Patterns/Security Patterns](Security Patterns.md) — Security design
+- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine patterns
+- [Modules/Stock](Stock.md) — Stock and subcontracting
+- [Modules/Account](Account.md) — PEPPOL and invoicing
+- [Modules/MRP](MRP.md) — Manufacturing and subcontracting
+- [Modules/POS](pos.md) — Point of Sale

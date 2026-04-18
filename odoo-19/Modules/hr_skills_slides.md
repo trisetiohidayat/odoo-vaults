@@ -129,5 +129,5 @@ Module `hr_skills_slides` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/HR]]
+- [Modules/Base](base.md)
+- [Modules/HR](HR.md)

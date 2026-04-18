@@ -260,7 +260,7 @@ class CalendarEventHrExtended(models.Model):
 
 ### Integration with `hr_homeworking`
 
-The [Modules/hr_homeworking](hr_homeworking.md) module extends this module to handle remote work days and alternate work locations. When both modules are installed, the availability check considers not only working hours but also the employee's designated work location for each day, enabling accurate scheduling for hybrid workers.
+The [Modules/hr_homeworking](Modules/hr_homeworking.md) module extends this module to handle remote work days and alternate work locations. When both modules are installed, the availability check considers not only working hours but also the employee's designated work location for each day, enabling accurate scheduling for hybrid workers.
 
 ## Configuration
 
@@ -278,10 +278,10 @@ The [Modules/hr_homeworking](hr_homeworking.md) module extends this module to ha
 
 ## Related
 
-- [Modules/HR](HR.md) — HR base module, employee management, resource calendars
-- [Modules/calendar](calendar.md) — Calendar event system, partner availability
-- [Modules/hr_homeworking](hr_homeworking.md) — Remote work scheduling with location awareness
-- [Modules/resource](resource.md) — Resource calendar, working hours management
+- [Modules/HR](Modules/HR.md) — HR base module, employee management, resource calendars
+- [Modules/calendar](Modules/calendar.md) — Calendar event system, partner availability
+- [Modules/hr_homeworking](Modules/hr_homeworking.md) — Remote work scheduling with location awareness
+- [Modules/resource](Modules/resource.md) — Resource calendar, working hours management
 - [Modules/resource_calendar](resource_calendar.md) — Advanced calendar features
 
 ## Real-World Scenarios

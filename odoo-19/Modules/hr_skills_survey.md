@@ -88,5 +88,5 @@ Will add certification to employee's resume if
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/HR]]
+- [Modules/Base](base.md)
+- [Modules/HR](HR.md)

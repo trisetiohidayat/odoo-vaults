@@ -201,9 +201,9 @@ Artinya: **install `account` → otomatis install lokalisasi negara pengguna** (
 ## Relasi dengan Konsep Lain
 
 - [odoo-minimal-installation](odoo-minimal-installation.md) — hasil praktis dari mekanisme ini
-- [module-dependency-system](module-dependency-system.md) — sistem dependency yang mendukung auto_install
+- [module-dependency-system](Core/Module-Dependency-System.md) — sistem dependency yang mendukung auto_install
 - [odoo-base-module](odoo-base-module.md) — module pertama yang memicu chain auto-install
-- [server-wide-modules](server-wide-modules.md) — module yang dimuat sebelum auto-install
+- [server-wide-modules](Core/Server-Wide-Modules.md) — module yang dimuat sebelum auto-install
 
 ## Referensi Source Code
 

@@ -679,7 +679,7 @@ Use Adyen's webhook testing tool (Customer Area > Developers > Webhooks > Test) 
 
 ## Related
 
-- [Modules/payment](payment.md) — Base payment engine
-- [Modules/payment_stripe](payment_stripe.md) — Stripe provider comparison
-- [Modules/payment_paypal](payment_paypal.md) — PayPal provider comparison
-- [Modules/payment_mollie](payment_mollie.md) — Mollie provider comparison
+- [Modules/payment](Modules/payment.md) — Base payment engine
+- [Modules/payment_stripe](Modules/payment_stripe.md) — Stripe provider comparison
+- [Modules/payment_paypal](Modules/payment_paypal.md) — PayPal provider comparison
+- [Modules/payment_mollie](Modules/payment_mollie.md) — Mollie provider comparison

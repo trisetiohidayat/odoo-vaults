@@ -114,7 +114,7 @@ The `@api.model_create_multi` decorator is now explicitly available and automati
 **Source code** (`odoo/orm/decorators.py`):
 
 ```python
-def model_create_multi(method: Callable[[T, list[ValuesType]], T]) -> Callable[[T, list[ValuesType] | ValuesType], T]:
+def model_create_multi(method: Callable[T, list[ValuesType](T,-list[ValuesType.md), T]) -> Callable[[T, list[ValuesType] | ValuesType], T]:
     """ Decorate a method that takes a list of dictionaries and creates multiple
         records. The method may be called with either a single dict or a list of dicts::
 
@@ -640,8 +640,8 @@ Note that `api.one` and `api.multi` are not available. If you have code using th
 
 ## Related Documents
 
-- [New Features/What's New](What's New.md) — Overview of all new features
-- [New Features/Whats-New-Deep](Whats-New-Deep.md) — Comprehensive technical deep-dive
-- [Core/BaseModel](Core/BaseModel.md) — Core model API reference
-- [Core/Fields](Core/Fields.md) — Field type reference
-- [Core/API](Core/API.md) — Full decorator reference
+- [New Features/What's New](New Features/What's New.md) — Overview of all new features
+- [New Features/Whats-New-Deep](New Features/Whats-New-Deep.md) — Comprehensive technical deep-dive
+- [Core/BaseModel](BaseModel.md) — Core model API reference
+- [Core/Fields](Fields.md) — Field type reference
+- [Core/API](API.md) — Full decorator reference

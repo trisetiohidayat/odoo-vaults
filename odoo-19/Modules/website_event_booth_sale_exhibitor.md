@@ -48,5 +48,5 @@ Module `website_event_booth_sale_exhibitor` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Website]]
+- [Modules/Base](base.md)
+- [Modules/Website](website.md)

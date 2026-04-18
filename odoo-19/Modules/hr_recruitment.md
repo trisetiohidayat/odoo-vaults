@@ -748,9 +748,9 @@ Unarchive
 
 ## Related
 
-- [Modules/hr](HR.md)
-- [Modules/calendar](calendar.md)
-- [Modules/utm](utm.md)
-- [Modules/hr_recruitment_survey](hr_recruitment_survey.md)
-- [Modules/hr_recruitment_skills](hr_recruitment_skills.md)
-- [Modules/digest](digest.md)
+- [Modules/hr](Modules/HR.md)
+- [Modules/calendar](Modules/calendar.md)
+- [Modules/utm](Modules/utm.md)
+- [Modules/hr_recruitment_survey](Modules/hr_recruitment_survey.md)
+- [Modules/hr_recruitment_skills](Modules/hr_recruitment_skills.md)
+- [Modules/digest](Modules/digest.md)

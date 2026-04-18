@@ -11,8 +11,8 @@ prerequisites:
   - vendor_list_setup
 estimated_time: "~15 minutes"
 related_flows:
-  - "[Flows/Product/product-creation-flow](product-creation-flow.md)"
-  - "[Flows/Product/pricelist-computation-flow](pricelist-computation-flow.md)"
+  - "[Flows/Product/product-creation-flow](Flows/Product/product-creation-flow.md)"
+  - "[Flows/Product/pricelist-computation-flow](Flows/Product/pricelist-computation-flow.md)"
 source_module: product
 created: 2026-04-07
 version: "1.0"
@@ -47,11 +47,11 @@ Before creating products in Odoo 19, ensure the following foundation records are
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Product/product-creation-flow](product-creation-flow.md) | Full method chain and branching logic |
-| 🔀 Technical Flow | [Flows/Product/pricelist-computation-flow](pricelist-computation-flow.md) | Pricelist price computation for sales |
-| 📖 Module Reference | [Modules/product](Product.md) | Complete field and method reference |
-| 📋 Related Guide | [Flows/Stock/receipt-flow](receipt-flow.md) | Stock receipt flow using products |
-| 🔧 Configuration | [Modules/Product](Product.md) | Accounting-related product settings |
+| 🔀 Technical Flow | [Flows/Product/product-creation-flow](Flows/Product/product-creation-flow.md) | Full method chain and branching logic |
+| 🔀 Technical Flow | [Flows/Product/pricelist-computation-flow](Flows/Product/pricelist-computation-flow.md) | Pricelist price computation for sales |
+| 📖 Module Reference | [Modules/product](Modules/Product.md) | Complete field and method reference |
+| 📋 Related Guide | [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) | Stock receipt flow using products |
+| 🔧 Configuration | [Modules/Product](Modules/Product.md) | Accounting-related product settings |
 
 ---
 
@@ -397,10 +397,10 @@ Click **Save** on the BOM record.
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Product/product-creation-flow](product-creation-flow.md) | Full method chain for product create |
-| 🔀 Technical Flow | [Flows/Product/pricelist-computation-flow](pricelist-computation-flow.md) | Price computation on sale order lines |
-| 📖 Module Reference | [Modules/product](Product.md) | Complete product model reference |
-| 📋 Related Guide | [Flows/Stock/receipt-flow](receipt-flow.md) | Stock receipt workflow |
-| 📋 Related Guide | [Flows/Purchase/purchase-order-creation-flow](purchase-order-creation-flow.md) | Purchase order creation |
-| 🔧 Patterns | [Patterns/Inheritance Patterns](Inheritance Patterns.md) | Delegation inheritance for product.product |
-| 🛠️ Snippets | [Snippets/Model Snippets](Model Snippets.md) | Code snippets for product customization |
+| 🔀 Technical Flow | [Flows/Product/product-creation-flow](Flows/Product/product-creation-flow.md) | Full method chain for product create |
+| 🔀 Technical Flow | [Flows/Product/pricelist-computation-flow](Flows/Product/pricelist-computation-flow.md) | Price computation on sale order lines |
+| 📖 Module Reference | [Modules/product](Modules/Product.md) | Complete product model reference |
+| 📋 Related Guide | [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) | Stock receipt workflow |
+| 📋 Related Guide | [Flows/Purchase/purchase-order-creation-flow](Flows/Purchase/purchase-order-creation-flow.md) | Purchase order creation |
+| 🔧 Patterns | [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) | Delegation inheritance for product.product |
+| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model Snippets.md) | Code snippets for product customization |

@@ -225,6 +225,6 @@ The o-spreadsheet evaluates pivots by calling the `spreadsheet.pivot` model RPC 
 
 ## Related
 
-- [Modules/spreadsheet](spreadsheet.md) — o-spreadsheet engine and formula language
-- [Modules/spreadsheet_dashboard](spreadsheet_dashboard.md) — Dashboard with spreadsheet integration
-- [Modules/spreadsheet_dashboard_pos_restaurant](spreadsheet_dashboard_pos_restaurant.md) — Restaurant KPI dashboard
+- [Modules/spreadsheet](Modules/spreadsheet.md) — o-spreadsheet engine and formula language
+- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard with spreadsheet integration
+- [Modules/spreadsheet_dashboard_pos_restaurant](Modules/spreadsheet_dashboard_pos_restaurant.md) — Restaurant KPI dashboard

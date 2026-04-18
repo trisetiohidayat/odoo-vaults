@@ -705,7 +705,7 @@ PayPal sandbox allows testing without real money. Use sandbox.paypal.com for the
 
 ## Related
 
-- [Modules/payment](payment.md) — Base payment engine
-- [Modules/payment_stripe](payment_stripe.md) — Stripe provider
-- [Modules/payment_adyen](payment_adyen.md) — Adyen provider
-- [Modules/payment_mollie](payment_mollie.md) — Mollie provider
+- [Modules/payment](Modules/payment.md) — Base payment engine
+- [Modules/payment_stripe](Modules/payment_stripe.md) — Stripe provider
+- [Modules/payment_adyen](Modules/payment_adyen.md) — Adyen provider
+- [Modules/payment_mollie](Modules/payment_mollie.md) — Mollie provider

@@ -176,22 +176,22 @@
 ### Wikilinks Used
 
 All three documents use Obsidian wikilinks to cross-reference:
-- `[Core/BaseModel](Core/BaseModel.md)`
-- `[Core/Fields](Core/Fields.md)`
-- `[Core/API](Core/API.md)`
-- `[Core/Exceptions](Core/Exceptions.md)`
-- `[Patterns/Workflow Patterns](Patterns/Workflow Patterns.md)`
-- `[Patterns/Security Patterns](Patterns/Security Patterns.md)`
-- `[Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md)`
-- `[Modules/Account](Modules/Account.md)`
-- `[Modules/Sale](Modules/Sale.md)`
-- `[Modules/CRM](Modules/CRM.md)`
-- `[Modules/Stock](Modules/Stock.md)`
-- `[Modules/Project](Modules/Project.md)`
-- `[Tools/ORM Operations](Tools/ORM Operations.md)`
+- `[Core/BaseModel](BaseModel.md)`
+- `[Core/Fields](Fields.md)`
+- `[Core/API](API.md)`
+- `[Core/Exceptions](Exceptions.md)`
+- `[Patterns/Workflow Patterns](Workflow Patterns.md)`
+- `[Patterns/Security Patterns](Security Patterns.md)`
+- `[Patterns/Inheritance Patterns](Inheritance Patterns.md)`
+- `[Modules/Account](Account.md)`
+- `[Modules/Sale](Sale.md)`
+- `[Modules/CRM](CRM.md)`
+- `[Modules/Stock](Stock.md)`
+- `[Modules/Project](Project.md)`
+- `[Tools/ORM Operations](ORM Operations.md)`
 - `[Snippets/Model Snippets](Model%20Snippets.md)`
-- `[Snippets/Wizard-Deep-Dive](Wizard-Deep-Dive.md)`
-- `[Snippets/Kanban-View-Patterns](Kanban-View-Patterns.md)`
+- `[Snippets/Wizard-Deep-Dive](Snippets/Wizard-Deep-Dive.md)`
+- `[Snippets/Kanban-View-Patterns](Snippets/Kanban-View-Patterns.md)`
 
 ### Files Produced This Session
 
@@ -312,13 +312,13 @@ All three documents use Obsidian wikilinks to cross-reference:
 ### Wikilinks Used
 
 All 7 files use Obsidian wikilinks to cross-reference:
-- `[Core/BaseModel](Core/BaseModel.md)`
-- `[Core/API](Core/API.md)`
-- `[Patterns/Inheritance Patterns](Inheritance Patterns.md)`
-- `[Patterns/Workflow Patterns](Patterns/Workflow Patterns.md)`
-- `[Modules/Account](Account.md)`
-- `[Modules/Sale](Sale.md)`
-- `[Modules/Purchase](Purchase.md)`
+- `[Core/BaseModel](BaseModel.md)`
+- `[Core/API](API.md)`
+- `[Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md)`
+- `[Patterns/Workflow Patterns](Workflow Patterns.md)`
+- `[Modules/Account](Modules/Account.md)`
+- `[Modules/Sale](Modules/Sale.md)`
+- `[Modules/Purchase](Modules/Purchase.md)`
 - `[Modules/Mass Mailing](Mass Mailing.md)`
 - `[Modules/Product Matrix](Product Matrix.md)`
 
@@ -400,20 +400,20 @@ All 7 files use Obsidian wikilinks to cross-reference:
 
 ### Wikilinks Used
 
-- `[[Modules/Sale]]` — Sale module reference
-- `[[Modules/Account]]` — Account module reference
-- `[[Modules/Stock]]` — Stock module reference
-- `[[Modules/MRP]]` — MRP module reference
-- `[[Modules/Project]]` — Project module reference
-- `[[Modules/CRM]]` — CRM module reference
-- `[[Patterns/Workflow Patterns]]` — State machine patterns
-- `[[Patterns/Security Patterns]]` — ACL and record rules
-- `[[Patterns/Inheritance Patterns]]` — Inheritance patterns
-- `[[Flows/Cross-Module/purchase-stock-account-flow]]` — Purchase flow detail
-- `[[Flows/Cross-Module/sale-stock-account-flow]]` — Sale flow detail
-- `[[Flows/MRP/bom-to-production-flow]]` — Manufacturing flow detail
-- `[[Core/API]]` — @api decorator patterns
-- `[[Core/BaseModel]]` — ORM fundamentals
+- `[Modules/Sale](../../Modules/Sale.md)` — Sale module reference
+- `[Modules/Account](../../Modules/Account.md)` — Account module reference
+- `[Modules/Stock](../../Modules/Stock.md)` — Stock module reference
+- `[Modules/MRP](../../Modules/MRP.md)` — MRP module reference
+- `[Modules/Project](../../Modules/Project.md)` — Project module reference
+- `[Modules/CRM](../../Modules/CRM.md)` — CRM module reference
+- `[Patterns/Workflow Patterns](../../Patterns/Workflow Patterns.md)` — State machine patterns
+- `[Patterns/Security Patterns](../../Patterns/Security Patterns.md)` — ACL and record rules
+- `[Patterns/Inheritance Patterns](../../Patterns/Inheritance Patterns.md)` — Inheritance patterns
+- `[Flows/Cross-Module/purchase-stock-account-flow](../../Flows/Cross-Module/purchase-stock-account-flow.md)` — Purchase flow detail
+- `[Flows/Cross-Module/sale-stock-account-flow](../../Flows/Cross-Module/sale-stock-account-flow.md)` — Sale flow detail
+- `[Flows/MRP/bom-to-production-flow](../../Flows/MRP/bom-to-production-flow.md)` — Manufacturing flow detail
+- `[Core/API](../../Core/API.md)` — @api decorator patterns
+- `[Core/BaseModel](../../Core/BaseModel.md)` — ORM fundamentals
 
 ### Files Produced This Session
 

@@ -35,4 +35,4 @@ Inherits `res.partner` to add Moroccan company registry validation:
 - All characters must be numeric
 
 ## Related
-- [Modules/account](Account.md)
+- [Modules/account](Modules/Account.md)

@@ -19,10 +19,10 @@ related_modules:
   - product
   - stock
 see_also:
-  - "[Core/BaseModel](BaseModel.md)"
-  - "[Core/Fields](Fields.md)"
-  - "[Core/API](API.md)"
-  - "[Patterns/Workflow Patterns](Workflow Patterns.md)"
+  - "[Core/BaseModel](Core/BaseModel.md)"
+  - "[Core/Fields](Core/Fields.md)"
+  - "[Core/API](Core/API.md)"
+  - "[Patterns/Workflow Patterns](Patterns/Workflow Patterns.md)"
 ---
 
 # Module: sale

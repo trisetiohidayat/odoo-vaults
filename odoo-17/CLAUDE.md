@@ -62,7 +62,7 @@ Models like `sale.order`, `purchase.order`, `stock.picking` use a `state` Select
 ## Working with This Vault
 
 ### Wikilinks
-Use Obsidian wikilinks: `[Core/BaseModel](BaseModel.md)`, `[Modules/Stock](stock.md)`, `[Patterns/Security Patterns](Security Patterns.md)`.
+Use Obsidian wikilinks: `[Core/BaseModel](Core/BaseModel.md)`, `[Modules/Stock](Modules/stock.md)`, `[Patterns/Security Patterns](Patterns/Security Patterns.md)`.
 **Python models**: use backticks, NOT wikilinks: `` `sale.order` ``
 
 ### Code Locations

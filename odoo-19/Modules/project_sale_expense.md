@@ -639,11 +639,11 @@ The `project_id` context flag prevents circular calls when analytic distribution
 
 | Module | Description |
 |--------|-------------|
-| [Modules/hr_expense](hr_expense.md) | Base expense management (sheets removed in Odoo 19) |
-| [Modules/sale_expense](sale_expense.md) | Links expenses to sale orders; creates SOLs on vendor bill posting |
-| [Modules/project_hr_expense](project_hr_expense.md) | Shows expense costs on project profitability |
-| [Modules/sale_project](sale_project.md) | Links sale orders to projects |
-| [Modules/Project](Project.md) | Base project model with profitability framework |
+| [Modules/hr_expense](Modules/hr_expense.md) | Base expense management (sheets removed in Odoo 19) |
+| [Modules/sale_expense](Modules/sale_expense.md) | Links expenses to sale orders; creates SOLs on vendor bill posting |
+| [Modules/project_hr_expense](Modules/project_hr_expense.md) | Shows expense costs on project profitability |
+| [Modules/sale_project](Modules/sale_project.md) | Links sale orders to projects |
+| [Modules/Project](Modules/Project.md) | Base project model with profitability framework |
 
 ## File Listing
 

@@ -622,8 +622,8 @@ Extends self-ordering capabilities:
 
 ## Related
 
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module
-- [Modules/payment](payment.md) — Payment engine and providers
-- [Modules/payment_stripe](payment_stripe.md) — Stripe payment provider
-- [Modules/payment_xendit](payment_xendit.md) — Southeast Asian payment provider
-- [Modules/pos_online_payment_self_order](pos_online_payment_self_order.md) — Self-order online payment
+- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module
+- [Modules/payment](Modules/payment.md) — Payment engine and providers
+- [Modules/payment_stripe](Modules/payment_stripe.md) — Stripe payment provider
+- [Modules/payment_xendit](Modules/payment_xendit.md) — Southeast Asian payment provider
+- [Modules/pos_online_payment_self_order](Modules/pos_online_payment_self_order.md) — Self-order online payment

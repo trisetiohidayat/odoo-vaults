@@ -30,9 +30,9 @@ Cambodia uses a Self-Assessment Tax System and requires monthly and annual tax d
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account](Account.md) | Core accounting |
-| [Modules/account_qr_code_emv](account_qr_code_emv.md) | EMV QR code generation |
-| [Modules/l10n_account_withholding_tax](l10n_account_withholding_tax.md) | Withholding tax support |
+| [Modules/account](Modules/Account.md) | Core accounting |
+| [Modules/account_qr_code_emv](Modules/account_qr_code_emv.md) | EMV QR code generation |
+| [Modules/l10n_account_withholding_tax](Modules/l10n_account_withholding_tax.md) | Withholding tax support |
 
 ## Key Models
 
@@ -81,6 +81,6 @@ Extends bank model with Cambodia-specific fields:
 
 ## Related
 
-- [Modules/account](Account.md) - Core accounting module
-- [Modules/account_qr_code_emv](account_qr_code_emv.md) - QR code generation
-- [Modules/l10n_account_withholding_tax](l10n_account_withholding_tax.md) - Withholding tax support
+- [Modules/account](Modules/Account.md) - Core accounting module
+- [Modules/account_qr_code_emv](Modules/account_qr_code_emv.md) - QR code generation
+- [Modules/l10n_account_withholding_tax](Modules/l10n_account_withholding_tax.md) - Withholding tax support

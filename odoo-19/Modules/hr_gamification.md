@@ -633,9 +633,9 @@ Quarterly performance milestones:
 
 ## Related
 
-- [Modules/gamification](gamification.md) -- Core gamification: badges, challenges, goals, leaderboards
-- [Modules/HR](HR.md) -- Core HR module: employees, departments, contracts, org chart
-- [Modules/hr_skills](hr_skills.md) -- HR Skills: resume lines, skills tracking
-- [Modules/hr_skills_event](hr_skills_event.md) -- HR Skills Event: onsite training resume lines
-- [Modules/hr_skills_survey](hr_skills_survey.md) -- HR Skills Survey: certification resume lines
-- [Modules/mail](mail.md) -- Messaging: Discuss channels, notifications for badge grants
+- [Modules/gamification](Modules/gamification.md) -- Core gamification: badges, challenges, goals, leaderboards
+- [Modules/HR](Modules/HR.md) -- Core HR module: employees, departments, contracts, org chart
+- [Modules/hr_skills](Modules/hr_skills.md) -- HR Skills: resume lines, skills tracking
+- [Modules/hr_skills_event](Modules/hr_skills_event.md) -- HR Skills Event: onsite training resume lines
+- [Modules/hr_skills_survey](Modules/hr_skills_survey.md) -- HR Skills Survey: certification resume lines
+- [Modules/mail](Modules/mail.md) -- Messaging: Discuss channels, notifications for badge grants

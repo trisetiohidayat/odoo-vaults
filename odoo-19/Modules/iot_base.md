@@ -327,10 +327,10 @@ iot_drivers (on IoT box hardware)
 
 ## Related Documentation
 
-- [[New Features/What's New|What's New]] — Odoo 18→19 IoT changes
-- [[New Features/Whats-New-Deep|Whats-New-Deep]] — detailed version diffs
-- [[Modules/bus|bus — Notification Bus]] — the `bus.bus` channel mechanism used for real-time events
-- [[Modules/iot_drivers|iot_drivers]] — the companion module that runs on the IoT box hardware
+- [What's New](../New Features/What's New.md) — Odoo 18→19 IoT changes
+- [Whats-New-Deep](../New Features/Whats-New-Deep.md) — detailed version diffs
+- [bus — Notification Bus](bus.md) — the `bus.bus` channel mechanism used for real-time events
+- [iot_drivers](iot_drivers.md) — the companion module that runs on the IoT box hardware
 
 ## Notes
 

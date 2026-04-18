@@ -1991,10 +1991,10 @@ All data access uses the ORM (`search`, `browse`, `read`, `write`, `create`, `un
 
 ## Related Documentation
 
-- [Core/BaseModel](BaseModel.md) - Odoo ORM foundation
-- [Core/Fields](Fields.md) - Field types reference
-- [Core/API](API.md) - @api.depends, @api.onchange, @api.constrains
-- [Modules/res.partner](res.partner.md) - Base partner model deep dive
-- [Patterns/Security Patterns](Security Patterns.md) - ACL and record rules
-- [Tools/ORM Operations](ORM Operations.md) - search(), browse(), write() operations
-- [New Features/What's New](What's New.md) - Odoo 19 new features overview
+- [Core/BaseModel](Core/BaseModel.md) - Odoo ORM foundation
+- [Core/Fields](Core/Fields.md) - Field types reference
+- [Core/API](Core/API.md) - @api.depends, @api.onchange, @api.constrains
+- [Modules/res.partner](Modules/res.partner.md) - Base partner model deep dive
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) - ACL and record rules
+- [Tools/ORM Operations](Tools/ORM Operations.md) - search(), browse(), write() operations
+- [New Features/What's New](New Features/What's New.md) - Odoo 19 new features overview

@@ -70,5 +70,5 @@ Override of `payment` to ensure that APS' requirements for references are satisf
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

@@ -359,9 +359,9 @@ The smart buttons respect Odoo's standard access control:
 
 ## Related Documentation
 
-- [Modules/mrp_subcontracting](mrp_subcontracting.md) — Subcontract BoM and MO tracking
-- [Modules/purchase_mrp](purchase_mrp.md) — PO to MO linkage (this module extends it)
-- [Modules/mrp](mrp.md) — Manufacturing module
-- [Modules/purchase](Purchase.md) — Purchase management
-- [Modules/stock](Stock.md) — Warehouse management
-- [Patterns/Cross-Module-Integration](Patterns/Cross-Module-Integration.md) — Cross-module integration patterns
+- [Modules/mrp_subcontracting](Modules/mrp_subcontracting.md) — Subcontract BoM and MO tracking
+- [Modules/purchase_mrp](Modules/purchase_mrp.md) — PO to MO linkage (this module extends it)
+- [Modules/mrp](Modules/MRP.md) — Manufacturing module
+- [Modules/purchase](Modules/Purchase.md) — Purchase management
+- [Modules/stock](Modules/Stock.md) — Warehouse management
+- [Patterns/Cross-Module-Integration](Cross-Module-Integration.md) — Cross-module integration patterns

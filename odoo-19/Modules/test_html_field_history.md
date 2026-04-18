@@ -261,6 +261,6 @@ def test_html_field_history_write(self):
 
 ## Related
 
-- [Modules/html_editor](html_editor.md) — HTML rich text editor component
-- [Modules/html_builder](html_builder.md) — HTML field builder utilities
-- [Core/API](Core/API.md) — `@api.constrains` and ValidationError handling
+- [Modules/html_editor](Modules/html_editor.md) — HTML rich text editor component
+- [Modules/html_builder](Modules/html_builder.md) — HTML field builder utilities
+- [Core/API](API.md) — `@api.constrains` and ValidationError handling

@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, stock-landed-costs-company]
 
 
 
-- [Modules/stock](stock.md) — Inventory base module
+- [Modules/stock](Modules/stock.md) — Inventory base module

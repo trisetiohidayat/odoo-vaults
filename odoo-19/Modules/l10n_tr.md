@@ -39,4 +39,4 @@ Activates:
 - Custom model files: account_journal.py, account_move_line.py, product.py, template_tr.py
 
 ## Related
-- [Modules/l10n_tr](l10n_tr.md) - Core accounting
+- [Modules/l10n_tr](Modules/l10n_tr.md) - Core accounting

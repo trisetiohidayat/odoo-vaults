@@ -596,10 +596,10 @@ Interface files in `iot_handlers/interfaces/`:
 
 ## Related Documentation
 
-- [[Modules/iot_base|iot_base]] — the companion frontend module (JavaScript client-side)
-- [[New Features/What's New|What's New]] — Odoo 18→19 IoT changes
-- [[New Features/Whats-New-Deep|Whats-New-Deep]] — detailed version diffs
-- [[Modules/bus|bus — Notification Bus]] — `bus.bus` WebSocket channel used for IoT→server events
+- [iot_base](iot_base.md) — the companion frontend module (JavaScript client-side)
+- [What's New](../New Features/What's New.md) — Odoo 18→19 IoT changes
+- [Whats-New-Deep](../New Features/Whats-New-Deep.md) — detailed version diffs
+- [bus — Notification Bus](bus.md) — `bus.bus` WebSocket channel used for IoT→server events
 
 ## Key Design Principles
 

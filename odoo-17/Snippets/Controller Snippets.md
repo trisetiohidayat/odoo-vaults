@@ -73,5 +73,5 @@ return request.make_response(
 - `cors='*'` — CORS headers
 
 ## See Also
-- [Core/HTTP Controller](HTTP Controller.md) — Full controller reference
-- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — Controller extension
+- [Core/HTTP Controller](Core/HTTP Controller.md) — Full controller reference
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — Controller extension

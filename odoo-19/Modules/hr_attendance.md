@@ -737,10 +737,10 @@ A **ruleset** (`hr.attendance.overtime.ruleset`) contains ordered **rules** (`hr
 
 ## Related Modules
 
-- [Modules/hr](HR.md) — Base employee model, barcode field, PIN field
-- [Modules/hr_work_entry](hr_work_entry.md) — Work entries generated from attendances (integration point)
-- [Modules/hr_holidays](hr_holidays.md) — Time off tracking; absence detection creates technical attendances that interact with leave
-- [Modules/hr_timesheet](hr_timesheet.md) — Timesheet entry; attendance data used for approval context
+- [Modules/hr](Modules/HR.md) — Base employee model, barcode field, PIN field
+- [Modules/hr_work_entry](Modules/hr_work_entry.md) — Work entries generated from attendances (integration point)
+- [Modules/hr_holidays](Modules/hr_holidays.md) — Time off tracking; absence detection creates technical attendances that interact with leave
+- [Modules/hr_timesheet](Modules/hr_timesheet.md) — Timesheet entry; attendance data used for approval context
 - `resource` — Resource calendar, work hours, leave intervals
 - `barcodes` — Barcode scanner component, service
 - `base_geolocalize` — GPS geocoding

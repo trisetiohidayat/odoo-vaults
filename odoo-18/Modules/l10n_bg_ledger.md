@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting
 # l10n_bg_ledger
 
 ## Overview
-Companion module to `[Modules/l10n_bg](l10n_bg.md)` that adds Bulgarian-specific report ledger and journal views for enhanced financial reporting compliance.
+Companion module to `[Modules/l10n_bg](Modules/l10n_bg.md)` that adds Bulgarian-specific report ledger and journal views for enhanced financial reporting compliance.
 
 ## Country
 Bulgaria
@@ -29,19 +29,19 @@ Extends `AccountJournal` and `AccountMove` with Bulgarian-specific view definiti
 No CSV data files — module consists of view definitions (XML) only.
 
 ## Chart of Accounts
-Inherits chart of accounts from `[Modules/l10n_bg](l10n_bg.md)` (332 accounts).
+Inherits chart of accounts from `[Modules/l10n_bg](Modules/l10n_bg.md)` (332 accounts).
 
 ## Tax Structure
-Inherits tax structure from `[Modules/l10n_bg](l10n_bg.md)`.
+Inherits tax structure from `[Modules/l10n_bg](Modules/l10n_bg.md)`.
 
 ## Fiscal Positions
-Inherits fiscal positions from `[Modules/l10n_bg](l10n_bg.md)`.
+Inherits fiscal positions from `[Modules/l10n_bg](Modules/l10n_bg.md)`.
 
 ## EDI/Fiscal Reporting
 Bulgarian report ledger views for VAT declaration and audit trail reporting.
 
 ## Installation
-Auto-installed as a dependency of `[Modules/l10n_bg](l10n_bg.md)` (`auto_install: True`). Installs automatically when l10n_bg is loaded.
+Auto-installed as a dependency of `[Modules/l10n_bg](Modules/l10n_bg.md)` (`auto_install: True`). Installs automatically when l10n_bg is loaded.
 
 ## Historical Notes
 - Introduced in Odoo 18 as a separate module to cleanly separate chart-of-accounts data from report view definitions.

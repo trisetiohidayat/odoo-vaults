@@ -1239,10 +1239,10 @@ def _create_protected_record(self):
 
 ## Related
 
-- [Core/BaseModel](Core/BaseModel.md) — `_name`, `_description`, model inheritance
-- [Core/Fields](Core/Fields.md) — Field types used in wizards: Many2many, One2many, Monetary
-- [Core/API](Core/API.md) — `@api.model`, `@api.depends`, `@api.onchange`
-- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machines that wizards often trigger
+- [Core/BaseModel](BaseModel.md) — `_name`, `_description`, model inheritance
+- [Core/Fields](Fields.md) — Field types used in wizards: Many2many, One2many, Monetary
+- [Core/API](API.md) — `@api.model`, `@api.depends`, `@api.onchange`
+- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machines that wizards often trigger
 - [Snippets/Model Snippets](Model%20Snippets.md) — State machine, button actions, computed fields
-- [Modules/Account](Modules/Account.md) — account.move and how wizard actions interact with invoices
-- [Modules/Sale](Modules/Sale.md) — sale.order workflow and down payment wizards
+- [Modules/Account](Account.md) — account.move and how wizard actions interact with invoices
+- [Modules/Sale](Sale.md) — sale.order workflow and down payment wizards

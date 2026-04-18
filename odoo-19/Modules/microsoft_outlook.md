@@ -567,9 +567,9 @@ The CSRF token uses `env=self.env(su=True)` to generate a system-wide HMAC key. 
 
 ## See Also
 
-- [Modules/mail](mail.md) — `fetchmail.server`, `ir.mail_server`, mail threading
-- [Modules/google_gmail](google_gmail.md) — Google's OAuth2 mail integration (mirror of this module)
-- [Modules/mail_plugin](mail_plugin.md) — Outlook contacts enrichment via IAP
-- [Core/Fields](Fields.md) — Many2one, Char, Boolean field types
-- [Core/API](API.md) — `@api.constrains`, `@api.onchange`, `@api.model` decorator patterns
-- [Patterns/Security Patterns](Security Patterns.md) — CSRF protection, HMAC tokens, OAuth2 flows
+- [Modules/mail](Modules/mail.md) — `fetchmail.server`, `ir.mail_server`, mail threading
+- [Modules/google_gmail](Modules/google_gmail.md) — Google's OAuth2 mail integration (mirror of this module)
+- [Modules/mail_plugin](Modules/mail_plugin.md) — Outlook contacts enrichment via IAP
+- [Core/Fields](Core/Fields.md) — Many2one, Char, Boolean field types
+- [Core/API](Core/API.md) — `@api.constrains`, `@api.onchange`, `@api.model` decorator patterns
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — CSRF protection, HMAC tokens, OAuth2 flows

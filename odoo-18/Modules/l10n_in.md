@@ -153,7 +153,7 @@ Six auto-applied fiscal positions (driven by GST treatment + state):
 6. **SEZ LUT** — zero-rated IGST with bond
 
 ## EDI/Fiscal Reporting
-EDI handled by [Modules/l10n_in_edi](l10n_in_edi.md) (e-invoice v1.03). GSTR reporting via separate `l10n_in_reports` (enterprise). E-Waybill integration via IAP service.
+EDI handled by [Modules/l10n_in_edi](Modules/l10n_in_edi.md) (e-invoice v1.03). GSTR reporting via separate `l10n_in_reports` (enterprise). E-Waybill integration via IAP service.
 
 ## Historical Notes
 Version 2.0 in Odoo 18 (vs 1.x in Odoo 17). Schedule VI format fully revised per MCA updates. Fiscal positions expanded from 2 to 6 to cover SEZ and LUT export scenarios. HSN validation tightened with configurable digit requirements. UPI QR code generation added for customer payments. Company-level PAN auto-extraction from GSTIN. State TIN (l10n_in_tin) standardized as 2-digit codes for EDI compatibility.

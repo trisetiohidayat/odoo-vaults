@@ -212,4 +212,4 @@ All 22 tasks completed AND:
 
 **Estimated effort:** 4–5 sessions
 
-**Next phase:** [Documentation/Upgrade-Plan/04-Task-List-Phase-4](04-Task-List-Phase-4.md)
+**Next phase:** [Documentation/Upgrade-Plan/04-Task-List-Phase-4](Documentation/Upgrade-Plan/04-Task-List-Phase-4.md)

@@ -576,6 +576,6 @@ Assigned (Employee) | Available (Department) | Available (Company)
 
 ## Related
 
-- [Modules/maintenance](maintenance.md) — Base maintenance module
-- [Modules/hr](hr.md) — Employee management
+- [Modules/maintenance](Modules/maintenance.md) — Base maintenance module
+- [Modules/hr](Modules/HR.md) — Employee management
 - [Modules/hr_equipment](hr_equipment.md) — Equipment request portal

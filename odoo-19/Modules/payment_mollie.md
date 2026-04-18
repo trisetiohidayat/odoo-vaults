@@ -699,8 +699,8 @@ Common error codes:
 
 ## Related
 
-- [Modules/payment](payment.md) — Base payment engine
-- [Modules/payment_stripe](payment_stripe.md) — Stripe provider
-- [Modules/payment_adyen](payment_adyen.md) — Adyen provider
-- [Modules/payment_paypal](payment_paypal.md) — PayPal provider
-- [Modules/pos_mollie](pos_mollie.md) — Mollie POS terminal integration
+- [Modules/payment](Modules/payment.md) — Base payment engine
+- [Modules/payment_stripe](Modules/payment_stripe.md) — Stripe provider
+- [Modules/payment_adyen](Modules/payment_adyen.md) — Adyen provider
+- [Modules/payment_paypal](Modules/payment_paypal.md) — PayPal provider
+- [Modules/pos_mollie](Modules/pos_mollie.md) — Mollie POS terminal integration

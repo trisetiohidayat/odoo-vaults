@@ -656,6 +656,6 @@ Email counting requires additional configuration:
 
 ## Related
 
-- [Modules/hr_attendance](hr_attendance.md) — Attendance check-in/check-out
-- [Modules/hr](hr.md) — Employee management
-- [Modules/hr_holidays](hr_holidays.md) — Leave requests
+- [Modules/hr_attendance](Modules/hr_attendance.md) — Attendance check-in/check-out
+- [Modules/hr](Modules/HR.md) — Employee management
+- [Modules/hr_holidays](Modules/hr_holidays.md) — Leave requests

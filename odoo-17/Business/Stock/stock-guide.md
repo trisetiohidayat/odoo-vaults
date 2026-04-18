@@ -38,6 +38,6 @@ tags: [odoo, odoo17, guide]
 
 ## See Also
 
-- [Modules/stock](stock.md)
-- [Modules/repair](repair.md)
-- [Modules/purchase](purchase.md)
+- [Modules/stock](Modules/stock.md)
+- [Modules/repair](Modules/repair.md)
+- [Modules/purchase](Modules/purchase.md)

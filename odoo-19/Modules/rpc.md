@@ -281,7 +281,7 @@ result = models.execute_kw(
     'db', uid, 'password',
     'res.partner',      # Model
     'search_read',       # Method
-    [[['customer_rank', '>', 0]]],  # Domain
+    [['customer_rank', '>', 0](['customer_rank',-'>',-0.md)],  # Domain
     {'fields': ['name', 'email'], 'limit': 5}  # kwargs
 )
 ```
@@ -328,7 +328,7 @@ models = xmlrpc.client.ServerProxy('http://localhost:8069/xmlrpc/2/object')
 partner_ids = models.execute_kw(
     'mydb', uid, 'admin',
     'res.partner', 'search',
-    [[['is_company', '=', True]]],
+    [['is_company', '=', True](['is_company',-'=',-True.md)],
     {'limit': 10}
 )
 
@@ -344,7 +344,7 @@ partners = models.execute_kw(
 partners = models.execute_kw(
     'mydb', uid, 'admin',
     'res.partner', 'search_read',
-    [[['is_company', '=', True]]],
+    [['is_company', '=', True](['is_company',-'=',-True.md)],
     {'fields': ['name', 'email'], 'limit': 5}
 )
 
@@ -375,7 +375,7 @@ $client = XML_RPC2_Client::create('http://localhost:8069/xmlrpc/2/object');
 $result = $client->execute_kw(
     'mydb', $uid, 'admin',
     'res.partner', 'search_read',
-    [[['customer_rank', '>', 0]]],
+    [['customer_rank', '>', 0](['customer_rank',-'>',-0.md)],
     ['fields' => ['name', 'email'], 'limit' => 5]
 );
 ```
@@ -413,7 +413,7 @@ login = session.post('http://localhost:8069/web/login', data={
 response = session.post('http://localhost:8069/web/dataset/call_kw', json={
     'model': 'res.partner',
     'method': 'search_read',
-    'args': [[['is_company', '=', True]]],
+    'args': [['is_company', '=', True](['is_company',-'=',-True.md)],
     'kwargs': {'fields': ['name', 'email'], 'limit': 5},
 })
 data = response.json()['result']
@@ -442,7 +442,7 @@ See the [official migration guide](https://www.odoo.com/documentation/latest/dev
 
 ## Related
 
-- [Modules/web](web.md) — Odoo Web controller framework (replacement API)
-- [Modules/api_doc](api_doc.md) — API documentation module
-- [Modules/web_unsplash](web_unsplash.md) — Example of REST API controller pattern
+- [Modules/web](Modules/web.md) — Odoo Web controller framework (replacement API)
+- [Modules/api_doc](Modules/api_doc.md) — API documentation module
+- [Modules/web_unsplash](Modules/web_unsplash.md) — Example of REST API controller pattern
 - [Core/HTTP Controller](Core/HTTP%20Controller.md) — Odoo Web controller documentation

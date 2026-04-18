@@ -1309,13 +1309,13 @@ class SaleOrder(models.Model):
 
 ## Related
 
-- [Core/BaseModel](BaseModel.md) — Model foundation, `_name`, `_inherit`, CRUD methods
-- [Core/Fields](Fields.md) — Field types (Char, Many2one, Json, Monetary, etc.)
-- [Core/API](API.md) — Decorators: `@api.depends`, `@api.onchange`, `@api.constrains`
-- [Core/Exceptions](Exceptions.md) — ValidationError, UserError, AccessError
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine, action methods
-- [Patterns/Security Patterns](Security Patterns.md) — ACL CSV, ir.rule, field groups
-- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — `_inherit` vs `_inherits` vs mixin
-- [Tools/ORM Operations](ORM Operations.md) — `search()`, `browse()`, `create()`, `write()`, domain operators
-- [Snippets/Wizard-Deep-Dive](Wizard-Deep-Dive.md) — TransientModel, wizard forms, action buttons
-- [Snippets/Kanban-View-Patterns](Kanban-View-Patterns.md) — Kanban XML, JS widget, drag-and-drop
+- [Core/BaseModel](Core/BaseModel.md) — Model foundation, `_name`, `_inherit`, CRUD methods
+- [Core/Fields](Core/Fields.md) — Field types (Char, Many2one, Json, Monetary, etc.)
+- [Core/API](Core/API.md) — Decorators: `@api.depends`, `@api.onchange`, `@api.constrains`
+- [Core/Exceptions](Core/Exceptions.md) — ValidationError, UserError, AccessError
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine, action methods
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, ir.rule, field groups
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — `_inherit` vs `_inherits` vs mixin
+- [Tools/ORM Operations](Tools/ORM Operations.md) — `search()`, `browse()`, `create()`, `write()`, domain operators
+- [Snippets/Wizard-Deep-Dive](Snippets/Wizard-Deep-Dive.md) — TransientModel, wizard forms, action buttons
+- [Snippets/Kanban-View-Patterns](Snippets/Kanban-View-Patterns.md) — Kanban XML, JS widget, drag-and-drop

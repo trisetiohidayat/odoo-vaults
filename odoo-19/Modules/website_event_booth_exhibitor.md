@@ -28,7 +28,7 @@ modified: 2024-11-20
 **License:** LGPL-3
 **Author:** Odoo S.A.
 
-`website_event_booth_exhibitor` bridges [Modules/website_event_booth](website_event_booth.md) (booth registration) and [Modules/website_event_exhibitor](website_event_exhibitor.md) (exhibitor/sponsor management). When a visitor books a booth on the website and the booth category is configured to create a sponsor, the module automatically generates an `event.sponsor` record and links it to the booth. This enables exhibitors to manage their event presence through the sponsor portal without requiring manual intervention by event staff.
+`website_event_booth_exhibitor` bridges [Modules/website_event_booth](Modules/website_event_booth.md) (booth registration) and [Modules/website_event_exhibitor](Modules/website_event_exhibitor.md) (exhibitor/sponsor management). When a visitor books a booth on the website and the booth category is configured to create a sponsor, the module automatically generates an `event.sponsor` record and links it to the booth. This enables exhibitors to manage their event presence through the sponsor portal without requiring manual intervention by event staff.
 
 ## Architecture
 
@@ -391,9 +391,9 @@ Tour steps for the booth-exhibitor flow in Odoo's website testing framework. Tes
 
 | Module | Role |
 |---|---|
-| [Modules/website_event_booth](website_event_booth.md) | Booth registration on website; provides the base `_action_post_confirm()` hook used here |
-| [Modules/website_event_exhibitor](website_event_exhibitor.md) | Exhibitor/sponsor portal pages; provides the `event.sponsor` model and portal views |
-| [Modules/event_booth](event_booth.md) | Backend booth management; the `event.booth` model being extended |
+| [Modules/website_event_booth](Modules/website_event_booth.md) | Booth registration on website; provides the base `_action_post_confirm()` hook used here |
+| [Modules/website_event_exhibitor](Modules/website_event_exhibitor.md) | Exhibitor/sponsor portal pages; provides the `event.sponsor` model and portal views |
+| [Modules/event_booth](Modules/event_booth.md) | Backend booth management; the `event.booth` model being extended |
 | `event` | Event module; provides `event.event` and `event.sponsor.type` models |
 | `website_event` | Base event website module |
 
@@ -419,6 +419,6 @@ Key points for migration from older versions:
 
 ## See Also
 
-- [Modules/website_event_booth](website_event_booth.md)
-- [Modules/website_event_exhibitor](website_event_exhibitor.md)
-- [Modules/event_booth](event_booth.md)
+- [Modules/website_event_booth](Modules/website_event_booth.md)
+- [Modules/website_event_exhibitor](Modules/website_event_exhibitor.md)
+- [Modules/event_booth](Modules/event_booth.md)

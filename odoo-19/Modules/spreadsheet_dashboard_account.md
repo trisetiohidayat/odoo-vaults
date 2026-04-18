@@ -4,9 +4,9 @@ module: spreadsheet_dashboard_account
 tags: [odoo, odoo19, spreadsheet, dashboard, account, kpi, invoicing, financial_reports]
 created: 2026-04-14
 related_links:
-  - "[Modules/spreadsheet_dashboard](spreadsheet_dashboard.md)"
-  - "[Modules/spreadsheet_account](spreadsheet_account.md)"
-  - "[Modules/Account](Account.md)"
+  - "[Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md)"
+  - "[Modules/spreadsheet_account](Modules/spreadsheet_account.md)"
+  - "[Modules/Account](Modules/Account.md)"
 ---
 
 # Spreadsheet Dashboard for Accounting
@@ -315,7 +315,7 @@ The sample data makes the dashboard look populated even in a fresh database with
 
 ## Related
 
-- [Modules/spreadsheet_dashboard](spreadsheet_dashboard.md) -- Dashboard framework, how to create dashboard records
-- [Modules/spreadsheet_account](spreadsheet_account.md) -- Accounting spreadsheet functions (ODOO.BALANCE, etc.)
-- [Modules/Account](Account.md) -- Base accounting module (account.move, account.move.line)
+- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) -- Dashboard framework, how to create dashboard records
+- [Modules/spreadsheet_account](Modules/spreadsheet_account.md) -- Accounting spreadsheet functions (ODOO.BALANCE, etc.)
+- [Modules/Account](Modules/Account.md) -- Base accounting module (account.move, account.move.line)
 - [Modules/account_reports](account_reports.md) -- Financial reports built with the Odoo report engine

@@ -6,11 +6,11 @@
 
 ## Key Points
 
-- Purchase order melewati state machine: `draft` (RFQ) → `sent` → `to approve` → `purchase` → `done` / `cancel` (via [modules/purchase.md](qmd://odoo19-vault/modules/purchase.md))
-- Konfirmasi PO (`button_confirm()`) secara otomatis membuat `stock.picking` bertipe `incoming` yang linked ke PO via field `origin` (via [flows/purchase/purchase-order-creation-flow.md](qmd://odoo19-vault/flows/purchase/purchase-order-creation-flow.md))
-- Receipt picking harus divalidasi secara independen oleh warehouse user — tidak otomatis done saat PO di-confirm (via [flows/purchase/purchase-order-receipt-flow.md](qmd://odoo19-vault/flows/purchase/purchase-order-receipt-flow.md))
-- `purchase.order.line.qty_received` di-update setiap kali receipt divalidasi, memungkinkan PO melacak progress pengiriman (via [flows/purchase/purchase-order-receipt-flow.md](qmd://odoo19-vault/flows/purchase/purchase-order-receipt-flow.md))
-- Partial receipts, over-receipts, dan under-receipts didukung — PO tetap terbuka sampai semua quantity diterima atau user menutup secara eksplisit (via [flows/purchase/purchase-order-receipt-flow.md](qmd://odoo19-vault/flows/purchase/purchase-order-receipt-flow.md))
+- Purchase order melewati state machine: `draft` (RFQ) → `sent` → `to approve` → `purchase` → `done` / `cancel` (via [modules/purchase.md](../../../../Modules/Purchase.md))
+- Konfirmasi PO (`button_confirm()`) secara otomatis membuat `stock.picking` bertipe `incoming` yang linked ke PO via field `origin` (via [flows/purchase/purchase-order-creation-flow.md](../../../../../Flows/Purchase/purchase-order-creation-flow.md))
+- Receipt picking harus divalidasi secara independen oleh warehouse user — tidak otomatis done saat PO di-confirm (via [flows/purchase/purchase-order-receipt-flow.md](../../../../../Flows/Purchase/purchase-order-receipt-flow.md))
+- `purchase.order.line.qty_received` di-update setiap kali receipt divalidasi, memungkinkan PO melacak progress pengiriman (via [flows/purchase/purchase-order-receipt-flow.md](../../../../../Flows/Purchase/purchase-order-receipt-flow.md))
+- Partial receipts, over-receipts, dan under-receipts didukung — PO tetap terbuka sampai semua quantity diterima atau user menutup secara eksplisit (via [flows/purchase/purchase-order-receipt-flow.md](../../../../../Flows/Purchase/purchase-order-receipt-flow.md))
 - State `stock.picking` di-compute dari state `stock.move` — tidak writable langsung (via [modules/stock-picking.md](qmd://odoo19-vault/modules/stock-picking.md))
 
 ---
@@ -30,7 +30,7 @@ Workflow dimulai saat user navigasi ke **Purchase → Orders → Requests for Qu
 
 Order dalam state `draft` masih bisa diedit — vendor, product lines, quantity, dan harga masih bisa diubah. Baru setelah user klik **Confirm Order**, order terkunci dan tidak bisa sembarangan diedit.
 
-(via [flows/purchase/purchase-order-creation-flow.md](qmd://odoo19-vault/flows/purchase/purchase-order-creation-flow.md))
+(via [flows/purchase/purchase-order-creation-flow.md](../../../../../Flows/Purchase/purchase-order-creation-flow.md))
 
 ### Fase 2: Konfirmasi PO — RFQ Menjadi Purchase Order (State: `purchase`)
 
@@ -52,7 +52,7 @@ Saat user mengklik **Confirm Order**, `button_confirm()` dipanggil yang menjalan
 
 **Catatan penting:** Konfirmasi PO tidak otomatis menyelesaikan receipt. Picking masih dalam state `draft` dan harus diproses secara terpisah oleh warehouse user. Ini adalah decoupling antara "saya sudah memesan" (PO confirmed) dan "barang sudah sampai" (receipt validated).
 
-(via [flows/purchase/purchase-order-creation-flow.md](qmd://odoo19-vault/flows/purchase/purchase-order-creation-flow.md) dan [flows/purchase/purchase-order-receipt-flow.md](qmd://odoo19-vault/flows/purchase/purchase-order-receipt-flow.md))
+(via [flows/purchase/purchase-order-creation-flow.md](../../../../../Flows/Purchase/purchase-order-creation-flow.md) dan [flows/purchase/purchase-order-receipt-flow.md](../../../../../Flows/Purchase/purchase-order-receipt-flow.md))
 
 ### Fase 3: Receipt Picking — Terima Barang (stock.picking state flow)
 
@@ -85,7 +85,7 @@ draft
 3. `account.move` (journal entry) dibuat jika `stock_account` terinstall dan valuation real-time aktif
 4. `purchase.order.line.qty_received` di-update sesuai quantity yang diterima
 
-(via [flows/purchase/purchase-order-receipt-flow.md](qmd://odoo19-vault/flows/purchase/purchase-order-receipt-flow.md) dan [modules/stock-picking.md](qmd://odoo19-vault/modules/stock-picking.md))
+(via [flows/purchase/purchase-order-receipt-flow.md](../../../../../Flows/Purchase/purchase-order-receipt-flow.md) dan [modules/stock-picking.md](qmd://odoo19-vault/modules/stock-picking.md))
 
 ### State Machine Lengkap purchase.order
 
@@ -98,7 +98,7 @@ draft (RFQ)
                          └─→ cancel (Cancelled)  [harus unlock dulu jika locked]
 ```
 
-(via [modules/purchase.md](qmd://odoo19-vault/modules/purchase.md))
+(via [modules/purchase.md](../../../../Modules/Purchase.md))
 
 ---
 
@@ -142,17 +142,17 @@ PO qty_received == product_qty?
 
 ## Related Topics
 
-- [[Modules/Purchase]] — semua model dan field detail Purchase Order
-- [[Modules/Stock]] — stock.quant, stock.move, stock.location
-- [[flows/purchase/purchase-to-bill-flow]] — lanjutan workflow: dari receipt ke vendor bill
-- [[flows/stock/receipt-flow]] — alur receipt yang lebih detail termasuk return
-- [[Modules/stock-account]] — inventory valuation saat receipt divalidasi
+- [Modules/Purchase](../../../../../Modules/Purchase.md) — semua model dan field detail Purchase Order
+- [Modules/Stock](../../../../../Modules/Stock.md) — stock.quant, stock.move, stock.location
+- [flows/purchase/purchase-to-bill-flow](../../../../../Flows/Purchase/purchase-to-bill-flow.md) — lanjutan workflow: dari receipt ke vendor bill
+- [flows/stock/receipt-flow](../../../../../Flows/Stock/receipt-flow.md) — alur receipt yang lebih detail termasuk return
+- [Modules/stock-account](Modules/stock-account.md) — inventory valuation saat receipt divalidasi
 
 ---
 
 ## Sources
 
-- [flows/purchase/purchase-order-creation-flow.md](qmd://odoo19-vault/flows/purchase/purchase-order-creation-flow.md) — Alur lengkap metode chain dari RFQ creation ke PO confirmation
-- [flows/purchase/purchase-order-receipt-flow.md](qmd://odoo19-vault/flows/purchase/purchase-order-receipt-flow.md) — Alur detail receipt picking dari confirm sampai validate
-- [modules/purchase.md](qmd://odoo19-vault/modules/purchase.md) — Purchase module overview, state machine, model inventory
+- [flows/purchase/purchase-order-creation-flow.md](../../../../../Flows/Purchase/purchase-order-creation-flow.md) — Alur lengkap metode chain dari RFQ creation ke PO confirmation
+- [flows/purchase/purchase-order-receipt-flow.md](../../../../../Flows/Purchase/purchase-order-receipt-flow.md) — Alur detail receipt picking dari confirm sampai validate
+- [modules/purchase.md](../../../../Modules/Purchase.md) — Purchase module overview, state machine, model inventory
 - [modules/stock-picking.md](qmd://odoo19-vault/modules/stock-picking.md) — stock.picking model, field index, state workflow

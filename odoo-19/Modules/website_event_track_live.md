@@ -46,5 +46,5 @@ Module `website_event_track_live` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Website]]
+- [Modules/Base](base.md)
+- [Modules/Website](website.md)

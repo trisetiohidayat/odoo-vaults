@@ -11,12 +11,12 @@ Tags: #odoo18 #l10n #accounting #edi
 France-specific EDI extension that bridges Factur-X (EN 16931 compliant cross-border e-invoice format) with Chorus Pro — France's government e-invoicing portal for public procurement. Adds three optional fields to invoices required when submitting to Chorus Pro and enables Peppol channel delivery via the Pagero network.
 
 ## Country
-[France](account.md) 🇫🇷
+[France](Modules/account.md) 🇫🇷
 
 ## Dependencies
-- [account](BaseModel.md)
+- [account](Core/BaseModel.md)
 - account_edi_ubl_cii
-- [l10n_fr_account](account.md)
+- [l10n_fr_account](Modules/account.md)
 
 ## Key Models
 
@@ -39,13 +39,13 @@ These fields are displayed in a "Chorus Pro" group on the invoice form, visible 
 No data files (all configuration is in model extensions and view inheritance).
 
 ## Chart of Accounts
-Inherits from base `account` and [l10n_fr_account](account.md).
+Inherits from base `account` and [l10n_fr_account](Modules/account.md).
 
 ## Tax Structure
-Inherits from [l10n_fr_account](account.md).
+Inherits from [l10n_fr_account](Modules/account.md).
 
 ## Fiscal Positions
-Inherits from [l10n_fr_account](account.md).
+Inherits from [l10n_fr_account](Modules/account.md).
 
 ## EDI/Fiscal Reporting
 

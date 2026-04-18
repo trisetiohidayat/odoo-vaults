@@ -15,4 +15,4 @@ Localized accounting for Iraq.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/Account](Account.md) — Core accounting
+- [Modules/Account](Modules/Account.md) — Core accounting

@@ -98,5 +98,5 @@ Override of payment to return an access token as provider-specific processing va
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

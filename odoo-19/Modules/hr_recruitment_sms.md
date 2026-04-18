@@ -43,5 +43,5 @@ Module `hr_recruitment_sms` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/HR]]
+- [Modules/Base](base.md)
+- [Modules/HR](HR.md)

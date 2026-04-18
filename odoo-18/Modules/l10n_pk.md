@@ -14,7 +14,7 @@ Pakistan accounting localization providing the Pakistani chart of accounts, GST/
 Pakistan
 
 ## Dependencies
-- [Core/BaseModel](BaseModel.md) (account)
+- [Core/BaseModel](Core/BaseModel.md) (account)
 - `account` — core accounting module
 
 ## Key Models

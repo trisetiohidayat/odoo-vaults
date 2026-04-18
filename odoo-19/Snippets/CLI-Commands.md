@@ -333,7 +333,7 @@ odoo-bin module upgrade my_custom_module -d mydb
 
 ## Relation dengan Konsep Lain
 
-- [startup-sequence](startup-sequence.md) — what happens after `odoo-bin server` runs
-- [server-wide-modules](server-wide-modules.md) — `--load` option, REQUIRED_SERVER_WIDE_MODULES
+- [startup-sequence](Core/Startup-Sequence.md) — what happens after `odoo-bin server` runs
+- [server-wide-modules](Core/Server-Wide-Modules.md) — `--load` option, REQUIRED_SERVER_WIDE_MODULES
 - [custom-module-in-minimal-env](custom-module-in-minimal-env.md) — scaffolding a custom module
 - [odoo-conf-minimal-reference](odoo-conf-minimal-reference.md) — odoo.conf equivalent of CLI options

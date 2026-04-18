@@ -15,11 +15,11 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/HR/attendance-checkin-flow](attendance-checkin-flow.md)"
-  - "[Flows/HR/leave-request-flow](leave-request-flow.md)"
-  - "[Flows/HR/employee-creation-flow](employee-creation-flow.md)"
+  - "[Flows/HR/attendance-checkin-flow](Flows/HR/attendance-checkin-flow.md)"
+  - "[Flows/HR/leave-request-flow](Flows/HR/leave-request-flow.md)"
+  - "[Flows/HR/employee-creation-flow](Flows/HR/employee-creation-flow.md)"
 related_guides:
-  - "[Business/HR/quickstart-employee-setup](quickstart-employee-setup.md)"
+  - "[Business/HR/quickstart-employee-setup](Business/HR/quickstart-employee-setup.md)"
 source_module: resource
 source_path: ~/odoo/odoo19/odoo/addons/resource/
 created: 2026-04-07
@@ -400,10 +400,10 @@ def _compute_worked_hours(self):
 
 ## Related
 
-- [Modules/resource](resource.md) — Resource module reference
-- [Modules/hr_attendance](hr_attendance.md) — HR attendance module reference
-- [Flows/HR/attendance-checkin-flow](attendance-checkin-flow.md) — Check-in flow details
-- [Flows/HR/leave-request-flow](leave-request-flow.md) — Leave request flow using calendar
-- [Business/HR/quickstart-employee-setup](quickstart-employee-setup.md) — Employee onboarding including resource setup
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — Workflow pattern reference
-- [Core/API](API.md) — @api decorator patterns
+- [Modules/resource](Modules/resource.md) — Resource module reference
+- [Modules/hr_attendance](Modules/hr_attendance.md) — HR attendance module reference
+- [Flows/HR/attendance-checkin-flow](Flows/HR/attendance-checkin-flow.md) — Check-in flow details
+- [Flows/HR/leave-request-flow](Flows/HR/leave-request-flow.md) — Leave request flow using calendar
+- [Business/HR/quickstart-employee-setup](Business/HR/quickstart-employee-setup.md) — Employee onboarding including resource setup
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](Core/API.md) — @api decorator patterns

@@ -64,5 +64,5 @@ Module `stock_maintenance` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Stock]]
+- [Modules/Base](base.md)
+- [Modules/Stock](Stock.md)

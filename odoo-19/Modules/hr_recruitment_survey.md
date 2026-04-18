@@ -108,5 +108,5 @@ If response is available then print this response otherwise print survey form (p
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/HR]]
+- [Modules/Base](base.md)
+- [Modules/HR](HR.md)

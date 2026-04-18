@@ -531,5 +531,5 @@ Two main pages:
 
 ## Related
 
-- [Modules/mail](mail.md) - Mail module documentation
-- [Modules/fetchmail](fetchmail.md) - Email alias configuration
+- [Modules/mail](Modules/mail.md) - Mail module documentation
+- [Modules/fetchmail](Modules/fetchmail.md) - Email alias configuration

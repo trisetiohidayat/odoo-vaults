@@ -46,5 +46,5 @@ If any line of the order refers to a kit product, the availability of the produc
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Website]]
+- [Modules/Base](base.md)
+- [Modules/Website](website.md)

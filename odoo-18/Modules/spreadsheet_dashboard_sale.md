@@ -27,7 +27,7 @@ Both are group-restricted to `sales_team.group_sale_manager`. Auto-installs when
 
 ## Extends
 
-- [Modules/spreadsheet_dashboard](spreadsheet_dashboard.md) — base dashboard framework
+- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — base dashboard framework
 - `sale` — core sales management
 
 ## Data
@@ -43,4 +43,4 @@ Both are group-restricted to `sales_team.group_sale_manager`. Auto-installs when
 
 ---
 
-*See also: [Modules/spreadsheet_dashboard](spreadsheet_dashboard.md), [Modules/sale](sale.md)*
+*See also: [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md), [Modules/sale](Modules/sale.md)*

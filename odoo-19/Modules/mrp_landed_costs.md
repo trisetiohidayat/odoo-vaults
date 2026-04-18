@@ -44,5 +44,5 @@ Module `mrp_landed_costs` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/MRP]]
+- [Modules/Base](base.md)
+- [Modules/MRP](MRP.md)

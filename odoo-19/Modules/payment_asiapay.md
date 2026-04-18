@@ -70,5 +70,5 @@ Override of `payment` to ensure that AsiaPay requirements for references are sat
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

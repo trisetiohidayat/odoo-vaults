@@ -8,10 +8,10 @@
 
 ## Key Points
 
-- **Trigger:** `stock.move.action_done()` dipanggil saat user klik **Validate** pada `stock.picking` receipt — tidak ada aksi user setelah itu selain kaskade valuation logic otomatis (via [flows/stock/stock-valuation-flow.md](qmd://odoo19-vault/flows/stock/stock-valuation-flow.md))
+- **Trigger:** `stock.move.action_done()` dipanggil saat user klik **Validate** pada `stock.picking` receipt — tidak ada aksi user setelah itu selain kaskade valuation logic otomatis (via [flows/stock/stock-valuation-flow.md](../../../../../Flows/Stock/stock-valuation-flow.md))
 - **Dua metode valuation:** `real_time` (otomatis per move) vs `periodic` (manual, adjustment di closing), dikontrol via field `property_valuation` pada `product.category` (via [modules/stock-account.md](qmd://odoo19-vault/modules/stock-account.md))
 - **Model inti:** `stock.valuation.layer` mencatat setiap perubahan inventory valuation (FIFO/AVCO), dan link ke `account.move` yang dihasilkan (via [modules/stock-account.md](qmd://odoo19-vault/modules/stock-account.md))
-- **Purchase receipt khusus:** Terima barang dari vendor → receipt move → stock valuation layer → journal entry (via [flows/stock/stock-valuation-flow.md](qmd://odoo19-vault/flows/stock/stock-valuation-flow.md) + cross-vault source)
+- **Purchase receipt khusus:** Terima barang dari vendor → receipt move → stock valuation layer → journal entry (via [flows/stock/stock-valuation-flow.md](../../../../../Flows/Stock/stock-valuation-flow.md) + cross-vault source)
 - **Account configuration:** Valuasi di-resolve dari `product.categ_id.property_valuation` atau fallback ke `company.inventory_valuation` (via [modules/stock-account.md](qmd://odoo19-vault/modules/stock-account.md))
 
 ---
@@ -59,7 +59,7 @@ stock.move.action_done()
   │
   └─► stock.picking._compute_state() → state = 'done'
 ```
-(via [flows/stock/stock-valuation-flow.md](qmd://odoo19-vault/flows/stock/stock-valuation-flow.md))
+(via [flows/stock/stock-valuation-flow.md](../../../../../Flows/Stock/stock-valuation-flow.md))
 
 ### 4. Receipt Valuation: stock.quant update + valuation layer creation
 
@@ -106,7 +106,7 @@ Setelah move dibuat, `stock.valuation.layer` di-write dengan `account_move_id`-n
 ```python
 stock.valuation.layer.write({account_move_id: new_move.id})
 ```
-(via [flows/stock/stock-valuation-flow.md](qmd://odoo19-vault/flows/stock/stock-valuation-flow.md))
+(via [flows/stock/stock-valuation-flow.md](../../../../../Flows/Stock/stock-valuation-flow.md))
 
 ### 6. Cost Method Resolution untuk Receipt
 
@@ -203,7 +203,7 @@ stock.move.action_done()
 
 ## Sources
 
-- [flows/stock/stock-valuation-flow.md](qmd://odoo19-vault/flows/stock/stock-valuation-flow.md) — Main flow document dengan complete method chain
+- [flows/stock/stock-valuation-flow.md](../../../../../Flows/Stock/stock-valuation-flow.md) — Main flow document dengan complete method chain
 - [modules/stock-account.md](qmd://odoo19-vault/modules/stock-account.md) — Module documentation dengan model extensions, configuration fields, dan cost method hierarchy
 - [odoo-minimal-wiki/wiki/sources/odoo19-stock-account-stock-move-py.md](qmd://odoo-minimal-wiki/wiki/sources/odoo19-stock-account-stock-move-py.md) — Source code reference untuk real-time valuation logic
 - [odoo-minimal-wiki/wiki/sources/odoo19-purchase-stock-stock-move-py.md](qmd://odoo-minimal-wiki/wiki/sources/odoo19-purchase-stock-stock-move-py.md) — Source code untuk purchase_stock extension pada stock move

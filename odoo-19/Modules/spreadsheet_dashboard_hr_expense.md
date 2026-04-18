@@ -15,7 +15,7 @@ tags: [odoo, odoo19, spreadsheet, dashboard, expenses, hr_expense, finance]
 | License | LGPL-3 |
 | Module type | Data-only (no Python models) |
 
-Provides a pre-configured [spreadsheet_dashboard](spreadsheet_dashboard.md) template for finance and HR managers to monitor employee expense submissions, approval workflows, and expense re-invoicing to customers. Auto-installs when `sale_expense` is active.
+Provides a pre-configured [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template for finance and HR managers to monitor employee expense submissions, approval workflows, and expense re-invoicing to customers. Auto-installs when `sale_expense` is active.
 
 ## Module Architecture
 
@@ -201,8 +201,8 @@ spreadsheet_dashboard_hr_expense
 
 ## Related Modules
 
-- [spreadsheet_dashboard](spreadsheet_dashboard.md) — Framework providing `spreadsheet.dashboard` model
-- [spreadsheet_account](spreadsheet_account.md) — Accounting formulas for financial integration
+- [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Framework providing `spreadsheet.dashboard` model
+- [spreadsheet_account](Modules/spreadsheet_account.md) — Accounting formulas for financial integration
 - `hr_expense` — Expense model, approval workflow, reimbursement
 - `sale_expense` — Links expenses to sale orders for customer billing
 

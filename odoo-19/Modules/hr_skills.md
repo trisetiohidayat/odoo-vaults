@@ -1639,26 +1639,26 @@ Test: Activities are only created once
 
 ## Related Modules
 
-- [Modules/HR](HR.md) - Core HR module (dependency)
-- [Modules/Resource](resource.md) - Resource scheduling
-- [Modules/Mail](mail.md) - Activity and notification system
-- [Modules/documents](documents.md) - Document management for certificates
-- [Modules/hr_recruitment](hr_recruitment.md) - Applicant tracking (skill matching)
-- [Modules/hr_recruitment_skills](hr_recruitment_skills.md) - Skills assessment for recruitment
-- [Modules/hr_skills](hr_skills.md) - Skills assessment in events
-- [Modules/hr_skills](hr_skills.md) - Skills from e-learning (integrates with slides)
-- [Modules/hr_skills](hr_skills.md) - Skills from surveys/certifications
+- [Modules/HR](Modules/HR.md) - Core HR module (dependency)
+- [Modules/Resource](Modules/resource.md) - Resource scheduling
+- [Modules/Mail](Modules/mail.md) - Activity and notification system
+- [Modules/documents](Modules/documents.md) - Document management for certificates
+- [Modules/hr_recruitment](Modules/hr_recruitment.md) - Applicant tracking (skill matching)
+- [Modules/hr_recruitment_skills](Modules/hr_recruitment_skills.md) - Skills assessment for recruitment
+- [Modules/hr_skills](Modules/hr_skills.md) - Skills assessment in events
+- [Modules/hr_skills](Modules/hr_skills.md) - Skills from e-learning (integrates with slides)
+- [Modules/hr_skills](Modules/hr_skills.md) - Skills from surveys/certifications
 
 ---
 
 ## See Also
 
-- [Core/Fields](Fields.md) - Field types used in skills
-- [Core/API](API.md) - @api.depends, @api.constrains decorators
-- [Core/BaseModel](BaseModel.md) - Model foundation and inheritance
-- [Patterns/Security Patterns](Security Patterns.md) - Access control implementation
-- [Modules/HR](HR.md) - Employee model extension
-- [Modules/hr_recruitment](hr_recruitment.md) - Job position model
+- [Core/Fields](Core/Fields.md) - Field types used in skills
+- [Core/API](Core/API.md) - @api.depends, @api.constrains decorators
+- [Core/BaseModel](Core/BaseModel.md) - Model foundation and inheritance
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) - Access control implementation
+- [Modules/HR](Modules/HR.md) - Employee model extension
+- [Modules/hr_recruitment](Modules/hr_recruitment.md) - Job position model
 
 ---
 

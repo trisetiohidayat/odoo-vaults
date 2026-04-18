@@ -51,6 +51,6 @@ Danish journal settings.
 Nemhandel proxy user for sending/receiving OIOUBL documents.
 
 ## Related
-- [Modules/l10n_dk](l10n_dk.md) — Core Danish accounting
-- [Modules/l10n_dk_oioubl](l10n_dk_oioubl.md) — OIOUBL 2.0 (older format)
-- [Modules/account_edi_proxy_client](account_edi_proxy_client.md) — EDI proxy framework
+- [Modules/l10n_dk](Modules/l10n_dk.md) — Core Danish accounting
+- [Modules/l10n_dk_oioubl](Modules/l10n_dk_oioubl.md) — OIOUBL 2.0 (older format)
+- [Modules/account_edi_proxy_client](Modules/account_edi_proxy_client.md) — EDI proxy framework

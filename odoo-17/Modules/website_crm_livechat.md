@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, website-crm-livechat]
 
 
 
-- [Modules/website](website.md) — Website builder base
+- [Modules/website](Modules/website.md) — Website builder base

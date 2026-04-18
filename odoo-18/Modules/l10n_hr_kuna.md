@@ -11,10 +11,10 @@ Tags: #odoo18 #l10n #accounting
 Croatian accounting localization using the Kuna (HRK) currency — pre-Euro Croatian chart of accounts based on RRIF 2012 standards. Since Croatia adopted the Euro on 1 January 2023, this module is historical but still relevant for companies transitioning from HRK records or running dual-currency ledgers. Uses Storno accounting and 6-digit codes.
 
 ## Country
-[Croatia](account.md) 🇭🇷 (Euro zone since 2023)
+[Croatia](Modules/account.md) 🇭🇷 (Euro zone since 2023)
 
 ## Dependencies
-- [account](BaseModel.md)
+- [account](Core/BaseModel.md)
 
 ## Key Models
 

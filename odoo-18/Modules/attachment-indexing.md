@@ -350,4 +350,4 @@ Menu: The module does not add menus — it extends the existing attachment infra
 
 Access: All users benefit from indexing; no special permissions required.
 
-Related: [Core/Fields](Fields.md) (binary/file fields), [Tools/ORM Operations](ORM Operations.md) (ir.attachment CRUD), [Modules/data-recycle](data-recycle.md) (cleanup)
+Related: [Core/Fields](Core/Fields.md) (binary/file fields), [Tools/ORM Operations](Tools/ORM Operations.md) (ir.attachment CRUD), [Modules/data-recycle](Modules/data-recycle.md) (cleanup)

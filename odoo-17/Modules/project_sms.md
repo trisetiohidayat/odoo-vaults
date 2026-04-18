@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, project-sms]
 
 
 
-- [Modules/project](project.md) — Project base module
+- [Modules/project](Modules/project.md) — Project base module

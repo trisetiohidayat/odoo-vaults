@@ -46,5 +46,5 @@ Check the formula is passing the minimum check to ensure the compatibility betwe
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Account]]
+- [Modules/Base](base.md)
+- [Modules/Account](Account.md)

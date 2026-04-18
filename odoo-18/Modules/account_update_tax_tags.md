@@ -72,5 +72,5 @@ Action method called from the wizard button. Validates no children taxes belong 
 
 ## See Also
 
-- [Modules/Account](account.md) — the base accounting module
-- [Core/API](API.md) — `@api.depends`, `@api.constrains`
+- [Modules/Account](Modules/account.md) — the base accounting module
+- [Core/API](Core/API.md) — `@api.depends`, `@api.constrains`

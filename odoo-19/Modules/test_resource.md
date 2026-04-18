@@ -223,5 +223,5 @@ Error case tests. (Full content not loaded — refers to invalid calendar config
 
 ## Related
 
-- [Modules/resource](resource.md) — Resource calendar, working hours, and capacity planning
-- [Core/API](Core/API.md) — `@api.depends` and computed field patterns
+- [Modules/resource](Modules/resource.md) — Resource calendar, working hours, and capacity planning
+- [Core/API](API.md) — `@api.depends` and computed field patterns

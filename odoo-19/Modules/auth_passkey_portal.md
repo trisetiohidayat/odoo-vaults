@@ -299,7 +299,7 @@ Portal users see Passkeys section in their security settings
 
 ## See Also
 
-- [[Modules/Auth Totp Mail]] — TOTP via email for internal users
-- [[Modules/Auth Totp]] — TOTP authenticator app for internal users
-- [[Patterns/Security Patterns]] — ACL, record rules, authentication patterns
-- [[Core/Authentication]] — Odoo's authentication framework
+- [Modules/Auth Totp Mail](Modules/Auth-Totp-Mail.md) — TOTP via email for internal users
+- [Modules/Auth Totp](Modules/Auth-Totp.md) — TOTP authenticator app for internal users
+- [Patterns/Security Patterns](../Patterns/Security Patterns.md) — ACL, record rules, authentication patterns
+- [Core/Authentication](Core/Authentication.md) — Odoo's authentication framework

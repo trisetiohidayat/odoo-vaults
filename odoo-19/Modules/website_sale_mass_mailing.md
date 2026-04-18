@@ -65,5 +65,5 @@ Computing newsletter setting when changing the website in the res.config.setting
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Website]]
+- [Modules/Base](base.md)
+- [Modules/Website](website.md)

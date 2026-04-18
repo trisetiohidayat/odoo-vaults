@@ -258,5 +258,5 @@ Register the existing user as a receiver.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Account]]
+- [Modules/Base](base.md)
+- [Modules/Account](Account.md)

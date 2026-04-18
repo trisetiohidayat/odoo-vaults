@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, product-expiry]
 
 
 
-- [Modules/product](product.md) — Product extension
+- [Modules/product](Modules/product.md) — Product extension

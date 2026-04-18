@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, base-install-request]
 
 
 
-- [Modules/base](base.md) — Base utility extension
+- [Modules/base](Modules/base.md) — Base utility extension

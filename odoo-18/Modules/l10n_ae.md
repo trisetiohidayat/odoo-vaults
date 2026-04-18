@@ -56,7 +56,7 @@ VAT at 5% standard rate (introduced January 2018). Per-emirate tax authority cod
 In `data/account_tax_report_data.xml` — fiscal positions for cross-border transactions.
 
 ## EDI/Fiscal Reporting
-No EDI module — relies on [Modules/l10n_gcc_invoice](l10n_gcc_invoice.md) for bilingual reporting.
+No EDI module — relies on [Modules/l10n_gcc_invoice](Modules/l10n_gcc_invoice.md) for bilingual reporting.
 
 ## Installation
 `auto_install: ['account']` — automatically installed with account module when UAE is selected as country.

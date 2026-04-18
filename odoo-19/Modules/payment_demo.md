@@ -94,5 +94,5 @@ Set the state of the demo transaction to 'done'.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

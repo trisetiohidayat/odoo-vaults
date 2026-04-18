@@ -100,5 +100,5 @@ Module `spreadsheet_dashboard` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

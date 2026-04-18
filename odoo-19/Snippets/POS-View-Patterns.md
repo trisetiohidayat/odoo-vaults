@@ -1115,7 +1115,7 @@ this.notification.add("Order saved successfully", {
 // ORM service — search
 const partners = await this.pos.data.searchRead(
     "res.partner",
-    [["customer_rank", ">", 0]],
+    ["customer_rank", ">", 0]("customer_rank",-">",-0.md),
     ["id", "name", "email", "phone"],
     { limit: 50 }
 );
@@ -1149,7 +1149,7 @@ this.pos.bus.send("pos.order.changed", {
 const result = await this.pos.data.call(
     "pos.payment.method",
     "send_dpopay_request",
-    [[paymentMethodId]],
+    [paymentMethodId](paymentMethodId.md),
     { data: payload, action: "start-transaction" }
 );
 

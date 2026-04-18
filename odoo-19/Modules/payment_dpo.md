@@ -69,5 +69,5 @@ Override of `payment` to return DPO-specific processing values.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

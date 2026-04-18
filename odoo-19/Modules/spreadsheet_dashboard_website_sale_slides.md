@@ -15,7 +15,7 @@ tags: [odoo, odoo19, spreadsheet, dashboard, elearning, website-slides, courses,
 | License | LGPL-3 |
 | Module type | Data-only (no Python models) |
 
-Provides a pre-configured [spreadsheet_dashboard](spreadsheet_dashboard.md) template named "eLearning" for course managers and content teams. Tracks enrollment, course completion, and revenue from paid online courses sold via the Odoo website. Auto-installs when `website_sale_slides` is active and appears in the Website dashboard group.
+Provides a pre-configured [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template named "eLearning" for course managers and content teams. Tracks enrollment, course completion, and revenue from paid online courses sold via the Odoo website. Auto-installs when `website_sale_slides` is active and appears in the Website dashboard group.
 
 ## Module Architecture
 
@@ -262,9 +262,9 @@ spreadsheet_dashboard_website_sale_slides
 
 ## Related Modules
 
-- [spreadsheet_dashboard](spreadsheet_dashboard.md) — Dashboard framework
-- [spreadsheet_dashboard_website_sale](spreadsheet_dashboard_website_sale.md) — eCommerce analytics (sibling module, same group)
-- [spreadsheet_account](spreadsheet_account.md) — Accounting formulas for revenue integration
+- [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [spreadsheet_dashboard_website_sale](Modules/spreadsheet_dashboard_website_sale.md) — eCommerce analytics (sibling module, same group)
+- [spreadsheet_account](Modules/spreadsheet_account.md) — Accounting formulas for revenue integration
 - `website_slides` — eLearning platform: slide.channel, slide.slide, enrollment models
 - `website_sale_slides` — Paid course access: links course enrollment to sale orders
 

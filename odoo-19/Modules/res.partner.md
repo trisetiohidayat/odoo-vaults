@@ -56,17 +56,17 @@ team_id = fields.Many2one('crm.team', string='Sales Team')
 
 | Model | Relation |
 |-------|----------|
-| [Modules/Sale](Sale.md) | customer_id |
-| [Modules/Purchase](Purchase.md) | partner_id (vendor) |
-| [Modules/Account](Account.md) | partner_id |
-| [Modules/CRM](CRM.md) | partner_id |
-| [Modules/Stock](Stock.md) | partner_id |
-| [Modules/MRP](MRP.md) | None direct |
+| [Modules/Sale](Modules/Sale.md) | customer_id |
+| [Modules/Purchase](Modules/Purchase.md) | partner_id (vendor) |
+| [Modules/Account](Modules/Account.md) | partner_id |
+| [Modules/CRM](Modules/CRM.md) | partner_id |
+| [Modules/Stock](Modules/Stock.md) | partner_id |
+| [Modules/MRP](Modules/MRP.md) | None direct |
 
 ## Related
 
-- [Core/BaseModel](BaseModel.md) - ORM foundation
-- [Modules/Sale](Sale.md) - Customer
-- [Modules/Purchase](Purchase.md) - Vendor
-- [Modules/Account](Account.md) - Receivables/Payables
-- [Modules/CRM](CRM.md) - Lead/Opportunity
+- [Core/BaseModel](Core/BaseModel.md) - ORM foundation
+- [Modules/Sale](Modules/Sale.md) - Customer
+- [Modules/Purchase](Modules/Purchase.md) - Vendor
+- [Modules/Account](Modules/Account.md) - Receivables/Payables
+- [Modules/CRM](Modules/CRM.md) - Lead/Opportunity

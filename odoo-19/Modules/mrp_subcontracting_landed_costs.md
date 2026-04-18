@@ -246,7 +246,7 @@ The domain is logically sound for Odoo 19's stock move state machine.
 
 ## Related
 
-- [Modules/stock_landed_costs](stock_landed_costs.md) — Base landed costs module (`stock.landed.cost` model)
-- [Modules/mrp_subcontracting](mrp_subcontracting.md) — Subcontracting manufacturing orders and pickings
-- [Modules/mrp_landed_costs](mrp_landed_costs.md) — MRP-specific landed cost views (adds `mrp_production_ids` field)
-- [Modules/stock_account](stock_account.md) — Valuation and landed cost accounting integration
+- [Modules/stock_landed_costs](Modules/stock_landed_costs.md) — Base landed costs module (`stock.landed.cost` model)
+- [Modules/mrp_subcontracting](Modules/mrp_subcontracting.md) — Subcontracting manufacturing orders and pickings
+- [Modules/mrp_landed_costs](Modules/mrp_landed_costs.md) — MRP-specific landed cost views (adds `mrp_production_ids` field)
+- [Modules/stock_account](Modules/stock_account.md) — Valuation and landed cost accounting integration

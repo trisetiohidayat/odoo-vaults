@@ -43,5 +43,5 @@ Module `account_qr_code_sepa` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Account]]
+- [Modules/Base](base.md)
+- [Modules/Account](Account.md)

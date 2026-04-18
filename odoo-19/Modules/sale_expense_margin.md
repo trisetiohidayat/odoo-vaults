@@ -63,5 +63,5 @@ Module `sale_expense_margin` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Sale]]
+- [Modules/Base](base.md)
+- [Modules/Sale](Sale.md)

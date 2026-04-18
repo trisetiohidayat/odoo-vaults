@@ -36,7 +36,7 @@ Dokumentasi lengkap semua **manifest fields** yang digunakan di Odoo 19. Analisi
 | `version` | 532 | Module version (must match Odoo version) |
 | `data` | 537 | List of data file paths (XML/CSV) |
 | `demo` | 245 | List of demo data file paths |
-| `auto_install` | 383 | `True`/`False`/list — see [auto-install-mechanism](auto-install-mechanism.md) |
+| `auto_install` | 383 | `True`/`False`/list — see [auto-install-mechanism](Core/Auto-Install-Mechanism.md) |
 | `summary` | 313 | Short one-line summary |
 | `assets` | 275 | Web asset bundles (SCSS, JS, XML) |
 | `installable` | 253 | `True`/False — show in Apps list |
@@ -94,7 +94,7 @@ def uninstall_hook(cr, registry):
 # (383 total)
 ```
 
-See [auto-install-mechanism](auto-install-mechanism.md) for full detail.
+See [auto-install-mechanism](Core/Auto-Install-Mechanism.md) for full detail.
 
 ## `assets` Bundle System
 
@@ -170,7 +170,7 @@ Only 3 modules use `bootstrap=True`:
 
 ## Relasi dengan Konsep Lain
 
-- [auto-install-mechanism](auto-install-mechanism.md) — auto_install field detail
+- [auto-install-mechanism](Core/Auto-Install-Mechanism.md) — auto_install field detail
 - [module-loading-sequence](module-loading-sequence.md) — when data files load
 - [ir-module-module-deep-dive](ir-module-module-deep-dive.md) — ir.module.module model
 - [odoo-minimal-installation](odoo-minimal-installation.md) — bootstrap field enables /doc before login

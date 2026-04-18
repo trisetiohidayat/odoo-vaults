@@ -3,10 +3,10 @@ title: Performance Optimization Guide
 date: 2026-04-14
 tags: [odoo, odoo19, performance, optimization, n+1, batch, index, cache]
 related_links:
-  - "[[Core/BaseModel]]"
-  - "[[Core/API]]"
-  - "[[Tools/ORM Operations]]"
-  - "[[Modules/Stock]]"
+  - "[Core/BaseModel](../Core/BaseModel.md)"
+  - "[Core/API](../Core/API.md)"
+  - "[Tools/ORM Operations](ORM Operations.md)"
+  - "[Modules/Stock](../Modules/Stock.md)"
 ---
 
 # Odoo 19 Performance Optimization Guide
@@ -30,7 +30,7 @@ related_links:
 
 ## Introduction
 
-Performance optimization is critical for Odoo applications handling large datasets or complex workflows. This guide covers systematic techniques to identify and eliminate performance bottlenecks, based on analysis of Odoo 19's ORM internals (see `~/odoo/odoo19/odoo/odoo/orm/models.py`) and real-world patterns from modules like [[Modules/Stock]] (stock_quant.py) and [[Modules/Account]] (account_account.py).
+Performance optimization is critical for Odoo applications handling large datasets or complex workflows. This guide covers systematic techniques to identify and eliminate performance bottlenecks, based on analysis of Odoo 19's ORM internals (see `~/odoo/odoo19/odoo/odoo/orm/models.py`) and real-world patterns from modules like [Modules/Stock](../Modules/Stock.md) (stock_quant.py) and [Modules/Account](../Modules/Account.md) (account_account.py).
 
 **Key Constants in Odoo 19 ORM:**
 
@@ -999,11 +999,11 @@ class TestBenchmark(TransactionCase):
 
 ### Related Documentation
 
-- [[Core/BaseModel]] - ORM foundation
-- [[Core/API]] - decorators for computed fields
-- [[Tools/ORM Operations]] - CRUD operations guide
-- [[Modules/Stock]] - stock_quant.py performance patterns
-- [[Modules/Account]] - account_account.py indexing examples
+- [Core/BaseModel](../Core/BaseModel.md) - ORM foundation
+- [Core/API](../Core/API.md) - decorators for computed fields
+- [Tools/ORM Operations](ORM Operations.md) - CRUD operations guide
+- [Modules/Stock](../Modules/Stock.md) - stock_quant.py performance patterns
+- [Modules/Account](../Modules/Account.md) - account_account.py indexing examples
 
 ---
 

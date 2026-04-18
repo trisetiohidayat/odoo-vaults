@@ -2,7 +2,7 @@
 
 > Recruitment - Skills Management | Odoo S.A. | LGPL-3 | Category: Human Resources/Recruitment
 
-Bridges the [Modules/hr_skills](hr_skills.md) skills taxonomy with the [Modules/hr_recruitment](hr_recruitment.md) applicant pipeline. Allows recruiters to record skills and certifications on applicants, score applicants against job skill requirements, find matching candidates, and automatically provision `hr.employee.skill` records upon hiring.
+Bridges the [Modules/hr_skills](Modules/hr_skills.md) skills taxonomy with the [Modules/hr_recruitment](Modules/hr_recruitment.md) applicant pipeline. Allows recruiters to record skills and certifications on applicants, score applicants against job skill requirements, find matching candidates, and automatically provision `hr.employee.skill` records upon hiring.
 
 **Auto-installs** when both `hr_skills` and `hr_recruitment` are present.
 
@@ -56,15 +56,15 @@ hr_recruitment     ← dependency (hr.applicant, hr.job, hr.recruitment.degree)
 
 | Model | Module | Role |
 |---|---|---|
-| `hr.skill` | [Modules/hr_skills](hr_skills.md) | Skill ontology (name, type, active) |
-| `hr.skill.type` | [Modules/hr_skills](hr_skills.md) | Skill categories (Languages, Technical, Soft Skills, Certifications) |
-| `hr.skill.level` | [Modules/hr_skills](hr_skills.md) | Proficiency levels with `level_progress` (integer 0-100) |
-| `hr.job.skill` | [Modules/hr_skills](hr_skills.md) | Job required skills with required `level_progress` |
-| `hr.applicant` | [Modules/hr_recruitment](hr_recruitment.md) | Applicant record (extended) |
-| `hr.job` | [Modules/hr_recruitment](hr_recruitment.md) | Job position (extended) |
-| `hr.recruitment.degree` | [Modules/hr_recruitment](hr_recruitment.md) | Education level with `score` (float) |
+| `hr.skill` | [Modules/hr_skills](Modules/hr_skills.md) | Skill ontology (name, type, active) |
+| `hr.skill.type` | [Modules/hr_skills](Modules/hr_skills.md) | Skill categories (Languages, Technical, Soft Skills, Certifications) |
+| `hr.skill.level` | [Modules/hr_skills](Modules/hr_skills.md) | Proficiency levels with `level_progress` (integer 0-100) |
+| `hr.job.skill` | [Modules/hr_skills](Modules/hr_skills.md) | Job required skills with required `level_progress` |
+| `hr.applicant` | [Modules/hr_recruitment](Modules/hr_recruitment.md) | Applicant record (extended) |
+| `hr.job` | [Modules/hr_recruitment](Modules/hr_recruitment.md) | Job position (extended) |
+| `hr.recruitment.degree` | [Modules/hr_recruitment](Modules/hr_recruitment.md) | Education level with `score` (float) |
 | `hr.talent.pool` | `hr_recruitment_extended` | Talent pool applicant (linked via `pool_applicant_id`) |
-| `hr.employee.skill` | [Modules/hr_skills](hr_skills.md) | Employee skill (target when hiring) |
+| `hr.employee.skill` | [Modules/hr_skills](Modules/hr_skills.md) | Employee skill (target when hiring) |
 
 ---
 

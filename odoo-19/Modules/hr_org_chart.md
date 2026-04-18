@@ -111,5 +111,5 @@ Helper function to compute subordinates_ids.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/HR]]
+- [Modules/Base](base.md)
+- [Modules/HR](HR.md)

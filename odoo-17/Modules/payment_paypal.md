@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, payment-paypal]
 
 
 
-- [Modules/account](account.md) — Payment provider for accounting
+- [Modules/account](Modules/account.md) — Payment provider for accounting

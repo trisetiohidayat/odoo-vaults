@@ -45,5 +45,5 @@ Get the default generic services domain for sale.order.line.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Sale]]
+- [Modules/Base](base.md)
+- [Modules/Sale](Sale.md)

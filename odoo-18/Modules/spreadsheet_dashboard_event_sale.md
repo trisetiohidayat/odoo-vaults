@@ -22,7 +22,7 @@ Provides a `spreadsheet.dashboard` record that embeds a pre-built spreadsheet wi
 
 ## Extends
 
-- [Modules/spreadsheet_dashboard](spreadsheet_dashboard.md) — base dashboard framework
+- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — base dashboard framework
 - `event_sale` — event ticket sales
 
 ## Data
@@ -39,4 +39,4 @@ Provides a `spreadsheet.dashboard` record that embeds a pre-built spreadsheet wi
 
 ---
 
-*See also: [Modules/spreadsheet_dashboard](spreadsheet_dashboard.md)*
+*See also: [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md)*

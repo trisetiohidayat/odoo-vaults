@@ -47,5 +47,5 @@ Return an error for emv_qr if the account's country does no match any methods fo
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Account]]
+- [Modules/Base](base.md)
+- [Modules/Account](Account.md)

@@ -27,7 +27,7 @@ Inherits `account.chart.template`. Template prefix: `'sn'`. Provides `_get_sn_sy
 - `demo/demo_company.xml` — Senegal demo company
 
 ## Chart of Accounts
-SYSCOHADA. See [Modules/l10n_bf](l10n_bf.md).
+SYSCOHADA. See [Modules/l10n_bf](Modules/l10n_bf.md).
 
 ## Tax Structure
 TVA at 18% standard rate (WAEMU harmonized). IS (Impôt sur les Sociétés) at 30% standard rate. Senegal uses OHADA/SYSCOHADA accounting and WAEMU common tax directives.

@@ -1375,9 +1375,9 @@ The `livechat_status = 'need_help'` field enables peer-to-peer escalation:
 
 ## See Also
 
-- [Modules/mail](mail.md) — Core messaging
-- [Modules/rating](rating.md) — Customer ratings
-- [Modules/im_livechat](im_livechat.md) — Discussion channels
-- [Modules/bus](bus.md) — WebSocket bus system
-- [Core/API](API.md) — @api.model, @api.depends, computed fields
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine patterns
+- [Modules/mail](Modules/mail.md) — Core messaging
+- [Modules/rating](Modules/rating.md) — Customer ratings
+- [Modules/im_livechat](Modules/im_livechat.md) — Discussion channels
+- [Modules/bus](Modules/bus.md) — WebSocket bus system
+- [Core/API](Core/API.md) — @api.model, @api.depends, computed fields
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine patterns

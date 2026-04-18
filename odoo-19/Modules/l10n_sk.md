@@ -43,4 +43,4 @@ Pre viac informácií kontaktujte info@26house.com alebo navštívte https://www
 - Custom model files: account_move.py, res_company.py, template_sk.py
 
 ## Related
-- [Modules/l10n_sk](l10n_sk.md) - Core accounting
+- [Modules/l10n_sk](Modules/l10n_sk.md) - Core accounting

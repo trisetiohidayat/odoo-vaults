@@ -15,7 +15,7 @@ tags: [odoo, odoo19, spreadsheet, dashboard, sale-timesheet, timesheet, project,
 | License | LGPL-3 |
 | Module type | Data-only (no Python models) |
 
-Provides a pre-configured [spreadsheet_dashboard](spreadsheet_dashboard.md) template named "Timesheets" for service businesses that bill customers based on time logged. Bridges three data domains: project time tracking, sales orders, and billing. Auto-installs when `sale_timesheet` is active and appears in the Project dashboard group at sequence 200.
+Provides a pre-configured [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template named "Timesheets" for service businesses that bill customers based on time logged. Bridges three data domains: project time tracking, sales orders, and billing. Auto-installs when `sale_timesheet` is active and appears in the Project dashboard group at sequence 200.
 
 ## Module Architecture
 
@@ -249,9 +249,9 @@ Service delivery managers typically check the "Timesheets" dashboard before bill
 
 ## Related Modules
 
-- [spreadsheet_dashboard](spreadsheet_dashboard.md) — Dashboard framework
-- [spreadsheet_dashboard_hr_timesheet](spreadsheet_dashboard_hr_timesheet.md) — Internal project time tracking
-- [spreadsheet_account](spreadsheet_account.md) — Accounting integration for revenue recognition
+- [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [spreadsheet_dashboard_hr_timesheet](Modules/spreadsheet_dashboard_hr_timesheet.md) — Internal project time tracking
+- [spreadsheet_account](Modules/spreadsheet_account.md) — Accounting integration for revenue recognition
 - `sale_timesheet` — Links timesheets to sales orders and manages billability
 
 ## Source Files

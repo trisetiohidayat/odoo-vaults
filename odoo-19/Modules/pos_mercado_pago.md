@@ -79,5 +79,5 @@ Triggered in debug mode when the user wants to force the "PDV" mode.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

@@ -72,5 +72,5 @@ Matrix loading and update: fields and methods :
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Purchase]]
+- [Modules/Base](base.md)
+- [Modules/Purchase](Purchase.md)

@@ -425,12 +425,12 @@ The `website` model stores layout preferences:
 
 ## See Also
 
-- [Modules/website](website.md) — base website model
-- [Modules/sale](sale.md) — base `sale.order`
-- [Modules/sale_management](sale_management.md) — optional products, quotation templates
-- [Modules/payment](payment.md) — payment processing and transactions
-- [Modules/website_sale_loyalty](website_sale_loyalty.md) — coupons, loyalty, and rewards
-- [Modules/website_sale_wishlist](website_sale_wishlist.md) — wishlist/favorites
-- [Modules/website_sale_stock](website_sale_stock.md) — inventory-aware website features
-- [Modules/delivery](delivery.md) — delivery carrier and rate computation
-- [Modules/account](account.md) — fiscal positions, invoicing
+- [Modules/website](Modules/website.md) — base website model
+- [Modules/sale](Modules/sale.md) — base `sale.order`
+- [Modules/sale_management](Modules/sale_management.md) — optional products, quotation templates
+- [Modules/payment](Modules/payment.md) — payment processing and transactions
+- [Modules/website_sale_loyalty](Modules/website_sale_loyalty.md) — coupons, loyalty, and rewards
+- [Modules/website_sale_wishlist](Modules/website_sale_wishlist.md) — wishlist/favorites
+- [Modules/website_sale_stock](Modules/website_sale_stock.md) — inventory-aware website features
+- [Modules/delivery](Modules/delivery.md) — delivery carrier and rate computation
+- [Modules/account](Modules/account.md) — fiscal positions, invoicing

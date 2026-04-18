@@ -557,7 +557,7 @@ Record rules on `account.analytic.line` restrict access based on `company_id` an
 
 ## See Also
 
-- [Modules/Account](Account.md) — Invoice and journal entries that carry analytic distribution
-- [Modules/Project](Project.md) — Project cost tracking via analytic accounts
-- [Modules/hr_expense](hr_expense.md) — Expense reporting with analytic distribution
-- [Core/API](API.md) — @api.depends, computed fields used throughout
+- [Modules/Account](Modules/Account.md) — Invoice and journal entries that carry analytic distribution
+- [Modules/Project](Modules/Project.md) — Project cost tracking via analytic accounts
+- [Modules/hr_expense](Modules/hr_expense.md) — Expense reporting with analytic distribution
+- [Core/API](Core/API.md) — @api.depends, computed fields used throughout

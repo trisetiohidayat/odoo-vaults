@@ -58,6 +58,6 @@ Veri*Factu fiscal compliance for Point of Sale in Spain. Creates and submits Ver
 - `_update_sequence_number()` — OVERRIDE: blocked for Spanish POS with Veri*Factu enabled (no sequence number updates)
 
 ## Related
-- [Modules/l10n_es_edi_verifactu](l10n_es_edi_verifactu.md) — Core Veri*Factu document engine
-- [Modules/l10n_es_pos](l10n_es_pos.md) — Spanish POS base
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module
+- [Modules/l10n_es_edi_verifactu](Modules/l10n_es_edi_verifactu.md) — Core Veri*Factu document engine
+- [Modules/l10n_es_pos](Modules/l10n_es_pos.md) — Spanish POS base
+- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module

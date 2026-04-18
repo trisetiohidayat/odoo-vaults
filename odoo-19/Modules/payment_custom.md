@@ -502,9 +502,9 @@ DEFAULT_PAYMENT_METHOD_CODES = {
 
 ## Related
 
-- [Modules/payment](payment.md) — Base payment engine and transaction processing
-- [Modules/payment_demo](payment_demo.md) — Demo payment provider for testing
-- [Modules/payment_flutterwave](payment_flutterwave.md) — African payment provider
-- [Modules/payment_xendit](payment_xendit.md) — Southeast Asian payment provider
-- [Modules/payment_nuvei](payment_nuvei.md) — Latin American payment provider
-- [Modules/account_payment](account_payment.md) — Payment recording and reconciliation
+- [Modules/payment](Modules/payment.md) — Base payment engine and transaction processing
+- [Modules/payment_demo](Modules/payment_demo.md) — Demo payment provider for testing
+- [Modules/payment_flutterwave](Modules/payment_flutterwave.md) — African payment provider
+- [Modules/payment_xendit](Modules/payment_xendit.md) — Southeast Asian payment provider
+- [Modules/payment_nuvei](Modules/payment_nuvei.md) — Latin American payment provider
+- [Modules/account_payment](Modules/account_payment.md) — Payment recording and reconciliation

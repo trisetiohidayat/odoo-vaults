@@ -284,10 +284,10 @@ The access control model ensures that sensitive projects (e.g., internal R&D or 
 
 ## Related
 
-- [Modules/project](Project.md) — Project management: project, task, milestones
-- [Modules/mail_plugin](mail_plugin.md) — Base mail plugin: Outlook/Gmail add-in infrastructure
-- [Modules/project_todo](project_todo.md) — Project tasks backed by todo list (task sharing)
-- [Modules/crm_mail_plugin](crm_mail_plugin.md) — CRM equivalent: email-to-lead conversion in Outlook
+- [Modules/project](Modules/Project.md) — Project management: project, task, milestones
+- [Modules/mail_plugin](Modules/mail_plugin.md) — Base mail plugin: Outlook/Gmail add-in infrastructure
+- [Modules/project_todo](Modules/project_todo.md) — Project tasks backed by todo list (task sharing)
+- [Modules/crm_mail_plugin](Modules/crm_mail_plugin.md) — CRM equivalent: email-to-lead conversion in Outlook
 
 ## Real-World Scenarios
 
@@ -394,7 +394,7 @@ The `_get_contact_data` method limits task search to 5 results. This is a delibe
 
 ## Related
 
-- [Modules/mail_plugin](mail_plugin.md) — Base mail plugin infrastructure: authentication, contact panel
-- [Modules/project](Project.md) — Project management: tasks, milestones, planning
-- [Modules/crm_mail_plugin](crm_mail_plugin.md) — CRM equivalent: email-to-lead conversion
+- [Modules/mail_plugin](Modules/mail_plugin.md) — Base mail plugin infrastructure: authentication, contact panel
+- [Modules/project](Modules/Project.md) — Project management: tasks, milestones, planning
+- [Modules/crm_mail_plugin](Modules/crm_mail_plugin.md) — CRM equivalent: email-to-lead conversion
 - [Modules/project_helpdesk](project_helpdesk.md) — Project + Helpdesk integration

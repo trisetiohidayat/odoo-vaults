@@ -15,7 +15,7 @@ United States of America (`US`)
 
 ## Dependencies
 - `l10n_us`
-- [account](account.md)
+- [account](Modules/account.md)
 
 ## Key Models
 No Python model files. No chart template is defined here — the US chart of accounts is likely defined in the `account` module itself or in a separate data package.

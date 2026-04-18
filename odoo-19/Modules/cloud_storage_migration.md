@@ -101,5 +101,5 @@ Migrate attachment from local binary storage to cloud storage
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

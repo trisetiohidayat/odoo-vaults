@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, google-recaptcha]
 
 
 
-- [Modules/base](base.md) — Auth / base extension
+- [Modules/base](Modules/base.md) — Auth / base extension

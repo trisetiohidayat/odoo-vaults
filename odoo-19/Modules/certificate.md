@@ -364,8 +364,8 @@ Tests in `tests/test_keys_certificates.py` (`@tagged: post_install`):
 
 ## Related
 
-- [Modules/l10n_es_edi_sii](l10n_es_edi_sii.md) — Spanish SII e-invoicing
-- [Modules/l10n_pl_edi](l10n_pl_edi.md) — Polish KSeF e-invoicing
-- [Modules/l10n_sa_edi](l10n_sa_edi.md) — Saudi ZATCA e-invoicing
-- [Modules/account_peppol](account_peppol.md) — Peppol network participation
-- [Patterns/Security Patterns](Security Patterns.md) — ACL, ir.rule, field groups
+- [Modules/l10n_es_edi_sii](Modules/l10n_es_edi_sii.md) — Spanish SII e-invoicing
+- [Modules/l10n_pl_edi](Modules/l10n_pl_edi.md) — Polish KSeF e-invoicing
+- [Modules/l10n_sa_edi](Modules/l10n_sa_edi.md) — Saudi ZATCA e-invoicing
+- [Modules/account_peppol](Modules/account_peppol.md) — Peppol network participation
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL, ir.rule, field groups

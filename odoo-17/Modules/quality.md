@@ -126,5 +126,5 @@ Since the quality module is not present in this Odoo 17 installation, this page 
 
 ## See Also
 
-- [Modules/stock](stock.md) — picking types, stock moves (includes quality fields in community)
-- [Modules/mrp](mrp.md) — production quality integration
+- [Modules/stock](Modules/stock.md) — picking types, stock moves (includes quality fields in community)
+- [Modules/mrp](Modules/mrp.md) — production quality integration

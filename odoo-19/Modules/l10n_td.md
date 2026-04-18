@@ -15,4 +15,4 @@ Localized accounting for Tchad.
 - **Note**: Module has Python model files (extends base models)
 
 ## Related
-- [Modules/l10n_syscohada](l10n_syscohada.md) — Core accounting
+- [Modules/l10n_syscohada](Modules/l10n_syscohada.md) — Core accounting

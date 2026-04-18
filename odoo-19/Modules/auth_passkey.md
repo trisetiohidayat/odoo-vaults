@@ -478,7 +478,7 @@ base_setup/                 (required: provides user preferences UI)
 
 ### Comparison with auth_totp
 
-| Aspect | [auth_totp](auth_totp.md) | auth_passkey |
+| Aspect | [auth_totp](Modules/auth_totp.md) | auth_passkey |
 |--------|---------------------------|-------------|
 | Protocol | TOTP (RFC 6238) | FIDO2/WebAuthn |
 | Secret storage | Server-side (encrypted in DB) | Device-side (private key never leaves authenticator) |
@@ -490,7 +490,7 @@ base_setup/                 (required: provides user preferences UI)
 
 ## Related
 
-- [Modules/auth_totp](auth_totp.md) — TOTP-based two-factor authentication
-- [Modules/auth_totp_mail](auth_totp_mail.md) — TOTP enforcement via email
+- [Modules/auth_totp](Modules/auth_totp.md) — TOTP-based two-factor authentication
+- [Modules/auth_totp_mail](Modules/auth_totp_mail.md) — TOTP enforcement via email
 - [New Features/What's New](New%20Features/What's%20New.md) — Odoo 19 authentication changes
-- [Patterns/Cross-Module-Integration](Patterns/Cross-Module-Integration.md) — How `auth_passkey` connects to the web authentication stack
+- [Patterns/Cross-Module-Integration](Cross-Module-Integration.md) — How `auth_passkey` connects to the web authentication stack

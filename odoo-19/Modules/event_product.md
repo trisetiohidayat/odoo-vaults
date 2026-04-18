@@ -31,9 +31,9 @@ uuid: e5c1a8f2-7b3d-4e9a-8f1c-2d6b0e5a8c3f
 **License:** LGPL-3
 **Author:** Odoo S.A.
 
-`event_product` is the foundational bridge module connecting Odoo's [Modules/event](event.md) and [Modules/Product](Product.md) ecosystems. It establishes the product-ticket relationship that underlies the entire event registration fee system. Without this module, event tickets cannot be priced, sold, or invoiced through Odoo's standard sales and accounting flows.
+`event_product` is the foundational bridge module connecting Odoo's [Modules/event](Modules/event.md) and [Modules/Product](Modules/Product.md) ecosystems. It establishes the product-ticket relationship that underlies the entire event registration fee system. Without this module, event tickets cannot be priced, sold, or invoiced through Odoo's standard sales and accounting flows.
 
-The module does not sell anything by itself; instead it provides the infrastructure that other modules like [Modules/event_sale](event_sale.md) consume. Its core responsibilities are:
+The module does not sell anything by itself; instead it provides the infrastructure that other modules like [Modules/event_sale](Modules/event_sale.md) consume. Its core responsibilities are:
 
 1. **Product linkage** - Tie `product.product` records to `event.event.ticket` records.
 2. **Pricing propagation** - Sync ticket prices from product's `lst_price` and apply tax-inclusive pricing.
@@ -355,10 +355,10 @@ The event-product lifecycle works as follows:
 
 | Module | Role | Integration Point |
 |--------|------|-------------------|
-| [Modules/event](event.md) | Core event model | Extended by `event_product` |
-| [Modules/Product](Product.md) | Product master data | `product.product` and `product.template` are extended |
-| [Modules/event_sale](event_sale.md) | Actual sales | Consumes `event_product`; overrides `_has_order()` |
-| [Modules/account](Account.md) | Accounting/currency | `event.event.currency_id` uses `account.account` currency |
+| [Modules/event](Modules/event.md) | Core event model | Extended by `event_product` |
+| [Modules/Product](Modules/Product.md) | Product master data | `product.product` and `product.template` are extended |
+| [Modules/event_sale](Modules/event_sale.md) | Actual sales | Consumes `event_product`; overrides `_has_order()` |
+| [Modules/account](Modules/Account.md) | Accounting/currency | `event.event.currency_id` uses `account.account` currency |
 
 ## Security
 
@@ -382,8 +382,8 @@ Users need at least read access to `product.product` and `event.event` to use ti
 
 ## Related
 
-- [Modules/event](event.md) -- Core event management (talks, tracks, multi-day scheduling)
-- [Modules/event_sale](event_sale.md) -- Selling event tickets via e-commerce and sales orders
-- [Modules/event_sms](event_sms.md) -- SMS reminders for event registrations
+- [Modules/event](Modules/event.md) -- Core event management (talks, tracks, multi-day scheduling)
+- [Modules/event_sale](Modules/event_sale.md) -- Selling event tickets via e-commerce and sales orders
+- [Modules/event_sms](Modules/event_sms.md) -- SMS reminders for event registrations
 - [Modules/event_mail](event_mail.md) -- Email scheduling for events
-- [Modules/Product](Product.md) -- Product master data and pricing
+- [Modules/Product](Modules/Product.md) -- Product master data and pricing

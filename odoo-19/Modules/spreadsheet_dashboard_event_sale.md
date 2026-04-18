@@ -15,7 +15,7 @@ tags: [odoo, odoo19, spreadsheet, dashboard, events, event_sale, marketing]
 | License | LGPL-3 |
 | Module type | Data-only (no Python models) |
 
-Provides a pre-configured [spreadsheet_dashboard](spreadsheet_dashboard.md) template for event managers showing event sales performance. Auto-installs whenever `event_sale` is active — no manual installation required.
+Provides a pre-configured [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) template for event managers showing event sales performance. Auto-installs whenever `event_sale` is active — no manual installation required.
 
 ## Module Architecture
 
@@ -72,7 +72,7 @@ Source: `/data/dashboards.xml`
 
 ### spreadsheet.dashboard Model
 
-All spreadsheet dashboard modules operate through the `spreadsheet.dashboard` model defined in [spreadsheet_dashboard](spreadsheet_dashboard.md). Key methods this module relies on:
+All spreadsheet dashboard modules operate through the `spreadsheet.dashboard` model defined in [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md). Key methods this module relies on:
 
 **`_dashboard_is_empty()`**
 Checks whether `event.event` has any records. If the model returns zero results via `search_count([], limit=1)`, the framework switches to displaying `events_sample_dashboard.json` instead of the live spreadsheet. This prevents showing blank dashboards to new users.
@@ -184,8 +184,8 @@ spreadsheet_dashboard_event_sale
 
 ## Related Modules
 
-- [spreadsheet_dashboard](spreadsheet_dashboard.md) — Framework that defines `spreadsheet.dashboard` model, groups, and rendering
-- [spreadsheet_account](spreadsheet_account.md) — Accounting formula functions used in financial spreadsheets
+- [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Framework that defines `spreadsheet.dashboard` model, groups, and rendering
+- [spreadsheet_account](Modules/spreadsheet_account.md) — Accounting formula functions used in financial spreadsheets
 - `event_sale` — Adds ticket sales and sale order linking to events
 - `event` — Core event management (event.event, event.registration)
 

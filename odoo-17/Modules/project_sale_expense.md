@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, project-sale-expense]
 
 
 
-- [Modules/project](project.md) — Project base module
+- [Modules/project](Modules/project.md) — Project base module

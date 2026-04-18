@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, crm-sms]
 
 
 
-- [Modules/crm](crm.md) — CRM extension
+- [Modules/crm](Modules/crm.md) — CRM extension

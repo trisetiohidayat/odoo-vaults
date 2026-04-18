@@ -27,5 +27,5 @@ In Odoo 17, email fetching is handled entirely within the **`mail`** module:
 | Email-to-ticket | `helpdesk.ticket` (via `mail.thread` mixin) |
 
 ## See Also
-- [Modules/Mail](mail.md) — Email integration in Odoo 17
-- [Modules/CRM](crm.md) — Lead management
+- [Modules/Mail](Modules/mail.md) — Email integration in Odoo 17
+- [Modules/CRM](Modules/crm.md) — Lead management

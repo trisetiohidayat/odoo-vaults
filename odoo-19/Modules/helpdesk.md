@@ -15,9 +15,9 @@ created: 2026-04-07
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Ticket Creation | [Flows/Helpdesk/ticket-creation-flow](ticket-creation-flow.md) | Full method chain from create to SLA application |
-| 🔀 Ticket Resolution | [Flows/Helpdesk/ticket-resolution-flow](ticket-resolution-flow.md) | Close, rating, reopen, escalate flows |
-| 📋 Configuration | [Business/Helpdesk/helpdesk-configuration-guide](helpdesk-configuration-guide.md) | Step-by-step setup for teams, stages, SLAs, ratings |
+| 🔀 Ticket Creation | [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) | Full method chain from create to SLA application |
+| 🔀 Ticket Resolution | [Flows/Helpdesk/ticket-resolution-flow](Flows/Helpdesk/ticket-resolution-flow.md) | Close, rating, reopen, escalate flows |
+| 📋 Configuration | [Business/Helpdesk/helpdesk-configuration-guide](Business/Helpdesk/helpdesk-configuration-guide.md) | Step-by-step setup for teams, stages, SLAs, ratings |
 
 ## Key Models
 
@@ -151,10 +151,10 @@ created: 2026-04-07
 
 ## Related Documentation
 
-- [Flows/Helpdesk/ticket-creation-flow](ticket-creation-flow.md) — Ticket creation, partner auto-fill, SLA application
-- [Flows/Helpdesk/ticket-resolution-flow](ticket-resolution-flow.md) — Ticket close, rating, reopen, escalate
-- [Business/Helpdesk/helpdesk-configuration-guide](helpdesk-configuration-guide.md) — Team, stage, SLA, rating setup
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine design patterns
-- [Core/API](API.md) — @api decorators used in helpdesk models
-- [Modules/rating](rating.md) — Rating infrastructure used by helpdesk
-- [Modules/mail](mail.md) — Mail.thread integration for notifications
+- [Flows/Helpdesk/ticket-creation-flow](Flows/Helpdesk/ticket-creation-flow.md) — Ticket creation, partner auto-fill, SLA application
+- [Flows/Helpdesk/ticket-resolution-flow](Flows/Helpdesk/ticket-resolution-flow.md) — Ticket close, rating, reopen, escalate
+- [Business/Helpdesk/helpdesk-configuration-guide](Business/Helpdesk/helpdesk-configuration-guide.md) — Team, stage, SLA, rating setup
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine design patterns
+- [Core/API](Core/API.md) — @api decorators used in helpdesk models
+- [Modules/rating](Modules/rating.md) — Rating infrastructure used by helpdesk
+- [Modules/mail](Modules/mail.md) — Mail.thread integration for notifications

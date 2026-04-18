@@ -12,7 +12,7 @@ updated: 2026-04-14
 
 Odoo 19 brings significant improvements across the entire ERP platform, focusing on modern authentication, cloud-native integrations, enhanced collaboration tools, and streamlined business workflows. This release introduces major architectural changes in the ORM layer, new hardware integration capabilities via the IoT framework, pan-European e-invoicing through PEPPOL, and a completely rebuilt HTML editor with real-time collaboration support.
 
-This document provides a high-level summary of the most impactful new features. For deep-dive technical details on each feature area, see [New Features/Whats-New-Deep](Whats-New-Deep.md). For API-level changes, see [New Features/API Changes](API Changes.md).
+This document provides a high-level summary of the most impactful new features. For deep-dive technical details on each feature area, see [New Features/Whats-New-Deep](New Features/Whats-New-Deep.md). For API-level changes, see [New Features/API Changes](New Features/API Changes.md).
 
 ## Authentication: Passkeys (WebAuthn)
 
@@ -31,7 +31,7 @@ Odoo 19 introduces native passkey authentication using the WebAuthn (FIDO2) stan
 - Session tokens are recomputed via `_compute_session_token()` when passkeys are created or deleted, with `auth_passkey_key_ids` included in `_get_session_token_fields()`
 - Public key is stored as a varchar column (dynamically added via `init()` if missing) and computed via `_compute_public_key()` / `_inverse_public_key()` for ORM access, but the actual private key data is never exposed to the ORM layer
 
-**Related:** [Modules/auth_passkey](auth_passkey.md)
+**Related:** [Modules/auth_passkey](Modules/auth_passkey.md)
 
 ## HTML Editor: Collaborative Rich Text
 
@@ -51,7 +51,7 @@ The HTML editor in Odoo 19 is a complete rewrite providing a plugin-based, colla
 - **Field integration** via `ir_http` and `ir_websocket` models. The `ir_http` model adds `CONTEXT_KEYS = ['editable', 'edit_translations', 'translatable']` for editor context detection.
 - **Sanitization**: Uses DOMPurify (`static/lib/dompurify/`) for XSS prevention. Sanitization settings are configurable per field via the `sanitize`, `sanitize_tags`, `sanitize_attributes` field attributes.
 
-**Related:** [Modules/html_editor](html_editor.md)
+**Related:** [Modules/html_editor](Modules/html_editor.md)
 
 ## IoT Integration: Hardware Proxy Framework
 
@@ -101,7 +101,7 @@ Odoo Server
 - `route.py`: Routing table management
 - `upgrade.py`: Git branch management for handler updates
 
-**Related:** [Modules/iot_base](iot_base.md)
+**Related:** [Modules/iot_base](Modules/iot_base.md)
 
 ## Accounting: PEPPOL E-Invoicing
 
@@ -128,7 +128,7 @@ PEPPOL (Pan-European Public Procurement OnLine) is a network for cross-border e-
 - **Document exchange** via `account_move_send.py`: Invoices can be sent through PEPPOL directly from the send wizard.
 - **Supported countries** (26 European countries listed in manifest): Austria, Belgium, Switzerland, Cyprus, Czech Republic, Germany, Denmark, Estonia, Spain, Finland, France, Greece, Ireland, Iceland, Italy, Lithuania, Luxembourg, Latvia, Malta, Netherlands, Norway, Poland, Portugal, Romania, Sweden, Slovenia.
 
-**Related:** [Modules/account_peppol](account_peppol.md)
+**Related:** [Modules/account_peppol](Modules/account_peppol.md)
 
 ## Cloud Storage: Azure and Google Integrations
 
@@ -178,7 +178,7 @@ Odoo 19's subcontracting module enables subcontractors to manage manufacturing o
 - **Stock moves**: `stock.move` is extended with subcontracting-specific behavior including `stock_rule`, `stock_move`, `stock_move_line` extensions
 - **Portal-specific asset bundle** in manifest: The `mrp_subcontracting.webclient` asset bundle includes a custom subset of the web framework (Bootstrap SCSS, OWL, jQuery) to render the portal independently
 
-**Related:** [Modules/mrp_subcontracting](mrp_subcontracting.md)
+**Related:** [Modules/mrp_subcontracting](Modules/mrp_subcontracting.md)
 
 ## Point of Sale: Self-Order
 
@@ -200,7 +200,7 @@ Odoo 19 POS Self-Order allows customers to browse the menu and place orders usin
 - **Payment integration**: Supports external payment terminals (Adyen, Stripe via `pos_self_order_adyen`, `pos_self_order_stripe` variants)
 - **POS QR ordering button** (`backend/qr_order_button/`): Backend button that generates the QR code for a specific table/session
 
-**Related:** [Modules/pos_self_order](pos_self_order.md)
+**Related:** [Modules/pos_self_order](Modules/pos_self_order.md)
 
 ## Website: Theme Builder and Page Builder
 
@@ -220,7 +220,7 @@ Odoo 19 significantly improves the website building experience.
 - Real-time preview of custom snippets
 - Improved SEO controls integrated directly into the editor
 
-**Related:** [Modules/website](website.md)
+**Related:** [Modules/website](Modules/website.md)
 
 ## HR and Attendance
 
@@ -251,7 +251,7 @@ Odoo 19 introduces significant changes to the ORM decorator API. Key changes ver
 | `fields.Json` | **ACTIVE** | JSON field type (since Odoo 17); stores patch/history data |
 | `Cast` field | **NOT FOUND** | No `Cast` field class in Odoo 19 fields |
 
-For complete API verification details, see [New Features/API Changes](API Changes.md).
+For complete API verification details, see [New Features/API Changes](New Features/API Changes.md).
 
 ## New Modules Summary
 
@@ -288,11 +288,11 @@ For complete API verification details, see [New Features/API Changes](API Change
 
 ## Related Documents
 
-- [New Features/API Changes](API Changes.md) — Verified ORM decorator changes, field types, and new APIs
-- [New Features/Whats-New-Deep](Whats-New-Deep.md) — Comprehensive deep-dive into all major new features
-- [Core/BaseModel](Core/BaseModel.md) — Core model API reference
-- [Core/Fields](Core/Fields.md) — Field type reference
-- [Core/API](Core/API.md) — Decorator reference
+- [New Features/API Changes](New Features/API Changes.md) — Verified ORM decorator changes, field types, and new APIs
+- [New Features/Whats-New-Deep](New Features/Whats-New-Deep.md) — Comprehensive deep-dive into all major new features
+- [Core/BaseModel](BaseModel.md) — Core model API reference
+- [Core/Fields](Fields.md) — Field type reference
+- [Core/API](API.md) — Decorator reference
 
 ---
 

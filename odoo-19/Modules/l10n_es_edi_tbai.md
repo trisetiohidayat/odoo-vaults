@@ -40,4 +40,4 @@ You need to configure your certificate and the tax agency.
 - Custom model files: l10n_es_edi_tbai_document.py, account_move.py, certificate.py, account_move_send.py, account_move_line.py, l10n_es_edi_tbai_agencies.py, res_company.py, xml_utils.py, res_config_settings.py
 
 ## Related
-- [Modules/l10n_es](l10n_es.md) - Core accounting
+- [Modules/l10n_es](Modules/l10n_es.md) - Core accounting

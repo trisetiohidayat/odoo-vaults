@@ -30,8 +30,8 @@ Singapore uses a self-assessment tax system, and the module supports GST reporti
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/account](Account.md) | Core accounting |
-| [Modules/account_qr_code_emv](account_qr_code_emv.md) | EMV QR code for Singapore QR payments (PayNow) |
+| [Modules/account](Modules/Account.md) | Core accounting |
+| [Modules/account_qr_code_emv](Modules/account_qr_code_emv.md) | EMV QR code for Singapore QR payments (PayNow) |
 
 ## Key Models
 
@@ -104,6 +104,6 @@ Singapore bank configuration with SWIFT/BIC codes.
 
 ## Related
 
-- [Modules/account](Account.md) - Core accounting module
-- [Modules/account_qr_code_emv](account_qr_code_emv.md) - QR code generation (PayNow)
-- [Modules/l10n_sg_ubl_pint](l10n_sg_ubl_pint.md) - Singapore UBL PINT format for Peppol e-invoicing
+- [Modules/account](Modules/Account.md) - Core accounting module
+- [Modules/account_qr_code_emv](Modules/account_qr_code_emv.md) - QR code generation (PayNow)
+- [Modules/l10n_sg_ubl_pint](Modules/l10n_sg_ubl_pint.md) - Singapore UBL PINT format for Peppol e-invoicing

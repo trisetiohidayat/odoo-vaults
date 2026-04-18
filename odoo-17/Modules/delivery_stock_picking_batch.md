@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, delivery-stock-picking-batch]
 
 
 
-- [Modules/stock](stock.md)
+- [Modules/stock](Modules/stock.md)

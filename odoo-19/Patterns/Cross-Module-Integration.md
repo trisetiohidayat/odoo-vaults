@@ -3,9 +3,9 @@ type: pattern
 title: "Cross-Module Integration Patterns"
 tags: [odoo, odoo19, cross-module, integration, account, sale, purchase, stock, mrp, project, crm, pos, hr]
 related_patterns:
-  - "[[Patterns/Workflow Patterns]]"
-  - "[[Patterns/Security Patterns]]"
-  - "[[Patterns/Inheritance Patterns]]"
+  - "[Patterns/Workflow Patterns](Workflow Patterns.md)"
+  - "[Patterns/Security Patterns](Security Patterns.md)"
+  - "[Patterns/Inheritance Patterns](Inheritance Patterns.md)"
 audience: developer, ai-reasoning, architect
 level: 2
 source_module: multiple
@@ -18,7 +18,7 @@ version: "1.0"
 
 ## Overview
 
-Cross-module integration in [[Modules/Account|Odoo 19]] is the backbone of its ERP philosophy: every business transaction flows seamlessly across modules, automatically creating accounting entries, stock movements, and procurement operations without manual intervention. Unlike siloed applications, Odoo's integrated architecture ensures that a confirmed [[Modules/Sale|sale order]] automatically triggers [[Modules/Stock|stock delivery]], which automatically posts [[Modules/Account|cost of goods sold]] entries, which reconciles with customer invoices. This document maps every major cross-module flow, explaining the models involved, state transitions, account entries generated, onchange and computed fields in the chain, and common errors with debugging strategies.
+Cross-module integration in [Odoo 19](../Modules/Account.md) is the backbone of its ERP philosophy: every business transaction flows seamlessly across modules, automatically creating accounting entries, stock movements, and procurement operations without manual intervention. Unlike siloed applications, Odoo's integrated architecture ensures that a confirmed [sale order](../Modules/Sale.md) automatically triggers [stock delivery](../Modules/Stock.md), which automatically posts [cost of goods sold](../Modules/Account.md) entries, which reconciles with customer invoices. This document maps every major cross-module flow, explaining the models involved, state transitions, account entries generated, onchange and computed fields in the chain, and common errors with debugging strategies.
 
 The flows documented here use Odoo 19 Community Edition source paths at `~/odoo/odoo19/odoo/addons/`. All flows are traceable to their actual Python method implementations in the Odoo CE codebase.
 
@@ -1293,19 +1293,19 @@ env['stock.picking'].with_context(allowed_company_ids=[cid]).read(['name', 'comp
 
 ## Related Documents
 
-- [[Modules/Account]] — Accounting module reference
-- [[Modules/Sale]] — Sales management
-- [[Modules/Purchase]] — Purchase management
-- [[Modules/Stock]] — Inventory and warehouse
-- [[Modules/MRP]] — Manufacturing
-- [[Modules/Project]] — Project management
-- [[Modules/CRM]] — CRM and lead management
-- [[Modules/POS]] — Point of Sale
-- [[Patterns/Workflow Patterns]] — State machine patterns
-- [[Patterns/Security Patterns]] — ACL and record rules
-- [[Flows/Cross-Module/purchase-stock-account-flow]] — Purchase flow detail
-- [[Flows/Cross-Module/sale-stock-account-flow]] — Sale flow detail
-- [[Flows/MRP/bom-to-production-flow]] — Manufacturing flow detail
-- [[Core/API]] — @api decorator patterns
-- [[Core/BaseModel]] — ORM framework fundamentals
-- [[Modules/HR]] — Human Resources
+- [Modules/Account](../Modules/Account.md) — Accounting module reference
+- [Modules/Sale](../Modules/Sale.md) — Sales management
+- [Modules/Purchase](../Modules/Purchase.md) — Purchase management
+- [Modules/Stock](../Modules/Stock.md) — Inventory and warehouse
+- [Modules/MRP](../Modules/MRP.md) — Manufacturing
+- [Modules/Project](../Modules/Project.md) — Project management
+- [Modules/CRM](../Modules/CRM.md) — CRM and lead management
+- [Modules/POS](../Modules/pos.md) — Point of Sale
+- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine patterns
+- [Patterns/Security Patterns](Security Patterns.md) — ACL and record rules
+- [Flows/Cross-Module/purchase-stock-account-flow](../Flows/Cross-Module/purchase-stock-account-flow.md) — Purchase flow detail
+- [Flows/Cross-Module/sale-stock-account-flow](../Flows/Cross-Module/sale-stock-account-flow.md) — Sale flow detail
+- [Flows/MRP/bom-to-production-flow](../Flows/MRP/bom-to-production-flow.md) — Manufacturing flow detail
+- [Core/API](../Core/API.md) — @api decorator patterns
+- [Core/BaseModel](../Core/BaseModel.md) — ORM framework fundamentals
+- [Modules/HR](../Modules/HR.md) — Human Resources

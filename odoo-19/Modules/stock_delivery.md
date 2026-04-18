@@ -489,9 +489,9 @@ def _prepare_procurement_values(self):
 
 ## Related Documentation
 
-- [Modules/Stock](Stock.md) — Core stock picking management
-- [Modules/Sale](Sale.md) — Sales order delivery line management
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — Carrier state machine
+- [Modules/Stock](Modules/Stock.md) — Core stock picking management
+- [Modules/Sale](Modules/Sale.md) — Sales order delivery line management
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Carrier state machine
 
 ---
 
@@ -852,11 +852,11 @@ If the carrier's API fails to cancel (e.g., the shipment was already in transit 
 ---
 
 ## Related Documentation
-- [Modules/Stock](Stock.md) — Core `stock.picking` model, `button_validate` flow, move line operations
-- [Modules/Sale](Sale.md) — `sale.order` delivery line, `set_delivery_line`, `_create_delivery_line`
-- [Modules/Delivery](delivery.md) — `delivery.carrier` base model, `integration_level`, `free_over`, provider interface
-- [Modules/Fleet](fleet.md) — Fleet vehicle model
-- [Core/API](API.md) — `@api.depends`, `@api.constrains`, `@api.onchange` decorators
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — Picking validation workflow, carrier state machine
-- [Patterns/Security Patterns](Security Patterns.md) — ACL CSV, record rules for carrier access
-- [Tools/ORM Operations](ORM Operations.md) — `write()`, `search()`, `browse()` performance patterns
+- [Modules/Stock](Modules/Stock.md) — Core `stock.picking` model, `button_validate` flow, move line operations
+- [Modules/Sale](Modules/Sale.md) — `sale.order` delivery line, `set_delivery_line`, `_create_delivery_line`
+- [Modules/Delivery](Modules/delivery.md) — `delivery.carrier` base model, `integration_level`, `free_over`, provider interface
+- [Modules/Fleet](Modules/fleet.md) — Fleet vehicle model
+- [Core/API](Core/API.md) — `@api.depends`, `@api.constrains`, `@api.onchange` decorators
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Picking validation workflow, carrier state machine
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, record rules for carrier access
+- [Tools/ORM Operations](Tools/ORM Operations.md) — `write()`, `search()`, `browse()` performance patterns

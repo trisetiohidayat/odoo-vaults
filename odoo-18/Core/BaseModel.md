@@ -116,6 +116,6 @@ def _compute_amounts(self):
 ```
 
 ## Related Links
-- [Core/Fields](Fields.md) — Field types and parameters
-- [Core/API](API.md) — Decorators
-- [Tools/ORM Operations](ORM Operations.md) — Full ORM reference
+- [Core/Fields](Core/Fields.md) — Field types and parameters
+- [Core/API](Core/API.md) — Decorators
+- [Tools/ORM Operations](Tools/ORM Operations.md) — Full ORM reference

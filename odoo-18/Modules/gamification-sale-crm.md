@@ -228,7 +228,7 @@ All goal definitions are loaded via `data/gamification_sale_crm_data.xml`. They 
 
 ### `gamification.goal.definition` (base)
 
-See [Modules/Gamification](gamification.md) for full field list. Key extension points used by this module:
+See [Modules/Gamification](Modules/gamification.md) for full field list. Key extension points used by this module:
 
 - `computation_mode`: `'count'` (leads, opportunities, orders) or `'sum'` (revenue, credit notes)
 - `monetary`: `True` on revenue/credit note definitions
@@ -239,7 +239,7 @@ See [Modules/Gamification](gamification.md) for full field list. Key extension p
 
 ### `gamification.challenge` (base)
 
-See [Modules/Gamification](gamification.md) for full field list. CRM-specific configuration:
+See [Modules/Gamification](Modules/gamification.md) for full field list. CRM-specific configuration:
 
 - `period: 'monthly'` — resets goals monthly
 - `visibility_mode: 'ranking'` — leader board display
@@ -296,7 +296,7 @@ Since this module depends on `sale_crm` (which extends `crm.lead` with `sale.ord
 
 ## Related Documentation
 
-- [Modules/Gamification](gamification.md) — Base gamification models (`gamification.challenge`, `gamification.goal`, `gamification.badge`, `gamification.goal.definition`)
-- [Modules/CRM](CRM.md) — CRM module being gamified
-- [Modules/Sale](sale.md) — Sale order model referenced in goal definitions
-- [Modules/Account](account.md) — Invoice reporting model used for revenue goals
+- [Modules/Gamification](Modules/gamification.md) — Base gamification models (`gamification.challenge`, `gamification.goal`, `gamification.badge`, `gamification.goal.definition`)
+- [Modules/CRM](Modules/CRM.md) — CRM module being gamified
+- [Modules/Sale](Modules/sale.md) — Sale order model referenced in goal definitions
+- [Modules/Account](Modules/account.md) — Invoice reporting model used for revenue goals

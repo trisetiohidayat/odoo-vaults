@@ -15,7 +15,7 @@ tags: [odoo, odoo19, spreadsheet, dashboard, livechat, im_livechat, website, cus
 | License | LGPL-3 |
 | Module type | Data-only (no Python models) |
 
-Provides two pre-configured [spreadsheet_dashboard](spreadsheet_dashboard.md) templates for customer service managers: a historical "Live Chat" performance dashboard and a real-time "Live Chat - Ongoing Sessions" dashboard. Both auto-install when `im_livechat` is active and are placed in the Website dashboard group.
+Provides two pre-configured [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) templates for customer service managers: a historical "Live Chat" performance dashboard and a real-time "Live Chat - Ongoing Sessions" dashboard. Both auto-install when `im_livechat` is active and are placed in the Website dashboard group.
 
 ## Module Architecture
 
@@ -234,8 +234,8 @@ spreadsheet_dashboard_im_livechat
 
 ## Related Modules
 
-- [spreadsheet_dashboard](spreadsheet_dashboard.md) — Dashboard framework
-- [spreadsheet_account](spreadsheet_account.md) — Accounting formulas (not directly used but available)
+- [spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework
+- [spreadsheet_account](Modules/spreadsheet_account.md) — Accounting formulas (not directly used but available)
 - `im_livechat` — Live chat channels, operators, sessions, ratings
 - `rating` — CSAT rating model linked to chat sessions
 

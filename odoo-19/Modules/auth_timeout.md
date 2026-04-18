@@ -12,10 +12,10 @@ Enforces session timeout (re-authentication) after a period of user inactivity o
 
 ## Dependencies
 
-- [Modules/auth_totp](auth_totp.md) - TOTP support
-- [Modules/auth_totp_mail](auth_totp_mail.md) - Mail-based TOTP
-- [Modules/auth_passkey](auth_passkey.md) - Passkey authentication
-- [Modules/bus](bus.md) - Real-time bus for presence/inactivity updates
+- [Modules/auth_totp](Modules/auth_totp.md) - TOTP support
+- [Modules/auth_totp_mail](Modules/auth_totp_mail.md) - Mail-based TOTP
+- [Modules/auth_passkey](Modules/auth_passkey.md) - Passkey authentication
+- [Modules/bus](Modules/bus.md) - Real-time bus for presence/inactivity updates
 
 ## Models
 
@@ -101,6 +101,6 @@ Custom exception subclass of `SessionExpiredException`, raised when the user mus
 
 ## Related
 
-- [Modules/auth_totp](auth_totp.md) - TOTP authentication
-- [Modules/auth_passkey](auth_passkey.md) - Passkey authentication
-- [Modules/bus](bus.md) - WebSocket presence
+- [Modules/auth_totp](Modules/auth_totp.md) - TOTP authentication
+- [Modules/auth_passkey](Modules/auth_passkey.md) - Passkey authentication
+- [Modules/bus](Modules/bus.md) - WebSocket presence

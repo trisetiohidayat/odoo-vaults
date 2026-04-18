@@ -4,10 +4,10 @@ module: pos_sale
 tags: [odoo, odoo19, pos, sale, crm_team, down_payment, order_sync, pos_load_mixin]
 created: 2026-04-14
 related_links:
-  - "[Modules/point_of_sale](point_of_sale.md)"
-  - "[Modules/Sale](Sale.md)"
-  - "[Modules/pos_sale_loyalty](pos_sale_loyalty.md)"
-  - "[Modules/pos_sale_margin](pos_sale_margin.md)"
+  - "[Modules/point_of_sale](Modules/point_of_sale.md)"
+  - "[Modules/Sale](Modules/Sale.md)"
+  - "[Modules/pos_sale_loyalty](Modules/pos_sale_loyalty.md)"
+  - "[Modules/pos_sale_margin](Modules/pos_sale_margin.md)"
 ---
 
 # POS Sale
@@ -94,7 +94,7 @@ Where:
 ```python
 @api.model
 def _load_pos_data_domain(self, data, config):
-    return [['pos_order_line_ids.order_id.state', '=', 'draft']]
+    return ['pos_order_line_ids.order_id.state', '=', 'draft']('pos_order_line_ids.order_id.state',-'=',-'draft'.md)
 ```
 
 Only **draft state** sale orders are loaded into POS. This is a deliberate safety constraint: confirmed, locked, or cancelled orders should not be payable through POS without explicit workflow modifications.
@@ -391,7 +391,7 @@ This hook activates the POS Sales Team (`sales_team.pos_sales_team`) and sets it
 
 ## Related
 
-- [Modules/point_of_sale](point_of_sale.md) -- Base POS module
-- [Modules/Sale](Sale.md) -- Sale order management
-- [Modules/pos_sale_loyalty](pos_sale_loyalty.md) -- POS Sale + Loyalty program integration
-- [Modules/pos_sale_margin](pos_sale_margin.md) -- POS Sale + Margin tracking
+- [Modules/point_of_sale](Modules/point_of_sale.md) -- Base POS module
+- [Modules/Sale](Modules/Sale.md) -- Sale order management
+- [Modules/pos_sale_loyalty](Modules/pos_sale_loyalty.md) -- POS Sale + Loyalty program integration
+- [Modules/pos_sale_margin](Modules/pos_sale_margin.md) -- POS Sale + Margin tracking

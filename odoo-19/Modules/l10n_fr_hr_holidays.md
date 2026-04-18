@@ -38,6 +38,6 @@ Extends leave requests with French-specific rules for part-time workers (RTT - R
 French company-specific HR settings.
 
 ## Related
-- [Modules/l10n_fr](l10n_fr.md) — Core French accounting
-- [Modules/hr_holidays](hr_holidays.md) — Base leave management
-- [Modules/l10n_fr_hr_work_entry_holidays](l10n_fr_hr_work_entry_holidays.md) — French work entry generation for leaves
+- [Modules/l10n_fr](Modules/l10n_fr.md) — Core French accounting
+- [Modules/hr_holidays](Modules/hr_holidays.md) — Base leave management
+- [Modules/l10n_fr_hr_work_entry_holidays](Modules/l10n_fr_hr_work_entry_holidays.md) — French work entry generation for leaves

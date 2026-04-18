@@ -138,5 +138,5 @@ Blacklist the phone of the user after deleting it.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

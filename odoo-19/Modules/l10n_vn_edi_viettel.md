@@ -30,9 +30,9 @@ The module handles the complete e-invoice lifecycle including issuance, cancella
 
 | Module | Purpose |
 |--------|---------|
-| [Modules/l10n_vn](l10n_vn.md) | Base Vietnamese accounting localization |
-| [Modules/account](Account.md) | Core accounting |
-| [Modules/account_edi](account_edi.md) | EDI framework for electronic invoice exchange |
+| [Modules/l10n_vn](Modules/l10n_vn.md) | Base Vietnamese accounting localization |
+| [Modules/account](Modules/Account.md) | Core accounting |
+| [Modules/account_edi](Modules/account_edi.md) | EDI framework for electronic invoice exchange |
 
 ## Key Models
 
@@ -105,6 +105,6 @@ Cleans up Viettel-specific data and configurations when the module is uninstalle
 
 ## Related
 
-- [Modules/l10n_vn](l10n_vn.md) - Core Vietnamese accounting localization
-- [Modules/account_edi](account_edi.md) - EDI framework
-- [Modules/account_edi_ubl_cii](account_edi_ubl_cii.md) - UBL/CII invoice format support
+- [Modules/l10n_vn](Modules/l10n_vn.md) - Core Vietnamese accounting localization
+- [Modules/account_edi](Modules/account_edi.md) - EDI framework
+- [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) - UBL/CII invoice format support

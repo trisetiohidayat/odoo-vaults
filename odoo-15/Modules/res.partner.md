@@ -202,7 +202,7 @@ def _compute_email_formatted(self):
 ```
 
 ## See Also
-- [Patterns/Security Patterns](Security Patterns.md) — Partner-based access rules
-- [Modules/Sale](Sale.md) — Customer in sale order
-- [Modules/Purchase](Purchase.md) — Vendor in purchase order
-- [Modules/Account](Account.md) — Partner in invoice
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — Partner-based access rules
+- [Modules/Sale](Modules/Sale.md) — Customer in sale order
+- [Modules/Purchase](Modules/Purchase.md) — Vendor in purchase order
+- [Modules/Account](Modules/Account.md) — Partner in invoice

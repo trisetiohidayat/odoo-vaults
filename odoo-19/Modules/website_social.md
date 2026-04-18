@@ -59,7 +59,7 @@ website_id.social_tiktok = fields.Char('TikTok Account')  # Added in Odoo 19
 
 ### `mailing` Mass Mailing Social Blocks
 
-The `mass_mailing` module provides social media icon blocks (`s_header_social`, `s_footer_social`) for email templates — see [Modules/mass_mailing_themes](mass_mailing_themes.md) for the themed versions.
+The `mass_mailing` module provides social media icon blocks (`s_header_social`, `s_footer_social`) for email templates — see [Modules/mass_mailing_themes](Modules/mass_mailing_themes.md) for the themed versions.
 
 ### Social Share in Website Pages
 
@@ -118,7 +118,7 @@ social_media (CE)
 
 ## Related
 
-- [Modules/website](website.md) — Core website builder
-- [Modules/social_media](social_media.md) — Social media account configuration
-- [Modules/mass_mailing](mass_mailing.md) — Email campaign social snippets
-- [Modules/mass_mailing_themes](mass_mailing_themes.md) — Themed email templates with social media headers
+- [Modules/website](Modules/website.md) — Core website builder
+- [Modules/social_media](Modules/social_media.md) — Social media account configuration
+- [Modules/mass_mailing](Modules/mass_mailing.md) — Email campaign social snippets
+- [Modules/mass_mailing_themes](Modules/mass_mailing_themes.md) — Themed email templates with social media headers

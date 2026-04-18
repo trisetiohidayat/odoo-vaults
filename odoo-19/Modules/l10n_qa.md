@@ -33,8 +33,8 @@ Localized accounting for Qatar. Activates chart of accounts for companies based 
 - Demo data: `demo/demo_company.xml`
 
 ## Related
-- [Modules/account](Account.md)
-- [Modules/l10n_gcc_invoice](l10n_gcc_invoice.md)
-- [Modules/l10n_sa](l10n_sa.md)
-- [Modules/l10n_kw](l10n_kw.md)
-- [Modules/l10n_om](l10n_om.md)
+- [Modules/account](Modules/Account.md)
+- [Modules/l10n_gcc_invoice](Modules/l10n_gcc_invoice.md)
+- [Modules/l10n_sa](Modules/l10n_sa.md)
+- [Modules/l10n_kw](Modules/l10n_kw.md)
+- [Modules/l10n_om](Modules/l10n_om.md)

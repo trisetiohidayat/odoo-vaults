@@ -661,7 +661,7 @@ The module maintains several audit trails:
 
 ## Related
 
-- [Modules/hr_holidays](hr_holidays.md) — Leave management
-- [Modules/hr_work_entry](hr_work_entry.md) — Work entries
-- [Modules/hr_holidays_attendance](hr_holidays_attendance.md) — Overtime-to-leave conversion
-- [Modules/hr_attendance](hr_attendance.md) — Attendance tracking
+- [Modules/hr_holidays](Modules/hr_holidays.md) — Leave management
+- [Modules/hr_work_entry](Modules/hr_work_entry.md) — Work entries
+- [Modules/hr_holidays_attendance](Modules/hr_holidays_attendance.md) — Overtime-to-leave conversion
+- [Modules/hr_attendance](Modules/hr_attendance.md) — Attendance tracking

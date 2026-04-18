@@ -55,4 +55,4 @@ Adds `'auth_password_policy'` to the list of modules whose strings are extracted
 
 - [Modules/Auth Signup](Modules/Auth-Signup.md) (`auth_signup`) — signup flow
 - `auth_password_policy` — base password policy module
-- [Modules/Portal](portal.md) — portal controller base
+- [Modules/Portal](Modules/portal.md) — portal controller base

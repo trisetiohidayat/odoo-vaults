@@ -110,4 +110,4 @@ Key methods:
 
 ---
 
-*See also: [Modules/CRM](CRM.md), [Modules/mass_mailing](mass_mailing.md), [Patterns/Workflow Patterns](Workflow Patterns.md)*
+*See also: [Modules/CRM](Modules/CRM.md), [Modules/mass_mailing](Modules/mass_mailing.md), [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md)*

@@ -523,8 +523,8 @@ def _inverse_stock_notification(self):
 
 ## Related Modules
 
-- [Modules/website_sale_stock](website_sale_stock.md) — Provides `_send_availability_email()` cron, `product.product` stock fields, and `stock_notification_partner_ids`
-- [Modules/website_sale_wishlist](website_sale_wishlist.md) — Provides `product.wishlist` model, `/shop/wishlist` controller, and `AddProductToWishlistButton` interaction
-- [Modules/website_sale](website_sale.md) — Core e-commerce; provides `VariantMixin`, `WebsiteSale` interaction, and combination info endpoint
-- [Modules/Product](Product.md) — Product variant model; all stock and wishlist operations ultimately target `product.product`
-- [Modules/Stock](Stock.md) — `stock.quant` for inventory tracking; `stock.location` for warehouse-specific stock levels
+- [Modules/website_sale_stock](Modules/website_sale_stock.md) — Provides `_send_availability_email()` cron, `product.product` stock fields, and `stock_notification_partner_ids`
+- [Modules/website_sale_wishlist](Modules/website_sale_wishlist.md) — Provides `product.wishlist` model, `/shop/wishlist` controller, and `AddProductToWishlistButton` interaction
+- [Modules/website_sale](Modules/website_sale.md) — Core e-commerce; provides `VariantMixin`, `WebsiteSale` interaction, and combination info endpoint
+- [Modules/Product](Modules/Product.md) — Product variant model; all stock and wishlist operations ultimately target `product.product`
+- [Modules/Stock](Modules/Stock.md) — `stock.quant` for inventory tracking; `stock.location` for warehouse-specific stock levels

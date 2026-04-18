@@ -4,9 +4,9 @@
 
 | Resource | Type | Description |
 |---------|------|-------------|
-| [Flows/Project/project-creation-flow](project-creation-flow.md) | Technical Flow | Project creation method chain |
-| [Flows/Project/task-lifecycle-flow](task-lifecycle-flow.md) | Technical Flow | Task lifecycle with stages |
-| [Business/Project/project-management-guide](project-management-guide.md) | Business Guide | Step-by-step PM guide |
+| [Flows/Project/project-creation-flow](Flows/Project/project-creation-flow.md) | Technical Flow | Project creation method chain |
+| [Flows/Project/task-lifecycle-flow](Flows/Project/task-lifecycle-flow.md) | Technical Flow | Task lifecycle with stages |
+| [Business/Project/project-management-guide](Business/Project/project-management-guide.md) | Business Guide | Step-by-step PM guide |
 
 ---
 

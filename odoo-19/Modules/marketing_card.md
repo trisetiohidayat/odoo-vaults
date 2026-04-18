@@ -656,7 +656,7 @@ def _unlink_except_utm_source_marketing_card(self):
 
 ## Related Documentation
 
-- [Modules/Mail](mail.md) — Mailing and email management
-- [Modules/mass_mailing](mass_mailing.md) — Mass mailing features
-- [Core/API](API.md) — QWeb rendering, mail.render.mixin
-- [Modules/link_tracker](link_tracker.md) — Click tracking, UTM sources
+- [Modules/Mail](Modules/mail.md) — Mailing and email management
+- [Modules/mass_mailing](Modules/mass_mailing.md) — Mass mailing features
+- [Core/API](Core/API.md) — QWeb rendering, mail.render.mixin
+- [Modules/link_tracker](Modules/link_tracker.md) — Click tracking, UTM sources

@@ -728,7 +728,7 @@ Set the provider state to "Test" to use Stripe sandbox. The publishable and secr
 
 ## Related
 
-- [Modules/payment](payment.md) — Base payment engine
-- [Modules/payment_adyen](payment_adyen.md) — Adyen provider
-- [Modules/payment_paypal](payment_paypal.md) — PayPal provider
-- [Modules/payment_mollie](payment_mollie.md) — Mollie provider
+- [Modules/payment](Modules/payment.md) — Base payment engine
+- [Modules/payment_adyen](Modules/payment_adyen.md) — Adyen provider
+- [Modules/payment_paypal](Modules/payment_paypal.md) — PayPal provider
+- [Modules/payment_mollie](Modules/payment_mollie.md) — Mollie provider

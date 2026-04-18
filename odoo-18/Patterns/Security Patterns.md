@@ -74,5 +74,5 @@ def _sync_partner_from_user(self):
 ---
 
 ## Related Links
-- [Core/BaseModel](BaseModel.md) — CRUD access
-- [Modules/Account](account.md) — Company-dependent security
+- [Core/BaseModel](Core/BaseModel.md) — CRUD access
+- [Modules/Account](Modules/account.md) — Company-dependent security

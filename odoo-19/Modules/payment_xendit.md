@@ -592,8 +592,8 @@ This is particularly popular in Indonesia as it:
 
 ## Related
 
-- [Modules/payment](payment.md) — Base payment engine and transaction processing
-- [Modules/payment_flutterwave](payment_flutterwave.md) — African payment provider
-- [Modules/payment_nuvei](payment_nuvei.md) — Latin American payment provider
-- [Modules/payment_demo](payment_demo.md) — Demo payment provider for testing
-- [Modules/payment_custom](payment_custom.md) — Custom/wire transfer payment method
+- [Modules/payment](Modules/payment.md) — Base payment engine and transaction processing
+- [Modules/payment_flutterwave](Modules/payment_flutterwave.md) — African payment provider
+- [Modules/payment_nuvei](Modules/payment_nuvei.md) — Latin American payment provider
+- [Modules/payment_demo](Modules/payment_demo.md) — Demo payment provider for testing
+- [Modules/payment_custom](Modules/payment_custom.md) — Custom/wire transfer payment method

@@ -488,9 +488,9 @@ The SCSS files add comparison-specific styling; the JS files include the interac
 
 ## Related Modules
 
-- [Modules/website_sale](website_sale.md) — Base eCommerce module; provides the product pages, shop layout, and cart.
-- [Modules/Product](Product.md) — Core product models (`product.product`, `product.template`, `product.attribute`).
-- [Modules/website_sale_comparison_wishlist](website_sale_comparison_wishlist.md) — Bridges comparison with wishlist functionality (if installed).
+- [Modules/website_sale](Modules/website_sale.md) — Base eCommerce module; provides the product pages, shop layout, and cart.
+- [Modules/Product](Modules/Product.md) — Core product models (`product.product`, `product.template`, `product.attribute`).
+- [Modules/website_sale_comparison_wishlist](Modules/website_sale_comparison_wishlist.md) — Bridges comparison with wishlist functionality (if installed).
 
 ---
 

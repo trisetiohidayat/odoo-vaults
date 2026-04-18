@@ -65,6 +65,6 @@ IAP Service Error
 
 ## See Also
 
-- [Modules/iap](iap.md) — IAP account and credit framework
-- [Modules/crm_iap_enrich](crm_iap_enrich.md) — uses these notifications during lead enrichment
-- [Modules/bus](bus.md) — Odoo real-time bus / pub-sub system
+- [Modules/iap](Modules/iap.md) — IAP account and credit framework
+- [Modules/crm_iap_enrich](Modules/crm_iap_enrich.md) — uses these notifications during lead enrichment
+- [Modules/bus](Modules/bus.md) — Odoo real-time bus / pub-sub system

@@ -45,5 +45,5 @@ Purpose of this method is to actualize visitor model prior to contacting
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Website]]
+- [Modules/Base](base.md)
+- [Modules/Website](website.md)

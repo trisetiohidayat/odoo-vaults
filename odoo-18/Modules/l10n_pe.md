@@ -8,7 +8,7 @@ Tags: #odoo18 #l10n #accounting #peru
 # l10n_pe — Peru Accounting
 
 ## Overview
-Peruvian accounting localization providing the Peruvian chart of accounts, SUNAT (Superintendencia Nacional de Aduanas y de Administracion Tributaria) taxes, document types (Factura Electronica, Boleta de Venta, Nota de Credito, Nota de Debito), identification types (DNI, RUC, Carnet de Extranjeria), and district-level geographic data (province, district). Maintained by Vauxoo. Requires [Modules/l10n_latam_base](l10n_latam_base.md) and [Modules/l10n_latam_invoice_document](l10n_latam_invoice_document.md).
+Peruvian accounting localization providing the Peruvian chart of accounts, SUNAT (Superintendencia Nacional de Aduanas y de Administracion Tributaria) taxes, document types (Factura Electronica, Boleta de Venta, Nota de Credito, Nota de Debito), identification types (DNI, RUC, Carnet de Extranjeria), and district-level geographic data (province, district). Maintained by Vauxoo. Requires [Modules/l10n_latam_base](Modules/l10n_latam_base.md) and [Modules/l10n_latam_invoice_document](Modules/l10n_latam_invoice_document.md).
 
 ## Country/Region
 Peru (country code: PE)

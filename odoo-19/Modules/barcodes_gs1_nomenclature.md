@@ -98,5 +98,5 @@ Converts a GS1 date into a datetime.date.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

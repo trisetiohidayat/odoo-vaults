@@ -847,10 +847,10 @@ for campaign in ab_testing_campaign:
 
 ## See Also
 
-- [Modules/mass_mailing](mass_mailing.md) — Email marketing base: `mailing.mailing`, `mailing.contact`, `mailing.trace`, A/B testing
-- [Modules/sms](sms.md) — SMS gateway: `sms.sms`, `sms.template`, `sms.composer`, IAP integration, phone validation
-- [Modules/portal](portal.md) — Customer portal: contact subscription to mailing lists
-- [New Features/What's New](New Features/What's New.md) — Odoo 19 changes across all modules
-- [New Features/API Changes](New Features/API Changes.md) — Json field, @api.model_create_multi, deprecations
-- [Core/API](Core/API.md) — `@api.depends`, `@api.onchange`, `@api.constrains`, `@api.model` decorator patterns
-- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, ir.rule, field groups, CSRF
+- [Modules/mass_mailing](Modules/mass_mailing.md) — Email marketing base: `mailing.mailing`, `mailing.contact`, `mailing.trace`, A/B testing
+- [Modules/sms](Modules/sms.md) — SMS gateway: `sms.sms`, `sms.template`, `sms.composer`, IAP integration, phone validation
+- [Modules/portal](Modules/portal.md) — Customer portal: contact subscription to mailing lists
+- [New Features/What's New](What's New.md) — Odoo 19 changes across all modules
+- [New Features/API Changes](API Changes.md) — Json field, @api.model_create_multi, deprecations
+- [Core/API](API.md) — `@api.depends`, `@api.onchange`, `@api.constrains`, `@api.model` decorator patterns
+- [Patterns/Security Patterns](Security Patterns.md) — ACL CSV, ir.rule, field groups, CSRF

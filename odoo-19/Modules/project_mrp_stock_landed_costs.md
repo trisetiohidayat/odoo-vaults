@@ -43,5 +43,5 @@ Module `project_mrp_stock_landed_costs` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Project]]
+- [Modules/Base](base.md)
+- [Modules/Project](Project.md)

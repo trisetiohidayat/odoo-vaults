@@ -16,10 +16,10 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Project/project-creation-flow](project-creation-flow.md)"
-  - "[Flows/Project/project-creation-flow](project-creation-flow.md)"
+  - "[Flows/Project/project-creation-flow](Flows/Project/project-creation-flow.md)"
+  - "[Flows/Project/project-creation-flow](Flows/Project/project-creation-flow.md)"
 related_guides:
-  - "[Business/Project/project-management-guide](project-management-guide.md)"
+  - "[Business/Project/project-management-guide](Business/Project/project-management-guide.md)"
 source_module: project
 source_path: ~/odoo/odoo19/odoo/addons/project/
 created: 2026-04-07
@@ -441,8 +441,8 @@ def write(self, vals):
 
 ## Related
 
-- [Modules/Project](Project.md) — Module reference
-- [Flows/Project/project-creation-flow](project-creation-flow.md) — Project creation flow
-- [Business/Project/project-management-guide](project-management-guide.md) — Business guide
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — Workflow pattern reference
-- [Core/API](API.md) — @api decorator patterns
+- [Modules/Project](Modules/Project.md) — Module reference
+- [Flows/Project/project-creation-flow](Flows/Project/project-creation-flow.md) — Project creation flow
+- [Business/Project/project-management-guide](Business/Project/project-management-guide.md) — Business guide
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](Core/API.md) — @api decorator patterns

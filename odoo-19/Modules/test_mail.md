@@ -149,6 +149,6 @@ Tests `mail.thread` with `Properties` field and `PropertiesDefinition`.
 - `data/subtype_data.xml` — Mail subtypes
 
 ## Related
-- [Modules/mail](mail.md)
-- [Modules/mass_mailing](mass_mailing.md)
-- [Modules/base_automation](base_automation.md)
+- [Modules/mail](Modules/mail.md)
+- [Modules/mass_mailing](Modules/mass_mailing.md)
+- [Modules/base_automation](Modules/base_automation.md)

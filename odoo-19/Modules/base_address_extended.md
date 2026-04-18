@@ -407,7 +407,7 @@ The partner form inheritance uses `position="replace"` with `t-if="country_enfor
 
 ## Related Documentation
 
-- [Core/BaseModel](BaseModel.md) — ORM foundation
-- [Modules/res.partner](res.partner.md) — Base partner model
-- [Modules/base_geolocalize](base_geolocalize.md) — Geolocation extension for partners
-- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — `_inherit` vs `_inherits`
+- [Core/BaseModel](Core/BaseModel.md) — ORM foundation
+- [Modules/res.partner](Modules/res.partner.md) — Base partner model
+- [Modules/base_geolocalize](Modules/base_geolocalize.md) — Geolocation extension for partners
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — `_inherit` vs `_inherits`

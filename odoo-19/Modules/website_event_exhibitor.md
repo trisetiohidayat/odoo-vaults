@@ -501,13 +501,13 @@ Slugs are generated via `ir.http._slug()` on both the event and sponsor records.
 
 ## See Also
 
-- [Modules/Event](event.md) — base event module
-- [Modules/website_event](website_event.md) — website event integration
-- [Modules/website_event_booth](website_event_booth.md) — booth reservation module (parallel feature)
-- [Modules/res.partner](res.partner.md) — partner model that sponsors link to
-- [Core/Fields](Fields.md) — Image, Html, Selection field types
-- [Core/API](API.md) — `@api.depends`, `@api.model`, computed + stored fields
-- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — mixin inheritance patterns
+- [Modules/Event](Modules/event.md) — base event module
+- [Modules/website_event](Modules/website_event.md) — website event integration
+- [Modules/website_event_booth](Modules/website_event_booth.md) — booth reservation module (parallel feature)
+- [Modules/res.partner](Modules/res.partner.md) — partner model that sponsors link to
+- [Core/Fields](Core/Fields.md) — Image, Html, Selection field types
+- [Core/API](Core/API.md) — `@api.depends`, `@api.model`, computed + stored fields
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — mixin inheritance patterns
 
 ---
 

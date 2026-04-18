@@ -67,5 +67,5 @@ Override of `payment` to set the Redsys-specific `provider_reference`.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

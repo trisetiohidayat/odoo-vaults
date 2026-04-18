@@ -600,9 +600,9 @@ This prevents creating trackers that would redirect to invalid destinations.
 
 ## Related Modules
 
-- [Modules/mail](mail.md) -- Inherits `mail.render.mixin`; all outgoing emails have links automatically shortened
+- [Modules/mail](Modules/mail.md) -- Inherits `mail.render.mixin`; all outgoing emails have links automatically shortened
 - `mass_mailing` -- Extensive use of `search_or_create()` for per-link tracking in email campaigns
-- [Modules/utm](utm.md) -- Provides UTM mixin and campaign/source/medium models
+- [Modules/utm](Modules/utm.md) -- Provides UTM mixin and campaign/source/medium models
 - `website_sms` -- Uses link tracking for SMS click analytics (via link tracker click records)
 
 ## Tags

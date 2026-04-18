@@ -18,4 +18,4 @@ tags: [odoo, odoo17, module, fleet]
 
 
 
-- [Modules/account](account.md)
+- [Modules/account](Modules/account.md)

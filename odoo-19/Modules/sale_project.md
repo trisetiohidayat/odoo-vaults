@@ -803,11 +803,11 @@ Removes `ir.embedded.actions` records whose `python_method` is `action_open_proj
 
 ## Related Documentation
 
-- [Modules/Project](Project.md)
-- [Modules/sale_management](sale_management.md)
-- [Modules/sale_service](sale_service.md)
-- [Modules/sale_timesheet](sale_timesheet.md) — Timesheet-linked billing, UDH conversion, SOL→AAL→invoice flow
-- [Modules/hr_timesheet](hr_timesheet.md) — Timesheet entry model, portal rendering
-- [Core/API](API.md)
-- [Patterns/Workflow Patterns](Workflow Patterns.md)
-- [Patterns/Security Patterns](Security Patterns.md)
+- [Modules/Project](Modules/Project.md)
+- [Modules/sale_management](Modules/sale_management.md)
+- [Modules/sale_service](Modules/sale_service.md)
+- [Modules/sale_timesheet](Modules/sale_timesheet.md) — Timesheet-linked billing, UDH conversion, SOL→AAL→invoice flow
+- [Modules/hr_timesheet](Modules/hr_timesheet.md) — Timesheet entry model, portal rendering
+- [Core/API](Core/API.md)
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md)
+- [Patterns/Security Patterns](Patterns/Security Patterns.md)

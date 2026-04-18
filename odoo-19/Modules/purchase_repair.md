@@ -63,5 +63,5 @@ Module `purchase_repair` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Purchase]]
+- [Modules/Base](base.md)
+- [Modules/Purchase](Purchase.md)

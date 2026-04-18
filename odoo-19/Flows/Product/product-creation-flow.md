@@ -11,7 +11,7 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Product/pricelist-computation-flow](pricelist-computation-flow.md)"
+  - "[Flows/Product/pricelist-computation-flow](Flows/Product/pricelist-computation-flow.md)"
 source_module: product
 created: 2026-04-07
 version: "1.0"
@@ -318,9 +318,9 @@ def create(self, vals):
 
 ## Related
 
-- [Modules/product](Product.md) — Module reference
-- [Flows/Product/pricelist-computation-flow](pricelist-computation-flow.md) — Pricelist price computation after product created
-- [Flows/Stock/receipt-flow](receipt-flow.md) — Stock receipt flow using product
-- [Core/API](API.md) — @api.depends, @api.onchange decorator patterns
-- [Core/BaseModel](BaseModel.md) — _inherit vs _inherits delegation pattern
-- [Patterns/Inheritance Patterns](Inheritance Patterns.md) — Delegation inheritance for product.product → product.template
+- [Modules/product](Modules/Product.md) — Module reference
+- [Flows/Product/pricelist-computation-flow](Flows/Product/pricelist-computation-flow.md) — Pricelist price computation after product created
+- [Flows/Stock/receipt-flow](Flows/Stock/receipt-flow.md) — Stock receipt flow using product
+- [Core/API](Core/API.md) — @api.depends, @api.onchange decorator patterns
+- [Core/BaseModel](Core/BaseModel.md) — _inherit vs _inherits delegation pattern
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) — Delegation inheritance for product.product → product.template

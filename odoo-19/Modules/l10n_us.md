@@ -20,14 +20,14 @@ version: "1.0"
 ## Quick Access
 
 ### 🔀 Related Flows
-- [Flows/Account/invoice-creation-flow](invoice-creation-flow.md) — US customer invoice
-- [Flows/Account/payment-flow](payment-flow.md) — 1099 payment processing
-- [Flows/Cross-Module/purchase-stock-account-flow](purchase-stock-account-flow.md) — PO→Receipt→Vendor Bill
+- [Flows/Account/invoice-creation-flow](Flows/Account/invoice-creation-flow.md) — US customer invoice
+- [Flows/Account/payment-flow](Flows/Account/payment-flow.md) — 1099 payment processing
+- [Flows/Cross-Module/purchase-stock-account-flow](Flows/Cross-Module/purchase-stock-account-flow.md) — PO→Receipt→Vendor Bill
 
 ### 🔗 Related Modules
-- [Modules/Account](Account.md) — Core accounting
-- [Modules/account_tax_python](account_tax_python.md) — Python-based sales tax computation
-- [Modules/l10n_us_account](l10n_us_account.md) — US-specific chart of accounts
+- [Modules/Account](Modules/Account.md) — Core accounting
+- [Modules/account_tax_python](Modules/account_tax_python.md) — Python-based sales tax computation
+- [Modules/l10n_us_account](Modules/l10n_us_account.md) — US-specific chart of accounts
 
 ---
 

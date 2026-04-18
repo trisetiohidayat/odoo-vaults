@@ -839,10 +839,10 @@ Sales Order (sale)
 
 ## Related Documentation
 
-- [Core/API](API.md) — ORM decorators, `@api.depends`, `@api.onchange`
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — State machine, action methods
-- [Patterns/Security Patterns](Security Patterns.md) — ACL CSV, `ir.rule`, field groups
-- [Modules/Sale](Sale.md) — `sale.order`, `sale.order.line` base models
-- [Modules/Stock](Stock.md) — `stock.picking`, `stock.move`, `stock.route`, `stock.rule`
-- [Modules/Account](Account.md) — `account.move`, Anglo-Saxon valuation
-- [Modules/Product](Product.md) — `product.template`, `is_storable` flag
+- [Core/API](Core/API.md) — ORM decorators, `@api.depends`, `@api.onchange`
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — State machine, action methods
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, `ir.rule`, field groups
+- [Modules/Sale](Modules/Sale.md) — `sale.order`, `sale.order.line` base models
+- [Modules/Stock](Modules/Stock.md) — `stock.picking`, `stock.move`, `stock.route`, `stock.rule`
+- [Modules/Account](Modules/Account.md) — `account.move`, Anglo-Saxon valuation
+- [Modules/Product](Modules/Product.md) — `product.template`, `is_storable` flag

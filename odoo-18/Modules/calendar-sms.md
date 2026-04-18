@@ -193,6 +193,6 @@ The `_get_events_by_alarm_to_notify('sms')` method performs this query specifica
 
 ## See Also
 
-- [Modules/Calendar](calendar.md) — base calendar module (alarm model, event model, alarm manager cron)
-- [Modules/SMS](sms.md) — SMS provider integration and `sms.template`
-- [Core/API](API.md) — mixin patterns, `_mail_get_partners()`
+- [Modules/Calendar](Modules/calendar.md) — base calendar module (alarm model, event model, alarm manager cron)
+- [Modules/SMS](Modules/sms.md) — SMS provider integration and `sms.template`
+- [Core/API](Core/API.md) — mixin patterns, `_mail_get_partners()`

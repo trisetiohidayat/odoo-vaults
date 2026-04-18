@@ -183,7 +183,7 @@ The dashboard uses o-spreadsheet's `pivot` data source type to pull data directl
       "type": "SPREADSHEET",
       "dataSet": {
         "model": "pos.order",
-        "domain": [["state", "=", "done"]],
+        "domain": ["state", "=", "done"]("state",-"=",-"done".md),
         "groupBy": ["table_id", "date_order:month"],
         "measures": ["amount_total:sum", "id:count"]
       }
@@ -218,8 +218,8 @@ Common customizations:
 
 ## Related
 
-- [Modules/spreadsheet_dashboard](spreadsheet_dashboard.md) — Dashboard framework and data model
-- [Modules/pos_restaurant](pos_restaurant.md) — Restaurant POS (floors, tables, split-bill, courses)
-- [Modules/pos_hr](pos_hr.md) — POS employee login and attribution
-- [Modules/spreadsheet](spreadsheet.md) — o-spreadsheet engine and formula language
-- [Modules/point_of_sale](point_of_sale.md) — Base POS module
+- [Modules/spreadsheet_dashboard](Modules/spreadsheet_dashboard.md) — Dashboard framework and data model
+- [Modules/pos_restaurant](Modules/pos_restaurant.md) — Restaurant POS (floors, tables, split-bill, courses)
+- [Modules/pos_hr](Modules/pos_hr.md) — POS employee login and attribution
+- [Modules/spreadsheet](Modules/spreadsheet.md) — o-spreadsheet engine and formula language
+- [Modules/point_of_sale](Modules/point_of_sale.md) — Base POS module

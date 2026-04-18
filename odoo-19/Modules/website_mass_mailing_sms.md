@@ -319,9 +319,9 @@ SMS marketing is subject to strict regulations in most jurisdictions (e.g., GDPR
 
 ## Related Documentation
 
-- [Modules/website_mass_mailing](website_mass_mailing.md) — Base website newsletter subscription
-- [Modules/mass_mailing_sms](mass_mailing_sms.md) — SMS mailing infrastructure (mobile field on mailing.contact)
-- [Modules/sms](sms.md) — SMS delivery infrastructure
-- [Modules/mass_mailing](mass_mailing.md) — Base mass mailing engine
-- [Modules/website](website.md) — Website builder core
+- [Modules/website_mass_mailing](Modules/website_mass_mailing.md) — Base website newsletter subscription
+- [Modules/mass_mailing_sms](Modules/mass_mailing_sms.md) — SMS mailing infrastructure (mobile field on mailing.contact)
+- [Modules/sms](Modules/sms.md) — SMS delivery infrastructure
+- [Modules/mass_mailing](Modules/mass_mailing.md) — Base mass mailing engine
+- [Modules/website](Modules/website.md) — Website builder core
 - [Modules/mailing_contact](mailing_contact.md) — Mailing contact model

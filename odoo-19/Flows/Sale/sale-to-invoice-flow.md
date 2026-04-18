@@ -14,11 +14,11 @@ models_touched:
 audience: ai-reasoning, developer
 level: 1
 related_flows:
-  - "[Flows/Sale/quotation-to-sale-order-flow](quotation-to-sale-order-flow.md)"
-  - "[Flows/Sale/sale-to-delivery-flow](sale-to-delivery-flow.md)"
+  - "[Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md)"
+  - "[Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md)"
 related_guides:
-  - "[Modules/Sale](Sale.md)"
-  - "[Modules/Account](Account.md)"
+  - "[Modules/Sale](Modules/Sale.md)"
+  - "[Modules/Account](Modules/Account.md)"
 source_module: sale, account
 source_path: ~/odoo/odoo19/odoo/addons/sale/
 created: 2026-04-06
@@ -381,9 +381,9 @@ def _create_invoices(self, final=False):
 
 ## Related
 
-- [Modules/Sale](Sale.md) — Sale module reference
-- [Modules/Account](Account.md) — Account/invoice module reference
-- [Flows/Sale/quotation-to-sale-order-flow](quotation-to-sale-order-flow.md) — Sale order confirmation (prepaid invoices created here)
-- [Flows/Sale/sale-to-delivery-flow](sale-to-delivery-flow.md) — Delivery confirmation triggers postpaid invoices
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — Workflow pattern reference
-- [Core/API](API.md) — @api decorator patterns
+- [Modules/Sale](Modules/Sale.md) — Sale module reference
+- [Modules/Account](Modules/Account.md) — Account/invoice module reference
+- [Flows/Sale/quotation-to-sale-order-flow](Flows/Sale/quotation-to-sale-order-flow.md) — Sale order confirmation (prepaid invoices created here)
+- [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) — Delivery confirmation triggers postpaid invoices
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — Workflow pattern reference
+- [Core/API](Core/API.md) — @api decorator patterns

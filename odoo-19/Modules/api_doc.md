@@ -405,7 +405,7 @@ Key changes for migration:
 
 ## See Also
 
-- [Core/BaseModel](Core/BaseModel.md) — Odoo ORM base class and model introspection
-- [Core/API](Core/API.md) — API decorators and method conventions
-- [Core/Fields](Core/Fields.md) — Field types and metadata
-- [Patterns/Security Patterns](Patterns/Security Patterns.md) — Access control in Odoo
+- [Core/BaseModel](BaseModel.md) — Odoo ORM base class and model introspection
+- [Core/API](API.md) — API decorators and method conventions
+- [Core/Fields](Fields.md) — Field types and metadata
+- [Patterns/Security Patterns](Security Patterns.md) — Access control in Odoo

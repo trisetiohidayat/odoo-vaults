@@ -347,8 +347,8 @@ After Odoo 18, `im_livechat.channel` supports `operator_expertise_ids`. To route
 
 ## Related Modules
 
-- [Modules/im_livechat](im_livechat.md) — Core livechat framework; `chatbot.script`, `discuss.channel`
-- [Modules/website_hr_recruitment](website_hr_recruitment.md) — Website job board; provides `/jobs` page and `hr.applicant` model
-- [Modules/hr_recruitment](hr_recruitment.md) — Backend recruitment; `hr.applicant`, `hr.job`, `hr.department`
+- [Modules/im_livechat](Modules/im_livechat.md) — Core livechat framework; `chatbot.script`, `discuss.channel`
+- [Modules/website_hr_recruitment](Modules/website_hr_recruitment.md) — Website job board; provides `/jobs` page and `hr.applicant` model
+- [Modules/hr_recruitment](Modules/hr_recruitment.md) — Backend recruitment; `hr.applicant`, `hr.job`, `hr.department`
 - `crm_livechat` — Bridges chatbot email capture to CRM lead creation
 - `helpdesk_livechat` — Bridges chatbot email/phone to helpdesk ticket creation

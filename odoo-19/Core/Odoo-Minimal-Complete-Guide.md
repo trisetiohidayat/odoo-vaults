@@ -218,17 +218,17 @@ Do you need inventory?
 
 **Installation & Core:**
 - [odoo-minimal-installation](odoo-minimal-installation.md) — 14 modules list and commands
-- [auto-install-mechanism](auto-install-mechanism.md) — why 14 not 1 or 100
-- [module-dependency-system](module-dependency-system.md) — dependency graph resolution
-- [server-wide-modules](server-wide-modules.md) — base + web are REQUIRED
+- [auto-install-mechanism](Core/Auto-Install-Mechanism.md) — why 14 not 1 or 100
+- [module-dependency-system](Core/Module-Dependency-System.md) — dependency graph resolution
+- [server-wide-modules](Core/Server-Wide-Modules.md) — base + web are REQUIRED
 - [module-loading-sequence](module-loading-sequence.md) — 6-step loading process
-- [startup-sequence](startup-sequence.md) — odoo-bin to HTTP ready (10-step timeline)
+- [startup-sequence](Core/Startup-Sequence.md) — odoo-bin to HTTP ready (10-step timeline)
 
 **Database & Data:**
 - [database-structure-minimal-install](database-structure-minimal-install.md) — ~50 tables after minimal
 - [custom-module-in-minimal-env](custom-module-in-minimal-env.md) — how to develop in minimal
 - [module-lifecycle-hooks](module-lifecycle-hooks.md) — post_init/uninstall/pre_init hooks in detail
-- [manifest-schema](manifest-schema.md) — __manifest__.py complete reference (32 fields, 632 modules analyzed)
+- [manifest-schema](Snippets/Manifest-Schema.md) — __manifest__.py complete reference (32 fields, 632 modules analyzed)
 
 **Module Entities:**
 - [odoo-base-module](odoo-base-module.md) — the kernel
@@ -263,7 +263,7 @@ Do you need inventory?
    → Only via `--skip-auto-install` (skips ALL auto-install, breaks web UI), or manually uninstall after install (will re-install if any module operation runs). See [uninstall-auto-install-modules](uninstall-auto-install-modules.md).
 
 5. **What makes 14 modules vs 1 or 100?**
-   → 3 server_wide modules (base, rpc, web) cannot be removed. The remaining 11 auto-install because they depend only on base+web, which are always present. See [auto-install-mechanism](auto-install-mechanism.md).
+   → 3 server_wide modules (base, rpc, web) cannot be removed. The remaining 11 auto-install because they depend only on base+web, which are always present. See [auto-install-mechanism](Core/Auto-Install-Mechanism.md).
 
 6. **Why does Odoo 19 have 14 modules vs ~12 in Odoo 18?**
    → Odoo 19 added 2 new auto-install modules: `rpc` (separated from web) and `auth_passkey` (changed from manual to auto-install). See [odoo19-vs-odoo18-minimal](odoo19-vs-odoo18-minimal.md).

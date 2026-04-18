@@ -91,4 +91,4 @@ Users must be members of at least one of the specified account groups to access 
 
 - [Modules/Spreadsheet Dashboard](Modules/Spreadsheet-Dashboard.md) (`spreadsheet_dashboard`) — dashboard framework
 - [Modules/Spreadsheet Account](Modules/Spreadsheet-Account.md) (`spreadsheet_account`) — accounting formula functions
-- [Modules/Account](account.md) (`account`) — accounting data source
+- [Modules/Account](Modules/account.md) (`account`) — accounting data source

@@ -49,4 +49,4 @@ Extends `res.company` to add seven social media URL fields. The fields are rende
 
 ---
 
-*See also: [Modules/website](website.md), [Modules/base](base.md)*
+*See also: [Modules/website](Modules/website.md), [Modules/base](Modules/base.md)*

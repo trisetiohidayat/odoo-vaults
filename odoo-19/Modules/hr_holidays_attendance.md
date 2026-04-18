@@ -592,8 +592,8 @@ This is especially useful for:
 
 ## Related
 
-- [Modules/hr_holidays](hr_holidays.md) — Leave management
-- [Modules/hr_attendance](hr_attendance.md) — Attendance tracking
-- [Modules/hr_work_entry](hr_work_entry.md) — Work entry system
-- [Modules/hr_work_entry_holidays](hr_work_entry_holidays.md) — Leave and work entry integration
+- [Modules/hr_holidays](Modules/hr_holidays.md) — Leave management
+- [Modules/hr_attendance](Modules/hr_attendance.md) — Attendance tracking
+- [Modules/hr_work_entry](Modules/hr_work_entry.md) — Work entry system
+- [Modules/hr_work_entry_holidays](Modules/hr_work_entry_holidays.md) — Leave and work entry integration
 - [Modules/hr_attendance_overtime](hr_attendance_overtime.md) — Overtime tracking

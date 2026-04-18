@@ -3,8 +3,8 @@ Module: website_sale_collect
 Version: Odoo 18
 Type: Integration
 Tags: #odoo18, #e-commerce, #click-collect, #pickup, #in-store, #stock
-Related Modules: [website_sale_stock](Modules/website-sale-stock.md), [website_sale](Modules/website-sale.md), [delivery](delivery.md), [stock](stock.md), [sale_stock](Modules/sale-stock.md)
-See Also: [Modules/Stock](stock.md) [Modules/website-sale](Modules/website-sale.md) [Modules/website-sale-stock](Modules/website-sale-stock.md)
+Related Modules: [website_sale_stock](Modules/website-sale-stock.md), [website_sale](Modules/website-sale.md), [delivery](Modules/delivery.md), [stock](Modules/stock.md), [sale_stock](Modules/sale-stock.md)
+See Also: [Modules/Stock](Modules/stock.md) [Modules/website-sale](Modules/website-sale.md) [Modules/website-sale-stock](Modules/website-sale-stock.md)
 ---
 
 # website_sale_collect — Click & Collect (Pickup in Store)

@@ -250,12 +250,12 @@ These fields are accessible to portal users through the portal security template
 
 | Module | Role |
 |--------|------|
-| [[Modules/auth_totp|auth_totp]] | Core TOTP engine: secret generation, verification, trusted devices |
-| [[Modules/auth_totp_mail|auth_totp_mail]] | Email-based 2FA backup codes (backend only) |
-| [[Modules/auth_totp_portal|auth_totp_portal]] | Portal TOTP enrollment (this module) |
-| [[Modules/auth_totp_practical|auth_totp_practical]] | Enhanced TOTP UX, brute-force protection |
-| [[Modules/auth_passkey|auth_passkey]] | Passkey/WebAuthn as alternative to TOTP |
-| [[Modules/portal|portal]] | Portal framework, `/my/*` routes, `portal_my_security` template |
+| [auth_totp](auth_totp.md) | Core TOTP engine: secret generation, verification, trusted devices |
+| [auth_totp_mail](auth_totp_mail.md) | Email-based 2FA backup codes (backend only) |
+| [auth_totp_portal](auth_totp_portal.md) | Portal TOTP enrollment (this module) |
+| [auth_totp_practical](Modules/auth_totp_practical.md) | Enhanced TOTP UX, brute-force protection |
+| [auth_passkey](auth_passkey.md) | Passkey/WebAuthn as alternative to TOTP |
+| [portal](portal.md) | Portal framework, `/my/*` routes, `portal_my_security` template |
 
 ## Security Considerations
 
@@ -402,7 +402,7 @@ Odoo's auto-install resolver checks: if both `portal` AND `auth_totp` are instal
 
 ## Related Documentation
 
-- [[Modules/auth_totp|auth_totp]] — Core TOTP engine (secret generation, verification, trusted devices)
-- [[Modules/auth_totp_mail|auth_totp_mail]] — Email-based 2FA (backup codes, backend only)
-- [[Modules/auth_passkey|auth_passkey]] — Passkey/WebAuthn alternative to TOTP
-- [[Modules/portal|portal]] — Portal framework, `/my/*` routes
+- [auth_totp](auth_totp.md) — Core TOTP engine (secret generation, verification, trusted devices)
+- [auth_totp_mail](auth_totp_mail.md) — Email-based 2FA (backup codes, backend only)
+- [auth_passkey](auth_passkey.md) — Passkey/WebAuthn alternative to TOTP
+- [portal](portal.md) — Portal framework, `/my/*` routes

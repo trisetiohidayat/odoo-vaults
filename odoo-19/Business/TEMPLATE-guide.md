@@ -49,10 +49,10 @@ Before starting, ensure the following are configured. Skipping these will cause 
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](sale-to-delivery-flow.md) | Full method chain and branching logic |
-| 📖 Module Reference | [Modules/Stock](Stock.md) | Complete field and method reference |
-| 📋 Related Guide | [Modules/Stock](Stock.md) | Related process walkthrough |
-| 🔧 Configuration | [Modules/Stock](Stock.md) | Advanced configuration options |
+| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) | Full method chain and branching logic |
+| 📖 Module Reference | [Modules/Stock](Modules/Stock.md) | Complete field and method reference |
+| 📋 Related Guide | [Modules/Stock](Modules/Stock.md) | Related process walkthrough |
+| 🔧 Configuration | [Modules/Stock](Modules/Stock.md) | Advanced configuration options |
 
 ---
 
@@ -198,8 +198,8 @@ Click **Save**.
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](sale-to-delivery-flow.md) | Full method chain — for developers |
-| 📖 Module Reference | [Modules/Stock](Stock.md) | Complete field and method list |
-| 📋 Related Guide | [Modules/Purchase](Purchase.md) | Related business process |
-| 🔧 Patterns | [Patterns/Workflow Patterns](Workflow Patterns.md) | Workflow design patterns |
-| 🛠️ Snippets | [Snippets/Model Snippets](Model Snippets.md) | Code snippets for customization |
+| 🔀 Technical Flow | [Flows/Sale/sale-to-delivery-flow](Flows/Sale/sale-to-delivery-flow.md) | Full method chain — for developers |
+| 📖 Module Reference | [Modules/Stock](Modules/Stock.md) | Complete field and method list |
+| 📋 Related Guide | [Modules/Purchase](Modules/Purchase.md) | Related business process |
+| 🔧 Patterns | [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) | Workflow design patterns |
+| 🛠️ Snippets | [Snippets/Model Snippets](Snippets/Model Snippets.md) | Code snippets for customization |

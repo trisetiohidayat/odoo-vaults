@@ -103,4 +103,4 @@ All 27 tasks completed AND:
 
 **Estimated remaining:** 3 tasks (~1 session)
 
-**Next phase:** [Documentation/Upgrade-Plan/03-Task-List-Phase-3](03-Task-List-Phase-3.md)
+**Next phase:** [Documentation/Upgrade-Plan/03-Task-List-Phase-3](Documentation/Upgrade-Plan/03-Task-List-Phase-3.md)

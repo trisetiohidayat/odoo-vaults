@@ -975,11 +975,11 @@ def _batch_compute_stats(self):
 
 ## Related
 
-- [Core/BaseModel](Core/BaseModel.md) — Models and fields that feed data into Kanban views
-- [Core/Fields](Core/Fields.md) — Widgets available: `priority`, `progressbar`, `many2one_avatar_user`
-- [Core/API](Core/API.md) — `@api.depends` for fields used in Kanban decorations
-- [Modules/CRM](Modules/CRM.md) — crm.lead pipeline as canonical Kanban example
-- [Modules/Project](Modules/Project.md) — project.task kanban with stage management
-- [Modules/Stock](Modules/Stock.md) — stock.picking kanban with quick transfer
+- [Core/BaseModel](BaseModel.md) — Models and fields that feed data into Kanban views
+- [Core/Fields](Fields.md) — Widgets available: `priority`, `progressbar`, `many2one_avatar_user`
+- [Core/API](API.md) — `@api.depends` for fields used in Kanban decorations
+- [Modules/CRM](CRM.md) — crm.lead pipeline as canonical Kanban example
+- [Modules/Project](Project.md) — project.task kanban with stage management
+- [Modules/Stock](Stock.md) — stock.picking kanban with quick transfer
 - [Snippets/Model Snippets](Model%20Snippets.md) — State machine models that power Kanban views
-- [Snippets/Wizard-Deep-Dive](Wizard-Deep-Dive.md) — Wizards triggered from Kanban action buttons
+- [Snippets/Wizard-Deep-Dive](Snippets/Wizard-Deep-Dive.md) — Wizards triggered from Kanban action buttons

@@ -4,8 +4,8 @@ module: web_hierarchy
 tags: [odoo, odoo19, web, hierarchy, tree, parent_field, org_chart, view]
 created: 2026-04-14
 related_links:
-  - "[Core/BaseModel](BaseModel.md)"
-  - "[Core/Fields](Fields.md)"
+  - "[Core/BaseModel](Core/BaseModel.md)"
+  - "[Core/Fields](Core/Fields.md)"
 ---
 
 # Web Hierarchy
@@ -360,6 +360,6 @@ The hierarchy view and the standard list (tree) view both show multiple records,
 
 ## Related
 
-- [Core/BaseModel](BaseModel.md) -- ORM foundation, `_parent_name`, `_parent_store`
-- [Core/Fields](Fields.md) -- Char, Many2one, One2many field types
-- [Patterns/Inheritance Patterns](Inheritance Patterns.md) -- How `base` mixin works
+- [Core/BaseModel](Core/BaseModel.md) -- ORM foundation, `_parent_name`, `_parent_store`
+- [Core/Fields](Core/Fields.md) -- Char, Many2one, One2many field types
+- [Patterns/Inheritance Patterns](Patterns/Inheritance Patterns.md) -- How `base` mixin works

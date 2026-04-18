@@ -216,6 +216,6 @@ class ResConfigSettings(models.TransientModel):
 
 ## See Also
 
-- [Core/API](API.md) — `@api.model` decorator context
-- [Core/Fields](Fields.md) — `config_parameter` field type
-- [Patterns/Security Patterns](Security Patterns.md) — ACL and access control in Odoo
+- [Core/API](Core/API.md) — `@api.model` decorator context
+- [Core/Fields](Core/Fields.md) — `config_parameter` field type
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL and access control in Odoo

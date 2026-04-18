@@ -611,9 +611,9 @@ class ProjectTags(models.Model):
 
 ## See Also
 
-- [Modules/Stock](stock.md) — stock.quant and inventory valuation
-- [Modules/Sale](sale.md) — task-to-sale-order integration
-- [Modules/HR](hr.md) — timesheets linked via `analytic_account_id`
-- [Core/API](API.md) — @api.depends, @api.onchange decorators
-- [Patterns/Workflow Patterns](Workflow Patterns.md) — state machine patterns
-- [Patterns/Security Patterns](Security Patterns.md) — ACL CSV, ir.rule, portal.mixin
+- [Modules/Stock](Modules/stock.md) — stock.quant and inventory valuation
+- [Modules/Sale](Modules/sale.md) — task-to-sale-order integration
+- [Modules/HR](Modules/hr.md) — timesheets linked via `analytic_account_id`
+- [Core/API](Core/API.md) — @api.depends, @api.onchange decorators
+- [Patterns/Workflow Patterns](Patterns/Workflow Patterns.md) — state machine patterns
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) — ACL CSV, ir.rule, portal.mixin

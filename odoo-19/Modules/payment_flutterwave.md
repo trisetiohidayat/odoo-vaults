@@ -521,8 +521,8 @@ In your Flutterwave dashboard:
 
 ## Related
 
-- [Modules/payment](payment.md) — Base payment engine and transaction processing
-- [Modules/payment_xendit](payment_xendit.md) — Southeast Asian payment provider
-- [Modules/payment_nuvei](payment_nuvei.md) — Latin American payment provider
-- [Modules/payment_demo](payment_demo.md) — Demo payment provider for testing
-- [Modules/payment_custom](payment_custom.md) — Custom/wire transfer payment method
+- [Modules/payment](Modules/payment.md) — Base payment engine and transaction processing
+- [Modules/payment_xendit](Modules/payment_xendit.md) — Southeast Asian payment provider
+- [Modules/payment_nuvei](Modules/payment_nuvei.md) — Latin American payment provider
+- [Modules/payment_demo](Modules/payment_demo.md) — Demo payment provider for testing
+- [Modules/payment_custom](Modules/payment_custom.md) — Custom/wire transfer payment method

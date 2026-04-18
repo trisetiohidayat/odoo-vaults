@@ -105,6 +105,6 @@ The module defines access rights in `ir.model.access.csv`:
 
 ## See Also
 
-- [Modules/auth_signup](auth_signup.md) — user registration and signup
-- [Modules/auth_oauth](auth_oauth.md) — OAuth2 single sign-on
-- [Modules/base](base.md) — `@check_identity` decorator and user model foundation
+- [Modules/auth_signup](Modules/auth_signup.md) — user registration and signup
+- [Modules/auth_oauth](Modules/auth_oauth.md) — OAuth2 single sign-on
+- [Modules/base](Modules/base.md) — `@check_identity` decorator and user model foundation

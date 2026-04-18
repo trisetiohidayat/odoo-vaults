@@ -109,6 +109,6 @@ class MyModel(models.Model, PortalMixin):
 | `project` | Timesheet integration |
 
 ## See Also
-- [Core/BaseModel](BaseModel.md) — ORM foundation
-- [Core/API](API.md) — API decorators
-- [Tools/ORM Operations](ORM Operations.md) — Search, browse, CRUD
+- [Core/BaseModel](Core/BaseModel.md) — ORM foundation
+- [Core/API](Core/API.md) — API decorators
+- [Tools/ORM Operations](Tools/ORM Operations.md) — Search, browse, CRUD

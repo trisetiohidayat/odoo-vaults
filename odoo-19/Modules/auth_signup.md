@@ -828,9 +828,9 @@ This is a single SQL query that fetches all needed columns in one pass, then gro
 
 ## Related Modules
 
-- [Modules/auth_oauth](auth_oauth.md) — OAuth-based authentication (separate auth provider)
-- [Modules/auth_totp](auth_totp.md) — Two-factor authentication
-- [Modules/mail](mail.md) — Email delivery for invitations
-- [Modules/base_setup](base_setup.md) — Settings UI and template user configuration
-- [Modules/portal](portal.md) — Portal access management and sharing
-- [Modules/web](web.md) — Web login controller and session management
+- [Modules/auth_oauth](Modules/auth_oauth.md) — OAuth-based authentication (separate auth provider)
+- [Modules/auth_totp](Modules/auth_totp.md) — Two-factor authentication
+- [Modules/mail](Modules/mail.md) — Email delivery for invitations
+- [Modules/base_setup](Modules/base_setup.md) — Settings UI and template user configuration
+- [Modules/portal](Modules/portal.md) — Portal access management and sharing
+- [Modules/web](Modules/web.md) — Web login controller and session management

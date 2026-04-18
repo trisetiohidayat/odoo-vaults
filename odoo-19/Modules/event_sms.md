@@ -107,5 +107,5 @@ Context-based hack to filter reference field in a m2o search box to emulate a do
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

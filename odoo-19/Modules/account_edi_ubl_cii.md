@@ -368,5 +368,5 @@ Code used to identify the Endpoint for BIS Billing 3.0 and its derivatives.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Account]]
+- [Modules/Base](base.md)
+- [Modules/Account](Account.md)

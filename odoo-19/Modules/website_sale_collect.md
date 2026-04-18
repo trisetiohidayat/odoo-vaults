@@ -708,9 +708,9 @@ If you have custom code that extended `website_sale_stock` to add Click & Collec
 
 ### Related Documentation
 
-- [Modules/website_sale](website_sale.md) — Base e-commerce
-- [Modules/website_sale_stock](website_sale_stock.md) — Stock per warehouse (parent dependency)
-- [Modules/Stock](Stock.md) — `stock.warehouse`, picking lifecycle
-- [Modules/account_payment](account_payment.md) — `payment.provider`, `payment.transaction`
-- [Core/Fields](Fields.md) — Many2many, computed fields
-- [Tools/ORM Operations](ORM Operations.md) — `grouped()` on recordsets
+- [Modules/website_sale](Modules/website_sale.md) — Base e-commerce
+- [Modules/website_sale_stock](Modules/website_sale_stock.md) — Stock per warehouse (parent dependency)
+- [Modules/Stock](Modules/Stock.md) — `stock.warehouse`, picking lifecycle
+- [Modules/account_payment](Modules/account_payment.md) — `payment.provider`, `payment.transaction`
+- [Core/Fields](Core/Fields.md) — Many2many, computed fields
+- [Tools/ORM Operations](Tools/ORM Operations.md) — `grouped()` on recordsets

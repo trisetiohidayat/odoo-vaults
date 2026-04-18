@@ -72,6 +72,6 @@ New modules introduced in Odoo 19 (compared to previous versions).
 
 ## Related
 
-- [New Features/What's New](What's New.md) - Overview
-- [New Features/API Changes](API Changes.md) - API differences
-- [Tools/Modules Inventory](Modules Inventory.md) - Full module list
+- [New Features/What's New](New Features/What's New.md) - Overview
+- [New Features/API Changes](New Features/API Changes.md) - API differences
+- [Tools/Modules Inventory](Tools/Modules Inventory.md) - Full module list

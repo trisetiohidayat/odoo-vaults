@@ -234,6 +234,6 @@ Creates a `coupon.share` record and returns the share action, allowing customers
 
 ## See Also
 
-- [Modules/sale_loyalty](sale_loyalty.md) — base loyalty and coupon engine
-- [Modules/website_sale](website_sale.md) — e-commerce cart and checkout
-- [Modules/loyalty](loyalty.md) — loyalty program and reward definitions
+- [Modules/sale_loyalty](Modules/sale_loyalty.md) — base loyalty and coupon engine
+- [Modules/website_sale](Modules/website_sale.md) — e-commerce cart and checkout
+- [Modules/loyalty](Modules/loyalty.md) — loyalty program and reward definitions

@@ -365,5 +365,5 @@ def _is_latam_check_transfer(self):
 
 ## Related
 
-- [Modules/Account](Account.md) - Core accounting
-- [Modules/l10n_latam_invoice_document](l10n_latam_invoice_document.md) - LATAM document types
+- [Modules/Account](Modules/Account.md) - Core accounting
+- [Modules/l10n_latam_invoice_document](Modules/l10n_latam_invoice_document.md) - LATAM document types

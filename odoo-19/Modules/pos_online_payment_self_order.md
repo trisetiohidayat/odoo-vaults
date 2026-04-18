@@ -126,5 +126,5 @@ Module `pos_online_payment_self_order` — auto-generated from source code.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

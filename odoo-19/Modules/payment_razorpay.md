@@ -100,5 +100,5 @@ Override of `payment` to return razorpay-specific processing values.
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

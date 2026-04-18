@@ -21,7 +21,7 @@ uuid: d4c3e5f6-7a8b-9012-cdef-123456789012
 
 ## What It Does
 
-`auth_password_policy_signup` is a thin glue module that bridges the password policy enforcement system (from the base `auth_password_policy` module) to the **self-registration (signup)** user flow provided by `auth_signup`. Like its sibling module [Modules/auth_password_policy_portal](auth_password_policy_portal.md), it adds no Python model code. Instead it overrides the signup controller's `get_auth_signup_config()` method to pass the configured `password_minimum_length` into the template context, and uses QWeb XML inheritance to inject a visual password-strength `<Meter>` Owl component and a dynamic `minlength` HTML attribute onto the password field in the signup form.
+`auth_password_policy_signup` is a thin glue module that bridges the password policy enforcement system (from the base `auth_password_policy` module) to the **self-registration (signup)** user flow provided by `auth_signup`. Like its sibling module [Modules/auth_password_policy_portal](Modules/auth_password_policy_portal.md), it adds no Python model code. Instead it overrides the signup controller's `get_auth_signup_config()` method to pass the configured `password_minimum_length` into the template context, and uses QWeb XML inheritance to inject a visual password-strength `<Meter>` Owl component and a dynamic `minlength` HTML attribute onto the password field in the signup form.
 
 The module is `auto_install: True`. This means that whenever a database has both `auth_password_policy` and `auth_signup` installed but not `auth_password_policy_signup`, Odoo automatically installs it. This ensures that any database enabling both the password policy and the signup feature will automatically get the policy UI on the signup page.
 
@@ -266,8 +266,8 @@ Both modules follow the identical architectural pattern: read the config paramet
 
 ## Related
 
-- [Modules/auth_password_policy](auth_password_policy.md) -- Base module: stores the policy config and provides `_check_password_policy()`
-- [Modules/auth_password_policy_portal](auth_password_policy_portal.md) -- Same pattern for the portal password-change page
-- [Modules/auth_signup](auth_signup.md) -- Self-registration controller, token-based password reset
-- [Modules/portal](portal.md) -- Customer portal base controller and security templates
-- [Patterns/Security Patterns](Security Patterns.md) -- Odoo's ACL, record rules, and ir.config_parameter patterns
+- [Modules/auth_password_policy](Modules/auth_password_policy.md) -- Base module: stores the policy config and provides `_check_password_policy()`
+- [Modules/auth_password_policy_portal](Modules/auth_password_policy_portal.md) -- Same pattern for the portal password-change page
+- [Modules/auth_signup](Modules/auth_signup.md) -- Self-registration controller, token-based password reset
+- [Modules/portal](Modules/portal.md) -- Customer portal base controller and security templates
+- [Patterns/Security Patterns](Patterns/Security Patterns.md) -- Odoo's ACL, record rules, and ir.config_parameter patterns

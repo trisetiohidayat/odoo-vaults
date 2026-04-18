@@ -216,10 +216,10 @@ Untuk custom module, deklarasikan deps dengan tepat:
 
 ## Relasi dengan Konsep Lain
 
-- [auto-install-mechanism](auto-install-mechanism.md) — menggunakan dependency graph untuk trigger installation
+- [auto-install-mechanism](Core/Auto-Install-Mechanism.md) — menggunakan dependency graph untuk trigger installation
 - [odoo-minimal-installation](odoo-minimal-installation.md) — hasil dari dependency resolution
 - [odoo-base-module](odoo-base-module.md) — root dari semua dependency graph
-- [server-wide-modules](server-wide-modules.md) — module yang dimuat di luar dependency graph regular
+- [server-wide-modules](Core/Server-Wide-Modules.md) — module yang dimuat di luar dependency graph regular
 - [module-loading-sequence](module-loading-sequence.md) — urutan loading berdasarkan dependency graph
 
 ## Referensi Source Code

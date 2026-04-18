@@ -334,10 +334,10 @@ purchase_edi_ubl_bis3/
 
 ## See Also
 
-- [Modules/account_edi_ubl_cii](account_edi_ubl_cii.md) — Base UBL BIS 3 implementation (invoices and orders)
-- [Modules/purchase](Purchase.md) — Purchase order model
-- [Modules/account_peppol](account_peppol.md) — Peppol network integration (uses account_edi_proxy_client)
-- [Modules/account_edi_proxy_client](account_edi_proxy_client.md) — EDI proxy infrastructure
+- [Modules/account_edi_ubl_cii](Modules/account_edi_ubl_cii.md) — Base UBL BIS 3 implementation (invoices and orders)
+- [Modules/purchase](Modules/Purchase.md) — Purchase order model
+- [Modules/account_peppol](Modules/account_peppol.md) — Peppol network integration (uses account_edi_proxy_client)
+- [Modules/account_edi_proxy_client](Modules/account_edi_proxy_client.md) — EDI proxy infrastructure
 - [Peppol Ordering 3.0 Specification](https://docs.peppol.eu/poacc/bis/order-3/)
 - [UBL 2.1 Order Template](https://github.com/OpenPEPPOL/peppol-bis-invoice-3/tree/master/guidelines/bis-order)
 

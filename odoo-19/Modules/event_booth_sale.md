@@ -232,5 +232,5 @@ This method will take care of creating the event.booth.registrations based on se
 
 ## Related
 
-- [[Modules/Base]]
-- [[Modules/Base]]
+- [Modules/Base](base.md)
+- [Modules/Base](base.md)

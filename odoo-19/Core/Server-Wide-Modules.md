@@ -143,7 +143,7 @@ graph.extend(['base'])  # base selalu pertama
 ## Relasi dengan Konsep Lain
 
 - [odoo-minimal-installation](odoo-minimal-installation.md) — server_wide_modules adalah lapisan pertama minimal install
-- [module-dependency-system](module-dependency-system.md) — dependency graph berlaku juga untuk server-wide modules
+- [module-dependency-system](Core/Module-Dependency-System.md) — dependency graph berlaku juga untuk server-wide modules
 - [odoo-base-module](odoo-base-module.md) — selalu ada di server-wide modules
 - [module-loading-sequence](module-loading-sequence.md) — urutan: server-wide → db modules → auto-install
 
